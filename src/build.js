@@ -17,13 +17,14 @@ const noBorder = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
 const noB = allB(noBorder);
 
 // ── run / paragraph factories ──────────────────────────────────
-const R = (text, opts={}) => new TextRun({ text, font:'Arial', size:22, ...opts });
-const P = (children, opts={}) => new Paragraph({ spacing:{before:60,after:60,line:320}, children, ...opts });
+const R = (text, opts={}) => new TextRun({ text, font:'Times New Roman', size:24, ...opts });
+const expandBlanks = t => String(t||'').replace(/_{2,}/g, m => '_'.repeat(Math.max(20, m.length)));
+const P = (children, opts={}) => new Paragraph({ spacing:{before:60,after:60,line:276}, children, ...opts });
 const blank = () => P([R('')]);
 
 const heading = (text, color=RED) => new Paragraph({
   spacing:{before:260,after:130},
-  children:[R(text, {bold:true, size:30, color})]
+  children:[R(text, {bold:true, size:28, color})]
 });
 
 const instruction = (text) => new Paragraph({
@@ -65,7 +66,7 @@ function buildHomework(data) {
   // ── Title block ───────────────────────────────────────────────
   ch.push(new Paragraph({
     alignment:AlignmentType.CENTER, spacing:{before:0,after:100},
-    children:[R(title,{bold:true,size:36,color:RED})]
+    children:[R(title,{bold:true,size:32,color:RED})]
   }));
   ch.push(new Paragraph({
     alignment:AlignmentType.CENTER, spacing:{after:80},
@@ -73,7 +74,7 @@ function buildHomework(data) {
   }));
   ch.push(new Paragraph({
     alignment:AlignmentType.CENTER, spacing:{after:200},
-    children:[R('Name: _________________     '),R('Class: _________________     '),R('Date: _________________')]
+    children:[R('Name: _____________________________     '),R('Date: _____________________________')]
   }));
 
   // ─────────────────────────────────────────────────────────────
@@ -89,7 +90,7 @@ function buildHomework(data) {
     }));
     (sec.items||[]).forEach(item => {
       ch.push(new Paragraph({
-        spacing:{before:30,after:30,line:300},
+        spacing:{before:30,after:30,line:276},
         indent:{left:360,hanging:200},
         children:[
           R('•  '), R(`${item.label}  `,{bold:true}),
@@ -114,9 +115,9 @@ function buildHomework(data) {
     ch.push(P([
       R(`${q.number}.  `,{bold:true}),
       R(q.question,{bold:true})
-    ], {spacing:{before:120,after:60,line:320}}));
+    ], {spacing:{before:120,after:60,line:276}}));
     (q.options||[]).forEach(opt => {
-      ch.push(P([R(`     ${opt}`)], {spacing:{before:40,after:40,line:300}}));
+      ch.push(P([R(`     ${opt}`)], {spacing:{before:40,after:40,line:276}}));
     });
     ch.push(blank());
   });
@@ -130,8 +131,8 @@ function buildHomework(data) {
   ch.push(instruction('Instructions: Decide whether each statement is TRUE (T), FALSE (F), or NOT GIVEN (NG) according to the article. Write your answer on the line.'));
 
   (hw.part3?.statements || []).forEach(s => {
-    ch.push(P([R(`${s.number}.  __________     `,{bold:true}), R(s.text)],
-      {spacing:{before:80,after:80,line:320}}));
+    ch.push(P([R(`${s.number}.  __________________     `,{bold:true}), R(s.text)],
+      {spacing:{before:80,after:80,line:276}}));
     ch.push(blank());
   });
 
@@ -148,7 +149,7 @@ function buildHomework(data) {
     ch.push(blank());
   }
   if (hw.part4?.passage) {
-    ch.push(P([R(hw.part4.passage)], {spacing:{before:60,after:60,line:340}}));
+    ch.push(P([R(expandBlanks(hw.part4.passage))], {spacing:{before:60,after:60,line:276}}));
   }
 
   ch.push(new Paragraph({children:[new PageBreak()]}));
@@ -176,7 +177,7 @@ function buildHomework(data) {
         runs.push(R(part));
       }
     });
-    ch.push(P(runs, {spacing:{before:60,after:60,line:340}}));
+    ch.push(P(runs, {spacing:{before:60,after:60,line:276}}));
   });
 
   ch.push(new Paragraph({children:[new PageBreak()]}));
@@ -241,7 +242,7 @@ function buildHomework(data) {
     R(`(${n})  `,{bold:true}),
     R(a,{bold:true,color:RED}),
     R(exp ? `  —  ${exp}` : '')
-  ], {spacing:{before:50,after:50,line:300}});
+  ], {spacing:{before:50,after:50,line:276}});
 
   // Part 1 answers
   if (ans.part1?.length) {
@@ -297,7 +298,7 @@ function buildHomework(data) {
   }
 
   return new Document({
-    styles:{default:{document:{run:{font:'Arial',size:22}}}},
+    styles:{default:{document:{run:{font:'Times New Roman',size:24}}}},
     sections:[{
       properties:{page:{
         size:{width:11906,height:16838},
@@ -323,7 +324,7 @@ function buildBlackboard(data) {
   });
 
   const bLine = (label, before, num) => new Paragraph({
-    spacing:{before:44,after:44,line:300}, indent:{left:200},
+    spacing:{before:44,after:44,line:276}, indent:{left:200},
     children:[
       R('•  '), R(`${label}  `,{bold:true}),
       ...(before?[R(before)]:[]),
@@ -332,7 +333,7 @@ function buildBlackboard(data) {
   });
 
   const pLine = (label, text) => new Paragraph({
-    spacing:{before:44,after:44,line:300}, indent:{left:200},
+    spacing:{before:44,after:44,line:276}, indent:{left:200},
     children:[R('•  '), R(`${label}  `,{bold:true}), R(text)]
   });
 
@@ -388,7 +389,7 @@ function buildBlackboard(data) {
   const ch = [];
   ch.push(new Paragraph({
     alignment:AlignmentType.CENTER, spacing:{before:0,after:60},
-    children:[R(title,{bold:true,size:36,color:RED})]
+    children:[R(title,{bold:true,size:32,color:RED})]
   }));
   ch.push(new Paragraph({
     alignment:AlignmentType.CENTER, spacing:{after:60},
@@ -400,7 +401,7 @@ function buildBlackboard(data) {
   }));
   ch.push(new Paragraph({
     alignment:AlignmentType.CENTER, spacing:{after:180},
-    children:[R('Name: _____________________   '),R('Class: _____________________   '),R('Date: _____________________')]
+    children:[R('Name: ________________________________   '),R('Date: ________________________________')]
   }));
 
   ch.push(new Table({width:{size:9360,type:WidthType.DXA},

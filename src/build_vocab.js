@@ -12,20 +12,20 @@ const BLUE = '1F4E79';
 const GREY = '595959';
 
 // Single-spacing (1x = 240 twips), no extra before/after
-const SP  = { before:0, after:0, line:240 };
-const SP1 = { before:0, after:80, line:240 };   // small gap after item
-const SP2 = { before:160, after:40, line:240 };  // gap before word header
+const SP  = { before:0, after:0, line:276 };
+const SP1 = { before:0, after:80, line:276 };   // small gap after item
+const SP2 = { before:160, after:40, line:276 };  // gap before word header
 
-const R = (text, opts={}) => new TextRun({ text, font:TNR, size:22, ...opts });
+const R = (text, opts={}) => new TextRun({ text, font:TNR, size:24, ...opts });
 const P = (children, opts={}) => new Paragraph({ spacing:SP, children, ...opts });
 const blank = () => new Paragraph({ spacing:SP, children:[R('')] });
 
 const partHead = (text) => new Paragraph({
-  spacing:{ before:0, after:120, line:240 },
+  spacing:{ before:0, after:120, line:276 },
   children:[ R(text, { bold:true, size:28, color:RED }) ]
 });
 const instr = (text) => new Paragraph({
-  spacing:{ before:60, after:120, line:240 },
+  spacing:{ before:60, after:120, line:276 },
   children:[ R(text, { italics:true, color:GREY, size:20 }) ]
 });
 const noBorder = { style:BorderStyle.NONE, size:0, color:'FFFFFF' };
@@ -75,7 +75,7 @@ function wordEntry(item, num) {
   if (item.derivatives?.length) {
     const txt = item.derivatives.map(d => `${d.word} (${d.pos} ${d.zh})`).join('；  ');
     paras.push(new Paragraph({
-      spacing: { before:0, after:200, line:240 },  // space after last word element
+      spacing: { before:0, after:200, line:276 },  // space after last word element
       indent:{ left:320 },
       children:[ R('派生词：', { bold:true, color:RED }), R(txt) ]
     }));
@@ -137,7 +137,7 @@ function buildVocab(data) {
   // Title
   ch.push(new Paragraph({
     alignment: AlignmentType.CENTER,
-    spacing: { before:0, after:160, line:240 },
+    spacing: { before:0, after:160, line:276 },
     children: [ R(title, { bold:true, size:32, color:RED }) ]
   }));
 
@@ -150,7 +150,7 @@ function buildVocab(data) {
     ch.push(buildPart1Table(data.part1));
   }
   // Blank line between Part 1 and Part 2
-  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:240 }, children:[R('')] }));
+  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:276 }, children:[R('')] }));
 
   // ── Part 2: Word Formation ───────────────────────────────────
   ch.push(partHead('Part 2.  Word Formation  ✏️'));
@@ -159,7 +159,7 @@ function buildVocab(data) {
 
   (data.part2 || []).forEach((item, i) => {
     ch.push(new Paragraph({
-      spacing:{ before:60, after:60, line:240 },
+      spacing:{ before:60, after:60, line:276 },
       children:[
         R(`${i+1}.  `, { bold:true }),
         R(item.sentence),
@@ -167,7 +167,7 @@ function buildVocab(data) {
       ]
     }));
   });
-  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:240 }, children:[R('')] }));
+  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:276 }, children:[R('')] }));
 
   // ── Part 3: Vocabulary Matching ──────────────────────────────
   ch.push(partHead('Part 3.  Vocabulary Matching  🔗'));
@@ -196,7 +196,7 @@ function buildVocab(data) {
     )
   ];
   ch.push(new Table({ width:{size:9360,type:WidthType.DXA}, columnWidths:[3000,6360], rows:matchRows }));
-  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:240 }, children:[R('')] }));
+  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:276 }, children:[R('')] }));
 
   // ── Part 4: Vocabulary Quiz ──────────────────────────────────
   ch.push(partHead('Part 4.  Vocabulary Quiz  📝'));
@@ -224,7 +224,7 @@ function buildVocab(data) {
 
   (data.part4||[]).forEach((item,i) => {
     ch.push(new Paragraph({
-      spacing:{ before:60, after:60, line:240 },
+      spacing:{ before:60, after:60, line:276 },
       children:[ R(`${i+1}.  `,{bold:true}), R(item.sentence) ]
     }));
   });
@@ -232,12 +232,12 @@ function buildVocab(data) {
 
   // ── Answer Key ───────────────────────────────────────────────
   ch.push(new Paragraph({children:[new PageBreak()]}));
-  ch.push(new Paragraph({ spacing:{before:0,after:120,line:240},
+  ch.push(new Paragraph({ spacing:{before:0,after:120,line:276},
     children:[R('Answer Key',{bold:true,size:28,color:BLUE})] }));
 
-  const secH = t => new Paragraph({ spacing:{before:160,after:80,line:240},
+  const secH = t => new Paragraph({ spacing:{before:160,after:80,line:276},
     children:[R(t,{bold:true,size:24,color:BLUE})] });
-  const ansLine = (n,a,note) => new Paragraph({ spacing:{before:30,after:30,line:240}, children:[
+  const ansLine = (n,a,note) => new Paragraph({ spacing:{before:30,after:30,line:276}, children:[
     R(`${n}.  `,{bold:true}), R(a,{bold:true,color:RED}),
     R(note?`  —  ${note}`:'',{color:GREY,size:20})
   ]});
@@ -255,7 +255,7 @@ function buildVocab(data) {
   (data.part4||[]).forEach((item,i) => ch.push(ansLine(i+1, item.answer, item.note||'')));
 
   return new Document({
-    styles: { default: { document: { run: { font:TNR, size:22 } } } },
+    styles: { default: { document: { run: { font:TNR, size:24 } } } },
     sections: [{ footers:{ default:makeFooter() }, properties: { page: {
       size:{ width:11906, height:16838 },
       margin:{ top:1080, right:1080, bottom:1080, left:1080 }

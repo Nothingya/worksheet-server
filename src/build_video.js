@@ -20,15 +20,15 @@ function md(text) {
     .replace(/\s{3,}/g, '  ')
     .trim();
 }
-const R = (text, opts={}) => new TextRun({ text:md(text), font:TNR, size:22, ...opts });
-const P    = (ch, opts={}) => new Paragraph({ spacing:{before:0,after:80,line:240}, children:ch, ...opts });
+const R = (text, opts={}) => new TextRun({ text:md(text), font:TNR, size:24, ...opts });
+const P    = (ch, opts={}) => new Paragraph({ spacing:{before:0,after:80,line:276}, children:ch, ...opts });
 
 const partHead = t => new Paragraph({
-  spacing:{before:240,after:120,line:240},
+  spacing:{before:240,after:120,line:276},
   children:[R(t, {bold:true,size:28,color:RED})]
 });
 const instr = t => new Paragraph({
-  spacing:{before:60,after:120,line:240},
+  spacing:{before:60,after:120,line:276},
   children:[R(t, {italics:true,color:GREY,size:20})]
 });
 
@@ -47,7 +47,7 @@ function cleanStatement(text) {
 
 function makeFooter() {
   return new Footer({ children:[new Paragraph({
-    alignment:AlignmentType.RIGHT, spacing:{before:0,after:0,line:240},
+    alignment:AlignmentType.RIGHT, spacing:{before:0,after:0,line:276},
     children:[new TextRun({children:[PageNumber.CURRENT],font:TNR,size:18,color:GREY})]
   })]});
 }
@@ -58,21 +58,21 @@ function buildVideo(data) {
   const ch    = [];
 
   // Title
-  ch.push(new Paragraph({ alignment:AlignmentType.CENTER, spacing:{before:0,after:60,line:240},
+  ch.push(new Paragraph({ alignment:AlignmentType.CENTER, spacing:{before:0,after:60,line:276},
     children:[R(title, {bold:true,size:32,color:RED})] }));
-  ch.push(new Paragraph({ alignment:AlignmentType.CENTER, spacing:{before:0,after:240,line:240},
+  ch.push(new Paragraph({ alignment:AlignmentType.CENTER, spacing:{before:0,after:240,line:276},
     children:[R('🎧  Video Practice', {bold:true,size:28,color:BLUE,underline:{type:UnderlineType.SINGLE}})] }));
 
   // Part 1
   ch.push(partHead('Part 1.  Listening Comprehension  🎯'));
   ch.push(instr('Instructions: You will hear a text. For questions 1–5, choose the best answer (A, B, or C).'));
   (data.part1||[]).forEach(q => {
-    ch.push(P([R(q.number+'.  ',{bold:true}), R(q.question,{bold:true})], {spacing:{before:100,after:40,line:240}}));
-    (q.options||[]).forEach(opt => ch.push(P([R('     '+opt)], {spacing:{before:0,after:30,line:240}})));
+    ch.push(P([R(q.number+'.  ',{bold:true}), R(q.question,{bold:true})], {spacing:{before:100,after:40,line:276}}));
+    (q.options||[]).forEach(opt => ch.push(P([R('     '+opt)], {spacing:{before:0,after:30,line:276}})));
   });
 
   // Part 2
-  ch.push(new Paragraph({spacing:{before:240,after:0,line:240},children:[R('')]}));
+  ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
   ch.push(partHead('Part 2.  True, False or Not Given  ✅'));
   ch.push(instr('Instructions: Decide if the statements are True, False or Not Given. Write T, F or NG.'));
   (data.part2||[]).forEach(s => {
@@ -80,14 +80,14 @@ function buildVideo(data) {
       R(s.number+'.  ',{bold:true}),
       R('____________  '),
       R(cleanStatement(s.statement))
-    ], {spacing:{before:80,after:60,line:240}}));
+    ], {spacing:{before:80,after:60,line:276}}));
   });
 
   // Part 3
-  ch.push(new Paragraph({spacing:{before:240,after:0,line:240},children:[R('')]}));
+  ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
   ch.push(partHead('Part 3.  Table Summary  📊'));
   ch.push(instr('Instructions: Complete the table. Write NO MORE THAN THREE WORDS for each answer.'));
-  ch.push(new Paragraph({spacing:{before:0,after:60,line:240},children:[R('')]}));
+  ch.push(new Paragraph({spacing:{before:0,after:60,line:276},children:[R('')]}));
 
   const p3      = data.part3 || {};
   const headers = p3.col_headers || ['Aspect','Observation','Result'];
@@ -111,24 +111,24 @@ function buildVideo(data) {
   }));
 
   // Part 4
-  ch.push(new Paragraph({spacing:{before:240,after:0,line:240},children:[R('')]}));
+  ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
   ch.push(partHead('Part 4.  Dictation  🖊️'));
   ch.push(instr('Instructions: Listen and fill in the blanks. Write NO MORE THAN THREE WORDS for each answer.'));
   (data.part4||[]).forEach(seg => {
     const runs = seg.speaker ? [R(seg.speaker+':  ',{bold:true,color:BLUE})] : [];
     runs.push(R(expandBlanks(seg.text||'')));
-    ch.push(P(runs, {spacing:{before:60,after:50,line:240}}));
+    ch.push(P(runs, {spacing:{before:60,after:50,line:276}}));
   });
 
   // Answer Key — new page
   ch.push(new Paragraph({children:[new PageBreak()]}));
-  ch.push(new Paragraph({ spacing:{before:0,after:200,line:240},
+  ch.push(new Paragraph({ spacing:{before:0,after:200,line:276},
     children:[R('Answer Key & Analysis', {bold:true,size:28,color:BLUE})] }));
 
-  const secH  = t => new Paragraph({ spacing:{before:180,after:80,line:240},
+  const secH  = t => new Paragraph({ spacing:{before:180,after:80,line:276},
     children:[R(t,{bold:true,size:24,color:BLUE})] });
   const aLine = (n,a,exp) => new Paragraph({
-    spacing:{before:40,after:40,line:240}, indent:{left:320},
+    spacing:{before:40,after:40,line:276}, indent:{left:320},
     children:[R(n+'  ',{bold:true}),R(a,{bold:true,color:RED}),
       R(exp?'  —  '+exp:'',{color:GREY,size:20})]
   });
@@ -143,7 +143,7 @@ function buildVideo(data) {
   (ans.part4||[]).forEach(a=>ch.push(aLine(a.number+'.', a.answer, '')));
 
   return new Document({
-    styles:{default:{document:{run:{font:TNR,size:22}}}},
+    styles:{default:{document:{run:{font:TNR,size:24}}}},
     sections:[{
       footers:{default:makeFooter()},
       properties:{page:{size:{width:11906,height:16838},margin:{top:1080,right:1080,bottom:1200,left:1080}}},
