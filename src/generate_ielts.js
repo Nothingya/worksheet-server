@@ -21,25 +21,36 @@ Return ONLY valid JSON — no markdown fences, no preamble, no extra text.
 ━━ TASK 1: Paraphrasing Matrix ━━
 Simulates the IELTS Academic Reading matching-headings / sentence-completion paraphrase skill.
 
-STEP 1 — RIGHT column (1–6) — "originalExpression":
-  • First, identify 6 key phrases or short sentences directly from the passage.
-  • COPY them VERBATIM — character-for-character, zero changes.
-  • Example: passage contains "the disappearance of an intelligent, majestic animal" → write EXACTLY that.
+FORMAT (follow exactly — see example):
+  Left column  (1–6): SHORT verbatim phrase from passage — 3 to 6 words MAX, no full sentences.
+  Answer column: blank (student writes letter)
+  Right column (A–F): SHORT paraphrase — 3 to 8 words, captures same meaning in different words.
 
-STEP 2 — LEFT column (A–F) — "questionExpression":
-  • After fixing the right column, READ the passage meaning and the right column phrase.
-  • Generate a paraphrase that captures the SAME MEANING using different words/structure.
-  • Write as a Cambridge IELTS exam setter would — formal, concise, natural exam English.
-  • Each of the 6 pairs must use a DIFFERENT paraphrase technique:
-      A → synonym substitution  (e.g. "disappearance" → "extinction")
-      B → word class change     (noun → verb phrase, or vice versa)
-      C → active → passive      (or passive → active)
-      D → concrete → abstract   (or specific → general)
-      E → clause → noun phrase  (compression)
-      F → plain English rewrite (formal → accessible)
-  • The LEFT column expression must be a genuine paraphrase of the RIGHT column — no new information added.
+SELECTION LOGIC — TWO STEPS:
 
-In JSON: "questionExpression" = LEFT (paraphrase), "originalExpression" = RIGHT (verbatim from passage).
+STEP 1 — Choose which 6 phrases to use from the passage:
+  Think like an IELTS teacher selecting vocabulary for paraphrase practice.
+  Prioritise phrases that are:
+  a) Lexically rich — technical terms, formal adjectives, academic verb phrases
+     e.g. "labour intensive", "near optical quality", "unaided eye", "eliminating altogether"
+  b) Exam-relevant — expressions that a real IELTS question for THIS passage would test.
+     Scan the passage for: process descriptions, qualities/properties, cause-effect phrases,
+     comparison language, quantity/degree expressions — these are the most test-worthy.
+  c) SHORT — 3–6 words maximum. NO full sentences. Noun phrases or short verb phrases only.
+  COPY each chosen phrase VERBATIM from the passage (zero changes).
+
+STEP 2 — Write the paraphrase for each phrase (right column, A–F):
+  • 3–8 words. Plain English equivalent capturing the same meaning.
+  • Each of the 6 pairs uses a DIFFERENT paraphrase technique:
+      1 → synonym swap          (e.g. "unblemished" → "free from marks")
+      2 → word class change     (adj → noun phrase, noun → verb)
+      3 → active → passive (or passive → active)
+      4 → specific → general / concrete → abstract
+      5 → phrase compression    (verb phrase → noun phrase)
+      6 → plain English rewrite (formal → accessible)
+  • Do NOT add information. The paraphrase must be fully justified by the original.
+
+In JSON: "originalExpression" = SHORT verbatim phrase (left/numbered), "questionExpression" = SHORT paraphrase (right/lettered).
 
 ━━ TASK 3: Reference Tracking ━━
 "sentenceWithTarget": Include 2–4 CONSECUTIVE SENTENCES from the passage so that BOTH the pronoun AND its antecedent (what it refers to) appear in the same text block. Students must see the referent to understand the tracking. Mark the target pronoun with 【】. Example: "The Romans organised their empire around the solar year. As it expanded northward, 【it】 reorganised activity charts accordingly."
@@ -65,7 +76,7 @@ Each detail: { "id": 31, "text": "sentence with (31)___ blank", "answer": "word(
   "passageInfo": { "test": "", "passage": "", "title": "", "wordCount": 0 },
 
   "task1": {
-    "instruction_zh": "将左栏题干表达（A–F）与右栏原文表达（1–6）连线匹配，每项只用一次。",
+    "instruction_zh": "将左栏原文表达（1–6）与右栏同义替换选项（A–F）匹配，在 Answer 栏填写对应字母，每项只用一次。",
     "pairs": [
       {
         "id": "A",
@@ -187,6 +198,9 @@ WORD COUNT: ~${passageObj.wordCount}
 
 PASSAGE TEXT:
 ${passageObj.text}
+
+QUESTION STATEMENTS FOR THIS PASSAGE (use these as source for Task 1):
+${passageObj.questionsText || '(no questions extracted)'}
 
 REQUIREMENTS:
 - Task 1: 6 pairs (A–F ↔ 1–6). LEFT = how an IELTS exam QUESTION expresses the idea (paraphrase). RIGHT = ORIGINAL passage phrase. Different strategy per pair. Use "questionExpression" and "originalExpression" fields.
