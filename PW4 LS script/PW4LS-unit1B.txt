@@ -1,0 +1,138 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\i\fs22 \cf0 Hana: Hi, Min-jun! This is a pleasant surprise!\
+Min-jun: Hi, Hana! It\'92s been too long!\
+Hana: It\'92s wonderful to hear your voice! I don\'92t think\
+we\'92ve spoken since you started your new job at the . . .\
+umm . . . .\
+Min-jun: The Fairview Seaside Resort. I know! I\
+almost can\'92t believe it\'92s been more than a year since\
+I was hired as the tourism manager here. It\'92s gone\
+by quickly, but I\'92ll never forget my time working at\
+the Ocean Vision Resort with you. I gained so much\
+valuable experience! You\'92re still working there, aren\'92t\
+you?\
+Hana: Yes, I am. As a matter of fact, I\'92m the front desk\
+manager now.\
+Min-jun: You were promoted? Congratulations! How\
+do you like your new position?\
+Hana: I definitely like it, but it\'92s keeping me incredibly\
+busy. We check people in and respond to guest\
+questions basically all day long.\
+Min-jun: Oh, I know what that\'92s like. Ocean Vision\
+should implement the system that we use here at\
+Fairview. The guest check-in process is now completely\
+automated. We\'92ve eliminated all the full-time\
+front desk staff positions. Instead, we\'92ve had three\
+electronic self-service check-in stations installed to\
+take guests through the check-in process.\
+Hana: That sounds like science fiction! But don\'92t\
+you need an employee present to deal with guests\'92\
+questions?\
+Min-jun: Actually, that\'92s not necessary. Each machine\
+has a touch screen that displays an animation of\
+a front-desk clerk. It\'92s a system that uses artificial\
+intelligence to chat with the customers and answer\
+almost any question they can come up with. The\
+guests say that it feels like talking to a real human\
+being. In fact, it\'92s so realistic that some customers\
+even leave a tip for the animated clerk on top of the\
+machine!\
+Hana: I can see how a machine like that could handle\
+questions at check-in, but don\'92t guests still call from\
+their rooms with additional questions? I know they do\
+here.\
+Min-jun: No, they don\'92t, because they don\'92t need to.\
+They can download an app with the same chat feature\
+to their smartphones.\
+Hana: Awesome! One positive change is that we got\
+new room key cards with our logo on them. Those old\
+white ones we were using were getting worn out.\
+Min-jun: I remember, and that is a positive change!\
+Here, on the other hand, we don\'92t use key cards\
+anymore. We use a new technology that\'92s made them\
+obsolete. The room doors are opened for guests using\
+facial recognition technology. It works like this: Every\
+guest\'92s face is videoed at check-in and entered into the\
+system. Then, when they reach their room, they just\
+have to look into the camera in their guest room door,\
+and it unlocks automatically.\
+Hana: So it recognizes them! I think technology is\
+wonderful, but don\'92t you think the average guest still\
+wants the kind of personal attention that only human\
+staff can provide?\
+Min-jun: That\'92s important, too. No question about it.\
+Hana: As you know, at Ocean Vision, we make a\
+special effort to get to know each guest and their\
+personal preferences.\
+Min-jun: I think that\'92s excellent, I really do, but as I\'92m\
+sure you know, when things get really busy and stress\
+levels go up, it\'92s easy to forget!\
+Hana: You\'92re certainly right about that.Min-jun: That\'92s one of the reasons we installed a\
+system that uses artificial intelligence to monitor and\
+record customer preferences, including their preferred\
+foods, wake-up time, room temperature, and activities.\
+The system is particularly useful for me because I can\'92t\
+even remember my own name sometimes!\
+Hana: That does sound awesome! I\'92ll definitely\
+mention that one to my manager! Anyway, the Ocean\
+Vision has undergone a lot of important changes\
+since you left. We now have silk carpets in all the\
+hallways, which gives the guests a wonderful feeling\
+of luxury. And we\'92ve modified the guest rooms in\
+multiple ways. For example, we\'92ve had all kinds of\
+new devices installed, including wireless smartphone\
+chargers and new coffee machines that make this\
+incredibly delicious coffee. In addition to those, we\
+now have high-tech electronic mirrors that guests can\
+use to check email, the weather, or watch TV.\
+Min-jun: Wow! So they\'92re really upgrading the hotel!\
+Hana: Yes, and just in time! If we\'92d waited any longer,\
+we\'92d be losing business.\
+Min-jun: But are all those in-room devices voicecontrolled?\
+In our guest rooms, you just need to say,\
+\'93Turn on coffee maker\'94 or \'93Turn on air conditioner,\'94 and\
+it happens like magic!\
+Hana: Wow! No, our devices aren\'92t voice-controlled\
+yet, but I can see how guests would just love that.\
+Min-jun: They certainly do over here. The Fairview is\
+nearly filled to capacity all year long.\
+Hana: Fortunately, we have plenty of guests, too. But\
+with the hospitality and tourism industry growing so\
+rapidly, it\'92s a challenge to hire enough staff. We need\
+about ten people in the housekeeping department\
+right now.\
+Min-jun: I know what you mean about the staff\
+shortage, but we\'92ve found a partial solution to the\
+problem. We use robots to clean the carpets and\
+windows, and we have another type of robot that\
+shines a bright light around the room to kill germs.\
+Hana: The Fairview Seaside sounds like a cutting-edge\
+resort. But can I ask you one question about it?\
+Min-jun: Of course!\
+Hana: Do they have any job openings?\
+Min-jun: Really?\
+Hana: No, I\'92m just kidding. I just bought a new house\
+here, and I\'92m completely in love with it. But I\'92d be really\
+excited to see the Fairview at some point.\
+Min-jun: Well, why don\'92t you take a tour?\
+Hana: Oh, thanks, but I\'92m just too busy to take a trip\
+now.\
+Min-jun: No, not a trip, a virtual tour. If you have\
+virtual reality equipment, you can take a tour of the\
+whole resort. It makes you feel like you\'92re really here!\
+You can get details on our website or through our app.\
+Hana: Oh! A virtual tour! Sure, I have time for that!\
+Min-jun: Great! You\'92ll love it! It\'92s been fantastic talking\
+to you again, Hana.\
+Hana: Same here! Let\'92s talk again soon, OK? I look\
+forward to seeing you the next time you\'92re back in the\
+area.\
+Min-jun: Sure thing. Good-bye now!\
+Hana: Good-bye, Min-jun. Talk to you soon.}

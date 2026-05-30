@@ -1,0 +1,103 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs22 \cf0 Emily: Hey, Lucas! Did you go grocery shopping\
+today? Did you remember to get some rice?\
+Lucas: Yeah, I did, Emily, but I didn\'92t get any rice.\
+Emily: Why not?\
+Lucas: It was so expensive! I don\'92t know what\'92s going\
+on. They must have raised the price again. I didn\'92t have\
+enough money on me. I\'92ll buy some next time.\
+Emily: I hope you do since I\'92m planning to make sushi\
+on Friday.\
+Lucas: Don\'92t worry, I won\'92t forget. But seriously, I can\'92t\
+believe how much food prices have gone up lately.\
+Emily: I know, and I\'92m guessing that we\'92ll probably see\
+them go even higher.\
+Lucas: Really? What makes you think that?\
+Emily: I read this magazine article, and it seems that\
+over the past, I think, five or 10 years, food prices have\
+been rising significantly faster than the norm.\
+Lucas: I could have told you that. I mean, I think\
+it\'92s pretty obvious to anyone who shops. I feel like\
+prices in general are out of control, but I\'92d say it\'92s\
+especially true of food prices. Someone really has to\
+do something about it.\
+Emily: If you ask me, I think food shortages are the\
+source of the problem.\
+Lucas: Well, if food supplies are inadequate, here\'92s an\
+idea. Why don\'92t they just start planting more food on\
+more land?\
+Emily: Hmm. You\'92re assuming that there\'92s plenty of\
+land for farming, but there isn\'92t. According to what I\
+read, it\'92s become evident to scientists that, over the\
+past 40 years or so, the planet has actually been losing\
+land that\'92s suitable for agriculture. As much as a third\
+of it has been lost due to pollution, lack of water, and\
+other reasons. And there are quite a few other factors\
+that have coincided, putting a lot of pressure on\
+current food production.\
+Lucas: What kind of factors?\
+Emily: So, one is the economic success of certain\
+countries. Some of the fastest-growing economies, such\
+as India and China, have growing middle classes\'97those\
+are people with extra money to spend. And the middle\
+class is likely to eat more expensive foods.\
+Lucas: Yeah, that\'92s only natural. If we had more money\
+to spend, I\'92m sure we\'92d choose more expensive things,\
+too. Like today, I would have brought home lamb for\
+dinner. And I certainly wouldn\'92t have had any trouble\
+buying rice! I guess we\'92re not middle class yet.\
+Emily: No, not yet, I don\'92t think. For now, I think it\'92s\
+best that we stick to our budget. Now where was\
+I? Oh yeah. So, as I was saying, now that these new\
+middle classes find themselves moving up in the\
+world, and they have more financial freedom, they\'92re\
+choosing more expensive foods such as meat and\
+dairy products.\
+Lucas: I don\'92t see how that would affect the price of\
+rice, though. And what does it have to do with the\
+surge in the prices of other foods?\
+Emily: Well, it says in the article that it takes about\
+3.2 kilograms of grain to get half a kilo of meat. So an\
+enormous amount of grain goes to feeding cattle and\
+dairy cows. So . . . I guess, with more people eating meat\
+and dairy, that leaves less grain on the market for people\
+to buy. And if there\'92s less grain, the price goes up.\
+Lucas: That\'92s the law of supply and demand, right? If\
+there\'92s a demand for something, but a low supply of it,\
+it gets more expensive.\
+Emily: Exactly . . . And since a lot of people depend\
+on grains like rice and wheat, that kind of shortage\
+is a significant problem. I think I read that about\
+42 percent of all the calories humans take in come\
+from rice, wheat, and corn. Anyway, getting back to my\
+point, if grain prices exceed what people can afford to\
+pay, it could be a painful situation. We\'92re going to be in\
+trouble.\
+Lucas: OK, so why don\'92t they do something about it?\
+Somebody needs to make sure people have access to\
+food at reasonable prices, don\'92t you think?\
+Emily: Well, governments have done some things.\
+For example, some governments have called forrestrictions on exports. That way, more food stays in\
+the country for their people.\
+Lucas: That makes sense.\
+Emily: You know, I heard that some climate experts are\
+predicting a future scenario where large areas in Africa\
+and Asia become deserts. That could be disastrous\'97if\
+the land gets too dry to grow crops on, I mean.\
+Lucas: Wow. Are you kidding? That\'92s crazy. Something\
+needs to be done about it before it\'92s too late.\
+Emily: Scientists say the only answer is to increase the\
+amount of food grown on existing farmland.\
+Lucas: How can that be accomplished, though?\
+Emily: Well, they recommend that every country\
+increase agricultural output. That means better water\
+management, better fertilization, and using GM crops.\
+Lucas: Maybe you\'92re right. I mean, what\'92s more\
+important than food?}

@@ -1,0 +1,104 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\i\fs22 \cf0 Gabe: Hey, Megan, I don\'92t feel like studying anymore.\
+Wanna go to the Student Center? I think they\'92re\
+showing a movie tonight.Megan: Hey, Gabe. Um, maybe later. I have to study\
+for my psychology test. Right now, we\'92re studying\
+\'93superior autobiographical memory.\'94\
+Gabe: What\'92s that?\
+Megan: It\'92s a term that describes a rare memory\
+condition. People with superior autobiographical\
+memory can remember virtually everything that\'92s\
+ever happened to them. Recently, researchers at the\
+University of California found at least eight people\
+who have superior autobiographical memory.\
+Finding that many people with the condition is\
+unprecedented.\
+Gabe: Why do they remember everything so clearly?\
+Megan: Well, they found that some parts of these\
+people\'92s brains are bigger than the norm, including\
+the part called the hippocampus.\
+Gabe: The hippocampus?\
+Megan: It\'92s the name of a part of the brain that\'92s really\
+important for memory function. We actually have two\
+of them, one on each side of the brain, and they\'92re\
+important for creating long-term memories. A shortterm\
+memory is formed in the cerebral cortex. I mean,\
+the layer of cells around the outside of the brain. The\
+short-term memory is then sent to the hippocampus,\
+and if it\'92s strong enough, it can be sent back to the\
+cortex to be stored as a long-term memory.\
+Gabe: The hippocampus sounds important.\
+Megan: It is. There was a man named Henry Molaison\
+who had both his hippocampi\'97that\'92s the plural of\
+hippocampus\'97removed. After that, he could no\
+longer form long-term memories, and his short-term\
+memories would disappear after about five minutes.\
+Gabe: They removed his hippocampi? That kind of\
+brain surgery doesn\'92t sound ethical to me.\
+Megan: Maybe it wasn\'92t. But the surgery was for\
+medical reasons, and radical brain surgery that\
+removed parts of the brain was customary for certain\
+conditions back in 1953. Anyway, after the operation,\
+Molaison\'92s brain could no longer form long-term\
+memories. He would repeat comments he had made\
+five minutes before, and he would forget that he ate\
+lunch and sometimes eat it again. He would even\
+watch the same movies again and again without\
+realizing it.\
+Gabe: Wow! I can\'92t imagine losing my memory like\
+that.\
+Megan: I know. It\'92s terrible. But his experience\
+deepened our knowledge of the brain and of the\
+difference between short-term and long-term memory.\
+Not only that, but he also helped demonstrate\
+the difference between declarative memory and\
+procedural memory, which are two distinct types of\
+memory. Declarative memories are facts and events\
+we remember\'97what we usually think of as memories.\
+Procedural memory is remembering how to do things.\
+Those memories don\'92t involve the hippocampus.\
+Gabe: So, how did Henry Molaison demonstrate that?\
+Megan: They conducted an experiment in which they\
+asked him to draw a shape on a piece of paper. Each\
+time he drew it, he improved, even though he didn\'92t\
+remember drawing the shape before. In other words,\
+his procedural memory improved, but his declarative\
+memory didn\'92t.\
+Gabe: I wish I could improve my memory. I forget a lot\
+of what I study. I guess I was just born with an inferior\
+memory . . .\
+Megan: Don\'92t be silly! A good memory isn\'92t innate,\
+you know. It\'92s just like any other skill\'97you can\
+improve it if you try.\
+Gabe: Do you really think so?\
+Megan: Definitely. There are a lot of ways to improve\
+your memory, and some of the methods work\
+surprisingly well. You could try an approach to\
+remembering things that stems from ancient Greece,\
+the method of loci. Loci means \'93locations\'94 or \'93places.\'94\
+It\'92s a way to remember lists of words, and it\'92s really\
+effective. Here\'92s how it works. First, you need to imagine\
+a path that you know well, like, uh, the way to school,\
+for example. Next, you look at a list of words and create\
+an image in your mind for each word. For example, an\
+image for the word predator could be a lion. An image\
+for the word profit could be a pile of money.\
+Gabe: Right. Then what?\
+Megan: Then, in your mind, you put those images\
+at places you\'92ll remember along the path you chose.\
+Later, at test time, or whenever, you see yourself\
+walking along the path in your mind, and each of the\
+images will remind you of a word.\
+Gabe: Hmm . . . I wonder if that really works. I have a\
+huge history exam next week, and I have to memorize\
+a ton of information. Can you help me study using that\
+method of . . . what was it again?Megan: Loci. Sure, I\'92d be glad to. How about Friday\
+around 3:00 in the library?\
+Gabe: Perfect. See you then!}

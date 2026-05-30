@@ -1,0 +1,24 @@
+{
+  "name": "worksheet-generator",
+  "version": "1.0.0",
+  "description": "Batch EFL reading worksheet generator (Homework + Blackboard) via Claude API",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node server.js",
+    "batch": "node cli.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.26.0",
+    "archiver": "^7.0.1",
+    "docx": "^9.6.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.100.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.4",
+    "pdfjs-dist": "^5.7.284",
+    "pdfkit": "^0.18.0"
+  }
+}

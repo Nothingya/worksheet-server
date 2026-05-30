@@ -1,0 +1,147 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;\red77\green77\blue77;}
+{\*\expandedcolortbl;;\csgenericrgb\c30196\c30196\c30196;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\i\fs22 \cf0 Professor Lee: OK, everyone. I\'92m going to let Dr.\
+Stafford take over for this part of the class. He\'92ll be\
+talking about big data and health care. Dr. Stafford,\
+thank you so much for your time today.\
+Dr. Stafford: It\'92s my pleasure. As Professor Lee said,\
+I\'92ll be talking to you about big data and health. To\
+begin, we need to clarify what we mean by \'93big\
+data.\'94 Essentially, big data means very large sets of\
+data put together for specific purposes. There\'92s an\
+overwhelming amount of data on people and their\
+activities because of the Internet, social media, and\
+various communication devices.\
+We can think about this data as a fast-moving river.\
+The constant flow of data is like water that we all need.\
+But it\'92s a wild river that\'92s not easy to control. First, we\
+need to get that water out of the river. Then, we need\
+to treat it to make it clean. After that, we run it through\
+a network of pipes into homes and businesses, where\
+it\'92s used for many purposes. Like this wild river, the\
+flow of big data has great potential to serve our\
+needs. But, like the water in the river, big data has to\
+be \'93treated\'94 or analyzed, organized, and sent to the\
+people who need it.\
+Big data includes information about people\'92s habits in\
+many areas of life. One of the most important is health.\
+Medical professionals are using big data to prevent,\
+diagnose, and treat diseases. For it to be useful,\
+the data collected must be reliable. Unfortunately,\
+reliable data isn\'92t always easy to obtain. There are\
+two problems here. One is that until recently, lots of\
+health data has been self-reported, and patients have\
+a tendency to be dishonest when they report on their\
+own health. Psychologists say it\'92s because they want\
+to appear healthier than they are. Another issue is that\
+some people are hesitant to share their data. They\
+worry it won\'92t be treated as confidential. The first\
+problem, that of self-reporting, can be addressed by\
+collecting factual data only. For example, your weight\
+measured in a doctor\'92s office or blood tests done in a\
+lab are factual. The second issue, the one of keeping\
+data confidential, can be addressed by better data\
+security technology.\
+One thing to keep in mind is that doctors need\
+data in a form they can use. They need the data in\
+an organized, usable form. This is where big data\
+technology firms are helping. Currently, the number\
+of businesses involved in collecting, storing, and\
+analyzing health data is surging. Let me give you a\
+few examples. Hindsait is a firm that brings health\
+records together so they can be centrally managed\
+and searched. Another company, Bering Research,\
+has a system that analyzes patients\'92 health records\
+to assess their health risk level. It rates the risk on a\
+scale of 0 to 100 percent. A score above 80 percent\
+indicates a serious risk. A third company, PathAI, is\
+creating big data and artificial intelligence systems to\
+assist in diagnosing patients. This helps find diseases\
+earlier and saves lives. The guiding principle of all such\
+projects is the more data, the better the results.\
+After patients leave the hospital, big data can help\
+with patient follow-up care. Big data can identify\
+which patients aren\'92t good at following doctors\'92\
+orders. These patients can be monitored to see\
+whether they\'92re taking their medicine and how well\
+they\'92re sleeping. We can even monitor their mentalstate after they leave the hospital. This additional\
+follow-up care can enhance patients\'92 well-being and\
+limit the need for more hospital visits.\
+Finally, let me share a few predictions for the future of\
+big data in health. I think we\'92ll see more development of\
+personal health assistant apps. These apps keep track\
+of patients\'92 health data. They also alert them when\
+they need to take medicine or consult a doctor. Also,\
+I believe big data techniques will be used to diagnose\
+most patients in the future. And these techniques will\
+be applied more and more to reading X-rays.\
+I think you\'92ll agree that big data technology has made\
+great progress in understanding and treating disease.\
+And there are many more advances on the way. For\
+me, that\'92s why the medical field today is so exciting.\
+This is just the beginning. Thank you!\
+\pard\pardeftab720\partightenfactor0
+\cf2 C. p. 147\
+\pard\pardeftab720\partightenfactor0
+\cf0 We can think about this data as a fast-moving river.\
+The constant flow of data is like water that we all need.\
+But it\'92s a wild river that\'92s not easy to control. First, we\
+need to get that water out of the river. Then, we need\
+to treat it to make it clean. After that, we run it through\
+a network of pipes into homes and businesses, where\
+it\'92s used for many purposes. Like this wild river, the\
+flow of big data has great potential to serve our\
+needs. But, like the water in the river, big data has to\
+be \'93treated\'94 or analyzed, organized, and sent to the\
+people who need it.\
+Big data includes information about people\'92s habits in\
+many areas of life. One of the most important is health.\
+Medical professionals are using big data to prevent,\
+diagnose, and treat diseases. For it to be useful,\
+the data collected must be reliable. Unfortunately,\
+reliable data isn\'92t always easy to obtain. There are\
+two problems here. One is that until recently, lots\
+of health data has been self-reported, and patients\
+have a tendency to be dishonest when they report on\
+their own health. Psychologists say it\'92s because they\
+want to appear healthier than they are. Another issue\
+is that some people are hesitant to share their data.\
+They worry it won\'92t be treated as confidential. The first\
+problem, that of self-reporting, can be addressed by\
+collecting factual data only. For example, your weight\
+measured in a doctor\'92s office or blood tests done in a\
+lab are factual. The second issue, the one of keeping\
+data confidential, can be addressed by better data\
+security technology.\
+One thing to keep in mind is that doctors need\
+data in a form they can use. They need the data in\
+an organized, usable form. This is where big data\
+technology firms are helping. Currently, the number\
+of businesses involved in collecting, storing, and\
+analyzing health data is surging. Let me give you a\
+few examples. Hindsait is a firm that brings health\
+records together so they can be centrally managed\
+and searched. Another company, Bering Research,\
+has a system that analyzes patients\'92 health records\
+to assess their health risk level. It rates the risk on a\
+scale of 0 to 100 percent. A score above 80 percent\
+indicates a serious risk. A third company, PathAI, is\
+creating big data and artificial intelligence systems to\
+assist in diagnosing patients. This helps find diseases\
+earlier and saves lives. The guiding principle of all such\
+projects is the more data, the better the results.\
+After patients leave the hospital, big data can help\
+with patient follow-up care. Big data can identify\
+which patients aren\'92t good at following doctors\'92\
+orders. These patients can be monitored to see\
+whether they\'92re taking their medicine and how well\
+they\'92re sleeping. We can even monitor their mental\
+state after they leave the hospital. This additional\
+follow-up care can enhance patients\'92 well-being and\
+limit the need for more hospital visits.}

@@ -1,0 +1,123 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\i\fs22 \cf0 Announcer 1: Hello! I\'92m Richard Sheldon.\
+Announcer 2: And I\'92m Rita Walker. Welcome to Health\
+Review, a podcast about the latest trends in health.\
+Announcer 1: In this digital age, it seems that\
+everyone wants to collect data about all sorts of\
+human activity. This is also true in the field of health\
+care. But, I\'92m not talking about the data that a doctor\
+gets from you during a hospital visit or regular\
+checkup. Today, many people choose to wear devices\
+that collect health data about them all through the\
+day. This data is, of course, available to the person\
+wearing the device. But the data is often sent to the\
+company that made it, to doctors, and to insurance\
+companies. By analyzing health data, health and\
+insurance professionals can obtain useful insights\
+into the relationship between habits and health.\
+Announcer 2: The popularity of wearable health care\
+technology is rising quickly. It\'92s a market trend that\
+shows that people want to know what\'92s going on\
+with their health. The global wearable medical device\
+sector is expected to rise in value from 27.2 billion\
+dollars in 2022 to 196.6 billion dollars in 2030.\
+However, even in the United States, which is one of the\
+biggest markets for wearable health care devices, only\
+19 percent of people report using one. So, as you can\
+see, there\'92s still a lot of room to grow.\
+Announcer 1: Before we go any further, let me\
+explain just what we mean by \'93wearable health care\
+technology.\'94 The most common devices are called\
+\'93fitness trackers.\'94 They\'92re worn on the wrist and\
+look like bracelets or watches. The data they collect\
+includes how many steps you\'92ve taken, your blood\
+pressure, heart rate, blood sugar level, or sleep\
+patterns. Most can also tell you the number of calories\
+you\'92ve burned or how long you\'92ve been sitting in\
+one place. You can access any of this data with a\
+smartphone app.\
+Announcer 2: This growing source of health data is\
+having significant effects on the health care industry.\
+First, it\'92s changing how doctors interact with their\
+patients. Health care workers can now monitor patients\
+after they leave the hospital continually, 24 hours a\
+day. It no longer matters if they\'92re in the hospital or at\
+home. The data allows health care workers to make\
+decisions more accurately and quickly.\
+Announcer 1: Second, the health insurance industry\
+can use the data to determine their customers\'92 risk of\
+illness. It\'92s an approach that has its pros and cons. It\
+helps health insurance companies run more efficiently\
+since they have a better idea of how they will need\
+to allocate money for different customers. Also, the\
+data helps their customers to make better health\
+choices. This gives them a better chance of avoiding\
+health problems connected with nutritional issues.\
+Thus, the data can save money for companies and\
+their customers. However, the data from these devices\
+isn\'92t 100 percent reliable yet. For example, studies say\
+they don\'92t always measure blood sugar accurately.\
+This is especially frustrating for people with diabetes,\
+a disease causing large changes in blood sugar. One\
+device they\'92re working on aims to track people\'92s fat,\
+sugar, salt, and water consumption more accurately.\
+Announcer 2: Third, many companies are looking at\
+these wearable devices to improve workers\'92 health.\
+This, too, has its advantages and disadvantages. It\'92s\
+been shown that workers who get health support\
+from their company are less likely to quit. But it\'92s\
+not so simple. Although it seems that giving fitness\
+trackers to employees would be beneficial, it might\
+also create anxiety. Some people tend to get nervous\
+when they receive health data all day. It can affect\
+their health decisions or sense of well-being when it\
+shouldn\'92t. For example, very sensitive people might\
+see natural changes in blood sugar or heart rate as\
+abnormal and a reason for concern. This fear might\
+cause them to eat differently or even take medicines\
+they don\'92t need. What\'92s more, it could also harm their\
+mood and productivity at work.\
+Announcer 1: Fourth, fitness trackers will let more\
+individuals change their habits in positive ways. The\
+trend began with simple devices that counted your\
+steps or notified you when it was time to get up and\
+walk. Today, fitness trackers monitor various aspects\
+of activity and health. Some even warn you if you\'92ve\
+been out in the sun too long. One particularly popular\
+wearable device feature is the sleep tracker. It can tell\
+you how long you slept so you get enough sleep. It\
+can also tell you how well you slept based on how\
+much you moved during the night. A sleep tracker also\
+acts as an improved alarm clock. It can wake you up\
+when you\'92re sleeping lightly, making it easier to get\
+out of bed. But while the data they provide is useful,\
+doctors warn us to pay attention to how we feel, not\
+just to trackers as they can be misleading.\
+Announcer 2: I think that\'92s good advice. So, today\
+we\'92ve introduced you to wearable health care\
+technology and how the market is growing fast.\
+We\'92ve also discussed various pros and cons of this\
+technology for the health care industry. Finally, we\
+want to stress that the data should be used with\
+caution. After all, we\'92re not machines. And, we\'92re not\
+doctors, either. On the one hand, wearable health care\
+technology is great for fitness reminders and for the\
+data it gives to companies and health care workers.\
+On the other hand, it may give us a lot of information\
+we\'92re not qualified to assess or use. Remember, the\
+human body is extremely complex. The limited data\
+you get from a fitness tracker is never enough to\
+make a serious medical decision alone. Here at Health\
+Review, we recommend you use your own sense of\
+well-being to assess your current health condition.\
+Consult your doctor if you think you have an issue.\
+Thanks for listening to this week\'92s Health Review. We\
+look forward to speaking to you again next week.\
+}

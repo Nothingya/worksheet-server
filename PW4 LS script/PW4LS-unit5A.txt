@@ -1,0 +1,100 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww29700\viewh17280\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\i\fs22 \cf0 Lecturer: Most of us want to avoid fear. However,\
+without it, we can\'92t protect ourselves from threats. In\
+early human evolution, deadly threats were common.\
+Back then, fear motivated us to deal with them. It\
+helped us survive. Today, life-and-death situations\
+are far less common, but fear is still a useful emotion.\
+It alerts us to danger and gets us to take action.\
+However, many people\'97as many as 60%\'97admit to at\
+least one irrational fear. These include public speaking,\
+flying, needles, snakes, or tight spaces. These fears may\
+be minor, but when they are more severe and interfere\
+with our daily lives, they are known as phobias.\
+Another problem caused by fear is post-traumatic\
+stress disorder, or PTSD. It was first seen in people\
+coming home from war. Their frightening memories,\
+instead of weakening, became stronger until they\
+interfered with their lives. Now we know that PTSD can\
+happen to anyone who has lived through a terrible\
+experience or even just seen one in a movie. There\
+is evidence that young children can get PTSD from\
+watching horror movies.\
+Phobias and PTSD can be treated by trained therapists\
+using exposure therapy. In this type of treatment,\
+the cause of the fear is shown to the person in gradual\
+steps, again and again. For example, scientist Katherina\
+Hauner did an experiment with 12 adults who had a\
+phobia of spiders. Some wouldn\'92t walk on grass for\
+fear of spiders. Others wouldn\'92t go into a room that\
+might have a spider in it. For her experiment, Hauner\
+chose a tarantula, a very large spider. At first, she had\
+to correct some of the adults\'92 false beliefs. For example,\
+tarantulas don\'92t jump up and attack people. Nor do\
+they make plans to attack us. The people were then\
+told to slowly approach the spider. They then touched\
+it gently with a paintbrush. Then they touched it with\
+a glove on and, finally, with a bare hand. Some even let\
+the spider crawl into their hand. The session lasted two\
+to three hours.\
+Hauner scanned the brain of each of the 12 adults as\
+they looked at photos of spiders. Before the therapy, the\
+fear response area of their brains lit up brightly on the\
+screen, showing a high level of activity. However, after\
+the therapy, the pictures of spiders triggered very little\
+fear activity. This was still true six months later. In this\
+way, using new brain-scanning methods, Hauner had\
+verified that exposure therapy works extremely well.\
+Building on this success, Hauner did another\
+experiment to weaken fear memories during sleep.\
+This time, she worked with a group of healthy adults\
+without phobias or PTSD. The first step was to place a\
+fear in their brains. For this, she used a process called\
+fear conditioning. The adults were shown photos of\
+faces while also receiving a slight electric shock. This\
+created a fear response linked to the faces. Along with\
+the electric shock, a smell was sprayed into the air\'97\
+like mint or lemon. The people would also link this\
+smell with their feeling of fear. Later, when they went\
+to sleep, one of the smells from the experiment was\
+sprayed into the air in their room all night long. It was\
+hoped that continued exposure to the smell would\
+weaken the feelings of fear connected to it. In the\
+morning, she tested the adults again. She asked them\
+to view the same photos. At the same time, she tested\
+the amount of sweat on their skin as a fear response.\
+When they looked at the photos, the fear response\
+was reduced. In this experiment, Hauner had been\
+able to create a fear and then weaken its effect using\
+exposure therapy. And as before, changes in brain\
+scans verified her findings.\
+I\'92d like to end with an interesting experiment by an\
+international team of scientists. They erased a fearfrom the brains of 17 volunteers. As in Hauner\'92s\
+experiment, a fear was created using an image and\
+a slight electric shock. The volunteers\'92 brains were\
+then scanned. This time, a complex pattern of brain\
+activity linked to the specific memory of the image\
+was identified. Now, it\'92s important to know that even\
+when we\'92re resting, fear memories return to our minds\
+from time to time, although we aren\'92t aware of it. In\
+this experiment, the volunteers\'92 brains were monitored\
+while resting. Every time the scientists detected a fear\
+memory, the volunteers were given a little money.\
+Thus, the memory gradually became connected to\
+a reward rather than to fear. So later, when they saw\
+the image they were conditioned to fear, it no longer\
+scared them. There was no sweat reaction and no fear\
+activity on the brain scan. By giving them money, the\
+scientists had erased the fear response. There is hope\
+that weakening a fear will be a new type of therapy to\
+help people with PTSD and phobias. I think it\'92s great\
+to see these advances in brain science helping people\
+with real problems. And I\'92m pretty sure this is only the\
+start. OK, everyone, let\'92s take a short break.}

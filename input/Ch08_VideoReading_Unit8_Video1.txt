@@ -1,0 +1,54 @@
+UNIT 8: HEALTH AND TECHNOLOGY
+
+VIDEO: Biking in the City p. 151
+Stephen Chillrud: Air pollution is bad for you. And 
+we know that exercise is good for you. But there’s 
+this unanswered question of is exercising in close 
+proximity to traffic enough of a bad thing for you that 
+we should be recommending separating biking lanes 
+from traffic altogether?
+Patrick Kinney: The challenge with biking in the city 
+is that bikers are breathing heavily in the zone where 
+exhaust is being emitted by motor vehicles. And 
+although motor vehicles have become cleaner over 
+the last 20 or 30 years, they’re still not as clean as they 
+need to be, especially when you put people that are 
+exercising right in the close proximity of the exhaust.
+Darby Jack: The primary goal of the study is to 
+develop and deploy new ways of measuring air 
+pollution. What we’re doing is measuring both the 
+concentrations of pollution that people encounter as 
+they move around the city, and we’re also measuring 
+people’s respiration rates or the liters per minute of 
+air that they’re breathing in and multiply those two 
+things together you get the dose. We have five things 
+that people wear. So they wear a shirt that measures 
+their minute inhalation, and it measures their heart 
+rate, including their heart rate variability. So, the 
+timing of the beats. And then we ask them to wear two 
+air pollution monitors. And then we ask them to wear 
+a blood pressure monitor that automatically takes a 
+measurement every half hour. And then finally during 
+the ride, we ask them to log their location using a GPS 
+device.
+Stephen Chillrud: We have two years to work out 
+all the bugs and prove that we can make all the 
+measurements that we need to make. Then and only 
+then would we get the green light to go on and do the 
+larger health study.
+Patrick Kinney: We know from a lot of other previous 
+studies that breathing the tiny little particles that are 
+emitted by motor vehicles, especially diesel vehicles, 
+are of concern because of the fact that those tiny 
+particles get deep into our lungs. And they can even 
+be absorbed into our blood stream and cause health 
+effects in various parts of our body. Including over the 
+long-term, if you’re exposed, you know, for many years 
+to the development of cardiovascular disease of the 
+kind that we see with cigarette smoking. Our goal is to 
+have a phone app that kind of looks like a Google Map 
+that would optimize a route that minimizes exposure. 
+You know, but also trading off against the time that it 
+would take to follow that route, so that a person could 
+choose some balance between saving time and saving 
+air pollution exposure.

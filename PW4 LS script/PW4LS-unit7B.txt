@@ -1,0 +1,120 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2869
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Oblique;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\i\fs22 \cf0 Yuta: I would never have chosen this restaurant if\
+I\'92d known it was so crowded. Is it always like this at\
+lunchtime, Noura?\
+Noura: I couldn\'92t say, Yuta, since this is my first time\
+here. Have you been here before, Trang?\
+Trang: I might have eaten here before . . . I don\'92t\
+remember. But I really appreciate this opportunity to\
+have lunch with you two. I haven\'92t eaten out since my\
+last payday two weeks ago. That reminds me, I have\
+to check my bank account. Oh, that\'92s great! They\'92ve\
+already deposited my salary into my account!\
+Noura: I wish I had direct deposit, but I was only hired\
+a month ago, so they still haven\'92t set it up yet.\
+Yuta: So, how are you getting paid, Noura?\
+Noura: They do it the old-fashioned way\'97by sending\
+checks by mail to my apartment.\
+Trang: That doesn\'92t sound very convenient! So, you\
+have to wait days for the check to arrive and then you\
+go to your bank to deposit it?\
+Noura: Well, it does take a few days to arrive. However,\
+then I just use my banking app to deposit it at home.\
+You know, you just take a picture of the front and back\
+of the check with your phone.\
+Trang: Actually, I\'92ve never used my banking app for that.\
+Yuta: Why not, Trang?\
+Trang: Well, honestly, I\'92m a little reluctant to adopt\
+new technologies, especially if they affect my\
+money. Plus, there are so many new types of digital\
+transactions with so many people and companies\
+involved. So naturally, I\'92m concerned about online\
+security issues.Yuta: I\'92m just the opposite. I think trying out new\
+payment apps and technologies is exciting. Speaking\
+of which, I just downloaded a digital wallet to my\
+phone.\
+Noura: Oh, did you? You\'92ll love it! I\'92ve been using mine\
+for a long time, and I like it a lot. It\'92s so much better\
+than carrying credit cards around. But digital wallets\
+were invented years ago. Why did you wait so long to\
+download one, Yuta?\
+Yuta: Well, I come from Japan, and that might have\
+something to do with it. Although credit cards are\
+extremely popular there, only two percent of the\
+population, more or less, uses a digital wallet. I think\
+it\'92s because most people expect to have to pay for a\
+service like that and can\'92t quite believe it\'92s free.\
+Trang: I can understand their perspective. And\
+personally, I don\'92t like my financial information being\
+spread all over the Internet. I\'92m not sure any company\
+can fully guarantee online security. That\'92s why I try to\
+use a bank I trust for all my financial needs. I have my\
+debit and credit cards through one bank, and I use\
+the same bank to send money to family members in\
+Vietnam.\
+Noura: Do you use the same bank here that your\
+family uses in Vietnam?\
+Trang: No, we use different banks, but the transfer\
+always goes through successfully.\
+Noura: Then I suggest you investigate peer-topeer\
+payment services. They allow individuals to\
+transfer funds directly to and from each other, and\
+the fees tend to be lower than on international bank\
+transactions. Anyway, you should definitely check\
+them out.\
+Trang: OK, I will, but I\'92m generally satisfied to pay a\
+little more for the feeling of security I get from working\
+with real banks.\
+Noura: I suppose banks do offer a little more security,\
+but many of the newest types of digital payment\
+systems are run by major corporations. I can see that\
+we\'92re quite different, though. I\'92m more like Yuta\'97I find\
+financial innovations fun and exciting.\
+Yuta: Speaking of financial innovations, I\'92m thinking of\
+taking out a peer-to-peer loan to purchase a car.\
+Noura: I\'92ve heard the interest on those can be lower\
+than on loans from banks. How exactly do they work?\
+Yuta: It\'92s a fairly simple process. You go online and\
+create a loan request, explaining why you need the\
+money and how you plan to repay the loan. But,\
+it\'92s not banks who give you a loan\'97it\'92s individuals.\
+A regular person will decide if you meet their loan\
+criteria, and if you do, they\'92ll give you a loan in the\
+amount you request.\
+Trang: Is this something new, or have people been\
+doing it for a while?\
+Yuta: Oh, it\'92s been going on for over ten years at least.\
+Some peer-to-peer loan services allocate financial\
+aid to people in developing countries. The loans are\
+usually pretty small, so they\'92re called micro-loans. But\
+even so, it\'92s surprising how much what seems like a\
+small loan of, say, just $50 can help someone.\
+Noura: Well, be careful not to overdo it by borrowing\
+more than you can comfortably pay back, OK?\
+Yuta: I wouldn\'92t dream of it. Speaking of loans, Noura,\
+I\'92m not sure I have enough money in my account to\
+cover lunch today. Would you mind paying for me? I\'92ll\
+pay you back on Friday.\
+Noura: No problem. I\'92ll pay for us both.\
+Trang: By the way, I just noticed a sign over there\
+behind the cash register that says, \'93Cash only.\'94\
+Noura: I can\'92t believe it. Well, my bank is only a\
+10-minute walk away, so I\'92ll go withdraw some money\
+and\'97\
+Trang: Calm down, you two. I have more than enough\
+cash to cover lunch for the three of us today.\
+Yuta: Really? Thanks, Trang. I\'92ll pay you back Friday at\
+the latest.\
+Noura: And I\'92ll set up a bank transfer the minute I\'92m\
+back at my desk.\
+Trang: Don\'92t be silly; I\'92m happy to pay for lunch today.\
+Then I can send you an email reminder that you each\
+owe me a lunch. I was thinking we should do this more\
+often anyway. Let\'92s try for next week, OK?}
