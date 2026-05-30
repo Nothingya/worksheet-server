@@ -1,146 +1,78 @@
-// src/rw_book_loader.js
-// Loads the RW textbook PDF at startup, splits by PREPARING/UNDERSTANDING boundaries,
-// caches articles by unit number for on-demand generation.
+/**
+ * src/rw_book_loader.js  (v3 — lazy loading)
+ * Only stores file paths at startup. Reads PDF buffer on demand.
+ * Prevents OOM crash when many large PDFs are in input/.
+ */
+'use strict';
+const fs   = require('fs');
+const path = require('path');
 
-const fs        = require('fs');
-const path      = require('path');
-const pdfParse  = require('pdf-parse');
-const PDFParser = require('pdf2json');
-const { PDFDocument } = require('pdf-lib');
-const Anthropic = require('@anthropic-ai/sdk');
+const INPUT_DIR  = path.join(process.cwd(), 'input');
+const UNIT_RE    = /^Ch(\d{1,2})_/i;
 
-const ROOT      = path.join(__dirname, '..');
-const INPUT_DIR = path.join(ROOT, 'input');
+const cache = {
+  ready:    false,
+  bookFile: null,
+  units:    {},   // { 1: { title, filePath }, ... }  — NO buffer stored
+};
 
-// Cache: { 1: { title, pdfBuffer }, 2: { title, pdfBuffer }, ... }
-const cache = { articles: {}, bookFile: null, ready: false };
-
-// ── Helpers (duplicated from server.js to be self-contained) ─────
-async function extractPageTexts(buffer) {
-  return new Promise((resolve, reject) => {
-    const parser = new PDFParser(null, 1);
-    parser.on('pdfParser_dataReady', (data) => {
-      if (!data.Pages?.length) return reject(new Error('PDF 无文字'));
-      resolve(data.Pages.map((page, i) => ({
-        pageNum: i+1,
-        text: (page.Texts||[]).map(t=>(t.R||[]).map(r=>{
-          try{return decodeURIComponent(r.T);}catch{return r.T;}
-        }).join('')).join(' ').replace(/\s+/g,' ').trim()
-      })));
-    });
-    parser.on('pdfParser_dataError', e => reject(new Error(String(e.parserError||e))));
-    parser.parseBuffer(buffer);
-  });
+function titleFromFilename(filename) {
+  let name = path.basename(filename, '.pdf')
+    .replace(/^Ch\d{1,2}_Reading_?/i, '')
+    .replace(/_/g, ' ').trim();
+  return name.length > 0
+    ? name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
+    : filename;
 }
 
-function pageContains(text, kw) {
-  const lo = text.toLowerCase();
-  return lo.includes(kw) || lo.replace(/\s+/g,'').includes(kw.replace(/\s+/g,''));
-}
-
-function findBoundaries(pages) {
-  const s=[], e=[];
-  for (const p of pages) {
-    if (pageContains(p.text,'preparing to read'))       s.push(p.pageNum);
-    if (pageContains(p.text,'understanding the reading')) e.push(p.pageNum);
-  }
-  return { startPages:s, endPages:e };
-}
-
-function pairBoundaries(sp, ep) {
-  return Array.from({length:Math.min(sp.length,ep.length)},(_,i)=>
-    ({index:i+1, startPage:sp[i], endPage:ep[i]})).filter(p=>p.startPage<p.endPage);
-}
-
-async function slicePdf(buf, start, end) {
-  const src = await PDFDocument.load(buf), tot = src.getPageCount();
-  const s = Math.max(1,start), e = Math.min(tot,end);
-  const doc = await PDFDocument.create();
-  const cps = await doc.copyPages(src, Array.from({length:e-s+1},(_,i)=>s-1+i));
-  cps.forEach(p => doc.addPage(p));
-  return Buffer.from(await doc.save());
-}
-
-async function getTitles(pages, pairs, client) {
-  const pm = Object.fromEntries(pages.map(p=>[p.pageNum,p.text]));
-  const snippets = pairs.map((p,i)=>
-    `--- Article ${i+1} (pages ${p.startPage}-${p.endPage}) ---\n`+
-    [p.startPage,p.startPage+1,p.startPage+2].map(n=>pm[n]||'').join(' ').slice(0,800)
-  ).join('\n\n');
-  const r = await client.messages.create({
-    model:'claude-haiku-4-5', max_tokens:400,
-    messages:[{role:'user',content:`Extract each article title, one per line, numbered:\n\n${snippets}`}]
-  });
-  const raw = r.content.filter(b=>b.type==='text').map(b=>b.text).join('').trim();
-  const lines = raw.split('\n').map(l=>l.replace(/^\d+[.)]\s*/,'').trim()).filter(Boolean);
-  return pairs.map((_,i) => lines[i] || `Unit ${pairs[i].index}`);
-}
-
-// ── Find RW book PDF ─────────────────────────────────────────────
-function findBookPDF() {
-  const dirs = [ROOT, INPUT_DIR].filter(d => fs.existsSync(d));
-  // Look for patterns: contains 'rw' and ('sb' or 'ocr' or 'book' or 'pathways')
-  const patterns = [
-    f => /rw/i.test(f) && /sb|ocr|book|pathways/i.test(f),
-    f => /pathway/i.test(f) && /rw|reading/i.test(f) && /l4|level.?4/i.test(f),
-    f => /rw/i.test(f) && f.endsWith('.pdf') && !/script|video/i.test(f),
-  ];
-  for (const dir of dirs) {
-    try {
-      const files = fs.readdirSync(dir).filter(f=>f.toLowerCase().endsWith('.pdf'));
-      for (const pattern of patterns) {
-        const found = files.find(f => pattern(f.toLowerCase()));
-        if (found) return { filepath: path.join(dir, found), filename: found };
-      }
-    } catch(_) {}
-  }
-  return null;
-}
-
-// ── Main loader ──────────────────────────────────────────────────
 async function load() {
-  if (!process.env.ANTHROPIC_API_KEY) return;
-  const bookFile = findBookPDF();
-  if (!bookFile) {
-    console.log('  ℹ️   RW book PDF not found in root or input/');
-    return;
+  cache.ready = false;
+  cache.units  = {};
+
+  if (!fs.existsSync(INPUT_DIR)) {
+    console.warn('[rw_book_loader] input/ not found'); return;
   }
 
-  process.stdout.write(`  📚  ${bookFile.filename} (RW book) ... `);
-  try {
-    const buf = fs.readFileSync(bookFile.filepath);
-    const pages = await extractPageTexts(buf);
-    const {startPages, endPages} = findBoundaries(pages);
-    const pairs = pairBoundaries(startPages, endPages);
+  const pdfs = fs.readdirSync(INPUT_DIR).filter(f =>
+    f.toLowerCase().endsWith('.pdf') && UNIT_RE.test(f)
+  );
 
-    if (!pairs.length) {
-      console.log(`⚠️  No article boundaries found`);
-      return;
+  pdfs.forEach(file => {
+    const m = file.match(UNIT_RE);
+    if (!m) return;
+    const num = parseInt(m[1], 10);
+    const fp  = path.join(INPUT_DIR, file);
+    const sz  = fs.statSync(fp).size;
+    if (!cache.units[num] || sz > (cache.units[num]._sz||0)) {
+      cache.units[num] = { title: titleFromFilename(file), filePath: fp, _sz: sz };
     }
+  });
 
-    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-    const titles = await getTitles(pages, pairs, client);
-
-    for (let i=0; i<pairs.length; i++) {
-      const p = pairs[i];
-      const pdfBuf = await slicePdf(buf, p.startPage, p.endPage);
-      cache.articles[p.index] = { title: titles[i], pdfBuffer: pdfBuf };
-    }
-
-    cache.bookFile = bookFile.filename;
-    cache.ready = true;
-    console.log(`✅  ${pairs.length} units split and cached`);
-  } catch(e) {
-    console.log(`⚠️  ${e.message}`);
+  const count = Object.keys(cache.units).length;
+  if (count > 0) {
+    cache.ready    = true;
+    cache.bookFile = `${count} unit PDF${count>1?'s':''} (input/)`;
+    console.log(`📚  RW loader: ${count} unit PDFs indexed (lazy-load mode)`);
+  } else {
+    console.warn('[rw_book_loader] No Ch##_Reading_*.pdf files found in input/');
   }
-}
-
-function getArticle(unit) {
-  return cache.articles[unit] || null;
 }
 
 function getAvailableUnits() {
-  return Object.keys(cache.articles).map(Number).sort((a,b)=>a-b);
+  return Object.keys(cache.units).map(Number).sort((a,b)=>a-b);
 }
 
-module.exports = { load, getArticle, getAvailableUnits, cache };
+/** Reads PDF from disk on demand — not cached in RAM */
+function getArticle(unitNum) {
+  const u = cache.units[unitNum];
+  if (!u) return null;
+  try {
+    const pdfBuffer = fs.readFileSync(u.filePath);
+    return { title: u.title, pdfBuffer };
+  } catch(e) {
+    console.error(`[rw_book_loader] Cannot read unit ${unitNum}:`, e.message);
+    return null;
+  }
+}
+
+module.exports = { load, cache, getAvailableUnits, getArticle };

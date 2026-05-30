@@ -4,7 +4,7 @@
   "description": "Batch EFL reading worksheet generator (Homework + Blackboard) via Claude API",
   "main": "cli.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node --max-old-space-size=512 server.js",
     "batch": "node cli.js"
   },
   "dependencies": {
