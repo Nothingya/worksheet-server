@@ -203,7 +203,7 @@ QUESTION STATEMENTS FOR THIS PASSAGE (use these as source for Task 1):
 ${passageObj.questionsText || '(no questions extracted)'}
 
 REQUIREMENTS:
-- Task 1: 6 pairs (A–F ↔ 1–6). LEFT = how an IELTS exam QUESTION expresses the idea (paraphrase). RIGHT = ORIGINAL passage phrase. Different strategy per pair. Use "questionExpression" and "originalExpression" fields.
+- Task 1: 6 pairs. LEFT (1–6) = "questionExpression": 80% verbatim short phrases from QUESTION STATEMENTS, 20% from other task sentences. RIGHT (A–F) = "originalExpression": verbatim from PASSAGE TEXT. NO invented expressions on either side. Different paraphrase technique per pair.
 - Task 2: 4 sentences for skeleton extraction. SELECTION CRITERIA (each sentence MUST meet at least TWO of the following):
     • Contains 2 or more subordinate clauses (定语从句/状语从句/名词从句)
     • Contains an absolute construction (独立主格结构, e.g. "the task completed, he...")
