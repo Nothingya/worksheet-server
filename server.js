@@ -29,6 +29,7 @@ const rwBookLoader          = require('./src/rw_book_loader');
 const { extractAllPassages, extractPassagesForTest } = require('./src/ielts_splitter_docx');
 const { generateIELTS }     = require('./src/generate_ielts');
 const { buildIELTSDocs }    = require('./src/build_ielts');
+const { fixIELTSDoc, computeShufflesFromDoc, computeMergedShuffles } = require('./src/fix_ielts_tasks');
 
 if (!process.env.ANTHROPIC_API_KEY) { console.error('❌  ANTHROPIC_API_KEY not set.'); process.exit(1); }
 
@@ -381,17 +382,40 @@ async function runLSPipeline(job, unitNum, lessonMode, lsScriptBuf, lsVideoBuf) 
   }
 
   // ── LS Vocab ─────────────────────────────────────────────────
+  // Bug #051 fix: generate SEPARATE vocab docs for A and B instead of merging them.
+  // vocabTargets = ['A','B'] when both, or ['A'] / ['B'] for single lesson.
   job.stepStatus.other='running';
   if(willVocab){
-    upd('生成词汇笔记', `Unit ${unitNum}`);
-    try {
-      const ctxText = (unitScripts.A||'') + '\n' + (unitScripts.B||'');
-      const vdata = await generateVocab(ctxText || `Unit ${unitNum} listening practice.`, lsWords, `Unit ${unitNum}`);
-      vdata.title = 'PW4 LS U' + unitNum + (lessonMode==='both'?'AB':lessonMode) + ' 词汇笔记';
-      const vbuf  = await buildVocabDoc(vdata);
-      job.files.push({folder:'vocabulary', name:`PW4 LS U${unitNum}${lessonMode==='both'?'AB':lessonMode} 词汇笔记.docx`, buf:vbuf});
-      job.done++;
-    } catch(e){ console.error('LS Vocab error:', e.message, e.stack); job.failed++; job.stepStatus.other='error:'+e.message.slice(0,80); }
+    const vocabTargets = lessonMode === 'both'
+      ? listenTasks                  // only lessons that actually have scripts
+      : [lessonMode];
+
+    // We budgeted 1 slot for vocab; if generating 2, adjust the total so progress bar is correct
+    if(vocabTargets.length > 1) job.total += vocabTargets.length - 1;
+
+    for(const lesson of vocabTargets){
+      upd('生成词汇笔记', `Unit ${unitNum} Lesson ${lesson}`);
+      try {
+        const scriptText = unitScripts[lesson] || '';
+        // Prefer lesson-specific wordlist (e.g. "3A"), fall back to shared list
+        const words = autoLoader.cache.lsWordList[`${unitNum}${lesson}`]
+                   || LS_WORDLIST[`${unitNum}${lesson}`]
+                   || lsWords;
+        const vdata = await generateVocab(
+          scriptText || `Unit ${unitNum} Lesson ${lesson} listening practice.`,
+          words,
+          `Unit ${unitNum} Lesson ${lesson}`
+        );
+        vdata.title = `PW4 LS U${unitNum}${lesson} 词汇笔记`;
+        const vbuf = await buildVocabDoc(vdata);
+        job.files.push({folder:'vocabulary', name:`PW4 LS U${unitNum}${lesson} 词汇笔记.docx`, buf:vbuf});
+        job.done++;
+      } catch(e){
+        console.error(`LS Vocab ${lesson} error:`, e.message, e.stack);
+        job.failed++;
+        job.stepStatus.other = 'error:' + e.message.slice(0,80);
+      }
+    }
   }
 
   // ── LS Video ─────────────────────────────────────────────────
@@ -472,7 +496,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 <div class="module-bar">
   <span class="module-tag active" id="tag-pw4" onclick="switchModule('pw4')" style="cursor:pointer">📚 PW4</span>
   <span class="module-tag inactive" id="tag-ielts" onclick="switchModule('ielts')" style="cursor:pointer">🎓 IELTS</span>
-  <span class="module-tag inactive" title="即将支持">📖 其他（预留）</span>
+  <span class="module-tag inactive" id="tag-fix" onclick="switchModule('fix')" style="cursor:pointer">🔧 纠错</span>
 </div>
 <div class="card section-rw" id="pw4-card">
   <div class="section-header">
@@ -569,26 +593,79 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 
 
 <script>
-// ── IELTS Module ─────────────────────────────────────────────────
 function switchModule(mod) {
-  // Update tab highlights
-  document.querySelectorAll('.module-tag').forEach(t => t.classList.remove('active'));
-  // Toggle card visibility
+  document.querySelectorAll('.module-tag').forEach(t => t.classList.remove('active','ielts-active'));
   var pw4  = document.getElementById('pw4-card');
   var ls   = document.getElementById('ls-card');
   var ielts = document.getElementById('ielts-card');
+  var fix   = document.getElementById('fix-card');
   if (mod === 'ielts') {
     document.getElementById('tag-ielts').classList.add('active','ielts-active');
-    if (pw4)  pw4.style.display  = 'none';
-    if (ls)   ls.style.display   = 'none';
-    if (ielts) ielts.style.display = 'block';
-    // no lazy init needed - onchange handler is inline
-
+    if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
+    if (ielts) ielts.style.display='block'; if (fix) fix.style.display='none';
+  } else if (mod === 'fix') {
+    document.getElementById('tag-fix').classList.add('active');
+    document.getElementById('tag-fix').style.background='#2E7D32';
+    document.getElementById('tag-fix').style.color='#fff';
+    document.getElementById('tag-fix').style.borderColor='#2E7D32';
+    if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
+    if (ielts) ielts.style.display='none'; if (fix) fix.style.display='block';
   } else {
     document.getElementById('tag-pw4').classList.add('active');
-    if (pw4)  pw4.style.display  = '';
-    if (ls)   ls.style.display   = '';
-    if (ielts) ielts.style.display = 'none';
+    if (pw4) pw4.style.display=''; if (ls) ls.style.display='';
+    if (ielts) ielts.style.display='none'; if (fix) fix.style.display='none';
+  }
+}
+
+// ── Fix tool ─────────────────────────────────────────────────────
+let fixFiles = [];
+function handleFixFiles(files) {
+  fixFiles = Array.from(files).slice(0, 12);
+  document.getElementById('fix-filelist').textContent = fixFiles.map(f=>f.name).join('  |  ');
+  document.getElementById('btn-fix').disabled = fixFiles.length === 0;
+}
+function handleFixDrop(e) { handleFixFiles(e.dataTransfer.files); }
+async function goFix() {
+  if (!fixFiles.length) return;
+  document.getElementById('btn-fix').disabled=true;
+  document.getElementById('stop-fix').style.display='block';
+  document.getElementById('fix-prog').style.display='block';
+  document.getElementById('fix-ok').style.display='none';
+  document.getElementById('fix-er').style.display='none';
+  document.getElementById('fi1').textContent='⏳';
+  document.getElementById('fd1').textContent='上传中...';
+  document.getElementById('fbw').style.display='block';
+  document.getElementById('fbb').style.width='0%';
+  const fd=new FormData();
+  fixFiles.forEach(f=>fd.append('files',f));
+  const r=await fetch('/fix-ielts-tasks',{method:'POST',body:fd});
+  const{jobId}=await r.json();
+  jobs.fix=jobId;
+  timers.fix=setInterval(()=>pollFix(jobId),1500);
+}
+async function pollFix(jobId) {
+  const r=await fetch('/status/'+jobId);
+  const j=await r.json();
+  if (j.currentDetail) document.getElementById('fd1').textContent='处理: '+j.currentDetail;
+  if (j.total>0){
+    const p=Math.round((j.done+j.failed+(j.skipped||0))/j.total*100);
+    document.getElementById('fbb').style.width=p+'%';
+  }
+  if (j.status==='done'){
+    clearInterval(timers.fix);
+    document.getElementById('fi1').textContent='✅';
+    document.getElementById('fd1').textContent='✅'+j.done+' 纠错  ➖'+(j.skipped||0)+' 跳过  ❌'+j.failed+' 失败';
+    document.getElementById('fix-ok').style.display='block';
+    document.getElementById('fix-rs').textContent='共 '+j.files+' 个文件已纠错，'+(j.skipped||0)+' 个已是新格式跳过';
+    document.getElementById('btn-fix').disabled=false;
+    document.getElementById('stop-fix').style.display='none';
+  }
+  if (j.status==='error'){
+    clearInterval(timers.fix);
+    document.getElementById('fi1').textContent='❌';
+    document.getElementById('fix-er').style.display='block';
+    document.getElementById('fix-em').textContent=j.error;
+    document.getElementById('btn-fix').disabled=false;
   }
 }
 
@@ -879,6 +956,44 @@ function dlJob(s){window.location.href='/download/'+jobs[s];}
   <div class="rbox rok" id="ielts-ok"><div class="rt">🎉 完成！</div><div class="rs" id="ielts-rs"></div><button class="btn btn-dl" onclick="dlJob('ielts')">📦 下载 ZIP（学生版 + 教师版）</button></div>
   <div class="rbox rer" id="ielts-er"><div class="rt">❌ 出错</div><div class="rs" id="ielts-em"></div></div>
 </div>
+
+<!-- ── FIX TOOL ──────────────────────────────────────────────── -->
+<div class="card section-rw" id="fix-card" style="display:none">
+  <div class="section-header">
+    <span style="font-size:24px">🔧</span>
+    <h2 style="color:#2E7D32">IELTS 练习册纠错工具</h2>
+  </div>
+  <div class="notice" style="background:#F1F8E9;border-color:#A5D6A7;color:#2E7D32">
+    📄 上传已生成的 IELTS docx（学生版或教师版，最多 12 份），自动将 Task 1 和 Task 6 更新为新格式。已符合格式的文件自动跳过。
+  </div>
+  <div id="fix-drop" style="border:2px dashed #A5D6A7;border-radius:12px;padding:28px;text-align:center;cursor:pointer;background:#FAFAFA;margin-bottom:14px"
+    onclick="document.getElementById('fix-input').click()"
+    ondragover="event.preventDefault();this.style.borderColor='#2E7D32'"
+    ondragleave="this.style.borderColor='#A5D6A7'"
+    ondrop="event.preventDefault();this.style.borderColor='#A5D6A7';handleFixDrop(event)">
+    <div style="font-size:28px;margin-bottom:6px">📂</div>
+    <div style="font-size:13px;font-weight:600;color:#444">点击或拖入 docx 文件（最多 12 份）</div>
+    <div id="fix-filelist" style="font-size:11px;color:#2E7D32;margin-top:8px;word-break:break-all"></div>
+  </div>
+  <input type="file" id="fix-input" accept=".docx" multiple style="display:none" onchange="handleFixFiles(this.files)">
+  <button class="btn" id="btn-fix" onclick="goFix()" disabled
+    style="background:#2E7D32;color:#fff;margin-bottom:6px">🔧 开始纠错 Task 1 &amp; Task 6</button>
+  <button class="btn btn-stop" id="stop-fix" style="display:none" onclick="stopJob('fix')">⛔ 停止</button>
+  <div class="prog show" id="fix-prog" style="display:none">
+    <div class="step"><div class="si" id="fi1">⏳</div>
+      <div><div class="sn">处理进度</div><div class="sd" id="fd1">等待中...</div>
+        <div class="bw" id="fbw" style="display:none"><div class="bb" id="fbb" style="background:#2E7D32;width:0%"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="rbox rok" id="fix-ok" style="display:none">
+    <div class="rt">🎉 完成！</div><div class="rs" id="fix-rs"></div>
+    <button class="btn" style="background:#2E7D32;color:#fff;margin-top:10px" onclick="dlJob('fix')">📦 下载纠错后的文件 (ZIP)</button>
+  </div>
+  <div class="rbox rer" id="fix-er" style="display:none">
+    <div class="rt">❌ 出错</div><div class="rs" id="fix-em"></div>
+  </div>
+</div>
 </body></html>`;
 
 
@@ -1103,6 +1218,78 @@ app.get('/download/:id', (req, res) => {
   arc.pipe(res);
   for(const f of j.files) arc.append(f.buf,{name:(f.folder?f.folder+'/':'')+f.name});
   arc.finalize();
+});
+
+// ════════════════════════════════════════════════════════════════
+// FIX IELTS TASKS  (批量纠错 Task 1 & Task 6)
+// ════════════════════════════════════════════════════════════════
+app.post('/fix-ielts-tasks', upload.any(), async (req, res) => {
+  const files = (req.files||[]).filter(f =>
+    f.originalname.toLowerCase().endsWith('.docx'));
+  if (!files.length) return res.status(400).json({error:'未上传 .docx 文件'});
+
+  const jobId = Math.random().toString(36).slice(2,9).toUpperCase();
+  const job   = { id:jobId, status:'processing', currentStep:'纠错', currentDetail:'',
+                  total:files.length, done:0, failed:0, skipped:0, files:[] };
+  jobs.set(jobId, job);
+  res.json({ jobId });
+
+  (async () => {
+    // ── Group files by base name to share shuffle between student/teacher pairs ──
+    // e.g.  "IELTS_C17_Test1_P1_Student.docx"  +  "...Teacher.docx"  → same shuffle
+    function baseName(name) {
+      return name
+        .replace(/_FIXED_[^.]+\.docx$/i, '.docx') // strip previous fix suffix
+        .replace(/(_Student|_Teacher)\.docx$/i, '.docx')
+        .toLowerCase();
+    }
+
+    const groups = new Map();
+    for (const f of files) {
+      const key = baseName(f.originalname);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(f);
+    }
+
+    for (const [, groupFiles] of groups) {
+      // Compute ONE shared shuffle from any file in the group (pairs are identical)
+      let sharedShuffles = null;
+      // Prefer merged shuffles (student headings + teacher answers) for pairs
+      const stuFile = groupFiles.find(f => /student/i.test(f.originalname));
+      const tchFile = groupFiles.find(f => /teacher/i.test(f.originalname));
+      try {
+        if (stuFile && tchFile) {
+          sharedShuffles = computeMergedShuffles(stuFile.buffer, tchFile.buffer);
+        } else {
+          // Prefer teacher file for strategy; fall back to student
+          const teacherFile = groupFiles.find(f => /teacher/i.test(f.originalname));
+          sharedShuffles = computeShufflesFromDoc((teacherFile || groupFiles[0]).buffer);
+        }
+      } catch(e) { console.warn('[fix] shuffle compute failed:', e.message); }
+
+      for (const file of groupFiles) {
+        job.currentDetail = file.originalname;
+        try {
+          const result = await fixIELTSDoc(file.buffer, file.originalname, sharedShuffles);
+          if (result.skipped) {
+            job.skipped++;
+            console.log('[fix] ➖ '+file.originalname+': '+result.reason);
+          } else {
+            job.done++;
+            const prefix = result.fixed.join('+');
+            const outName = file.originalname.replace(/\.docx$/i, '_FIXED_'+prefix+'.docx');
+            job.files.push({ name: outName, buf: result.buffer });
+            console.log('[fix] ✅ '+file.originalname+' → '+prefix+' ('+result.role+')');
+          }
+        } catch(e) {
+          job.failed++;
+          console.error('[fix] ❌ '+file.originalname+':', e.message);
+        }
+      }
+    }
+    job.status = 'done';
+    job.currentDetail = '';
+  })().catch(e => { job.status='error'; job.error=e.message; });
 });
 
 Promise.all([autoLoader.init(), rwBookLoader.load()]).then(() => {

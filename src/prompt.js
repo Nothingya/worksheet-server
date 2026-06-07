@@ -90,6 +90,18 @@ BLACKBOARD VERSION — PART 1 ONLY (10 blanks, 2×2 grid)
 • Sentences kept under 10 words before the blank
 
 ════════════════════════════════════════════════════════
+CRITICAL JSON SAFETY RULES  (violations cause total failure)
+════════════════════════════════════════════════════════
+• NEVER use unescaped double-quote characters (") inside any JSON string value.
+  This applies especially to Chinese text — do NOT use ASCII " as quotation marks.
+  WRONG:   "original_zh": "他说"很好"，真棒"
+  CORRECT: "original_zh": "他说「很好」，真棒"
+• For Chinese quotation marks, always use 「 」 (not " ")
+• For English quotes inside a string, escape them: \"like this\"
+• Every emoji in a JSON value must be a simple, common emoji (avoid compound/flag emoji)
+• Return ONLY the JSON object — no markdown fences, no preamble, no trailing text
+
+════════════════════════════════════════════════════════
 OUTPUT JSON STRUCTURE
 ════════════════════════════════════════════════════════
 {

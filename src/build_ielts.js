@@ -146,24 +146,108 @@ function titleBlock(pi, role) {
   return rows;
 }
 
-// ── Shuffle helper ────────────────────────────────────────────────────────────
-function shufflePairs(pairs) {
-  const indices = pairs.map((_,i) => i);
-  for (let i = indices.length-1; i > 0; i--) {
+// ── Shuffle helpers ───────────────────────────────────────────────────────────
+function _fisherYates(arr) {
+  const a = [...arr];
+  for (let i = a.length-1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i+1));
-    [indices[i], indices[j]] = [indices[j], indices[i]];
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  const displayRight = indices.map((origIdx,slot) => ({
-    displayNum:       slot+1,
-    originalExpression: pairs[origIdx].originalExpression || pairs[origIdx].paraphrase || '',
-    paraphrase:       pairs[origIdx].paraphrase || '',
-    strategy:         pairs[origIdx].strategy,
-    origId:           pairs[origIdx].id,
-    teacherNote:      pairs[origIdx].teacherNote,
-  }));
-  const answerMap = {};
-  displayRight.forEach(slot => { answerMap[slot.origId] = slot.displayNum; });
-  return { displayRight, answerMap };
+  return a;
+}
+
+/**
+ * shufflePairs — 6-column Task 1 layout
+ *
+ * Fixed:   编号 1–6 (left) and 字母 A–F (right) are always in sequential order.
+ * Shuffled: 题干表达 (question expressions) and 原文表达 (original expressions)
+ *           are shuffled INDEPENDENTLY so that row i never has a matching pair.
+ *
+ * Returns:
+ *   questionOrder[i]  = pair whose questionExpression sits in row i (numbered i+1)
+ *   originalOrder[i]  = pair whose originalExpression sits in row i (lettered A+i)
+ *   answers[i]        = the letter that number (i+1) should match, e.g. "C"
+ *   answerSummary     = "1:C  2:B  3:F  4:A  5:E  6:D"
+ */
+function shufflePairs(pairs) {
+  let questionOrder, originalOrder;
+  let tries = 0;
+  // Guarantee derangement: no row i can have same pair on both sides
+  do {
+    questionOrder = _fisherYates(pairs);
+    originalOrder = _fisherYates(pairs);
+    tries++;
+  } while (tries < 30 && questionOrder.some((p, i) => p.id === originalOrder[i].id));
+
+  // answers[i] = the letter of the row where questionOrder[i]'s original appears
+  const answers = questionOrder.map(qPair => {
+    const j = originalOrder.findIndex(o => o.id === qPair.id);
+    return String.fromCharCode(65 + j);   // 0→A, 1→B, 2→C …
+  });
+  const answerSummary = answers.map((a, i) => `${i+1}:${a}`).join('   ');
+
+  return { questionOrder, originalOrder, answers, answerSummary };
+}
+
+// Shuffle Task 6 headings: keep A-E labels fixed, shuffle the texts,
+// remap section correct answers to new labels, build answer summary.
+// Retries until no 3 consecutive section answers form a sequential run (A→B→C etc.)
+function shuffleTask6(task6) {
+  const headings = task6.headings || [];
+  const sections = task6.sections || [];
+
+  let displayHeadings, sectionAnswers;
+  let tries = 0;
+
+  do {
+    // Shuffle the heading texts while A-E labels stay sequential
+    const shuffledTexts = _fisherYates(headings);
+    displayHeadings = shuffledTexts.map((h, i) => ({
+      label:         String.fromCharCode(65 + i),
+      text:          h.text,
+      originalLabel: h.label,
+    }));
+
+    const labelRemap = {};
+    displayHeadings.forEach(dh => { labelRemap[dh.originalLabel] = dh.label; });
+
+    sectionAnswers = sections.map(sec => ({
+      sectionLabel:  sec.sectionLabel || sec.sectionName || '',
+      newAnswer:     labelRemap[sec.correctHeading] || sec.correctHeading || '?',
+      matchingLogic: sec.matchingLogic || '',
+    }));
+
+    tries++;
+  } while (tries < 50 && _hasSequentialRun(sectionAnswers));
+
+  const answerSummary   = sectionAnswers.map(s => `${s.sectionLabel}: ${s.newAnswer}`).join('   ');
+  const distractorLabel = (()=>{
+    const remap={};displayHeadings.forEach(dh=>{remap[dh.originalLabel]=dh.label;});
+    return remap[task6.distractorLabel] || task6.distractorLabel || '';
+  })();
+
+  return { displayHeadings, sectionAnswers, answerSummary, distractorLabel };
+}
+
+// Sort sections by Roman numeral / Arabic number in label
+function _sectionOrder(label) {
+  const rom={I:1,II:2,III:3,IV:4,V:5};
+  const m=(label||'').match(/([IVX]+|\d+)\s*$/i);
+  if(!m)return 0;
+  return rom[m[1].toUpperCase()]||parseInt(m[1])||0;
+}
+
+// Returns true if any two ADJACENT sections (sorted by section order) have consecutive letter answers
+function _hasSequentialRun(sectionAnswers) {
+  const pairs=[...sectionAnswers]
+    .filter(s=>s&&s.newAnswer&&/^[A-E]$/.test(s.newAnswer))
+    .sort((a,b)=>_sectionOrder(a.sectionLabel)-_sectionOrder(b.sectionLabel));
+  if(pairs.length<2)return false;
+  const c=pairs.map(s=>s.newAnswer.charCodeAt(0));
+  for(let i=0;i<c.length-1;i++){
+    if(Math.abs(c[i+1]-c[i])===1)return true; // ANY 2 consecutive letters
+  }
+  return false;
 }
 
 // ══ STUDENT DOC ════════════════════════════════════════════════════════════════
@@ -171,24 +255,25 @@ function buildStudentDoc(data) {
   const { passageInfo:pi, task1, task2, task3, task4, task5, task6 } = data;
   const ch = [...titleBlock(pi,'student')];
 
-  // ── Task 1: LEFT=questionExpression, RIGHT=originalExpression (shuffled) ─────
+  // ── Task 1: 6-column table ─────────────────────────────────────────────────
+  // 编号(1-6 fixed) | 题干表达(shuffled) | 字母(A-F fixed) | 原文表达(shuffled) | 答案 | 改写策略
+  // Both content columns are independently shuffled — guaranteed no row has a matching pair.
   ch.push(taskBar('🔄','Task 1  同义替换矩阵  (Paraphrasing Matrix)', S_ACCENT));
   ch.push(p(task1.instruction_zh,{ital:true,before:80,after:100}));
-  const { displayRight, answerMap } = data._shuffledTask1 || shufflePairs(task1.pairs||[]);
-  const t1 = new Table({
-    width:{size:9360,type:WidthType.DXA}, columnWidths:[480,3920,360,3880,720],
-    rows:[
-      hdrRow(['编号','题干表达 (A–F)','','原文表达 (1–6)','答案'],[480,3920,360,3880,720],S_LIGHT),
-      ...(task1.pairs||[]).map((pair,i) => new TableRow({children:[
-        td(pair.id,                           {w:480, align:AlignmentType.CENTER}),
-        td(pair.questionExpression||pair.paraphrase||'', {w:3920,ital:true}),
-        td(String(i+1),                       {w:360, align:AlignmentType.CENTER, color:'888888'}),
-        td(displayRight[i].originalExpression||displayRight[i].paraphrase||'', {w:3880}),
-        td('____',                            {w:720, align:AlignmentType.CENTER}),
-      ]})),
-    ],
+  const { questionOrder, originalOrder, answers, answerSummary } = data._shuffledTask1 || shufflePairs(task1.pairs||[]);
+  const t1cw = [560, 3280, 480, 4240, 800];
+  const t1rows = [hdrRow(['编号','题干表达','字母','原文表达','答案'], t1cw, S_LIGHT)];
+  questionOrder.forEach((qPair, i) => {
+    const letter = String.fromCharCode(65 + i);
+    t1rows.push(new TableRow({children:[
+      td(String(i+1),                                      {w:t1cw[0], align:AlignmentType.CENTER}),
+      td(qPair.questionExpression||qPair.paraphrase||'',   {w:t1cw[1], ital:true}),
+      td(letter,                                           {w:t1cw[2], align:AlignmentType.CENTER}),
+      td(originalOrder[i].originalExpression || originalOrder[i].paraphrase || originalOrder[i].questionExpression || '', {w:t1cw[3]}),
+      td('____',                                           {w:t1cw[4], align:AlignmentType.CENTER}),
+    ]}));
   });
-  ch.push(t1,p(''));
+  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:t1cw,rows:t1rows}),p(''));
 
   // ── Task 2 ──────────────────────────────────────────────────────────────────
   ch.push(taskBar('✂️','Task 2  剔骨疗法  (Skeleton Extraction)', S_ACCENT));
@@ -249,19 +334,27 @@ function buildStudentDoc(data) {
   // ── Task 6 ──────────────────────────────────────────────────────────────────
   ch.push(taskBar('🏷️','Task 6  主旨匹配  (Heading Match)', S_ACCENT));
   ch.push(p(task6.instruction_zh,{ital:true,before:80,after:100}));
-  const t6hrows=[hdrRow(['标题','内容'],[520,8840],S_LIGHT)];
-  (task6.headings||[]).forEach(h=>t6hrows.push(new TableRow({children:[td(h.label,{w:520,align:AlignmentType.CENTER}),td(h.text,{w:8840})]})));
-  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:[520,8840],rows:t6hrows}),p(''));
-  const n=(task6.sections||[]).length||4;
-  const sw=Math.floor(9360/n);
+  const { displayHeadings, sectionAnswers } = data._shuffledTask6 || shuffleTask6(task6);
+
+  // Heading table: A-E fixed labels, content shuffled
+  const t6hrows=[hdrRow(['字母','标题内容'],[480,8880],S_LIGHT)];
+  displayHeadings.forEach(h=>t6hrows.push(new TableRow({children:[
+    td(h.label,{w:480,align:AlignmentType.CENTER,bold:true}),
+    td(h.text, {w:8880}),
+  ]})));
+  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:[480,8880],rows:t6hrows}),p(''));
+
+  // Answer blanks: Section I: ___  Section II: ___  ...
+  const n = sectionAnswers.length || 4;
+  const sw = Math.floor(9360/n);
   ch.push(new Table({
     width:{size:9360,type:WidthType.DXA},columnWidths:Array(n).fill(sw),
     rows:[
-      new TableRow({children:(task6.sections||[]).map(sec=>td(sec.sectionLabel||sec.sectionName||'',{w:sw,fill:S_LIGHT}))}),
-      new TableRow({children:(task6.sections||[]).map(_=>td('答案: ____',{w:sw,align:AlignmentType.CENTER}))}),
+      new TableRow({children:sectionAnswers.map(s=>td(s.sectionLabel,{w:sw,fill:S_LIGHT,bold:true,align:AlignmentType.CENTER}))}),
+      new TableRow({children:sectionAnswers.map(_=>td('____',{w:sw,align:AlignmentType.CENTER}))}),
     ],
   }),p(''));
-  ch.push(p('干扰项: ____    理由: __________________________________________________',{before:80,after:200}));
+  ch.push(p('干扰项: ____    理由: __________________________________________________',{before:40,after:200}));
 
   return mkDoc(ch);
 }
@@ -270,28 +363,28 @@ function buildStudentDoc(data) {
 function buildTeacherDoc(data) {
   const { passageInfo:pi, task1, task2, task3, task4, task5, task6 } = data;
   const ch = [...titleBlock(pi,'teacher')];
-  const { displayRight, answerMap } = data._shuffledTask1 || shufflePairs(task1.pairs||[]);
 
   // Task 1
   ch.push(taskBar('🔄','Task 1 — 同义替换矩阵  答案 & 解析',T_ACCENT));
-  const t1rows=[hdrRow(['编号','题干表达（左栏）','答案','原文表达（右栏匹配）','改写策略'],[400,2800,520,3440,2200],T_LIGHT)];
-  (task1.pairs||[]).forEach(pair=>{
+  const { questionOrder, originalOrder, answers, answerSummary } = data._shuffledTask1 || shufflePairs(task1.pairs||[]);
+  const t1cw = [480, 2560, 480, 2960, 720, 2160];
+  const t1rows=[hdrRow(['编号','题干表达','字母','原文表达','答案','改写策略'],t1cw,T_LIGHT)];
+  questionOrder.forEach((qPair, i) => {
+    const letter = String.fromCharCode(65 + i);
     t1rows.push(new TableRow({children:[
-      td(pair.id,{w:400,align:AlignmentType.CENTER}),
-      td(pair.questionExpression||pair.paraphrase||'',{w:2800,ital:true}),
-      td(`→ ${answerMap[pair.id]}`,{w:520,color:T_ACCENT,align:AlignmentType.CENTER}),
-      td(pair.originalExpression||pair.paraphrase||'',{w:3440}),
-      td(pair.strategy,{w:2200}),
+      td(String(i+1),                                    {w:t1cw[0], align:AlignmentType.CENTER}),
+      td(qPair.questionExpression||qPair.paraphrase||'', {w:t1cw[1], ital:true}),
+      td(letter,                                         {w:t1cw[2], align:AlignmentType.CENTER}),
+      td(originalOrder[i].originalExpression || originalOrder[i].paraphrase || originalOrder[i].questionExpression || '', {w:t1cw[3]}),
+      td(answers[i],                                     {w:t1cw[4], align:AlignmentType.CENTER, color:T_ACCENT, bold:true}),
+      td(qPair.strategy||'',                             {w:t1cw[5]}),
     ]}));
   });
-  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:[400,2800,520,3440,2200],rows:t1rows}));
-  ch.push(p('右栏学生卷中的打乱顺序：',{ital:true,color:'888888',before:60,after:40}));
-  const refRows=[hdrRow(['序号','原文表达（学生卷右栏顺序）'],[560,8800],T_LIGHT)];
-  displayRight.forEach(slot=>refRows.push(new TableRow({children:[
-    td(String(slot.displayNum),{w:560,align:AlignmentType.CENTER}),
-    td(slot.originalExpression,{w:8800}),
-  ]})));
-  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:[560,8800],rows:refRows}),p(''));
+  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:t1cw,rows:t1rows}));
+  ch.push(pRuns([
+    r('答案速览：', {bold:true, color:T_ACCENT}),
+    r(answerSummary, {bold:true}),
+  ], {before:80, after:160}));
 
   // Task 2
   ch.push(taskBar('✂️','Task 2 — 剔骨疗法  答案 & 解析',T_ACCENT));
@@ -337,15 +430,23 @@ function buildTeacherDoc(data) {
 
   // Task 6
   ch.push(taskBar('🏷️','Task 6 — 主旨匹配  答案 & 解析',T_ACCENT));
-  const t6rows=[hdrRow(['Section','答案','主旨 & 匹配逻辑'],[1800,720,6840],T_LIGHT)];
-  (task6.sections||[]).forEach(sec=>t6rows.push(new TableRow({children:[
-    td(sec.sectionLabel||sec.sectionName||'',{w:1800}),
-    td(sec.correctHeading,{w:720,color:T_ACCENT,align:AlignmentType.CENTER}),
+  const { displayHeadings:t6dh, sectionAnswers:t6sa, answerSummary:t6sum, distractorLabel:t6dis } = data._shuffledTask6 || shuffleTask6(task6);
+  // Heading reference table
+  const t6hrows=[hdrRow(['字母','标题内容'],[480,8880],T_LIGHT)];
+  t6dh.forEach(h=>t6hrows.push(new TableRow({children:[td(h.label,{w:480,align:AlignmentType.CENTER}),td(h.text,{w:8880,ital:true})]})));
+  ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:[480,8880],rows:t6hrows}));
+  // Answer summary line
+  ch.push(pRuns([r('答案速览：',{bold:true,color:T_ACCENT}),r(t6sum,{bold:true})],{before:80,after:80}));
+  // Section answer table
+  const t6rows=[hdrRow(['Section','答案','匹配逻辑'],[1800,720,6840],T_LIGHT)];
+  t6sa.forEach(sec=>t6rows.push(new TableRow({children:[
+    td(sec.sectionLabel,{w:1800}),
+    td(sec.newAnswer,{w:720,color:T_ACCENT,align:AlignmentType.CENTER,bold:true}),
     td(sec.matchingLogic,{w:6840}),
   ]})));
   ch.push(new Table({width:{size:9360,type:WidthType.DXA},columnWidths:[1800,720,6840],rows:t6rows}));
-  ch.push(p(`干扰项：${task6.distractorLabel}`,{color:T_ACCENT,before:120,after:60}));
-  ch.push(p(task6.distractorExplanation,{color:'333333',before:40,after:160}));
+  ch.push(p(`干扰项：${t6dis}`,{color:T_ACCENT,before:120,after:60}));
+  ch.push(p(task6.distractorExplanation||'',{color:'333333',before:40,after:160}));
 
   return mkDoc(ch);
 }
@@ -534,8 +635,9 @@ async function docxToPdf(buf) {
 
 // ══ Main export ════════════════════════════════════════════════════════════════
 async function buildIELTSDocs(data) {
-  // Shuffle Task 1 ONCE so student and teacher versions are identical
+  // Shuffle Task 1 and Task 6 ONCE so student and teacher versions are identical
   data._shuffledTask1 = shufflePairs((data.task1||{}).pairs||[]);
+  data._shuffledTask6 = shuffleTask6(data.task6||{});
 
   const [sb, tb] = await Promise.all([
     Packer.toBuffer(buildStudentDoc(data)),

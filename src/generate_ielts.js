@@ -50,7 +50,11 @@ STEP 2 — Write the paraphrase for each phrase (right column, A–F):
       6 → plain English rewrite (formal → accessible)
   • Do NOT add information. The paraphrase must be fully justified by the original.
 
-In JSON: "originalExpression" = SHORT verbatim phrase (left/numbered), "questionExpression" = SHORT paraphrase (right/lettered).
+In JSON: "questionExpression" = SHORT phrase taken from exam question statements (left column, numbered 1–6), "originalExpression" = SHORT verbatim phrase from the passage body (right column, lettered A–F, shuffled in student version).
+
+CRITICAL — BOTH FIELDS MUST BE NON-EMPTY FOR EVERY PAIR:
+  "questionExpression": the paraphrase / exam-question wording (never blank)
+  "originalExpression": exact verbatim words from the passage body (never blank, no letter prefix like "A. ")
 
 ━━ TASK 3: Reference Tracking ━━
 "sentenceWithTarget": Include 2–4 CONSECUTIVE SENTENCES from the passage so that BOTH the pronoun AND its antecedent (what it refers to) appear in the same text block. Students must see the referent to understand the tracking. Mark the target pronoun with 【】. Example: "The Romans organised their empire around the solar year. As it expanded northward, 【it】 reorganised activity charts accordingly."
@@ -239,15 +243,72 @@ Return ONLY the JSON object.`;
   console.log(`  [IELTS cache] ${usage.cache_read_input_tokens > 0 ? '✅ HIT' : '📝 MISS'}`);
 
   const raw = resp.content.filter(b => b.type === 'text').map(b => b.text).join('');
-  const clean = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```\s*$/i, '').trim();
 
+  // Strip markdown fences
+  let clean = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim();
+
+  // Extract first { ... last }
+  const fi = clean.indexOf('{'), li = clean.lastIndexOf('}');
+  if (fi !== -1 && li !== -1 && li > fi) clean = clean.slice(fi, li + 1);
+
+  // ── Shared helpers (mirrors generate.js) ─────────────────────
+  const sanitize = s => s
+    .replace(/[\u{10000}-\u{10FFFF}]/gu, '★')
+    .replace(/[\uFE00-\uFE0F]/g, '')
+    .replace(/[\u200D\u20E3]/g, '')
+    .replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '');
+
+  const fixNL = s => {
+    let out = '', inStr = false, esc = false;
+    for (const ch of s) {
+      if (esc)            { out += ch; esc = false; continue; }
+      if (ch==='\\' && inStr) { out += ch; esc = true; continue; }
+      if (ch==='"')       { inStr = !inStr; out += ch; continue; }
+      if (inStr && (ch==='\n'||ch==='\r')) { out += ' '; continue; }
+      out += ch;
+    }
+    return out;
+  };
+
+  const logFail = (n, e, s) => {
+    const m = e.message||''; const pm = m.match(/position (\d+)/i);
+    const pos = pm ? +pm[1] : -1;
+    if (pos >= 0) {
+      const ctx = s.slice(Math.max(0,pos-40), pos+40).replace(/\n/g,'↵').replace(/\r/g,'↲');
+      console.error(`  [ielts parse] Attempt ${n} FAIL pos=${pos}: ...${ctx}...`);
+    } else {
+      console.error(`  [ielts parse] Attempt ${n} FAIL: ${m}`);
+    }
+  };
+
+  // Attempt 1: direct
+  try { return JSON.parse(clean); } catch (e1) { logFail(1, e1, clean); }
+
+  // Attempt 2: sanitize emoji
+  const s2 = sanitize(clean);
+  try { return JSON.parse(s2); } catch (e2) { logFail(2, e2, s2); }
+
+  // Attempt 3: sanitize + fix newlines in strings
+  const s3 = fixNL(s2);
+  try { return JSON.parse(s3); } catch (e3) { logFail(3, e3, s3); }
+
+  // Attempt 4: nuclear newline replacement
+  const s4 = s2.replace(/\r?\n/g, ' ');
+  try { return JSON.parse(s4); } catch (e4) { logFail(4, e4, s4); }
+
+  // Attempt 5: Function() — tolerates trailing commas
+  try { return (new Function('return (' + s3 + ')'))(); } catch (e5) { logFail(5, e5, s3); }
+
+  // Attempt 6: jsonrepair — handles unescaped " inside strings (Bug #050 family)
   try {
-    return JSON.parse(clean);
-  } catch (e) {
-    console.error('[generate_ielts] JSON parse error:', e.message);
-    console.error('[generate_ielts] Raw (first 400):', clean.slice(0, 400));
-    throw new Error('Claude returned invalid JSON for IELTS worksheet');
-  }
+    const { jsonrepair } = require('jsonrepair');
+    const repaired = jsonrepair(s2);
+    console.log('  [ielts parse] Attempt 6 jsonrepair ✅');
+    return JSON.parse(repaired);
+  } catch (e6) { logFail(6, e6, s2); }
+
+  console.error('[generate_ielts] Raw (first 800):', clean.slice(0, 800));
+  throw new Error('Claude returned invalid JSON for IELTS worksheet');
 }
 
 module.exports = { generateIELTS };
