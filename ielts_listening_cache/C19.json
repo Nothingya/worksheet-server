@@ -1,0 +1,3520 @@
+{
+  "bookTitle": "Cambridge IELTS 19 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 19 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "国家公园教育访问项目咨询",
+          "sceneEmoji": "🌳",
+          "mcq": [
+            {
+              "q": "How were the two large lakes formed?",
+              "opts": [
+                [
+                  "A",
+                  "They were man-made reservoirs"
+                ],
+                [
+                  "B",
+                  "Gravel was extracted and pits filled with water"
+                ],
+                [
+                  "C",
+                  "A river was dammed"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does the music activity involve?",
+              "opts": [
+                [
+                  "A",
+                  "Playing traditional instruments"
+                ],
+                [
+                  "B",
+                  "Learning to read music"
+                ],
+                [
+                  "C",
+                  "Using natural materials to create rhythm and explore tempo"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What is the charging policy for group leaders?",
+              "opts": [
+                [
+                  "A",
+                  "Leaders pay half price"
+                ],
+                [
+                  "B",
+                  "Leaders are charged the same as children"
+                ],
+                [
+                  "C",
+                  "There is no charge for leaders"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "John Chapman calls Hinchingbrooke Country Park to arrange a school visit for two classes. Sally explains the park covers 170 acres (69 hectares). There are three main habitats: wetland, grassland and woodland. The original farmland was dug up to extract sand, and the pits formed two large lakes. There are also smaller ponds and a river flowing through the park. Educational activities cover science (plant study, data collection), geography (map-reading and using a compass), history (how land use has changed), leisure and tourism, and music (making instruments from natural materials). Learning outside encourages creativity and self-confidence. For over 30 children, the cost is £4.95 per child. Adults are charged at a rate of £2.50 each.",
+          "errors": [
+            {
+              "wrong": "to extract sand",
+              "correct": "to extract gravel"
+            },
+            {
+              "wrong": "river flowing through",
+              "correct": "stream flowing through"
+            },
+            {
+              "wrong": "making instruments from natural materials",
+              "correct": "using natural materials to create and explore rhythm and tempo"
+            },
+            {
+              "wrong": "Adults are charged at a rate of £2.50",
+              "correct": "There is no charge for leaders or other adults"
+            },
+            {
+              "wrong": "sand",
+              "correct": "gravel (already done)"
+            },
+            {
+              "wrong": "river",
+              "correct": "stream (already done)"
+            },
+            {
+              "wrong": "making instruments",
+              "correct": "creating rhythm (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "Altogether the park covers 170 acres — that's ",
+                1,
+                " hectares. There are three main habitats: wetland, grassland and woodland."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The original farmland was dug up to extract gravel. The gravel pits filled with water, forming two large lakes. There are also several smaller ponds and a ",
+                2,
+                " that flows through the park."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For science: the children discover and study plants, trees and insects. They also collect and analyse ",
+                3,
+                " about the things they see."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For geography: the park is a great environment to learn and practise reading a ",
+                4,
+                " and using a compass to navigate."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For leisure and tourism: the children find out about ",
+                5,
+                ", their requirements, the problems they may cause and how we manage these."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For music: the children experiment with natural materials to create and explore rhythm and ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Learning outside the classroom encourages children to be creative, and to explore and discover for themselves. Often the children discover they can do things they didn't know they could do — a sense of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This gives them greater self-",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If there are over 30 children, it costs £",
+                9,
+                " for each child who attends on the day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's no charge for ",
+                10,
+                " and other adults — as many as you want to bring."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "69",
+            "stream",
+            "data",
+            "map",
+            "visitors",
+            "sounds",
+            "freedom",
+            "confidence",
+            "4.95",
+            "leaders"
+          ]
+        },
+        "2": {
+          "scene": "结好城市协会周年活动与法利庄园导览",
+          "sceneEmoji": "🤝",
+          "kwt": [
+            {
+              "original": "The relationship between the towns has gone from strength to strength.",
+              "keyWord": "STRENGTHEN",
+              "transStart": "The relationship between the two towns has continued to",
+              "transEnd": "since the twinning link was established.",
+              "answer": "STRENGTHEN CONSIDERABLY",
+              "collocation": "strengthen considerably (= grow significantly stronger over time)"
+            },
+            {
+              "original": "We considered buying a garden seat to put there, but the authorities weren't happy with that idea.",
+              "keyWord": "REJECTED",
+              "transStart": "The idea of purchasing a garden seat was",
+              "transEnd": "by the authorities, prompting the decision to plant a tree instead.",
+              "answer": "REJECTED BY",
+              "collocation": "rejected by (= refused or dismissed by an authority or person in charge)"
+            },
+            {
+              "original": "Don't try to do too much that first evening as they'll be tired.",
+              "keyWord": "AVOID",
+              "transStart": "On the first evening, hosts should",
+              "transEnd": "planning too many activities, as visitors will be tired after the journey.",
+              "answer": "AVOID OVER-PLANNING",
+              "collocation": "avoid (= make a deliberate effort not to do something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Farm shop"
+              },
+              {
+                "num": 2,
+                "left": "Main house entrance"
+              },
+              {
+                "num": 3,
+                "left": "Adventure playground"
+              },
+              {
+                "num": 4,
+                "left": "Kitchen gardens"
+              },
+              {
+                "num": 5,
+                "left": "Temple of the Four Winds"
+              }
+            ],
+            "options": [
+              "A.  northeast of house, near smaller lake — rectangular and walled",
+              "B.  in old stables at far-left corner of courtyard by car park",
+              "C.  right at end of right-hand fork path; woods on your left",
+              "D.  has a lot of steps — use disabled entry on far side if needed",
+              "E.  at northern end of larger lake, on a bend in the path"
+            ],
+            "answers": [
+              "B",
+              "D",
+              "E",
+              "A",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "Last month, 25 members visited Malatte. The theme park trip had to be cancelled, but we all had a great time on the final ",
+                1,
+                " trip down the river — that was the real highlight."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's 25 years since we were founded. In Malatte they're planning to build a ",
+                2,
+                " in the municipal park. We've decided to plant a poplar tree in the museum gardens."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our ",
+                3,
+                " evening was well attended and made record profits."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Don't try to do too much that first evening — have dinner in the house or garden rather than eating out. The weather looks OK so you might like to plan a ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Saturday evening, we'll all meet at the football club, where Toby Sharp and his band will be performing English and Scottish country ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The farm shop is in the old stables, which is the first building you come to. They're built round a courtyard — the shop's in the far ",
+                6,
+                " on the left."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The main entrance to the house has a lot of steps, so you might want to use the disabled entry — it's on the far side of the house from the ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The adventure playground is at the northern end of the larger lake, in a bend on the path that leads to the lake."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The kitchen gardens are rectangular and surrounded by a ",
+                8,
+                ". They're to the northeast of the house, near the smaller lake."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For the Temple of the Four Winds: take the path from the car park, go past the stables and the house, and when the path forks take the ",
+                9,
+                "-hand path. Woods on your left, temple at the end."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "boat",
+            "footbridge",
+            "pancake",
+            "barbecue",
+            "songs",
+            "corner",
+            "car park",
+            "wall",
+            "right"
+          ]
+        },
+        "3": {
+          "scene": "素食蛋液研究与食品趋势讨论",
+          "sceneEmoji": "🌱",
+          "functions": "A  Identifying a commercial motive    B  Describing an unexpected product application    C  Endorsing a food trend    D  Expressing concern about a practice    E  Questioning a trend's scale",
+          "pragmatic": [
+            {
+              "quote": "People buy food with celebrity chefs' names on — spice mixes or frozen foods. I bought something like that once, but I won't again — it didn't taste of anything.",
+              "speaker": "Marie",
+              "answer": "D"
+            },
+            {
+              "quote": "It started off as a project to help visually impaired people know whether food was fit to eat or not — but I thought it might be really good for drug storage in hospitals.",
+              "speaker": "Marie",
+              "answer": "B"
+            },
+            {
+              "quote": "Things like more focus on local products — that seems so obvious, but the shops are still full of imported foods. The government needs to be more proactive.",
+              "speaker": "Marie",
+              "answer": "C"
+            },
+            {
+              "quote": "When manufacturers put calorie counts on labels, they're sometimes really confusing — and I suspect they do it on purpose, because food high in calories tastes better, so they'll sell more.",
+              "speaker": "Rosie/Marie",
+              "answer": "A"
+            },
+            {
+              "quote": "Lots of people I know have been buying gluten- and lactose-free food for years — even if they haven't been diagnosed with an allergy.",
+              "speaker": "Marie",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🔬",
+              "title": "Marie's Chickpea Project",
+              "items": [
+                [
+                  "Making a vegan alternative to eggs using ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Has more advantages than originally expected; doing more research"
+                ]
+              ]
+            },
+            {
+              "emoji": "🍞",
+              "title": "Colin's Bread Recycling Project",
+              "items": [
+                [
+                  "Breaking stale bread down to a paste then reforming it using ",
+                  {
+                    "b": 1
+                  },
+                  " printing"
+                ],
+                [
+                  "Added fruit and vegetables to improve ",
+                  {
+                    "b": 1
+                  },
+                  " — sending samples to restaurants"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏷️",
+              "title": "Touch-Sensitive Food Labels",
+              "items": [
+                [
+                  "Smooth = fresh; bumps = ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Possible applications: hospital drug storage, measuring ",
+                  {
+                    "b": 1
+                  },
+                  " of meat"
+                ]
+              ]
+            },
+            {
+              "emoji": "📊",
+              "title": "Predicted Food Trends",
+              "items": [
+                [
+                  "More focus on ",
+                  {
+                    "b": 1
+                  },
+                  " products — shops still full of imported food"
+                ],
+                [
+                  "Reduction in unnecessary ",
+                  {
+                    "b": 1
+                  },
+                  " — most supermarket food still in plastic"
+                ],
+                [
+                  "Celebrity chef-branded products: a concern — often taste of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🍄",
+              "title": "Unusual Trend: Medicinal Mushrooms",
+              "items": [
+                [
+                  "More people using mushrooms for health concerns like heart problems"
+                ],
+                [
+                  "Risk: hard to know which ",
+                  {
+                    "b": 1
+                  },
+                  " are safe to eat"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "chickpeas",
+            "3-D",
+            "colour",
+            "gone off",
+            "weight",
+            "local",
+            "packaging",
+            "nothing",
+            "varieties"
+          ],
+          "dictation": [
+            {
+              "speaker": "MARIE",
+              "parts": [
+                "I'm using chickpeas to make a vegan alternative to eggs. I had two main aims when I started, but I've found ",
+                1,
+                " have got more advantages than I expected."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "The basic process was straightforward — breaking the stale bread down to a paste then reforming it. I used ",
+                2,
+                " printing to make the paste into biscuits."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "I added fruit and vegetables to make them a more appetising ",
+                3,
+                ". I'm hoping some restaurants will be interested — I'm going to send them samples."
+              ]
+            },
+            {
+              "speaker": "MARIE",
+              "parts": [
+                "There's a company that's developed touch-sensitive sensors for food labels. When the label's smooth the food is fresh — when you can feel bumps, the food's gone ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Maybe it'd be possible to use it for other things besides freshness — like how many kilograms a joint of meat is, for example."
+              ]
+            },
+            {
+              "speaker": "MARIE",
+              "parts": [
+                "Things like more focus on local products — that seems so obvious, but the shops are still full of ",
+                5,
+                " foods."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Everyone's aware of the need for a reduction in unnecessary ",
+                6,
+                " — but just about everything you buy in supermarkets is still covered in plastic."
+              ]
+            },
+            {
+              "speaker": "MARIE",
+              "parts": [
+                "I've noticed the number of branded products related to celebrity chefs. I bought something like that once — it was a spice mix — but I won't again. It didn't taste of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "MARIE",
+              "parts": [
+                "'Ghost kitchens': they might have the name of a restaurant, but they're just a cooking facility for ",
+                8,
+                " meals. People don't realise the food isn't from the restaurant."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "More and more people are using mushrooms to treat different health concerns. But it's hard to know which ",
+                9,
+                " are safe to eat."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "chickpeas",
+            "3-D",
+            "colour",
+            "bad",
+            "imported",
+            "packaging",
+            "anything",
+            "delivery",
+            "varieties"
+          ]
+        },
+        "4": {
+          "scene": "爱尔兰凯德菲尔兹新石器时代遗址讲座",
+          "sceneEmoji": "🏺",
+          "signpost": [
+            {
+              "quote": "He noticed that when local people were digging in the bog, they were constantly hitting against what seemed to be rows of stones.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Introducing the accidental discovery that began the archaeological investigation"
+                ],
+                [
+                  "C",
+                  "Summarising the site"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It wasn't until 40 years later, when Patrick Caulfield's son Seamus, who had become an archaeologist, began to explore further.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the introduction"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Explaining the long delay between discovery and systematic investigation"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Thanks to the bog which covers the area, the remains of the settlement are extremely well-preserved.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the quality of evidence"
+                ],
+                [
+                  "B",
+                  "Explaining the key scientific reason the site is so informative"
+                ],
+                [
+                  "C",
+                  "Concluding the dating section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Neolithic farmers generally lived in larger communities than their predecessors, with houses built around a community building.",
+              "opts": [
+                [
+                  "A",
+                  "Describing the social structure before focusing on architectural and technological innovations"
+                ],
+                [
+                  "B",
+                  "Repeating the earlier point"
+                ],
+                [
+                  "C",
+                  "Concluding the finds section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Archaeologists believe that this way of life at Ceide ceased abruptly.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the sudden end of the settlement before identifying the causes"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising the farming section"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🗿",
+              "title": "Discovery of the Site",
+              "items": [
+                [
+                  "Discovered in 1930s by local teacher Patrick Caulfield — noticed rows of ",
+                  {
+                    "b": 1
+                  },
+                  " in the bog"
+                ],
+                [
+                  "His ",
+                  {
+                    "b": 1
+                  },
+                  " Seamus, who became an archaeologist, began serious investigation 40 years later"
+                ],
+                [
+                  "Used iron probes to map the stones — a traditional method for finding buried ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Carbon dating proved the site was over 5,000 years old"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧪",
+              "title": "Why Preservation is so Good",
+              "items": [
+                [
+                  "Bog is 90% water — dead vegetation accumulates in layers without fully ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Objects preserved because of the acidity of the peat and lack of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🏚️",
+              "title": "Neolithic Life at Ceide",
+              "items": [
+                [
+                  "Houses were ",
+                  {
+                    "b": 1
+                  },
+                  " (not round) with a small hole in the roof for smoke"
+                ],
+                [
+                  "First people to cook ",
+                  {
+                    "b": 1
+                  },
+                  " — also introduced pottery (pots used as lamps)"
+                ],
+                [
+                  "Land mainly used as paddocks for animals — probably used a system of rotational ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Why the Settlement Ended",
+              "items": [
+                [
+                  "Soil became less productive — crop rotation was intensive and unsustainable"
+                ],
+                [
+                  "Climate changed: conditions became wetter with much more ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Wetter conditions encouraged the bog to form over the area"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "walls",
+            "son",
+            "fuel",
+            "decaying",
+            "oxygen",
+            "rectangular",
+            "indoors",
+            "grazing",
+            "rain"
+          ],
+          "dictation": [
+            {
+              "speaker": "STUDENT",
+              "parts": [
+                "He noticed that when local people were digging in the bog, they were constantly hitting against what seemed to be rows of stones. He realised these must be ",
+                1,
+                " thousands of years old."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He wrote to the National Museum, but no one took him seriously. It wasn't until 40 years later, when his ",
+                2,
+                " Seamus — who had become an archaeologist — began to explore further."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Seamus inserted iron probes into the bog to map the stones — a traditional method local people had always used for finding ",
+                3,
+                " buried in the bog."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The bog is 90 percent water. When grasses and heathers die, they don't fully ",
+                4,
+                " but accumulate in layers. Objects remain preserved because of the acidity of the peat and the deficiency of ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The houses weren't round as people often assume, but ",
+                6,
+                " — with a small hole in the roof for smoke to escape. This indicates the Neolithic farmers were the first people to cook ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Pottery fragments were found at Ceide. Pots were used for storing food — and also, when filled with fat and set alight, they served as ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The land was mainly used as paddocks for animals to graze. They may have used a system of rotational ",
+                9,
+                " to prevent over-grazing."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The soil would have become less productive. There were also climatic pressures — conditions became much wetter because of a lot more ",
+                10,
+                ". It was these conditions that encouraged the bog to form."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "walls",
+            "son",
+            "fuel",
+            "decay",
+            "oxygen",
+            "rectangular",
+            "indoors",
+            "lamps",
+            "grazing",
+            "rain"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 19 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "吉他学习小组入门咨询",
+          "sceneEmoji": "🎸",
+          "mcq": [
+            {
+              "q": "What happened to the guitar group's meeting place?",
+              "opts": [
+                [
+                  "A",
+                  "It moved from Gary's home to a college room as the group grew"
+                ],
+                [
+                  "B",
+                  "It moved from a college to a community centre"
+                ],
+                [
+                  "C",
+                  "It has always been at Gary's home"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "Why did the lesson start time change?",
+              "opts": [
+                [
+                  "A",
+                  "Gary wanted an earlier start"
+                ],
+                [
+                  "B",
+                  "The previous class needed the room for another 30 minutes"
+                ],
+                [
+                  "C",
+                  "The college changed its schedule"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What makes the final ten minutes of the lesson challenging?",
+              "opts": [
+                [
+                  "A",
+                  "Learning to strum fast"
+                ],
+                [
+                  "B",
+                  "Singing along to a song"
+                ],
+                [
+                  "C",
+                  "Playing individual notes and sometimes performing alone"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A woman asks her friend Coleman about Gary Mathieson's guitar group. Coleman says it's a class for beginners and he was worried everyone would be better than him, but they were all equally hopeless. The group currently meets in Gary's home on Thursdays at 10.30am. Coleman found a guitar on a website called 'The perfect tune'. During a lesson, Gary starts by tuning the guitars and then they do about ten minutes of strumming using plectrums. When keeping time is difficult, Gary starts singing to help them. They learn at least one song, which takes about 15 minutes. Then the last ten minutes are finger-picking.",
+          "errors": [
+            {
+              "wrong": "in Gary's home",
+              "correct": "at the college in town"
+            },
+            {
+              "wrong": "at 10.30am",
+              "correct": "at 11am"
+            },
+            {
+              "wrong": "'The perfect tune'",
+              "correct": "'The perfect instrument'"
+            },
+            {
+              "wrong": "using plectrums",
+              "correct": "using their thumbs"
+            },
+            {
+              "wrong": "starts singing",
+              "correct": "starts clapping"
+            },
+            {
+              "wrong": "in Gary's home",
+              "correct": "at the college (already done)"
+            },
+            {
+              "wrong": "10.30am",
+              "correct": "11am (already done — replace: 'plectrums' → 'thumbs')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "COLEMAN",
+              "parts": [
+                "He's called a 'coordinator' — his name's Gary ",
+                1,
+                ". M-A-T-H-I-E-S-O-N."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He said it was a class for ",
+                2,
+                ". I was still worried that everyone would be better than me, but we were all equally hopeless!"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When I joined, they were meeting in Gary's home. But as the group got bigger, he decided to book a room at the ",
+                3,
+                " in town."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's just beyond Lock Street, at the bottom of ",
+                4,
+                " Street near the city roundabout."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We meet on Thursdays. It used to be 10.30 but now we meet at ",
+                5,
+                " — the class in the room before asked if they could have an extra 30 minutes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a website called 'The perfect ",
+                6,
+                "' that sells all kinds of guitars and violins — I'm sure you'll find something there."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He starts by getting us to tune our guitars. Some people use an app, but others do it by ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We do about ten minutes of strumming — we just use our thumbs. When we can't keep time, Gary starts ",
+                8,
+                " to help us."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We do at least one song with words and chords. He often brings a ",
+                9,
+                " of the song and plays it to us first."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The last ten minutes are finger-picking. Sometimes Gary gets us to play ",
+                10,
+                " — you know, alone. That's scary but I've got used to it."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Mathieson",
+            "beginners",
+            "college",
+            "New",
+            "11",
+            "instrument",
+            "ear",
+            "clapping",
+            "recording",
+            "alone"
+          ]
+        },
+        "2": {
+          "scene": "北海救生艇志愿者经历介绍",
+          "sceneEmoji": "🚤",
+          "kwt": [
+            {
+              "original": "I didn't like city life. I'd been really keen on boats as a teenager, and I thought if I went to live by the sea I might be able to pursue that interest.",
+              "keyWord": "REVIVE",
+              "transStart": "Moving to the coast gave the speaker an opportunity to",
+              "transEnd": "his teenage passion for boats.",
+              "answer": "REVIVE HIS",
+              "collocation": "revive (= bring back to life or activity after a period of inactivity)"
+            },
+            {
+              "original": "Our target's to get there in five minutes, then we try to get the boat off the dock and out to sea in another six to eight minutes.",
+              "keyWord": "GOAL",
+              "transStart": "The team's",
+              "transEnd": "is to reach the station within five minutes and launch within a further six to eight.",
+              "answer": "GOAL OF REACHING",
+              "collocation": "goal of (= the aim or target that one is working towards)"
+            },
+            {
+              "original": "A lot of people underestimate how quickly conditions can change at sea.",
+              "keyWord": "AWARE",
+              "transStart": "The speaker educates youth groups and sailing clubs to make them more",
+              "transEnd": "of how rapidly sea conditions can deteriorate.",
+              "answer": "AWARE OF",
+              "collocation": "aware of (= having knowledge or understanding of something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Health assessment result"
+              },
+              {
+                "num": 2,
+                "left": "Key responsibility as helmsman"
+              },
+              {
+                "num": 3,
+                "left": "Community education work"
+              },
+              {
+                "num": 4,
+                "left": "Residential course activity"
+              },
+              {
+                "num": 5,
+                "left": "Most rewarding time of year"
+              }
+            ],
+            "options": [
+              "A.  speaking to sailing clubs about dangers of changing sea conditions",
+              "B.  colder winter months — incidents more serious, greater impact",
+              "C.  laser eye surgery resolved prior short-sightedness; colour blindness test passed",
+              "D.  deciding whether it is safe to launch the boat",
+              "E.  wave-tank exercises simulating capsizing in extreme night conditions"
+            ],
+            "answers": [
+              "C",
+              "D",
+              "A",
+              "E",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "I'd been really keen on boats as a teenager. Then I found that the Lifeboat Institution was looking for volunteers, so I decided to ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Lifeboat Institution building is one of the largest in the country. It was built 15 years ago with funds provided by a ",
+                2,
+                " member of the public who'd lived here all her life."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When I applied, I had to have a health assessment. The doctors were particularly interested in my ",
+                3,
+                ". I'd had laser eye surgery two years earlier so that was OK."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When the coastguard gets an alert, all volunteers rush to the station. Our target's to get there in five ",
+                4,
+                " and get the boat out to sea in another six to eight."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I've recently qualified as a 'helmsman', which means I have the ultimate responsibility for the lifeboat. It's ultimately my decision whether it's safe to ",
+                5,
+                " the boat."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A lot of people underestimate how quickly conditions can change at sea — so I speak to ",
+                6,
+                " groups and sailing clubs about the sorts of problems sailors and swimmers can have."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The training gave me the confidence to deal with extreme situations without ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I was glad I'd done a first aid course before I started. We've also done a lot on how to deal with ropes and tie ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After a year, I did a one-week residential course. They had a wave-tank where they could create extreme weather conditions — like what to do if the boat turned over at ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's the colder months that can be the most rewarding time. That's when the incidents tend to be more serious, and you realise that you can make a huge ",
+                10,
+                " to the outcome."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "apply",
+            "generous",
+            "vision",
+            "minutes",
+            "launch",
+            "youth",
+            "panicking",
+            "knots",
+            "night",
+            "difference"
+          ]
+        },
+        "3": {
+          "scene": "运动鞋回收利用项目研究讨论",
+          "sceneEmoji": "👟",
+          "functions": "A  Challenging an assumption    B  Describing a personal recycling habit    C  Identifying a data contradiction    D  Explaining why a project failed    E  Proposing a broad framing strategy",
+          "pragmatic": [
+            {
+              "quote": "Before I started reading it, I thought — recycling footwear, well, it's interesting, but there isn't enough to say about it — you put shoes in recycling bins and they go to charity shops. But there's much more to it than that.",
+              "speaker": "Don",
+              "answer": "A"
+            },
+            {
+              "quote": "I've recycled some perfectly good shoes that haven't gone out of fashion and still fit — just because they don't look great on me any more. That's awful, isn't it?",
+              "speaker": "Bella",
+              "answer": "B"
+            },
+            {
+              "quote": "The amount of recycled footwear has fallen — it's 6 percent now compared to a previous level of 11 percent. That doesn't seem to make sense.",
+              "speaker": "Don",
+              "answer": "C"
+            },
+            {
+              "quote": "People didn't refuse the new shoes because of hygiene fears — it was because the pairs of shoes weren't identical.",
+              "speaker": "Bella",
+              "answer": "D"
+            },
+            {
+              "quote": "You used to consider this topic just from your own perspective — thinking about your own recycling behaviour without looking at the bigger picture. We can show that by taking a very different approach.",
+              "speaker": "Bella",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "👞",
+              "title": "Why Shoes Get Rejected for Recycling",
+              "items": [
+                [
+                  "Suede heels stained with ",
+                  {
+                    "b": 1
+                  },
+                  " and grass — expensive-looking but unsellable"
+                ],
+                [
+                  "Leather ankle boots: one shoe was a much lighter ",
+                  {
+                    "b": 1
+                  },
+                  " — left in the sun"
+                ],
+                [
+                  "Red baby shoes: the ",
+                  {
+                    "b": 1
+                  },
+                  " shoe was missing — not tied together in the bin"
+                ],
+                [
+                  "Trainers: one sole so worn you could put your ",
+                  {
+                    "b": 1
+                  },
+                  " through it"
+                ]
+              ]
+            },
+            {
+              "emoji": "📊",
+              "title": "The Statistics",
+              "items": [
+                [
+                  "Recent footwear sales have increased enormously"
+                ],
+                [
+                  "Recycled footwear has fallen from 11% to ",
+                  {
+                    "b": 1
+                  },
+                  " percent"
+                ],
+                [
+                  "90% of shoes taken to recycling centres end up in ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "♻️",
+              "title": "The Failed Project",
+              "items": [
+                [
+                  "Attempted to make new shoes from good parts of old ones"
+                ],
+                [
+                  "Failed: pairs weren't ",
+                  {
+                    "b": 1
+                  },
+                  " — people didn't want mismatched shoes"
+                ],
+                [
+                  "Spare shoes were shipped ",
+                  {
+                    "b": 1
+                  },
+                  " instead"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "mud",
+            "shade",
+            "other",
+            "finger",
+            "6",
+            "landfill",
+            "identical",
+            "overseas"
+          ],
+          "dictation": [
+            {
+              "speaker": "DON",
+              "parts": [
+                "Before I started reading I thought recycling footwear — well, you put shoes in recycling bins, they go to charity shops, and that's about it. But there's much more to it than ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "BELLA",
+              "parts": [
+                "A lot of young people wear trainers all the time now. They've become more popular than ordinary shoes. But don't they look a bit casual for school ",
+                2,
+                "?"
+              ]
+            },
+            {
+              "speaker": "BELLA",
+              "parts": [
+                "I've recycled some perfectly good shoes that haven't gone out of fashion and still fit — just because they don't look great on me any more. That's ",
+                3,
+                " isn't it?"
+              ]
+            },
+            {
+              "speaker": "DON",
+              "parts": [
+                "Recent sales of footwear have increased enormously. But the amount of recycled footwear has ",
+                4,
+                " — it's 6 percent now compared to a previous level of 11."
+              ]
+            },
+            {
+              "speaker": "BELLA",
+              "parts": [
+                "The suede heels were probably expensive, but someone had worn them in a very wet field — the heels were too stained with ",
+                5,
+                " and grass to re-sell."
+              ]
+            },
+            {
+              "speaker": "DON",
+              "parts": [
+                "The leather ankle boots — one was a much lighter shade than the other. It had obviously been left in the ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "BELLA",
+              "parts": [
+                "The red baby shoes — people often don't ",
+                7,
+                " shoes together when they put them in a recycling bin. The other shoe wasn't there — a shame because they were obviously new."
+              ]
+            },
+            {
+              "speaker": "DON",
+              "parts": [
+                "The trainer sole was so worn you could put your ",
+                8,
+                " through it."
+              ]
+            },
+            {
+              "speaker": "BELLA",
+              "parts": [
+                "People didn't refuse the new shoes because of germs — it was because the pairs of shoes weren't ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "BELLA",
+              "parts": [
+                "You used to consider this topic just from your own perspective, without looking at the bigger ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "that",
+            "uniform",
+            "awful",
+            "fallen",
+            "mud",
+            "sun",
+            "tie",
+            "finger",
+            "identical",
+            "picture"
+          ]
+        },
+        "4": {
+          "scene": "缓步动物生物学研究报告讲座",
+          "sceneEmoji": "🔬",
+          "signpost": [
+            {
+              "quote": "They are also sometimes called 'water bears': 'water' because that's where they thrive best, and 'bear' because of the way they move.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the habitat"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Explaining the common nickname before describing the animal's physical characteristics"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "I should also say that some species don't have any claws; what they have are discs, and these work by means of suction.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a qualifying exception to the claws description before moving to internal anatomy"
+                ],
+                [
+                  "B",
+                  "Contradicting the previous point"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "There's been some interesting research which has found that tardigrades are capable of surviving radiation and very high pressure.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the anatomy"
+                ],
+                [
+                  "B",
+                  "Questioning the earlier description"
+                ],
+                [
+                  "C",
+                  "Introducing the key survival capabilities that make tardigrades remarkable"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "If conditions become too extreme, they enter a state called cryptobiosis.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Introducing the survival mechanism before describing the DNA-protection protein"
+                ],
+                [
+                  "C",
+                  "Concluding the survival section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Finally, I'd like to mention the conservation status of tardigrades.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling the final topic before noting the ironic irrelevance of conservation for such a resilient animal"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Returning to the diet section"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🐻",
+              "title": "What Are Tardigrades?",
+              "items": [
+                [
+                  "Near-microscopic animals — 0.05 to 1.2 mm in length; named Tardigrada (meaning '",
+                  {
+                    "b": 1
+                  },
+                  " walker')"
+                ],
+                [
+                  "Body: short and rounded — a bit like a barrel; four ",
+                  {
+                    "b": 1
+                  },
+                  ", each with 4–8 sharp claws"
+                ],
+                [
+                  "Some species have ",
+                  {
+                    "b": 1
+                  },
+                  " instead of claws — these work by suction"
+                ]
+              ]
+            },
+            {
+              "emoji": "🫁",
+              "title": "Internal Anatomy",
+              "items": [
+                [
+                  "No lungs or breathing organs — ",
+                  {
+                    "b": 1
+                  },
+                  " transported in fluid filling the body cavity"
+                ],
+                [
+                  "Mouth is a tube that opens outwards to reveal ",
+                  {
+                    "b": 1
+                  },
+                  "teeth-like structures"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌡️",
+              "title": "Survival Abilities",
+              "items": [
+                [
+                  "Can survive radiation, extreme pressure, and ",
+                  {
+                    "b": 1
+                  },
+                  " ranging from −200°C to +148°C"
+                ],
+                [
+                  "Cryptobiosis: curl into a ball ('tun'), retract head and legs — metabolism drops below 1%"
+                ],
+                [
+                  "Produce a ",
+                  {
+                    "b": 1
+                  },
+                  " that protects their DNA"
+                ]
+              ]
+            },
+            {
+              "emoji": "🍽️",
+              "title": "Diet",
+              "items": [
+                [
+                  "Consume liquids — suck juices from ",
+                  {
+                    "b": 1
+                  },
+                  ", or extract fluid from seaweed"
+                ],
+                [
+                  "Some species prey on other tardigrades within their own species or from other species"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦠",
+              "title": "Conservation Status",
+              "items": [
+                [
+                  "Estimated to have existed for half a billion years; survived five mass extinctions"
+                ],
+                [
+                  "Not on any ",
+                  {
+                    "b": 1
+                  },
+                  " list — described by researchers as thriving"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "slow",
+            "segments",
+            "discs",
+            "oxygen",
+            "teeth-like",
+            "temperatures",
+            "protein",
+            "moss",
+            "species",
+            "endangered"
+          ],
+          "dictation": [
+            {
+              "speaker": "STUDENT",
+              "parts": [
+                "Tardigrades are near-microscopic animals. They are sometimes called 'water bears' — 'water' because that's where they thrive best, and 'bear' because of the way they ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The body comprises four segments. Each segment has a pair of legs, at the end of which are between four and eight sharp ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some species don't have any claws — what they have are ",
+                3,
+                ", which work by means of suction."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are no lungs or any organs for breathing. Instead, ",
+                4,
+                " and blood are transported in a fluid that fills the cavity of the body."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The tardigrade's mouth is a kind of ",
+                5,
+                " that can open outwards to reveal teeth-like structures."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They're capable of surviving radiation, very high pressure, and ",
+                6,
+                " as cold as −200°C or as high as +148°C."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If conditions become too extreme, they enter cryptobiosis. They curl into a ball called a tun, and their metabolism drops to less than one percent. During this state they produce a ",
+                7,
+                " that protects their DNA."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They consume liquids — sucking the juices from ",
+                8,
+                " or extracting fluid from seaweed. Some species prey on other tardigrades."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They have been in existence for approximately half a billion years and have survived five mass ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They are not on any ",
+                10,
+                " list — some researchers have described them as thriving."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "move",
+            "claws",
+            "discs",
+            "oxygen",
+            "tube",
+            "temperatures",
+            "protein",
+            "moss",
+            "extinctions",
+            "endangered"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 19 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "海港市场区食品购物指引",
+          "sceneEmoji": "🐟",
+          "mcq": [
+            {
+              "q": "What does Leon say about the fish market closing time?",
+              "opts": [
+                [
+                  "A",
+                  "It closes at 3.30"
+                ],
+                [
+                  "B",
+                  "It closes at 4 but you should arrive by 3.30"
+                ],
+                [
+                  "C",
+                  "It closes at 5"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the organic shop called?",
+              "opts": [
+                [
+                  "A",
+                  "Lily"
+                ],
+                [
+                  "B",
+                  "Violet"
+                ],
+                [
+                  "C",
+                  "Rose"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What type of cake does the organic shop sell best?",
+              "opts": [
+                [
+                  "A",
+                  "Chocolate"
+                ],
+                [
+                  "B",
+                  "Lemon"
+                ],
+                [
+                  "C",
+                  "Strawberry tart"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Shannon is going food shopping in Kite Place near the harbour. Leon says there's a good fish market there — it's at the far end of Kite Place, over the bridge and on the right. It closes at 4 but you should get there by 4.30 or it runs out. The organic shop is called Rose and sells vegetables and other items — it's on the ground floor of a big grey building which used to be a warehouse. It's on the left as you go in. There's a minibus to the supermarket and the number is 299. Samphire is a type of plant. The shop sells spices and coconut, strawberry tarts, and home-made white bread.",
+          "errors": [
+            {
+              "wrong": "get there by 4.30",
+              "correct": "get there by 3.30"
+            },
+            {
+              "wrong": "on the left as you go in",
+              "correct": "on the left side of the entrance (same side)"
+            },
+            {
+              "wrong": "the number is 299",
+              "correct": "the number is 289"
+            },
+            {
+              "wrong": "samphire is a type of plant",
+              "correct": "samphire is a type of seaweed"
+            },
+            {
+              "wrong": "home-made white bread",
+              "correct": "home-made bread in lots of variety"
+            },
+            {
+              "wrong": "4.30",
+              "correct": "3.30 (already done)"
+            },
+            {
+              "wrong": "299",
+              "correct": "289 (already done — replace: 'type of plant' → 'type of seaweed')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "LEON",
+              "parts": [
+                "There are plenty of places to buy food in Kite Place — it's the area by the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The fish market is at the far end of Kite Place — go over the ",
+                2,
+                " and it's on the right."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It doesn't close until four, but I'd recommend going earlier — as long as you get there by ",
+                3,
+                ", you should be fine."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a really nice organic shop. It's the name of a flower — it's '",
+                4,
+                "'. It's in a big grey building that used to be a warehouse. Ground floor, on the left side of the entrance."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a big ",
+                5,
+                " on the pavement so you can look for that."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a minibus to the supermarket — it's ",
+                6,
+                " and the number is 289."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Have you ever tried ",
+                7,
+                "? It's a type of seaweed. Just ask for a handful and fry it in butter."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I'm not sure about a mango — they're not always ripe. I'd prefer a ",
+                8,
+                " — it's bigger too."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The owner also sells a lot of spices and things like ",
+                9,
+                " — great for a curry."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They have a whole range of tarts and the best are the ",
+                10,
+                " ones."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "harbour",
+            "bridge",
+            "3.30",
+            "Rose",
+            "sign",
+            "purple",
+            "samphire",
+            "melon",
+            "coconut",
+            "strawberry"
+          ]
+        },
+        "2": {
+          "scene": "儿童图书节活动介绍与阅读建议",
+          "sceneEmoji": "📚",
+          "kwt": [
+            {
+              "original": "'Just do it' is a practical workshop led by the well-known illustrator Mark Keane.",
+              "keyWord": "RENOWNED",
+              "transStart": "The 'Just do it' workshop is led by the",
+              "transEnd": "illustrator Mark Keane, offering participants a magical journey.",
+              "answer": "RENOWNED ILLUSTRATOR",
+              "collocation": "renowned (= famous and respected for a particular quality or skill)"
+            },
+            {
+              "original": "A recent survey revealed that children can be lonely even when they're at home with their families.",
+              "keyWord": "FINDINGS",
+              "transStart": "According to the",
+              "transEnd": "of a recent survey, children may experience loneliness even within their own homes.",
+              "answer": "FINDINGS OF",
+              "collocation": "findings of (= the results or conclusions of a study or investigation)"
+            },
+            {
+              "original": "Often, they'll want to read books they've listened to for themselves.",
+              "keyWord": "ENCOURAGE",
+              "transStart": "Letting children listen to audiobooks can",
+              "transEnd": "them to seek out the written versions independently.",
+              "answer": "ENCOURAGE THEM TO",
+              "collocation": "encourage someone to (= motivate or inspire a person to take a particular action)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Superheroes"
+              },
+              {
+                "num": 2,
+                "left": "Just do it"
+              },
+              {
+                "num": 3,
+                "left": "Count on me"
+              },
+              {
+                "num": 4,
+                "left": "Speak up"
+              },
+              {
+                "num": 5,
+                "left": "Sticks and Stones"
+              }
+            ],
+            "options": [
+              "A.  creative writing workshop — loneliness in young people",
+              "B.  children play steel drums — book about a Jamaican-roots community festival",
+              "C.  role-play with an illustrator — a magical journey to faraway lands",
+              "D.  friendship for 13–14s; compare literary and personal friendships",
+              "E.  deaf children share reading experiences with a hearing-impaired author"
+            ],
+            "answers": [
+              "E",
+              "C",
+              "D",
+              "A",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "'Superheroes' is a chance for deaf children to share their reading experiences with author Madeleine Gordon, who is herself hearing ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Just do it' is led by the well-known ",
+                2,
+                " Mark Keane. He'll take participants on a magical journey to faraway lands with an opportunity for role play."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Count on me' looks at friendship for 13–14-year-olds — comparing friendships described in popular books with their own ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Speak up' is a creative writing workshop encouraging children to describe situations where young people experience ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Sticks and Stones' is about a community organising an African-Caribbean festival. Children will have the chance to play steel ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "My recommended book: 'Alive and Kicking' — the teenage ",
+                6,
+                " of a boy from Somalia who comes to live in the UK."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It deals with the serious issue of ",
+                7,
+                " and all the challenges the boy faces at school and with the language barrier."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's usually books like this are quite sad — but this one actually made me cry with ",
+                8,
+                ". There are simple but hilarious black and white stick drawings."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A lot of parents give up reading aloud to their children as soon as they learn to read independently — but this is a mistake. Read more advanced books to help develop their ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Let children listen to audio books — often they'll want to read books they've listened to for ",
+                10,
+                ". Introduce new authors and genres — librarians can help."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "impaired",
+            "illustrator",
+            "experiences",
+            "loneliness",
+            "drums",
+            "diary",
+            "immigration",
+            "laughter",
+            "vocabulary",
+            "themselves"
+          ]
+        },
+        "3": {
+          "scene": "老鼠饮食实验设计讨论",
+          "sceneEmoji": "🐭",
+          "functions": "A  Identifying a research obstacle    B  Proposing a research focus    C  Noting a limitation of experimental findings    D  Suggesting a follow-up variable    E  Describing a procedural detail",
+          "pragmatic": [
+            {
+              "quote": "Your methodology would involve the children recording what they eat — but you'd also need access to their medical records, and I don't think people would be happy about that: confidentiality would be an issue.",
+              "speaker": "Jake",
+              "answer": "A"
+            },
+            {
+              "quote": "But if we found out that a particular diet affects the health of animals, the same thing wouldn't necessarily be true for people, would it?",
+              "speaker": "Clare",
+              "answer": "C"
+            },
+            {
+              "quote": "Maybe the focus could be on whether mice can control their own diet — what happens when they have access to more sugar than they need? Do they eat it or leave it?",
+              "speaker": "Clare",
+              "answer": "B"
+            },
+            {
+              "quote": "You could give some of the mice the chance to be more active, running on a wheel, and the others just sit around — and compare the results.",
+              "speaker": "Jake",
+              "answer": "D"
+            },
+            {
+              "quote": "You could use food colouring — that wouldn't hurt them, and it would allow you to tell the two groups apart.",
+              "speaker": "Jake",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🔬",
+              "title": "Research Question",
+              "items": [
+                [
+                  "Focus: whether mice can control their own diet when given access to more ",
+                  {
+                    "b": 1
+                  },
+                  " than they need"
+                ],
+                [
+                  "Rats vs mice: for experiments, you need specially-bred ",
+                  {
+                    "b": 1
+                  },
+                  " mice"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐭",
+              "title": "Setting Up the Experiment",
+              "items": [
+                [
+                  "12 young mice (all the same age, not a mixture) — 2 equal groups of ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Tell the groups apart using food ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Group A (control): ordinary mouse food (dry ",
+                  {
+                    "b": 1
+                  },
+                  ")"
+                ],
+                [
+                  "Group B: same food plus extra ",
+                  {
+                    "b": 1
+                  },
+                  " — mixed with cereal"
+                ]
+              ]
+            },
+            {
+              "emoji": "📏",
+              "title": "Measurements",
+              "items": [
+                [
+                  "Weigh the mice ",
+                  {
+                    "b": 1
+                  },
+                  " a week using an electronic balance"
+                ],
+                [
+                  "Use a weighing ",
+                  {
+                    "b": 1
+                  },
+                  " (e.g. a plastic box with holes) to prevent mice escaping"
+                ],
+                [
+                  "Calculate average ",
+                  {
+                    "b": 1
+                  },
+                  " gain for each group; then standard deviation"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Possible Follow-Up",
+              "items": [
+                [
+                  "Add another variable: give some mice the chance to run on a ",
+                  {
+                    "b": 1
+                  },
+                  " while others are inactive"
+                ],
+                [
+                  "Alternatively: change type of food provided OR use mice with different ",
+                  {
+                    "b": 1
+                  },
+                  " structure"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "sugar",
+            "experimental",
+            "six",
+            "colouring",
+            "pellets",
+            "sugar",
+            "once",
+            "chamber",
+            "weight",
+            "wheel",
+            "genetic"
+          ],
+          "dictation": [
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "You'd need to have access to the children's medical records — I don't think people would be happy about that. Confidentiality would be an ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "For an animal experiment, you'd need to submit an outline and fill in a ",
+                2,
+                ", but it's quite straightforward."
+              ]
+            },
+            {
+              "speaker": "CLARE",
+              "parts": [
+                "If we found that a particular diet affects the health of animals, the same thing wouldn't necessarily be true for ",
+                3,
+                ", would it?"
+              ]
+            },
+            {
+              "speaker": "CLARE",
+              "parts": [
+                "Maybe the focus could be on whether mice can control their own diet. What happens when they have access to more ",
+                4,
+                " than they need?"
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "You could give some of the mice the chance to be more active — running on a wheel — and others just sit around. That would be a useful additional ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "I'd say about 12 mice. And all young ones, not a mixture of old and ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "You could use food ",
+                7,
+                " — that wouldn't hurt them. Then each group goes into a separate cage."
+              ]
+            },
+            {
+              "speaker": "CLARE",
+              "parts": [
+                "Group A would be the control group — just ordinary mouse food, in dry ",
+                8,
+                ". Group B would have the same plus extra sugar mixed with cereal."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "You'd need to weigh the mice — once a week. You need a weighing ",
+                9,
+                " to stop them from running away — a plastic box with holes in the top."
+              ]
+            },
+            {
+              "speaker": "CLARE",
+              "parts": [
+                "Once we've measured the weight gain of each mouse, we can work out the average for each group, as well as the standard ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "issue",
+            "form",
+            "people",
+            "sugar",
+            "variable",
+            "young",
+            "colouring",
+            "pellets",
+            "chamber",
+            "deviation"
+          ]
+        },
+        "4": {
+          "scene": "微塑料对土壤与蚯蚓影响讲座",
+          "sceneEmoji": "🌍",
+          "signpost": [
+            {
+              "quote": "Threads and microfibres detach from synthetic clothing every time they're put in a washing machine and find their way into the water system.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Providing the first and most common route by which microplastics enter the environment"
+                ],
+                [
+                  "C",
+                  "Summarising all sources"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Surprisingly perhaps, it is likely that humans consume microplastics, as these have been detected in bottled water as well as tap water.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the impact"
+                ],
+                [
+                  "B",
+                  "Introducing an unexpected human exposure finding before contextualising it with other sources"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It is very difficult to accurately estimate the total amount of microplastic particles in the soil.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Summarising the human risk section"
+                ],
+                [
+                  "C",
+                  "Acknowledging a methodological challenge before describing what is known"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "A team from Anglia Ruskin University carried out a study of the effects of microplastics on the digestive tracts of earthworms.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a specific research study before describing its methods and conclusions"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising all impacts"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "The conclusions of the study make for very interesting reading.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling a shift to the authors' broader conclusions before presenting the key proposal"
+                ],
+                [
+                  "B",
+                  "Questioning the study"
+                ],
+                [
+                  "C",
+                  "Repeating the findings"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🔗",
+              "title": "Sources of Microplastics in the Environment",
+              "items": [
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " from synthetic clothing — enter water system via washing machines"
+                ],
+                [
+                  "Large plastic waste breaks down into microscopic ",
+                  {
+                    "b": 1
+                  },
+                  " over time"
+                ],
+                [
+                  "Factory waste; tyres wearing down on road surfaces"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐟",
+              "title": "Known Effects on Animals",
+              "items": [
+                [
+                  "Damage to animals' ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Impair ability to feed — microplastics get lodged in the ",
+                  {
+                    "b": 1
+                  },
+                  " system"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧂",
+              "title": "Human Exposure",
+              "items": [
+                [
+                  "Found in bottled water, tap water, and also in ",
+                  {
+                    "b": 1
+                  },
+                  " and seafood"
+                ]
+              ]
+            },
+            {
+              "emoji": "🪱",
+              "title": "The Earthworm Study (Anglia Ruskin)",
+              "items": [
+                [
+                  "Earthworms live in topsoil — feed on soil, mixing ",
+                  {
+                    "b": 1
+                  },
+                  " into it"
+                ],
+                [
+                  "Three types of microplastic particles added to soil; rye grass planted"
+                ],
+                [
+                  "Result: worms lost ",
+                  {
+                    "b": 1
+                  },
+                  " rapidly"
+                ],
+                [
+                  "Lower percentage of rye grass seeds germinated — earthworms unable to fulfil their role"
+                ],
+                [
+                  "Increase in soil ",
+                  {
+                    "b": 1
+                  },
+                  " — attributed mainly to conventional HDPE plastic"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Key Proposal",
+              "items": [
+                [
+                  "Treat soil as any other ",
+                  {
+                    "b": 1
+                  },
+                  " in nature — dependent on decaying matter passed through earthworm bodies"
+                ],
+                [
+                  "Microplastics impoverish soil → negative impact on whole of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "clothing",
+            "particles",
+            "mouths",
+            "digestive",
+            "salt",
+            "nutrients",
+            "weight",
+            "acidity",
+            "process",
+            "society"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Threads and microfibres detach from synthetic ",
+                1,
+                " every time they're put in a washing machine, and find their way into the water system."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Microplastics harm small creatures in a variety of ways — by damaging their ",
+                2,
+                ", or by impairing their ability to feed when microplastics get lodged in their digestive system."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Microplastics have been detected in bottled water, tap water, and also in ",
+                3,
+                " and many kinds of seafood."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There is legislation which prevents manufacturers from adding plastic microbeads to shower gels, facial cleansers and ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Many of the fertilisers used by both farmers and gardeners contain ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Earthworms are an essential component of our agricultural system — by feeding on soil, they mix ",
+                6,
+                " into it, making it more fertile."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The researchers planted perennial rye grass. The microplastic particles were then ingested by the earthworms. The result: the worms lost ",
+                7,
+                " rapidly."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A lower percentage of the rye grass seeds germinated. The team also discovered an increase in the amount of ",
+                8,
+                " found in the soil."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The authors proposed the idea that we need to regard soil as we would regard any other process in nature — dependent on decaying matter passed through the bodies of ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When soil becomes impoverished by the presence of microplastics, not only ecosystems but also the whole of ",
+                10,
+                " are negatively impacted."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "clothing",
+            "mouths",
+            "salt",
+            "toothpaste",
+            "microplastics",
+            "nutrients",
+            "weight",
+            "acid",
+            "earthworms",
+            "society"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 19 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "超市新员工入职任务说明",
+          "sceneEmoji": "🛒",
+          "mcq": [
+            {
+              "q": "Why must Charlotte NOT wash up knives?",
+              "opts": [
+                [
+                  "A",
+                  "They must be kept dry"
+                ],
+                [
+                  "B",
+                  "She needs to complete training before handling sharp objects"
+                ],
+                [
+                  "C",
+                  "There is a specialist team for knives"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What must Charlotte wear when taking items from the cold-room?",
+              "opts": [
+                [
+                  "A",
+                  "A hat"
+                ],
+                [
+                  "B",
+                  "Thermal gloves"
+                ],
+                [
+                  "C",
+                  "An apron"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the HR department located on?",
+              "opts": [
+                [
+                  "A",
+                  "The first floor"
+                ],
+                [
+                  "B",
+                  "The second floor"
+                ],
+                [
+                  "C",
+                  "The third floor"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Charlotte starts her first day at a supermarket. Supervisor Kaeden tells her to show her appointment letter and pick up her badge at the front desk. Then put her coat and rucksack in a locker in the staffroom, and keep the key. Show her passport to the HR department on the third floor; Tiffany will give her a uniform. Charlotte's tasks include checking sell-by dates in the bakery section. Items with today's date get a yellow price label next to the original. On the sushi counter, she needs to bring more folded boxes from the storeroom and clean the sink. On the meat and fish counter, she wipes weighing scales and gets more water from the cold-room when the ice melts.",
+          "errors": [
+            {
+              "wrong": "keep the key",
+              "correct": "leave the key in the door at the end of the day for the next person"
+            },
+            {
+              "wrong": "her passport",
+              "correct": "her passport or ID card"
+            },
+            {
+              "wrong": "clean the sink",
+              "correct": "clean the preparation area and the sink"
+            },
+            {
+              "wrong": "more water",
+              "correct": "more ice"
+            },
+            {
+              "wrong": "keep the key",
+              "correct": "leave the key in the door (already done)"
+            },
+            {
+              "wrong": "clean the sink",
+              "correct": "clean the preparation area and the sink (already done)"
+            },
+            {
+              "wrong": "more water",
+              "correct": "more ice (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "KAEDEN",
+              "parts": [
+                "My name's ",
+                1,
+                ". K-A-E-D-E-N, in case you ever need to write it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Put your coat and rucksack in one of the ",
+                2,
+                " in the staffroom. At the end of the day, leave the key in the door for the next person."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You need to go to the HR department. You were told to bring your ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Tiffany will give you a ",
+                4,
+                ". They have lots in different sizes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "HR are on the ",
+                5,
+                " floor — there's a staircase outside the staffroom."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "My phone number: it's 0412 double-six-5 ",
+                6,
+                "-oh-3."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If any of the sell-by dates are today's, put a ",
+                7,
+                " price label on the packaging next to the original."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On the sushi counter: you'll see flat cardboard boxes at one end. Beneath those is where we keep the ",
+                8,
+                " boxes — bring more from the storeroom."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The fish is laid on ",
+                9,
+                ", but when that starts to melt, you'll need to get more from the cold-room."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Make sure you put on thermal ",
+                10,
+                " when you take anything out of the cold-room — the temperature's low enough for frostbite."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Kaeden",
+            "lockers",
+            "passport",
+            "uniform",
+            "third",
+            "903",
+            "yellow",
+            "plastic",
+            "ice",
+            "gloves"
+          ]
+        },
+        "2": {
+          "scene": "跑步教练播客——入门跑步建议",
+          "sceneEmoji": "🏃",
+          "kwt": [
+            {
+              "original": "They don't work for everyone — especially if you suffer from something like a heart condition or asthma.",
+              "keyWord": "SUITED",
+              "transStart": "Generic 5km training programmes are not",
+              "transEnd": "for people with specific health conditions such as asthma or heart problems.",
+              "answer": "SUITED TO EVERYONE",
+              "collocation": "suited to (= appropriate for a particular person or situation)"
+            },
+            {
+              "original": "You should run at a speed that feels comfortable, but time yourself and try to run a bit faster each time.",
+              "keyWord": "PROGRESS",
+              "transStart": "Runners should",
+              "transEnd": "by gradually increasing their pace, while ensuring the speed remains comfortable.",
+              "answer": "PROGRESS GRADUALLY",
+              "collocation": "progress gradually (= advance in steps rather than making sudden changes)"
+            },
+            {
+              "original": "I think signing up for a race of whatever length is motivating — because it's good to have something to work towards.",
+              "keyWord": "PROVIDE",
+              "transStart": "Entering a race can",
+              "transEnd": "runners with a clear goal and a sense of achievement.",
+              "answer": "PROVIDE RUNNERS WITH",
+              "collocation": "provide someone with (= supply or offer something to someone)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Ceri"
+              },
+              {
+                "num": 2,
+                "left": "James"
+              },
+              {
+                "num": 3,
+                "left": "Leo"
+              },
+              {
+                "num": 4,
+                "left": "Mark"
+              },
+              {
+                "num": 5,
+                "left": "Liz (the coach)"
+              }
+            ],
+            "options": [
+              "A.  always enjoyed running at school — worried about being the slowest",
+              "B.  thought he hated running — persuaded by a friend, now never misses a session",
+              "C.  completed first marathon at age 37 — kept going by crowd support",
+              "D.  never considered himself sporty — took months to contact the club",
+              "E.  stressed at work — runs for relaxation; now committed to weekly sessions"
+            ],
+            "answers": [
+              "A",
+              "B",
+              "E",
+              "D",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "LIZ",
+              "parts": [
+                "Some training programmes are great — but they don't work for everyone, especially if you suffer from something like a heart condition or ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I find that running very slowly can prevent ",
+                2,
+                ". Run at a comfortable speed, but time yourself and try to run a bit faster each time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Listening to music can be very helpful — it takes your mind off things and helps your body get into a ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Aim to train regularly — twice a week is enough to ",
+                4,
+                " with."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Ceri joined the club at age 40. She'd always enjoyed running at school but wasn't sure if she'd be able to do it — she was worried about being the ",
+                5,
+                " runner."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "James had always hated the idea of running, but a friend encouraged him to come along for a taster session and he hasn't looked back. He never misses a session despite having a really demanding ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Leo was worried about committing to training sessions. After experiencing a lot of ",
+                7,
+                " at work, he came along and gave it a go."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Mark never considered himself a sporty person. It took him months to find the courage to contact the club — but felt reassured immediately as there were other people his ",
+                8,
+                " there."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I did my first marathon when I was 37. I felt like giving up halfway through — it was only the support of the ",
+                9,
+                " that kept me going."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After training for a few weeks, it's worth putting your name down for a 5K. I'd give yourself a couple of ",
+                10,
+                " at least."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "asthma",
+            "progress",
+            "rhythm",
+            "begin",
+            "slowest",
+            "job",
+            "stress",
+            "age",
+            "spectators",
+            "months"
+          ]
+        },
+        "3": {
+          "scene": "书籍保护知识与独立书店结构",
+          "sceneEmoji": "📚",
+          "functions": "A  Sharing a personal memory involving books    B  Expressing sentiment about keeping damaged books    C  Describing a bookshop feature    D  Identifying poor book-handling behaviour    E  Connecting good book storage to book value",
+          "pragmatic": [
+            {
+              "quote": "He says you have to support the spine otherwise the paper can come away from the cover. And pack them flat, not on their side — if you leave them like that for a year, it's hard to get them back to their normal shape.",
+              "speaker": "Jane",
+              "answer": "E"
+            },
+            {
+              "quote": "Some of the books my grandfather's given me are already yellowing. I should dump them really if they're going to deteriorate further, but I'd feel bad — they'll always remind me of him.",
+              "speaker": "Jane",
+              "answer": "B"
+            },
+            {
+              "quote": "I hate seeing students force open the pages of paperbacks. They press so hard they end up breaking the spine.",
+              "speaker": "Kieran",
+              "answer": "D"
+            },
+            {
+              "quote": "He watched me pull a heavy book off the shelf when I was small, and it fell on the floor and broke apart. I can still remember it!",
+              "speaker": "Jane",
+              "answer": "A"
+            },
+            {
+              "quote": "He likes people to know he has rare books — so he puts them out in the shop but makes sure you need a ladder to get them.",
+              "speaker": "Jane",
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📦",
+              "title": "Packing Books for Storage",
+              "items": [
+                [
+                  "Support the ",
+                  {
+                    "b": 1
+                  },
+                  " — otherwise paper can come away from the cover"
+                ],
+                [
+                  "Pack flat (not on their side) — if left on their side for a year, they can permanently ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📖",
+              "title": "Book Condition & Quality",
+              "items": [
+                [
+                  "Acid in the paper causes yellowing — especially in lower-quality ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Hardbacks are different — not as weak as paperbacks, but people don't ",
+                  {
+                    "b": 1
+                  },
+                  " them as much as they used to"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏪",
+              "title": "The Bookshop",
+              "items": [
+                [
+                  "Two floors plus an attic; stocks all kinds of books"
+                ],
+                [
+                  "Rare and valuable books: on display but out of reach — need a ",
+                  {
+                    "b": 1
+                  },
+                  " to get them"
+                ],
+                [
+                  "Children's area on the ground floor with cushions — parents can read to ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Unwanted books: left by the front ",
+                  {
+                    "b": 1
+                  },
+                  " for customers to take"
+                ],
+                [
+                  "Orders/reserved books: kept at the far end, boxed and ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "spine",
+            "bend",
+            "paper",
+            "value",
+            "ladder",
+            "toddlers",
+            "door",
+            "new"
+          ],
+          "dictation": [
+            {
+              "speaker": "JANE",
+              "parts": [
+                "My grandfather says you have to support the ",
+                1,
+                " otherwise the paper can come away from the cover."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "He also told me to pack them flat — if you leave them on their side for, say, a year, it's quite hard to get them back to their normal ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "Some of the books my grandfather's given me are yellowing already. I should dump them really, but I'd feel bad — they'll always remind me of ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "KIERAN",
+              "parts": [
+                "I hate seeing students force open pages of ",
+                4,
+                ". They press so hard they end up breaking the spine."
+              ]
+            },
+            {
+              "speaker": "KIERAN",
+              "parts": [
+                "When I visit someone and they have a colourful book on a ",
+                5,
+                ", it's the first thing I'm drawn to."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "He watched me pull a heavy book off the shelf when I was small, and it fell on the floor and broke ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "He likes people to know he has rare books. So he puts them out in the shop but makes sure you need a ",
+                7,
+                " to get them."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "He's got a dedicated area on the ground floor with cushions so that parents can enter with their ",
+                8,
+                " and spend some time reading to them."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "He hardly ever throws anything away — he just leaves unwanted books by the front ",
+                9,
+                " for customers to take."
+              ]
+            },
+            {
+              "speaker": "JANE",
+              "parts": [
+                "Books that people or institutions have requested go at the far end. He used to keep university textbooks on the first floor but now he's moved them ",
+                10,
+                " to attract students."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "spine",
+            "shape",
+            "him",
+            "paperbacks",
+            "table",
+            "apart",
+            "ladder",
+            "toddlers",
+            "door",
+            "downstairs"
+          ]
+        },
+        "4": {
+          "scene": "植树造林生态恢复讲座",
+          "sceneEmoji": "🌳",
+          "signpost": [
+            {
+              "quote": "When the wrong trees are planted in the wrong place, it can do considerably more damage than good.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Immediately challenging the simplistic view of tree planting before explaining what is needed"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It's crucial that the right trees are selected — a mix of species typical of the local natural forest ecosystem, including rare and endangered species.",
+              "opts": [
+                [
+                  "A",
+                  "Detailing the first requirement of species selection before moving to location"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising all conditions"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Choosing the right location for reforestation projects is as important as choosing the right trees.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing location as a second key principle of equal importance"
+                ],
+                [
+                  "B",
+                  "Repeating the species point"
+                ],
+                [
+                  "C",
+                  "Concluding the selection section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "A good example of where the right trees were picked is in Lampang Province in Thailand.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing an unrelated topic"
+                ],
+                [
+                  "B",
+                  "Questioning the example"
+                ],
+                [
+                  "C",
+                  "Introducing a positive case study to illustrate the principles in practice"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The restoration of mangrove forests in Madagascar is an example of a project which has succeeded in creating real benefits for the community.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a second case study that specifically demonstrates community benefits"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising the Thailand example"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌱",
+              "title": "What Makes Good Tree Selection",
+              "items": [
+                [
+                  "Mix of species typical of local natural forest — include rare and endangered species"
+                ],
+                [
+                  "Avoid non-native, ",
+                  {
+                    "b": 1
+                  },
+                  " species which threaten native species' survival"
+                ],
+                [
+                  "Use seeds with appropriate genetic ",
+                  {
+                    "b": 1
+                  },
+                  " — low diversity makes forests vulnerable to disease"
+                ]
+              ]
+            },
+            {
+              "emoji": "📍",
+              "title": "Location Principles",
+              "items": [
+                [
+                  "Best: formerly forested areas in poor condition"
+                ],
+                [
+                  "Avoid non-forested landscapes (grasslands, wetlands) — they already capture ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Avoid areas used for ",
+                  {
+                    "b": 1
+                  },
+                  " — this often leads to deforestation elsewhere"
+                ],
+                [
+                  "Use ",
+                  {
+                    "b": 1
+                  },
+                  " technology to identify and monitor degraded forest areas"
+                ]
+              ]
+            },
+            {
+              "emoji": "🍃",
+              "title": "Case Study — Lampang Province, Thailand",
+              "items": [
+                [
+                  "Cement company and Chiang Mai University planted 14 native species including several species of ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Figs are a keystone species — they accelerate recovery by attracting animals as natural seed ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "After three rainy seasons, ",
+                  {
+                    "b": 1
+                  },
+                  " arrived to eat fig fruits — dispersing seeds"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦐",
+              "title": "Case Study — Madagascar Mangroves",
+              "items": [
+                [
+                  "Destruction badly affected the ",
+                  {
+                    "b": 1
+                  },
+                  " industry — major source of local employment"
+                ],
+                [
+                  "Local people hired to plant and care for new mangrove trees"
+                ],
+                [
+                  "Millions of trees planted — healthy aquatic ecosystem returned"
+                ],
+                [
+                  "Mangroves act as a defence against ",
+                  {
+                    "b": 1
+                  },
+                  " caused by climate change"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "invasive",
+            "diversity",
+            "carbon",
+            "agriculture",
+            "drone",
+            "fig",
+            "dispersers",
+            "monkeys",
+            "fishing",
+            "flooding"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Invasive species are a significant contributor to the current global ",
+                1,
+                " crisis — often in competition with native species and threatening their long-term survival."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Selecting trees that can contribute to wildlife conservation, improve ",
+                2,
+                " availability for the local community, and maintain soil stability — meeting as many of these goals as possible is the sign of a highly successful scheme."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Using seeds with low genetic diversity generally lowers the resilience of restored forests — making them vulnerable to ",
+                3,
+                " and unable to adapt to climate change."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's better to avoid non-forested landscapes such as natural grasslands or wetlands, as these already contribute greatly to capturing ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Reforesting areas currently exploited for ",
+                5,
+                " should be avoided as this often leads to other areas being deforested."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "",
+                6,
+                " technology is a useful tool in helping to prioritise and monitor areas of degraded forest — in Brazil, it's used to identify Amazon devastation from cattle rearing and illegal logging."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Lampang, Thailand, they planted 14 native species including fig trees. Figs accelerate recovery by attracting animals and birds which act as natural seed ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After only three rainy seasons, ",
+                8,
+                " started visiting to eat the fig fruits, naturally dispersing seeds."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Madagascar, destruction of the mangrove forests badly affected the ",
+                9,
+                " industry — a major source of employment for local people."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The mangroves now also act as a defence against the increased threat of ",
+                10,
+                " caused by climate change."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "biodiversity",
+            "food",
+            "disease",
+            "carbon",
+            "agriculture",
+            "Drone",
+            "dispersers",
+            "monkeys",
+            "fishing",
+            "flooding"
+          ]
+        }
+      }
+    }
+  }
+}

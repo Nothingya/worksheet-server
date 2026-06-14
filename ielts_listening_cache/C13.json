@@ -1,0 +1,3543 @@
+{
+  "bookTitle": "Cambridge IELTS 13 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 13 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "旅游信息中心烹饪课咨询",
+          "sceneEmoji": "🍳",
+          "mcq": [
+            {
+              "q": "What is special about the Food Studio's pricing policy?",
+              "opts": [
+                [
+                  "A",
+                  "First class is free of charge"
+                ],
+                [
+                  "B",
+                  "20% discount if you return for a further class"
+                ],
+                [
+                  "C",
+                  "Group discount for four or more people"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Bond's Cookery School focus on?",
+              "opts": [
+                [
+                  "A",
+                  "Low-calorie weight loss diets"
+                ],
+                [
+                  "B",
+                  "Traditional recipes from around the world"
+                ],
+                [
+                  "C",
+                  "Food for specific health needs, including building strong bones"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "Where is the Arretsa Centre located?",
+              "opts": [
+                [
+                  "A",
+                  "Near the city park"
+                ],
+                [
+                  "B",
+                  "Just by the market"
+                ],
+                [
+                  "C",
+                  "Behind the Tourist Information Centre"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman calls the Tourist Information Centre to ask about cookery classes. The official describes several options. At the Food Studio, classes focus on seasonal products and teach you how to cook and display them. Most people who attend say it's a nice way of getting to know one another. This company offers a discount of 10 percent if you return for a further class. Bond's Cookery School, which opened six months ago, concentrates on teaching healthy food, and focuses on recipes for weight loss. Every Thursday evening they have a free talk at the school at 7.30. The Arretsa Centre specialises mostly in fish dishes, and they also offer a two-hour course in how to use a knife.",
+          "errors": [
+            {
+              "wrong": "display them",
+              "correct": "choose them"
+            },
+            {
+              "wrong": "10 percent",
+              "correct": "20 percent"
+            },
+            {
+              "wrong": "focuses on recipes for weight loss",
+              "correct": "focuses on specific needs like building bones"
+            },
+            {
+              "wrong": "mostly in fish dishes",
+              "correct": "mostly in vegetarian dishes"
+            },
+            {
+              "wrong": "talk",
+              "correct": "lecture"
+            },
+            {
+              "wrong": "display",
+              "correct": "choose (already done)"
+            },
+            {
+              "wrong": "10 percent",
+              "correct": "20 percent (already done — replace: 'mostly in fish' → 'mostly vegetarian')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "There are several classes. At the Food Studio they focus on seasonal products — they teach you how to cook them and how to ",
+                1,
+                " them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They do offer ",
+                2,
+                " lessons. And most people who attend find it's a nice way of getting to know one another."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They offer a ",
+                3,
+                " discount if you return for a further class."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bond's Cookery School just opened six months ago. They concentrate on teaching you to prepare ",
+                4,
+                " food — with recipes that look at specific needs, like including ingredients that will help build up your ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Every Thursday evening they have a ",
+                6,
+                " at the school. It's free and you don't need to book — just turn up at 7.30."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ",
+                7,
+                " Centre specialises mostly in ",
+                8,
+                " dishes, though they do a bit of meat and fish too."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They're right next to the ",
+                9,
+                ", so they have no problem getting their ingredients."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They also offer a special two-hour course in how to use a ",
+                10,
+                " — covering buying them, sharpening, and chopping techniques."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "choose",
+            "private",
+            "20 percent",
+            "healthy",
+            "bones",
+            "lecture",
+            "Arretsa",
+            "vegetarian",
+            "market",
+            "knife"
+          ]
+        },
+        "2": {
+          "scene": "格兰福德交通规划公众会议",
+          "sceneEmoji": "🚦",
+          "kwt": [
+            {
+              "original": "We're very aware that traffic is becoming an increasing problem, especially with the heavy traffic while they've been building the new hospital.",
+              "keyWord": "CONCERN",
+              "transStart": "The rise in all types of traffic, made worse by hospital construction, is",
+              "transEnd": "the council.",
+              "answer": "OF CONCERN TO",
+              "collocation": "of concern to (= something that worries or is important to someone)"
+            },
+            {
+              "original": "We've managed to keep our proposals within budget, just, so they can be covered by the Council.",
+              "keyWord": "FUNDED",
+              "transStart": "The proposed changes will be",
+              "transEnd": "the Council, as costs have been kept within budget.",
+              "answer": "FULLY FUNDED BY",
+              "collocation": "fully funded by (= entirely paid for by an organisation)"
+            },
+            {
+              "original": "We considered putting the pedestrian crossing on School Road, just outside the school, but in the end we decided that could lead to a lot of traffic congestion.",
+              "keyWord": "REJECTED",
+              "transStart": "The option of placing the pedestrian crossing directly outside the school on School Road was",
+              "transEnd": "due to concerns about traffic congestion.",
+              "answer": "FIRMLY REJECTED",
+              "collocation": "firmly rejected (= definitively decided against after careful consideration)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "New traffic lights"
+              },
+              {
+                "num": 2,
+                "left": "Pedestrian crossing"
+              },
+              {
+                "num": 3,
+                "left": "Parking now allowed"
+              },
+              {
+                "num": 4,
+                "left": "New 'No Parking' zone"
+              },
+              {
+                "num": 5,
+                "left": "Two new disabled parking spaces"
+              }
+            ],
+            "options": [
+              "A.  25 metres from school entrance on School Road",
+              "B.  High Street, outside the library",
+              "C.  in front of the High Street supermarket",
+              "D.  side road near the bank",
+              "E.  at the School Road junction with the High Street"
+            ],
+            "answers": [
+              "E",
+              "C",
+              "B",
+              "A",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "PHIL",
+              "parts": [
+                "We're aware that traffic is becoming an increasing problem — especially with the ",
+                1,
+                " traffic during the hospital construction."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our survey found people were very concerned about the lack of ",
+                2,
+                " on some roads due to cars parked along the sides."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've managed to keep our proposals within budget, but we still need a way of making sure that everyone ",
+                3,
+                " them. We're still working on that with the police."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We're planning a new set of traffic lights at the School Road junction, to regulate the flow of traffic along the ",
+                4,
+                " Street."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've decided to put the pedestrian crossing on the High Street, crossing the road in front of the ",
+                5,
+                ". That's a very busy area."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At present, parking isn't allowed on the High Street outside the ",
+                6,
+                ", but we're going to change that and allow parking there."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There'll be a new 'No Parking' sign on School Road, just by the entrance to the school, forbidding parking for 25 metres. This should improve ",
+                7,
+                " for drivers and pedestrians, especially on the bend just to the north."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For disabled drivers, we've got two new disabled parking spaces on the side road up towards the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We plan to widen the ",
+                9,
+                " on School Road by an extra half-metre on the bend, on the same side of the road."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Lorries will only be allowed to ",
+                10,
+                " outside the School Road supermarket before 8 am."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "heavy",
+            "visibility",
+            "obeys",
+            "High",
+            "supermarket",
+            "library",
+            "visibility",
+            "bank",
+            "pavement",
+            "stop"
+          ]
+        },
+        "3": {
+          "scene": "种子萌发实验方案讨论",
+          "sceneEmoji": "🌱",
+          "functions": "A  Identifying an advantage    B  Raising a concern    C  Consulting a source    D  Proposing a design change    E  Discussing a limitation",
+          "pragmatic": [
+            {
+              "quote": "A lot of the other possible experiments need quite a bit longer — so that makes this a good one to choose.",
+              "speaker": "Emma",
+              "answer": "A"
+            },
+            {
+              "quote": "We need to be sure we're the only ones doing it — it'd be a bit boring if everyone was doing the same topic.",
+              "speaker": "Jack",
+              "answer": "B"
+            },
+            {
+              "quote": "Did you read the book on seed germination by Graves? I found it quite hard to follow — lots about theory, which I hadn't expected.",
+              "speaker": "Emma",
+              "answer": "C"
+            },
+            {
+              "quote": "Lee Hall's article — I knew a bit about seeds that lie in the ground and only germinate after a fire, but not about this research.",
+              "speaker": "Jack",
+              "answer": "C"
+            },
+            {
+              "quote": "We might need a different pot for each seed — I don't think we can plant several seeds together in the same pot.",
+              "speaker": "Emma",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎯",
+              "title": "Research Aim",
+              "items": [
+                [
+                  "Investigate the relationship between seed ",
+                  {
+                    "b": 1
+                  },
+                  " and the way seeds are planted"
+                ],
+                [
+                  "See which grow best when planted at different ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Reading",
+              "items": [
+                [
+                  "Graves — book on seed germination: hard to follow; lots of ",
+                  {
+                    "b": 1
+                  },
+                  " not much practical"
+                ],
+                [
+                  "Lee Hall — article on seeds that germinate after ",
+                  {
+                    "b": 1
+                  },
+                  "; impressive statistical analysis"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Procedure",
+              "items": [
+                [
+                  "Choose about ",
+                  {
+                    "b": 1
+                  },
+                  " different vegetable seeds of different sizes"
+                ],
+                [
+                  "Record each seed's weight and ",
+                  {
+                    "b": 1
+                  },
+                  " (keep careful records)"
+                ],
+                [
+                  "Decide how ",
+                  {
+                    "b": 1
+                  },
+                  " to plant each seed"
+                ],
+                [
+                  "Use a separate plant pot for each seed — label with coloured ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📊",
+              "title": "After Germination (~3 weeks)",
+              "items": [
+                [
+                  "Record how tall each plant has grown"
+                ],
+                [
+                  "Look for any relationship between seed size and how it was ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "size",
+            "depths",
+            "theory",
+            "fire",
+            "four",
+            "dimensions",
+            "deep",
+            "labels",
+            "planted"
+          ],
+          "dictation": [
+            {
+              "speaker": "JACK",
+              "parts": [
+                "I thought we could look at seed ",
+                1,
+                " — how a seed begins to grow. We could plant different-sized seeds in different ways and see which grow best."
+              ]
+            },
+            {
+              "speaker": "EMMA",
+              "parts": [
+                "A lot of the other possible experiments need quite a bit longer, so that makes this a good one to ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "We need to have a word with the tutor — we need to be sure we're the only ones doing it. The assignment's only five percent of our final ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "EMMA",
+              "parts": [
+                "Did you read the book on seed germination by Graves? I found it quite hard to follow — lots about the ",
+                4,
+                ", which I hadn't expected."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "It does include references to the recent findings on genetically-modified seeds. I also read an article by Lee Hall — about seeds that lie in the ground for ages and only germinate after a ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "His analysis of figures comparing the times of the fires and the proportion of seeds that germinated was done in a lot of detail — very ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "First we need to find our seeds. I think vegetable seeds would be best. We need about four different kinds. Then for each seed we need to find out how much it ",
+                7,
+                ", and measure its dimensions."
+              ]
+            },
+            {
+              "speaker": "EMMA",
+              "parts": [
+                "And we need to decide how ",
+                8,
+                " we're going to plant the seeds."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "Do you think we can plant several seeds together in the same plant pot?"
+              ]
+            },
+            {
+              "speaker": "EMMA",
+              "parts": [
+                "No, I think we need a different one for each seed. We'll need to ",
+                9,
+                " them using different coloured labels."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "Then we wait about three weeks for the seeds to germinate. We write down how ",
+                10,
+                " they've grown, and look at whether there's any relation between the numbers."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "germination",
+            "choose",
+            "mark",
+            "theory",
+            "fire",
+            "impressive",
+            "weighs",
+            "deep",
+            "label",
+            "tall"
+          ]
+        },
+        "4": {
+          "scene": "城市动物适应性研究讲座",
+          "sceneEmoji": "🐦",
+          "signpost": [
+            {
+              "quote": "We used to think that only a few species could adapt to this new environment. One species which is well known as being highly adaptable is the crow.",
+              "opts": [
+                [
+                  "A",
+                  "Contrasting old assumptions with new findings before presenting specific cases"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One thing that researchers are finding especially interesting is the speed with which they're doing this — we're not talking about gradual evolution here.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the value of the research"
+                ],
+                [
+                  "B",
+                  "Highlighting the surprising rapidity of urban adaptation as the key research focus"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But there's one type of situation that does seem to frighten the urban blackbirds, and that's anything new — anything they haven't experienced before.",
+              "opts": [
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "A",
+                  "Introducing an unexpected qualification to the finding about urban boldness"
+                ],
+                [
+                  "C",
+                  "Concluding the species section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Jonathan Atwell is looking at how a range of animals respond to urban environments. He's found that when they're under stress, their endocrine systems react by reducing the amount of hormones.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a third study on a different type of adaptation — physiological rather than behavioural"
+                ],
+                [
+                  "B",
+                  "Contradicting the previous studies"
+                ],
+                [
+                  "C",
+                  "Providing an example of cognitive change"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One possibility is that we may see completely new species developing in cities. But on the other hand, it's possible that not all of these adaptations will be permanent.",
+              "opts": [
+                [
+                  "A",
+                  "Presenting two contrasting long-term possibilities before leaving the question open"
+                ],
+                [
+                  "B",
+                  "Concluding definitively"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🐦",
+              "title": "Early Urban Adapters",
+              "items": [
+                [
+                  "Crow: well known for learning new skills"
+                ],
+                [
+                  "Pigeon: can perch on building ledges, just as they once perched on ",
+                  {
+                    "b": 1
+                  },
+                  " by the sea"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧠",
+              "title": "Brain Size Study (Snell-Rood, Minnesota)",
+              "items": [
+                [
+                  "Looked at urban small mammals — mice and gophers — collected over 100 years"
+                ],
+                [
+                  "Found a jump in ",
+                  {
+                    "b": 1
+                  },
+                  " size compared to rural mammals"
+                ],
+                [
+                  "Suggests cognitive demands of city life — finding ",
+                  {
+                    "b": 1
+                  },
+                  " in new places, coping with new dangers"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐦",
+              "title": "Blackbird Behaviour (Miranda, Max Planck)",
+              "items": [
+                [
+                  "Urban blackbirds are bold — prepared to face ",
+                  {
+                    "b": 1
+                  },
+                  " that would frighten rural counterparts"
+                ],
+                [
+                  "But they are frightened by anything ",
+                  {
+                    "b": 1
+                  },
+                  " — anything they haven't seen before"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚡",
+              "title": "Hormone Reduction (Atwell, Indiana)",
+              "items": [
+                [
+                  "Under ",
+                  {
+                    "b": 1
+                  },
+                  ", urban animals reduce hormones like corticosterone"
+                ],
+                [
+                  "Prevents constant overreaction to normal city stimuli like subway trains"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐿️",
+              "title": "Squirrel Communication (Partan)",
+              "items": [
+                [
+                  "Squirrels communicate by waving their ",
+                  {
+                    "b": 1
+                  },
+                  " — more common in cities than in the country"
+                ],
+                [
+                  "Possibly because it's effective in a ",
+                  {
+                    "b": 1
+                  },
+                  " environment"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "cliffs",
+            "brain",
+            "food",
+            "threats",
+            "new",
+            "stress",
+            "tails",
+            "noisy"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Urban environments represent huge upheavals — the sorts of massive changes that usually happen over millions of years. One species well known as being highly adaptable is the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Pigeons are successful because they're able to perch on ledges on city buildings, just like they once perched on ",
+                2,
+                " by the sea."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We're now finding that animals are changing fast — much faster than gradual evolution. One thing researchers find especially interesting is the ",
+                3,
+                " of this change."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Emilie Snell-Rood looked at specimens of small mammals collected over the last 100 years. She found that urban mammals had experienced a jump in ",
+                4,
+                " size compared to rural mammals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Snell-Rood thinks this might reflect the cognitive demands of adjusting to city life — having to look in different places to find ",
+                5,
+                ", and coping with a new set of dangers."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Catarina Miranda found that urban blackbirds are bold — prepared to face threats that would frighten their country counterparts. But they are frightened by anything ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Jonathan Atwell found that when animals are under ",
+                7,
+                ", their endocrine systems react by reducing the amount of hormones. A rat that gets scared every time a subway train rolls past won't be very successful."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Sarah Partan found that squirrels in urban environments communicate by waving their ",
+                8,
+                " — much more common in cities, possibly because it's effective in a noisy environment."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One possibility is that we may see completely new species developing in cities. But it's also possible that not all of these adaptations will be ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Once the animal's got accustomed to its new environment, it may no longer need the features it's developed — suggesting these changes may not always be ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "crow",
+            "cliffs",
+            "speed",
+            "brain",
+            "food",
+            "new",
+            "stress",
+            "tails",
+            "permanent",
+            "permanent"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 13 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "南城市自行车俱乐部会员咨询",
+          "sceneEmoji": "🚴",
+          "mcq": [
+            {
+              "q": "What does the Full membership cover?",
+              "opts": [
+                [
+                  "A",
+                  "Cycling for leisure and recreation only"
+                ],
+                [
+                  "B",
+                  "Ordinary cycling and races both locally and across Australia"
+                ],
+                [
+                  "C",
+                  "Cycling coaching and training courses"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Recreational membership include?",
+              "opts": [
+                [
+                  "A",
+                  "Club fee, insurance, and permission to wear the club kit"
+                ],
+                [
+                  "B",
+                  "Club fee only"
+                ],
+                [
+                  "C",
+                  "Racing rights and insurance"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "Where is the meeting point for the Level B Thursday ride?",
+              "opts": [
+                [
+                  "A",
+                  "The stadium"
+                ],
+                [
+                  "B",
+                  "The main gate of the park"
+                ],
+                [
+                  "C",
+                  "The town centre"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman calls the South City Cycling Club to ask about membership. Jim Hunter explains that Full membership costs 260 dollars and covers ordinary cycling and national races. Recreational membership costs 108 dollars for those over 19 and includes the club fee of 25 dollars and insurance. The club kit is green and white and can be bought at the club office. The company that makes it is called Jerriz. Level B training rides are for cyclists who can go at about 25 kilometres per hour. The Tuesday ride starts at 5.30 am at the park, and the Thursday ride starts at the same time at the stadium.",
+          "errors": [
+            {
+              "wrong": "national races",
+              "correct": "races in the city and other parts of Australia"
+            },
+            {
+              "wrong": "club fee of 25 dollars",
+              "correct": "club fee of 20 dollars"
+            },
+            {
+              "wrong": "bought at the club office",
+              "correct": "ordered online from Jerriz"
+            },
+            {
+              "wrong": "Tuesday ride: park",
+              "correct": "Tuesday ride: stadium"
+            },
+            {
+              "wrong": "Thursday ride: stadium",
+              "correct": "Thursday ride: park"
+            },
+            {
+              "wrong": "national races",
+              "correct": "races in Australia (already done)"
+            },
+            {
+              "wrong": "club fee of 25",
+              "correct": "club fee of 20 (already done — replace: Tuesday park → Tuesday stadium)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "JIM",
+              "parts": [
+                "There are two types of adult membership. Full membership costs 260 dollars and covers you for ordinary cycling and also for ",
+                1,
+                " here in the city and in other parts of Australia."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Recreational membership costs 108 dollars if you're over 19. Both types include the club fee of 20 dollars and ",
+                2,
+                " in case you have an accident."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Once you're a member, you can wear the club kit. It's made to order by a company called ",
+                3,
+                " — J-E-R-R-I-Z. Use your membership number to order on their website."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Level B training rides are for cyclists who can do about ",
+                4,
+                " kilometres an hour. For Level B there are two sessions a week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Tuesday ride: you meet at 5.30 am at the ",
+                5,
+                ". The Thursday ride starts at the same time but they meet at the main gate of the ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After the ride, the members often go somewhere for ",
+                7,
+                ", so it's quite a social event."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Sometimes there's a ride ",
+                8,
+                ", but not always — the group members support each other anyway."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ",
+                9,
+                " for each ride is clearly marked on the club website — just print it out and take it along."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bring a bottle of water and your phone. In winter you need to make sure your bike has got ",
+                10,
+                ", as it's well before sunrise when you set out."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "races",
+            "insurance",
+            "Jerriz",
+            "25",
+            "stadium",
+            "park",
+            "coffee",
+            "leader",
+            "route",
+            "lights"
+          ]
+        },
+        "2": {
+          "scene": "公司志愿服务项目员工会议",
+          "sceneEmoji": "🤝",
+          "kwt": [
+            {
+              "original": "The company will pay for eight hours of your time. That can be used over one or two days all at once, or spread over several months throughout the year.",
+              "keyWord": "DISTRIBUTE",
+              "transStart": "Staff may",
+              "transEnd": "their eight paid volunteering hours across one or two days or throughout the year.",
+              "answer": "FREELY DISTRIBUTE",
+              "collocation": "freely distribute (= spread or divide something at one's own discretion)"
+            },
+            {
+              "original": "Because they felt they were doing something really useful, nearly everyone agreed that volunteering made them feel more motivated at work.",
+              "keyWord": "SENSE",
+              "transStart": "Staff reported that the feeling of doing something genuinely useful gave them",
+              "transEnd": "of purpose that improved their motivation at work.",
+              "answer": "A SENSE OF",
+              "collocation": "a sense of purpose (= a feeling that one's work is meaningful)"
+            },
+            {
+              "original": "Instead of hosting the event in our own training facility, we're using the ICT suite at Hill College, as it can hold far more people.",
+              "keyWord": "ACCOMMODATE",
+              "transStart": "Hill College's ICT suite has been chosen because it can",
+              "transEnd": "a significantly larger number of participants than the company's own facility.",
+              "answer": "EASILY ACCOMMODATE",
+              "collocation": "easily accommodate (= comfortably have space for a larger number)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Get Working Project"
+              },
+              {
+                "num": 2,
+                "left": "Reading project in schools"
+              },
+              {
+                "num": 3,
+                "left": "Redfern Park conservation project"
+              },
+              {
+                "num": 4,
+                "left": "Digital Inclusion Day"
+              },
+              {
+                "num": 5,
+                "left": "Working with local charities"
+              }
+            ],
+            "options": [
+              "A.  continuing; part of usual education & training focus",
+              "B.  new this year; outdoor work",
+              "C.  helped unemployed people improve telephone skills",
+              "D.  held at Hill College ICT suite this year; for older people",
+              "E.  continuing; education & training focus"
+            ],
+            "answers": [
+              "C",
+              "A",
+              "B",
+              "D",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "The idea is that we allow staff to give up some of their work time to help on charity projects. The company will pay for ",
+                1,
+                " hours of your time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Nearly everyone agreed that volunteering made them feel more ",
+                2,
+                " at work — they liked building relationships with people in the local community."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One particularly successful project was the Get Working Project — helping unemployed people get back to work. Our staff helped them improve their telephone ",
+                3,
+                ", which many employers look for."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've mainly focused on ",
+                4,
+                " and training projects. We'll continue with our reading project in schools and our work with local charities."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've also agreed to help out on a conservation project in Redfern ",
+                5,
+                ". If any of you fancy being outside and getting your hands dirty, this is the project for you."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The annual Digital Inclusion Day, coming up next month, aims to help ",
+                6,
+                " people keep up with technology."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Instead of our own training facility, we're using the ICT suite at ",
+                7,
+                " College, as it can hold far more people."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've invited over 60 people from the Silver Age Community Centre to take part. You'll be paired with an experienced ",
+                8,
+                " if you've never done it before."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Participants said they felt more ",
+                9,
+                " about using social media to keep in touch with their grandchildren, who prefer this to phoning or emailing."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Many said playing online games would help them make new ",
+                10,
+                " and keep their brains active."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "eight",
+            "motivated",
+            "skills",
+            "education",
+            "Park",
+            "older",
+            "Hill",
+            "volunteer",
+            "confident",
+            "friends"
+          ]
+        },
+        "3": {
+          "scene": "纳米技术课堂演示辅导教程",
+          "sceneEmoji": "⚛️",
+          "functions": "A  Making a recommendation    B  Questioning an approach    C  Describing a risk    D  Giving positive feedback    E  Identifying a structural weakness",
+          "pragmatic": [
+            {
+              "quote": "I think that would be a good idea — focusing on nanotechnology's impact in one particular area, like medicine or space exploration.",
+              "speaker": "Tutor",
+              "answer": "A"
+            },
+            {
+              "quote": "There's a danger of tailoring what you say to fit whatever slides you can find — you might find it better to leave them out.",
+              "speaker": "Tutor",
+              "answer": "C"
+            },
+            {
+              "quote": "That would be fine if you had an hour or two, but you might find that you can't do anything with the answers you get — it simply eats into the short time available.",
+              "speaker": "Tutor",
+              "answer": "B"
+            },
+            {
+              "quote": "With regard to the structure, I felt that you ended rather abruptly, without rounding it off.",
+              "speaker": "Tutor",
+              "answer": "E"
+            },
+            {
+              "quote": "I must say the handouts you prepared were well thought out — a good summary of your presentation which people would be able to refer to later.",
+              "speaker": "Tutor",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💡",
+              "title": "Planning the Presentation",
+              "items": [
+                [
+                  "Choice: chronological overview OR applications by area OR focus on one ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Agreed: focus on ",
+                  {
+                    "b": 1
+                  },
+                  " impact in one area (e.g. medicine, space)"
+                ],
+                [
+                  "Slides: optional — risk of tailoring content to fit slides; may be better to leave them ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎯",
+              "title": "Starting the Presentation",
+              "items": [
+                [
+                  "Don't ask audience what they know — eats into short ",
+                  {
+                    "b": 1
+                  },
+                  " available"
+                ],
+                [
+                  "Instead: mention a specific application to focus people's ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Planning Process",
+              "items": [
+                [
+                  "Ignore all notes; write one short ",
+                  {
+                    "b": 1
+                  },
+                  " that ties together the whole presentation"
+                ],
+                [
+                  "Plan content ",
+                  {
+                    "b": 1
+                  },
+                  " that sentence; modify later if needed"
+                ]
+              ]
+            },
+            {
+              "emoji": "✅",
+              "title": "Feedback on Previous Presentation",
+              "items": [
+                [
+                  "Structure: ended too ",
+                  {
+                    "b": 1
+                  },
+                  " — needs a proper rounding off"
+                ],
+                [
+                  "Delivery: very little eye ",
+                  {
+                    "b": 1
+                  },
+                  " — was looking down at notes"
+                ],
+                [
+                  "Body language: turned ",
+                  {
+                    "b": 1
+                  },
+                  " on audience when showing slides"
+                ],
+                [
+                  "Language: explained technical terms well — no difficulty for the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "👍",
+              "title": "Strengths",
+              "items": [
+                [
+                  "Handouts were well ",
+                  {
+                    "b": 1
+                  },
+                  " — a good summary people could refer to later"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "area",
+            "medicine/one",
+            "out",
+            "time",
+            "attention",
+            "sentence",
+            "around",
+            "abruptly",
+            "contact",
+            "back",
+            "audience",
+            "thought"
+          ],
+          "dictation": [
+            {
+              "speaker": "RUSS",
+              "parts": [
+                "I've read so much about nanotechnology — in a way there's too much to say. Should I assume the other students don't know much and give them a general ",
+                1,
+                "?"
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "One way would be to focus on its impact in one particular area — say medicine or space ",
+                2,
+                ". I think that would be a good idea."
+              ]
+            },
+            {
+              "speaker": "RUSS",
+              "parts": [
+                "How important is it to include ",
+                3,
+                " in the presentation?"
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "There's a danger of tailoring what you say to fit whatever slides you can find. You might find it better to leave them ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "RUSS",
+              "parts": [
+                "I thought about asking the audience what they know about nanotechnology."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "That would be fine if you had more time, but it simply eats into the short ",
+                5,
+                " that's available. Better to mention a specific way that nanotechnology is used to focus people's ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Initially, ignore all the notes you've made. Take a small piece of paper and write a single short ",
+                7,
+                " that ties together the whole presentation. Then plan the content around that."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Regarding your previous presentation: with regard to the structure, you ended rather ",
+                8,
+                ", without rounding it off. And you made very little eye ",
+                9,
+                " with the audience."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Your body language was a little odd. Every time you showed a slide, you turned your ",
+                10,
+                " on the audience to look at it."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "The handouts you prepared were well thought out — a good ",
+                11,
+                " of your presentation that people could refer to later. Well done on that."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "introduction",
+            "exploration",
+            "slides",
+            "out",
+            "time",
+            "attention",
+            "sentence",
+            "abruptly",
+            "contact",
+            "back",
+            "summary"
+          ]
+        },
+        "4": {
+          "scene": "情景记忆形成与障碍讲座",
+          "sceneEmoji": "🧠",
+          "signpost": [
+            {
+              "quote": "Episodic memories allow us to mentally travel back in time to an event from the past.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Defining the key concept with a memorable metaphor before contrasting it with another memory type"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Unlike episodic memory, semantic memory isn't dependent on recalling personal experiences.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the lecture"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Highlighting a key difference between the two memory types to clarify the concept"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The degree to which you can successfully encode information depends on the level of attention you give to an event while it's actually happening.",
+              "opts": [
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "A",
+                  "Explaining a key factor that determines encoding effectiveness"
+                ],
+                [
+                  "C",
+                  "Concluding the encoding section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Consolidation makes it possible for you to store memories for later retrieval indefinitely. Forming strong memories depends on the frequency with which you try to retrieve them.",
+              "opts": [
+                [
+                  "A",
+                  "Connecting the consolidation process to long-term memory strength through frequency of retrieval"
+                ],
+                [
+                  "B",
+                  "Questioning the value of consolidation"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Research has shown that treatments that improve memory may also have a positive impact on children's social development.",
+              "opts": [
+                [
+                  "A",
+                  "Connecting episodic memory impairment to social difficulties and linking treatment to dual benefits"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture on a general note"
+                ],
+                [
+                  "C",
+                  "Providing an unrelated finding"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💡",
+              "title": "What is Episodic Memory?",
+              "items": [
+                [
+                  "Memory of a specific event — includes when it happened and the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Example: remembering where you parked vs knowing how a car engine works (semantic)"
+                ]
+              ]
+            },
+            {
+              "emoji": "📥",
+              "title": "Step 1 — Encoding",
+              "items": [
+                [
+                  "Receiving and registering information to create a memory"
+                ],
+                [
+                  "Depends on the level of ",
+                  {
+                    "b": 1
+                  },
+                  " given to an event at the time"
+                ],
+                [
+                  "Strategy helps: e.g. connecting a new ",
+                  {
+                    "b": 1
+                  },
+                  " to someone you know"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔗",
+              "title": "Step 2 — Consolidation",
+              "items": [
+                [
+                  "Strengthening and storing encoded memories — most effective when linked to an existing ",
+                  {
+                    "b": 1
+                  },
+                  " of information"
+                ],
+                [
+                  "Memories can fade if not retrieved with sufficient ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔍",
+              "title": "Step 3 — Retrieval",
+              "items": [
+                [
+                  "Conscious recollection; depends on semantic, olfactory, auditory and visual factors"
+                ],
+                [
+                  "A prompt helps: e.g. the ",
+                  {
+                    "b": 1
+                  },
+                  " of a sign near where you parked"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚕️",
+              "title": "Disorders Affecting Episodic Memory",
+              "items": [
+                [
+                  "Schizophrenia: symptoms controlled by medication but episodic memory still impaired — can't return to ",
+                  {
+                    "b": 1
+                  },
+                  " or work"
+                ],
+                [
+                  "Computer-based games can help improve episodic memory"
+                ],
+                [
+                  "Autism: episodic memory problems may be linked to absence of a sense of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "location",
+            "attention",
+            "name",
+            "network",
+            "frequency",
+            "colour",
+            "university",
+            "self"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Episodic memory refers to the memory of an event or 'episode'. Episodic memories allow us to mentally travel back in time. They include various details — when an event happened and the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Episodic memory is distinct from semantic memory — the type of factual memory we have in common with everyone else. Unlike episodic memory, semantic memory isn't dependent on recalling personal ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first step is encoding — receiving and registering information. The degree to which you can successfully encode information depends on the level of ",
+                3,
+                " you give to an event while it's actually happening."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For example, if you were introduced to someone called Charlie, you might connect the name to your uncle who has the same ",
+                4,
+                ". Future recollection of Charlie's name is much easier if you have a strategy to encode it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Memory consolidation — the next step — is the process by which memories are strengthened and stored. Consolidation is most effective when the information can be linked to an existing ",
+                5,
+                " of information."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Forming strong memories depends on the ",
+                6,
+                " with which you try to retrieve them. Memories can fade if they aren't used very often."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Retrieval is the conscious recollection of encoded information. When recalling where you parked your car, you may use the ",
+                7,
+                " of a sign close to where you parked as a prompt."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Schizophrenia can be controlled by medication; however, patients' episodic memory may still be impaired and they are often unable to return to ",
+                8,
+                " or work."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Episodic memories can help people connect with others by sharing intimate details about their past — something individuals with autism often have problems with. This may be caused by an absence of a sense of ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Research has shown that treatments that improve memory may also have a positive impact on children's ",
+                10,
+                " development."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "location",
+            "experiences",
+            "attention",
+            "name",
+            "network",
+            "frequency",
+            "colour",
+            "university",
+            "self",
+            "social"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 13 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "搬到班福德市前的生活咨询",
+          "sceneEmoji": "🏡",
+          "mcq": [
+            {
+              "q": "How does Linda commute to work?",
+              "opts": [
+                [
+                  "A",
+                  "By car"
+                ],
+                [
+                  "B",
+                  "By public transport"
+                ],
+                [
+                  "C",
+                  "By bicycle"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What is the problem with train services at the weekend?",
+              "opts": [
+                [
+                  "A",
+                  "There are very few trains"
+                ],
+                [
+                  "B",
+                  "You have to take a bus to Hadham and pick up the train there"
+                ],
+                [
+                  "C",
+                  "The service stops early"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "When does Linda suggest meeting Matt and his wife?",
+              "opts": [
+                [
+                  "A",
+                  "Tuesday, after 5.30"
+                ],
+                [
+                  "B",
+                  "Thursday, after 5.30"
+                ],
+                [
+                  "C",
+                  "Wednesday afternoon"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Matt calls Linda to ask for advice about moving to Banford. Linda lives in Dalton and says you can get a two-bedroom flat for about 750 pounds per month. She commutes by bus because driving to the city centre is difficult due to parking. The train to London runs every 30 minutes and takes 45 minutes. At weekends, engineering work means you have to take a bus to Hadham. Linda mentions a new cinema and a good arts centre. She offers to send Matt the name of her doctor in Bridge Street. Linda can meet them on a Tuesday or Thursday after 5.30. Matt prefers Thursday. Linda will meet them at the café, which is opposite the station next to the museum.",
+          "errors": [
+            {
+              "wrong": "750 pounds",
+              "correct": "850 pounds"
+            },
+            {
+              "wrong": "commutes by bus",
+              "correct": "commutes by bike/bicycle"
+            },
+            {
+              "wrong": "name of her doctor",
+              "correct": "name of her dentist"
+            },
+            {
+              "wrong": "Tuesday or Thursday",
+              "correct": "Tuesday or Thursday ✓ — replace: 750 → 850 done, by bus → by bike done"
+            },
+            {
+              "wrong": "750",
+              "correct": "850 (already done)"
+            },
+            {
+              "wrong": "by bus",
+              "correct": "by bike (already done — replace: 'doctor' → 'dentist')"
+            },
+            {
+              "wrong": "doctor",
+              "correct": "dentist (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "I live in Dalton — it's not too expensive and there's a nice park. You should be able to get a two-bedroom flat for about £",
+                1,
+                " per month."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "I work in the city centre. I go by ",
+                2,
+                " — driving would be a nightmare because there's hardly any ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "Getting to London is no problem. There's a fast train every ",
+                4,
+                " minutes which only takes 45 minutes."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "At ",
+                5,
+                " they're always doing engineering work and you have to take a bus to Hadham to pick up the train there, which is really slow."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "There's a brand new ",
+                6,
+                " which has only been open a couple of months, and a good arts centre."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "The ",
+                7,
+                " here is one of the best in the country. Everyone I know who's been there has had a positive experience."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "I can give you the name of my ",
+                8,
+                " in Bridge Street if you're interested — I've been going to him for years."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "Either Tuesday or Thursday is good for me, after 5.30. What's your preference?"
+              ]
+            },
+            {
+              "speaker": "MATT",
+              "parts": [
+                "",
+                9,
+                "'s preferable — Tuesday I need to get home before 6 pm."
+              ]
+            },
+            {
+              "speaker": "LINDA",
+              "parts": [
+                "I'll meet you in the ",
+                10,
+                " outside the station — you can't miss it, it's opposite the station and next to the museum."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "850",
+            "bike",
+            "parking",
+            "30",
+            "weekends",
+            "cinema",
+            "hospital",
+            "dentist",
+            "Thursday",
+            "café"
+          ]
+        },
+        "2": {
+          "scene": "体育锻炼选择建议广播节目",
+          "sceneEmoji": "🏃",
+          "kwt": [
+            {
+              "original": "With regular training you'll see a big difference in a relatively short space of time.",
+              "keyWord": "NOTICEABLE",
+              "transStart": "Regular gym training produces results that are clearly",
+              "transEnd": "within a relatively short period.",
+              "answer": "NOTICEABLE EVEN",
+              "collocation": "noticeable even within (= clearly visible even after a short time)"
+            },
+            {
+              "original": "Make sure you get the right shoes — it's worth investing in a high quality pair and they don't come cheap.",
+              "keyWord": "ESSENTIAL",
+              "transStart": "Investing in high-quality running shoes is",
+              "transEnd": ", even though they are expensive.",
+              "answer": "ABSOLUTELY ESSENTIAL",
+              "collocation": "absolutely essential (= completely necessary, with no room for compromise)"
+            },
+            {
+              "original": "I think it's better to have a flexible approach — give yourself a really nice treat every time you reach one of your goals.",
+              "keyWord": "REWARD",
+              "transStart": "A flexible approach works well: ",
+              "transEnd": "yourself each time you achieve one of your fitness goals.",
+              "answer": "REWARD YOURSELF",
+              "collocation": "reward yourself (= give yourself something enjoyable as recognition of achieving a goal)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Gym"
+              },
+              {
+                "num": 2,
+                "left": "Running"
+              },
+              {
+                "num": 3,
+                "left": "Swimming"
+              },
+              {
+                "num": 4,
+                "left": "Cycling"
+              },
+              {
+                "num": 5,
+                "left": "Yoga"
+              }
+            ],
+            "options": [
+              "A.  can be done at any time, day or night; only snow/ice stops you",
+              "B.  suitable for mind and body; less injury risk with right instructor",
+              "C.  results visible quickly with regular training",
+              "D.  good aerobic exercise; enjoyable in fresh air if conditions are right",
+              "E.  hard to chat; can be boring or solitary"
+            ],
+            "answers": [
+              "C",
+              "A",
+              "E",
+              "D",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "Many people are put off by the idea of fitting a visit to the gym into their busy day — some gyms get very ",
+                1,
+                ". But with regular training you'll see a big difference in a relatively short space of time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Running has become incredibly popular. It's a very ",
+                2,
+                " form of exercise — anyone can run. Make sure you get the right shoes — they don't come cheap."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Swimming is another good way to build fitness. But it can be quite ",
+                3,
+                " — it's hard to chat to people while swimming lengths."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Cycling has become almost as popular as running. As well as improving fitness, many people say being out in the fresh ",
+                4,
+                " in a park or the countryside can be fun."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Yoga is good for developing both a healthy mind and body. With the right instructor, there's less chance of hurting yourself. But don't expect to find it easy — it can be surprisingly ",
+                5,
+                ", especially for people who aren't very flexible."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Getting a personal trainer is a good way to start. Make sure you get someone with a recognised ",
+                6,
+                ", or you could do yourself permanent damage."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I think people lose interest when they don't think they're making enough ",
+                7,
+                ". That's when they give up hope and stop believing they'll ever achieve their goals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "What people sometimes don't realise when they start is that it takes a lot of ",
+                8,
+                " and hard work to keep training week after week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Set manageable goals — be ",
+                9,
+                ". Give yourself a really nice treat every time you reach one of your goals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Don't get too upset if you experience ",
+                10,
+                " — it's a journey and there are bound to be difficulties along the way."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "crowded",
+            "accessible",
+            "boring",
+            "air",
+            "challenging",
+            "qualification",
+            "progress",
+            "determination",
+            "realistic",
+            "setbacks"
+          ]
+        },
+        "3": {
+          "scene": "天然染料纺织设计项目辅导",
+          "sceneEmoji": "🧶",
+          "functions": "A  Providing a warning    B  Questioning a result    C  Describing a procedure    D  Explaining a cultural context    E  Noting a limitation",
+          "pragmatic": [
+            {
+              "quote": "I used beetroot as a dye for wool. When I chop beetroot to eat I get bright red hands, but the wool ended up just a watery cream shade — disappointing.",
+              "speaker": "Jim",
+              "answer": "B"
+            },
+            {
+              "quote": "Tyrian purple comes from a shellfish and was worn in ancient times but only by important people as it was so rare.",
+              "speaker": "Jim",
+              "answer": "D"
+            },
+            {
+              "quote": "Logwood was quite complicated — I had to prepare the fabric so the dye would take.",
+              "speaker": "Jim",
+              "answer": "C"
+            },
+            {
+              "quote": "It can be extremely dangerous if it's ingested — I hope you were careful to wear gloves.",
+              "speaker": "Tutor",
+              "answer": "A"
+            },
+            {
+              "quote": "It costs a fortune — I can see why it's generally just used in cooking in small quantities.",
+              "speaker": "Jim",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🔬",
+              "title": "Experiment Design",
+              "items": [
+                [
+                  "Variables: type of fibre (cotton, wool, ",
+                  {
+                    "b": 1
+                  },
+                  ") and type of dye"
+                ],
+                [
+                  "Used ready-made dyes from a website AND made some of his own — more ",
+                  {
+                    "b": 1
+                  },
+                  " than expected"
+                ]
+              ]
+            },
+            {
+              "emoji": "🟡",
+              "title": "Turmeric",
+              "items": [
+                [
+                  "Strong yellow colour, used in ",
+                  {
+                    "b": 1
+                  },
+                  " dishes"
+                ],
+                [
+                  "Not permanent — colour fades after a few ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔴",
+              "title": "Beetroot",
+              "items": [
+                [
+                  "Used as dye for wool — result was disappointing: a watery ",
+                  {
+                    "b": 1
+                  },
+                  " colour"
+                ],
+                [
+                  "Despite beetroot turning hands bright red when chopping"
+                ]
+              ]
+            },
+            {
+              "emoji": "🟣",
+              "title": "Tyrian Purple",
+              "items": [
+                [
+                  "Comes from a ",
+                  {
+                    "b": 1
+                  },
+                  " — historically worn only by royalty/important people"
+                ],
+                [
+                  "Fell out of use; can now be replicated with ",
+                  {
+                    "b": 1
+                  },
+                  " dyes"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚫",
+              "title": "Logwood (Black Dye)",
+              "items": [
+                [
+                  "Quite complicated — fabric needed special ",
+                  {
+                    "b": 1
+                  },
+                  " before the dye would take"
+                ],
+                [
+                  "DANGER: can be extremely ",
+                  {
+                    "b": 1
+                  },
+                  " if ingested"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔴",
+              "title": "Cochineal (Insect-based)",
+              "items": [
+                [
+                  "Red colour from crushed insects — very effective but very ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "nylon",
+            "time-consuming",
+            "curry",
+            "washes",
+            "cream",
+            "shellfish",
+            "chemical",
+            "preparation",
+            "dangerous",
+            "expensive"
+          ],
+          "dictation": [
+            {
+              "speaker": "JIM",
+              "parts": [
+                "I've been looking at how a range of natural dyes can be used to colour fabrics like cotton and wool. I got lots of ideas from the museum exhibition of ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "So what did you decide to look at for the practical investigation?"
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "At first I was going to look at just one type of fibre — cotton. Then I decided to include others as well: cotton, wool and ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "I used some ready-made natural dyes from a website, but I also made some of my own. Like I was using beetroot for a red dye — I had to chop up a whole pile of it. It all took longer than I'd ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "I used tartrazine — a yellow food colouring — on cotton. It came out a great colour, but when I ",
+                4,
+                " the material, the colour just washed away."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "I used turmeric — it's a really strong yellow, generally used in dishes like ",
+                5,
+                ". But I found it's not permanent — a few washes and it's gone."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "I used beetroot as a dye for wool. When I chop beetroot to eat I always end up with bright red hands, but the wool ended up just a sort of watery ",
+                6,
+                " shade. Disappointing."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "Logwood was quite complicated — I had to prepare the fabric so the dye would take. I know the danger with that dye — it can be extremely dangerous if it's ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "For cochineal: I managed to get the dye from a website but it cost a fortune. I can see why it's generally just used in cooking in small ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "JIM",
+              "parts": [
+                "I also read about using metal oxide — allowing iron to ",
+                9,
+                " while it's in contact with the fabric, which colours it."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "The metal can actually ",
+                10,
+                " the fabric, so you can't expect a lot of wear out of fabrics treated that way."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "textiles",
+            "nylon",
+            "expected",
+            "rinsed",
+            "curry",
+            "cream",
+            "ingested",
+            "quantities",
+            "rust",
+            "damage"
+          ]
+        },
+        "4": {
+          "scene": "睡蜥行为学研究讲座",
+          "sceneEmoji": "🦎",
+          "signpost": [
+            {
+              "quote": "Unlike European lizards, which are mostly small, green and fast-moving, sleepy lizards are brown, but what's particularly distinctive about them is the colour of their tongue.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the description"
+                ],
+                [
+                  "B",
+                  "Using contrast with a familiar species to highlight the lizard's distinctive features"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Another threat to their survival isn't a predator at all, but is man-made — quite a large number of sleepy lizards are killed by cars when trying to cross highways.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the threats section"
+                ],
+                [
+                  "B",
+                  "Introducing an unexpected, non-natural threat after listing predators"
+                ],
+                [
+                  "C",
+                  "Providing an example of adaptation"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "He found that even if they were taken some distance away from their home territory, they could usually find their way back home as long as they could see the sky.",
+              "opts": [
+                [
+                  "B",
+                  "Describing a methodology"
+                ],
+                [
+                  "A",
+                  "Presenting a surprising finding about navigation method — sky not ground landmarks"
+                ],
+                [
+                  "C",
+                  "Summarising the study"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It could be that it's to do with protecting their young — you'd expect them to have a much better chance of survival if they have both parents around.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the first hypothesis for monogamous behaviour before immediately qualifying it"
+                ],
+                [
+                  "B",
+                  "Providing a definitive explanation"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One surprising thing we discovered is that there were far fewer meetings between lizards than we expected — it seems that they were actually trying to avoid one another.",
+              "opts": [
+                [
+                  "A",
+                  "Highlighting an unexpected finding from the GPS tracking data"
+                ],
+                [
+                  "B",
+                  "Confirming expected behaviour"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🦎",
+              "title": "General Description",
+              "items": [
+                [
+                  "Live in Western/South Australia; brown; distinctive dark blue ",
+                  {
+                    "b": 1
+                  },
+                  " with bright pink mouth lining"
+                ],
+                [
+                  "Diet: mostly ",
+                  {
+                    "b": 1
+                  },
+                  ", but also insects and small animals"
+                ],
+                [
+                  "Main current predator: ",
+                  {
+                    "b": 1
+                  },
+                  " (previously cassowaries); also killed by cars on highways"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧭",
+              "title": "Navigation (Freake Study)",
+              "items": [
+                [
+                  "Can find their way home even from a distance — as long as they can see the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Don't need landmarks on the ground"
+                ]
+              ]
+            },
+            {
+              "emoji": "💑",
+              "title": "Mating Habits",
+              "items": [
+                [
+                  "Unusual: relatively monogamous — return to same ",
+                  {
+                    "b": 1
+                  },
+                  " year after year"
+                ],
+                [
+                  "Male and female stay together before and after birth of young"
+                ],
+                [
+                  "But: young have almost no ",
+                  {
+                    "b": 1
+                  },
+                  " with parents after hatching"
+                ]
+              ]
+            },
+            {
+              "emoji": "📡",
+              "title": "GPS Tracking Study",
+              "items": [
+                [
+                  "GPS device fixed to lizards' ",
+                  {
+                    "b": 1
+                  },
+                  " — tracked for 12 days"
+                ],
+                [
+                  "Recorded location and number of ",
+                  {
+                    "b": 1
+                  },
+                  " taken"
+                ],
+                [
+                  "Surprising: lizards seemed to actively avoid each other"
+                ],
+                [
+                  "Hypothesis: avoidance prevents serious ",
+                  {
+                    "b": 1
+                  },
+                  " between males"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "tongue",
+            "plants",
+            "snakes",
+            "sky",
+            "partner",
+            "contact",
+            "tails",
+            "steps",
+            "injury"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Sleepy lizards are brown. What's particularly distinctive is the colour of their ",
+                1,
+                " — dark blue, in contrast with the bright pink lining of their mouth."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They have a varied diet including insects and even small animals, but they mostly eat ",
+                2,
+                " of varying kinds."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Even though they're large and powerful, they still have predators. Nowadays they're more likely to be caught by ",
+                3,
+                ". And quite a large number are killed by cars when trying to cross highways."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Michael Freake investigated the navigation of these lizards. He found that even if they were taken away from their home territory, they could usually find their way back — as long as they could see the ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Unlike most animals, sleepy lizards are relatively monogamous — returning to the same ",
+                5,
+                " year after year. The male and female stay together both before and after the birth of their young."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "However, once the babies have hatched, they have almost no ",
+                6,
+                " with their parents — so there's not really evidence to support the idea that monogamy is for protection of the young."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another suggestion: male lizards in monogamous relationships tend to be bigger and stronger — so maybe the male stays around to give the female ",
+                7,
+                " from other males."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In our GPS tracking study, we fixed a tiny device onto the lizards' ",
+                8,
+                " and tracked them for twelve days — recording location and even the number of ",
+                9,
+                " they took."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Surprisingly, there were far fewer meetings between lizards than expected — they were actively avoiding each other. One hypothesis: male lizards can cause each other serious ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "tongue",
+            "plants",
+            "snakes",
+            "sky",
+            "partner",
+            "contact",
+            "protection",
+            "tails",
+            "steps",
+            "injury"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 13 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "JPNW学员培训项目咨询",
+          "sceneEmoji": "💼",
+          "mcq": [
+            {
+              "q": "What does Alex say about his experience of studying at JPNW?",
+              "opts": [
+                [
+                  "A",
+                  "He did well in his exams at school beforehand"
+                ],
+                [
+                  "B",
+                  "He failed Maths at school but was able to do on-the-job courses"
+                ],
+                [
+                  "C",
+                  "He found the studying difficult throughout"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Alex say is the most useful aspect of the training?",
+              "opts": [
+                [
+                  "A",
+                  "The variety of tasks given"
+                ],
+                [
+                  "B",
+                  "The diploma at the end"
+                ],
+                [
+                  "C",
+                  "The gain in confidence"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What does Alex advise Martha to wear to the interview?",
+              "opts": [
+                [
+                  "A",
+                  "A formal business suit"
+                ],
+                [
+                  "B",
+                  "Smart casual — no jeans, but a jacket with a skirt or trousers"
+                ],
+                [
+                  "C",
+                  "Whatever she feels comfortable in"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Martha calls Alex to ask about the JPNW trainee programme. Alex did his training in 2014 in the IT department. He was nervous at first because he failed English at school. There were about 20 trainees, the youngest being 17. He did a diploma in IT skills. Trainees get the same wages as regular employees, but the same number of holiday days. One day each week is spent at college. The company is very close to the bus station. At the interview, Martha should not wear anything too formal. Alex says it is important to arrive on time and to be confident.",
+          "errors": [
+            {
+              "wrong": "the IT department",
+              "correct": "the Finance department"
+            },
+            {
+              "wrong": "failed English",
+              "correct": "failed Maths"
+            },
+            {
+              "wrong": "a diploma in IT skills",
+              "correct": "a diploma in business skills (Martha's choice); Alex did IT"
+            },
+            {
+              "wrong": "the same wages",
+              "correct": "a lower minimum wage"
+            },
+            {
+              "wrong": "too formal",
+              "correct": "too casual"
+            },
+            {
+              "wrong": "be confident",
+              "correct": "smile"
+            },
+            {
+              "wrong": "bus station",
+              "correct": "train station"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "I did my initial training in ",
+                1,
+                ". I stayed there for the first two years and then moved to customer services."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "I didn't do well in my exams at school and I was really worried because I failed ",
+                2,
+                ". But it didn't actually matter because I did lots of courses on the job."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "I took the diploma in IT skills — but I wish I'd done the one on ",
+                3,
+                " skills instead."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "There were about 20 of us who started at the same time. The youngest was ",
+                4,
+                ", and the rest were between 18 and 20."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "You get the same number of days' ",
+                5,
+                " as everyone else. And the pay goes up massively if they offer you a job at the end."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "Yes, one day each month you spend at ",
+                6,
+                ". You get support from both your tutor and your manager."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "It's very close to the train station, so the ",
+                7,
+                " is a real advantage."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "For the interview: nothing too casual — like ",
+                8,
+                ". If you've got a nice jacket, wear that with a skirt or trousers."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "Make sure you know exactly where you have to get to — they hate people who are ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "ALEX",
+              "parts": [
+                "Even if you feel terrified: ",
+                10,
+                ". It makes people respond better to you."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Finance",
+            "Maths",
+            "business",
+            "17",
+            "holidays",
+            "college",
+            "location",
+            "jeans",
+            "late",
+            "smile"
+          ]
+        },
+        "2": {
+          "scene": "新西兰雪地运动中心活动介绍",
+          "sceneEmoji": "🎿",
+          "kwt": [
+            {
+              "original": "You can also leave the marked trails and go off on your own, and that's an experience not to be missed.",
+              "keyWord": "WELL",
+              "transStart": "Venturing off the marked trails and exploring independently is an experience that is",
+              "transEnd": "worth having.",
+              "answer": "WELL WORTH",
+              "collocation": "well worth (= very worthwhile; definitely meriting the effort)"
+            },
+            {
+              "original": "If you want, you can have your own team for the afternoon and learn how to drive them, following behind our leader on the trail.",
+              "keyWord": "OPTION",
+              "transStart": "Visitors have the",
+              "transEnd": "driving their own dog sled team or simply riding as a passenger.",
+              "answer": "OPTION OF EITHER",
+              "collocation": "option of either ... or (= the choice between two alternatives)"
+            },
+            {
+              "original": "We can take your luggage up on our snowmobile for you for just ten dollars a person.",
+              "keyWord": "TRANSFER",
+              "transStart": "For ten dollars per person, the company will",
+              "transEnd": "your luggage to the mountain hut by snowmobile.",
+              "answer": "TRANSFER YOUR",
+              "collocation": "transfer your luggage (= move your belongings from one place to another)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Highland Trail"
+              },
+              {
+                "num": 2,
+                "left": "Pine Trail"
+              },
+              {
+                "num": 3,
+                "left": "Stony Trail"
+              },
+              {
+                "num": 4,
+                "left": "Loser's Trail"
+              },
+              {
+                "num": 5,
+                "left": "Mount Frenner expedition"
+              }
+            ],
+            "options": [
+              "E.  two-day ascent; overnight stay in mountain hut",
+              "A.  suitable for all levels; great for beginners and technique practice",
+              "B.  steep valley — experts only",
+              "C.  good once you know the basics; shelter half-way for a rest",
+              "D.  check trail is open in bad weather — exposed conditions"
+            ],
+            "answers": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "Most visitors come here for cross-country skiing. There are marked trails, but you can also leave these and go off on your own — an experience not to be ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This afternoon you'll go on a dog-sled trip. If you want, you can have your own team for the afternoon and learn how to ",
+                2,
+                " them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the weekend we have the team relay event. ",
+                3,
+                " rather than winning is the main focus, and there's a medal for everyone who takes part."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For your final expedition, you'll head off to Mount Frenner wearing special snow ",
+                4,
+                ", which allow you to walk on top of the snow."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll spend the night in our hut half-way up the mountain — that's included in your ",
+                5,
+                ". It's got cooking facilities, firewood and water for drinking."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For washing, use melted ",
+                6,
+                " to conserve supplies. We can take your luggage up on our snowmobile for just ten dollars a person."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If a storm hits, stay in the hut — the storms generally don't last long. There is an emergency locator ",
+                7,
+                " in the hut, but only use it if someone is ill or injured."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Highland Trail is directly accessible from here — designed for first-timers but also ideal for experts to practise their ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Pine Trail: leave this one to the experts! You follow a steep ",
+                9,
+                " looking right down on the river below."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Stony Trail: a good choice once you know the basics. There's a ",
+                10,
+                " half-way where you can sit and enjoy the afternoon sunshine."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "missed",
+            "drive",
+            "Participation",
+            "shoes",
+            "package",
+            "snow",
+            "beacon",
+            "technique",
+            "valley",
+            "shelter"
+          ]
+        },
+        "3": {
+          "scene": "食品营养标签项目学术讨论",
+          "sceneEmoji": "🏷️",
+          "functions": "A  Expressing surprise at a finding    B  Questioning a generalisation    C  Defending a research method    D  Identifying a design flaw    E  Supporting a position",
+          "pragmatic": [
+            {
+              "quote": "I now realise that the 'healthy' yoghurt I've bought for years is full of sugar and is actually quite high in calories.",
+              "speaker": "Alice",
+              "answer": "A"
+            },
+            {
+              "quote": "Unless you read the label really carefully, you wouldn't know that the nutritional values given are for half a pizza.",
+              "speaker": "Alice",
+              "answer": "A"
+            },
+            {
+              "quote": "I liked the traditional daily value system best — at least you get the full story. I like to know all the ingredients, not just fat, salt and sugar.",
+              "speaker": "Jack",
+              "answer": "E"
+            },
+            {
+              "quote": "Those findings weren't that conclusive — it was quite a small-scale study. More research has to be done.",
+              "speaker": "Alice",
+              "answer": "B"
+            },
+            {
+              "quote": "If they hadn't interviewed participants face-to-face, they could have used a much bigger sample size.",
+              "speaker": "Alice",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🍕",
+              "title": "Case Studies in Labelling",
+              "items": [
+                [
+                  "Yoghurt: marketed as 'healthy' — actually full of ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Supermarket pizza: nutritional values given per half pizza — but most people eat the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📊",
+              "title": "Labelling Systems",
+              "items": [
+                [
+                  "Traditional daily value system: shows proportion of required daily intake; Jack prefers for ",
+                  {
+                    "b": 1
+                  },
+                  " picture"
+                ],
+                [
+                  "Traffic-light system (red/amber/green for fat, sugar, ",
+                  {
+                    "b": 1
+                  },
+                  "): not adopted universally"
+                ],
+                [
+                  "Traffic-light system brought in without enough ",
+                  {
+                    "b": 1
+                  },
+                  " with experts"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Traffic-Light Research Study",
+              "items": [
+                [
+                  "Targeted too narrow a group — should have focused on people with low ",
+                  {
+                    "b": 1
+                  },
+                  " levels"
+                ],
+                [
+                  "Not much variation in responses across socio-economic ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Study Design Limitations",
+              "items": [
+                [
+                  "Face-to-face interviews limited the ",
+                  {
+                    "b": 1
+                  },
+                  " size"
+                ],
+                [
+                  "Participants were not asked how often they bought ",
+                  {
+                    "b": 1
+                  },
+                  " food — only supermarket frequency was recorded"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "sugar",
+            "whole",
+            "full",
+            "salt",
+            "consultation",
+            "literacy",
+            "groups",
+            "sample",
+            "packaged"
+          ],
+          "dictation": [
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "This project has actually taught me to read labels much more carefully. I tended to believe claims like 'low in fat'. But I now realise that the 'healthy' yoghurt I've bought for years is full of ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "Comparing the labels on supermarket pizzas was a real eye-opener. Unless you read the label really carefully, you wouldn't know that the nutritional values given are for half a ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "I liked the traditional daily value system best — the one that tells you what ",
+                3,
+                " of your required daily intake each ingredient contains."
+              ]
+            },
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "There just needs to be more ",
+                4,
+                " between labelling systems used by different supermarkets — in terms of portion sizes, etc."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "The traffic-light system uses red, amber or green to indicate levels of fat, sugar and salt in a product."
+              ]
+            },
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "It's not been adopted universally. And what I couldn't get over is the fact that it was brought in without enough ",
+                5,
+                " — a lot of experts had deep reservations."
+              ]
+            },
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "I don't think they targeted the right people. They should have focused on people with low ",
+                6,
+                " levels because these labels are designed to be accessible to them."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "It's good to get feedback from all socio-economic ",
+                7,
+                ". And there wasn't much variation in their responses."
+              ]
+            },
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "If they hadn't interviewed participants face-to-face, they could have used a much bigger ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "We only know how ",
+                9,
+                " participants used the supermarket — not how often they bought packaged food."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "sugar",
+            "pizza",
+            "proportion",
+            "consistency",
+            "consultation",
+            "literacy",
+            "groups",
+            "sample",
+            "frequently"
+          ]
+        },
+        "4": {
+          "scene": "咖啡历史与经济社会影响讲座",
+          "sceneEmoji": "☕",
+          "signpost": [
+            {
+              "quote": "In 1522, in the Turkish city of Constantinople, the court physician approved its use as a medicine.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Providing specific historical evidence of early official recognition of coffee"
+                ],
+                [
+                  "C",
+                  "Introducing a counter-argument"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "In 1623 the ruler of Constantinople demanded the destruction of all the coffee houses in the city, although after his death many new ones opened.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the social history"
+                ],
+                [
+                  "B",
+                  "Showing that attempts to suppress coffee culture ultimately failed"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "In the late 1600s, the Yemeni monopoly on coffee production broke down and coffee production started to spread around the world, helped by European colonisation.",
+              "opts": [
+                [
+                  "A",
+                  "Identifying a turning point that began the globalisation of coffee"
+                ],
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "C",
+                  "Concluding the historical survey"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "However, coffee prices were not yet low enough for people to drink it regularly at home, so most coffee consumption still took place in public coffee houses.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the section"
+                ],
+                [
+                  "B",
+                  "Providing a definition"
+                ],
+                [
+                  "C",
+                  "Noting a key limitation that kept coffee a public/luxury item before introducing a contrasting development"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "During this century, production boomed and coffee prices started to fall. This was partly because new types of transportation had been developed which were cheaper and more efficient.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Identifying the 19th-century industrial and transport revolution as the key driver of falling coffee prices"
+                ],
+                [
+                  "C",
+                  "Contradicting earlier claims"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌍",
+              "title": "Origins",
+              "items": [
+                [
+                  "Originally gathered wild in Ethiopia; evidence of drinking from the 1500s"
+                ],
+                [
+                  "Spread through the Middle East; 1522: court physician approved as a ",
+                  {
+                    "b": 1
+                  },
+                  " in Constantinople"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏛️",
+              "title": "Coffee House Culture",
+              "items": [
+                [
+                  "Rarely drunk at home — people went to coffee houses to drink and discuss"
+                ],
+                [
+                  "1623: ruler of Constantinople demanded ",
+                  {
+                    "b": 1
+                  },
+                  " of all coffee houses"
+                ],
+                [
+                  "Coffee houses in Europe compared to ",
+                  {
+                    "b": 1
+                  },
+                  " in terms of social function"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌱",
+              "title": "Spread of Production",
+              "items": [
+                [
+                  "Yemen produced most coffee 1500s–1600s; later Europeans set up plantations in Indonesia and the Caribbean"
+                ],
+                [
+                  "Coffee types named after the ",
+                  {
+                    "b": 1
+                  },
+                  " they were shipped from — e.g. Mocha, Java"
+                ]
+              ]
+            },
+            {
+              "emoji": "⛓️",
+              "title": "Labour Systems in Colonies",
+              "items": [
+                [
+                  "Brazil/Caribbean: grown on huge plantations using ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Java (Dutch): peasants grew coffee as a form of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🍵",
+              "title": "Rise of Competition",
+              "items": [
+                [
+                  "In Britain, ",
+                  {
+                    "b": 1
+                  },
+                  " gradually replaced coffee after being introduced from China"
+                ],
+                [
+                  "But in the USA, coffee remained the preferred drink after independence from Britain"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚂",
+              "title": "19th-Century Boom",
+              "items": [
+                [
+                  "Cheaper and more efficient ",
+                  {
+                    "b": 1
+                  },
+                  " made coffee cheaper"
+                ],
+                [
+                  "Working people could now afford it; used as a stimulant for night work"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "medicine",
+            "destruction",
+            "universities",
+            "port",
+            "slaves",
+            "taxation",
+            "tea",
+            "transportation"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "There is evidence that coffee was originally gathered from bushes growing wild in Ethiopia. In 1522, the court physician in Constantinople approved its use as a ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "By the mid-1500s, coffee bushes were being cultivated in the Yemen. People went to coffee houses to drink and chat. In 1623, the ruler of Constantinople demanded the ",
+                2,
+                " of all the coffee houses."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Coffee spread to Europe in the seventeenth century. Coffee shops there performed a similar function to ",
+                3,
+                ", providing places for people to meet and discuss the topics of the day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the late 1600s, the Yemeni monopoly broke down. Europeans set up coffee plantations in Indonesia and the Caribbean. Coffee types were often named after the ",
+                4,
+                " they were shipped from."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Brazil and the Caribbean, coffee was grown on huge plantations using ",
+                5,
+                ". In Java, the Dutch used coffee production as a form of ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Coffee prices were not yet low enough for home consumption. In Britain, a new drink was introduced from China — ",
+                7,
+                " — which gradually took over from coffee."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "But in the USA, after independence from Britain in 1776, coffee remained the preferred drink — as it still is today."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the 19th century, production boomed and coffee prices fell. Cheaper and more efficient ",
+                8,
+                " helped make coffee accessible to working people."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Large parts of Europe were starting to work in industries — sometimes through the ",
+                9,
+                ". Coffee as a stimulant became important; it wasn't just a morning drink."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "medicine",
+            "destruction",
+            "universities",
+            "port",
+            "slaves",
+            "taxation",
+            "tea",
+            "transportation",
+            "night"
+          ]
+        }
+      }
+    }
+  }
+}

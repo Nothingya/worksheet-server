@@ -21,7 +21,12 @@ PART 1 — MIND MAP  (10–15 blanks)
 PART 2 — READING COMPREHENSION  (5 questions)
 ════════════════════════════════════════════════════════
 • Q1–Q4: 4-option MCQ (choose 1). Mix of: Detail, Reference (pronoun antecedent), Inference
-• Q5: MAIN IDEA question — 6 options, students choose 3 correct ones
+• Q5: TOEFL-style PROSE SUMMARY — strictly follows the TOEFL Reading "choose 3 of 6" format:
+  - Provide an "intro" field: ONE introductory sentence (15–25 words) stating the overarching
+    main idea of the passage. It frames the summary; it must NOT duplicate any option.
+  - Provide 6 options (A–F): 3 express the most important ideas of the passage;
+    3 are distractors (minor details, factually wrong claims, or ideas not in the passage)
+  - Students select THREE options to complete the summary
 • Questions appear in article order
 • Question text is bold in the worksheet (mark with "bold": true)
 • Options are NOT bold
@@ -121,7 +126,7 @@ OUTPUT JSON STRUCTURE
     "part2": {
       "questions": [
         {"number": 1, "type": "Detail", "question": "Question text?", "options": ["A) ...", "B) ...", "C) ...", "D) ..."]},
-        {"number": 5, "type": "Main Idea", "question": "Which THREE statements best express the main ideas?", "options": ["A) ...", "B) ...", "C) ...", "D) ...", "E) ...", "F) ..."]}
+        {"number": 5, "type": "Prose Summary", "intro": "One introductory sentence stating the overarching main idea of the passage.", "question": "Select THREE answer choices that express the most important ideas in the passage.", "options": ["A) ...", "B) ...", "C) ...", "D) ...", "E) ...", "F) ..."]}
       ]
     },
     "part3": {
@@ -178,7 +183,7 @@ OUTPUT JSON STRUCTURE
     "part1": [{"number": 1, "answer": "answer", "note": "Para X — source sentence."}],
     "part2": [
       {"number": 1, "answer": "B", "type": "Detail", "explanation": "Para X states..."},
-      {"number": 5, "answer": "A, B, D", "type": "Main Idea", "explanation": "A and B and D are main ideas because..."}
+      {"number": 5, "answer": "A, B, D", "type": "Prose Summary", "explanation": "A and B and D express the most important ideas because..."}
     ],
     "part3": [{"number": 1, "answer": "T", "explanation": "Para X — direct quote support."}],
     "part4": [{"number": 1, "answer": "word", "note": "collocation or source"}],

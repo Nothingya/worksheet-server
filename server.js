@@ -30,6 +30,12 @@ const { extractAllPassages, extractPassagesForTest } = require('./src/ielts_spli
 const { generateIELTS }     = require('./src/generate_ielts');
 const { buildIELTSDocs }    = require('./src/build_ielts');
 const { fixIELTSDoc, computeShufflesFromDoc, computeMergedShuffles } = require('./src/fix_ielts_tasks');
+const { fixPW4Doc } = require('./src/fix_pw4_template');
+const { fixBlackboardDoc } = require('./src/fix_blackboard');
+const { fixPW3Doc } = require('./src/fix_pw3_template');
+const { regenFromPW3 } = require('./src/pw3_regen');
+const { generateImage: generateSceneImage } = require('./src/generate_image');
+const { generateDocx, listCachedBooks } = require('./src/listening_cache');
 
 if (!process.env.ANTHROPIC_API_KEY) { console.error('❌  ANTHROPIC_API_KEY not set.'); process.exit(1); }
 
@@ -271,7 +277,7 @@ async function runPipeline(job, bookBuf, scriptBuf) {
 
 async function processItem(job, item, upd) {
   upd('生成作业',`${job.done+job.failed+1}/${job.total} "${item.title}"`);
-  const ch=String(item.chapter).padStart(2,'0');
+  const ch=String(item.chapter);  // 新规范：U1 而非 U01
   const t=item.title.replace(/[<>:"/\\|?*]/g,'').replace(/\s+/g,'_').slice(0,40);
   try {
     if(item.type==='VideoReading'){
@@ -284,10 +290,10 @@ async function processItem(job, item, upd) {
       const text=item.buffer?await extractText(item.buffer):item.text;
       const wordList=job.wordListMap?.[item.chapter]||[];
       const rwData=await generateContent(text,item.title);
-      rwData.title = 'PW4 RW U' + ch + ' Reading Practice';
+      rwData.title = 'PW4 RW U' + ch + ' Reading Homework';
       const [{homeworkBuffer:hw,blackboardBuffer:bb},voc,img]=await Promise.all([
         buildBothDocs(rwData),
-        wordList.length?generateVocab(text,wordList,item.title).then(d=>buildVocabDoc(d)):Promise.resolve(null),
+        wordList.length?generateVocab(text,wordList,item.title).then(d=>{ d.title='PW4 RW U'+ch+' 词汇笔记'; return buildVocabDoc(d); }):Promise.resolve(null),
         job.generateImage?generateImage(rwData,job.imagePrompt):Promise.resolve(null)
       ]);
       job.files.push({folder:'reading',name:`PW4 RW U${ch} Reading Homework.docx`,buf:hw});
@@ -497,6 +503,10 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
   <span class="module-tag active" id="tag-pw4" onclick="switchModule('pw4')" style="cursor:pointer">📚 PW4</span>
   <span class="module-tag inactive" id="tag-ielts" onclick="switchModule('ielts')" style="cursor:pointer">🎓 IELTS</span>
   <span class="module-tag inactive" id="tag-fix" onclick="switchModule('fix')" style="cursor:pointer">🔧 纠错</span>
+  <span class="module-tag inactive" id="tag-pw4fix" onclick="switchModule('pw4fix')" style="cursor:pointer">🧰 PW4模板</span>
+  <span class="module-tag inactive" id="tag-bbfix" onclick="switchModule('bbfix')" style="cursor:pointer">📋 板书完整版</span>
+  <span class="module-tag inactive" id="tag-pw3fix" onclick="switchModule('pw3fix')" style="cursor:pointer">📒 PW3模板</span>
+  <span class="module-tag inactive" id="tag-img" onclick="switchModule('img')" style="cursor:pointer">🎨 场景图</span>
 </div>
 <div class="card section-rw" id="pw4-card">
   <div class="section-header">
@@ -595,11 +605,55 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;backgrou
 <script>
 function switchModule(mod) {
   document.querySelectorAll('.module-tag').forEach(t => t.classList.remove('active','ielts-active'));
+  ['tag-fix','tag-pw4fix','tag-bbfix','tag-pw3fix','tag-img'].forEach(function(id){
+    var el=document.getElementById(id);
+    if (el){ el.style.background=''; el.style.color=''; el.style.borderColor=''; }
+  });
   var pw4  = document.getElementById('pw4-card');
   var ls   = document.getElementById('ls-card');
   var ielts = document.getElementById('ielts-card');
   var fix   = document.getElementById('fix-card');
-  if (mod === 'ielts') {
+  var pw4fix = document.getElementById('pw4fix-card');
+  var bbfix = document.getElementById('bbfix-card');
+  var pw3fix = document.getElementById('pw3fix-card');
+  var imgcard = document.getElementById('img-card');
+  if (pw4fix) pw4fix.style.display='none';
+  if (bbfix) bbfix.style.display='none';
+  if (pw3fix) pw3fix.style.display='none';
+  if (imgcard) imgcard.style.display='none';
+  if (mod === 'img') {
+    document.getElementById('tag-img').classList.add('active');
+    document.getElementById('tag-img').style.background='#AD1457';
+    document.getElementById('tag-img').style.color='#fff';
+    document.getElementById('tag-img').style.borderColor='#AD1457';
+    if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
+    if (ielts) ielts.style.display='none'; if (fix) fix.style.display='none';
+    if (imgcard) imgcard.style.display='block';
+  } else if (mod === 'pw3fix') {
+    document.getElementById('tag-pw3fix').classList.add('active');
+    document.getElementById('tag-pw3fix').style.background='#5D4037';
+    document.getElementById('tag-pw3fix').style.color='#fff';
+    document.getElementById('tag-pw3fix').style.borderColor='#5D4037';
+    if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
+    if (ielts) ielts.style.display='none'; if (fix) fix.style.display='none';
+    if (pw3fix) pw3fix.style.display='block';
+  } else if (mod === 'bbfix') {
+    document.getElementById('tag-bbfix').classList.add('active');
+    document.getElementById('tag-bbfix').style.background='#00695C';
+    document.getElementById('tag-bbfix').style.color='#fff';
+    document.getElementById('tag-bbfix').style.borderColor='#00695C';
+    if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
+    if (ielts) ielts.style.display='none'; if (fix) fix.style.display='none';
+    if (bbfix) bbfix.style.display='block';
+  } else if (mod === 'pw4fix') {
+    document.getElementById('tag-pw4fix').classList.add('active');
+    document.getElementById('tag-pw4fix').style.background='#6A1B9A';
+    document.getElementById('tag-pw4fix').style.color='#fff';
+    document.getElementById('tag-pw4fix').style.borderColor='#6A1B9A';
+    if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
+    if (ielts) ielts.style.display='none'; if (fix) fix.style.display='none';
+    if (pw4fix) pw4fix.style.display='block';
+  } else if (mod === 'ielts') {
     document.getElementById('tag-ielts').classList.add('active','ielts-active');
     if (pw4) pw4.style.display='none'; if (ls) ls.style.display='none';
     if (ielts) ielts.style.display='block'; if (fix) fix.style.display='none';
@@ -669,6 +723,213 @@ async function pollFix(jobId) {
   }
 }
 
+// ── TOEFL 场景图生成 ───────────────────────────────────────────
+async function goGenImage() {
+  const prompt = document.getElementById('scene-prompt').value.trim();
+  if (!prompt) { alert('请输入 prompt'); return; }
+  const size = document.getElementById('img-size').value;
+  const quality = document.getElementById('img-quality').value;
+  document.getElementById('btn-img').disabled = true;
+  document.getElementById('img-prog').style.display = 'block';
+  document.getElementById('img-ok').style.display = 'none';
+  document.getElementById('img-er').style.display = 'none';
+  document.getElementById('imi1').textContent = '⏳';
+  document.getElementById('imd1').textContent = '调用 OpenAI 生成中（约 10–30 秒）...';
+  try {
+    const r = await fetch('/gen-image', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt, size, quality })
+    });
+    const j = await r.json();
+    if (!r.ok || j.error) throw new Error(j.error || '生成失败');
+    document.getElementById('imi1').textContent = '✅';
+    const dataUrl = 'data:image/png;base64,' + j.b64;
+    document.getElementById('img-result').src = dataUrl;
+    document.getElementById('img-download').href = dataUrl;
+    var info = '';
+    if (j.converted) info += '✅ 中文已自动转换为英文海报 prompt。\\n';
+    if (j.usedPrompt) info += '实际 prompt：' + j.usedPrompt;
+    document.getElementById('img-revised').textContent = info;
+    document.getElementById('img-ok').style.display = 'block';
+  } catch (e) {
+    document.getElementById('imi1').textContent = '❌';
+    document.getElementById('img-em').textContent = e.message;
+    document.getElementById('img-er').style.display = 'block';
+  } finally {
+    document.getElementById('btn-img').disabled = false;
+  }
+}
+
+// ── PW3 模板工具 ───────────────────────────────────────────────
+let pw3FixFiles = [];
+function handlePw3FixFiles(files) {
+  pw3FixFiles = Array.from(files).slice(0, 12);
+  document.getElementById('pw3fix-filelist').textContent = pw3FixFiles.map(f=>f.name).join('  |  ');
+  document.getElementById('btn-pw3fix').disabled = pw3FixFiles.length === 0;
+  document.getElementById('btn-pw3regen').disabled = pw3FixFiles.length === 0;
+}
+function handlePw3FixDrop(e) { handlePw3FixFiles(e.dataTransfer.files); }
+async function goPw3Fix() {
+  if (!pw3FixFiles.length) return;
+  document.getElementById('btn-pw3fix').disabled=true;
+  document.getElementById('pw3fix-prog').style.display='block';
+  document.getElementById('pw3fix-ok').style.display='none';
+  document.getElementById('pw3fix-er').style.display='none';
+  document.getElementById('p3i1').textContent='⏳';
+  document.getElementById('p3d1').textContent='上传中...';
+  document.getElementById('p3bw').style.display='block';
+  document.getElementById('p3bb').style.width='0%';
+  const fd=new FormData();
+  pw3FixFiles.forEach(f=>fd.append('files',f));
+  const r=await fetch('/fix-pw3-template',{method:'POST',body:fd});
+  const{jobId}=await r.json();
+  jobs.pw3fix=jobId;
+  timers.pw3fix=setInterval(()=>pollPw3Fix(jobId),1500);
+}
+async function pollPw3Fix(jobId) {
+  const r=await fetch('/status/'+jobId);
+  const j=await r.json();
+  if (j.currentDetail) document.getElementById('p3d1').textContent='处理: '+j.currentDetail;
+  if (j.total>0){
+    const p=Math.round((j.done+j.failed)/j.total*100);
+    document.getElementById('p3bb').style.width=p+'%';
+  }
+  if (j.status==='done'){
+    clearInterval(timers.pw3fix);
+    document.getElementById('p3i1').textContent='✅';
+    document.getElementById('p3d1').textContent='✅'+j.done+' 完成  ❌'+j.failed+' 失败';
+    document.getElementById('pw3fix-ok').style.display='block';
+    document.getElementById('pw3fix-rs').textContent='共 '+j.done+' 份 PW3 文件已处理';
+    document.getElementById('btn-pw3fix').disabled=false;
+    document.getElementById('btn-pw3regen').disabled=false;
+  }
+  if (j.status==='error'){
+    clearInterval(timers.pw3fix);
+    document.getElementById('p3i1').textContent='❌';
+    document.getElementById('pw3fix-er').style.display='block';
+    document.getElementById('pw3fix-em').textContent=j.error;
+    document.getElementById('btn-pw3fix').disabled=false;
+    document.getElementById('btn-pw3regen').disabled=false;
+  }
+}
+async function goPw3Regen() {
+  if (!pw3FixFiles.length) return;
+  document.getElementById('btn-pw3fix').disabled=true;
+  document.getElementById('btn-pw3regen').disabled=true;
+  document.getElementById('pw3fix-prog').style.display='block';
+  document.getElementById('pw3fix-ok').style.display='none';
+  document.getElementById('pw3fix-er').style.display='none';
+  document.getElementById('p3i1').textContent='♻️';
+  document.getElementById('p3d1').textContent='提取内容中...';
+  document.getElementById('p3bw').style.display='block';
+  document.getElementById('p3bb').style.width='0%';
+  const fd=new FormData();
+  pw3FixFiles.forEach(f=>fd.append('files',f));
+  const r=await fetch('/regen-pw3',{method:'POST',body:fd});
+  const{jobId}=await r.json();
+  jobs.pw3fix=jobId;
+  timers.pw3fix=setInterval(()=>pollPw3Fix(jobId),1500);
+}
+
+// ── 板书完整版工具 ─────────────────────────────────────────────
+let bbFixFiles = [];
+function handleBbFixFiles(files) {
+  bbFixFiles = Array.from(files).slice(0, 12);
+  document.getElementById('bbfix-filelist').textContent = bbFixFiles.map(f=>f.name).join('  |  ');
+  document.getElementById('btn-bbfix').disabled = bbFixFiles.length === 0;
+}
+function handleBbFixDrop(e) { handleBbFixFiles(e.dataTransfer.files); }
+async function goBbFix() {
+  if (!bbFixFiles.length) return;
+  document.getElementById('btn-bbfix').disabled=true;
+  document.getElementById('bbfix-prog').style.display='block';
+  document.getElementById('bbfix-ok').style.display='none';
+  document.getElementById('bbfix-er').style.display='none';
+  document.getElementById('bfi1').textContent='⏳';
+  document.getElementById('bfd1').textContent='上传中...';
+  document.getElementById('bfbw').style.display='block';
+  document.getElementById('bfbb').style.width='0%';
+  const fd=new FormData();
+  bbFixFiles.forEach(f=>fd.append('files',f));
+  const r=await fetch('/fix-blackboard',{method:'POST',body:fd});
+  const{jobId}=await r.json();
+  jobs.bbfix=jobId;
+  timers.bbfix=setInterval(()=>pollBbFix(jobId),1500);
+}
+async function pollBbFix(jobId) {
+  const r=await fetch('/status/'+jobId);
+  const j=await r.json();
+  if (j.currentDetail) document.getElementById('bfd1').textContent='处理: '+j.currentDetail;
+  if (j.total>0){
+    const p=Math.round((j.done+j.failed)/j.total*100);
+    document.getElementById('bfbb').style.width=p+'%';
+  }
+  if (j.status==='done'){
+    clearInterval(timers.bbfix);
+    document.getElementById('bfi1').textContent='✅';
+    document.getElementById('bfd1').textContent='✅'+j.done+' 完成  ❌'+j.failed+' 失败';
+    document.getElementById('bbfix-ok').style.display='block';
+    document.getElementById('bbfix-rs').textContent='共 '+j.done+' 份板书已生成完整版 + 中文总结';
+    document.getElementById('btn-bbfix').disabled=false;
+  }
+  if (j.status==='error'){
+    clearInterval(timers.bbfix);
+    document.getElementById('bfi1').textContent='❌';
+    document.getElementById('bbfix-er').style.display='block';
+    document.getElementById('bbfix-em').textContent=j.error;
+    document.getElementById('btn-bbfix').disabled=false;
+  }
+}
+
+// ── PW4 模板修复工具 ───────────────────────────────────────────
+let pw4FixFiles = [];
+function handlePw4FixFiles(files) {
+  pw4FixFiles = Array.from(files).slice(0, 12);
+  document.getElementById('pw4fix-filelist').textContent = pw4FixFiles.map(f=>f.name).join('  |  ');
+  document.getElementById('btn-pw4fix').disabled = pw4FixFiles.length === 0;
+}
+function handlePw4FixDrop(e) { handlePw4FixFiles(e.dataTransfer.files); }
+async function goPw4Fix() {
+  if (!pw4FixFiles.length) return;
+  document.getElementById('btn-pw4fix').disabled=true;
+  document.getElementById('pw4fix-prog').style.display='block';
+  document.getElementById('pw4fix-ok').style.display='none';
+  document.getElementById('pw4fix-er').style.display='none';
+  document.getElementById('pfi1').textContent='⏳';
+  document.getElementById('pfd1').textContent='上传中...';
+  document.getElementById('pfbw').style.display='block';
+  document.getElementById('pfbb').style.width='0%';
+  const fd=new FormData();
+  pw4FixFiles.forEach(f=>fd.append('files',f));
+  const r=await fetch('/fix-pw4-template',{method:'POST',body:fd});
+  const{jobId}=await r.json();
+  jobs.pw4fix=jobId;
+  timers.pw4fix=setInterval(()=>pollPw4Fix(jobId),1500);
+}
+async function pollPw4Fix(jobId) {
+  const r=await fetch('/status/'+jobId);
+  const j=await r.json();
+  if (j.currentDetail) document.getElementById('pfd1').textContent='处理: '+j.currentDetail;
+  if (j.total>0){
+    const p=Math.round((j.done+j.failed)/j.total*100);
+    document.getElementById('pfbb').style.width=p+'%';
+  }
+  if (j.status==='done'){
+    clearInterval(timers.pw4fix);
+    document.getElementById('pfi1').textContent='✅';
+    document.getElementById('pfd1').textContent='✅'+j.done+' 重排  ❌'+j.failed+' 失败';
+    document.getElementById('pw4fix-ok').style.display='block';
+    document.getElementById('pw4fix-rs').textContent='共 '+j.done+' 个文件已按新模板重排';
+    document.getElementById('btn-pw4fix').disabled=false;
+  }
+  if (j.status==='error'){
+    clearInterval(timers.pw4fix);
+    document.getElementById('pfi1').textContent='❌';
+    document.getElementById('pw4fix-er').style.display='block';
+    document.getElementById('pw4fix-em').textContent=j.error;
+    document.getElementById('btn-pw4fix').disabled=false;
+  }
+}
 
 function ieltsFileChanged(input) {
   var lbl = document.getElementById('n-ielts');
@@ -904,6 +1165,58 @@ function rsi(n,ic,dt){document.getElementById('ri'+n).textContent=ic;document.ge
 function lsi(n,ic,dt){document.getElementById('li'+n).textContent=ic;document.getElementById('ld'+n).textContent=dt;}
 function showErr(s,msg){document.getElementById(s+'-er').classList.add('show');document.getElementById(s+'-em').textContent=msg||'出错';}
 function dlJob(s){window.location.href='/download/'+jobs[s];}
+
+// ── IELTS Listening 复盘 ──────────────────────────────────────
+async function lsLoadBooks(){
+  try{
+    const r=await fetch('/ls/books'); const books=await r.json();
+    const sel=document.getElementById('ls-book'); if(!sel)return;
+    sel.innerHTML='';
+    if(books.length===0){ const o=document.createElement('option'); o.textContent='(暂无缓存,请先解析)'; o.value=''; sel.appendChild(o); }
+    books.forEach(b=>{ const o=document.createElement('option'); o.value=b.key;
+      o.textContent=b.bookTitle+' ('+b.key+') · Tests: '+b.tests.join('/');
+      o.dataset.tests=JSON.stringify(b.tests); sel.appendChild(o); });
+    lsRefreshTests();
+  }catch(e){ console.error('lsLoadBooks',e); }
+}
+function lsRefreshTests(){
+  const opt=document.getElementById('ls-book').selectedOptions[0];
+  const tests=opt&&opt.dataset.tests?JSON.parse(opt.dataset.tests):[];
+  const ts=document.getElementById('ls-test'); ts.innerHTML='<option value="all">全部 Test</option>';
+  tests.forEach(tn=>{ const o=document.createElement('option'); o.value=tn; o.textContent='Test '+tn; ts.appendChild(o); });
+}
+
+async function lsGenerate() {
+  const bookKey = document.getElementById('ls-book').value;
+  const testSel = document.getElementById('ls-test').value;
+  if (!bookKey) { alert('请先选择书目'); return; }
+  const st = document.getElementById('ls-gen-st');
+  st.textContent = '⏳ 生成中…';
+  try {
+    const r = await fetch('/ls/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ bookKey, testSel })
+    });
+    if (!r.ok) {
+      const j = await r.json().catch(() => ({}));
+      st.textContent = '❌ ' + (j.error || r.statusText);
+      return;
+    }
+    const cd = r.headers.get('Content-Disposition') || '';
+    const fnMatch = cd.match(/filename="?([^"]+)"?/);
+    const filename = fnMatch ? fnMatch[1] : (bookKey + '_Listening.docx');
+    const blob = await r.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename; a.click();
+    URL.revokeObjectURL(url);
+    st.textContent = '✅ 下载完成：' + filename;
+  } catch(e) {
+    st.textContent = '❌ ' + e.message;
+  }
+}
+lsLoadBooks();
 </script>
 
 <!-- ── IELTS DEEP READING ────────────────────────────────────── -->
@@ -955,6 +1268,30 @@ function dlJob(s){window.location.href='/download/'+jobs[s];}
   </div>
   <div class="rbox rok" id="ielts-ok"><div class="rt">🎉 完成！</div><div class="rs" id="ielts-rs"></div><button class="btn btn-dl" onclick="dlJob('ielts')">📦 下载 ZIP（学生版 + 教师版）</button></div>
   <div class="rbox rer" id="ielts-er"><div class="rt">❌ 出错</div><div class="rs" id="ielts-em"></div></div>
+
+  <!-- ════ IELTS Listening 复盘（阅读下方）════ -->
+  <div style="margin-top:22px;border-top:2px solid #e0e0e0;padding-top:16px">
+    <div class="section-header" style="margin-bottom:10px">
+      <span style="font-size:22px">🎧</span>
+      <h2 style="color:#1F4E79;font-size:18px">IELTS Listening 复盘 Worksheet</h2>
+    </div>
+    <div class="notice blue">📦 从缓存直接生成，无需上传文件。选择书目和 Test 编号后点生成即可。</div>
+
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end">
+      <div>
+        <label style="font-size:12px;display:block;margin-bottom:4px">选择书目</label>
+        <select id="ls-book" onchange="lsRefreshTests()" style="padding:5px 8px;border-radius:6px;border:1px solid #ccc;font-size:13px;min-width:260px"></select>
+      </div>
+      <div>
+        <label style="font-size:12px;display:block;margin-bottom:4px">选择 Test</label>
+        <select id="ls-test" style="padding:5px 8px;border-radius:6px;border:1px solid #ccc;font-size:13px">
+          <option value="all">全部 Test</option>
+        </select>
+      </div>
+      <button class="btn" onclick="lsGenerate()" style="background:#1F4E79;color:#fff;padding:7px 18px;font-size:13px;width:auto;display:inline-block">🎧 生成 Worksheet</button>
+      <span id="ls-gen-st" style="font-size:12px;color:#1F4E79"></span>
+    </div>
+  </div>
 </div>
 
 <!-- ── FIX TOOL ──────────────────────────────────────────────── -->
@@ -992,6 +1329,171 @@ function dlJob(s){window.location.href='/download/'+jobs[s];}
   </div>
   <div class="rbox rer" id="fix-er" style="display:none">
     <div class="rt">❌ 出错</div><div class="rs" id="fix-em"></div>
+  </div>
+</div>
+
+<!-- ── PW4 TEMPLATE FIX TOOL ─────────────────────────────────── -->
+<div class="card section-rw" id="pw4fix-card" style="display:none">
+  <div class="section-header">
+    <span style="font-size:24px">🧰</span>
+    <h2 style="color:#6A1B9A">PW4 模板修复工具</h2>
+  </div>
+  <div class="notice" style="background:#F3E5F5;border-color:#CE93D8;color:#6A1B9A">
+    📄 上传旧版 PW4 docx（Reading Homework / Video Practice / 词汇笔记 / Listening Practice，最多 12 份），
+    自动识别类型并按新模板重排：删 Name/Date、缩短 T/F/NG 空、调整分页、P7 词组化、Q5 托福 Prose Summary、
+    补题号与答题空、Dictation 1.5 行距、中文 12pt、题序去字母序。内容本身不变。
+  </div>
+  <div id="pw4fix-drop" style="border:2px dashed #CE93D8;border-radius:12px;padding:28px;text-align:center;cursor:pointer;background:#FAFAFA;margin-bottom:14px"
+    onclick="document.getElementById('pw4fix-input').click()"
+    ondragover="event.preventDefault();this.style.borderColor='#6A1B9A'"
+    ondragleave="this.style.borderColor='#CE93D8'"
+    ondrop="event.preventDefault();this.style.borderColor='#CE93D8';handlePw4FixDrop(event)">
+    <div style="font-size:28px;margin-bottom:6px">📂</div>
+    <div style="font-size:13px;font-weight:600;color:#444">点击或拖入 PW4 docx 文件（最多 12 份）</div>
+    <div id="pw4fix-filelist" style="font-size:11px;color:#6A1B9A;margin-top:8px;word-break:break-all"></div>
+  </div>
+  <input type="file" id="pw4fix-input" accept=".docx" multiple style="display:none" onchange="handlePw4FixFiles(this.files)">
+  <button class="btn" id="btn-pw4fix" onclick="goPw4Fix()" disabled
+    style="background:#6A1B9A;color:#fff;margin-bottom:6px">🧰 按新模板重排</button>
+  <div class="prog show" id="pw4fix-prog" style="display:none">
+    <div class="step"><div class="si" id="pfi1">⏳</div>
+      <div><div class="sn">处理进度</div><div class="sd" id="pfd1">等待中...</div>
+        <div class="bw" id="pfbw" style="display:none"><div class="bb" id="pfbb" style="background:#6A1B9A;width:0%"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="rbox rok" id="pw4fix-ok" style="display:none">
+    <div class="rt">🎉 完成！</div><div class="rs" id="pw4fix-rs"></div>
+    <button class="btn" style="background:#6A1B9A;color:#fff;margin-top:10px" onclick="dlJob('pw4fix')">📦 下载新模板文件 (ZIP)</button>
+  </div>
+  <div class="rbox rer" id="pw4fix-er" style="display:none">
+    <div class="rt">❌ 出错</div><div class="rs" id="pw4fix-em"></div>
+  </div>
+</div>
+
+<!-- ── BLACKBOARD 完整版工具 ─────────────────────────────────── -->
+<div class="card section-rw" id="bbfix-card" style="display:none">
+  <div class="section-header">
+    <span style="font-size:24px">📋</span>
+    <h2 style="color:#00695C">板书完整版工具</h2>
+  </div>
+  <div class="notice" style="background:#E0F2F1;border-color:#80CBC4;color:#00695C">
+    📄 上传旧版 Reading Blackboard（板书）docx（最多 12 份）。自动将挖空大纲改为
+    <strong>完整版参考答案大纲</strong>（不挖空、去答案键），并在文末追加
+    <strong>200 字中文文章内容总结</strong>（调 Claude API 依据大纲生成）。
+  </div>
+  <div id="bbfix-drop" style="border:2px dashed #80CBC4;border-radius:12px;padding:28px;text-align:center;cursor:pointer;background:#FAFAFA;margin-bottom:14px"
+    onclick="document.getElementById('bbfix-input').click()"
+    ondragover="event.preventDefault();this.style.borderColor='#00695C'"
+    ondragleave="this.style.borderColor='#80CBC4'"
+    ondrop="event.preventDefault();this.style.borderColor='#80CBC4';handleBbFixDrop(event)">
+    <div style="font-size:28px;margin-bottom:6px">📂</div>
+    <div style="font-size:13px;font-weight:600;color:#444">点击或拖入板书 docx 文件（最多 12 份）</div>
+    <div id="bbfix-filelist" style="font-size:11px;color:#00695C;margin-top:8px;word-break:break-all"></div>
+  </div>
+  <input type="file" id="bbfix-input" accept=".docx" multiple style="display:none" onchange="handleBbFixFiles(this.files)">
+  <button class="btn" id="btn-bbfix" onclick="goBbFix()" disabled
+    style="background:#00695C;color:#fff;margin-bottom:6px">📋 生成完整版 + 中文总结</button>
+  <div class="prog show" id="bbfix-prog" style="display:none">
+    <div class="step"><div class="si" id="bfi1">⏳</div>
+      <div><div class="sn">处理进度</div><div class="sd" id="bfd1">等待中...</div>
+        <div class="bw" id="bfbw" style="display:none"><div class="bb" id="bfbb" style="background:#00695C;width:0%"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="rbox rok" id="bbfix-ok" style="display:none">
+    <div class="rt">🎉 完成！</div><div class="rs" id="bbfix-rs"></div>
+    <button class="btn" style="background:#00695C;color:#fff;margin-top:10px" onclick="dlJob('bbfix')">📦 下载完整版 (ZIP)</button>
+  </div>
+  <div class="rbox rer" id="bbfix-er" style="display:none">
+    <div class="rt">❌ 出错</div><div class="rs" id="bbfix-em"></div>
+  </div>
+</div>
+
+<!-- ── PW3 模板工具（独立，不影响 PW4）──────────────────────── -->
+<div class="card section-rw" id="pw3fix-card" style="display:none">
+  <div class="section-header">
+    <span style="font-size:24px">📒</span>
+    <h2 style="color:#5D4037">PW3 模板工具</h2>
+  </div>
+  <div class="notice" style="background:#EFEBE9;border-color:#BCAAA4;color:#5D4037">
+    📄 上传旧版 PW3 docx（Reading / Video / 词汇笔记 / Listening，最多 12 份）。将 PW3 的
+    <strong>样式排版改成 PW4 外观</strong>（字体、行距 1.15、页边距、大标题红、Part 标题蓝、
+    说明灰斜体、清理楷体与脏字符），<strong>内容文字与位置不动</strong>。输出 <code>_PW4样式.docx</code>。
+  </div>
+  <div id="pw3fix-drop" style="border:2px dashed #BCAAA4;border-radius:12px;padding:28px;text-align:center;cursor:pointer;background:#FAFAFA;margin-bottom:14px"
+    onclick="document.getElementById('pw3fix-input').click()"
+    ondragover="event.preventDefault();this.style.borderColor='#5D4037'"
+    ondragleave="this.style.borderColor='#BCAAA4'"
+    ondrop="event.preventDefault();this.style.borderColor='#BCAAA4';handlePw3FixDrop(event)">
+    <div style="font-size:28px;margin-bottom:6px">📂</div>
+    <div style="font-size:13px;font-weight:600;color:#444">点击或拖入 PW3 docx 文件（最多 12 份）</div>
+    <div id="pw3fix-filelist" style="font-size:11px;color:#5D4037;margin-top:8px;word-break:break-all"></div>
+  </div>
+  <input type="file" id="pw3fix-input" accept=".docx" multiple style="display:none" onchange="handlePw3FixFiles(this.files)">
+  <button class="btn" id="btn-pw3fix" onclick="goPw3Fix()" disabled
+    style="background:#5D4037;color:#fff;margin-bottom:6px">📒 改成 PW4 样式（保留原内容结构）</button>
+  <button class="btn" id="btn-pw3regen" onclick="goPw3Regen()" disabled
+    style="background:#8D6E63;color:#fff;margin-bottom:6px">♻️ 提取内容 + 重生成为 PW4（纯正 PW4 样式）</button>
+  <div style="font-size:11px;color:#8D6E63;margin-bottom:6px">
+    💡 「改样式」保留 PW3 原结构只换外观；「重生成」从 PW3 提取内容用 PW4 模板重新渲染（100% PW4 样式，Reading 类较复杂建议重点核对）。
+  </div>
+  <div class="prog show" id="pw3fix-prog" style="display:none">
+    <div class="step"><div class="si" id="p3i1">⏳</div>
+      <div><div class="sn">处理进度</div><div class="sd" id="p3d1">等待中...</div>
+        <div class="bw" id="p3bw" style="display:none"><div class="bb" id="p3bb" style="background:#5D4037;width:0%"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="rbox rok" id="pw3fix-ok" style="display:none">
+    <div class="rt">🎉 完成！</div><div class="rs" id="pw3fix-rs"></div>
+    <button class="btn" style="background:#5D4037;color:#fff;margin-top:10px" onclick="dlJob('pw3fix')">📦 下载 PW3 文件 (ZIP)</button>
+  </div>
+  <div class="rbox rer" id="pw3fix-er" style="display:none">
+    <div class="rt">❌ 出错</div><div class="rs" id="pw3fix-em"></div>
+  </div>
+</div>
+
+<!-- ── TOEFL 场景图生成（OpenAI）────────────────────────────── -->
+<div class="card section-rw" id="img-card" style="display:none">
+  <div class="section-header">
+    <span style="font-size:24px">🎨</span>
+    <h2 style="color:#AD1457">TOEFL 口语词汇场景图</h2>
+  </div>
+  <div class="notice" style="background:#FCE4EC;border-color:#F48FB1;color:#AD1457">
+    🖼️ 输入<strong>中文或英文</strong>描述。若含中文，系统会先用 Claude 自动翻译并重构为
+    「密集信息图海报」英文 prompt（带分区面板、cream 标签、学院海报风格），再调 gpt-image-2 生成。
+    海报建议用 A4竖版 + 高质量。
+  </div>
+  <textarea id="scene-prompt" rows="4" placeholder="例如：A student ordering food at a busy restaurant, pointing at the menu while the waiter takes notes"
+    style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #F48FB1;border-radius:8px;font-size:13px;margin-bottom:10px;resize:vertical"></textarea>
+  <div style="display:flex;gap:10px;margin-bottom:10px;flex-wrap:wrap">
+    <select id="img-size" style="padding:8px;border:1px solid #F48FB1;border-radius:6px;font-size:12px">
+      <option value="1024x1536">A4竖版 1024×1536（海报）</option>
+      <option value="1024x1024">正方形 1024×1024</option>
+      <option value="1536x1024">横版 1536×1024</option>
+    </select>
+    <select id="img-quality" style="padding:8px;border:1px solid #F48FB1;border-radius:6px;font-size:12px">
+      <option value="high">高质量（海报推荐）</option>
+      <option value="medium">中等质量</option>
+      <option value="low">低质量（更快/更省）</option>
+    </select>
+  </div>
+  <button class="btn" id="btn-img" onclick="goGenImage()"
+    style="background:#AD1457;color:#fff;margin-bottom:6px">🎨 生成场景图</button>
+  <div class="prog show" id="img-prog" style="display:none">
+    <div class="step"><div class="si" id="imi1">⏳</div>
+      <div><div class="sn">生成中</div><div class="sd" id="imd1">调用 OpenAI...</div></div>
+    </div>
+  </div>
+  <div class="rbox rok" id="img-ok" style="display:none">
+    <div class="rt">🎉 完成！</div>
+    <img id="img-result" style="max-width:100%;border-radius:10px;margin-top:10px;border:1px solid #F48FB1" />
+    <div id="img-revised" style="font-size:11px;color:#888;margin-top:8px;font-style:italic;white-space:pre-wrap;max-height:160px;overflow-y:auto"></div>
+    <a id="img-download" download="scene.png" class="btn" style="background:#AD1457;color:#fff;margin-top:10px;display:inline-block;text-decoration:none">⬇️ 下载图片</a>
+  </div>
+  <div class="rbox rer" id="img-er" style="display:none">
+    <div class="rt">❌ 出错</div><div class="rs" id="img-em"></div>
   </div>
 </div>
 </body></html>`;
@@ -1063,6 +1565,31 @@ async function runIELTSPipeline(job, pdfBuf, fileName, testNum, passageNum) {
 // ════════════════════════════════════════════════════════════════
 // ROUTES
 // ════════════════════════════════════════════════════════════════
+// ── IELTS Listening 复盘路由 ──────────────────────────────────
+app.get('/ls/books', (req, res) => {
+  try { res.json(listCachedBooks()); }
+  catch (e) { res.status(500).json({ error: e.message }); }
+});
+app.post('/ls/generate', express.json(), async (req, res) => {
+  try {
+    const { bookKey, testSel } = req.body;
+    const results = await generateDocx(bookKey, testSel);
+    if (!results.length) return res.status(404).json({ error: '无可生成的 Test' });
+    if (results.length === 1) {
+      const r = results[0];
+      res.setHeader('Content-Disposition', `attachment; filename="${r.fileName}"`);
+      res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+      return res.send(r.buffer);
+    }
+    res.setHeader('Content-Disposition', `attachment; filename="${bookKey}_Listening_AllTests.zip"`);
+    res.setHeader('Content-Type', 'application/zip');
+    const archive = archiver('zip', { zlib:{ level:9 } });
+    archive.pipe(res);
+    for (const r of results) archive.append(r.buffer, { name:r.fileName });
+    archive.finalize();
+  } catch (e) { console.error('[LS generate]', e); res.status(500).json({ error: e.message }); }
+});
+
 app.get('/', (_, res) => res.send(HTML));
 
 app.get('/api/debug-ls/:unit', (req, res) => {
@@ -1290,6 +1817,178 @@ app.post('/fix-ielts-tasks', upload.any(), async (req, res) => {
     job.status = 'done';
     job.currentDetail = '';
   })().catch(e => { job.status='error'; job.error=e.message; });
+});
+
+// ════════════════════════════════════════════════════════════════
+// FIX PW4 TEMPLATE  (PW4 模板修复：提取内容按新模板重排)
+// ════════════════════════════════════════════════════════════════
+app.post('/fix-pw4-template', upload.any(), async (req, res) => {
+  const files = (req.files||[]).filter(f =>
+    f.originalname.toLowerCase().endsWith('.docx'));
+  if (!files.length) return res.status(400).json({error:'未上传 .docx 文件'});
+
+  const jobId = Math.random().toString(36).slice(2,9).toUpperCase();
+  const job   = { id:jobId, status:'processing', currentStep:'重排', currentDetail:'',
+                  total:files.length, done:0, failed:0, files:[] };
+  jobs.set(jobId, job);
+  res.json({ jobId });
+
+  (async () => {
+    for (const file of files) {
+      job.currentDetail = file.originalname;
+      try {
+        const result = await fixPW4Doc(file.buffer, file.originalname);
+        job.done++;
+        job.files.push({ name: result.newName, buf: result.buffer });
+        console.log('[pw4fix] ✅ '+file.originalname+' ('+result.type+') → '+result.newName);
+        result.notes.forEach(n => console.log('[pw4fix]    · '+n));
+      } catch(e) {
+        job.failed++;
+        console.error('[pw4fix] ❌ '+file.originalname+':', e.message);
+      }
+    }
+    job.status = 'done';
+    job.currentDetail = '';
+  })().catch(e => { job.status='error'; job.error=e.message; });
+});
+
+// ════════════════════════════════════════════════════════════════
+// FIX BLACKBOARD  (板书完整版 + 200字中文总结)
+// ════════════════════════════════════════════════════════════════
+app.post('/fix-blackboard', upload.any(), async (req, res) => {
+  const files = (req.files||[]).filter(f =>
+    f.originalname.toLowerCase().endsWith('.docx'));
+  if (!files.length) return res.status(400).json({error:'未上传 .docx 文件'});
+
+  const jobId = Math.random().toString(36).slice(2,9).toUpperCase();
+  const job   = { id:jobId, status:'processing', currentStep:'板书完整版', currentDetail:'',
+                  total:files.length, done:0, failed:0, files:[] };
+  jobs.set(jobId, job);
+  res.json({ jobId });
+
+  (async () => {
+    for (const file of files) {
+      job.currentDetail = file.originalname;
+      try {
+        // 从文件名提取 Unit 号（U1 / U01 / U3A → 1/1/3），按 Unit 匹配教材原文
+        const fixedName = file.originalname.normalize ? file.originalname : file.originalname;
+        const um = fixedName.match(/\bU0?(\d+)/i);
+        let articleText = '';
+        if (um) {
+          const unit = parseInt(um[1], 10);
+          try {
+            const article = rwBookLoader.getArticle(unit);
+            if (article && article.pdfBuffer) {
+              articleText = await extractText(article.pdfBuffer);
+              console.log(`[bbfix] Unit ${unit} 原文匹配成功（${articleText.length} 字符）`);
+            } else {
+              console.log(`[bbfix] Unit ${unit} 无对应教材 PDF，回退大纲总结`);
+            }
+          } catch(e) {
+            console.warn(`[bbfix] Unit ${unit} 原文提取失败：${e.message}，回退大纲总结`);
+          }
+        }
+        const result = await fixBlackboardDoc(file.buffer, file.originalname, { articleText });
+        job.done++;
+        job.files.push({ name: result.newName, buf: result.buffer });
+        console.log('[bbfix] ✅ '+file.originalname+' → '+result.newName);
+        result.notes.forEach(n => console.log('[bbfix]    · '+n));
+      } catch(e) {
+        job.failed++;
+        console.error('[bbfix] ❌ '+file.originalname+':', e.message);
+      }
+    }
+    job.status = 'done';
+    job.currentDetail = '';
+  })().catch(e => { job.status='error'; job.error=e.message; });
+});
+
+// ════════════════════════════════════════════════════════════════
+// FIX PW3 TEMPLATE  (PW3 模板，独立于 PW4)
+// ════════════════════════════════════════════════════════════════
+app.post('/fix-pw3-template', upload.any(), async (req, res) => {
+  const files = (req.files||[]).filter(f =>
+    f.originalname.toLowerCase().endsWith('.docx'));
+  if (!files.length) return res.status(400).json({error:'未上传 .docx 文件'});
+
+  const jobId = Math.random().toString(36).slice(2,9).toUpperCase();
+  const job   = { id:jobId, status:'processing', currentStep:'PW3重排', currentDetail:'',
+                  total:files.length, done:0, failed:0, files:[] };
+  jobs.set(jobId, job);
+  res.json({ jobId });
+
+  (async () => {
+    for (const file of files) {
+      job.currentDetail = file.originalname;
+      try {
+        const result = await fixPW3Doc(file.buffer, file.originalname);
+        job.done++;
+        job.files.push({ name: result.newName, buf: result.buffer });
+        console.log('[pw3fix] ✅ '+file.originalname+' ('+result.type+') → '+result.newName);
+        result.notes.forEach(n => console.log('[pw3fix]    · '+n));
+      } catch(e) {
+        job.failed++;
+        console.error('[pw3fix] ❌ '+file.originalname+':', e.message);
+      }
+    }
+    job.status = 'done';
+    job.currentDetail = '';
+  })().catch(e => { job.status='error'; job.error=e.message; });
+});
+
+// ════════════════════════════════════════════════════════════════
+// REGEN PW3  (提取 PW3 内容 → PW4 builder 重生成)
+// ════════════════════════════════════════════════════════════════
+app.post('/regen-pw3', upload.any(), async (req, res) => {
+  const files = (req.files||[]).filter(f => f.originalname.toLowerCase().endsWith('.docx'));
+  if (!files.length) return res.status(400).json({error:'未上传 .docx 文件'});
+  const jobId = Math.random().toString(36).slice(2,9).toUpperCase();
+  const job = { id:jobId, status:'processing', currentStep:'PW3重生成', currentDetail:'',
+                total:files.length, done:0, failed:0, files:[] };
+  jobs.set(jobId, job);
+  res.json({ jobId });
+  (async () => {
+    for (const file of files) {
+      job.currentDetail = file.originalname;
+      try {
+        const result = await regenFromPW3(file.buffer, file.originalname);
+        job.done++;
+        job.files.push({ name: result.newName, buf: result.buffer });
+        console.log('[pw3regen] ✅ '+file.originalname+' ('+result.type+') → '+result.newName);
+        result.warnings.forEach(w => console.log('[pw3regen]    ⚠️ '+w));
+      } catch(e) {
+        job.failed++;
+        console.error('[pw3regen] ❌ '+file.originalname+':', e.message);
+      }
+    }
+    job.status = 'done';
+    job.currentDetail = '';
+  })().catch(e => { job.status='error'; job.error=e.message; });
+});
+
+// ════════════════════════════════════════════════════════════════
+// GEN IMAGE  (OpenAI 场景图生成)
+// ════════════════════════════════════════════════════════════════
+app.post('/gen-image', express.json({ limit: '1mb' }), async (req, res) => {
+  const { prompt, size, quality } = req.body || {};
+  if (!prompt || !prompt.trim()) return res.status(400).json({ error: 'prompt 为空' });
+  if (!process.env.OPENAI_API_KEY) return res.status(400).json({ error: 'OPENAI_API_KEY 未设置（请在 .env 配置）' });
+  try {
+    const result = await generateSceneImage(prompt, {
+      size: size || '1024x1024',
+      quality: quality || 'standard'
+    });
+    console.log('[gen-image] ✅ 生成成功 | 转换:', result.converted, '| prompt:', result.prompt.slice(0, 60));
+    res.json({
+      b64: result.buffer.toString('base64'),
+      converted: result.converted,
+      usedPrompt: result.prompt,
+      revisedPrompt: result.revisedPrompt
+    });
+  } catch (e) {
+    console.error('[gen-image] ❌', e.message);
+    res.status(500).json({ error: e.message });
+  }
 });
 
 Promise.all([autoLoader.init(), rwBookLoader.load()]).then(() => {

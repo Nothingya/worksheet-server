@@ -1,0 +1,3437 @@
+{
+  "bookTitle": "Cambridge IELTS 14 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 14 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "加拿大游客在英报告扒窃案",
+          "sceneEmoji": "👮",
+          "mcq": [
+            {
+              "q": "What is Louise's occupation?",
+              "opts": [
+                [
+                  "A",
+                  "Antique furniture dealer / interior designer"
+                ],
+                [
+                  "B",
+                  "Hotel manager"
+                ],
+                [
+                  "C",
+                  "Museum curator"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "How did Louise realise she had been robbed?",
+              "opts": [
+                [
+                  "A",
+                  "Her passport was missing"
+                ],
+                [
+                  "B",
+                  "Her wallet was missing, and then she found her phone had gone too"
+                ],
+                [
+                  "C",
+                  "Someone told her at the museum"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What was the main suspect wearing?",
+              "opts": [
+                [
+                  "A",
+                  "A striped jacket"
+                ],
+                [
+                  "B",
+                  "A T-shirt with a tiger picture"
+                ],
+                [
+                  "C",
+                  "A dark hooded jacket"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman called Louise Taylor visits the police station to report a theft. She is Canadian, though her mother was British. She is an interior designer and comes to the UK to buy old furniture. She is staying in the Riverside Apartments at number fifteen on King Street. She had a backpack on her back and went into a supermarket when her wallet went missing. The wallet contained about £300 in cash. Her phone had also been taken — it was only a week old. The theft took place on September 10th. She thinks it happened near the cinema at about 4 o'clock, when a group of boys crowded around her and asked what the date was. The main suspect was blond and wearing a T-shirt with a tiger picture, and was about twelve years old.",
+          "errors": [
+            {
+              "wrong": "the Riverside Apartments",
+              "correct": "Park Apartments (that is where she is staying now)"
+            },
+            {
+              "wrong": "£300 in cash",
+              "correct": "about £250 sterling"
+            },
+            {
+              "wrong": "near the cinema",
+              "correct": "near/at the museum"
+            },
+            {
+              "wrong": "asked what the date was",
+              "correct": "asked what the time was"
+            },
+            {
+              "wrong": "the Riverside Apartments",
+              "correct": "Park Apartments (already corrected)"
+            },
+            {
+              "wrong": "£300",
+              "correct": "£250 (already corrected)"
+            },
+            {
+              "wrong": "the cinema",
+              "correct": "the museum (already corrected)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "OFFICER",
+              "parts": [
+                "Can I start with your name?"
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "Louise Taylor. I'm actually ",
+                1,
+                ", though my mother was British."
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "I'm an interior designer and I come over to buy old ",
+                2,
+                ". I've been here two months."
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "I've got a place at ",
+                3,
+                " Apartments, that's on King Street. Apartment fifteen."
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "I had my backpack on and went into a supermarket. When I opened it, my wallet wasn't there. It had about £",
+                4,
+                " sterling in it."
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "Then I realised my ",
+                5,
+                " had gone as well. It was only a week old — that's when I realised I'd been robbed."
+              ]
+            },
+            {
+              "speaker": "OFFICER",
+              "parts": [
+                "So the theft occurred yesterday — September the ",
+                6,
+                ". Do you have any idea of where it might have happened?"
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "I'd been at the ",
+                7,
+                " with a friend for a couple of hours. As we were leaving at about 4 o'clock, a group of young boys ran up to us and were crowding round us. They were asking us what ",
+                8,
+                " it was, then suddenly they ran off."
+              ]
+            },
+            {
+              "speaker": "LOUISE",
+              "parts": [
+                "The one who did most of the talking was wearing a T-shirt with a picture of a tiger. He was around twelve years old, quite thin, and he was ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "OFFICER",
+              "parts": [
+                "I'll give you a crime reference number so you can contact your insurance company. It's ten digits: ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Canadian",
+            "furniture",
+            "Park",
+            "250",
+            "phone",
+            "10th",
+            "museum",
+            "time",
+            "blond",
+            "87954 82361"
+          ]
+        },
+        "2": {
+          "scene": "公司学徒入职培训会议",
+          "sceneEmoji": "👩‍💼",
+          "kwt": [
+            {
+              "original": "You'll find your supervisor is very approachable and won't mind explaining things or helping you out.",
+              "keyWord": "ASSISTANCE",
+              "transStart": "Your supervisor is happy to provide",
+              "transEnd": "staff at any time — don't hesitate to ask.",
+              "answer": "PROVIDE ASSISTANCE TO",
+              "collocation": "provide assistance to (= offer help or support to someone)"
+            },
+            {
+              "original": "Their role is to provide help and support throughout your apprenticeship — they'll be asking you about what goals you've achieved so far.",
+              "keyWord": "PROGRESS",
+              "transStart": "Your mentor will have weekly meetings with you to",
+              "transEnd": "and help you identify areas for improvement.",
+              "answer": "MONITOR YOUR PROGRESS",
+              "collocation": "monitor one's progress (= regularly check development against goals)"
+            },
+            {
+              "original": "Although you're not required to do overtime during busy periods, it can be a valuable experience, so we advise you to take it up if possible.",
+              "keyWord": "ENCOURAGED",
+              "transStart": "While overtime is optional, apprentices are",
+              "transEnd": "to work extra hours during busy periods as it provides valuable experience.",
+              "answer": "STRONGLY ENCOURAGED TO",
+              "collocation": "strongly encouraged to (= firmly advised or urged to do something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Flexible working"
+              },
+              {
+                "num": 2,
+                "left": "Holidays"
+              },
+              {
+                "num": 3,
+                "left": "Overtime"
+              },
+              {
+                "num": 4,
+                "left": "Dress code"
+              },
+              {
+                "num": 5,
+                "left": "Canteen"
+              }
+            ],
+            "options": [
+              "A.  only permitted after three-month probationary period in some departments",
+              "B.  not to be booked until after the six-month apprenticeship ends",
+              "C.  casual clothes acceptable; no high heels",
+              "D.  subsidised — hot meals, salads, snacks and drinks provided",
+              "E.  not required, but strongly recommended when available"
+            ],
+            "answers": [
+              "A",
+              "B",
+              "E",
+              "C",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JANET",
+              "parts": [
+                "Welcome to your new apprenticeship. The first week may be quite challenging — don't worry about trying to remember everything. Check with someone if you're not sure what to do — your ",
+                1,
+                " is very approachable."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll be spending time in different ",
+                2,
+                " during your first week, so make an effort to talk to as many people as possible."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll each be assigned a ",
+                3,
+                " — someone who's recently completed an apprenticeship. You'll meet them on a weekly basis. Their role is to help you identify any areas for improvement."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As part of your job you'll be doing some research online so you'll have unlimited internet access for that — but please don't use it for ",
+                4,
+                " use."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Flexible working: after your probationary three-month period — some of you will be eligible, but it will depend on which ",
+                5,
+                " you're in."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Apart from statutory public holidays, please don't book any holidays until after your six-month apprenticeship has ",
+                6,
+                ". Time off should only be taken if you are unwell."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll be expected to work a 40-hour week, but there may be opportunities to do ",
+                7,
+                " during busy periods. Although you're not required to do this, it can be a valuable experience."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We don't have a formal dress code — you may wear casual clothes as long as they're practical. The only restriction for shoes is on ",
+                8,
+                " for health and safety reasons."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a heavily subsidised ",
+                9,
+                " on site where you can get hot meals or salads cheaply. Snacks and drinks are also provided."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've decided to introduce a no packed lunch policy — partly to encourage healthy eating and partly to stop people eating at their ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "supervisor",
+            "departments",
+            "mentor",
+            "personal",
+            "department",
+            "finished",
+            "overtime",
+            "high heels",
+            "canteen",
+            "workstation"
+          ]
+        },
+        "3": {
+          "scene": "沿海城市规划演示准备讨论",
+          "sceneEmoji": "🏙️",
+          "functions": "A  Providing new information    B  Acknowledging a point    C  Raising a concern    D  Proposing a solution    E  Identifying a limitation",
+          "pragmatic": [
+            {
+              "quote": "More than half the world's population lives in cities now — though that's all cities, not just ones on the coast.",
+              "speaker": "Carla",
+              "answer": "B"
+            },
+            {
+              "quote": "A lot of cities are built where rivers come out into the sea, and as the city expands, more pollutants are discharged into the rivers and brought downstream.",
+              "speaker": "Rob",
+              "answer": "A"
+            },
+            {
+              "quote": "They built drainage channels too close to sea level, and now sea levels are rising — if there's a lot of rain, there's nowhere for the water to go. The whole design was faulty.",
+              "speaker": "Rob",
+              "answer": "C"
+            },
+            {
+              "quote": "Really, coastal cities can't deal with their problems on their own — they've got to start acting at an international level instead of just doing their own thing.",
+              "speaker": "Carla",
+              "answer": "D"
+            },
+            {
+              "quote": "It's going to be a long time before countries come to a decision on what principles they're prepared to abide by — if they ever do.",
+              "speaker": "Rob",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌊",
+              "title": "Key Problem — Pollution & Flooding",
+              "items": [
+                [
+                  "Rivers bring ",
+                  {
+                    "b": 1
+                  },
+                  " downstream from industry and agriculture"
+                ],
+                [
+                  "Miami example: drainage channels built in the 1950s are now useless because ",
+                  {
+                    "b": 1
+                  },
+                  " levels have risen"
+                ],
+                [
+                  "Real need: find money to replace the drainage channels for ",
+                  {
+                    "b": 1
+                  },
+                  " prevention now"
+                ]
+              ]
+            },
+            {
+              "emoji": "🗺️",
+              "title": "Presentation Structure",
+              "items": [
+                [
+                  "Introduction: historical background on why coastal cities were ",
+                  {
+                    "b": 1
+                  },
+                  " (keep brief)"
+                ],
+                [
+                  "Geographical features: wetlands, river estuaries, coastal ",
+                  {
+                    "b": 1
+                  },
+                  " — maps on slides"
+                ],
+                [
+                  "Past mistakes: New Orleans flooding case study — ",
+                  {
+                    "b": 1
+                  },
+                  " remember the event"
+                ],
+                [
+                  "Current action being taken to deal with coastal city ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔮",
+              "title": "Future Sections",
+              "items": [
+                [
+                  "Future risks: long-term if ",
+                  {
+                    "b": 1
+                  },
+                  " continue to grow — need to find websites"
+                ],
+                [
+                  "International implications: may ask the audience from different countries"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "pollutants",
+            "sea",
+            "flood",
+            "established",
+            "erosion",
+            "audience",
+            "problems",
+            "populations"
+          ],
+          "dictation": [
+            {
+              "speaker": "CARLA",
+              "parts": [
+                "I'm glad we chose quite a specific topic — cities built next to the sea. It made it much easier to find relevant information."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "More than half the world's population lives in cities now. And most of the biggest cities are actually built by the sea — many at places where ",
+                1,
+                " come out into the sea."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "As the city expands, more and more ",
+                2,
+                " are discharged into the rivers and brought downstream to the cities."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "In the 1950s, Miami built drainage channels to prevent flooding. But they built them too close to ",
+                3,
+                " level — now sea levels are rising and they're useless."
+              ]
+            },
+            {
+              "speaker": "CARLA",
+              "parts": [
+                "Really, coastal cities can't deal with their problems on their own. They've got to start acting at an ",
+                4,
+                " level instead of just doing their own thing."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "It's going to be a long time before countries come to a decision on what principles they're prepared to abide by — if they ever do."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "So I suppose we'll begin with some general historical background about why coastal cities were established. But we don't want to spend too long on that — the other students will already know a bit about it."
+              ]
+            },
+            {
+              "speaker": "CARLA",
+              "parts": [
+                "We should mention geographical factors — wetlands, river estuaries, coastal erosion. We could have some maps of different cities on ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "We could use the New Orleans flooding case study as the basis for the 'past mistakes' section. The other students will remember hearing about the ",
+                6,
+                " at the time."
+              ]
+            },
+            {
+              "speaker": "CARLA",
+              "parts": [
+                "Then we talk about current action. And something on future risks, looking more at the long term if populations continue to ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "CARLA",
+              "parts": [
+                "I think we should end by talking about international implications. Maybe we could ask people in the ",
+                8,
+                " — we've got people from quite a lot of different places."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "rivers",
+            "pollutants",
+            "sea",
+            "international",
+            "slides",
+            "flooding",
+            "grow",
+            "audience"
+          ]
+        },
+        "4": {
+          "scene": "海洋可再生能源讲座",
+          "sceneEmoji": "🌊",
+          "signpost": [
+            {
+              "quote": "Demand is rising rapidly, because of the world's increasing population and expanding industry.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a debate"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Establishing the scale of the energy problem before introducing the ocean solution"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "This form of energy has plenty of potential, as the source is constant, and there's no danger of waves coming to a standstill.",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Summarising all ocean energy"
+                ],
+                [
+                  "C",
+                  "Stating the key advantage of wave energy before introducing its limitations"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "One major advantage of using the tide, rather than waves, as a source of energy is that it's predictable.",
+              "opts": [
+                [
+                  "A",
+                  "Explicitly contrasting tidal energy's key advantage against the wave energy discussed above"
+                ],
+                [
+                  "B",
+                  "Concluding the wave section"
+                ],
+                [
+                  "C",
+                  "Providing an example"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "This system has quite a lot in its favour: unlike solar and wind energy it doesn't depend on the weather.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Questioning the system"
+                ],
+                [
+                  "C",
+                  "Summarising the benefits of the tidal lagoon system after describing how it works"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "On the other hand, there are fears that lagoons might harm both fish and birds, for example by disturbing migration patterns.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing environmental concerns after listing economic and operational benefits"
+                ],
+                [
+                  "B",
+                  "Concluding the tidal section"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌊",
+              "title": "Wave Energy",
+              "items": [
+                [
+                  "Source is ",
+                  {
+                    "b": 1
+                  },
+                  " — no danger of waves stopping"
+                ],
+                [
+                  "Problem: waves travel in every ",
+                  {
+                    "b": 1
+                  },
+                  " — reduces efficiency"
+                ],
+                [
+                  "Drawback: sediment on the ocean ",
+                  {
+                    "b": 1
+                  },
+                  " may be disturbed — environmental problems"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌊",
+              "title": "Tidal Energy — Tidal Lagoon",
+              "items": [
+                [
+                  "Key advantage: ",
+                  {
+                    "b": 1
+                  },
+                  " — we know high/low tide times for years ahead"
+                ],
+                [
+                  "Tidal lagoon: enclosed area of sea water within a ",
+                  {
+                    "b": 1
+                  },
+                  " at Swansea, Wales"
+                ],
+                [
+                  "Water rushes through turbines as tide rises, then held back for three hours, then ",
+                  {
+                    "b": 1
+                  },
+                  " in breakwater open"
+                ],
+                [
+                  "Generates electricity 4 times a day — approx. 14 hours in every 24"
+                ]
+              ]
+            },
+            {
+              "emoji": "✅",
+              "title": "Benefits of Tidal Lagoon",
+              "items": [
+                [
+                  "Doesn't depend on weather; operates without ",
+                  {
+                    "b": 1
+                  },
+                  " so no greenhouse gas emissions"
+                ],
+                [
+                  "Manufacturing creates over 2,000 ",
+                  {
+                    "b": 1
+                  },
+                  " — boost to local economy"
+                ],
+                [
+                  "Very little maintenance needed"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Environmental Concerns",
+              "items": [
+                [
+                  "Fears it might harm fish and birds — disturb ",
+                  {
+                    "b": 1
+                  },
+                  " patterns"
+                ],
+                [
+                  "Could cause build-up of silt, affecting local ecosystems"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "constant",
+            "direction",
+            "floor",
+            "predictable",
+            "bay",
+            "gates",
+            "fuel",
+            "jobs",
+            "migration"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Producing enough energy has become a serious problem. Demand is rising rapidly due to the world's increasing population and expanding ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Today I'll outline marine renewable energy — which harnesses the movement of the oceans. It can be divided into three main categories: wave energy, tidal energy and ocean thermal energy conversion."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Wave energy has plenty of potential — the source is ",
+                2,
+                ", and there's no danger of waves stopping. But the problem is that waves are erratic, with the wind making them travel in every ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another drawback is that sand and other sediment on the ocean ",
+                4,
+                " might be stopped from flowing normally, which can lead to environmental problems."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One major advantage of tidal energy over waves is that it's ",
+                5,
+                " — we know the exact times of high and low tides for years to come."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One plan is to create a tidal lagoon — an enclosed area of water within a ",
+                6,
+                " at Swansea, Wales, sheltered by a U-shaped breakwater containing sixteen turbines."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As the tide rises, water rushes through the breakwater activating the turbines. Then the water is held back. When the ",
+                7,
+                " in the breakwater are opened, the stored water pours out, driving the turbines in the opposite direction."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The system operates without the need for ",
+                8,
+                ", so it doesn't create greenhouse gas emissions. Manufacturing the components would create more than 2,000 ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On the other hand, there are fears that lagoons might harm both fish and birds — for example by disturbing ",
+                10,
+                ", and causing a build-up of silt."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "industry",
+            "constant",
+            "direction",
+            "floor",
+            "predictable",
+            "bay",
+            "gates",
+            "fuel",
+            "jobs",
+            "migration"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 14 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "全科诊所首次就诊咨询",
+          "sceneEmoji": "🏥",
+          "mcq": [
+            {
+              "q": "What is Julie's job?",
+              "opts": [
+                [
+                  "A",
+                  "A manager at Esterhazy's restaurant chain"
+                ],
+                [
+                  "B",
+                  "A waitress at Esterhazy's"
+                ],
+                [
+                  "C",
+                  "A nurse at the clinic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does Julie say about the pain in her knee?",
+              "opts": [
+                [
+                  "A",
+                  "It started suddenly three days ago"
+                ],
+                [
+                  "B",
+                  "It has been there for three weeks and has been worse for the last couple of days"
+                ],
+                [
+                  "C",
+                  "It only hurts when she runs"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What previous injury does Julie mention?",
+              "opts": [
+                [
+                  "A",
+                  "A back injury from swimming"
+                ],
+                [
+                  "B",
+                  "A knee injury from playing tennis"
+                ],
+                [
+                  "C",
+                  "A shoulder injury after slipping last year"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Julie Garcia arrives at the Total Health Clinic for her first visit. Dr Carl Rogers takes her details. Her phone number is 219 442 9785 and her date of birth is October 10th, 1991. She works full-time as a waitress at Esterhazy's restaurant chain. Her insurance company is Cawley Life Insurance. She has been getting pain in her right knee for about two weeks. She has been taking medication and using heat on it for the last few days, which helps a little. She plays a lot of tennis and normally goes running three or four times a week. Last year she slipped and hurt her hip.",
+          "errors": [
+            {
+              "wrong": "1991",
+              "correct": "1992"
+            },
+            {
+              "wrong": "as a waitress",
+              "correct": "as a manager"
+            },
+            {
+              "wrong": "her right knee",
+              "correct": "her left knee"
+            },
+            {
+              "wrong": "two weeks",
+              "correct": "three weeks"
+            },
+            {
+              "wrong": "using heat",
+              "correct": "using ice"
+            },
+            {
+              "wrong": "hurt her hip",
+              "correct": "hurt her shoulder"
+            },
+            {
+              "wrong": "1991",
+              "correct": "1992 (already done — replace: 'her right knee' → 'her left knee')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "CARL",
+              "parts": [
+                "So your full name is Julie Anne Garcia? And can I have a contact phone number?"
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "It's ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "CARL",
+              "parts": [
+                "And can I check your date of birth?"
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "October tenth, ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "CARL",
+              "parts": [
+                "I actually have 1991 — I'll just correct that. Do you have an occupation?"
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "Yes, I work full-time at Esterhazy's — you know, the restaurant chain. I started as a waitress and I'm a ",
+                3,
+                " now."
+              ]
+            },
+            {
+              "speaker": "CARL",
+              "parts": [
+                "One more thing — the name of your insurance company?"
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "It's ",
+                4,
+                " Life Insurance. C-A-W-L-E-Y."
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "I've been getting a pain in my ",
+                5,
+                ", the left one. It's been worse for the last couple of days but it's been ",
+                6,
+                " weeks since I first noticed it."
+              ]
+            },
+            {
+              "speaker": "CARL",
+              "parts": [
+                "Have you tried heat treatment?"
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "No, but I have been using ",
+                7,
+                " on it for the last few days. That helps a little."
+              ]
+            },
+            {
+              "speaker": "CARL",
+              "parts": [
+                "Do you do any sport on a regular basis?"
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "Yes, I play a lot of ",
+                8,
+                ". I belong to a club. But normally I go ",
+                9,
+                " a few times a week — maybe three or four times."
+              ]
+            },
+            {
+              "speaker": "JULIE",
+              "parts": [
+                "I did have an accident last year when I slipped and hurt my ",
+                10,
+                ", but that's better now."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "219 442 9785",
+            "1992",
+            "manager",
+            "Cawley",
+            "knee",
+            "3",
+            "ice",
+            "tennis",
+            "running",
+            "shoulder"
+          ]
+        },
+        "2": {
+          "scene": "布兰利城堡参观导览",
+          "sceneEmoji": "🏰",
+          "kwt": [
+            {
+              "original": "When Queen Elizabeth I announced that she was going to visit the castle in 1576 it was beginning to look a bit run down, and it was decided to make a new house for her out of wood next to the main hall.",
+              "keyWord": "DETERIORATING",
+              "transStart": "By the time of Queen Elizabeth I's planned visit in 1576, the castle was",
+              "transEnd": ", prompting the decision to build a separate wooden guest house for her.",
+              "answer": "ALREADY DETERIORATING",
+              "collocation": "already deteriorating (= had already begun to become worse in condition)"
+            },
+            {
+              "original": "By 1982 the Fenys family could no longer afford to maintain the castle, even though they received government support, and they put it on the market.",
+              "keyWord": "SALE",
+              "transStart": "Unable to sustain the upkeep even with government assistance, the Fenys family put the castle up for",
+              "transEnd": ".",
+              "answer": "SALE IN 1982",
+              "collocation": "put up for sale (= offer something for purchase)"
+            },
+            {
+              "original": "The company who took it over have managed to retain the original atmosphere of the castle.",
+              "keyWord": "PRESERVED",
+              "transStart": "Despite changing ownership, the original character of the castle has been",
+              "transEnd": ", according to the tour guide.",
+              "answer": "CAREFULLY PRESERVED",
+              "collocation": "carefully preserved (= maintained with attention to keep the original condition intact)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Walking along the castle walls"
+              },
+              {
+                "num": 2,
+                "left": "Archery display"
+              },
+              {
+                "num": 3,
+                "left": "Display of hunting birds"
+              },
+              {
+                "num": 4,
+                "left": "Traditional dancing"
+              },
+              {
+                "num": 5,
+                "left": "The shop"
+              }
+            ],
+            "options": [
+              "A.  first left after entrance; follow path, then first right",
+              "B.  first left after entrance; follow path past the bridge",
+              "C.  start at the south gate, near the main entrance",
+              "D.  direction of south gate, but turn right before getting there",
+              "E.  over the bridge, at the other side of the castle; 10 minutes' walk"
+            ],
+            "answers": [
+              "C",
+              "B",
+              "D",
+              "E",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "GUIDE",
+              "parts": [
+                "There's been a castle on this site for over eleven hundred years. The first building was a fort constructed in 914 AD for defence against Danish ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When Queen Elizabeth I planned to visit in 1576, the castle was looking rather run down. They decided to build a new ",
+                2,
+                " house for her out of wood next to the main hall. She stayed for four nights, but it was destroyed by fire a few years later."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the seventeenth century the Fenys family enlarged the castle. By 1982 they could no longer afford to ",
+                3,
+                " it and put it on the market. It was eventually taken over by a company who owned amusement parks."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Inside, in the state rooms, there are life-like moving ",
+                4,
+                " models dressed in costumes of different periods. In every room there are booklets giving information about the room's history."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The park has some beautiful trees, though the oldest — dating back 800 years — was sadly blown down in ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the end of our visit we'll all meet at the bottom of the Great ",
+                6,
+                ". We'll then go to the long gallery, and then take you to the conservatory for afternoon tea."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Great Hall is near the river in the main tower — the biggest one. To get a good view of the whole castle, walk along the walls — the starting point is near the main entrance, just at the south ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "To reach the archery display: take the first left after the main entrance, follow the path past the bridge, and you'll see it in front of you at the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The display of hunting birds: go from the main entrance in the direction of the south gate, but turn right before you get there. You'll see it past the first ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The shop is inside one of the towers. Take the first left after the main entrance, go down the path and take the first ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "invaders",
+            "wooden",
+            "maintain",
+            "wax",
+            "1987",
+            "Staircase",
+            "gate",
+            "end",
+            "tower",
+            "right"
+          ]
+        },
+        "3": {
+          "scene": "猛犸象牙齿研究演示准备讨论",
+          "sceneEmoji": "🦣",
+          "functions": "A  Proposing a visual aid    B  Questioning a choice    C  Suggesting a strategy    D  Identifying a problem    E  Approving a plan",
+          "pragmatic": [
+            {
+              "quote": "We thought we needed something general about woolly mammoths in our introduction — maybe we could show a timeline to show when they lived, with illustrations.",
+              "speaker": "Rosie",
+              "answer": "A"
+            },
+            {
+              "quote": "The tooth was found by Russell Graham. He picked it up from under a rock in a cave — it was in really good condition, as if it had just been extracted from the jawbone.",
+              "speaker": "Rosie",
+              "answer": "E"
+            },
+            {
+              "quote": "I thought maybe we could get in touch with the researcher who led the team and ask him to tell us a bit more.",
+              "speaker": "Rosie",
+              "answer": "C"
+            },
+            {
+              "quote": "We've got a lot of information on the initial research questions, but we need to make it interesting.",
+              "speaker": "Martin",
+              "answer": "D"
+            },
+            {
+              "quote": "The findings and possible explanations section is just about ready, but we need to practise it so we're sure it won't overrun.",
+              "speaker": "Rosie",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📅",
+              "title": "Introduction — Mammoths Overview",
+              "items": [
+                [
+                  "Related to the modern elephant; lived in the ",
+                  {
+                    "b": 1
+                  },
+                  " Ice Age"
+                ],
+                [
+                  "Visual: use a ",
+                  {
+                    "b": 1
+                  },
+                  " to show when they lived — agreed as the best option"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦷",
+              "title": "Key Discovery — St Paul's Island",
+              "items": [
+                [
+                  "Russell Graham found a mammoth tooth under a rock in a ",
+                  {
+                    "b": 1
+                  },
+                  " — 6,500 years old"
+                ],
+                [
+                  "Much more ",
+                  {
+                    "b": 1
+                  },
+                  " than mainland North American specimens — very significant"
+                ]
+              ]
+            },
+            {
+              "emoji": "🗺️",
+              "title": "Animated Diagram",
+              "items": [
+                [
+                  "Originally St Paul's Island was connected to the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Sea level ",
+                  {
+                    "b": 1
+                  },
+                  " cut the island off — mammoths survived there thousands of years after mainland extinction"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Extinction Dating",
+              "items": [
+                [
+                  "5,600 years ago — very ",
+                  {
+                    "b": 1
+                  },
+                  " for a prehistoric extinction"
+                ],
+                [
+                  "Based on ",
+                  {
+                    "b": 1
+                  },
+                  " samples from the bottom of a lake: plants, volcanic ash, mammoth DNA"
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Presentation Plan",
+              "items": [
+                [
+                  "Introduction: needs written notes to avoid relying on ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Tooth section: contact lead researcher for more ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Research questions: ask ",
+                  {
+                    "b": 1
+                  },
+                  " to suggest questions"
+                ],
+                [
+                  "Mud lake section: reorganise into ",
+                  {
+                    "b": 1
+                  },
+                  " order"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "last",
+            "timeline",
+            "cave",
+            "recent",
+            "mainland",
+            "rose",
+            "precise",
+            "mud",
+            "memory",
+            "information",
+            "audience",
+            "chronological"
+          ],
+          "dictation": [
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "So it's about a research project in North America. What's your introduction going to include?"
+              ]
+            },
+            {
+              "speaker": "MARTIN",
+              "parts": [
+                "We thought we'd establish that woolly mammoths were related to the modern elephant, and they lived thousands of years ago in the last ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "We could show a timeline to show when they lived, with illustrations. Let's go with that — rather than a cartoon, which would be a bit ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "A man called Russell Graham found a mammoth tooth on St Paul's Island in Alaska. He picked it up from under a rock in a ",
+                3,
+                ". It was in really good condition and turned out to be 6,500 years old."
+              ]
+            },
+            {
+              "speaker": "MARTIN",
+              "parts": [
+                "The mammoth bones found on the North American mainland were much less ",
+                4,
+                " than that, so this was really amazing."
+              ]
+            },
+            {
+              "speaker": "MARTIN",
+              "parts": [
+                "We're making an animated diagram to show the geography of the area in prehistoric times. Originally St Paul's Island was connected to the ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "Then the climate warmed up and the sea level began to rise, ",
+                6,
+                " the island off. The mammoths on the island survived thousands of years after they became extinct on the mainland."
+              ]
+            },
+            {
+              "speaker": "MARTIN",
+              "parts": [
+                "The extinction on the island happened 5,600 years ago — a very ",
+                7,
+                " date. It's based on samples from ",
+                8,
+                " at the bottom of a lake."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "For the introduction — I think we need to write down all the ideas to include here, not just rely on ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "For the tooth section, we don't have that much information. I thought maybe we could get in touch with the ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": "MARTIN",
+              "parts": [
+                "The mud lake section — maybe it would be better if it followed a ",
+                11,
+                " pattern."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Ice Age",
+            "childish",
+            "cave",
+            "recent",
+            "mainland",
+            "cutting",
+            "precise",
+            "mud",
+            "memory",
+            "researcher",
+            "chronological"
+          ]
+        },
+        "4": {
+          "scene": "天气预报早期历史讲座",
+          "sceneEmoji": "🌦️",
+          "signpost": [
+            {
+              "quote": "Most ancient cultures had weather gods, and weather catastrophes, such as floods, played an important role in many creation myths.",
+              "opts": [
+                [
+                  "A",
+                  "Establishing the mythological context before describing the shift to scientific observation"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "The ancient Greeks were the first to develop a more scientific approach to explaining the weather.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the introduction"
+                ],
+                [
+                  "B",
+                  "Marking the transition from myth and observation to the beginnings of scientific theory"
+                ],
+                [
+                  "C",
+                  "Summarising all ancient approaches"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "In the Middle Ages, weather observations were passed on in the form of proverbs, alongside Aristotle's work.",
+              "opts": [
+                [
+                  "B",
+                  "Contradicting the previous section"
+                ],
+                [
+                  "A",
+                  "Noting a parallel popular tradition existing alongside formal scholarly theory"
+                ],
+                [
+                  "C",
+                  "Concluding the medieval section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "In the fifteenth century scientists began to see the need for instruments. Until then the only ones available were weather vanes and early versions of rain gauges.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Summarising the Renaissance"
+                ],
+                [
+                  "C",
+                  "Introducing a pivotal development — the shift from observation to measurement"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "This increasing ability to measure factors related to weather helped scientists to understand the atmosphere and its processes better.",
+              "opts": [
+                [
+                  "A",
+                  "Connecting the invention of instruments to systematic data collection and eventually the first weather services"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏛️",
+              "title": "Ancient Cultures",
+              "items": [
+                [
+                  "Weather attributed to gods — ancient cultures developed ",
+                  {
+                    "b": 1
+                  },
+                  " to please the weather gods"
+                ],
+                [
+                  "650 BC: Babylonians produced first short-range forecasts — based on observation of clouds"
+                ],
+                [
+                  "Chinese: by 300 BC, a calendar dividing the year into 24 ",
+                  {
+                    "b": 1
+                  },
+                  " linked to weather"
+                ]
+              ]
+            },
+            {
+              "emoji": "📖",
+              "title": "Aristotle (340 BC)",
+              "items": [
+                [
+                  "Wrote about rain, ",
+                  {
+                    "b": 1
+                  },
+                  ", wind and storms — accurate on heat causing evaporation"
+                ],
+                [
+                  "Also described celestial phenomena — comets, haloes"
+                ],
+                [
+                  "His ideas held sway for nearly 2,000 years; errors rectified from the ",
+                  {
+                    "b": 1
+                  },
+                  " onwards"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔭",
+              "title": "Renaissance Instruments",
+              "items": [
+                [
+                  "15th century: hygrometer invented — measured humidity"
+                ],
+                [
+                  "1592: Galileo developed the world's first ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Torricelli (Galileo's student): invented the barometer — measured atmospheric pressure"
+                ],
+                [
+                  "Pascal (1648): proved pressure decreases with altitude; verified by Halley in 1686"
+                ],
+                [
+                  "Halley: also the first to map trade winds"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚡",
+              "title": "18th–19th Century",
+              "items": [
+                [
+                  "Benjamin Franklin: worked on electricity and lightning; discovered ",
+                  {
+                    "b": 1
+                  },
+                  " generally travel west to east"
+                ],
+                [
+                  "Mid-19th century: invention of the ",
+                  {
+                    "b": 1
+                  },
+                  " allowed records in different locations to be collated"
+                ],
+                [
+                  "By end of 19th century: first ",
+                  {
+                    "b": 1
+                  },
+                  " services established"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "dances",
+            "festivals",
+            "clouds",
+            "Renaissance",
+            "thermometer",
+            "storms",
+            "telegraph",
+            "weather"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Most ancient cultures had weather gods. Many developed rites such as ",
+                1,
+                " in order to make the weather gods look kindly on them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Observing the skies was really important — their ",
+                2,
+                " depended on it. Around 650 BC, the Babylonians produced the first short-range weather forecasts based on observations of ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Chinese developed a calendar dividing the year into 24 ",
+                4,
+                ", each associated with a different weather phenomenon."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ancient Greeks were the first to develop a more scientific approach. Aristotle, in 340 BC, attempted to account for the formation of rain, clouds, wind and storms. He also described ",
+                5,
+                ", such as haloes around the sun."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Aristotle believed that heat could cause water to evaporate. But he also made errors — like saying that winds are breathed out by the Earth. These were rectified from the Renaissance onwards."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the Middle Ages, weather observations were passed on as proverbs, like 'Red ",
+                6,
+                " at night, shepherd's delight'. Many are based on good observations and are accurate."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the fifteenth century, scientists began to see the need for ",
+                7,
+                ". One of the first was a hygrometer, which measured humidity."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1592, Galileo developed the world's first ",
+                8,
+                ". His student Torricelli later invented the barometer."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the eighteenth century, Benjamin Franklin discovered that ",
+                9,
+                " generally travel from west to east."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the mid-nineteenth century, the invention of the ",
+                10,
+                " made it possible for weather records to be collated. This led, by the end of the century, to the first weather services."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "dances",
+            "survival",
+            "clouds",
+            "festivals",
+            "comets",
+            "sky",
+            "instruments",
+            "thermometer",
+            "storms",
+            "telegraph"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 14 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "Flanders会议酒店场地咨询",
+          "sceneEmoji": "🏨",
+          "mcq": [
+            {
+              "q": "What is the Tesla room used for, and what is its capacity?",
+              "opts": [
+                [
+                  "A",
+                  "Exhibitions; holds up to 50 people"
+                ],
+                [
+                  "B",
+                  "Talks and presentations; holds up to 100 people"
+                ],
+                [
+                  "C",
+                  "Dining; holds 60 people"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the discounted room rate for conference attendees?",
+              "opts": [
+                [
+                  "A",
+                  "$135 per night"
+                ],
+                [
+                  "B",
+                  "$120 per night"
+                ],
+                [
+                  "C",
+                  "$180 per night"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "How far is the hotel from the central railway station?",
+              "opts": [
+                [
+                  "A",
+                  "12 km"
+                ],
+                [
+                  "B",
+                  "About 10 minutes' walk"
+                ],
+                [
+                  "C",
+                  "A complimentary shuttle bus ride"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A man from Barrett and Stansons, a medical company in Perth, calls the Flanders conference hotel in Sydney about a conference for about 50 to 60 people. The conference would be held over two days on the weekend beginning February 4th. The main presentation room is called the Maxwell room, which can hold up to 100 people and is fully equipped with a projector and two microphones. There is a central atrium for coffee and exhibitions. The hotel offers wifi throughout at a cost to guests. The buffet lunch is $45 per person for the standard menu. Discount room rates for conference attendees are $125 per night.",
+          "errors": [
+            {
+              "wrong": "the Maxwell room",
+              "correct": "the Tesla room"
+            },
+            {
+              "wrong": "two microphones",
+              "correct": "a microphone (one for the speaker; one for the audience)"
+            },
+            {
+              "wrong": "at a cost",
+              "correct": "free of charge / complimentary"
+            },
+            {
+              "wrong": "$125",
+              "correct": "$135"
+            },
+            {
+              "wrong": "the Maxwell room",
+              "correct": "Tesla room (already done)"
+            },
+            {
+              "wrong": "two microphones",
+              "correct": "a microphone (already done)"
+            },
+            {
+              "wrong": "at a cost",
+              "correct": "free (already done — replace: $125 → $135)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "We're organising a conference for our clients. It'll be over two days and we're expecting about 50 or 60 people. We'd like the weekend beginning February 4th."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "For talks and presentations we have the ",
+                1,
+                " room — T-E-S-L-A. It holds up to a hundred people and is fully equipped with a projector."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "There'll also be a ",
+                2,
+                " that members of the audience can use for questions."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "There's a central atrium for coffee and for your ",
+                3,
+                " of products."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "Wifi is free and available throughout the hotel."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "We can provide a buffet lunch. The standard menu is $",
+                4,
+                " per person."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "For conference attendees, we have a 25% reduction on our standard room rate, so we can offer you rooms at $",
+                5,
+                ". Normally a standard room is $180. That includes breakfast."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "Guests can use the spa and there's a ",
+                6,
+                " up on the roof."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "There's a complimentary shuttle bus for guests — the hotel is about 12 km from the ",
+                7,
+                ". It's only about ten minutes' walk from the central railway station."
+              ]
+            },
+            {
+              "speaker": "ANGELA",
+              "parts": [
+                "The hotel is on Wilby Street, not far from the ",
+                8,
+                ". There's a huge choice of places to eat in the area, and then guests can go on to one of the ",
+                9,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Tesla",
+            "microphone",
+            "exhibition",
+            "45",
+            "135",
+            "pool",
+            "airport",
+            "sea",
+            "clubs"
+          ]
+        },
+        "2": {
+          "scene": "志愿服务组织招募演讲",
+          "sceneEmoji": "🤲",
+          "kwt": [
+            {
+              "original": "Volunteering may be a valuable element of their CV when they're applying for jobs — employers usually look favourably on someone who's given up time to help others.",
+              "keyWord": "REGARDED",
+              "transStart": "Employers tend to look favourably on volunteering experience, which is generally",
+              "transEnd": "of commitment and generosity.",
+              "answer": "REGARDED AS EVIDENCE",
+              "collocation": "be regarded as evidence of (= be seen as proof or indication of something)"
+            },
+            {
+              "original": "Most volunteers feel that what they're doing gives them a purpose in their lives.",
+              "keyWord": "SENSE",
+              "transStart": "One of the most significant benefits for volunteers is",
+              "transEnd": "of purpose — feeling that their activities are meaningful.",
+              "answer": "A SENSE OF",
+              "collocation": "a sense of purpose (= a feeling that one's activities have meaning and value)"
+            },
+            {
+              "original": "By using herself as an example, Consuela encourages them to walk more and more.",
+              "keyWord": "LEADS",
+              "transStart": "By serving as a role model, Consuela",
+              "transEnd": ", encouraging others with mobility difficulties to walk further.",
+              "answer": "LEADS BY EXAMPLE",
+              "collocation": "lead by example (= inspire others through one's own behaviour)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Habib"
+              },
+              {
+                "num": 2,
+                "left": "Consuela"
+              },
+              {
+                "num": 3,
+                "left": "Minh"
+              },
+              {
+                "num": 4,
+                "left": "Tanya"
+              },
+              {
+                "num": 5,
+                "left": "Alexei"
+              }
+            ],
+            "options": [
+              "A.  helps a young man go out and visit friends again",
+              "B.  supports a family by discussing solutions calmly — boosts self-esteem",
+              "C.  encourages people with mobility difficulties to walk more",
+              "D.  supports an elderly woman who shows signs of dementia, through music",
+              "E.  teaches a woman to make soft toys — she gains great pleasure from it"
+            ],
+            "answers": [
+              "D",
+              "C",
+              "A",
+              "E",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "LUCY",
+              "parts": [
+                "Volunteers are teenagers and adults who choose to spend some time, unpaid, helping other people. Most devote two or three hours to this every week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Volunteers use their skills to cope with somebody's mental or physical ",
+                1,
+                ". Volunteering may be a valuable element of their CV — employers usually look favourably on someone who's given up time to help others."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most significantly, most volunteers feel that what they're doing gives them a sense of ",
+                2,
+                " in their lives."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Habib supports an elderly lady who's beginning to show signs of ",
+                3,
+                ". Once a week they go to the local community centre, where people sing songs that take the listeners back to their youth."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Consuela has difficulty walking herself, but she helps people with similar difficulties who had almost stopped walking altogether. By using herself as an ",
+                4,
+                ", she encourages them to walk more and more."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Minh visits a young man who lives alone and can't leave his home on his own. Together they go out to the ",
+                5,
+                " or to see friends the young man hadn't been able to visit."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Tanya showed an elderly woman some soft ",
+                6,
+                " she'd made. The woman decided to try it herself, and now spends hours making them. She gains a lot of pleasure from it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Alexei volunteers with a family facing several difficulties. By talking over solutions calmly, he's helping them realise they aren't ",
+                7,
+                " and that they can improve their situation themselves."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Juba volunteers with a teenage girl with learning difficulties who wasn't very good at talking to others. Now the girl is far better at expressing herself and ",
+                8,
+                " other people."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "ill health",
+            "purpose",
+            "dementia",
+            "example",
+            "cinema",
+            "toys",
+            "helpless",
+            "understanding"
+          ]
+        },
+        "3": {
+          "scene": "学校军乐队教学实习指导讨论",
+          "sceneEmoji": "🎺",
+          "functions": "A  Expressing optimism    B  Raising a concern    C  Proposing a motivational activity    D  Describing a problem student    E  Requesting advice",
+          "pragmatic": [
+            {
+              "quote": "They aren't really good enough to enter national band competitions, but they're in a regional one later in the term — hopefully it'll be an incentive to improve.",
+              "speaker": "Joe",
+              "answer": "A"
+            },
+            {
+              "quote": "The town council has asked the band to perform at the carnival in the summer — I need to get them functioning better as a band, and in a very short time.",
+              "speaker": "Joe",
+              "answer": "B"
+            },
+            {
+              "quote": "I played a recording of a drummer talking about how playing in a band had stopped him getting involved in crime. I thought it was pretty inspiring.",
+              "speaker": "Joe",
+              "answer": "C"
+            },
+            {
+              "quote": "There's a trumpeter who thinks she's the best musician in the band — she's always saying what she thinks other people should do, which makes my job difficult.",
+              "speaker": "Joe",
+              "answer": "D"
+            },
+            {
+              "quote": "One of the percussionists never seems to interact with other people — he always rushes off as soon as the rehearsal ends.",
+              "speaker": "Joe",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎵",
+              "title": "Background",
+              "items": [
+                [
+                  "Band has students aged 11–18; about ",
+                  {
+                    "b": 1
+                  },
+                  " of them altogether"
+                ],
+                [
+                  "In a ",
+                  {
+                    "b": 1
+                  },
+                  " competition later in the term; not expected to win but will be an incentive"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎬",
+              "title": "Motivational Activities",
+              "items": [
+                [
+                  "Played a recording of a drummer speaking about how the band stopped him getting involved in crime — an after-dinner ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Planned: show old ",
+                  {
+                    "b": 1
+                  },
+                  " 'Strike Up the Band' (1940s school band) — may make students realise what they can achieve"
+                ],
+                [
+                  "Planned: take some students to a ",
+                  {
+                    "b": 1
+                  },
+                  " where marching bands perform"
+                ]
+              ]
+            },
+            {
+              "emoji": "😟",
+              "title": "Difficult Students",
+              "items": [
+                [
+                  "Flautist: loves playing but hardly ever attends twice-weekly rehearsals; gives plausible ",
+                  {
+                    "b": 1
+                  },
+                  " but Joe doesn't believe her"
+                ],
+                [
+                  "Trumpeter: thinks she's the best; always telling others what to ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Trombonist: impressive sense of rhythm but has ",
+                  {
+                    "b": 1
+                  },
+                  " difficulties — can't play all the notes; refuses to switch to percussion"
+                ],
+                [
+                  "Percussionist: never ",
+                  {
+                    "b": 1
+                  },
+                  " with others; always rushes off after rehearsals"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "50",
+            "regional",
+            "speech",
+            "film",
+            "parade",
+            "excuses",
+            "do",
+            "breathing",
+            "interacts"
+          ],
+          "dictation": [
+            {
+              "speaker": "JOE",
+              "parts": [
+                "The band has students aged 11 to 18 and there are about ",
+                1,
+                " of them altogether. They're in a ",
+                2,
+                " competition later in the term."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "The town council is organising a carnival in the summer and the band has been asked to perform. If you ask me, they aren't really up to it yet — I need to get them functioning better as a band."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "I played a recording of a drummer talking about how playing in a band had changed his life. It was an after-dinner ",
+                3,
+                ". He said being in the band had stopped him from getting involved in crime — the students seemed to find it interesting."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "I'm planning to show them the old ",
+                4,
+                " from the 1940s 'Strike Up the Band' — as it's about a school band, it might make the students realise how much they can achieve."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "I'm hoping to take some of the band to a ",
+                5,
+                " next month where marching bands will be performing. It depends on whether I can persuade the school to hire a coach."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "There's a flautist who says she loves playing in the band. But she's hardly ever at rehearsals. She looks for me the next day and gives me a very plausible ",
+                6,
+                " — but to be honest, I don't believe her."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "There's a trumpeter who thinks she's the best musician in the band. She's always saying what she thinks other people should ",
+                7,
+                ", which makes my job pretty difficult."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "One of the trombonists has got an impressive sense of rhythm, but he has ",
+                8,
+                " difficulties and doesn't really have enough breath for the trombone. He'd be better off playing percussion, but he refuses."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "One of the percussionists never seems to ",
+                9,
+                " with other people — he always rushes off as soon as the rehearsal ends. It isn't good in a band where people need to feel part of a group."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "50",
+            "regional",
+            "speech",
+            "film",
+            "parade",
+            "reason",
+            "do",
+            "breathing",
+            "interact"
+          ]
+        },
+        "4": {
+          "scene": "澳大利亚作曲家音乐节介绍",
+          "sceneEmoji": "🎻",
+          "signpost": [
+            {
+              "quote": "I'll tell you briefly about the Australian music, as you probably won't be familiar with that.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a debate"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Establishing why the Australian content requires more explanation than the British"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "As a child, Lim originally learned to play the piano, but when she was 11 her teachers encouraged her to start composing. She found this was her real strength.",
+              "opts": [
+                [
+                  "A",
+                  "Tracing a turning point in Lim's development before describing her compositional work"
+                ],
+                [
+                  "B",
+                  "Summarising her career"
+                ],
+                [
+                  "C",
+                  "Providing a contrast with Edwards"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Lim's compositions are vibrant and full of energy, and she often explores Asian and Australian Aboriginal cultural sources.",
+              "opts": [
+                [
+                  "B",
+                  "Concluding her biography"
+                ],
+                [
+                  "A",
+                  "Characterising her compositional style to help the audience understand the festival work"
+                ],
+                [
+                  "C",
+                  "Providing a counter-argument"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "According to Edwards, the inspiration for this piece came from nature, when he was sitting alone in the dry bed of a creek, listening to the birds and insects.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising Edwards's career"
+                ],
+                [
+                  "B",
+                  "Providing the personal origin story for the specific piece being performed in the festival"
+                ],
+                [
+                  "C",
+                  "Returning to Lim"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Before long he had become prominent in Australia as a composer for dance — and in fact has written 25 scores of that type.",
+              "opts": [
+                [
+                  "C",
+                  "Providing a contrast with Lim"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "A",
+                  "Highlighting Vine's most prominent compositional area before introducing the specific festival work"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎼",
+              "title": "Concert 1 — Liza Lim",
+              "items": [
+                [
+                  "Born Perth 1966; learned piano and ",
+                  {
+                    "b": 1
+                  },
+                  "; started composing at 11"
+                ],
+                [
+                  "Style: vibrant, full of ",
+                  {
+                    "b": 1
+                  },
+                  "; explores Asian and Aboriginal cultural sources"
+                ],
+                [
+                  "Festival work: semi-staged opera 'The Oresteia' (7 parts) — based on ancient Greek ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "6 singers, a dancer, orchestra; sounds include breathing, sobbing, laughing — described as ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎹",
+              "title": "Concert 2 — Ross Edwards",
+              "items": [
+                [
+                  "Inspired by nature: sitting in a dry creek bed, listening to birds — wrote ",
+                  {
+                    "b": 1
+                  },
+                  " and clarinet piece"
+                ],
+                [
+                  "Born Sydney 1943; studied at Sydney Conservatorium and University of Adelaide"
+                ],
+                [
+                  "Music deeply connected to Australia — celebrates ",
+                  {
+                    "b": 1
+                  },
+                  " of cultures"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎸",
+              "title": "Concert 3 — Carl Vine",
+              "items": [
+                [
+                  "Born Perth 1954; started cornet at 5, switched to piano; studied ",
+                  {
+                    "b": 1
+                  },
+                  " at university then changed to composition"
+                ],
+                [
+                  "Known for composing for ",
+                  {
+                    "b": 1
+                  },
+                  " — 25 scores of this type"
+                ],
+                [
+                  "Festival: music for 1996 Olympics flag hand-over ceremony — heard by millions"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "violin",
+            "energy",
+            "tragedies",
+            "disturbing",
+            "piano",
+            "diversity",
+            "physics",
+            "dance"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "The theme of the festival is links between the UK and Australia. Each concert will feature both British and Australian composers. I'll tell you about the Australian music, as you probably won't be familiar with that."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Liza Lim was born in Perth in 1966. As a child she learned to play the piano and also the ",
+                1,
+                ". When she was 11, her teachers encouraged her to start composing."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Lim's compositions are vibrant and full of ",
+                2,
+                ". She often explores Asian and Australian Aboriginal cultural sources, including the didgeridoo."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the festival we'll give a semi-staged performance of 'The Oresteia' — an opera in seven parts based on ancient Greek ",
+                3,
+                ". Lim wrote it when she was in her mid-20s."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Because the stories in the tragedies are not easy to tell, the sounds she creates are also ",
+                4,
+                " — including breathing, sobbing, laughing and whistling."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Concert 2 features 'The Tower of Remoteness' by Ross Edwards — scored for ",
+                5,
+                " and clarinet. Its inspiration came from nature: sitting alone in the dry bed of a creek, listening to birds and insects."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Edwards was born in Sydney in 1943. His music has been described as 'deeply connected to Australia' — a celebration of the ",
+                6,
+                " of cultures that Australia can be proud of."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Carl Vine comes from Perth and took up the cornet at five, switching to piano five years later. He went to university to study ",
+                7,
+                ", before changing to composition."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After graduating he moved to Sydney. Before long he had become prominent as a composer for ",
+                8,
+                " — he has written 25 scores of that type."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Concert 3, Vine is represented by his music for the 1996 ",
+                9,
+                " flag hand-over ceremony — heard by millions of people worldwide."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "violin",
+            "energy",
+            "tragedies",
+            "disturbing",
+            "piano",
+            "diversity",
+            "physics",
+            "dance",
+            "Olympics"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 14 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "克莱尔庄园酒店周年晚宴咨询",
+          "sceneEmoji": "🎊",
+          "mcq": [
+            {
+              "q": "What is the capacity of the Adelphi Room for a sit-down meal?",
+              "opts": [
+                [
+                  "A",
+                  "85 people"
+                ],
+                [
+                  "B",
+                  "100+ people standing"
+                ],
+                [
+                  "C",
+                  "110 people"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does the Carlton Room have that the Adelphi Room does not?",
+              "opts": [
+                [
+                  "A",
+                  "Access to a terrace"
+                ],
+                [
+                  "B",
+                  "A stage for entertainment or a small band"
+                ],
+                [
+                  "C",
+                  "Views of rose gardens"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the MC's role, according to Andrew?",
+              "opts": [
+                [
+                  "A",
+                  "To organise the menu and catering"
+                ],
+                [
+                  "B",
+                  "To make a speech, manage the event, and deal with anything that goes wrong"
+                ],
+                [
+                  "C",
+                  "To perform entertainment"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Samantha calls the Clare House Hotel to arrange a party for her parents' fiftieth wedding anniversary. Andrew is the Events Manager. The Adelphi Room can seat 85 people or hold over 100 standing. If there is live music, there is room for four or five musicians in the gallery. The room is at the back of the hotel, with French windows leading to a terrace displaying a beautiful collection of pots of dahlias. From the terrace you can see trees in the grounds and a river on the far side. The Carlton Room is bigger and has a stage, but it has no outdoor access and its windows look out onto a garden. The hotel also has five cabins in the grounds, each sleeping two to four people. The pool will be closed in September, but the courts are available for a small additional charge.",
+          "errors": [
+            {
+              "wrong": "pots of dahlias",
+              "correct": "pots of roses"
+            },
+            {
+              "wrong": "a garden",
+              "correct": "the lake"
+            },
+            {
+              "wrong": "five cabins",
+              "correct": "five cabins ✓ — replace: 'pots of dahlias' with 'pots of roses' done"
+            },
+            {
+              "wrong": "dahlias",
+              "correct": "roses (already done — replace: 'garden' → 'lake')"
+            },
+            {
+              "wrong": "garden",
+              "correct": "lake (already done)"
+            },
+            {
+              "wrong": "the courts are available for free",
+              "correct": "the courts have a small additional charge"
+            },
+            {
+              "wrong": "the gym is available for a small charge",
+              "correct": "the gym is available at no extra charge"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "The Adelphi Room can seat ",
+                1,
+                ", or hold over a hundred people standing for a buffet."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "If you have live music, there's room for four or five musicians in the gallery. The music can be loud enough for dancing, but not too loud for conversation."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "The Adelphi Room is at the back of the hotel, with French windows leading to a terrace. At that time of year there's a beautiful display of pots of ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "From the terrace you can see the area of ",
+                3,
+                " within the grounds, or you can stroll through to the river on the far side."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "The Carlton Room is a bit bigger — it can hold up to 110 people — and it has the advantage of a ",
+                4,
+                " for entertainment or a small band. Its windows look out onto the lake."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "As well as a meal, you can have an MC. All our MCs are trained as public speakers — they can easily get people's attention and they can make a ",
+                5,
+                " during the meal."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "They're also your ",
+                6,
+                " — if anything goes wrong, the MC will deal with it so you can relax."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "There are five ",
+                7,
+                " in the grounds, all self-contained. They each sleep two to four people and have their own living room, bathroom and small kitchen."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "The pool will be closed throughout September for refurbishment. The gym will be available at no extra charge. For the tennis courts, there is a small additional payment — there can be quite a long waiting list, so do book in advance."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "85",
+            "roses",
+            "trees",
+            "stage",
+            "speech",
+            "support",
+            "cabins"
+          ]
+        },
+        "2": {
+          "scene": "酒店假期活动及夜生活项目介绍",
+          "sceneEmoji": "🏖️",
+          "kwt": [
+            {
+              "original": "On our boat trips, we pretty well guarantee you'll see dolphins — if you don't you can repeat the trip free of charge.",
+              "keyWord": "REFUND",
+              "transStart": "If you don't see any dolphins on the boat trip, you'll be able to",
+              "transEnd": "it at no cost.",
+              "answer": "REPEAT IT FOR FREE / GET A REFUND",
+              "collocation": "repeat free of charge (= do it again at no cost)"
+            },
+            {
+              "original": "You'll be provided with a drink and sandwiches at the rest stop halfway through the forest walk.",
+              "keyWord": "INCLUDED",
+              "transStart": "Food and drink at the halfway stop are",
+              "transEnd": "price of the forest walk.",
+              "answer": "INCLUDED IN THE",
+              "collocation": "included in the price (= part of what the cost covers)"
+            },
+            {
+              "original": "It's a 700-metre drop in just 20 kilometres so this isn't really for inexperienced cyclists.",
+              "keyWord": "RECOMMENDED",
+              "transStart": "The cycle trip down Mount Larna is only",
+              "transEnd": "for experienced cyclists, as the descent is steep and fast.",
+              "answer": "RECOMMENDED FOR",
+              "collocation": "recommended for (= suitable/appropriate for a particular group)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Dolphin watching"
+              },
+              {
+                "num": 2,
+                "left": "Forest walk"
+              },
+              {
+                "num": 3,
+                "left": "Cycle trip"
+              },
+              {
+                "num": 4,
+                "left": "Local craft tour"
+              },
+              {
+                "num": 5,
+                "left": "Observatory visit"
+              }
+            ],
+            "options": [
+              "A.  free; factory and ceramics centre",
+              "B.  35 euros; daily",
+              "C.  25 euros all inclusive; every Wednesday",
+              "D.  90 euros; Friday only; followed by Sunset Beach",
+              "E.  Thursday; guided bike descent of Mount Larna"
+            ],
+            "answers": [
+              "B",
+              "C",
+              "E",
+              "A",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "One thing you have to do while you're here is go dolphin ",
+                1,
+                ". If you don't see any dolphins, you can repeat the trip free of charge. Daily trips are 35 euros."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our forest walk is a guided walk of about seven kilometres. There's a stop halfway and you'll be provided with a ",
+                2,
+                " and sandwiches. It's 25 euros all inclusive — every Wednesday."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Thursdays we organise a cycle trip. We take you and your bike to the top of Mount Larna, and leave you to bike back — a 700-metre drop in 20 kilometres. Not for inexperienced ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The local craft tour is completely free. You'll visit a factory where ",
+                4,
+                " is made, and also a ceramics centre."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For astronomy fans: trips to the ",
+                5,
+                " on Friday for 90 euros. Afterwards we head down to Sunset Beach."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Horse riding is at the Equestrian Centre near Playa Cortino. They take you to the beach, and you canter along the sand. 35 euros — available every day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For night life: 'Musical Favourites' — a three-course meal with unlimited free drinks and a show. It's on Friday ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Castle Feast is on Saturday evening in a twelfth-century castle. You eat in the great courtyard, using your hands as in medieval ",
+                7,
+                " times."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "watching",
+            "drink",
+            "cyclists",
+            "jewellery",
+            "observatory",
+            "night",
+            "times"
+          ]
+        },
+        "3": {
+          "scene": "儿童文学课程讨论与书籍交流",
+          "sceneEmoji": "📚",
+          "functions": "A  Expressing enthusiasm for a module    B  Giving a personal opinion on a book    C  Agreeing with a point after initial disagreement    D  Describing a personal creative response    E  Expressing regret or criticism",
+          "pragmatic": [
+            {
+              "quote": "That module made me realise how important stories are — they can have a significant effect on children as they grow up. It inspired me to have a go at it myself.",
+              "speaker": "Trevor",
+              "answer": "D"
+            },
+            {
+              "quote": "I'm very interested in illustrations in stories. I can still see some frightening ones vividly in my mind, years later — pictures can be so powerful.",
+              "speaker": "Stephanie",
+              "answer": "A"
+            },
+            {
+              "quote": "I'm not convinced of comics' value — with a comic you don't have to use your imagination, but with words you do.",
+              "speaker": "Trevor",
+              "answer": "E"
+            },
+            {
+              "quote": "It's better to read a comic than not to read at all — there are plenty of kids who wouldn't try to read a book at all.",
+              "speaker": "Stephanie",
+              "answer": "C"
+            },
+            {
+              "quote": "The Happy Prince is really moving — so surprising because Wilde is best known for his witty plays, but this is quite different.",
+              "speaker": "Stephanie",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📖",
+              "title": "Course Modules",
+              "items": [
+                [
+                  "Purpose of children's literature: entertainment, factual information, or ",
+                  {
+                    "b": 1
+                  },
+                  " teaching (values)"
+                ],
+                [
+                  "Pictures module: illustrations can be central to the story — also covers ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Boys and girls: for years, stories assumed boys went on adventures and girls stayed home — course explores this"
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Books Discussed — History",
+              "items": [
+                [
+                  "Perrault's fairy tales (late 17th C): first of their type — e.g. Cinderella, ",
+                  {
+                    "b": 1
+                  },
+                  " Beauty"
+                ],
+                [
+                  "The Swiss Family Robinson: Swiss family shipwrecked, like ",
+                  {
+                    "b": 1
+                  },
+                  " Crusoe"
+                ],
+                [
+                  "Hoffmann's The Nutcracker and the Mouse King: basis for Tchaikovsky's ballet"
+                ],
+                [
+                  "Oscar Wilde's The Happy Prince: Stephanie and Trevor's favourite — Wilde normally known for ",
+                  {
+                    "b": 1
+                  },
+                  " plays"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔖",
+              "title": "More Books",
+              "items": [
+                [
+                  "Tolkien's Lord of the Rings: very popular but requires more ",
+                  {
+                    "b": 1
+                  },
+                  " than Stephanie was prepared to give"
+                ],
+                [
+                  "War Horse: set in the First World War — unlikely topic for a children's book, but very ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "ethical",
+            "comics",
+            "Sleeping",
+            "Robinson",
+            "witty",
+            "effort",
+            "successful"
+          ],
+          "dictation": [
+            {
+              "speaker": "TREVOR",
+              "parts": [
+                "One of the most interesting modules, for me, was about the purpose of children's literature — whether the teaching should be factual or ",
+                1,
+                " — teaching values."
+              ]
+            },
+            {
+              "speaker": "TREVOR",
+              "parts": [
+                "What's fascinating is that the writer isn't necessarily ",
+                2,
+                " of the message they're conveying. A story might imply that children should always obey adults."
+              ]
+            },
+            {
+              "speaker": "TREVOR",
+              "parts": [
+                "That module inspired me to have a go at writing myself — just for my own interest. I know I can't compete with really popular stories like Harry ",
+                3,
+                " — even my seven-year-old niece loves those."
+              ]
+            },
+            {
+              "speaker": "STEPHANIE",
+              "parts": [
+                "I remember some frightening illustrations I saw as a child and I can still see them vividly in my mind, years later. I've always enjoyed drawing — that's the field I want to go into when I finish the course."
+              ]
+            },
+            {
+              "speaker": "TREVOR",
+              "parts": [
+                "I'm not convinced of the value of comics. With words you use your ",
+                4,
+                " — but with a comic you don't have to."
+              ]
+            },
+            {
+              "speaker": "STEPHANIE",
+              "parts": [
+                "But children are so used to visual input — TV, video games. There are plenty of kids who wouldn't even try to read a book, so I think comics can serve a really useful purpose."
+              ]
+            },
+            {
+              "speaker": "STEPHANIE",
+              "parts": [
+                "I've read Perrault's fairy tales — they must be important because no stories of that type had been written before, these were the ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "STEPHANIE",
+              "parts": [
+                "Hoffmann's 'The Nutcracker and the Mouse King' — wasn't that the basis for Tchaikovsky's ",
+                6,
+                ", The Nutcracker?"
+              ]
+            },
+            {
+              "speaker": "TREVOR",
+              "parts": [
+                "I hope you've read Oscar Wilde's 'The Happy Prince'. It's probably my favourite children's story of all time."
+              ]
+            },
+            {
+              "speaker": "STEPHANIE",
+              "parts": [
+                "Mine too! Wilde is best known for his plays — most of them very ",
+                7,
+                ". But 'The Happy Prince' is really moving."
+              ]
+            },
+            {
+              "speaker": "STEPHANIE",
+              "parts": [
+                "I struggled with Tolkien's 'Lord of the Rings' — three long books. Whereas 'The Happy Prince' just carried me along with it, 'Lord of the Rings' took more ",
+                8,
+                " than I was prepared to give."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "ethical",
+            "conscious",
+            "Potter",
+            "imagination",
+            "first",
+            "ballet",
+            "witty",
+            "effort"
+          ]
+        },
+        "4": {
+          "scene": "水下考古与AUV技术讲座",
+          "sceneEmoji": "⚓",
+          "signpost": [
+            {
+              "quote": "Atlit-Yam was a village on the coast of the eastern Mediterranean, which seems to have been thriving until around 7,000 BC.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a specific case study to anchor the lecture before broadening to technology"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "For marine archaeologists, Atlit-Yam is a treasure trove. Research on the buildings, tools and human remains has revealed how the bustling village once functioned.",
+              "opts": [
+                [
+                  "A",
+                  "Showing the research value of the site before identifying the challenge of finding more"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Autonomous underwater vehicles, or AUVs, are used in the oil industry, for instance, to create maps of the seabed before rigs and pipelines are installed.",
+              "opts": [
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "A",
+                  "Introducing AUVs in an existing non-archaeological context before describing their archaeological potential"
+                ],
+                [
+                  "C",
+                  "Concluding the technology section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "The latest AUVs are much easier to manoeuvre — they can be launched from the shore or a small ship. And they're much cheaper, which makes them more accessible to research teams.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the history of AUVs"
+                ],
+                [
+                  "B",
+                  "Questioning the value of AUVs"
+                ],
+                [
+                  "C",
+                  "Contrasting current AUVs with their earlier, more expensive and cumbersome predecessors"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Creating an internet in the sea for AUVs to communicate is no easy matter. Wifi networks on land use electromagnetic waves, but in water these will only travel a few centimetres.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Identifying the fundamental technical challenge before explaining the solutions"
+                ],
+                [
+                  "C",
+                  "Concluding the communication section"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏛️",
+              "title": "Atlit-Yam (Case Study)",
+              "items": [
+                [
+                  "Village on eastern Mediterranean coast — thriving until ~7,000 BC"
+                ],
+                [
+                  "Monument: seven stones in a semicircle around a ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Destroyed by tsunami or rising sea levels — now 10 metres below the surface"
+                ],
+                [
+                  "Research revealed buildings, ",
+                  {
+                    "b": 1
+                  },
+                  ", and diseases of residents"
+                ]
+              ]
+            },
+            {
+              "emoji": "🤖",
+              "title": "AUVs — Autonomous Underwater Vehicles",
+              "items": [
+                [
+                  "Used in oil industry to create ",
+                  {
+                    "b": 1
+                  },
+                  " of the seabed before rigs are installed"
+                ],
+                [
+                  "Originally very expensive and ",
+                  {
+                    "b": 1
+                  },
+                  " — required winch from large vessel"
+                ],
+                [
+                  "Latest AUVs: cheaper, easier to manoeuvre — launchable from shore or small ship"
+                ]
+              ]
+            },
+            {
+              "emoji": "📡",
+              "title": "AUV Communication",
+              "items": [
+                [
+                  "Wifi won't work underwater — ",
+                  {
+                    "b": 1
+                  },
+                  " waves only travel a few centimetres"
+                ],
+                [
+                  "Short distances: AUVs share data using light; long distances: acoustic ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "An AUV on the seabed can pass data to a second AUV that surfaces and beams it home via satellite"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚢",
+              "title": "Gulf of Baratti (Archaeological Application)",
+              "items": [
+                [
+                  "2,000-year-old Roman vessel discovered 1974 in 18 metres of water"
+                ],
+                [
+                  "Cargo included ",
+                  {
+                    "b": 1
+                  },
+                  " goods in wooden or tin receptacles — gives insight into ancient treatments"
+                ],
+                [
+                  "Tablets thought to have been dissolved to form a cleansing liquid for the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "spring",
+            "tools",
+            "maps",
+            "heavy",
+            "electromagnetic",
+            "waves",
+            "medical",
+            "eyes"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Atlit-Yam was a village on the coast of the eastern Mediterranean, thriving until around 7,000 BC. Residents kept cattle, caught fish and stored grain. The village contained an impressive monument: seven half-tonne stones in a semicircle around a ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It now lies ten metres below the Mediterranean. Research on the buildings, ",
+                2,
+                " and human remains has revealed how the village once functioned."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "AUVs are used in the oil industry to create ",
+                3,
+                " of the seabed before rigs and pipelines are installed. Until recently they were very expensive and so heavy that they had to be launched with a winch from a large vessel."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The latest AUVs are much easier to manoeuvre and much cheaper — launchable from the shore. They can communicate with each other to find the most efficient way to survey a site."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Creating an internet in the sea is no easy matter. Wifi uses electromagnetic waves, but in water these will only travel a few centimetres. Instead, for short distances, AUVs share data using ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For long distances, acoustic waves are used. Or an AUV on the seabed can pass data to a second AUV which surfaces and beams it home via ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If an AUV finds an interesting object on the seabed, it can share the coordinates with a nearby AUV that carries superior ",
+                6,
+                " to make a closer inspection."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the Gulf of Baratti, a 2,000-year-old Roman vessel was discovered in 18 metres of water. Its cargo included ",
+                7,
+                " goods — including tablets thought to have been dissolved to form a cleansing liquid for the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Other nearby Roman ships sank while carrying huge terracotta pots — some used for olive oil, others for ",
+                9,
+                ". In many cases only these containers remain."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "spring",
+            "tools",
+            "maps",
+            "light",
+            "satellite",
+            "cameras",
+            "medical",
+            "eyes",
+            "wine"
+          ]
+        }
+      }
+    }
+  }
+}

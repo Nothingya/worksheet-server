@@ -1,0 +1,3469 @@
+{
+  "bookTitle": "Cambridge IELTS 18 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 18 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "城市交通方式调查采访",
+          "sceneEmoji": "🚌",
+          "mcq": [
+            {
+              "q": "What is Sadie's main reason for coming into the city today?",
+              "opts": [
+                [
+                  "A",
+                  "Shopping"
+                ],
+                [
+                  "B",
+                  "A dental check-up"
+                ],
+                [
+                  "C",
+                  "Work"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Why did Sadie stop driving into the city?",
+              "opts": [
+                [
+                  "A",
+                  "She sold her car"
+                ],
+                [
+                  "B",
+                  "Parking is difficult and expensive"
+                ],
+                [
+                  "C",
+                  "The bus is faster"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Why doesn't Sadie currently own a bicycle?",
+              "opts": [
+                [
+                  "A",
+                  "She can't afford one"
+                ],
+                [
+                  "B",
+                  "She dislikes cycling"
+                ],
+                [
+                  "C",
+                  "She has no storage space in her flat"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A man conducts a transport survey and interviews Sadie Jones. Her date of birth is 1991 and her postcode is DW30 6YZ. She came by bus — the journey takes about 30 minutes. She came today mainly to go to the dentist. She stopped driving because parking is difficult to find and costs a lot. She started her journey from the bus stop on Claxby Road. She says the bus was early this morning. She finds the timetable poor in the afternoon. Her husband uses the car at weekends to go to the golf club. She would like a bike but worries about the noise from the traffic.",
+          "errors": [
+            {
+              "wrong": "DW30 6YZ",
+              "correct": "DW30 7YZ"
+            },
+            {
+              "wrong": "Claxby Road",
+              "correct": "Claxby Street"
+            },
+            {
+              "wrong": "the bus was early",
+              "correct": "the bus was late"
+            },
+            {
+              "wrong": "poor in the afternoon",
+              "correct": "poor in the evening — not many buses"
+            },
+            {
+              "wrong": "worries about the noise",
+              "correct": "worries about the pollution"
+            },
+            {
+              "wrong": "6YZ",
+              "correct": "7YZ (already done)"
+            },
+            {
+              "wrong": "Claxby Road",
+              "correct": "Claxby Street (already done — replace: 'early' with 'late')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "So next your postcode, please."
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "It's ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Is that in Wells?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "No — it's in Harborne."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Right. So you came by bus today. What was the reason for your trip?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "I did some shopping but the main reason I came here was to go to the ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Do you normally travel by bus?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "Yes. I stopped driving ages ago because ",
+                3,
+                " was so difficult to find and it costs so much."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Where did you start your journey?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "At the bus stop on ",
+                4,
+                " Street."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Do you have any complaints about the service?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "This morning it was ",
+                5,
+                ". Only about 10 minutes, but still annoying."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "What about the timetable?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "In the ",
+                6,
+                " — any time I've been in town for dinner or the cinema — you have to wait a long time. There aren't that many buses."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "OK. What about your car use?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "I mainly use it to go to the ",
+                7,
+                ". My husband uses it at weekends for the golf club."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "And a bicycle?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "I'd like to get a bike — it would be good for commuting. But I don't want to cycle in the city because of all the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Why haven't you got one now?"
+              ]
+            },
+            {
+              "speaker": "SADIE",
+              "parts": [
+                "I live in a flat on the second floor and it doesn't have any ",
+                9,
+                " so we'd have to leave it in the hall."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "DW30 7YZ",
+            "dentist",
+            "parking",
+            "Claxby",
+            "late",
+            "evening",
+            "supermarket",
+            "pollution",
+            "storage"
+          ]
+        },
+        "2": {
+          "scene": "ACE志愿组织入职导引演讲",
+          "sceneEmoji": "🤝",
+          "kwt": [
+            {
+              "original": "One of the first questions we're often asked is how old you need to be to volunteer.",
+              "keyWord": "RELATES",
+              "transStart": "One of the most frequently asked questions",
+              "transEnd": "to the minimum age for volunteering.",
+              "answer": "RELATES TO",
+              "collocation": "relate to (= be connected with or about a particular subject)"
+            },
+            {
+              "original": "It is critical that you have enough hours in the day for whatever role we agree is suitable for you.",
+              "keyWord": "ESSENTIAL",
+              "transStart": "Having sufficient time available is",
+              "transEnd": "for the voluntary role to work successfully.",
+              "answer": "ABSOLUTELY ESSENTIAL",
+              "collocation": "absolutely essential (= completely necessary, without exception)"
+            },
+            {
+              "original": "Some of our most loyal volunteers earn very little themselves but still give their full energy to the work they do with us.",
+              "keyWord": "DESPITE",
+              "transStart": "Some of the most dedicated volunteers contribute all their energy",
+              "transEnd": "having a very limited personal income.",
+              "answer": "DESPITE HAVING",
+              "collocation": "despite having (= in spite of possessing a particular quality or circumstance)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Fundraising"
+              },
+              {
+                "num": 2,
+                "left": "Litter collection"
+              },
+              {
+                "num": 3,
+                "left": "Playmates (children's activities)"
+              },
+              {
+                "num": 4,
+                "left": "Story club (disabled children)"
+              },
+              {
+                "num": 5,
+                "left": "First aid group"
+              }
+            ],
+            "options": [
+              "A.  you'll eventually teach others; must remember all steps carefully",
+              "B.  outdoor; ability to walk long distances uphill is helpful",
+              "C.  some experience of acting is beneficial; three performances a year",
+              "D.  children; knowledge of nutrition is helpful; three vacancies",
+              "E.  ideally requires creative or novel ideas; otherwise quite boring"
+            ],
+            "answers": [
+              "E",
+              "B",
+              "D",
+              "C",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "You can be as young as 16 or you can be 60 or over — it all depends on what type of voluntary work you want to do. Other considerations, such as ",
+                1,
+                ", are crucial, and age isn't related to these."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's plenty of ",
+                2,
+                " and it's all face-to-face. Training doesn't end when you start — it takes place before, during and after periods of work."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It is critical that you have enough ",
+                3,
+                " in the day for whatever role we agree is suitable for you."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We value ",
+                4,
+                ". Some of our most loyal volunteers earn very little but still give their full energy to the work."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For fundraising: if you have the ",
+                5,
+                " to come up with an imaginative way to raise money, we'd be delighted."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For litter collection: useful if you can walk for long ",
+                6,
+                " sometimes uphill. Some of our collectors are quite elderly but very active."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Playmates': these volunteers help children learn about staying healthy through out-of-school activities. It's good if you know something about ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The story club for disabled children — helpful if you have done some ",
+                8,
+                ". We put on three performances a year."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For first aid: you can end up teaching others. Initially, your priority will be to take in a lot of information and not forget any important ",
+                9,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "reliability",
+            "training",
+            "hours",
+            "dedication",
+            "creativity",
+            "periods",
+            "nutrition",
+            "acting",
+            "steps"
+          ]
+        },
+        "3": {
+          "scene": "时装业职业讲座课后讨论",
+          "sceneEmoji": "👗",
+          "functions": "A  Expressing optimism    B  Expressing scepticism    C  Sharing a reaction    D  Evaluating career preparation    E  Describing a personal resolution",
+          "pragmatic": [
+            {
+              "quote": "She kept saying things like 'I know you all think this, but ...' and then she'd tell us how it really is. Perhaps she thinks students are a bit narrow-minded about the industry.",
+              "speaker": "Hugo",
+              "answer": "C"
+            },
+            {
+              "quote": "We had numerous talks on careers, which was good, but none of them were very inspiring. They could have asked more people like today's speaker to talk to us.",
+              "speaker": "Hugo",
+              "answer": "D"
+            },
+            {
+              "quote": "I promised myself that I'd go through this course and keep an open mind till the end.",
+              "speaker": "Chantal",
+              "answer": "E"
+            },
+            {
+              "quote": "Actually, I'm not going to accept that view. That doesn't mean it has to be true for me.",
+              "speaker": "Chantal",
+              "answer": "A"
+            },
+            {
+              "quote": "But she knows it's the case — and everyone else says the same. It probably didn't seem a positive thing at the time.",
+              "speaker": "Hugo",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎓",
+              "title": "The Talk",
+              "items": [
+                [
+                  "Speaker's main message: it's a very competitive field — students may struggle to get ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Unexpected discovery: far more career ",
+                  {
+                    "b": 1
+                  },
+                  " than expected — e.g. fashion journalism"
+                ]
+              ]
+            },
+            {
+              "emoji": "💼",
+              "title": "Speaker's First Job — Personal Dresser",
+              "items": [
+                [
+                  "Was lucky to get work as personal dresser for a ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "She wasn't looking for money — just ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Lost the job: should have hidden her negative ",
+                  {
+                    "b": 1
+                  },
+                  " about him"
+                ]
+              ]
+            },
+            {
+              "emoji": "🛍️",
+              "title": "Benefits of Working in Retail",
+              "items": [
+                [
+                  "Find out if there's a gap in the ",
+                  {
+                    "b": 1
+                  },
+                  " — an item no one's stocking"
+                ],
+                [
+                  "Find out about return rates — e.g. if garments fall apart in the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "work",
+            "options",
+            "musician",
+            "experience",
+            "feelings",
+            "market",
+            "wash"
+          ],
+          "dictation": [
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "We know we can't all have that 'dream job' — and we know we're going into a really competitive ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "It looks like there's a whole range of areas of work we hadn't even thought of — like fashion ",
+                2,
+                ", for instance."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "She had quite a strong message. She kept saying 'I know you all think this, but ...' It was a bit ",
+                3,
+                ", though! We know it's a tough industry."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "We had numerous talks on careers, which was good, but none of them were very ",
+                4,
+                ". They could have asked more people like today's speaker."
+              ]
+            },
+            {
+              "speaker": "CHANTAL",
+              "parts": [
+                "Well, I promised myself that I'd go through this course and keep an open ",
+                5,
+                " till the end."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "From what she said, we'll be unpaid assistants for quite a long time."
+              ]
+            },
+            {
+              "speaker": "CHANTAL",
+              "parts": [
+                "Actually, I'm not going to accept that view. That doesn't mean it has to be true for ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "She was lucky to get work as a personal dresser for a musician. She didn't even apply for the job — and all she was looking for was ",
+                7,
+                ", not money."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "She should have hidden her negative feelings about him, but she didn't. It was brave to pick herself up and take that job in ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "HUGO",
+              "parts": [
+                "As a designer working in retail, you'd get to know if there's a ",
+                9,
+                " in the market — an item nobody's stocking but consumers are looking for."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "field",
+            "journalism",
+            "harsh",
+            "inspiring",
+            "mind",
+            "me",
+            "experience",
+            "retail",
+            "gap"
+          ]
+        },
+        "4": {
+          "scene": "马拉维象群迁移保护项目讲座",
+          "sceneEmoji": "🐘",
+          "signpost": [
+            {
+              "quote": "In Malawi's Majete National Park, the elephant population had been wiped out by poachers who killed elephants for their ivory. But in 2003 the park was restocked and effective law enforcement introduced.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Providing the historical background that created the overpopulation problem"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "This led to a number of problems: competition for food, hunger, and elephants routinely knocking down fences around the park.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the introduction"
+                ],
+                [
+                  "B",
+                  "Listing the consequences of overpopulation before introducing the solution"
+                ],
+                [
+                  "C",
+                  "Questioning the restocking"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "So how did this translocation process work in practice?",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the problems section"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Signalling a shift from the rationale to the detailed practical description of the process"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The elephants translocated to Nkhotakota settled in very well and the project has generally been accepted as a huge success — and not just for the elephants.",
+              "opts": [
+                [
+                  "A",
+                  "Transitioning from the process description to the outcomes and broader benefits"
+                ],
+                [
+                  "B",
+                  "Questioning the success"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "More than two dozen elephants have been born at Nkhotakota since relocation.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding negatively"
+                ],
+                [
+                  "B",
+                  "Summarising the process"
+                ],
+                [
+                  "C",
+                  "Providing concrete evidence of the population success before describing ecosystem and economic benefits"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌍",
+              "title": "Background",
+              "items": [
+                [
+                  "Majete NP: elephant population wiped out by poachers; restocked 2003; not one poached since"
+                ],
+                [
+                  "Problem: population boomed → too many elephants → competition for ",
+                  {
+                    "b": 1
+                  },
+                  " → elephants breaking ",
+                  {
+                    "b": 1
+                  },
+                  " to find food"
+                ]
+              ]
+            },
+            {
+              "emoji": "✈️",
+              "title": "Translocation Process",
+              "items": [
+                [
+                  "Moved in groups of 8–20, all one ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Vets flew over in ",
+                  {
+                    "b": 1
+                  },
+                  ", darted elephants while running"
+                ],
+                [
+                  "Had to minimise ",
+                  {
+                    "b": 1
+                  },
+                  " by acting quickly"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏥",
+              "title": "Veterinary Care During Move",
+              "items": [
+                [
+                  "All elephants placed on their ",
+                  {
+                    "b": 1
+                  },
+                  " to avoid chest crushing"
+                ],
+                [
+                  "Monitor ",
+                  {
+                    "b": 1
+                  },
+                  " — fewer than 6 breaths per minute = urgent care needed"
+                ],
+                [
+                  "Measure tusks (poaching risk) and ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📈",
+              "title": "Outcomes at Nkhotakota",
+              "items": [
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " prospects improved enormously; former poachers found new income"
+                ],
+                [
+                  "Many former poachers gave up their ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Tourism now contributes 5× more than illegal wildlife trade to ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "food",
+            "fences",
+            "family",
+            "helicopters",
+            "stress",
+            "sides",
+            "breathing",
+            "feet",
+            "employment",
+            "weapons",
+            "GDP"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Elephants were routinely knocking down ",
+                1,
+                " around the park, which then had to be repaired at significant cost."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Elephants were moved in groups of 8–20, all belonging to one ",
+                2,
+                ". Because relationships are very important to elephants, they all had to be moved at the same time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A team of vets and park rangers flew over in ",
+                3,
+                " and directed a group to a designated open plain."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They had to dart the elephants as they were running — done as quickly as possible to minimise the ",
+                4,
+                " caused."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All elephants had to be placed on their ",
+                5,
+                ". One person stayed with each elephant, keeping an eye on their ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Measurements were taken of each elephant's tusks and also of their ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "",
+                8,
+                " prospects improved enormously. Former poachers are now able to find reliable sources of income."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Many former poachers volunteered to give up their ",
+                9,
+                ", as they were no longer of any use to them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All this has been a big draw for ",
+                10,
+                ", which contributes five times more than the illegal wildlife trade to GDP."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "fences",
+            "family",
+            "helicopters",
+            "stress",
+            "sides",
+            "breathing",
+            "feet",
+            "employment",
+            "weapons",
+            "tourism"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 18 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "餐厅职位招聘中介咨询",
+          "sceneEmoji": "🍽️",
+          "mcq": [
+            {
+              "q": "What benefit does Milo's give instead of a free uniform?",
+              "opts": [
+                [
+                  "A",
+                  "Discount at any of their restaurants"
+                ],
+                [
+                  "B",
+                  "Transport allowance"
+                ],
+                [
+                  "C",
+                  "Free meals on duty"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does the breakfast supervisor role involve besides checking portions?",
+              "opts": [
+                [
+                  "A",
+                  "Checking cleaning procedures for equipment"
+                ],
+                [
+                  "B",
+                  "Ordering stock"
+                ],
+                [
+                  "C",
+                  "Managing deliveries"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is unusual about the junior chef job regarding days off?",
+              "opts": [
+                [
+                  "A",
+                  "They get two days off every week"
+                ],
+                [
+                  "B",
+                  "They are open seven days a week with no days off"
+                ],
+                [
+                  "C",
+                  "They are closed on Mondays but you only get one Sunday off in four weeks"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A woman calls a job agency interested in restaurant work. The agent describes Milo's Restaurants, which has good benefits including training for all staff, and a discount at their restaurants. You need to wear a white T-shirt and black trousers. If you finish after midnight on a late shift, the company pays for a bus home. The restaurant requires a high standard of customer service, and communication skills — specifically, you need a certificate in French. The first vacancy is at the Wivenhoe Street branch — they want a breakfast supervisor responsible for checking portions and the equipment maintenance procedures. The pay starts at £9.50. The second vacancy is at City Road — junior chef, managing stock, and arranging deliveries. They are closed on Sundays, with one Monday off every four weeks.",
+          "errors": [
+            {
+              "wrong": "pays for a bus home",
+              "correct": "pays for a taxi home"
+            },
+            {
+              "wrong": "a certificate in French",
+              "correct": "a certificate in English"
+            },
+            {
+              "wrong": "equipment maintenance procedures",
+              "correct": "cleaning procedures for the equipment"
+            },
+            {
+              "wrong": "pays at £9.50",
+              "correct": "pay starts at £9.75"
+            },
+            {
+              "wrong": "closed on Sundays",
+              "correct": "closed on Mondays"
+            },
+            {
+              "wrong": "one Monday off every four weeks",
+              "correct": "one Sunday off every four weeks"
+            },
+            {
+              "wrong": "bus home",
+              "correct": "taxi home (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "All employees get ",
+                1,
+                " — even temporary staff."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can get a ",
+                2,
+                " at any of their restaurants. But not at weekends — you'll be working then."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you have to do a late shift and finish work after midnight, the company will pay for you to get a ",
+                3,
+                " home."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll need to give a really high level of ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll need to have a certificate in ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first vacancy is in ",
+                6,
+                " Street. They're looking for a breakfast supervisor."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Checking all the procedures for cleaning the ",
+                7,
+                " are being followed is part of the role."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "To begin with, you'd be getting £",
+                8,
+                " — but that goes up to £11.25 after three months."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At City Road, you'd be responsible for making sure there's enough stock and sorting out all the ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They're closed on Mondays. You get one ",
+                10,
+                " off every four weeks."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "training",
+            "discount",
+            "taxi",
+            "service",
+            "English",
+            "Wivenhoe",
+            "equipment",
+            "9.75",
+            "deliveries",
+            "Sunday"
+          ]
+        },
+        "2": {
+          "scene": "纳斯顿新住宅区规划说明会",
+          "sceneEmoji": "🏘️",
+          "kwt": [
+            {
+              "original": "There's a lot of demand for housing for employees in the region, as many employees are having to commute long distances at present.",
+              "keyWord": "COMMUTING",
+              "transStart": "The high demand for housing arises partly from the long distances that many local employees are currently",
+              "transEnd": ".",
+              "answer": "COMMUTING DAILY",
+              "collocation": "commuting daily (= travelling regularly between home and workplace)"
+            },
+            {
+              "original": "We were more interested in the fact that there's an excellent hospital just 15 kilometres away.",
+              "keyWord": "PROXIMITY",
+              "transStart": "The",
+              "transEnd": "of an excellent hospital just 15 kilometres away was a key factor in choosing the site.",
+              "answer": "PROXIMITY OF",
+              "collocation": "proximity of (= the nearness or closeness of something)"
+            },
+            {
+              "original": "We were particularly pleased that so many people liked the designs for the layout of the development.",
+              "keyWord": "SATISFACTION",
+              "transStart": "The team expressed particular",
+              "transEnd": "at the overwhelmingly positive response to the development's layout design.",
+              "answer": "SATISFACTION AT",
+              "collocation": "satisfaction at (= a feeling of pleasure resulting from a positive outcome)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Primary school"
+              },
+              {
+                "num": 2,
+                "left": "Sports centre"
+              },
+              {
+                "num": 3,
+                "left": "Clinic"
+              },
+              {
+                "num": 4,
+                "left": "Community centre"
+              },
+              {
+                "num": 5,
+                "left": "Supermarket"
+              }
+            ],
+            "options": [
+              "A.  adjoining the specially designed houses for residents over 65",
+              "B.  on western side, just below road branching off London Road",
+              "C.  between the two development entrances, just south of three large trees",
+              "D.  on main internal road, at the corner of second turning left from South Entrance",
+              "E.  just below the lake, to the right of a street of houses"
+            ],
+            "answers": [
+              "D",
+              "B",
+              "E",
+              "A",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "MARK",
+              "parts": [
+                "Because of the new industrial centre, there's a lot of demand for housing for ",
+                1,
+                " in the region — many are having to commute long distances."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's also an international airport 20 minutes away, but although that's convenient, it wasn't one of our major ",
+                2,
+                " for choosing the site."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We were more interested in the excellent ",
+                3,
+                " just 15 kilometres away, and a large secondary school even closer."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "People like the wide variety of accommodation types and prices, and that it's only a short ",
+                4,
+                " to get out into the countryside."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The design blended well with the natural features of the landscape, with provision made for protecting ",
+                5,
+                " and wildlife on the site."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There'll be a school for children up to 11. From the South Entrance, there's a road through the development — the school will be on that road at the corner of the second turning to the ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The sports centre will be on the ",
+                7,
+                " side of the development, just below the road branching off from London Road."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The clinic will be just below the ",
+                8,
+                ", to the right of a street of houses."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The community centre will adjoin the specially designed houses for ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The supermarket will be between the two entrances, just to the south of the three large ",
+                10,
+                " near London Road."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "employees",
+            "criteria",
+            "hospital",
+            "drive",
+            "trees",
+            "left",
+            "western",
+            "lake",
+            "over-65s",
+            "trees"
+          ]
+        },
+        "3": {
+          "scene": "1783年拉基火山爆发历史研究讨论",
+          "sceneEmoji": "🌋",
+          "functions": "A  Identifying an overlooked significance    B  Expressing surprise at data    C  Describing a source advantage    D  Attributing a discovery to the wrong person    E  Identifying an unexpected geographical impact",
+          "pragmatic": [
+            {
+              "quote": "What I found more significant was how it impacted directly and indirectly on political events, as well as having massive social and economic consequences.",
+              "speaker": "Michelle",
+              "answer": "A"
+            },
+            {
+              "quote": "I was surprised there were so many weather stations established by that time — you can see how the weather changed, often by the hour.",
+              "speaker": "Adam",
+              "answer": "B"
+            },
+            {
+              "quote": "It was great there were so many primary sources to look at — it really gives you a sense of how catastrophic the volcano was.",
+              "speaker": "Adam",
+              "answer": "C"
+            },
+            {
+              "quote": "I thought it would be a few countries near Iceland — but two years after the eruption, strange weather events were being reported as far away as North America and North Africa.",
+              "speaker": "Adam",
+              "answer": "E"
+            },
+            {
+              "quote": "Benjamin Franklin is often credited with being the first to realise the haze was caused by the volcanic eruption — but actually a French naturalist beat him to it.",
+              "speaker": "Michelle",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📖",
+              "title": "The Laki Eruption (Iceland, 1783)",
+              "items": [
+                [
+                  "Long-lasting effects — not just immediate devastation; had political and ",
+                  {
+                    "b": 1
+                  },
+                  " consequences"
+                ],
+                [
+                  "The 'Laki haze': volcanic fog spread across Europe; unusual sulphur ",
+                  {
+                    "b": 1
+                  },
+                  " that people hadn't experienced before"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Global Effects",
+              "items": [
+                [
+                  "Iceland: livestock poisoned by vegetation contaminated with ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Egypt: severe drought → Nile didn't flood → crops failed → more deaths than in any other country"
+                ],
+                [
+                  "UK: mortality rate ",
+                  {
+                    "b": 1
+                  },
+                  " — high proportion of those under 25"
+                ],
+                [
+                  "USA: snowbound until March in Virginia; ice floating down the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Scientific Significance",
+              "items": [
+                [
+                  "First time scientists were making sense of volcanology — many primary sources and weather station ",
+                  {
+                    "b": 1
+                  },
+                  " from the period"
+                ],
+                [
+                  "Multiple naturalists identified the cause ",
+                  {
+                    "b": 1
+                  },
+                  " of each other"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "economic",
+            "smell",
+            "fluorine",
+            "doubled",
+            "Mississippi",
+            "records",
+            "independently"
+          ],
+          "dictation": [
+            {
+              "speaker": "MICHELLE",
+              "parts": [
+                "What I found more ",
+                1,
+                " was how it impacted directly and indirectly on political events, as well as having massive social and economic consequences."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "I was surprised there were so many weather ",
+                2,
+                " established by that time — you can see how the weather changed, often by the hour."
+              ]
+            },
+            {
+              "speaker": "MICHELLE",
+              "parts": [
+                "Writers at the time called it the 'Laki haze'. They all realised this wasn't the sort of fog they were used to — it had a ",
+                3,
+                " smell."
+              ]
+            },
+            {
+              "speaker": "MICHELLE",
+              "parts": [
+                "It was Benjamin Franklin who first realised that the haze was caused by the volcanic eruption in Iceland. He's often ",
+                4,
+                " with that — but apparently a French naturalist beat him to it."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "The effects went on for so long — and two years after the eruption, strange weather events were being reported as far away as North America and North ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "MICHELLE",
+              "parts": [
+                "Iceland: livestock were poisoned because they ate vegetation contaminated with ",
+                6,
+                " from the volcanic fallout."
+              ]
+            },
+            {
+              "speaker": "MICHELLE",
+              "parts": [
+                "Egypt: the bizarre weather patterns led to a severe drought. The Nile didn't ",
+                7,
+                " and the crops all failed."
+              ]
+            },
+            {
+              "speaker": "MICHELLE",
+              "parts": [
+                "In the UK, the ",
+                8,
+                " rate went up a lot — reportedly about double the usual, with an unusually high percentage of people under the age of 25."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "George Washington noted in his diary that they were snowbound until March in Virginia. And there was ice floating down the ",
+                9,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "significant",
+            "stations",
+            "sulphur",
+            "credited",
+            "Africa",
+            "fluorine",
+            "flood",
+            "mortality",
+            "Mississippi"
+          ]
+        },
+        "4": {
+          "scene": "口袋历史与女性服饰演变讲座",
+          "sceneEmoji": "👝",
+          "signpost": [
+            {
+              "quote": "Other than that, people don't really think about pockets too much — they're rather overlooked as a fashion item.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising women's fashion"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Justifying the topic choice by identifying pockets as underappreciated before reviewing their history"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "If we think about male fashion first — that was the time when suits became popular.",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Introducing the male fashion context before describing how tailors integrated pockets"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The development of women's pockets was a little different.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling a contrast between male and female pocket history"
+                ],
+                [
+                  "B",
+                  "Repeating the male section"
+                ],
+                [
+                  "C",
+                  "Concluding the men's section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "That was when small bags, or pouches as they were known, came into fashion.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the earlier account"
+                ],
+                [
+                  "B",
+                  "Explaining the consequence of the disappearance of tie-on pockets"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Of course, they inevitably led on to the handbag of more modern times.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the social history"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Tracing the direct historical line from pouches to the modern handbag"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "👔",
+              "title": "Men's Pockets — 18th Century",
+              "items": [
+                [
+                  "Suits became popular: breeches (knee-length trousers), short waistcoats, long jackets — all lined with ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Pockets sewn into ",
+                  {
+                    "b": 1
+                  },
+                  " by tailors; reached through a gap"
+                ],
+                [
+                  "Coat pockets became decorative for fashion; larger but plainer for those with a ",
+                  {
+                    "b": 1
+                  },
+                  " who needed to carry instruments"
+                ]
+              ]
+            },
+            {
+              "emoji": "👗",
+              "title": "Women's Pockets — 18th/19th Century",
+              "items": [
+                [
+                  "Women tied pairs of pockets around their ",
+                  {
+                    "b": 1
+                  },
+                  " — hanging beneath their clothes"
+                ],
+                [
+                  "Pockets made of fabric: recycled cloth or expensive linen with ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Accessed through an opening in the folds of ",
+                  {
+                    "b": 1
+                  },
+                  " between layers of petticoats"
+                ],
+                [
+                  "Working women's pockets grew longer — sometimes reaching their ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "👜",
+              "title": "The End of Tie-On Pockets",
+              "items": [
+                [
+                  "Late 19th C: dresses became ",
+                  {
+                    "b": 1
+                  },
+                  " — pockets stood out and detracted from the woman's image"
+                ],
+                [
+                  "Women switched to small bags/pouches → eventually the modern ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "material",
+            "lining",
+            "profession",
+            "waist",
+            "embroidery",
+            "skirts",
+            "knees",
+            "tighter",
+            "handbag"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Nothing is quite as ",
+                1,
+                " as being able to pop your phone or credit card into your pocket. Yet pockets are rather overlooked as a fashion item."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the 18th century, suits became popular. Pockets were sewn into the lining of jackets, waistcoats and breeches by whichever ",
+                2,
+                " the customer used."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Coat pockets became increasingly decorative for men who wanted to look stylish. But they were often larger but plainer if the wearer had a ",
+                3,
+                " and needed to carry medical instruments."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Women were more vulnerable to theft. So they had a pair of pockets made that were tied together with ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Women tied the pockets around their waist so they hung beneath their clothes — accessible through an opening in the folds of their skirts. The pockets were ",
+                5,
+                " to hide from would-be thieves."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Women's pairs of pockets got bigger or longer for working women — sometimes reaching down to their ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Late 19th century: dresses became tighter. The pairs of pockets became very noticeable — they detracted from the woman's ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Women who still wanted to carry possessions needed somewhere for them. That was when small ",
+                8,
+                " or pouches came into fashion."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "These pouches inevitably led on to the ",
+                9,
+                " of more modern times — particularly when fashion removed pockets altogether."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "convenient",
+            "tailor",
+            "profession",
+            "strings",
+            "visible",
+            "knees",
+            "image",
+            "bags",
+            "handbag"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 18 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "摄影俱乐部会员申请电话咨询",
+          "sceneEmoji": "📷",
+          "mcq": [
+            {
+              "q": "Why does Dan choose full membership over associate membership?",
+              "opts": [
+                [
+                  "A",
+                  "It includes access to equipment"
+                ],
+                [
+                  "B",
+                  "It allows him to vote in meetings"
+                ],
+                [
+                  "C",
+                  "It costs less per year"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What was the main feedback on Dan's first competition photograph?",
+              "opts": [
+                [
+                  "A",
+                  "The colour was too dark"
+                ],
+                [
+                  "B",
+                  "The composition was too busy"
+                ],
+                [
+                  "C",
+                  "The timing was wrong"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What was the feedback on Dan's third competition — 'Animal Magic'?",
+              "opts": [
+                [
+                  "A",
+                  "The animal was blurred"
+                ],
+                [
+                  "B",
+                  "He needed more movement in the scene"
+                ],
+                [
+                  "C",
+                  "The photo was too dark"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Dan calls Wayside Camera Club to join. His address is 52 Marrowfield Street in Peacetown. He heard about the club from a colleague, not a relative. He wants to join competitions and meet other photographers. Full membership is £30 per year and associate membership is £20 — associate members can vote in meetings. Dan chooses full membership. His first competition's theme was 'Domestic Life'. His second was themed around sunsets — and the feedback was that the composition was too crowded. His third competition was 'Animal Magic' — the photo was taken at night and the feedback was that it was too dark.",
+          "errors": [
+            {
+              "wrong": "from a colleague",
+              "correct": "from a relative"
+            },
+            {
+              "wrong": "associate members can vote",
+              "correct": "associate members cannot vote"
+            },
+            {
+              "wrong": "sunsets",
+              "correct": "clouds (had to include clouds)"
+            },
+            {
+              "wrong": "the composition was too crowded",
+              "correct": "he should have waited longer — the timing wasn't right"
+            },
+            {
+              "wrong": "colleague",
+              "correct": "relative (already done)"
+            },
+            {
+              "wrong": "associate members can vote",
+              "correct": "associate cannot vote (already done)"
+            },
+            {
+              "wrong": "sunsets",
+              "correct": "clouds (already done — replace: 'composition was too crowded' → 'timing wasn't right')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "BREDA",
+              "parts": [
+                "What's your home address?"
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "I live in Peacetown — it's 52 ",
+                1,
+                " Street. M-A double R-O-W-F-I-E-L-D."
+              ]
+            },
+            {
+              "speaker": "BREDA",
+              "parts": [
+                "So how did you hear about our club?"
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "I was talking to a ",
+                2,
+                " the other day and he suggested it. He belongs to another club but had heard good things about yours."
+              ]
+            },
+            {
+              "speaker": "BREDA",
+              "parts": [
+                "So what do you hope to get from joining?"
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "One thing that interests me is the competitions. I enjoy entering those. I also like to ",
+                3,
+                " with other photographers."
+              ]
+            },
+            {
+              "speaker": "BREDA",
+              "parts": [
+                "It's £30 a year for full membership or £20 for an associate. You can't vote in meetings with ",
+                4,
+                " membership."
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "I'll go for the full membership, then."
+              ]
+            },
+            {
+              "speaker": "BREDA",
+              "parts": [
+                "So let's start with your first competition."
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "The theme was entitled '",
+                5,
+                "'. I chose a family sitting round the dinner table. The feedback was that it was too 'busy' as a picture."
+              ]
+            },
+            {
+              "speaker": "BREDA",
+              "parts": [
+                "So it was the composition they criticised?"
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "Yes. My second competition — my university was on the coast. There were beautiful sunsets. The instructions were to capture the ",
+                6,
+                " as well."
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "The feedback was that I should have waited a bit longer to get the shot. The ",
+                7,
+                " wasn't right — I took it too soon."
+              ]
+            },
+            {
+              "speaker": "DAN",
+              "parts": [
+                "The third was called '",
+                8,
+                "'. I had to take hundreds of shots — animals move all the time. I got a shot of a fox at night but I suspected it was a bit ",
+                9,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Marrowfield",
+            "relative",
+            "socialise",
+            "associate",
+            "Domestic Life",
+            "clouds",
+            "timing",
+            "Animal Magic",
+            "dark"
+          ]
+        },
+        "2": {
+          "scene": "野生蘑菇采摘知识讲座",
+          "sceneEmoji": "🍄",
+          "kwt": [
+            {
+              "original": "Some edible mushrooms are bright red, for example.",
+              "keyWord": "COLOUR",
+              "transStart": "The",
+              "transEnd": "of a mushroom is not a reliable guide to whether it is safe to eat.",
+              "answer": "COLOUR ALONE",
+              "collocation": "colour alone (= just the external colour, without considering other factors)"
+            },
+            {
+              "original": "If possible, you should go with a group led by an expert.",
+              "keyWord": "GUIDANCE",
+              "transStart": "To stay safe and learn effectively, beginners are strongly advised to collect mushrooms under the",
+              "transEnd": "of an expert.",
+              "answer": "GUIDANCE OF AN EXPERT",
+              "collocation": "guidance of an expert (= direction and supervision provided by a knowledgeable person)"
+            },
+            {
+              "original": "The biggest problem is that so many new houses have been built in this area in the last ten years.",
+              "keyWord": "CONTRIBUTED",
+              "transStart": "The rapid expansion of housing in the region has",
+              "transEnd": "most to the decline of some varieties of wild mushroom.",
+              "answer": "CONTRIBUTED MOST TO",
+              "collocation": "contribute to (= be a significant cause of something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Myth: only eat pale or dull mushrooms"
+              },
+              {
+                "num": 2,
+                "left": "Myth: you can eat them raw"
+              },
+              {
+                "num": 3,
+                "left": "Myth: identify safety by smell"
+              },
+              {
+                "num": 4,
+                "left": "Myth: if animals eat it, it's safe for people"
+              },
+              {
+                "num": 5,
+                "left": "Myth: phone apps are fully reliable in the field"
+              }
+            ],
+            "options": [
+              "A.  False — some of the deadliest mushrooms have no smell at all",
+              "B.  False — many animals can eat things that are toxic to humans",
+              "C.  False — you can eat them uncooked in salads; no need to peel",
+              "D.  False — some safe edible mushrooms are bright red",
+              "E.  False — good signal cannot always be guaranteed"
+            ],
+            "answers": [
+              "D",
+              "C",
+              "A",
+              "B",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "DAN",
+              "parts": [
+                "You should never consume mushrooms picked by friends or neighbours — some ",
+                1,
+                " mushrooms look very similar to edible ones."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Don't listen to people who tell you it's only OK to eat mushrooms that are pale or dull — this is completely ",
+                2,
+                ". Some edible mushrooms are bright red."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can eat mushrooms uncooked in ",
+                3,
+                " — it's not necessary to peel them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can't tell if a mushroom is safe to eat by its ",
+                4,
+                " — some of the most deadly have no smell and taste quite nice."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Mushroom picking is associated with the countryside, but your local ",
+                5,
+                " can be a great place to start — with playing fields and wooded areas."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I wouldn't recommend going alone or relying on photos in a ",
+                6,
+                ". Go with a group led by an expert."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You should never pick all the mushrooms in one area — collect only enough for your own ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The biggest problem causing a decline in mushrooms is that so many new ",
+                8,
+                " have been built here in the last ten years — mushroom habitats have been destroyed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Collect mushrooms in a brown paper bag and as soon as you get home, put them in the ",
+                9,
+                ". Cook them as soon as possible."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "poisonous",
+            "untrue",
+            "salads",
+            "smell",
+            "park",
+            "book",
+            "needs",
+            "houses",
+            "fridge"
+          ]
+        },
+        "3": {
+          "scene": "自动化与未来就业研讨会后讨论",
+          "sceneEmoji": "🤖",
+          "functions": "A  Sharing a changed perspective    B  Questioning a prediction    C  Expressing expected disappointment    D  Describing an unexpected statistic    E  Identifying an ironic outcome",
+          "pragmatic": [
+            {
+              "quote": "The discussion about the future of work was really optimistic for a change. I like the idea that work won't involve doing boring, repetitive tasks, as robots will do all that.",
+              "speaker": "Young woman",
+              "answer": "A"
+            },
+            {
+              "quote": "Bit too optimistic, don't you think? For example, I can't see how people are about to have more leisure time — all the evidence shows people are spending longer than ever at work.",
+              "speaker": "Young man",
+              "answer": "B"
+            },
+            {
+              "quote": "You might think all the technological innovations would have put accountants out of a job — but in fact there are more of them than ever. They're still really in demand.",
+              "speaker": "Young man",
+              "answer": "E"
+            },
+            {
+              "quote": "I'd expected there to be a much bigger change in the number of agricultural workers in the 19th century. But the 1871 census showed that roughly 25% of the population worked on the land.",
+              "speaker": "Young woman",
+              "answer": "C"
+            },
+            {
+              "quote": "The future looks quite bleak for bank clerks — they've been in decline since ATMs were introduced, and technology will certainly make most of the jobs they do now redundant.",
+              "speaker": "Young man",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🔮",
+              "title": "Predictions from the Seminar",
+              "items": [
+                [
+                  "Work won't involve boring, repetitive tasks — robots will do these"
+                ],
+                [
+                  "More leisure time? Evidence shows people are spending ",
+                  {
+                    "b": 1
+                  },
+                  " time at work"
+                ],
+                [
+                  "Lower unemployment? ",
+                  {
+                    "b": 1
+                  },
+                  " positive — not in the foreseeable future"
+                ]
+              ]
+            },
+            {
+              "emoji": "📊",
+              "title": "Jobs Statistics",
+              "items": [
+                [
+                  "Accountants: 20× more than in the 19th century — technology made them more ",
+                  {
+                    "b": 1
+                  },
+                  ", not obsolete"
+                ],
+                [
+                  "Hairdressers: one per 287 people now vs one per 1,500 — because earnings have gone up (more spending on ",
+                  {
+                    "b": 1
+                  },
+                  " services)"
+                ],
+                [
+                  "Administrative staff: given much more ",
+                  {
+                    "b": 1
+                  },
+                  " and higher status"
+                ],
+                [
+                  "Agriculture: 25% worked on the land in 1871; now less than ",
+                  {
+                    "b": 1
+                  },
+                  " percent"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏦",
+              "title": "Care Workers vs Bank Clerks",
+              "items": [
+                [
+                  "Care workers: barely existed in 19th century; now a huge sector as ",
+                  {
+                    "b": 1
+                  },
+                  " has increased"
+                ],
+                [
+                  "Bank clerks: in decline since ATMs in the ",
+                  {
+                    "b": 1
+                  },
+                  "s — technology will make most jobs redundant"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "longer",
+            "not",
+            "efficient",
+            "personal",
+            "responsibility",
+            "0.2",
+            "lifespan",
+            "1980"
+          ],
+          "dictation": [
+            {
+              "speaker": "YOUNG MAN",
+              "parts": [
+                "With those protesting workers — the Luddites — destroying their knitting ",
+                1,
+                " because they were so worried about losing their jobs."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Ultimately, they didn't achieve anything — and anyway, ",
+                2,
+                " created more jobs than it destroyed."
+              ]
+            },
+            {
+              "speaker": "YOUNG WOMAN",
+              "parts": [
+                "The discussion about the future of work was really optimistic. I like the idea that work won't involve doing boring, ",
+                3,
+                " tasks — as robots will do all that."
+              ]
+            },
+            {
+              "speaker": "YOUNG MAN",
+              "parts": [
+                "Bit too optimistic — I can't see how people are about to have more ",
+                4,
+                " time, when all the evidence shows people are spending longer at work."
+              ]
+            },
+            {
+              "speaker": "YOUNG MAN",
+              "parts": [
+                "You might think all the technological innovations would have put accountants out of a job, but in fact there are more than ever. ",
+                5,
+                " times more compared to the 19th century."
+              ]
+            },
+            {
+              "speaker": "YOUNG WOMAN",
+              "parts": [
+                "People's earning power has gone up so they can afford to spend more on personal services like hairdressing. One hairdresser for every 287 people now, compared to one for over ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "YOUNG MAN",
+              "parts": [
+                "The kind of work that administrative staff do has changed enormously. Even 20 years ago there were secretaries doing ",
+                7,
+                ". Now they're given much more responsibility."
+              ]
+            },
+            {
+              "speaker": "YOUNG WOMAN",
+              "parts": [
+                "I expected a bigger change in agricultural workers. But the 1871 census showed roughly 25% of the population worked on the land. Now it's less than 0.2%."
+              ]
+            },
+            {
+              "speaker": "YOUNG WOMAN",
+              "parts": [
+                "Care workers barely existed in the 19th century as people's ",
+                8,
+                " was so much shorter. Now this sector will see huge growth."
+              ]
+            },
+            {
+              "speaker": "YOUNG MAN",
+              "parts": [
+                "Bank clerks have been in ",
+                9,
+                " since ATMs were introduced in the eighties — and technology will make most of the jobs they do now redundant."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "machines",
+            "industrialisation",
+            "repetitive",
+            "leisure",
+            "twenty",
+            "1,500",
+            "dictation",
+            "lifespan",
+            "decline"
+          ]
+        },
+        "4": {
+          "scene": "太空交通管理系统讲座",
+          "sceneEmoji": "🛸",
+          "signpost": [
+            {
+              "quote": "Space Traffic Management is a similar concept to Air Traffic Control, but focusing on the control of satellites.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Defining the new concept by analogy with a familiar system"
+                ],
+                [
+                  "C",
+                  "Summarising all problems"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Unfortunately, at present we don't actually have a Space Traffic Management system that works.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Repeating the definition"
+                ],
+                [
+                  "C",
+                  "Introducing the central problem before listing its causes"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "But in spite of this, one thing you may be surprised to learn is that you can launch a satellite and it doesn't have to send back any information.",
+              "opts": [
+                [
+                  "A",
+                  "Defending the current system"
+                ],
+                [
+                  "B",
+                  "Introducing a surprising gap in the current regulatory framework"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "And even if the operators are willing to provide information, the information isn't easy to collect.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the problems section"
+                ],
+                [
+                  "B",
+                  "Questioning the first problem"
+                ],
+                [
+                  "C",
+                  "Adding a second obstacle after the willingness problem"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Let's consider now some of the solutions that have been suggested.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Signalling a shift from problem analysis to potential solutions"
+                ],
+                [
+                  "C",
+                  "Repeating the problems"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🛰️",
+              "title": "Why We Need Space Traffic Management",
+              "items": [
+                [
+                  "Preventing ",
+                  {
+                    "b": 1
+                  },
+                  " between objects in orbit around the Earth"
+                ],
+                [
+                  "Satellites are now relatively ",
+                  {
+                    "b": 1
+                  },
+                  " — many operators launching whole 'constellations'"
+                ]
+              ]
+            },
+            {
+              "emoji": "❓",
+              "title": "Problems Facing STM",
+              "items": [
+                [
+                  "No requirement for satellites to send back ",
+                  {
+                    "b": 1
+                  },
+                  " information once launched"
+                ],
+                [
+                  "Lack of ways to properly ",
+                  {
+                    "b": 1
+                  },
+                  " satellites"
+                ],
+                [
+                  "Some operators may be unwilling to share info — e.g. for ",
+                  {
+                    "b": 1
+                  },
+                  " purposes"
+                ],
+                [
+                  "Data must include the object itself, its ",
+                  {
+                    "b": 1
+                  },
+                  ", and speed — and satellites move at thousands of km/h"
+                ],
+                [
+                  "Scientists can only make a ",
+                  {
+                    "b": 1
+                  },
+                  " about where a satellite is heading next"
+                ]
+              ]
+            },
+            {
+              "emoji": "✅",
+              "title": "Proposed Solutions",
+              "items": [
+                [
+                  "Establish shared ",
+                  {
+                    "b": 1
+                  },
+                  " for presenting information at a global level"
+                ],
+                [
+                  "Create a single ",
+                  {
+                    "b": 1
+                  },
+                  " where all information is entered"
+                ],
+                [
+                  "The system must establish ",
+                  {
+                    "b": 1
+                  },
+                  " among the people who use it"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "collisions",
+            "cheap",
+            "identification",
+            "track",
+            "military",
+            "location",
+            "prediction",
+            "standards",
+            "database",
+            "trust"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "The aim of Space Traffic Management would be to prevent the danger of ",
+                1,
+                " in space between objects in orbit."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Satellites are relatively ",
+                2,
+                " these days, meaning more people can afford to put them into space."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "People aren't just launching single satellites but whole constellations, consisting of ",
+                3,
+                " of them designed to work together."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can launch a satellite and it doesn't have to send back any information to Earth to allow its ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At present we don't have anything like enough proper ways of ",
+                5,
+                " satellites."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some operators may be unwilling to share information — for example, a satellite designed for ",
+                6,
+                " purposes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Details are needed about the object itself, as well as about its ",
+                7,
+                " at a particular time — and it's likely to be moving at thousands of kilometres an hour."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All scientists can do is put forward a ",
+                8,
+                " concerning where the satellite is heading next."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We need to establish shared standards and create a single ",
+                9,
+                " on which the information can be entered."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The system must establish ",
+                10,
+                " in the people that use it, both nationally and at a global level."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "collisions",
+            "cheap",
+            "thousands",
+            "identification",
+            "tracking",
+            "military",
+            "location",
+            "prediction",
+            "database",
+            "trust"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 18 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "就业中介诊所前台职位电话沟通",
+          "sceneEmoji": "💼",
+          "mcq": [
+            {
+              "q": "What does Greg say the medical centre specifically needs?",
+              "opts": [
+                [
+                  "A",
+                  "Someone with experience"
+                ],
+                [
+                  "B",
+                  "Someone available immediately"
+                ],
+                [
+                  "C",
+                  "Someone with medical knowledge"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does the role require when dealing with patients?",
+              "opts": [
+                [
+                  "A",
+                  "Technical medical skills"
+                ],
+                [
+                  "B",
+                  "Calm confidence when interacting with the public"
+                ],
+                [
+                  "C",
+                  "Knowledge of medical records"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Julie say about the finishing time?",
+              "opts": [
+                [
+                  "A",
+                  "It suits her — she can pick up the children"
+                ],
+                [
+                  "B",
+                  "It is too early for her"
+                ],
+                [
+                  "C",
+                  "She will need to use public transport"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "errorText": "Greg from an employment agency calls Julie Davison about a receptionist job at Fordham Medical Centre on Chastens Road. The role involves making appointments and keeping the database updated. Julie worked at a sports centre as a nurse before getting married. The agency is providing the job because the medical centre needs someone calm and confident and with good IT skills. The position starts next month, is temporary, and the contract runs to the end of October. Hours are 7:45am to 1:15pm. Parking is available but there is no bus route.",
+          "errors": [
+            {
+              "wrong": "as a nurse",
+              "correct": "as a receptionist"
+            },
+            {
+              "wrong": "to the end of October",
+              "correct": "to the end of September"
+            },
+            {
+              "wrong": "no bus route",
+              "correct": "it is also on a bus route"
+            },
+            {
+              "wrong": "as a nurse",
+              "correct": "as a receptionist (already done)"
+            },
+            {
+              "wrong": "October",
+              "correct": "September (already done)"
+            },
+            {
+              "wrong": "no bus route",
+              "correct": "also on a bus route (already done)"
+            },
+            {
+              "wrong": "Fordham Medical Centre",
+              "correct": "Fordham Medical Centre ✓ — replace: 'October' → 'September'"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "GREG",
+              "parts": [
+                "This is a position for a ",
+                1,
+                ". I believe you've done that sort of work before?"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Well, this job's in Fordham, and it's at the ",
+                2,
+                " centre there."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's quite near the station, on ",
+                3,
+                " Road. C-H-A-S-T-O-N-S."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'd be involved in making ",
+                4,
+                ", whether face-to-face or on the phone."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another of your duties would be keeping the centre's ",
+                5,
+                " up-to-date."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One thing they do require is someone with ",
+                6,
+                " — and you did mention your work at the sports centre."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Patients are often under stress, so they want someone who can stay calm and be ",
+                7,
+                " when interacting with the public."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This isn't a permanent job — it's ",
+                8,
+                " — so the contract would be just to the end of September."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Well, they want someone who can start at a quarter to eight. You'd finish at ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There is ",
+                10,
+                " available at the centre — and it's also on a bus route."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "receptionist",
+            "Medical",
+            "Chastens",
+            "appointments",
+            "database",
+            "experience",
+            "confident",
+            "temporary",
+            "1.15",
+            "parking"
+          ]
+        },
+        "2": {
+          "scene": "农耕生活博物馆导览介绍",
+          "sceneEmoji": "🏡",
+          "kwt": [
+            {
+              "original": "It was later sold and became a hall of residence for students in 1911, and a museum in 1951.",
+              "keyWord": "CONVERTED",
+              "transStart": "After being sold, the building was",
+              "transEnd": "into a hall of student accommodation in 1911, and later into a museum.",
+              "answer": "CONVERTED INTO",
+              "collocation": "converted into (= changed from one function or form to another)"
+            },
+            {
+              "original": "Luckily, we've managed to keep entry to the museum free.",
+              "keyWord": "MAINTAINED",
+              "transStart": "Fortunately, the museum has",
+              "transEnd": "its policy of free admission throughout.",
+              "answer": "MAINTAINED FREE",
+              "collocation": "maintain free (= continue to keep something at no cost)"
+            },
+            {
+              "original": "The horses no longer live in the stables, which instead is the place to go to buy gifts.",
+              "keyWord": "REPLACED",
+              "transStart": "The horses have been",
+              "transEnd": "by a gift shop in the building that was once the stables.",
+              "answer": "REPLACED BY",
+              "collocation": "replaced by (= substituted with something in the same space)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Four Seasons"
+              },
+              {
+                "num": 2,
+                "left": "Town and Country gallery"
+              },
+              {
+                "num": 3,
+                "left": "Farmhouse Kitchen"
+              },
+              {
+                "num": 4,
+                "left": "A Year on the Farm"
+              },
+              {
+                "num": 5,
+                "left": "Wagon Walk"
+              }
+            ],
+            "options": [
+              "A.  prize-winning sheep and shepherds photography collection",
+              "B.  regional farm carts; fragile — children must not climb on them",
+              "C.  four-minute woodland animation — popular with all ages",
+              "D.  oldest collection of butter and cheese equipment; demonstrations today",
+              "E.  seating area; good for a rest; memory test available"
+            ],
+            "answers": [
+              "C",
+              "A",
+              "D",
+              "E",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "GUIDE",
+              "parts": [
+                "The building was constructed in 1880 as the home of Alfred ",
+                1,
+                ", of the Palmer biscuit factory."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The museum is owned by the university, which uses the main part for lessons. Entry to the museum is kept ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Photography is allowed here — unlike at other museums. You may want to keep your cameras with you rather than leaving them in the ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Four Seasons' is just inside. You can watch a four-minute ",
+                4,
+                " of a woodland scene — designed by young people on a film studies course."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The main gallery, 'Town and Country', includes a photographic collection of prize-winning sheep and ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Farmhouse Kitchen' has the oldest collection of equipment for making butter and ",
+                6,
+                " in the country. A specialist will be giving demonstrations this morning."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'A Year on the Farm' has lots of ",
+                7,
+                ". It's a good place to stop for a rest and you can take a memory test about things you've seen."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Wagon Walk' contains farm carts from nearly every part of the country — it's surprising how much regional ",
+                8,
+                " there was."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the garden, 'The Pond' contains interesting wildlife. It isn't deep and there's a ",
+                9,
+                " around it, so it's perfectly safe for children."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Bees are Magic' is being ",
+                10,
+                ", so you can't visit that area at the moment — but you can still buy our honey in the shop."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Palmer",
+            "free",
+            "cloakroom",
+            "animation",
+            "shepherds",
+            "cheese",
+            "seating",
+            "variation",
+            "fence",
+            "redeveloped"
+          ]
+        },
+        "3": {
+          "scene": "折纸教育功能课堂录像讨论",
+          "sceneEmoji": "🦢",
+          "functions": "A  Identifying a learning benefit    B  Describing a child's behaviour    C  Suggesting a pedagogical extension    D  Evaluating teacher preparation    E  Proposing a classroom application",
+          "pragmatic": [
+            {
+              "quote": "On the video you could see them really listening hard to make sure they did all the steps in the right order to make the bird.",
+              "speaker": "Lia",
+              "answer": "A"
+            },
+            {
+              "quote": "It would also be interesting to see if the children could work out how to make something without being given any direction — that would help with building teamwork.",
+              "speaker": "Ses",
+              "answer": "C"
+            },
+            {
+              "quote": "He was being quite disruptive before the origami started, but having to use his hands really helped him to settle down and start concentrating.",
+              "speaker": "Ses",
+              "answer": "B"
+            },
+            {
+              "quote": "It would have taken me ages to prepare examples showing each of the steps involved in making the bird — but that was a really good idea.",
+              "speaker": "Ses",
+              "answer": "D"
+            },
+            {
+              "quote": "I think we should try it out in our maths teaching practice with Year 3 — it's a really engaging way of reinforcing children's knowledge of geometric shapes.",
+              "speaker": "Ses",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎓",
+              "title": "Educational Benefits Observed",
+              "items": [
+                [
+                  "Children listened carefully to follow all the ",
+                  {
+                    "b": 1
+                  },
+                  " in the right order"
+                ],
+                [
+                  "Fun activity while learning something new — a key aim with this ",
+                  {
+                    "b": 1
+                  },
+                  " group"
+                ],
+                [
+                  "Helps practise fine ",
+                  {
+                    "b": 1
+                  },
+                  " skills with younger children"
+                ]
+              ]
+            },
+            {
+              "emoji": "👦",
+              "title": "Individual Children",
+              "items": [
+                [
+                  "Sid: disruptive before → using his hands helped him ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Jack: wanted to work things out ",
+                  {
+                    "b": 1
+                  },
+                  " — tried different things rather than asking the teacher"
+                ],
+                [
+                  "Naomi: losing interest → decided she wanted hers to be the best — ",
+                  {
+                    "b": 1
+                  },
+                  " helped"
+                ],
+                [
+                  "Anya: listened carefully → produced the perfect ",
+                  {
+                    "b": 1
+                  },
+                  " with very little effort"
+                ],
+                [
+                  "Zara: first time doing origami — unsure what to do; hers ",
+                  {
+                    "b": 1
+                  },
+                  " turned out OK in the end"
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Why Origami Isn't Used More",
+              "items": [
+                [
+                  "Some teachers feel it won't appeal to children used to doing everything on ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Many teachers are clumsy — too much ",
+                  {
+                    "b": 1
+                  },
+                  " required"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "steps",
+            "age",
+            "motor",
+            "concentrate",
+            "independently",
+            "competition",
+            "bird",
+            "still",
+            "computers",
+            "effort"
+          ],
+          "dictation": [
+            {
+              "speaker": "LIA",
+              "parts": [
+                "On the video you could see them really ",
+                1,
+                " hard to make sure they did all the steps in the right order."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "In this lesson they were working individually but it would also be interesting to see if they could work it out without being given any ",
+                2,
+                ". That would help with building teamwork."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "The children were all having fun while being taught something new. Although these kids had no problems folding the paper, with younger children you could do origami to help practise fine ",
+                3,
+                " skills."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "Sid was being quite disruptive. He really benefited from having to use his hands — it helped him to settle down and start ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "LIA",
+              "parts": [
+                "Jack seemed to want to work things out for himself — trying different things rather than asking the teacher for ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "Naomi was losing interest, but then she decided she wanted her mouse to be the best. That ",
+                6,
+                " her to try harder."
+              ]
+            },
+            {
+              "speaker": "LIA",
+              "parts": [
+                "Anya listened so carefully and then produced the perfect ",
+                7,
+                " with very little effort. The teacher could have increased the difficulty for her."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "It would have taken me ages to prepare those examples showing each step. But that was a really good idea — better for them to be able to hold something rather than just look at ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "Maybe it's because so many teachers are ",
+                9,
+                " like me — too much effort required if you're not good with your hands."
+              ]
+            },
+            {
+              "speaker": "SES",
+              "parts": [
+                "I think we should try it in our maths teaching practice — origami is a really engaging way of reinforcing knowledge of geometric ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "listening",
+            "direction",
+            "motor",
+            "concentrating",
+            "help",
+            "motivated",
+            "bird",
+            "pictures",
+            "clumsy",
+            "shapes"
+          ]
+        },
+        "4": {
+          "scene": "维克多·雨果根西岛流亡生活讲座",
+          "sceneEmoji": "🏰",
+          "signpost": [
+            {
+              "quote": "He was a writer, at the height of his career in Paris and very highly regarded by his colleagues.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the house"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Establishing Hugo's literary stature before introducing the political conflict that led to his exile"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "This kind of outspoken criticism was not well liked by the rulers of France and eventually the emperor told Victor Hugo to leave Paris.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Explaining the political consequence that caused exile"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "He produced a lot while on Guernsey — including Les Misérables — and to do this he had to spend a great deal of time in the home he had there.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the house as the setting for his most productive years before describing it in detail"
+                ],
+                [
+                  "B",
+                  "Questioning the quality of his work"
+                ],
+                [
+                  "C",
+                  "Summarising his career"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "He decorated and furnished each level of the house in unique and wonderful ways and many consider the inside a 'work of art'.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the section on his exile"
+                ],
+                [
+                  "B",
+                  "Providing a minor detail"
+                ],
+                [
+                  "C",
+                  "Introducing the interior's artistic significance before contextualising its present use"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Today it's a museum that attracts 200,000 visitors a year.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Questioning the museum's value"
+                ],
+                [
+                  "C",
+                  "Providing a quantified measure of the house's current cultural importance"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📖",
+              "title": "Hugo's Fame & Early Career",
+              "items": [
+                [
+                  "Famous for Les Misérables (1862) — many know the musical and film but not the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Leading figure of the Romantic movement; made outspoken speeches about ",
+                  {
+                    "b": 1
+                  },
+                  " and education"
+                ],
+                [
+                  "Emperor Napoleon III sent him into exile — Guernsey was his third place of exile"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏝️",
+              "title": "Guernsey (1855–1870)",
+              "items": [
+                [
+                  "Bought the property using money from the publication of his ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "The only property he ever owned — a large five-storey house in ",
+                  {
+                    "b": 1
+                  },
+                  " Port"
+                ],
+                [
+                  "Returned to France in 1870 when Napoleon's ",
+                  {
+                    "b": 1
+                  },
+                  " collapsed"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏠",
+              "title": "Inside the House",
+              "items": [
+                [
+                  "Decorated and furnished each floor in unique ways — considered a 'work of art'"
+                ],
+                [
+                  "Floor 1: dining room with impressive ",
+                  {
+                    "b": 1
+                  },
+                  " on the walls"
+                ],
+                [
+                  "Upper floors: inspired by",
+                  {
+                    "b": 1
+                  },
+                  " legends and decorated with his own ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🌟",
+              "title": "Legacy",
+              "items": [
+                [
+                  "200,000 visitors a year; Hugo died in 1885 and was buried in the ",
+                  {
+                    "b": 1
+                  },
+                  " in Paris"
+                ],
+                [
+                  "He helped raise money for ",
+                  {
+                    "b": 1
+                  },
+                  " during his lifetime; very close to his ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "author",
+            "poverty",
+            "poetry",
+            "St Peter",
+            "Empire",
+            "drawings",
+            "Chinese",
+            "artwork",
+            "Panthéon",
+            "children",
+            "relatives"
+          ],
+          "dictation": [
+            {
+              "speaker": "STUDENT",
+              "parts": [
+                "Many people have heard of Victor Hugo because his novel Les Misérables is famous around the world. But we know much less about the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As well as being a literary genius, he gave many speeches about issues like the level of ",
+                2,
+                " in his society. This kind of outspoken criticism was not well liked by the rulers of France."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Eventually, the emperor — Napoleon III — sent him into exile. Guernsey was actually his third place of ",
+                3,
+                ", and he landed there in 1855."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He bought the house using money he'd made in France from the publication of a collection of his ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The property was a large five-storey house in the capital town of St Peter Port. Hugo lived there for 15 years, returning to France in 1870 when Napoleon's ",
+                5,
+                " collapsed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He decorated and furnished each level of the house in unique and wonderful ways. Many people consider the inside of the house to be a 'work of ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Today it's a museum that attracts 200,000 visitors a year. Some of his original ",
+                7,
+                " are still in the rooms."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "From his dining room windows, he had a magnificent view of the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Hugo was very close to his ",
+                9,
+                " — he spent a lot of time with them on Guernsey."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He helped raise money for children in need during his lifetime. After his death in 1885, he was buried in the Panthéon alongside other great ",
+                10,
+                " of French literature."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "author",
+            "poverty",
+            "exile",
+            "poetry",
+            "Empire",
+            "art",
+            "drawings",
+            "harbour",
+            "children",
+            "figures"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -72,10 +72,7 @@ function buildHomework(data) {
     alignment:AlignmentType.CENTER, spacing:{after:80},
     children:[R('Reading Practice',{italics:true,size:22,color:GREY})]
   }));
-  ch.push(new Paragraph({
-    alignment:AlignmentType.CENTER, spacing:{after:200},
-    children:[R('Name: _____________________________     '),R('Date: _____________________________')]
-  }));
+  // 新模板：不再显示 Name/Date 行
 
   // ─────────────────────────────────────────────────────────────
   // PART 1 — MIND MAP
@@ -112,17 +109,38 @@ function buildHomework(data) {
 
   (hw.part2?.questions || []).forEach(q => {
     const isMain = q.options && q.options.length === 6;
-    ch.push(P([
-      R(`${q.number}.  `,{bold:true}),
-      R(q.question,{bold:true})
-    ], {spacing:{before:120,after:60,line:276}}));
-    (q.options||[]).forEach(opt => {
-      ch.push(P([R(`     ${opt}`)], {spacing:{before:40,after:40,line:276}}));
-    });
+    if (isMain) {
+      // 托福 Prose Summary 六选三格式
+      ch.push(P([
+        R(`${q.number}.  `,{bold:true}),
+        R('[Prose Summary]  ',{bold:true,color:BLUE}),
+        R('Directions: Complete the summary by selecting THREE answer choices that express the most important ideas in the passage.',{italics:true})
+      ], {spacing:{before:120,after:80,line:276}}));
+      const intro = q.intro || q.question || '';
+      ch.push(P([
+        R('Introductory Sentence: ',{bold:true}),
+        R(intro,{italics:true})
+      ], {spacing:{before:40,after:80,line:276}}));
+      (q.options||[]).forEach(opt => {
+        ch.push(P([R(`     ${opt}`)], {spacing:{before:40,after:40,line:276}}));
+      });
+      ch.push(P([
+        R('Your Choice:  ',{bold:true}),
+        R('[      ]    [      ]    [      ]')
+      ], {spacing:{before:80,after:40,line:276}}));
+    } else {
+      ch.push(P([
+        R(`${q.number}.  `,{bold:true}),
+        R(q.question,{bold:true})
+      ], {spacing:{before:120,after:60,line:276}}));
+      (q.options||[]).forEach(opt => {
+        ch.push(P([R(`     ${opt}`)], {spacing:{before:40,after:40,line:276}}));
+      });
+    }
     ch.push(blank());
   });
 
-  ch.push(new Paragraph({children:[new PageBreak()]}));
+  // 新模板：P2→P3 不分页
 
   // ─────────────────────────────────────────────────────────────
   // PART 3 — TRUE / FALSE / NOT GIVEN
@@ -131,7 +149,7 @@ function buildHomework(data) {
   ch.push(instruction('Instructions: Decide whether each statement is TRUE (T), FALSE (F), or NOT GIVEN (NG) according to the article. Write your answer on the line.'));
 
   (hw.part3?.statements || []).forEach(s => {
-    ch.push(P([R(`${s.number}.  __________________     `,{bold:true}), R(s.text)],
+    ch.push(P([R(`${s.number}.  _____     `,{bold:true}), R(s.text)],
       {spacing:{before:80,after:80,line:276}}));
     ch.push(blank());
   });
@@ -152,7 +170,8 @@ function buildHomework(data) {
     ch.push(P([R(expandBlanks(hw.part4.passage))], {spacing:{before:60,after:60,line:276}}));
   }
 
-  ch.push(new Paragraph({children:[new PageBreak()]}));
+  // 新模板：P4→P5 不分页
+  ch.push(new Paragraph({ spacing:{before:240,after:0,line:276}, children:[R('')] }));
 
   // ─────────────────────────────────────────────────────────────
   // PART 5 — FILL IN MISSING LETTERS
@@ -180,7 +199,7 @@ function buildHomework(data) {
     ch.push(P(runs, {spacing:{before:60,after:60,line:276}}));
   });
 
-  ch.push(new Paragraph({children:[new PageBreak()]}));
+  // 新模板：P5→P6 不分页
 
   // ─────────────────────────────────────────────────────────────
   // PART 6 — SENTENCE IMITATION
@@ -209,7 +228,8 @@ function buildHomework(data) {
     }
   });
 
-  ch.push(new Paragraph({children:[new PageBreak()]}));
+  // 新模板：P6→P7 不分页
+  ch.push(new Paragraph({ spacing:{before:240,after:0,line:276}, children:[R('')] }));
 
   // ─────────────────────────────────────────────────────────────
   // PART 7 — UNSCRAMBLE
@@ -217,8 +237,25 @@ function buildHomework(data) {
   ch.push(heading('Part 7.  Unscramble the Sentences  🔀'));
   ch.push(instruction('Instructions: Rearrange the chunks below into a correct English sentence. Pay attention to grammar and meaning.'));
 
+  // 新模板：相邻 1–3 词为一组，组间 / 分隔，无 [ ]
+  function groupChunks(item) {
+    const sentence = String(item.answer||'').trim();
+    const words = sentence ? sentence.split(/\s+/) : (item.chunks||[]);
+    const groups = [];
+    let k = 0;
+    while (k < words.length) {
+      const take = Math.min(words.length - k, 1 + Math.floor(Math.random()*3));
+      groups.push(words.slice(k, k+take).join(' '));
+      k += take;
+    }
+    for (let i = groups.length-1; i > 0; i--) {
+      const j = Math.floor(Math.random()*(i+1));
+      [groups[i],groups[j]] = [groups[j],groups[i]];
+    }
+    return groups;
+  }
   (hw.part7?.items || []).forEach((item, i) => {
-    const chunks = (item.chunks||[]).map(c=>`[ ${c} ]`).join('  /  ');
+    const chunks = groupChunks(item).join('  /  ');
     ch.push(P([R(`${i+1}.  `,{bold:true}), R(chunks)],
       {spacing:{before:100,after:60}}));
     ch.push(P([R('     ➤  ________________________________________________________________')],
@@ -399,10 +436,7 @@ function buildBlackboard(data) {
     alignment:AlignmentType.CENTER, spacing:{after:40},
     children:[R('Complete the mind map. Use NO MORE THAN 3 WORDS for each blank.',{italics:true,size:22,color:GREY})]
   }));
-  ch.push(new Paragraph({
-    alignment:AlignmentType.CENTER, spacing:{after:180},
-    children:[R('Name: ________________________________   '),R('Date: ________________________________')]
-  }));
+  // 新模板：不再显示 Name/Date 行
 
   ch.push(new Table({width:{size:9360,type:WidthType.DXA},
     columnWidths:[4680,4680], rows}));

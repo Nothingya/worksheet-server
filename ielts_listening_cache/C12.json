@@ -1,0 +1,3563 @@
+{
+  "bookTitle": "Cambridge IELTS 12 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 12 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "湖区游轮与农场一日游咨询",
+          "sceneEmoji": "⛵",
+          "mcq": [
+            {
+              "q": "What does the tourist centre employee recommend for the farm visit?",
+              "opts": [
+                [
+                  "A",
+                  "A guided nature walk"
+                ],
+                [
+                  "B",
+                  "Feeding the sheep and a 40-minute horse trek"
+                ],
+                [
+                  "C",
+                  "A kayaking trip along the lake"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does the Back Road cycling trail include?",
+              "opts": [
+                [
+                  "A",
+                  "Cafés and accommodation along the route"
+                ],
+                [
+                  "B",
+                  "A free map — challenging terrain, not suitable for young children"
+                ],
+                [
+                  "C",
+                  "A guided cycling experience"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the total cost for the family (2 adults + 2 children)?",
+              "opts": [
+                [
+                  "A",
+                  "$214"
+                ],
+                [
+                  "B",
+                  "$267"
+                ],
+                [
+                  "C",
+                  "$117 + $267 = $384 altogether"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A visitor enquires at the tourist centre about family excursions. The employee recommends a steamship cruise on the lake — the boat is over 100 years old and takes passengers out several times a day for about two hours. The mountains look fantastic from the lake. At the Country Farm, children love feeding the goats. There is also a 40-minute trek on horseback, suitable for beginners. Visitors are welcome to explore the farm on their own and there are beautiful gardens along the side of the river. The Back Road cycling trail is challenging and needs someone with a bit of experience. The bike rental place is called Ratcheson and is just by the cruise ship terminal. A repair kit is needed but there are no shops along the route.",
+          "errors": [
+            {
+              "wrong": "two hours",
+              "correct": "about an hour and a half"
+            },
+            {
+              "wrong": "feeding the goats",
+              "correct": "feeding the sheep"
+            },
+            {
+              "wrong": "along the side of the river",
+              "correct": "along the side of the lake"
+            },
+            {
+              "wrong": "Ratcheson",
+              "correct": "Ratchesons"
+            },
+            {
+              "wrong": "no shops",
+              "correct": "no shops ✓ — replace: 'two hours' → 'an hour and a half'"
+            },
+            {
+              "wrong": "river",
+              "correct": "lake (already done)"
+            },
+            {
+              "wrong": "goats",
+              "correct": "sheep (already done — replace: 'Ratcheson' with 'Ratchesons')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "How about taking your family for a cruise? We have a steamship that takes passengers out several times a day — it's over 100 years old. Don't forget to take pictures of the ",
+                1,
+                " — they look fantastic from the boat."
+              ]
+            },
+            {
+              "speaker": "VISITOR",
+              "parts": [
+                "That sounds interesting. Once we've crossed the lake, what can we do?"
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "One thing that's very popular is a visit to the Country Farm. There's also a 40-minute trek round the farm on a ",
+                2,
+                " — suitable for complete beginners."
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "There are some very beautiful ",
+                3,
+                " along the side of the lake which also belong to the farm — they'll be just at their best now."
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "You can get ",
+                4,
+                " at the farm, though it's not included in the basic cost."
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "You can also take a bike over on the ship and go on a cycling trip on the Back Road trail. They'll give you a ",
+                5,
+                " when you get your ticket — no extra charge."
+              ]
+            },
+            {
+              "speaker": "VISITOR",
+              "parts": [
+                "What's the trail like?"
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "Quite challenging. It needs someone who's got a bit more ",
+                6,
+                ". There's a bike rental place here in the city called ",
+                7,
+                " — R-A-T-C-H-E-S-O-N-S."
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "You'd also need to pick up a repair kit. And definitely get a ",
+                8,
+                " from the bike place — it's very remote, you won't see any ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "That'd be one adult and one child for the cruise with farm tour, and an adult and a child for the cruise only — a total of $",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "mountains",
+            "horse",
+            "gardens",
+            "lunch",
+            "map",
+            "experience",
+            "Ratchesons",
+            "helmet",
+            "shops",
+            "267"
+          ]
+        },
+        "2": {
+          "scene": "餐厅厨房助手入职培训",
+          "sceneEmoji": "🍽️",
+          "kwt": [
+            {
+              "original": "You'll be working an eight-hour day for the first week, though you'll have the chance to do overtime after that as well if you want to.",
+              "keyWord": "OPTION",
+              "transStart": "After the first week, staff have",
+              "transEnd": "to work additional hours if they choose to.",
+              "answer": "THE OPTION TO",
+              "collocation": "have the option to (= have the freedom or possibility to do something)"
+            },
+            {
+              "original": "When someone tells you to do something you need to do it straightaway.",
+              "keyWord": "IMMEDIATELY",
+              "transStart": "Any instruction from a senior member of staff must be carried out",
+              "transEnd": ", without hesitation.",
+              "answer": "IMMEDIATELY AND",
+              "collocation": "immediately and without hesitation (= at once, without delay)"
+            },
+            {
+              "original": "David Field — if you injure yourself at all, even if it's really minor, you must report to him.",
+              "keyWord": "MATTER",
+              "transStart": "All injuries — no",
+              "transEnd": "how minor — must be reported to David Field.",
+              "answer": "NO MATTER HOW",
+              "collocation": "no matter how + adjective (= regardless of the degree or severity)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "David Field"
+              },
+              {
+                "num": 2,
+                "left": "Dexter Wills"
+              },
+              {
+                "num": 3,
+                "left": "Mike Smith"
+              },
+              {
+                "num": 4,
+                "left": "Joy Parkins"
+              },
+              {
+                "num": 5,
+                "left": "Head Chef"
+              }
+            ],
+            "options": [
+              "A.  manages staff schedules and tasks",
+              "B.  handles broken equipment and breakages",
+              "C.  in charge of perishable supplies",
+              "D.  gives basic treatment for injuries",
+              "E.  was on holiday last week"
+            ],
+            "answers": [
+              "D",
+              "B",
+              "C",
+              "A",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JOY",
+              "parts": [
+                "OK, you've all shown up on time, which is an excellent start. None of you have unsuitable footwear — the floors can get very wet and ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Those of you with long hair have got it well out of the way, but some of you'll need to remove your rings and bracelets — they can be a safety ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We don't have any tables free this evening. Fortunately we've got our Head Chef back — he was away on holiday all last week, which meant the other chefs had extra ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Whatever your age, there's some equipment you mustn't use until you've been properly trained, like the ",
+                4,
+                ", for health and safety reasons."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For those of you under 18 — that's Emma and Jake — the meat ",
+                5,
+                " is out of bounds. And none of you are allowed to use the electric ",
+                6,
+                " until you've been shown how it works."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll be working an eight-hour day for the first week, though you'll have the chance to do ",
+                7,
+                " after that if you want."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll find you don't have much chance to take it easy — when someone tells you to do something, do it ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you injure yourself at all, even if it's minor, report to David ",
+                9,
+                ". He's trained to give basic treatment, or he'll send you elsewhere."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you smash a plate, report it to Dexter Wills — don't just leave it. And Mike Smith looks after all the stores of ",
+                10,
+                ". If we're getting low in flour or sugar, let him know."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "slippery",
+            "hazard",
+            "work",
+            "waste disposal",
+            "slicer",
+            "mixer",
+            "overtime",
+            "straightaway",
+            "Field",
+            "perishables"
+          ]
+        },
+        "3": {
+          "scene": "公共图书馆研究论文讨论",
+          "sceneEmoji": "📚",
+          "functions": "A  Suggesting a focus    B  Raising a concern    C  Describing a trend    D  Proposing a research question    E  Expressing a preference",
+          "pragmatic": [
+            {
+              "quote": "Maybe we should concentrate on this country, and try to relate the changes in libraries to external developments, like literacy rates and language diversity.",
+              "speaker": "Trudie",
+              "answer": "A"
+            },
+            {
+              "quote": "Remember we're only supposed to write a short paper, so it's probably best if we don't go into funding in any detail.",
+              "speaker": "Trudie",
+              "answer": "B"
+            },
+            {
+              "quote": "Some libraries have already become centres where community activities take place, and I think that'll become even more common.",
+              "speaker": "Trudie",
+              "answer": "C"
+            },
+            {
+              "quote": "What I'm afraid will happen is that books and magazines will all disappear, and there'll just be rows and rows of computers.",
+              "speaker": "Stewart",
+              "answer": "B"
+            },
+            {
+              "quote": "I wonder if they keep a database of local organisations, or whether they just look online.",
+              "speaker": "Trudie",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💻",
+              "title": "Impact of Digital Technology",
+              "items": [
+                [
+                  "Books that are ",
+                  {
+                    "b": 1
+                  },
+                  " are available online for free — mostly out of copyright"
+                ],
+                [
+                  "Reading long texts on a screen: takes longer and harder to ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🏛️",
+              "title": "Library as Community Hub",
+              "items": [
+                [
+                  "Some libraries already host ",
+                  {
+                    "b": 1
+                  },
+                  " activities — clubs, meetings"
+                ],
+                [
+                  "Risk: financial pressures may lead to libraries losing ",
+                  {
+                    "b": 1
+                  },
+                  " books and becoming 'rows of computers'"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔍",
+              "title": "Research Questions for Local Library",
+              "items": [
+                [
+                  "Does the library control its own ",
+                  {
+                    "b": 1
+                  },
+                  ", or is it managed by the council?"
+                ],
+                [
+                  "What types of noise are ",
+                  {
+                    "b": 1
+                  },
+                  "? (talking vs music)"
+                ],
+                [
+                  "What ",
+                  {
+                    "b": 1
+                  },
+                  " laws affect working hours and staff facilities?"
+                ],
+                [
+                  "What ",
+                  {
+                    "b": 1
+                  },
+                  " does the library need in case anyone is injured?"
+                ],
+                [
+                  "Why is a politician's ",
+                  {
+                    "b": 1
+                  },
+                  " kept in the archive section?"
+                ],
+                [
+                  "Does the library keep a ",
+                  {
+                    "b": 1
+                  },
+                  " of local organisations?"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "digitalised",
+            "concentrate",
+            "community",
+            "physical",
+            "budget",
+            "banned",
+            "employment",
+            "insurance",
+            "diary",
+            "database"
+          ],
+          "dictation": [
+            {
+              "speaker": "TRUDIE",
+              "parts": [
+                "We obviously need to look at the impact of new technology — now that lots of books have been ",
+                1,
+                ", people can access them from their own computers at home."
+              ]
+            },
+            {
+              "speaker": "STEWART",
+              "parts": [
+                "But digitalised books available for free are mostly out of ",
+                2,
+                ". So you won't find the latest best-seller or up-to-date information."
+              ]
+            },
+            {
+              "speaker": "TRUDIE",
+              "parts": [
+                "Some libraries have already become centres where community activities take place. I think that'll become even more ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "TRUDIE",
+              "parts": [
+                "Let's make an in-depth study of our local library. We could find out whether the library has its own ",
+                4,
+                ", or if that's controlled by the local council."
+              ]
+            },
+            {
+              "speaker": "TRUDIE",
+              "parts": [
+                "And I'd love to find out what types of noise they ban — there always seems to be a lot of talking, but never music. I don't know if that's a policy or it just ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "STEWART",
+              "parts": [
+                "Then there are things like how the library is affected by ",
+                6,
+                " laws — rules about working hours, facilities for staff, and so on."
+              ]
+            },
+            {
+              "speaker": "TRUDIE",
+              "parts": [
+                "What measures does the library take to ensure customers' ",
+                7,
+                "? They'd need floor coverings that aren't slippery, and emergency exits. And there's the question of what ",
+                8,
+                " the library needs to have."
+              ]
+            },
+            {
+              "speaker": "STEWART",
+              "parts": [
+                "You know they've got a diary of a well-known ",
+                9,
+                " from the late 19th century? I wonder why it's there."
+              ]
+            },
+            {
+              "speaker": "TRUDIE",
+              "parts": [
+                "Let's add it to our list. And I wonder — people might ask in the library about local organisations like sports clubs. Do they keep a ",
+                10,
+                ", or do they just look online?"
+              ]
+            },
+            {
+              "speaker": "STEWART",
+              "parts": [
+                "I'd like to find out the differences between a library open to the public and one that's part of a ",
+                11,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "digitalised",
+            "copyright",
+            "common",
+            "budget",
+            "happens",
+            "employment",
+            "safety",
+            "insurance",
+            "politician",
+            "database",
+            "museum"
+          ]
+        },
+        "4": {
+          "scene": "商业价值观误区管理讲座",
+          "sceneEmoji": "💼",
+          "signpost": [
+            {
+              "quote": "I'm going to suggest that's an over-simple view. The trouble with these values is that they're theoretical concepts, removed from the reality of day-to-day business.",
+              "opts": [
+                [
+                  "A",
+                  "Providing an example"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Challenging the conventional assumption before explaining the argument"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "On a management training course I once attended, we were put into groups and had to construct a bridge across a stream.",
+              "opts": [
+                [
+                  "A",
+                  "Contradicting the first value"
+                ],
+                [
+                  "B",
+                  "Summarising the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a personal example to illustrate the first value's potential failure"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "My point is that the task wasn't really suited to teamworking, so why make it one?",
+              "opts": [
+                [
+                  "A",
+                  "Drawing a conclusion from the example before moving to the next problem"
+                ],
+                [
+                  "B",
+                  "Defending collaboration"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "It's easy to mock people who say they work hard: after all, a hamster running around in a wheel is working hard — and getting nowhere.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the section on collaboration"
+                ],
+                [
+                  "B",
+                  "Praising hard work"
+                ],
+                [
+                  "C",
+                  "Using an analogy to introduce the limitation of hard work as a value"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "In business, being first with a product is more profitable than having the best product.",
+              "opts": [
+                [
+                  "A",
+                  "Making a counterintuitive claim about excellence before providing evidence"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🤝",
+              "title": "Value 1 — Collaboration",
+              "items": [
+                [
+                  "Risk: tasks not suited to teamwork can cause ",
+                  {
+                    "b": 1
+                  },
+                  " if everyone gets in each other's way"
+                ],
+                [
+                  "Side effect: trying to involve everyone creates ",
+                  {
+                    "b": 1
+                  },
+                  " effects in product development"
+                ],
+                [
+                  "Case: bridge-building exercise — solved by ",
+                  {
+                    "b": 1
+                  },
+                  " the rule, not full collaboration"
+                ]
+              ]
+            },
+            {
+              "emoji": "💪",
+              "title": "Value 2 — Hard Work",
+              "items": [
+                [
+                  "Hard work is only valuable when properly ",
+                  {
+                    "b": 1
+                  },
+                  " — otherwise wastes time and energy"
+                ],
+                [
+                  "Best people: 'clever and lazy' — intellectual clarity; avoid ",
+                  {
+                    "b": 1
+                  },
+                  " tasks"
+                ],
+                [
+                  "Instead of more man-hours, look for a more effective ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎨",
+              "title": "Value 3 — Creativity",
+              "items": [
+                [
+                  "Some campaigns remembered for creativity with no effect on sales — e.g. ",
+                  {
+                    "b": 1
+                  },
+                  " launch"
+                ],
+                [
+                  "Creator derives pleasure from the idea and wrongly assumes audience shares the feeling"
+                ],
+                [
+                  "Too many new products = too creative, but smaller ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🏆",
+              "title": "Value 4 — Excellence",
+              "items": [
+                [
+                  "'First' beats 'best' — pioneers averaged 29% market share vs followers' 13%"
+                ],
+                [
+                  "Insisting on excellence wastes energy and leads to losing ",
+                  {
+                    "b": 1
+                  },
+                  " on opportunities"
+                ],
+                [
+                  "'Just-get-",
+                  {
+                    "b": 1
+                  },
+                  "' approach is likely to be more successful"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "confusion",
+            "side",
+            "bending",
+            "targeted",
+            "unnecessary",
+            "solution",
+            "chocolate bar",
+            "profits",
+            "out",
+            "started"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Today I'm going to talk about four business values: collaboration, hard work, creativity and excellence. Most people would say they're all 'good things'. I'm going to suggest that's an over-simple view."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Business leaders generally try to do the right thing. But all too often the right thing backfires when they adopt values without understanding and managing the side ",
+                1,
+                " that arise."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On a management training course, we had to construct a ",
+                2,
+                " across a stream. The rule was that everyone in the team had to move at least one building block."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our team leader simply asked everyone to move a piece a few centimetres to comply with the rule, and then let the person with an aptitude for puzzles build it alone. We avoided ",
+                3,
+                " and finished first."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Teamwork can also lead to inconsistency — a common cause of poor sales. A company launched a ",
+                4,
+                ": one director wanted to target the business market, another demanded it was aimed at consumers. The product met the needs of neither group."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A hamster running in a wheel is working hard — and getting nowhere. Hard work is valuable only when properly targeted. Otherwise it wastes ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The most valuable people are those who are both clever and lazy — they possess intellectual clarity and don't rush into decisions. They come up with solutions to save the time spent by the stupid and hard-working group."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some advertising campaigns are remembered for their creativity without having any effect on sales. This happened with the launch of a ",
+                6,
+                " — consumers remembered the adverts but had no idea what was being advertised."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A major study compared pioneers — first to market — with followers. Pioneers averaged 29% market share; followers achieved less than half that — only 13% — even though their product might have been better."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Insisting on excellence is time-consuming and leads to losing out on opportunities. The 'just-get-",
+                7,
+                "' approach is likely to be more successful."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "effects",
+            "bridge",
+            "confusion",
+            "smartphone",
+            "resources",
+            "chocolate bar",
+            "started"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 12 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "肯顿节庆活动信息咨询",
+          "sceneEmoji": "🎉",
+          "mcq": [
+            {
+              "q": "Who is performing at the opening ceremony instead of the children's choir?",
+              "opts": [
+                [
+                  "A",
+                  "A local jazz band"
+                ],
+                [
+                  "B",
+                  "The local army cadets"
+                ],
+                [
+                  "C",
+                  "A professional orchestra"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Where is the best place to watch the firework display?",
+              "opts": [
+                [
+                  "A",
+                  "On the river bank"
+                ],
+                [
+                  "B",
+                  "From the town centre"
+                ],
+                [
+                  "C",
+                  "From the park"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "How can tickets for the children's concert be purchased?",
+              "opts": [
+                [
+                  "A",
+                  "Only at the festival box office"
+                ],
+                [
+                  "B",
+                  "Online or in Kenton from the box office or shops with the logo"
+                ],
+                [
+                  "C",
+                  "Only online"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman calls the Kenton Festival box office for information. The festival runs from 16th to 19th May. On the opening day, people start gathering at 2 pm, and events start at 2.45. The festival will be officially opened by the mayor, followed by a performance by a children's choir. Then a community group will perform a short play about Helen Tungate, a scientist who was born in Kenton 200 years ago. The fireworks take place across the river and are best viewed from the town square. The art students' videos about the relationship between children and their grandparents are being shown in Handsworth House. Tickets for the concert can be bought online or in shops displaying the festival poster.",
+          "errors": [
+            {
+              "wrong": "children's choir",
+              "correct": "army cadets"
+            },
+            {
+              "wrong": "200 years ago",
+              "correct": "100 years ago / centenary"
+            },
+            {
+              "wrong": "from the town square",
+              "correct": "from the park"
+            },
+            {
+              "wrong": "displaying the festival poster",
+              "correct": "displaying the logo"
+            },
+            {
+              "wrong": "children's choir",
+              "correct": "army cadets (already done)"
+            },
+            {
+              "wrong": "200 years",
+              "correct": "100 years (already done — replace: 'town square' → 'park' done)"
+            },
+            {
+              "wrong": "poster",
+              "correct": "logo (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The festival begins on the 16th of May and goes on till the 19th."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "On the first day, people start gathering around 2 o'clock, and the events will start at ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The festival will be officially opened by the mayor. Then there'll be a performance by a ",
+                2,
+                ". Most years we have a children's choir, but this year the local army cadets offered to perform."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Then a community group will perform a short ",
+                3,
+                ". It's about Helen Tungate — a ",
+                4,
+                ", born in Kenton exactly 100 years ago."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Later, as the sun sets, there'll be a firework display across the ",
+                5,
+                ". You should go to the park — you'll get the best view from there."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The art students have produced videos connected with relationships between children and their ",
+                6,
+                ". Because the art college is in use for classes, the videos are being shown in ",
+                7,
+                " House."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "There'll be a demonstration of ",
+                8,
+                " dances from all round the country — in the ",
+                9,
+                " market in the town centre, at 2 and 5 every afternoon of the festival except the first day."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The children's concert is in the library on Park Street, on the 18th, at 6.30 in the evening."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "You can book online, or buy tickets when you arrive in Kenton — at the box office or from any shops displaying our ",
+                10,
+                " in the windows."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "2.45",
+            "band",
+            "play",
+            "scientist",
+            "river",
+            "grandparents",
+            "Handsworth",
+            "traditional",
+            "outdoor",
+            "logo"
+          ]
+        },
+        "2": {
+          "scene": "德国慕尼黑剧院参观行程说明",
+          "sceneEmoji": "🎭",
+          "kwt": [
+            {
+              "original": "I had hoped we could sit in on a rehearsal at one of the theatres, but unfortunately that's proved very difficult to arrange.",
+              "keyWord": "IMPOSSIBLE",
+              "transStart": "Arranging to observe a rehearsal has proven virtually",
+              "transEnd": "to organise.",
+              "answer": "VIRTUALLY IMPOSSIBLE TO",
+              "collocation": "virtually impossible to + verb (= almost impossible to achieve)"
+            },
+            {
+              "original": "From talking to you all about your preferences, it was clear that a typical local restaurant would be too meat-oriented for some of you.",
+              "keyWord": "SUIT",
+              "transStart": "A traditional German restaurant would not",
+              "transEnd": "of the group, given their varying dietary preferences.",
+              "answer": "SUIT ALL MEMBERS",
+              "collocation": "suit all members of (= be appropriate and acceptable to everyone in a group)"
+            },
+            {
+              "original": "The play we're seeing on Wednesday evening is a modern one, and we're going to the premiere, so it'll be quite a dressy occasion.",
+              "keyWord": "FORMAL",
+              "transStart": "As Wednesday's performance is a premiere, the occasion is expected to be quite",
+              "transEnd": ".",
+              "answer": "QUITE FORMAL",
+              "collocation": "quite formal (= fairly formal, requiring smart attire)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Tuesday: instead of rehearsal"
+              },
+              {
+                "num": 2,
+                "left": "Tuesday evening"
+              },
+              {
+                "num": 3,
+                "left": "Wednesday afternoon"
+              },
+              {
+                "num": 4,
+                "left": "Wednesday evening"
+              },
+              {
+                "num": 5,
+                "left": "Thursday evening"
+              }
+            ],
+            "options": [
+              "A.  director's talk at the theatre",
+              "B.  Lebanese restaurant dinner",
+              "C.  modern play premiere",
+              "D.  revival of play about local scientist",
+              "E.  castle trip in the mountains"
+            ],
+            "answers": [
+              "E",
+              "B",
+              "A",
+              "C",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "LEADER",
+              "parts": [
+                "We're flying first to Munich on Monday the 4th. The flight is at 11.30. I suggest we meet at the airport for coffee at ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When we arrive, we'll be met by Claus Bauer. He's also arranged for an officer of the National Theatre to show us round the theatre one ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The normal rate at the hotel is 150 euros a night. I'd hoped to get that down to 120, but in fact I've been able to negotiate a rate of ",
+                3,
+                ". That'll be reflected in the final payment due by the end of this week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Tuesday, instead of a rehearsal — which proved difficult to arrange — we'll have a coach trip to one of the amazing ",
+                4,
+                " in the mountains south of Munich."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Tuesday evening, we'll all have dinner together. A typical local restaurant would be too ",
+                5,
+                "-oriented for some of you. I've booked a ",
+                6,
+                " restaurant, as we have plenty of chances to go to an Italian one at home."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Wednesday afternoon, the director of the play we're seeing that evening will talk to us at the theatre. She'll describe how she chose the actors and how she worked with the ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Wednesday's play is a modern one and we're going to the ",
+                8,
+                ". I gather it's a multimedia production with amazing lighting effects and a soundtrack of electronic music."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Thursday's play was commissioned to mark the 100th anniversary of a well-known ",
+                9,
+                ". We're seeing a revival of that production."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Friday's play will be in the garden of a ",
+                10,
+                ". It's a beautiful setting, but there won't be much protection from the wind."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Saturday: we're going by coach to a theatre in another town. The mayor is hosting a ",
+                11,
+                " for all the audience, with a band playing traditional music."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "10",
+            "afternoon",
+            "110",
+            "castles",
+            "meat",
+            "Lebanese",
+            "playwright",
+            "premiere",
+            "scientist",
+            "palace",
+            "reception"
+          ]
+        },
+        "3": {
+          "scene": "斯堪的纳维亚研究课程入学教程",
+          "sceneEmoji": "🎓",
+          "functions": "A  Explaining a background reason    B  Expressing a preference    C  Identifying a problem    D  Making a recommendation    E  Offering an alternative",
+          "pragmatic": [
+            {
+              "quote": "My mother is Danish and she used to talk about her home a lot, and that made me want to visit Denmark. But she usually went on her own.",
+              "speaker": "James",
+              "answer": "A"
+            },
+            {
+              "quote": "Although Denmark seems the obvious place to go because of my family connections, I'd love to spend the time in Iceland.",
+              "speaker": "James",
+              "answer": "B"
+            },
+            {
+              "quote": "I'm interested in journalism — I quite like the idea of moving to Scandinavia and writing for magazines.",
+              "speaker": "James",
+              "answer": "B"
+            },
+            {
+              "quote": "The trouble with the Icelandic sagas is that a lot of people choose that topic, and it can be difficult to get hold of the books you'll need.",
+              "speaker": "Beth",
+              "answer": "C"
+            },
+            {
+              "quote": "Why not leave that for another time? You might find modern novels or 19th century playwrights interesting.",
+              "speaker": "Beth",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🧑",
+              "title": "James — Background",
+              "items": [
+                [
+                  "Mother is Danish — often talked about ",
+                  {
+                    "b": 1
+                  },
+                  "; James wants to visit"
+                ],
+                [
+                  "Third year abroad: wants to go to ",
+                  {
+                    "b": 1
+                  },
+                  " despite Danish family connections"
+                ],
+                [
+                  "Career aim: journalism — write for magazines in ",
+                  {
+                    "b": 1
+                  },
+                  " rather than translating"
+                ]
+              ]
+            },
+            {
+              "emoji": "📝",
+              "title": "Literature Paper",
+              "items": [
+                [
+                  "First choice: Icelandic sagas — problem: popular topic, hard to get the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Agreed topic: 19th century ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Advice: understand the literature in the context of the ",
+                  {
+                    "b": 1
+                  },
+                  " it was written for"
+                ]
+              ]
+            },
+            {
+              "emoji": "📖",
+              "title": "Vikings Paper — Beth's Advice",
+              "items": [
+                [
+                  "Read a short, well-focused assignment from last year, kept in the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Ignore the recent Hollywood film — more ",
+                  {
+                    "b": 1
+                  },
+                  " than reality"
+                ],
+                [
+                  "Watch Beth's documentary recording — makes ",
+                  {
+                    "b": 1
+                  },
+                  " points; will help focus"
+                ],
+                [
+                  "Then write an ",
+                  {
+                    "b": 1
+                  },
+                  " with headings; find articles; add bullet points"
+                ],
+                [
+                  "Make sure the skeleton makes sense and flows before writing up in ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "home",
+            "Iceland",
+            "Scandinavia",
+            "books",
+            "playwrights",
+            "society",
+            "library",
+            "fantasy",
+            "interesting",
+            "outline",
+            "full"
+          ],
+          "dictation": [
+            {
+              "speaker": "BETH",
+              "parts": [
+                "Why did you decide to take the Scandinavian Studies course?"
+              ]
+            },
+            {
+              "speaker": "JAMES",
+              "parts": [
+                "My mother is Danish, and she used to talk about her home a lot. But whenever her relations were in England they always came to see us. I can get by in Danish when I talk to people, though I'm not terribly ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "BETH",
+              "parts": [
+                "You'll spend the third year of the course abroad. Have you had any thoughts about that?"
+              ]
+            },
+            {
+              "speaker": "JAMES",
+              "parts": [
+                "Although Denmark seems the obvious place because of my family connections, I'd love to spend the time in ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JAMES",
+              "parts": [
+                "I'm interested in journalism and I quite like the idea of moving to Scandinavia and writing for magazines. I'd find that more ",
+                3,
+                " than translating, which most graduates do."
+              ]
+            },
+            {
+              "speaker": "BETH",
+              "parts": [
+                "For the literature paper — the Icelandic sagas are a popular topic. You might find modern novels or 19th century ",
+                4,
+                " interesting."
+              ]
+            },
+            {
+              "speaker": "JAMES",
+              "parts": [
+                "I've read or seen several plays in translation, so that would be a good idea."
+              ]
+            },
+            {
+              "speaker": "BETH",
+              "parts": [
+                "I'd advise you not to take one writer and go into a great deal of detail. First you need to understand the literature in the context of the ",
+                5,
+                " in which it was produced."
+              ]
+            },
+            {
+              "speaker": "BETH",
+              "parts": [
+                "For the Vikings paper: there's a short, well-focused assignment from last year in the ",
+                6,
+                ". I'd suggest reading that."
+              ]
+            },
+            {
+              "speaker": "BETH",
+              "parts": [
+                "I've got a recording of a documentary you should watch — it makes interesting and ",
+                7,
+                " points. Then work out an outline — just headings. Find suitable articles and take notes according to those headings."
+              ]
+            },
+            {
+              "speaker": "BETH",
+              "parts": [
+                "Then put short phrases as bullet points under each heading. Make sure this ",
+                8,
+                " makes sense and flows properly before writing up the paper in full."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "accurate",
+            "Iceland",
+            "creative",
+            "playwrights",
+            "society",
+            "library",
+            "provocative",
+            "skeleton"
+          ]
+        },
+        "4": {
+          "scene": "职场冲突产生与处理管理讲座",
+          "sceneEmoji": "🤝",
+          "signpost": [
+            {
+              "quote": "Definitions vary, but I'm taking conflict to refer to a whole range of behaviours that the victim finds unacceptable, from minor harmless arguments to physical violence.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Establishing the speaker's working definition of the topic before developing it"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Often it's caused by someone who feels the need to show their superiority over someone else, in order to feel that they aren't at the lowest level in a hierarchy.",
+              "opts": [
+                [
+                  "A",
+                  "Identifying a common psychological root cause of conflict"
+                ],
+                [
+                  "B",
+                  "Providing a solution"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "A general habit of optimism in one person could make them intolerant of a colleague who's constantly pessimistic — not that that justifies treating them badly.",
+              "opts": [
+                [
+                  "A",
+                  "Giving an example of personality-based conflict while explicitly withholding moral justification"
+                ],
+                [
+                  "B",
+                  "Defending optimistic people"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Interestingly, though, a company with a more democratic business model can suffer more, when uncertainty about who to report to leads to conflicting demands.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the solutions section"
+                ],
+                [
+                  "B",
+                  "Defending autocratic management"
+                ],
+                [
+                  "C",
+                  "Presenting a surprising finding that contradicts a common assumption"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "By talking to both sides, and trying to find the truth, they can build a clear picture of the situation and give feedback that both sides will accept, precisely because they're independent.",
+              "opts": [
+                [
+                  "A",
+                  "Explaining why an external mediator can be more effective than internal HR in certain situations"
+                ],
+                [
+                  "B",
+                  "Criticising the HR department"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "⚔️",
+              "title": "What Is Workplace Conflict?",
+              "items": [
+                [
+                  "Range from minor arguments to physical violence — much falls under the term '",
+                  {
+                    "b": 1
+                  },
+                  "'"
+                ],
+                [
+                  "Bullying: one or more people behaving abusively against someone in a weaker position"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧠",
+              "title": "Causes of Conflict",
+              "items": [
+                [
+                  "Desire to show ",
+                  {
+                    "b": 1
+                  },
+                  " over others in a hierarchy"
+                ],
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " clashes: e.g. optimist vs pessimist"
+                ],
+                [
+                  "'Structural' conflicts: people promote their team over the company as a whole"
+                ]
+              ]
+            },
+            {
+              "emoji": "📉",
+              "title": "Effects on Individuals & Companies",
+              "items": [
+                [
+                  "Victims suffer stress — long periods of ",
+                  {
+                    "b": 1
+                  },
+                  " from work"
+                ],
+                [
+                  "For the company: if untreated, conflict can spiral and damage the business"
+                ]
+              ]
+            },
+            {
+              "emoji": "👔",
+              "title": "CEO Behaviour",
+              "items": [
+                [
+                  "Many CEOs combine ",
+                  {
+                    "b": 1
+                  },
+                  " with high anxiety about missing targets"
+                ],
+                [
+                  "When people can't agree on ",
+                  {
+                    "b": 1
+                  },
+                  ", there are real problems"
+                ],
+                [
+                  "Democratic companies may actually have more conflict — unclear reporting lines"
+                ]
+              ]
+            },
+            {
+              "emoji": "🛡️",
+              "title": "Prevention & Resolution",
+              "items": [
+                [
+                  "Good managers earn ",
+                  {
+                    "b": 1
+                  },
+                  " of staff; treat people as equals"
+                ],
+                [
+                  "When HR is seen as a mouthpiece for the CEO, an external ",
+                  {
+                    "b": 1
+                  },
+                  " may help"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "bullying",
+            "superiority",
+            "personality",
+            "absence",
+            "confidence",
+            "visions",
+            "respect",
+            "mediator"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Conflict in the workplace refers to a whole range of behaviours that the victim finds unacceptable. Much of this is covered by the term '",
+                1,
+                "' — one or more people behaving abusively against another who is in a weaker position."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Often it's caused by someone who feels the need to show their ",
+                2,
+                " over someone else — to feel they aren't at the lowest level in a hierarchy."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In some cases, one person simply dislikes the other because the ",
+                3,
+                " of one is incompatible with that of the other."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Structural' conflicts arise when people are more interested in promoting themselves and their team than in the company as a whole — for example, a sales team that looks down on behind-the-scenes ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The situation is likely to be very stressful for victims, resulting in their ",
+                5,
+                " from work, possibly for months."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Many CEOs combine two opposing characteristics: ",
+                6,
+                ", and high anxiety — a fear of missing targets. This combination can make them respond badly to anyone who questions their decisions."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When colleagues, managers and board members can't agree on their ",
+                7,
+                " for the business, there are real problems."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Interestingly, a company with a more ",
+                8,
+                " business model can suffer more conflict, when uncertainty about who to report to leads to conflicting demands."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A good manager will make efforts to earn the ",
+                9,
+                " of the people they work with — treating them as equals who happen to have a different role."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If one party sees HR as simply a mouthpiece for the CEO, an external ",
+                10,
+                " might be able to help — precisely because they're independent."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "bullying",
+            "superiority",
+            "personality",
+            "administrators",
+            "absence",
+            "confidence",
+            "visions",
+            "democratic",
+            "respect",
+            "mediator"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 12 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "新图书馆设施与活动介绍",
+          "sceneEmoji": "📖",
+          "mcq": [
+            {
+              "q": "What is the community room used for?",
+              "opts": [
+                [
+                  "A",
+                  "Children's activities only"
+                ],
+                [
+                  "B",
+                  "Meetings and quiet study when not hired out"
+                ],
+                [
+                  "C",
+                  "Permanent reference book storage"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does the Reading Challenge involve?",
+              "opts": [
+                [
+                  "A",
+                  "An essay competition for teenagers"
+                ],
+                [
+                  "B",
+                  "A speed-reading contest"
+                ],
+                [
+                  "C",
+                  "Reading six books during the holidays to earn a certificate"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "Who is the free medical check-up service for?",
+              "opts": [
+                [
+                  "A",
+                  "People with existing medical conditions"
+                ],
+                [
+                  "B",
+                  "The over-60s only"
+                ],
+                [
+                  "C",
+                  "All library members"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Paul phones his friend Susie who works at the new library. Susie says the library has a larger section for travel books. Carol is organising a school project about life in the town fifty years ago — the library has a new section on local history. The reference books are now in the main part of the library, but there is also a community room used for meetings and study. Susie says the children's Science Club experiments use things from the garden. The Reading Challenge requires children to read eight books during the holidays. On Friday, a local author called Tanya Streep will talk about her novel, which is based on a crime that took place overseas. The free medical check-up is only for the over-50s.",
+          "errors": [
+            {
+              "wrong": "fifty years ago",
+              "correct": "a hundred years ago"
+            },
+            {
+              "wrong": "from the garden",
+              "correct": "from the kitchen"
+            },
+            {
+              "wrong": "read eight books",
+              "correct": "read six books"
+            },
+            {
+              "wrong": "took place overseas",
+              "correct": "took place here (in the town)"
+            },
+            {
+              "wrong": "over-50s",
+              "correct": "over-60s"
+            },
+            {
+              "wrong": "fifty years ago",
+              "correct": "hundred years ago (already done)"
+            },
+            {
+              "wrong": "eight books",
+              "correct": "six books (already done — replace: 'overseas' → 'here')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "The new library has all sorts of facilities. We've got a much larger section devoted to ",
+                1,
+                " books now."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "Carol is organising a history project about life in the town a hundred years ago — we've got a new section on the ",
+                2,
+                " of the town and surrounding region."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "The reference books are in the main library now, but we do have a community room. It can be hired out for meetings, but at other times people can use it to ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "We've introduced a new section of fiction for ",
+                4,
+                ". They might be a bit old for your children though."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "For younger children, we have a Science Club. At the next meeting, they're going to be doing experiments with stuff from the ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "And we have a Reading Challenge. Children have to read six books over the summer — they get a ",
+                6,
+                " if they manage it."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "On Friday we have a local author — Tanya Streep — talking about her new novel. It's called 'Catch the Mouse' and she based it on a ",
+                7,
+                " that actually took place here years ago."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "We also have IT support on Tuesday mornings for members who want to get up to speed with computer technology — no ",
+                8,
+                " needed."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "And we have a free medical check-up — the hospital arranges for someone to come and measure the level of ",
+                9,
+                " in your blood, and they check cholesterol too. But that's only for the over-60s."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "We have a little shop with wallcharts and greetings cards, and ",
+                10,
+                " so you can post the cards straightaway — really useful!"
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "travel",
+            "history",
+            "study",
+            "teenagers",
+            "kitchen",
+            "certificate",
+            "crime",
+            "appointment",
+            "sugar",
+            "stamps"
+          ]
+        },
+        "2": {
+          "scene": "BC旅行社特色假期培训",
+          "sceneEmoji": "✈️",
+          "kwt": [
+            {
+              "original": "Activity holidays often take place outside the main tourist centres, which gives an opportunity for clients to find out more about the local people and customs.",
+              "keyWord": "EXPOSURE",
+              "transStart": "By staying outside major tourist areas, clients gain",
+              "transEnd": "to local people and customs that mainstream holidays rarely provide.",
+              "answer": "GAIN EXPOSURE TO",
+              "collocation": "gain exposure to (= get direct experience of something)"
+            },
+            {
+              "original": "Some of the artists leading our painting holidays have been with us from the start.",
+              "keyWord": "SINCE",
+              "transStart": "Some of the artists who lead our painting holidays have been",
+              "transEnd": "the programme began.",
+              "answer": "WITH US SINCE",
+              "collocation": "with us since (= part of the team from the time that)"
+            },
+            {
+              "original": "Clients start the fitness course with a consultation with a trainer, and together they draw up an individual programme.",
+              "keyWord": "TAILORED",
+              "transStart": "After an initial consultation, each client receives",
+              "transEnd": "to their personal fitness needs.",
+              "answer": "A TAILORED PROGRAMME",
+              "collocation": "a tailored programme (= a personalised plan designed for an individual)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Painting holidays"
+              },
+              {
+                "num": 2,
+                "left": "Cooking holidays"
+              },
+              {
+                "num": 3,
+                "left": "Photography holidays"
+              },
+              {
+                "num": 4,
+                "left": "General fitness holidays (Ireland/Italy)"
+              },
+              {
+                "num": 5,
+                "left": "Weight-loss holidays (Greece)"
+              }
+            ],
+            "options": [
+              "A.  exercise classes on the beach",
+              "B.  consultation and individual programme",
+              "C.  focus on dishes from many different countries",
+              "D.  end-of-course exhibition and feedback",
+              "E.  four centres; five new artists joining"
+            ],
+            "answers": [
+              "E",
+              "C",
+              "D",
+              "B",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "TRAINER",
+              "parts": [
+                "In terms of age groups, the over-65s are an important and growing market. The fewest holidays are taken by the 31 to 42-year-olds. The biggest market at present is still the 16 to 30s, but the most noticeable growth is in the 55 to ",
+                1,
+                "-year-olds."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Activity holidays are growing in popularity. They're not necessarily cheaper than ordinary holidays — often the opposite. But they often take place outside the main ",
+                2,
+                " centres."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Clients often say that more than developing a new skill, it's the chance to create lasting ",
+                3,
+                " with like-minded people that's the main draw."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our painting holidays take place in four centres in France and Italy. Five additional artists will be ",
+                4,
+                " us this year to offer a greater number of classes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For cooking holidays, rather than one particular country's cuisine, we focus on dishes from a great many different ones — always with organic ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Photography holidays take place in countries from Iceland to Vietnam. Groups are small — no more than ",
+                6,
+                " — so clients can have one-on-one tuition."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the end of each photography holiday, an ",
+                7,
+                " is held of the photographs taken, so clients can see each other's work and receive feedback."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For general fitness holidays in Ireland and Italy, clients start with a ",
+                8,
+                " with a trainer and together draw up an individual programme. Clients often find they lose much of the ",
+                9,
+                " they've built up."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Greece, we have a two-week weight-loss holiday. One of its most popular features is that the exercise classes are all held on the ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Finally, in Morocco, we offer mountain biking holidays. There are different routes according to people's ",
+                11,
+                ", including one tailored for families."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "64",
+            "tourist",
+            "relationships",
+            "joining",
+            "ingredients",
+            "eight",
+            "exhibition",
+            "consultation",
+            "stress",
+            "beach",
+            "ability"
+          ]
+        },
+        "3": {
+          "scene": "霍顿城堡旅游案例研究规划讨论",
+          "sceneEmoji": "🏰",
+          "functions": "A  Identifying a research step    B  Raising a concern    C  Proposing a solution    D  Acknowledging a limitation    E  Questioning a source",
+          "pragmatic": [
+            {
+              "quote": "Did you remember to keep a record of where you got the information from?",
+              "speaker": "Dave",
+              "answer": "A"
+            },
+            {
+              "quote": "I read that report about transport difficulties, but it was written ten years ago when the road was really bad — that's been improved now.",
+              "speaker": "Dave",
+              "answer": "E"
+            },
+            {
+              "quote": "We should ask our interviewees if they can bring along some numerical data to support our findings.",
+              "speaker": "Dave",
+              "answer": "A"
+            },
+            {
+              "quote": "As it's on a historical site it'd need special planning permission — that might be hard.",
+              "speaker": "Natalie",
+              "answer": "B"
+            },
+            {
+              "quote": "Once they've left school, the young people all get out as fast as they can to get jobs in the city — the only people left are children and those who've retired.",
+              "speaker": "Dave",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📋",
+              "title": "Case Study Process",
+              "items": [
+                [
+                  "Compare reading notes → identify a problem at the site → decide who to ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Collect numerical ",
+                  {
+                    "b": 1
+                  },
+                  " from interviewees to support findings"
+                ],
+                [
+                  "Check whether interviewees want to be identified or stay ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📊",
+              "title": "Analysing Data",
+              "items": [
+                [
+                  "Choose what's relevant; identify ",
+                  {
+                    "b": 1
+                  },
+                  " or regularities"
+                ],
+                [
+                  "Present data clearly: graphs, ",
+                  {
+                    "b": 1
+                  },
+                  ", or charts"
+                ],
+                [
+                  "End the case study not with a solution but with a ",
+                  {
+                    "b": 1
+                  },
+                  " to readers"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏰",
+              "title": "Why So Few Tourists Visit Horton Castle?",
+              "items": [
+                [
+                  "Transport: road was a problem 10 years ago — now ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Website: really ",
+                  {
+                    "b": 1
+                  },
+                  " — doesn't communicate the range of things to do"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏗️",
+              "title": "Proposed Visitor Centre",
+              "items": [
+                [
+                  "Needs special ",
+                  {
+                    "b": 1
+                  },
+                  " permission because it would be in front of the castle"
+                ],
+                [
+                  "Could benefit the town — at present it's almost a 'ghost town'"
+                ],
+                [
+                  "Environmental ",
+                  {
+                    "b": 1
+                  },
+                  " of increased tourist numbers to consider"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "interview",
+            "data",
+            "anonymous",
+            "trends",
+            "tables",
+            "question",
+            "improved",
+            "boring",
+            "planning",
+            "impact"
+          ],
+          "dictation": [
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "We've got our focus — tourism at the Horton Castle site. We have to decide on a particular ",
+                1,
+                " or need, and then think about who we're going to interview."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "We might also do some of our interviewing away from the site — we could contact administrators involved in ",
+                2,
+                " tourism."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "If we can, we should ask our interviewees if they can bring along some numerical ",
+                3,
+                " to add to support our findings. We also have to establish whether they want to be identified or stay ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "We put the data together and choose what's relevant. The main thing is to identify any ",
+                5,
+                " or regularities, rather than concentrating on details."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "Then think about what to do with the selected data to make it clear — things like graphs, or tables, or ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "In a case study, rather than ending with suggestions to deal with the problem, we end with a ",
+                7,
+                " to our readers, and they decide what ought to be done."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "I think there's plenty of fascinating stuff at Horton Castle for a really good day out, but you'd never realise it from the castle ",
+                8,
+                " — maybe that's the problem."
+              ]
+            },
+            {
+              "speaker": "NATALIE",
+              "parts": [
+                "A visitor centre would be a good idea, but as it's on a historical site it'd need special ",
+                9,
+                " permission — that might be hard."
+              ]
+            },
+            {
+              "speaker": "DAVE",
+              "parts": [
+                "The town is a bit of a ghost town. Young people leave as fast as they can to get jobs in the city — the only people left are children and those who've ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": "NATALIE",
+              "parts": [
+                "Something else we could investigate is the potential ",
+                11,
+                " impact of increased tourist numbers. If numbers increase, there might have to be restrictions, like sticking to marked paths."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "problem",
+            "overseeing",
+            "data",
+            "anonymous",
+            "trends",
+            "charts",
+            "question",
+            "website",
+            "planning",
+            "retired",
+            "environmental"
+          ]
+        },
+        "4": {
+          "scene": "汞污染对鸟类鸣声影响讲座",
+          "sceneEmoji": "🐦",
+          "signpost": [
+            {
+              "quote": "The main source of energy that most power plants use is still coal, and when it's burned it releases mercury into the atmosphere.",
+              "opts": [
+                [
+                  "A",
+                  "Identifying the primary cause of environmental mercury increase"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Rather than looking at how many birds are actually killed by mercury poisoning, she's looking for more subtle sub-effects.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the value of the research"
+                ],
+                [
+                  "B",
+                  "Distinguishing the researcher's unique approach from more conventional studies"
+                ],
+                [
+                  "C",
+                  "Returning to background"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "What you may not know is that a young bird seems to acquire this skill by listening to the songs produced by its father, rather than by any other bird.",
+              "opts": [
+                [
+                  "B",
+                  "Summarising earlier findings"
+                ],
+                [
+                  "A",
+                  "Introducing a specific and surprising mechanism of song learning before showing how mercury disrupts it"
+                ],
+                [
+                  "C",
+                  "Introducing a counter-argument"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "So quite low-level exposure to mercury is likely to have an impact on male birds in a natural situation, because it can mean that they're less attractive to female birds.",
+              "opts": [
+                [
+                  "A",
+                  "Providing an anecdotal example"
+                ],
+                [
+                  "B",
+                  "Connecting the research finding directly to reproduction in the wild"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It comes down to whether more value is placed on human economic wellbeing or environmental wellbeing.",
+              "opts": [
+                [
+                  "A",
+                  "Posing the fundamental value question that underlies the whole issue"
+                ],
+                [
+                  "B",
+                  "Defending economic priorities"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "⚡",
+              "title": "Mercury in the Environment",
+              "items": [
+                [
+                  "Source: coal-burning power plants → mercury released into atmosphere → deposited in lakes/rivers"
+                ],
+                [
+                  "Known: birds that eat fish can be affected — but recently found: birds eating ",
+                  {
+                    "b": 1
+                  },
+                  " can also be affected"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Varian-Ramos's Research Focus",
+              "items": [
+                [
+                  "Studying subtle sub-effects: changes in bird ",
+                  {
+                    "b": 1
+                  },
+                  " and brain function"
+                ],
+                [
+                  "Particularly focusing on the effects of mercury on bird ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎵",
+              "title": "Song Learning Mechanism",
+              "items": [
+                [
+                  "Young bird learns song from its ",
+                  {
+                    "b": 1
+                  },
+                  " — not from other birds"
+                ],
+                [
+                  "Mercury-exposed males produce less ",
+                  {
+                    "b": 1
+                  },
+                  " songs"
+                ],
+                [
+                  "Result: less attractive to females → affects chances of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔭",
+              "title": "Research Methods",
+              "items": [
+                [
+                  "Mix of lab-based studies (high level of ",
+                  {
+                    "b": 1
+                  },
+                  ") and outdoor fieldwork"
+                ],
+                [
+                  "Lab studies: no need to go out and find birds; researcher has more ",
+                  {
+                    "b": 1
+                  },
+                  " over variables"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Implications for Humans",
+              "items": [
+                [
+                  "Migratory birds may transport mercury far from contaminated sites — e.g. ",
+                  {
+                    "b": 1
+                  },
+                  " shot by hunters 1,000km away"
+                ],
+                [
+                  "Mercury causes developmental delays in human ",
+                  {
+                    "b": 1
+                  },
+                  " acquisition"
+                ],
+                [
+                  "Can affect unborn children if mother's food contains high mercury levels"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "insects",
+            "behaviour",
+            "song",
+            "father",
+            "complex",
+            "reproduction",
+            "control",
+            "control",
+            "ducks",
+            "language"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Mercury has the symbol Hg. You may have seen it in old-fashioned thermometers, but it's not used much for domestic purposes now because it's highly ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The amount of mercury in the environment is increasing. The main reason is ",
+                2,
+                "-burning power plants. When coal is burned it releases mercury into the atmosphere."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some mercury gets deposited into lakes and rivers. If it's ingested by a fish, it stays in the fish's body and enters the food ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's been known for some time that birds which eat fish may be affected, but what wasn't known until recently is that those that eat ",
+                4,
+                " can also be affected."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Claire Varian-Ramos is looking for more subtle sub-effects — to do with the birds' ",
+                5,
+                ", or with the effect of mercury on their brain, like problems with ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "She's particularly focusing on the effects of mercury on bird song. A young bird acquires this skill by listening to the songs of its ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Young male birds exposed to mercury produce songs that aren't as ",
+                8,
+                ". This can mean they're less attractive to female birds, affecting their chances of ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "She uses a mixture of lab-based studies — where the experimenter has a higher level of ",
+                10,
+                ", and can be more confident about results — and studies outdoors in the wild."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Migratory birds may transport mercury far from contaminated sites. ",
+                11,
+                " who'd been feeding at a contaminated site were later shot by hunters over a thousand kilometres away."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Mercury causes developmental delays in human ",
+                12,
+                " acquisition. And unborn children can be affected if the food eaten by their mother contains high mercury levels."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "toxic",
+            "coal",
+            "chain",
+            "insects",
+            "behaviour",
+            "memory",
+            "father",
+            "complex",
+            "reproduction",
+            "control",
+            "Ducks",
+            "language"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 12 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "自行车假期领队职位申请咨询",
+          "sceneEmoji": "🚴",
+          "mcq": [
+            {
+              "q": "What career change has Margaret recently completed?",
+              "opts": [
+                [
+                  "A",
+                  "From law to medicine"
+                ],
+                [
+                  "B",
+                  "From medicine to law"
+                ],
+                [
+                  "C",
+                  "From teaching to medicine"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "Which tour is Margaret being considered for first?",
+              "opts": [
+                [
+                  "A",
+                  "A challenging tour for experienced cyclists in Africa"
+                ],
+                [
+                  "B",
+                  "A family cycling holiday in Spain"
+                ],
+                [
+                  "C",
+                  "A youth club cycling trip"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Bob ask Margaret to prepare for the interview?",
+              "opts": [
+                [
+                  "A",
+                  "A written CV and covering letter"
+                ],
+                [
+                  "B",
+                  "Certificates and a ten-minute talk about her tour guide experience"
+                ],
+                [
+                  "C",
+                  "A PowerPoint presentation"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Margaret calls Pembroke Cycling Holidays about a job as tour leader. She is looking for a permanent position. She used to be a lawyer and is now going to be a doctor, having just finished her training. She has led bike tours in India. A tour of France that she had arranged to lead has been cancelled, which is why she is applying. She is available from May 1st until late September. She is allergic to peanuts. She wants the application form sent to 27 Arbuthnot Place, Dumfries, postcode DG7 4PE. She should return the form by Friday and the interview is on Tuesday at 2.30.",
+          "errors": [
+            {
+              "wrong": "permanent position",
+              "correct": "temporary position"
+            },
+            {
+              "wrong": "tours in India",
+              "correct": "tours in Africa"
+            },
+            {
+              "wrong": "tour of France",
+              "correct": "trip to India"
+            },
+            {
+              "wrong": "allergic to peanuts",
+              "correct": "allergic to cheese"
+            },
+            {
+              "wrong": "DG7 4PE",
+              "correct": "DG7 4PH"
+            },
+            {
+              "wrong": "permanent",
+              "correct": "temporary (already done)"
+            },
+            {
+              "wrong": "France",
+              "correct": "India (already done — replace: peanuts → cheese done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "BOB",
+              "parts": [
+                "Are you looking for a permanent job, Margaret?"
+              ]
+            },
+            {
+              "speaker": "MARGARET",
+              "parts": [
+                "No, ",
+                1,
+                ". I've got a permanent job starting in a few months — I'm going to be a ",
+                2,
+                ". I've just finished my training."
+              ]
+            },
+            {
+              "speaker": "MARGARET",
+              "parts": [
+                "I've led several bike tours in ",
+                3,
+                ". The trip to India that I had arranged to lead next month has been cancelled."
+              ]
+            },
+            {
+              "speaker": "BOB",
+              "parts": [
+                "We've got a tour coming up in Spain — a cycling holiday for families. Would that suit you?"
+              ]
+            },
+            {
+              "speaker": "MARGARET",
+              "parts": [
+                "It certainly would. I'm a volunteer worker in a ",
+                4,
+                " club, where I help people improve their cycling skills."
+              ]
+            },
+            {
+              "speaker": "MARGARET",
+              "parts": [
+                "I'll be free for five months — available from ",
+                5,
+                " the 1st until late September. My permanent job starts on October 2nd."
+              ]
+            },
+            {
+              "speaker": "BOB",
+              "parts": [
+                "Is there anything I need to know about the food you eat?"
+              ]
+            },
+            {
+              "speaker": "MARGARET",
+              "parts": [
+                "Yes, I'm allergic to ",
+                6,
+                ". Would that be a problem?"
+              ]
+            },
+            {
+              "speaker": "MARGARET",
+              "parts": [
+                "Could you send the application form to 27 ",
+                7,
+                " Place — A-R-B-U-T-H-N-O-T — Dumfries. Postcode ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "BOB",
+              "parts": [
+                "If you could return the form by Friday, we can interview you on ",
+                9,
+                " next week. Say half past two."
+              ]
+            },
+            {
+              "speaker": "BOB",
+              "parts": [
+                "We'll need to see any relevant certificates. And at the interview we'd like you to prepare a ten-minute ",
+                10,
+                " about your experience of being a tour guide. Just notes — no complicated equipment."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "temporary",
+            "doctor",
+            "Africa",
+            "youth",
+            "May",
+            "cheese",
+            "Arbuthnot",
+            "DG7 4PH",
+            "Tuesday",
+            "talk"
+          ]
+        },
+        "2": {
+          "scene": "谢普马克特历史街区播客导览",
+          "sceneEmoji": "🛍️",
+          "kwt": [
+            {
+              "original": "Graduates embarking on careers in the worlds of fashion and design are buying up the new apartments recently built here to replace the small houses.",
+              "keyWord": "REPLACED",
+              "transStart": "The small houses where market workers once lived have",
+              "transEnd": "by new apartments that are popular with graduates in fashion and design.",
+              "answer": "BEEN REPLACED BY",
+              "collocation": "have been replaced by (= have been substituted with something new)"
+            },
+            {
+              "original": "The narrow old side streets are great places for finding original pictures, jewellery and ceramics which won't break the bank.",
+              "keyWord": "AFFORD",
+              "transStart": "The side streets are ideal for finding original artworks and jewellery that most visitors",
+              "transEnd": ".",
+              "answer": "CAN AFFORD",
+              "collocation": "can afford (= have enough money for; will not break the bank)"
+            },
+            {
+              "original": "If you can present a receipt from one of the local stores, you'll not be charged at all.",
+              "keyWord": "FREE",
+              "transStart": "Underground parking is available",
+              "transEnd": "of charge to shoppers who show a local store receipt.",
+              "answer": "FREE OF CHARGE",
+              "collocation": "free of charge (= at no cost to the user)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Reynolds House"
+              },
+              {
+                "num": 2,
+                "left": "'The Thumb' sculpture"
+              },
+              {
+                "num": 3,
+                "left": "The Museum"
+              },
+              {
+                "num": 4,
+                "left": "Contemporary Art Gallery"
+              },
+              {
+                "num": 5,
+                "left": "Warner Gallery"
+              }
+            ],
+            "options": [
+              "A.  on City Road, facing junction with Hill Road (east side)",
+              "B.  on City Road, near junction with Crawley Road (same side as public gardens)",
+              "C.  on north side of Crawley Road, next to footpath to public gardens",
+              "D.  on a road off Station Square — road ends at the gallery",
+              "E.  on Hill Road, across from the Bank"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "A",
+              "D",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "NARRATOR",
+              "parts": [
+                "The Sheepmarket was originally a market where farmers brought their sheep. Now it's been redeveloped into a vibrant area, home to one of the city's fastest-growing ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The nearby university has always meant the area's popular with students. Now graduates in fashion and design are buying the new apartments built to replace the small houses where market ",
+                2,
+                " used to live."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The narrow old side streets are great for finding original pictures, jewellery and ceramics that won't ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Young Fashion competition is open to local young people passionate about fashion. This year they've been asked to design an outfit based on music and technology, using both natural and man-made ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For parking: roadsides are fine for an hour or two; for a full day, use one of the four underground car parks. If you present a receipt from a local ",
+                5,
+                ", you won't be charged at all."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most visitors start from Crawley Road. The Reynolds House — one of the oldest in the city — is on the north side of Crawley Road, next to the footpath to the public ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'The Thumb' sculpture is on Hill Road, across the road from the ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Museum is on the east side of the Sheepmarket, on City Road — on the other side of the road from the public gardens, immediately facing the ",
+                8,
+                " with Hill Road."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Contemporary Art Gallery is on a little road that leads off Station ",
+                9,
+                ". The road ends at the gallery."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Warner Gallery specialises in 19th-century art. It's on City Road, near the junction with Crawley Road, on the same side of the road as the public gardens. ",
+                10,
+                " is free."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "communities",
+            "workers",
+            "break the bank",
+            "fibres",
+            "store",
+            "gardens",
+            "Bank",
+            "junction",
+            "Square",
+            "Entry"
+          ]
+        },
+        "3": {
+          "scene": "莎士比亚电影改编演示准备讨论",
+          "sceneEmoji": "🎬",
+          "functions": "A  Describing an adaptation approach    B  Expressing personal taste    C  Raising a practical concern    D  Identifying a unifying feature    E  Summarising a critical assessment",
+          "pragmatic": [
+            {
+              "quote": "I thought I'd start with Giannetti — he came up with a straightforward classification of film adaptations based on how faithful they are to the original plays.",
+              "speaker": "Katie",
+              "answer": "D"
+            },
+            {
+              "quote": "I was thinking of showing some film clips to illustrate Malchow's ideas.",
+              "speaker": "Katie",
+              "answer": "A"
+            },
+            {
+              "quote": "Will you have enough time? After all, I doubt if you'll be able to find all the clips you want.",
+              "speaker": "Joe",
+              "answer": "C"
+            },
+            {
+              "quote": "I hope you're going to talk about Much Ado About Nothing — I think that's one of the best Shakespeare films. It really brings the play to life.",
+              "speaker": "Joe",
+              "answer": "B"
+            },
+            {
+              "quote": "The 1996 Hamlet included every line of the text, but it's more like a typical action hero movie — loads of special effects, but no unifying interpretation.",
+              "speaker": "Katie",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "Presentation Structure",
+              "items": [
+                [
+                  "Start with Giannetti's ",
+                  {
+                    "b": 1
+                  },
+                  " of Shakespeare adaptations — based on faithfulness"
+                ],
+                [
+                  "Ask class for the ",
+                  {
+                    "b": 1
+                  },
+                  " examples of Shakespeare adaptations (more fun than favourites)"
+                ],
+                [
+                  "Rachel Malchow: use ",
+                  {
+                    "b": 1
+                  },
+                  " instead of film clips — will encourage discussion"
+                ],
+                [
+                  "Talk about how plays are chosen for adaptation due to contemporary ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎬",
+              "title": "Films Discussed",
+              "items": [
+                [
+                  "Ran (based on King Lear): loose adaptation — set in 16th-century Japan; daughters become ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Much Ado About Nothing (1993): faithful to setting; filmed in ",
+                  {
+                    "b": 1
+                  },
+                  " where the play is set"
+                ],
+                [
+                  "Romeo & Juliet (1996): modern setting; feuding families → competing business ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Hamlet (1996): every line of text; but more like an action ",
+                  {
+                    "b": 1
+                  },
+                  " — no unifying interpretation"
+                ],
+                [
+                  "Prospero's Books (The Tempest): very innovative — includes dance, singing, animation and live ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Looking for Richard (Richard III): blend of ",
+                  {
+                    "b": 1
+                  },
+                  " with scenes from the play"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "classification",
+            "worst",
+            "slides",
+            "issues",
+            "sons",
+            "Italy",
+            "empires",
+            "hero",
+            "actors",
+            "documentary"
+          ],
+          "dictation": [
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "I'm giving a presentation about film adaptations of Shakespeare's plays."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "I'll start with Giannetti — he came up with a straightforward ",
+                1,
+                " of film adaptations based on how faithful they are to the original plays."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Then I'll ask the class to come up with the ",
+                2,
+                " examples of Shakespeare adaptations they've seen, and say why. That should be more fun than their favourite versions."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Next I want to talk about Rachel Malchow. I was thinking of showing some film clips, but I'll do ",
+                3,
+                " instead — that should encourage discussion."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Then I want to say something about how plays may be chosen for adaptation because they're concerned with contemporary ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Ran is a very loose adaptation of King Lear — set in 16th-century Japan. The king's daughters become sons because in Japanese culture at that time, women couldn't succeed to the ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Much Ado About Nothing (1993) — I agree it really brings the play to life. Filming it in ",
+                6,
+                ", where the play is set, makes you see what life was like at the time."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Romeo & Juliet (1996): moves the action into the present day — the two feuding families become two competing business ",
+                7,
+                ". Even though they're speaking in the English of the original play."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "The 1996 Hamlet included every line of the text, but it's more like a typical action ",
+                8,
+                " movie — loads of special effects, but no unifying interpretation of the play."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Prospero's Books — based on The Tempest — was very innovative. It included ",
+                9,
+                ", singing, animation and live actors."
+              ]
+            },
+            {
+              "speaker": "KATIE",
+              "parts": [
+                "Looking for Richard — a blend of a ",
+                10,
+                " with scenes from Richard III. It's more a way of looking at how people today connect with Shakespeare."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "classification",
+            "worst",
+            "slides",
+            "issues",
+            "throne",
+            "Italy",
+            "empires",
+            "hero",
+            "dance",
+            "documentary"
+          ]
+        },
+        "4": {
+          "scene": "城市声景设计与声学工程讲座",
+          "sceneEmoji": "🏙️",
+          "signpost": [
+            {
+              "quote": "But actually these noise maps aren't a lot of use. What they do show is that the highest noise levels are generally on roads — well, that's not really very surprising.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Defending noise maps"
+                ],
+                [
+                  "C",
+                  "Dismissing conventional measurement tools before describing what they miss"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "And that's important — we need rules and regulations because noise can cause all sorts of problems.",
+              "opts": [
+                [
+                  "A",
+                  "Acknowledging one benefit of crude noise maps before moving to their limitations"
+                ],
+                [
+                  "B",
+                  "Providing a solution"
+                ],
+                [
+                  "C",
+                  "Introducing a counter-argument"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One problem with decibel measurement is that it doesn't differentiate between different types of noise.",
+              "opts": [
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "A",
+                  "Introducing a fundamental flaw in conventional measurement before proposing an alternative"
+                ],
+                [
+                  "C",
+                  "Concluding the section on problems"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "So maybe researchers should consider these sorts of sounds in urban design.",
+              "opts": [
+                [
+                  "A",
+                  "Drawing a practical implication from the example of pleasant sounds"
+                ],
+                [
+                  "B",
+                  "Dismissing the design implications"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "To show their ideas, architects already use virtual reality — but these programs are silent.",
+              "opts": [
+                [
+                  "C",
+                  "Concluding positively"
+                ],
+                [
+                  "B",
+                  "Criticising virtual reality"
+                ],
+                [
+                  "A",
+                  "Identifying a gap in current technology before proposing how it could be improved"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "Noise Maps — Limitations",
+              "items": [
+                [
+                  "Can't capture how sound varies over time — e.g. noise from neighbours' open ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Don't account for individual variation in noise perception"
+                ],
+                [
+                  "But useful: raise awareness that noise is a ",
+                  {
+                    "b": 1
+                  },
+                  " matter"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏥",
+              "title": "Health Effects of Noise",
+              "items": [
+                [
+                  "Interrupted sleep for city-dwellers — 24-hour ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Rise in stress levels due to physical changes in the blood"
+                ],
+                [
+                  "Schoolchildren need quiet space to ",
+                  {
+                    "b": 1
+                  },
+                  ", or their work will suffer"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎵",
+              "title": "A New Approach — 'Soundscapes'",
+              "items": [
+                [
+                  "Some sounds score high in decibels but are desirable — e.g. a ",
+                  {
+                    "b": 1
+                  },
+                  " in a town square"
+                ],
+                [
+                  "Researchers use ",
+                  {
+                    "b": 1
+                  },
+                  " science techniques to study people's emotional response to sound"
+                ],
+                [
+                  "Cities need to be ",
+                  {
+                    "b": 1
+                  },
+                  " — sound of activity — but also relaxing"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏗️",
+              "title": "Challenge for Architects",
+              "items": [
+                [
+                  "Currently receive very little ",
+                  {
+                    "b": 1
+                  },
+                  " in acoustics"
+                ],
+                [
+                  "Should regard sound as an ",
+                  {
+                    "b": 1
+                  },
+                  " quality, not just a problem to reduce"
+                ],
+                [
+                  "Questions to answer: sound and ",
+                  {
+                    "b": 1
+                  },
+                  "; psychology; physics"
+                ],
+                [
+                  "Future: VR programs currently ",
+                  {
+                    "b": 1
+                  },
+                  " — could include realistic soundscapes"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "gardens",
+            "political",
+            "activity",
+            "study",
+            "fountain",
+            "social",
+            "lively",
+            "training",
+            "aesthetic",
+            "culture",
+            "silent"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Researching urban soundscapes used to be simple — we measured levels of sound in decibels. With data like this, acoustic engineers built up 'noise ",
+                1,
+                "' — maps of the sound environment."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "But these maps ignore important issues such as noise from open windows or ",
+                2,
+                " of neighbours. And they take no account of the fact that people vary in their perceptions of noise."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Even though these maps are fairly crude, they've been useful in raising awareness that noise matters — it's a ",
+                3,
+                " matter that we need rules and regulations for."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Noise can cause city-dwellers to suffer interrupted sleep, and it can lead to a rise in levels of ",
+                4,
+                ". If schoolchildren don't have a quiet place to ",
+                5,
+                ", their work will suffer."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One problem with decibel measurement is that it doesn't differentiate between types of noise — a ",
+                6,
+                " in a town square might score quite highly, but it's not something we'd want to reduce."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Many researchers are now using ",
+                7,
+                " science techniques — studying people's emotional response to sound using questionnaires."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A city needs a sense of activity — the clack of high heels, the hiss of a coffee machine — but these mustn't be too intrusive. We also need to be able to ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Architects and town planners receive very little ",
+                9,
+                " in acoustics. They currently see sound as something to be avoided, rather than an opportunity to add to the experience of urban ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Noise in cities needs to be regarded as an aesthetic quality — like an art form. We need to understand the relationship between sound and ",
+                11,
+                ", and what we can learn from psychology and physics."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Architects already use virtual reality to show their ideas — but these programs are ",
+                12,
+                ". In future, such programs could use realistic sounds, meaning that soundscapes could be explored before being built."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "maps",
+            "gardens",
+            "political",
+            "stress",
+            "study",
+            "fountain",
+            "social",
+            "relax",
+            "training",
+            "living",
+            "culture",
+            "silent"
+          ]
+        }
+      }
+    }
+  }
+}

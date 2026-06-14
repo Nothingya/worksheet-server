@@ -1,0 +1,3634 @@
+{
+  "bookTitle": "Cambridge IELTS 20 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 20 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "庆生餐厅推荐讨论",
+          "sceneEmoji": "🍴",
+          "mcq": [
+            {
+              "q": "What does the man say is the main reason to recommend The Junction?",
+              "opts": [
+                [
+                  "A",
+                  "The amazing food, especially fish"
+                ],
+                [
+                  "B",
+                  "Its location near the station"
+                ],
+                [
+                  "C",
+                  "Its rooftop bar"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does the woman need to check about Paloma?",
+              "opts": [
+                [
+                  "A",
+                  "The choice of vegetarian dishes"
+                ],
+                [
+                  "B",
+                  "The price of the deposit"
+                ],
+                [
+                  "C",
+                  "Whether it takes large groups"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does the man say about portion sizes at The Audley?",
+              "opts": [
+                [
+                  "A",
+                  "They are tiny"
+                ],
+                [
+                  "B",
+                  "The reviews didn't mention portion sizes — probably average"
+                ],
+                [
+                  "C",
+                  "They are extremely large"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman asks a man for restaurant recommendations for her sister's 30th birthday. He recommends The Junction on Greyson Street, a two-minute walk from the station. The food is amazing — especially the meat dishes. Before dinner you can go up to the basement for a drink, which has spectacular views, but you need to book. He also suggests Paloma on Bow Street, beside the cinema — Spanish food, small dishes to share, a £50 deposit needed. He recommends checking the vegetarian options. Finally, he suggests The Audley, in a hotel near Baxter Bridge, with views from the top floor. The chef was a judge on a TV cookery show. The set lunch is £30 and dinner is around £50. He says portions are probably small based on the reviews.",
+          "errors": [
+            {
+              "wrong": "meat dishes",
+              "correct": "fish dishes"
+            },
+            {
+              "wrong": "go up to the basement",
+              "correct": "go up to the roof"
+            },
+            {
+              "wrong": "probably small",
+              "correct": "probably average (reviews didn't mention small portions)"
+            },
+            {
+              "wrong": "meat",
+              "correct": "fish (already done)"
+            },
+            {
+              "wrong": "basement",
+              "correct": "roof (already done)"
+            },
+            {
+              "wrong": "probably small",
+              "correct": "probably average (already done)"
+            },
+            {
+              "wrong": "£50 deposit",
+              "correct": "£50 deposit ✓ — replace: 'meat' → 'fish' done"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "If you like ",
+                1,
+                " it's probably the best restaurant in town for that. It's always really fresh and there are lots of interesting dishes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Before dinner you can go up on the ",
+                2,
+                " and have a drink — really nice up there, but you need to book. Very popular as the views are spectacular."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Paloma is in a beautiful old building on Bow Street. Is all the food they serve ",
+                3,
+                " then? Yeah."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can get lots of small dishes to share. The only thing is you need to pay a £50 deposit. I should have a look at the menu to check there's a good choice of ",
+                4,
+                " dishes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Have you been to The ",
+                5,
+                " ? A-U-D-L-E-Y. You must have heard of it — there's been a lot in the press."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's in that ",
+                6,
+                " near Baxter Bridge, on the top floor. The views would be incredible."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The chef was a judge on a TV cookery show. It's had excellent ",
+                7,
+                " from all the newspapers — a memorable place for a celebration."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Everything has to be sourced from ",
+                8,
+                " products — absolutely nothing flown in from abroad."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You could go for the set lunch — that's £",
+                9,
+                " a head. In the evening it'd be more like £50."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The reviews I've read didn't mention tiny portions. I imagine they'd be ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "fish",
+            "roof",
+            "Spanish",
+            "vegetarian",
+            "Audley",
+            "hotel",
+            "reviews",
+            "local",
+            "30",
+            "average"
+          ]
+        },
+        "2": {
+          "scene": "陶艺工作坊体验介绍",
+          "sceneEmoji": "🏺",
+          "kwt": [
+            {
+              "original": "And even if ancient pots are found in small pieces, they still provide a lot of information about the past.",
+              "keyWord": "FRAGMENTS",
+              "transStart": "Even when",
+              "transEnd": "of ancient pots survive, they still offer valuable information about earlier civilisations.",
+              "answer": "ONLY FRAGMENTS",
+              "collocation": "only fragments of (= merely small broken pieces remaining of something)"
+            },
+            {
+              "original": "They hope that something they create will also last longer than they do, that their work might say something about humanity many years after their death.",
+              "keyWord": "OUTLIVE",
+              "transStart": "Many participants hope their pottery will",
+              "transEnd": "them, leaving a lasting message about humanity for future generations.",
+              "answer": "OUTLIVE THEM",
+              "collocation": "outlive (= continue to exist after the death of someone)"
+            },
+            {
+              "original": "It's a pretty ugly, heavy object that's hard to keep in a house or flat so most people don't have one.",
+              "keyWord": "IMPRACTICAL",
+              "transStart": "Because kilns are large, heavy and unattractive, keeping one at home is",
+              "transEnd": "for most people.",
+              "answer": "PRACTICALLY IMPOSSIBLE",
+              "collocation": "practically impossible (= extremely difficult to achieve in reality)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Pottery as historical evidence"
+              },
+              {
+                "num": 2,
+                "left": "Personal motivation"
+              },
+              {
+                "num": 3,
+                "left": "Health/wellbeing benefits"
+              },
+              {
+                "num": 4,
+                "left": "Before the workshop"
+              },
+              {
+                "num": 5,
+                "left": "Kiln safety"
+              }
+            ],
+            "options": [
+              "A.  helps with arthritis; good exercise for hands and wrists",
+              "B.  remove jewellery; tie back long hair; wear old clothes",
+              "C.  releases toxic compounds — need to follow procedures",
+              "D.  shape and clay reveal use, origin, and tool marks even from fragments",
+              "E.  hope work will outlast them and say something about humanity"
+            ],
+            "answers": [
+              "D",
+              "E",
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "HEATHER",
+              "parts": [
+                "Pottery as an art form is tens of thousands of years old — we know this because it stands the ",
+                1,
+                " of time. Baskets and pictures don't survive in the earth the way pots do."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Archaeologists can tell whether pots were for storage or cooking by examining the impressions on the ",
+                2,
+                ", the scratches from tools, and the clay itself can reveal where the pots came from."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Like our ancestors, people hope something they create will last longer than they do — that their work might say something about ",
+                3,
+                " many years after their death."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "What I love most is the ",
+                4,
+                " you need to make a good pot. That focus takes you away from the stresses of everyday life."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Like nearly everyone who comes here, this is the first time you'll have tried the art — so we'll keep things ",
+                5,
+                " today."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Please remove any watches, ",
+                6,
+                " etc and put them somewhere safe. If you have long hair, tie it back now."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A kiln removes the water from clay at temperatures of around a thousand degrees Celsius. This allows anything you've made to ",
+                7,
+                " permanently in shape."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Domestic ovens don't get hot enough — eventually the clay will ",
+                8,
+                " and fall apart."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Every potter needs a potter's wheel — used to shape clay into an object with ",
+                9,
+                " walls or sides, such as a bowl. Its invention revolutionised the industry."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are a number of different tools — some have odd ",
+                10,
+                ". We can provide these and I wouldn't recommend spending money on them yet."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "test",
+            "clay",
+            "humanity",
+            "concentration",
+            "simple",
+            "necklaces",
+            "set",
+            "crack",
+            "circular",
+            "names"
+          ]
+        },
+        "3": {
+          "scene": "孤独感心理学研究展示规划",
+          "sceneEmoji": "😔",
+          "functions": "A  Expressing a personal stance on a topic    B  Reassessing a previous explanation    C  Evaluating the strength of supporting evidence    D  Identifying a methodological weakness in research    E  Proposing a presentation structure",
+          "pragmatic": [
+            {
+              "quote": "Far from making me feel isolated, social media actually does the opposite. I'd say loneliness has a lot to do with the way cities are designed — people living in high-rise flats with not much opportunity to speak to their neighbours.",
+              "speaker": "Dev",
+              "answer": "A"
+            },
+            {
+              "quote": "A more plausible explanation is that people are having to move around for work and end up living miles away from their family and friends.",
+              "speaker": "Tamara",
+              "answer": "B"
+            },
+            {
+              "quote": "There's no doubt that loneliness contributes to a weakened immune system — the data on that is sound.",
+              "speaker": "Tamara",
+              "answer": "C"
+            },
+            {
+              "quote": "I don't think there's enough evidence to claim there must be a group of neurons in our brains that make us feel bad when we're alone. There are a few studies that support the theory but not conclusively enough.",
+              "speaker": "Dev",
+              "answer": "D"
+            },
+            {
+              "quote": "I was thinking we should start our presentation with an example from our own experience — I'd like to talk about how lonely I was when I started university.",
+              "speaker": "Tamara",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📈",
+              "title": "Background on Loneliness",
+              "items": [
+                [
+                  "Increasing steadily for ",
+                  {
+                    "b": 1
+                  },
+                  " years — affects young people as much as the elderly"
+                ],
+                [
+                  "Likely cause: people moving for ",
+                  {
+                    "b": 1
+                  },
+                  " and living far from family and friends"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏥",
+              "title": "Health Risk Claims — Evaluated",
+              "items": [
+                [
+                  "Smoking comparison: 15 cigarettes a day — not enough ",
+                  {
+                    "b": 1
+                  },
+                  " for some claims"
+                ],
+                [
+                  "Finland study: loneliness increased cancer risk by about ",
+                  {
+                    "b": 1
+                  },
+                  " percent — supported by other studies"
+                ],
+                [
+                  "Dementia studies: conflicting results — some found ",
+                  {
+                    "b": 1
+                  },
+                  ", others didn't"
+                ],
+                [
+                  "Cardiovascular disease: hard to judge — definition of loneliness varied; responses too ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Immune system: ",
+                  {
+                    "b": 1
+                  },
+                  " — the data on this is sound"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧬",
+              "title": "Evolutionary Theory",
+              "items": [
+                [
+                  "Loneliness evolved to motivate people to be with others — survival depended on group ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Not enough evidence for a specific group of ",
+                  {
+                    "b": 1
+                  },
+                  " in the brain"
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Presentation Plan",
+              "items": [
+                [
+                  "Start with personal experience — loneliness at the start of ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Discuss solutions: talking to strangers — makes people feel more ",
+                  {
+                    "b": 1
+                  },
+                  " with their community"
+                ],
+                [
+                  "Discuss ",
+                  {
+                    "b": 1
+                  },
+                  " vs loneliness — being alone isn't the same as being lonely"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "twenty",
+            "work",
+            "evidence",
+            "ten",
+            "association",
+            "subjective",
+            "unquestionable",
+            "cooperation",
+            "neurons",
+            "university",
+            "connected",
+            "solitude"
+          ],
+          "dictation": [
+            {
+              "speaker": "DEV",
+              "parts": [
+                "I had no idea loneliness has been increasing steadily for the last ",
+                1,
+                " years."
+              ]
+            },
+            {
+              "speaker": "TAMARA",
+              "parts": [
+                "I'd assumed it was mainly an issue for the elderly — but it affects ",
+                2,
+                " people just as much."
+              ]
+            },
+            {
+              "speaker": "DEV",
+              "parts": [
+                "Far from making me feel isolated, social media actually does the ",
+                3,
+                " — it definitely does more good than harm."
+              ]
+            },
+            {
+              "speaker": "TAMARA",
+              "parts": [
+                "A more plausible explanation is people having to move for work — ending up living miles away from family and ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "TAMARA",
+              "parts": [
+                "A Finland study showed loneliness increased the risk of cancer by about ten ",
+                5,
+                " — and those findings have been supported by other studies."
+              ]
+            },
+            {
+              "speaker": "DEV",
+              "parts": [
+                "The studies on dementia found no consistent association — some found no link, others found the ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "DEV",
+              "parts": [
+                "The definition of loneliness varied quite a lot and responses were too ",
+                7,
+                ". But there's no doubt loneliness contributes to a weakened immune ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "TAMARA",
+              "parts": [
+                "The idea that loneliness evolved because it motivated people to be with others is convincing — survival often depended on group ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "DEV",
+              "parts": [
+                "But I don't think there's enough evidence to claim there's a group of ",
+                10,
+                " in our brains that make us feel bad when alone."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "twenty",
+            "young",
+            "opposite",
+            "friends",
+            "percent",
+            "opposite",
+            "subjective",
+            "system",
+            "cooperation",
+            "neurons"
+          ]
+        },
+        "4": {
+          "scene": "城市河流复兴与水路运输讲座",
+          "sceneEmoji": "🚢",
+          "signpost": [
+            {
+              "quote": "In 16th-century London, the quickest way to get from one part of the city to another was by river — people also used the river for fishing and pleasure trips.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Establishing the historical importance of rivers before describing their decline"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "As recently as 1957, scientists at London's Natural History Museum declared that the River Thames was 'dead' in biological terms.",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the historical section"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Providing a striking example of how severe the pollution had become"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "But in recent years, as rivers lost their industrial function, cities have begun to recognise their true value and to take steps to clean them up.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling a turning point from decline to recovery"
+                ],
+                [
+                  "B",
+                  "Questioning the recovery claims"
+                ],
+                [
+                  "C",
+                  "Concluding the pollution section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Then, all around the world, riverside areas are now seen as prime sites for development.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all previous points"
+                ],
+                [
+                  "B",
+                  "Introducing the economic transformation of riverside areas as a consequence of cleanup"
+                ],
+                [
+                  "C",
+                  "Repeating the Paris example"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But to make the most of our rivers in our increasingly crowded cities, we need to allow them to regain their original purpose and be used as a means of transport.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the Paris beaches"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture negatively"
+                ],
+                [
+                  "C",
+                  "Transitioning from current recreational uses to a future-focused proposal for transport"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏙️",
+              "title": "Rivers and Cities — Historical Role",
+              "items": [
+                [
+                  "Most major cities built on rivers — used for transport, fishing, and pleasure trips"
+                ],
+                [
+                  "As populations grew, increased sewage and waste from ",
+                  {
+                    "b": 1
+                  },
+                  " polluted the rivers"
+                ],
+                [
+                  "By 1957, the Thames was declared biologically '",
+                  {
+                    "b": 1
+                  },
+                  " '"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌊",
+              "title": "Modern Recovery",
+              "items": [
+                [
+                  "Thames now cleaner than for 150 years — seals seen swimming; a lost ",
+                  {
+                    "b": 1
+                  },
+                  " tried to swim up the river"
+                ],
+                [
+                  "Old warehouses converted into restaurants and expensive ",
+                  {
+                    "b": 1
+                  },
+                  " with river views"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Riverside Redevelopment Examples",
+              "items": [
+                [
+                  "Los Angeles: plans for a riverside ",
+                  {
+                    "b": 1
+                  },
+                  " for sports, relaxation, and displaying local ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Paris: roads banned in summer — riverbanks become ",
+                  {
+                    "b": 1
+                  },
+                  " with deckchairs and palm trees"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚤",
+              "title": "Future Transport Solutions",
+              "items": [
+                [
+                  "Over two billion passengers already use ",
+                  {
+                    "b": 1
+                  },
+                  " in cities like Istanbul, San Francisco, New York"
+                ],
+                [
+                  "One freight barge can replace 44 large trucks — reducing pollution from delivery ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Amsterdam: parcels taken the last few km by electric cargo ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Future possibility: final delivery stage by ",
+                  {
+                    "b": 1
+                  },
+                  " (currently not allowed)"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "factories",
+            "dead",
+            "whale",
+            "apartments",
+            "park",
+            "art",
+            "beaches",
+            "ferries",
+            "vans",
+            "bikes",
+            "drone"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "As factories were built beside the river and discharged waste into the water, pollution from ",
+                1,
+                " got worse over time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As recently as 1957, scientists declared the River Thames was '",
+                2,
+                " ' in biological terms — too filthy to support any life."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Thames is now cleaner than for 150 years. Recently people tried to rescue a ",
+                3,
+                " which had swum up the river by mistake — they failed, but the issue was disorientation, not water quality."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Warehouses are now being converted into expensive restaurants and ",
+                4,
+                " with river views, selling for astronomical prices."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Los Angeles, an architect has plans to revitalise the riverbanks and make a ",
+                5,
+                " providing facilities for sports and a natural environment."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's been proposed the riverside could display projects related to various kinds of ",
+                6,
+                " produced by local people."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Paris, during July and August, the banks are transformed into ",
+                7,
+                " where people relax in deckchairs under potted palm trees."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "More than two billion passengers use the ",
+                8,
+                " to travel in cities like Istanbul, San Francisco and New York."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One freight barge can replace 44 large trucks. Parcels could be taken the last few kilometres on cargo ",
+                9,
+                " — already happening in Amsterdam."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In future, the final stage could even be carried out by ",
+                10,
+                " — although at present this isn't allowed."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "factories",
+            "dead",
+            "whale",
+            "apartments",
+            "park",
+            "art",
+            "beaches",
+            "ferry",
+            "bikes",
+            "drone"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 20 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "照顾者支援咨询",
+          "sceneEmoji": "🧑‍🦳",
+          "mcq": [
+            {
+              "q": "What does Carol say about the local council's support for carers?",
+              "opts": [
+                [
+                  "A",
+                  "They only help with housework"
+                ],
+                [
+                  "B",
+                  "They recognise carers sometimes need a break and have other responsibilities"
+                ],
+                [
+                  "C",
+                  "They only help financially"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Tom say he is worried about regarding lifting his mother?",
+              "opts": [
+                [
+                  "A",
+                  "Hurting his back"
+                ],
+                [
+                  "B",
+                  "Dropping her"
+                ],
+                [
+                  "C",
+                  "Not having enough strength"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What financial support can Tom claim if he drives his mother to appointments?",
+              "opts": [
+                [
+                  "A",
+                  "Only the petrol costs"
+                ],
+                [
+                  "B",
+                  "Petrol and insurance costs"
+                ],
+                [
+                  "C",
+                  "A fixed weekly allowance"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Tom talks to Carol about getting support for caring for his mother. The council can carry out an assessment of his mother's needs. They want to know how much time Tom spends caring for her each day, and what tasks he does — like helping her get dressed and into the bath in the morning. They'll ask if he does the shopping and helps at mealtimes, and whether she can manage money. Tom mentions his mother's memory problems — she sometimes forgets what day it is. He's also worried about hurting his back when lifting her, and about her having a fall. The council can help with transport costs like taxis, and Tom can claim for petrol but not insurance. They can also arrange help with housework, and give advice about reducing stress.",
+          "errors": [
+            {
+              "wrong": "into the bath",
+              "correct": "into the shower"
+            },
+            {
+              "wrong": "claim for petrol but not insurance",
+              "correct": "claim for both petrol and insurance"
+            },
+            {
+              "wrong": "into the bath",
+              "correct": "into the shower (already done)"
+            },
+            {
+              "wrong": "not insurance",
+              "correct": "and insurance too (already done)"
+            },
+            {
+              "wrong": "how much time Tom spends",
+              "correct": "how much time Tom spends ✓ — replace: 'bath' → 'shower' done"
+            },
+            {
+              "wrong": "petrol but not insurance",
+              "correct": "petrol and insurance (already done)"
+            },
+            {
+              "wrong": "council can carry out an assessment",
+              "correct": "council can carry out an assessment ✓ — no further changes"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "The council realises that carers sometimes need time for all their other responsibilities, and also that they sometimes need a ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For a start, they'd want to know the amount of ",
+                2,
+                " you spend looking after your mother every day."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "I help her with getting dressed, and also help her get into the ",
+                3,
+                " in the morning."
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "They'll probably ask if she can cope using ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Recently I've noticed she's started to have bad problems with her ",
+                5,
+                ". If I wasn't there, she'd forget to eat."
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "Are there physical difficulties — ",
+                6,
+                " her, for example?"
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Yes, she's quite heavy and I'm afraid of hurting my back."
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "They can give advice about that, and about how to avoid the possibility of your mum having a ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They might help with transport costs — like if you have to get a ",
+                8,
+                " to take her to an appointment."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Could I claim for the petrol?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "You could, and you can claim for the ",
+                9,
+                " too."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It seems to me you're under quite a bit of ",
+                10,
+                " — tell the council, they may be able to give you advice on how to minimise it."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "break",
+            "time",
+            "shower",
+            "money",
+            "memory",
+            "lifting",
+            "fall",
+            "taxi",
+            "insurance",
+            "stress"
+          ]
+        },
+        "2": {
+          "scene": "小镇志愿者计划介绍",
+          "sceneEmoji": "🙋",
+          "kwt": [
+            {
+              "original": "Tourists often ask how to get to a particular shop, and they might also be grateful for recommendations about what to visit.",
+              "keyWord": "PROVIDE",
+              "transStart": "Volunteers help by giving directions to tourists and",
+              "transEnd": "recommendations about local attractions.",
+              "answer": "PROVIDING",
+              "collocation": "providing (= giving or supplying something to someone)"
+            },
+            {
+              "original": "You'd be surprised how many people buy tickets then don't check them, and head for the wrong section of the hall!",
+              "keyWord": "DIRECT",
+              "transStart": "Volunteers at concerts",
+              "transEnd": "audience members who have gone to the wrong section of the hall.",
+              "answer": "HELP DIRECT",
+              "collocation": "help direct (= assist in guiding someone to the correct place)"
+            },
+            {
+              "original": "It's a good idea to help at the festival you're most interested in, because you can attend most of the events for free.",
+              "keyWord": "BENEFIT",
+              "transStart": "Choosing to volunteer at your preferred festival allows you to",
+              "transEnd": "from free access to most events.",
+              "answer": "BENEFIT FROM",
+              "collocation": "benefit from (= gain an advantage from something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Book festival"
+              },
+              {
+                "num": 2,
+                "left": "Music festival"
+              },
+              {
+                "num": 3,
+                "left": "Science festival"
+              },
+              {
+                "num": 4,
+                "left": "Required volunteer quality"
+              },
+              {
+                "num": 5,
+                "left": "Annual thank-you event"
+              }
+            ],
+            "options": [
+              "A.  three days, several venues",
+              "B.  must get on well with people and handle difficult situations",
+              "C.  this year: canal trip to Dewhurst, Sept 28th",
+              "D.  a whole week",
+              "E.  two days but lots of venues involved"
+            ],
+            "answers": [
+              "A",
+              "D",
+              "E",
+              "B",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "STEVE",
+              "parts": [
+                "Tourists often ask how to get to a particular shop, and they might be grateful for ",
+                1,
+                " about what to visit."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At concerts, the volunteers' role is to get everyone in the audience to the right place — many people buy tickets and head for the wrong ",
+                2,
+                " of the hall."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Volunteers talk about how community groups can help each other — like a writing group not knowing another club has a ",
+                3,
+                " they could travel in."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The monthly magazine is paid for by local businesses. We depend on volunteers to find out what people ",
+                4,
+                " of events they've attended."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Volunteers welcome guests at the retired people's lunch, and some put on a ",
+                5,
+                " — about half an hour of songs and short plays."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Volunteers help by making sure residents know about the council ",
+                6,
+                " — it's updated every day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The science festival is only two days but involves quite a lot of ",
+                7,
+                " — even more help is required than for the music festival."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "What's essential is being able to get on well with other people, and also to deal with someone who's behaving ",
+                8,
+                " — as occasionally happens."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Training starts on the 2nd of September. We'll be timetabling you for duties from the ",
+                9,
+                " onward."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This year's volunteer thank-you event is a trip along the ",
+                10,
+                " from here to Dewhurst, on Saturday September 28th."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "recommendations",
+            "section",
+            "coach",
+            "think",
+            "show",
+            "website",
+            "venues",
+            "badly",
+            "9th",
+            "canal"
+          ]
+        },
+        "3": {
+          "scene": "人文地理课题选定讨论",
+          "sceneEmoji": "🌆",
+          "functions": "A  Rejecting a topic as too dull    B  Identifying a sensitive data issue    C  Recommending a topic with broad relevance    D  Acknowledging a previous lesson's shortcomings    E  Identifying a possible curriculum exclusion",
+          "pragmatic": [
+            {
+              "quote": "Population would be all about density and migration and so on — lots of facts and statistics... maybe a bit boring?",
+              "speaker": "Rosie",
+              "answer": "A"
+            },
+            {
+              "quote": "I thought that had been taken off the syllabus for this year — has it? I'm not sure, but it might be best to avoid it.",
+              "speaker": "Colin/Rosie",
+              "answer": "E"
+            },
+            {
+              "quote": "I didn't get much out of that lecture — it was all so general and the lecturer didn't give any useful examples.",
+              "speaker": "Rosie",
+              "answer": "D"
+            },
+            {
+              "quote": "Dr Lee was saying you have to be careful with some figures relating to poverty — they're sometimes deliberately manipulated.",
+              "speaker": "Rosie",
+              "answer": "B"
+            },
+            {
+              "quote": "Now over half the world's population lives in cities — that's really important.",
+              "speaker": "Rosie",
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "Topics Considered & Rejected",
+              "items": [
+                [
+                  "Population: lots of facts and statistics — but possibly too ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Health: linked to a cholera lecture — a 19th-century physician used street and water plans"
+                ],
+                [
+                  "Economies: might have been taken off the ",
+                  {
+                    "b": 1
+                  },
+                  "; best to avoid"
+                ],
+                [
+                  "Culture: lecture was too general — no useful ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Poverty: figures sometimes deliberately ",
+                  {
+                    "b": 1
+                  },
+                  " for political reasons"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏙️",
+              "title": "Chosen Topic: Urbanisation",
+              "items": [
+                [
+                  "Over half the world's population lives in ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Urbanisation Problems",
+              "items": [
+                [
+                  "Theft and robbery; high ",
+                  {
+                    "b": 1
+                  },
+                  " (a growing problem); homelessness (improved somewhat)"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏢",
+              "title": "Positive Developments",
+              "items": [
+                [
+                  "New shopping centres on the outskirts — but city centre shops ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Outskirts ideal for large ",
+                  {
+                    "b": 1
+                  },
+                  " buildings"
+                ],
+                [
+                  "Disused industrial sites: good for the environment but often contain dangerous ",
+                  {
+                    "b": 1
+                  },
+                  " requiring clearance"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Global Case Studies",
+              "items": [
+                [
+                  "Masdar City (Abu Dhabi): green city — renewable energy, pedestrianised, transport ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Greenhill Abbots (England): ecotown — many thought the plans were ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "boring",
+            "syllabus",
+            "examples",
+            "manipulated",
+            "cities",
+            "unemployment",
+            "close",
+            "conference",
+            "materials",
+            "underground",
+            "unrealistic"
+          ],
+          "dictation": [
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Population would be straightforward to find on the internet — lots of facts and ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "I'd never thought about the links between health and geography until Professor Lee gave us that lecture on ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Economies — I thought that had been taken off the ",
+                3,
+                " for this year."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "I didn't get much out of the culture lecture — the lecturer didn't give any useful ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "Dr Lee said you have to be careful with figures relating to poverty — they're sometimes deliberately ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "Over half the world's population lives in cities — that's really important. But where I come from, there's a serious problem with people not having ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "The outskirts are ideal for buildings that need a lot of space, like for ",
+                7,
+                ". They've opened a couple of big ones."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Disused industrial sites often used dangerous materials which haven't been properly cleared away — that can't be ",
+                8,
+                " and is often not budgeted for."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "Masdar City was designed to be a green city, depending entirely on ",
+                9,
+                " energy."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Greenhill Abbots, the ecotown in England — a lot of people were against it at first, saying the plans were ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "statistics",
+            "cholera",
+            "syllabus",
+            "examples",
+            "manipulated",
+            "jobs",
+            "conferences",
+            "cheap",
+            "renewable",
+            "unrealistic"
+          ]
+        },
+        "4": {
+          "scene": "食品流行趋势与营销策略讲座",
+          "sceneEmoji": "🥑",
+          "signpost": [
+            {
+              "quote": "Interest in food fashions has risen rapidly since the birth of the smartphone, when people first began taking photos of their food and instantly sharing them.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a debate"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Establishing the technological cause of food trend culture before discussing marketing"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "One of the most effective ways of promoting a new food product is by using social media influencers as brand ambassadors.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the introduction"
+                ],
+                [
+                  "B",
+                  "Introducing the first marketing mechanism before describing a successful sector"
+                ],
+                [
+                  "C",
+                  "Questioning influencer marketing"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "I'd like to look at a few examples of marketing campaigns which were really successful in launching a new fashion trend, starting with the avocado.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the avocado case"
+                ],
+                [
+                  "B",
+                  "Summarising all examples"
+                ],
+                [
+                  "C",
+                  "Signalling a shift to detailed case studies after general marketing mechanisms"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Oat milk is a recent example of a new product which became fashionable very quickly.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the avocado case"
+                ],
+                [
+                  "B",
+                  "Introducing a second case study after the avocado example"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But ethical concerns have been raised about the effects a surge in demand can cause — quinoa is a classic example.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the oat milk section"
+                ],
+                [
+                  "B",
+                  "Concluding positively"
+                ],
+                [
+                  "C",
+                  "Shifting from positive marketing successes to negative consequences of food trends"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📱",
+              "title": "Why Food Trends Have Grown",
+              "items": [
+                [
+                  "Smartphones → people take ",
+                  {
+                    "b": 1
+                  },
+                  " of food and share instantly"
+                ],
+                [
+                  "UK food industry obsessed with finding and exploiting the next big trend"
+                ]
+              ]
+            },
+            {
+              "emoji": "📢",
+              "title": "Marketing Mechanisms",
+              "items": [
+                [
+                  "Social media influencers — free samples or large fees; ",
+                  {
+                    "b": 1
+                  },
+                  " producers were pioneers"
+                ],
+                [
+                  "Supermarkets follow trends and what well-known ",
+                  {
+                    "b": 1
+                  },
+                  " put on menus"
+                ]
+              ]
+            },
+            {
+              "emoji": "🥑",
+              "title": "Case Study: Avocado (1990s)",
+              "items": [
+                [
+                  "PR company paid for ",
+                  {
+                    "b": 1
+                  },
+                  " to visit South African avocado farmers"
+                ],
+                [
+                  "Marketed as a 'superfood' for ",
+                  {
+                    "b": 1
+                  },
+                  "; sales grew from £13m to £150m annually"
+                ]
+              ]
+            },
+            {
+              "emoji": "🥛",
+              "title": "Case Study: Oat Milk (Oatly)",
+              "items": [
+                [
+                  "Provocative campaign — aggravated dairy ",
+                  {
+                    "b": 1
+                  },
+                  " competitors, made oat milk seem cool"
+                ],
+                [
+                  "USA: got product into ",
+                  {
+                    "b": 1
+                  },
+                  " chains instead of big retail launch"
+                ],
+                [
+                  "Advantage: less impact on the ",
+                  {
+                    "b": 1
+                  },
+                  " — lower water use, lower carbon footprint"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐟🌾",
+              "title": "Skrei & Quinoa",
+              "items": [
+                [
+                  "Norwegian skrei (Arctic cod) used to build Norway's seafood ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Quinoa: demand surge raised ",
+                  {
+                    "b": 1
+                  },
+                  " for local Peruvians — unaffordable; also damaged soil"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "photos",
+            "vegan",
+            "chefs",
+            "journalists",
+            "health",
+            "milk",
+            "coffee",
+            "environment",
+            "reputation",
+            "price"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Interest in food fashions has risen rapidly since the birth of the smartphone, when people began taking ",
+                1,
+                " of their food and sharing them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Companies selling ",
+                2,
+                " produce were pioneers in being able to increase sales quickly using social media influencers."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Supermarkets have dedicated teams following what new products are trending, and particularly interested in what well-known ",
+                3,
+                " are putting on their menus."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A British PR company paid for a group of ",
+                4,
+                " to travel to South Africa to meet avocado farmers."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Advertisements promoted the avocado as a 'superfood' — rich in nutrients and beneficial for ",
+                5,
+                ". UK sales grew from £13 million to around £150 million annually."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the USA, Oatly decided against a big retail launch in favour of getting the product into ",
+                6,
+                " chains, removing the need for a big advertising budget."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Oat milk requires significantly less water and has a relatively low carbon footprint — many consumers prefer it because it has less impact on the ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The demand for Norwegian skrei has been used by a marketing agency to build the ",
+                8,
+                " of Norway's fisheries in general."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When demand for quinoa peaked, the ",
+                9,
+                " soared, making it unaffordable for local Peruvian people."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Farmers worked the land all year round to produce more quinoa — the fertility of the ",
+                10,
+                " decreased dramatically, potentially leading to desertification."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "photos",
+            "vegan",
+            "chefs",
+            "journalists",
+            "health",
+            "coffee",
+            "environment",
+            "reputation",
+            "price",
+            "soil"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 20 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "家具租赁公司咨询",
+          "sceneEmoji": "🛋️",
+          "mcq": [
+            {
+              "q": "What is the main advantage of Peak Rentals according to feedback?",
+              "opts": [
+                [
+                  "A",
+                  "Modern furniture and fast delivery"
+                ],
+                [
+                  "B",
+                  "Lowest prices in town"
+                ],
+                [
+                  "C",
+                  "Free cleaning service"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What extra monthly charge does Aaron and Oliver add?",
+              "opts": [
+                [
+                  "A",
+                  "12%"
+                ],
+                [
+                  "B",
+                  "10%"
+                ],
+                [
+                  "C",
+                  "15%"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is the minimum contract length for Larch Furniture?",
+              "opts": [
+                [
+                  "A",
+                  "Three months"
+                ],
+                [
+                  "B",
+                  "Twelve months"
+                ],
+                [
+                  "C",
+                  "Six months"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Shelley Mayer calls about renting furniture for a house on Archwood Avenue. The biggest company, Peak Rentals, charges $105 to $239 per room monthly. Their furniture is more modern and is delivered within one or two days. There's a special offer: if you rent living room furniture, you get a free lamp. A cheaper option is Aaron and Oliver, which charges an extra 15% monthly for possible damage, and also offers cleaning for the furniture. Larch Furniture is new with the lowest prices for furniture and electronics — you need your own insurance and a minimum 12-month contract. Space Rentals is near the house — Shelley should check their app for prices, and can request exchanges within two weeks of delivery.",
+          "errors": [
+            {
+              "wrong": "extra 15% monthly",
+              "correct": "extra 12% monthly"
+            },
+            {
+              "wrong": "cleaning for the furniture",
+              "correct": "cleaning for the house"
+            },
+            {
+              "wrong": "minimum 12-month contract",
+              "correct": "minimum 6-month contract"
+            },
+            {
+              "wrong": "within two weeks",
+              "correct": "within one week"
+            },
+            {
+              "wrong": "15%",
+              "correct": "12% (already done)"
+            },
+            {
+              "wrong": "the furniture",
+              "correct": "the house (already done)"
+            },
+            {
+              "wrong": "12-month",
+              "correct": "6-month (already done — replace: 'two weeks' → 'one week')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The monthly price per room starts at a hundred and five dollars and goes up to two hundred and thirty-",
+                1,
+                " dollars."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The furniture from Peak Rentals is more ",
+                2,
+                " than any of the other companies. Once you place an order, it's delivered in just one or two days."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a special offer — if you rent living room furniture, a set of chairs and a TV table, you'll also get a ",
+                3,
+                " at no extra cost."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Then there's ",
+                4,
+                " and Oliver — A-A-R-O-N. They're a mid-price company."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They charge an extra twelve per cent every month in case of ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Larch Furniture has the lowest prices for both furniture and also ",
+                6,
+                " equipment."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "First, you have to take out ",
+                7,
+                " on the furniture yourself."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "",
+                8,
+                " Rentals is located very near the house."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I don't have information about their charges — it's best to use their ",
+                9,
+                " to find out the cost."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you don't like the furniture once delivered, you can request ",
+                10,
+                " — as long as you do that within a week."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "nine",
+            "modern",
+            "lamp",
+            "Aaron",
+            "damage",
+            "electronic",
+            "insurance",
+            "Space",
+            "app",
+            "exchanges"
+          ]
+        },
+        "2": {
+          "scene": "比德卡斯特考古遗址导览",
+          "sceneEmoji": "🏛️",
+          "kwt": [
+            {
+              "original": "A walker found it on the ground after a rainstorm washed away some of the earth and sand.",
+              "keyWord": "EXPOSED",
+              "transStart": "A heavy rainstorm",
+              "transEnd": "the gold coin by washing away the surrounding earth and sand.",
+              "answer": "EXPOSED THE COIN",
+              "collocation": "expose (= reveal something previously hidden by removing what covered it)"
+            },
+            {
+              "original": "Just by chance, the team found some old maps and documents in our library which showed five-hundred-year-old drawings of ruined buildings.",
+              "keyWord": "DISCOVERY",
+              "transStart": "A chance",
+              "transEnd": "of old maps in the library revealed five-hundred-year-old drawings of ruined buildings.",
+              "answer": "DISCOVERY OF OLD MAPS",
+              "collocation": "a chance discovery (= finding something by accident rather than deliberate search)"
+            },
+            {
+              "original": "This summer's work will end soon, but we'll be back next summer.",
+              "keyWord": "RESUME",
+              "transStart": "Although this season's excavation is ending soon, the team plans to",
+              "transEnd": "next summer.",
+              "answer": "CONTINUE THEIR WORK",
+              "collocation": "continue their work (= carry on with an activity after a pause)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Ancient bridge foundations"
+              },
+              {
+                "num": 2,
+                "left": "Rubbish pit"
+              },
+              {
+                "num": 3,
+                "left": "Meeting hall"
+              },
+              {
+                "num": 4,
+                "left": "Fish pond"
+              },
+              {
+                "num": 5,
+                "left": "Ancient field system"
+              }
+            ],
+            "options": [
+              "A.  largest structure in the central area, next to current excavation",
+              "B.  follow main path, bend left, take smaller track to the right",
+              "C.  on the other side of the river — no houses found yet",
+              "D.  near castle walls, northwest corner — dates to castle era",
+              "E.  turn right at first information board, into the trees, on your right before reaching the river"
+            ],
+            "answers": [
+              "B",
+              "D",
+              "A",
+              "E",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "HAYDEN",
+              "parts": [
+                "I was asked to join the project by ",
+                1,
+                ", a charity which sets up projects like this around the country."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A walker found the gold coin on the ground after a rainstorm washed away some of the earth and ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Peter Swift, an amateur historian, contacted me. Just by ",
+                3,
+                ", the team found old maps showing drawings of ruined buildings between the castle walls and the river."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Over three summers we've found remains of several buildings and more broken ",
+                4,
+                " than you can count!"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We found evidence of human activity on the other side of the river — we can see the borders of an ancient ",
+                5,
+                " system."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This autumn we're putting on a series of guided ",
+                6,
+                " for school groups."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This year we've identified the foundations of an ancient bridge — a team of ",
+                7,
+                " are searching the river for lost objects."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The rubbish pit is near the castle walls in the north-west corner — we found oyster shells and ",
+                8,
+                " bones, probably thrown from the castle kitchen."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The meeting hall had two rows of ",
+                9,
+                " holes, deep enough to support a large roof — it's the largest structure in the central area."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Last year we discovered a fish pond — normally these were beside a river, but it's possible the river has ",
+                10,
+                " slightly."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "NHA",
+            "sand",
+            "chance",
+            "pots",
+            "field",
+            "tours",
+            "divers",
+            "fish",
+            "post",
+            "moved"
+          ]
+        },
+        "3": {
+          "scene": "戏剧节目单历史研究讨论",
+          "sceneEmoji": "🎭",
+          "functions": "A  Describing audience behaviour from history    B  Identifying a structural change over time    C  Comparing the quality of two periods    D  Identifying a research advantage    E  Describing the contents of a specific source",
+          "pragmatic": [
+            {
+              "quote": "If the programme named a famous actor, that's who the public expected — and if that didn't happen, people demanded refunds, and if they didn't get them, there were riots!",
+              "speaker": "Finn",
+              "answer": "A"
+            },
+            {
+              "quote": "Personally, I think eighteenth-century programmes were superior because they told theatre-goers so many things, including about the actors, the writer, the plot, and sometimes the history of the play.",
+              "speaker": "Finn",
+              "answer": "C"
+            },
+            {
+              "quote": "During World War Two, paper restrictions meant UK programmes became merely a single sheet folded into four pages — but in the USA, playbills continued in the same format.",
+              "speaker": "Maya/Finn",
+              "answer": "B"
+            },
+            {
+              "quote": "It contains articles written by members of the theatre company — so we can learn how the production was created, and the thoughts and feelings of the cast.",
+              "speaker": "Finn",
+              "answer": "E"
+            },
+            {
+              "quote": "No one else on the course is doing the same as us, although it is one of the research areas of the module convenor.",
+              "speaker": "Maya",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏢",
+              "title": "The Theatre Programme Industry",
+              "items": [
+                [
+                  "Companies buy the rights to publish programmes — make money from ",
+                  {
+                    "b": 1
+                  },
+                  " space within the booklet"
+                ]
+              ]
+            },
+            {
+              "emoji": "📜",
+              "title": "Early British Theatre (18th Century)",
+              "items": [
+                [
+                  "Audiences very familiar with leading actors — big names drew huge ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "If a named actor didn't perform, audiences demanded ",
+                  {
+                    "b": 1
+                  },
+                  " — sometimes riots resulted"
+                ],
+                [
+                  "Many ordinary people were ",
+                  {
+                    "b": 1
+                  },
+                  " — programmes had limited advertising value"
+                ],
+                [
+                  "Touring companies paraded the streets in costume, beating ",
+                  {
+                    "b": 1
+                  },
+                  ", announcing performances"
+                ]
+              ]
+            },
+            {
+              "emoji": "📰",
+              "title": "18th vs 19th Century",
+              "items": [
+                [
+                  "19th century: programmes started to resemble modern ones — always used ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "19th century: greater variety of ",
+                  {
+                    "b": 1
+                  },
+                  ", but Finn thinks 18th-century programmes were more informative"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "20th Century — WWII Impact",
+              "items": [
+                [
+                  "UK: paper restrictions → programmes became a single sheet folded into ",
+                  {
+                    "b": 1
+                  },
+                  " pages"
+                ],
+                [
+                  "USA: playbills continued in same format"
+                ],
+                [
+                  "UK didn't return to multi-page format for over ",
+                  {
+                    "b": 1
+                  },
+                  " years after the war"
+                ]
+              ]
+            },
+            {
+              "emoji": "🖼️",
+              "title": "Sources for the Presentation",
+              "items": [
+                [
+                  "Ruy Blas: very decorative — 'good enough to put in a ",
+                  {
+                    "b": 1
+                  },
+                  " '"
+                ],
+                [
+                  "Man of La Mancha: contains articles by company members"
+                ],
+                [
+                  "The Tragedy of Jane Shore: earliest surviving document printed on Australia's first printing ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "The Sailors' Festival: from the British Library's digitised ",
+                  {
+                    "b": 1
+                  },
+                  " — over 200,000 programmes"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "advertising",
+            "crowds",
+            "refunds",
+            "illiterate",
+            "drums",
+            "colour",
+            "designs",
+            "four",
+            "twenty-five",
+            "frame",
+            "press",
+            "collection"
+          ],
+          "dictation": [
+            {
+              "speaker": "FINN",
+              "parts": [
+                "I didn't know theatre programmes are called playbills in the USA. No one else is doing the same topic, although it's one of the research areas of the module ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAYA",
+              "parts": [
+                "Theatres don't hire people to do programmes — companies buy the ",
+                2,
+                " to publish on the theatre's behalf, and make money selling advertising space."
+              ]
+            },
+            {
+              "speaker": "FINN",
+              "parts": [
+                "If the programme named a famous actor, that's who the public expected. If that didn't happen, people demanded refunds — and if they didn't get them, there were ",
+                3,
+                "!"
+              ]
+            },
+            {
+              "speaker": "MAYA",
+              "parts": [
+                "Many ordinary people were ",
+                4,
+                ", so theatre programmes had limited value for advertising plays. Touring companies would parade in costume, beating drums."
+              ]
+            },
+            {
+              "speaker": "FINN",
+              "parts": [
+                "Nineteenth-century programmes started to resemble today's — and unlike the eighteenth century, they always used ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "FINN",
+              "parts": [
+                "I think eighteenth-century programmes were superior — they told theatre-goers so many things, about the actors, the ",
+                6,
+                ", the plot, and sometimes the history of the play."
+              ]
+            },
+            {
+              "speaker": "MAYA",
+              "parts": [
+                "During World War Two, the government imposed restrictions on the use of ",
+                7,
+                ". In the UK, programmes became merely a single sheet folded into four pages."
+              ]
+            },
+            {
+              "speaker": "MAYA",
+              "parts": [
+                "After the war they didn't return to more than one sheet for over twenty-",
+                8,
+                " years — even though paper shortages only lasted five or ten years."
+              ]
+            },
+            {
+              "speaker": "FINN",
+              "parts": [
+                "This is an old one for a play called Ruy Blas — the images are beautiful, good enough to put in a ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAYA",
+              "parts": [
+                "I've got a programme for The Sailors' Festival — it's from the British Library's digitised ",
+                10,
+                " of programmes, which already comprises over two hundred thousand."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "convenor",
+            "rights",
+            "riots",
+            "illiterate",
+            "colour",
+            "writer",
+            "paper",
+            "five",
+            "frame",
+            "collection"
+          ]
+        },
+        "4": {
+          "scene": "包容性设计理念与应用讲座",
+          "sceneEmoji": "♿",
+          "signpost": [
+            {
+              "quote": "It simply means designing products that span economic, social and cultural barriers — so that as many different people as possible can use them without any adaptation.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the introduction"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Defining inclusive design before distinguishing it from universal design"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Inclusive design is often linked with universal design, although they are not quite the same thing.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all design types"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Clarifying the relationship between two related but distinct concepts"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Today, examples of successful inclusive design can be seen all around us.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the definitions section"
+                ],
+                [
+                  "B",
+                  "Questioning the examples"
+                ],
+                [
+                  "C",
+                  "Transitioning from theory to concrete everyday examples"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "It's worth looking at the problems non-inclusive designs cause when not enough consideration is given to a range of users.",
+              "opts": [
+                [
+                  "A",
+                  "Shifting from positive examples to the consequences of design failures"
+                ],
+                [
+                  "B",
+                  "Repeating the positive examples"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Another problem is related to comfort at work.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a final example category after access and safety"
+                ],
+                [
+                  "B",
+                  "Summarising safety issues"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎯",
+              "title": "Defining Inclusive Design",
+              "items": [
+                [
+                  "Span economic, social and cultural barriers — no ",
+                  {
+                    "b": 1
+                  },
+                  " needed to original design"
+                ],
+                [
+                  "Universal design: similar but also considers people with ",
+                  {
+                    "b": 1
+                  },
+                  " difficulties"
+                ]
+              ]
+            },
+            {
+              "emoji": "✅",
+              "title": "Successful Examples Today",
+              "items": [
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " that adjust for height or wheelchair users — though not universal yet"
+                ],
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " activated by sensor in public toilets — more hygienic, easier for dexterity issues"
+                ],
+                [
+                  "Software avoids shades of ",
+                  {
+                    "b": 1
+                  },
+                  " — older people struggle to distinguish these"
+                ],
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " access now routine for those with declining motor skills"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚫",
+              "title": "Consequences of Non-Inclusive Design",
+              "items": [
+                [
+                  "Access: disabled people can't use public transport if not wheelchair-friendly"
+                ],
+                [
+                  "Safety: car crash tests use a dummy based on an average ",
+                  {
+                    "b": 1
+                  },
+                  " — risky for ",
+                  {
+                    "b": 1
+                  },
+                  " women"
+                ],
+                [
+                  "PPE: designed to fit men — small jackets don't suit women with broader ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "95% of women say PPE often hampers work — worst in emergency services, especially ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Comfort: air conditioning standard set at 21°C for men — wastes energy in offices with mainly female staff"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "adaptation",
+            "cognitive",
+            "Desks",
+            "Taps",
+            "blue",
+            "Voice",
+            "male",
+            "pregnant",
+            "shoulders",
+            "police"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Inclusive design means making sure products are accessible without any type of ",
+                1,
+                " having to be made to the original design."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Universal design aims to make products that work for everyone, including considering the needs of people with ",
+                2,
+                " difficulties."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In workplaces it's common to see ",
+                3,
+                " which can be adjusted to suit people of different heights or for wheelchair users."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "",
+                4,
+                " that you activate by sensor require no pressing or twisting movements — more hygienic and easier for people with dexterity issues."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Vision and colour distinction decline with age, especially shades of ",
+                5,
+                " — which is why software designers rarely use this colour."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Motor skills decline with age — so ",
+                6,
+                " access is now a routine way of making commands."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most cars are still crash-tested using a dummy based on an average-sized male — this has safety implications for women, particularly those who are ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Employers must provide PPE free of charge, but most is designed to fit men — women can have much smaller ",
+                8,
+                " than the average man."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "95% of women said PPE often hampered their work — this problem was worst in the emergency services, particularly the ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Air conditioning is standardly set at 21 degrees, designed to suit men — wasting energy in offices where ",
+                10,
+                " is the dominant gender."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "adaptation",
+            "cognitive",
+            "desks",
+            "Taps",
+            "blue",
+            "voice",
+            "pregnant",
+            "shoulders",
+            "police",
+            "women"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 20 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "亲友来访城市游览规划",
+          "sceneEmoji": "🗺️",
+          "mcq": [
+            {
+              "q": "What does the man recommend instead of a bus tour?",
+              "opts": [
+                [
+                  "A",
+                  "A walking tour starting from Carlton Square"
+                ],
+                [
+                  "B",
+                  "A boat tour"
+                ],
+                [
+                  "C",
+                  "A taxi tour"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "Why does the man suggest visiting the Science Museum on Tuesday?",
+              "opts": [
+                [
+                  "A",
+                  "It's free on Tuesdays"
+                ],
+                [
+                  "B",
+                  "It's closed on Mondays and less crowded than weekends"
+                ],
+                [
+                  "C",
+                  "The new exhibition only opens on Tuesdays"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What discount can be found on bargaintickets.com?",
+              "opts": [
+                [
+                  "A",
+                  "50% off advance bookings"
+                ],
+                [
+                  "B",
+                  "75% off some seats for the following day"
+                ],
+                [
+                  "C",
+                  "Free tickets for children"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Sandra asks a male friend for advice about entertaining visiting cousins. He recommends the Kings Hotel on George Street, five minutes from Murray Station, about £125 for a family room. He suggests a walking tour from Carlton Square instead of an expensive bus tour. If the weather's nice, the old fort by boat is a good half-day trip. The Science Museum is closed on Mondays, so Tuesday is good and less crowded. There's a new exhibition on space coming soon. For food, he recommends Clacton Market — good for vegetarians, but most stalls stop serving lunch at 2pm on weekends. He mentions bargaintickets.com for theatre discounts — 75% off some seats for the next day. He also recommends the Roots Music Festival in Blakewell Gardens, and climbing Telegraph Hill for a view of the port.",
+          "errors": [
+            {
+              "wrong": "stop serving lunch at 2pm",
+              "correct": "stop serving lunch at 2.30pm"
+            },
+            {
+              "wrong": "2pm",
+              "correct": "2.30pm (already done)"
+            },
+            {
+              "wrong": "Clacton Market — good for vegetarians",
+              "correct": "Clacton Market — good for vegetarians ✓ no change needed here"
+            },
+            {
+              "wrong": "Roots Music Festival",
+              "correct": "Roots Music Festival ✓ — no change needed"
+            },
+            {
+              "wrong": "75% off",
+              "correct": "75% off ✓ — no change needed"
+            },
+            {
+              "wrong": "2pm on weekends",
+              "correct": "2.30 on weekends (already done)"
+            },
+            {
+              "wrong": "stop serving lunch",
+              "correct": "stop serving lunch ✓ — replace: '2pm' → '2.30pm' done"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "I always recommend people stay at the ",
+                1,
+                " Hotel — it's about five minutes' walk from Murray Station, on George Street."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you book a family room it's about £",
+                2,
+                " per night."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bus tours are quite expensive — I think it's better to do a ",
+                3,
+                " tour. There's one that starts from Carlton Square."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If the weather's nice, you could visit the old fort — you can get there by ",
+                4,
+                ". The whole trip takes half a day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Science Museum is closed on Mondays. They're here from Saturday for four nights — so ",
+                5,
+                " would be best, and it won't be so crowded."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's another exhibition starting soon on ",
+                6,
+                " which looks really good too."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I really like all the food stalls at Clacton Market — I know it's one of the best places for ",
+                7,
+                " food."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You need to get there early though — at the weekend most stalls stop serving lunch at ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can get good deals if you book online with bargaintickets.com for the following day — on some seats there's a ",
+                9,
+                " percent discount."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you climb Telegraph Hill, you'll be able to look right down on the ",
+                10,
+                " — everyone's always really impressed because it's so huge."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Kings",
+            "125",
+            "walking",
+            "boat",
+            "Tuesday",
+            "space",
+            "vegetarian",
+            "2.30",
+            "75",
+            "port"
+          ]
+        },
+        "2": {
+          "scene": "足球俱乐部球场参观导览",
+          "sceneEmoji": "⚽",
+          "kwt": [
+            {
+              "original": "Cameras are permitted everywhere, and you can take pictures of your child shooting a penalty.",
+              "keyWord": "ALLOWED",
+              "transStart": "Photography is",
+              "transEnd": "throughout the stadium, including pictures of children taking penalty kicks.",
+              "answer": "ALLOWED THROUGHOUT",
+              "collocation": "allowed throughout (= permitted in every part of a place)"
+            },
+            {
+              "original": "If you'd prefer your visit to be self-guided, please collect headphones from reception and you can listen to the pre-recorded information at your own speed.",
+              "keyWord": "PACE",
+              "transStart": "Visitors who prefer to explore independently can collect headphones and proceed",
+              "transEnd": "using the pre-recorded commentary.",
+              "answer": "AT THEIR OWN SPEED",
+              "collocation": "at their own speed (= at whatever pace suits the individual)"
+            },
+            {
+              "original": "While that project was going on, the team had to play its matches at the ground of another club.",
+              "keyWord": "TEMPORARY",
+              "transStart": "During the redevelopment, the team needed",
+              "transEnd": "home ground at another club's stadium.",
+              "answer": "A SHORT-TERM",
+              "collocation": "a short-term (= lasting only for a limited period)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "1870"
+              },
+              {
+                "num": 2,
+                "left": "1874"
+              },
+              {
+                "num": 3,
+                "left": "1875"
+              },
+              {
+                "num": 4,
+                "left": "1878"
+              },
+              {
+                "num": 5,
+                "left": "1880"
+              }
+            ],
+            "options": [
+              "A.  electric lamps installed; whistles introduced by referees",
+              "B.  solid crossbar replaced tape between goal posts",
+              "C.  clubs began charging fans for admission",
+              "D.  goalkeeper position introduced",
+              "E.  referees could send players off; teams swap ends at half-time"
+            ],
+            "answers": [
+              "D",
+              "E",
+              "B",
+              "A",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "GUIDE",
+              "parts": [
+                "The stadium has lots of stairs and the players' tunnel is very dark. Please don't let your children ",
+                1,
+                " off on their own."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the cafe, I really recommend the healthy lunch ",
+                2,
+                " for children."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We'll start with the three-sixty cinema experience, then the players' dressing ",
+                3,
+                " before going outside to the pitch."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you'd prefer a self-guided visit, please collect ",
+                4,
+                " from reception and listen at your own speed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The stadium was built in 1989 as part of a three-year ",
+                5,
+                " project. The club has been on this site since 1870."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "1870 was also the year teams started to include a player whose role was to ",
+                6,
+                " the goal."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1875, the tape between the goal posts was replaced with the solid ",
+                7,
+                " we're familiar with today."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1877, all clubs decided to set a limit of ",
+                8,
+                " minutes for each match — before that, arguments and fights sometimes happened during games."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "By 1878, referees started using ",
+                9,
+                " and electric lamps were installed — significant because games could be played in the evenings all year round."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1880, clubs began to charge fans for ",
+                10,
+                " to games, even though players were still amateurs."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "wander",
+            "boxes",
+            "rooms",
+            "headphones",
+            "redevelopment",
+            "guard",
+            "crossbar",
+            "ninety",
+            "whistles",
+            "admission"
+          ]
+        },
+        "3": {
+          "scene": "儿童手写能力研究讨论",
+          "sceneEmoji": "✍️",
+          "functions": "A  Expressing a previously unconsidered connection    B  Identifying a practical classroom solution    C  Comparing past and present educational attitudes    D  Acknowledging a personal regret    E  Identifying a societal trend with consequences",
+          "pragmatic": [
+            {
+              "quote": "What's less obvious is how handwriting helps develop concentration — they have to sit still and focus on one thing.",
+              "speaker": "Man",
+              "answer": "A"
+            },
+            {
+              "quote": "I'd never associated spatial awareness with handwriting either — I thought that was more to do with knowing where you are in relation to objects or other people.",
+              "speaker": "Man",
+              "answer": "A"
+            },
+            {
+              "quote": "I liked the idea of using one of those pens that lights up if you press too hard — that seems like a really simple solution.",
+              "speaker": "Woman",
+              "answer": "B"
+            },
+            {
+              "quote": "In the past cursive writing was considered more stylish and educated — but not anymore, because it's been proved cursive is more difficult, especially for children with learning difficulties.",
+              "speaker": "Woman",
+              "answer": "C"
+            },
+            {
+              "quote": "I was always worried that my poor handwriting affected my exam results — and now research shows I was right to worry.",
+              "speaker": "Man",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🧠",
+              "title": "Cognitive Benefits of Handwriting",
+              "items": [
+                [
+                  "Helps memory — the physical act of writing helps children remember ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Develops ",
+                  {
+                    "b": 1
+                  },
+                  " — children must sit still and focus on one thing"
+                ],
+                [
+                  "Improves imagination — primary children generated more ideas writing by hand than using a ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Spatial awareness essential — need to ",
+                  {
+                    "b": 1
+                  },
+                  " words correctly, not just fine motor skills"
+                ]
+              ]
+            },
+            {
+              "emoji": "🖊️",
+              "title": "Helping Children with Dyspraxia",
+              "items": [
+                [
+                  "Need lots of games to help distinguish letter ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Pens that light up if pressed too ",
+                  {
+                    "b": 1
+                  },
+                  " — simple solution"
+                ],
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " paper trains correct letter spacing"
+                ]
+              ]
+            },
+            {
+              "emoji": "💻",
+              "title": "Digital Alternatives",
+              "items": [
+                [
+                  "Children with dyslexia: less ",
+                  {
+                    "b": 1
+                  },
+                  " on a keyboard, but fluency develops at the same rate"
+                ],
+                [
+                  "Cursive vs print: cursive harder to learn — especially for children with ",
+                  {
+                    "b": 1
+                  },
+                  " difficulties"
+                ]
+              ]
+            },
+            {
+              "emoji": "📉",
+              "title": "Declining Handwriting Skills",
+              "items": [
+                [
+                  "Spelling and ",
+                  {
+                    "b": 1
+                  },
+                  " getting worse due to lack of practice"
+                ],
+                [
+                  "Handwriting becoming less individual — grandparents' writing was distinctive"
+                ],
+                [
+                  "Touch typing still not taught in most schools — but devices may allow handwriting on ",
+                  {
+                    "b": 1
+                  },
+                  " in future"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "letters",
+            "concentration",
+            "keyboard",
+            "space",
+            "shapes",
+            "hard",
+            "Grid",
+            "frustrating",
+            "learning",
+            "punctuation",
+            "screens"
+          ],
+          "dictation": [
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "I hadn't realised children benefit in so many ways from learning to write — it's such an important ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The evidence suggests children should learn to write by hand before they learn to type — not least because it helps their ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "What's less obvious is how it helps develop their ",
+                3,
+                ". They have to sit still and focus on one thing."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "A study showed primary children generated more ",
+                4,
+                " when writing by hand than using a keyboard."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Good spatial awareness is essential for writing because you have to ",
+                5,
+                " words correctly — it's not just fine motor skills."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "For children with dyspraxia, you need to play lots of games to help them distinguish letter ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "One simple thing: use ",
+                7,
+                " paper. They write each letter in a box, which trains them to space the letters correctly."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "For children with dyslexia, it's not as ",
+                8,
+                " on a keyboard if they get things wrong — but developing fluency isn't any faster."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Cursive writing was considered more stylish — but it's been proved more difficult, especially for children with learning ",
+                9,
+                " who find joining up letters challenging."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "I was always worried my poor handwriting affected my exam ",
+                10,
+                " — and research shows I was right to worry."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "skill",
+            "memory",
+            "concentration",
+            "ideas",
+            "space",
+            "shapes",
+            "grid",
+            "frustrating",
+            "difficulties",
+            "results"
+          ]
+        },
+        "4": {
+          "scene": "赞比亚猛禽与农民冲突保护讲座",
+          "sceneEmoji": "🦅",
+          "signpost": [
+            {
+              "quote": "A lot of damage can be caused to farmers' crops by rodents such as rats, which would consume the crops if they weren't hunted and killed by the birds.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all benefits"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing the first economic benefit birds of prey provide to farmers"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "A major danger to rural workers is snakes, whose bite may be dangerous or even fatal, and birds of prey have a major role in keeping their populations under control.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the rodent point"
+                ],
+                [
+                  "B",
+                  "Adding a second benefit after the rodent-control benefit"
+                ],
+                [
+                  "C",
+                  "Questioning the danger of snakes"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "However, although these birds of prey are protected by the government, their numbers are falling.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the benefits section"
+                ],
+                [
+                  "B",
+                  "Signalling a shift from benefits to threats facing the birds"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "And local farmers also pose a threat to these birds.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the threats section"
+                ],
+                [
+                  "B",
+                  "Repeating the accidental deaths point"
+                ],
+                [
+                  "C",
+                  "Introducing a second category of threat after accidental deaths"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "So how else can farmers protect their chickens from birds of prey?",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the lecture"
+                ],
+                [
+                  "B",
+                  "Questioning the previous solutions"
+                ],
+                [
+                  "C",
+                  "Transitioning from the threat farmers pose to potential non-lethal solutions"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🦉",
+              "title": "Benefits of Birds of Prey to Farmers",
+              "items": [
+                [
+                  "Control ",
+                  {
+                    "b": 1
+                  },
+                  " that would otherwise damage crops growing and after harvest"
+                ],
+                [
+                  "Control populations of ",
+                  {
+                    "b": 1
+                  },
+                  " — whose bite can be fatal to rural workers"
+                ],
+                [
+                  "Important culturally for the region even before the sanctuary opened in 1973"
+                ],
+                [
+                  "Increasingly important economically — ",
+                  {
+                    "b": 1
+                  },
+                  " has become a key revenue source"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Accidental Threats to the Birds",
+              "items": [
+                [
+                  "Hit by ",
+                  {
+                    "b": 1
+                  },
+                  " when catching prey on roads — especially at night"
+                ],
+                [
+                  "Electrocuted by power lines — particular danger during heavy ",
+                  {
+                    "b": 1
+                  },
+                  " (Dec–April)"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐔",
+              "title": "Farmer-Caused Threats",
+              "items": [
+                [
+                  "Farmers may shoot the birds (illegal) to protect ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Or ",
+                  {
+                    "b": 1
+                  },
+                  " them — illegal and harmful to the ecosystem"
+                ]
+              ]
+            },
+            {
+              "emoji": "🛡️",
+              "title": "Non-Lethal Protection Methods",
+              "items": [
+                [
+                  "Clearing vegetation is counter-productive — removes ",
+                  {
+                    "b": 1
+                  },
+                  " for chickens"
+                ],
+                [
+                  "Keeping chickens inside a ",
+                  {
+                    "b": 1
+                  },
+                  " would be too costly"
+                ],
+                [
+                  "Most effective: using a ",
+                  {
+                    "b": 1
+                  },
+                  " to scare birds away"
+                ],
+                [
+                  "Children hit pans with a metal spoon to make ",
+                  {
+                    "b": 1
+                  },
+                  " and drive birds off during breeding season"
+                ],
+                [
+                  "No single method is 100% effective — farmers use a ",
+                  {
+                    "b": 1
+                  },
+                  " of methods"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "rats",
+            "snakes",
+            "tourism",
+            "traffic",
+            "rain",
+            "chickens",
+            "poison",
+            "cover",
+            "building",
+            "dog",
+            "noise",
+            "combination"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "A lot of damage can be caused to farmers' crops by rodents such as ",
+                1,
+                ", which would consume crops as they grow and after harvest."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A major danger to rural workers is ",
+                2,
+                ", whose bite may be dangerous or fatal — birds of prey help keep their populations under control."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "More recently, the sanctuary and its birds have become economically important — ",
+                3,
+                " has become an important source of revenue."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Fatalities occur when birds alight on roads to catch prey and are hit by fast-moving ",
+                4,
+                ". Drivers must take care at night."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Birds may be electrocuted flying close to power lines — a particular danger during the heavy ",
+                5,
+                " from December to April."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Farmers may shoot the birds, which is illegal but understandable, or ",
+                6,
+                " them — also illegal and harmful to the ecosystem."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Keeping chickens inside a ",
+                7,
+                " to protect them from predators would cost far too much to be practical."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most farmers have at least one ",
+                8,
+                " — a big help in scaring away predators."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "During the breeding season, children hit pans with a metal spoon, and the resulting ",
+                9,
+                " helps drive away birds trying to seize young chicks."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "None of these methods was fully effective, so farmers were forced to use a ",
+                10,
+                " of methods."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "rats",
+            "snakes",
+            "tourism",
+            "traffic",
+            "rain",
+            "poison",
+            "building",
+            "dog",
+            "noise",
+            "combination"
+          ]
+        }
+      }
+    }
+  }
+}

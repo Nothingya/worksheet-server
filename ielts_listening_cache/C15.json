@@ -1,0 +1,3466 @@
+{
+  "bookTitle": "Cambridge IELTS 15 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 15 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "就业中介工作推荐电话咨询",
+          "sceneEmoji": "📞",
+          "mcq": [
+            {
+              "q": "What sector does the Bankside agency mainly recruit for?",
+              "opts": [
+                [
+                  "A",
+                  "Media and communications"
+                ],
+                [
+                  "B",
+                  "Finance and admin"
+                ],
+                [
+                  "C",
+                  "Healthcare"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does William say Amber's main strength is for office work?",
+              "opts": [
+                [
+                  "A",
+                  "Business skills"
+                ],
+                [
+                  "B",
+                  "Knowledge of computer systems"
+                ],
+                [
+                  "C",
+                  "Communication"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What does William say is an advantage of using a job agency?",
+              "opts": [
+                [
+                  "A",
+                  "They advertise more jobs online"
+                ],
+                [
+                  "B",
+                  "They give feedback on interview performance"
+                ],
+                [
+                  "C",
+                  "They guarantee a minimum hourly rate"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Amber calls her friend William about a job agency called Riverside, which is based in Docklands at 497 Eastside. The agent he deals with is called Becky Jamieson. William says not to call Becky in the evening as she's always busy then trying to fill last-minute vacancies. The agency mostly recruits permanent staff for the finance sector. William says what matters most for receptionist work is communication. Temporary jobs usually last about a day at first, though they might get extended. The hourly rate is about £11. Amber should dress smartly and will need to bring her driving licence to the interview. They also ask questions about personality.",
+          "errors": [
+            {
+              "wrong": "Riverside",
+              "correct": "Bankside"
+            },
+            {
+              "wrong": "in the evening",
+              "correct": "in the morning"
+            },
+            {
+              "wrong": "permanent staff",
+              "correct": "temporary staff"
+            },
+            {
+              "wrong": "about a day",
+              "correct": "about a week"
+            },
+            {
+              "wrong": "about £11",
+              "correct": "about £10"
+            },
+            {
+              "wrong": "driving licence",
+              "correct": "passport"
+            },
+            {
+              "wrong": "Riverside",
+              "correct": "Bankside (already done — replace: evening → morning done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "The agency I was talking about is called Bankside — they're based in Docklands. The agent I always deal with is called Becky ",
+                1,
+                ". J-A-M-I-E-S-O-N."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "I wouldn't call her until the ",
+                2,
+                " if I were you — she's always really busy in the morning trying to fill last-minute vacancies."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "They mostly recruit temporary staff for the finance sector — which will look good on your CV and generally pays better too."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "For receptionist work, what matters most isn't business skills or knowing lots of computer systems — it's ",
+                3,
+                " that really matters."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "You're more likely to be offered something for a ",
+                4,
+                " at first, which might get extended. It's unusual to be sent somewhere for just a day or two."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "The hourly rate is about £",
+                5,
+                ", eleven if you're lucky."
+              ]
+            },
+            {
+              "speaker": "AMBER",
+              "parts": [
+                "I should dress smartly — I can probably borrow a ",
+                6,
+                " from Mum."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "Oh yes — they will ask to see your ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "The interview is just a chance for them to build a relationship with you. There are questions about ",
+                8,
+                " that they always ask — fairly basic ones."
+              ]
+            },
+            {
+              "speaker": "WILLIAM",
+              "parts": [
+                "One of the benefits of using an agency is that the interview will be useful because they'll give you ",
+                9,
+                " on your performance so you can improve."
+              ]
+            },
+            {
+              "speaker": "AMBER",
+              "parts": [
+                "And finding a temporary job this way takes a lot less ",
+                10,
+                " — it's much easier than ringing up individual companies."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Jamieson",
+            "afternoon",
+            "communication",
+            "week",
+            "10",
+            "suit",
+            "passport",
+            "personality",
+            "feedback",
+            "time"
+          ]
+        },
+        "2": {
+          "scene": "马恩岛六日旅游行程介绍",
+          "sceneEmoji": "🚢",
+          "kwt": [
+            {
+              "original": "We build on our many years' experience to ensure we provide perfect holidays in a small number of destinations which we've got to know extremely well.",
+              "keyWord": "EXPERTISE",
+              "transStart": "Matthews Island Holidays uses",
+              "transEnd": "to offer expertly crafted holidays in a carefully selected range of destinations.",
+              "answer": "EXTENSIVE EXPERTISE",
+              "collocation": "extensive expertise (= a large body of accumulated specialist knowledge)"
+            },
+            {
+              "original": "Unlike with many companies, the price is the same whether you book six months in advance or at the last minute.",
+              "keyWord": "REGARDLESS",
+              "transStart": "The price remains unchanged",
+              "transEnd": "— whether you book six months ahead or at the last minute.",
+              "answer": "REGARDLESS OF TIMING",
+              "collocation": "regardless of timing (= without being affected by when you book)"
+            },
+            {
+              "original": "If you make a booking then need to change the start date, for example because of illness, you're welcome to change to an alternative date for a small administrative fee.",
+              "keyWord": "CHARGE",
+              "transStart": "Changing the date of your booking is possible for a small",
+              "transEnd": "to cover administration costs.",
+              "answer": "ADMINISTRATIVE CHARGE",
+              "collocation": "administrative charge (= a modest fee to cover the cost of processing)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Day 2 — Peel and Tynwald"
+              },
+              {
+                "num": 2,
+                "left": "Day 3 — Snaefell"
+              },
+              {
+                "num": 3,
+                "left": "Day 4 — free day"
+              },
+              {
+                "num": 4,
+                "left": "Day 5 — steam railway"
+              },
+              {
+                "num": 5,
+                "left": "Day 5 — final stops"
+              }
+            ],
+            "options": [
+              "A.  free travel and heritage site entry included",
+              "B.  ends at Castletown, former capital",
+              "C.  world's oldest functioning parliament (claimed since 979; earliest record 1422)",
+              "D.  departs Douglas to Port Erin; scenic views",
+              "E.  lunch at café with panoramic views from the top"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "A",
+              "D",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "ERICA",
+              "parts": [
+                "Our six-day Isle of Man holiday starts in Heysham, where you'll travel by ferry — or optionally by train to Liverpool and ferry from there. The hotel overlooks the ",
+                1,
+                " where it flows into the harbour."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Isle of Man has its own parliament, called Tynwald. It's claimed to be the world's oldest parliament still functioning — dating back to 979. However, the earliest surviving reference to it is from ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Day three begins with a horse-drawn tram along the promenade, then an electric train to the fishing village of Laxey, then the Snaefell Mountain Railway to the ",
+                3,
+                ". Lunch will be in the café there."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Day four is free. We'll give you a ",
+                4,
+                " which covers travel on local transport and entrance to heritage sites."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Day five features a ride on the ",
+                5,
+                " railway from Douglas to Port Erin."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Afterwards you'll be taken to the headland overlooking the Calf of Man, then on to Castletown, which used to be the ",
+                6,
+                " of the Isle of Man, and its mediaeval castle."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The price covers the ferry, all travel on the island, the hotel, and five breakfasts and dinners. Lunch is included on the three days with organised trips. Lunch on the free day is typically in a café in Douglas."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's no supplement for single rooms in hotels, and the price is the same whether you book six months in advance or at the last minute."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "river",
+            "1422",
+            "top",
+            "pass",
+            "steam",
+            "capital"
+          ]
+        },
+        "3": {
+          "scene": "出生顺序与人格研究文献讨论",
+          "sceneEmoji": "👶",
+          "functions": "A  Identifying a research flaw    B  Acknowledging a personal exception    C  Presenting a research finding    D  Expressing scepticism    E  Raising a counterpoint",
+          "pragmatic": [
+            {
+              "quote": "A lot of the claims about how your position in the family determines personality traits are just stereotypes, with no robust evidence to support them.",
+              "speaker": "Ed",
+              "answer": "D"
+            },
+            {
+              "quote": "Some studies claimed oldest children were thought to be good at nurturing — certainly in the past they were expected to look after the younger ones.",
+              "speaker": "Ruth",
+              "answer": "C"
+            },
+            {
+              "quote": "Generally eager to please and helpful — although that's certainly not accurate as far as my family goes — my middle brother was always causing fights.",
+              "speaker": "Ruth",
+              "answer": "B"
+            },
+            {
+              "quote": "I don't recognise myself in any of the studies — I'm supposed to have been a sociable and confident child who made friends easily, but I was actually terribly shy.",
+              "speaker": "Ed",
+              "answer": "B"
+            },
+            {
+              "quote": "In a lot of cases data was collected from only one sibling per family, who rated him or herself and his or her siblings at the same time.",
+              "speaker": "Ed",
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "Birth Order Stereotypes",
+              "items": [
+                [
+                  "Oldest: less well-adjusted; expected to be ",
+                  {
+                    "b": 1
+                  },
+                  " toward younger siblings"
+                ],
+                [
+                  "Middle children: easier to get on with than older or younger siblings"
+                ],
+                [
+                  "Youngest: supposed to be sociable, confident — but ",
+                  {
+                    "b": 1
+                  },
+                  " evidence"
+                ],
+                [
+                  "Only children: branded as ",
+                  {
+                    "b": 1
+                  },
+                  " who think the world revolves around them"
+                ]
+              ]
+            },
+            {
+              "emoji": "👭",
+              "title": "Special Cases",
+              "items": [
+                [
+                  "Twins: likely to be shy in social situations because they depend on each other for ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Children with much older siblings: grow up more quickly; expected to do things for themselves"
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Birth Order & Academic Achievement",
+              "items": [
+                [
+                  "Performance in intelligence tests: ",
+                  {
+                    "b": 1
+                  },
+                  " slightly from eldest child down"
+                ],
+                [
+                  "Key reason: oldest children benefit from being ",
+                  {
+                    "b": 1
+                  },
+                  " to younger siblings — verbalising processes"
+                ],
+                [
+                  "Also note: family size matters — larger families more likely to have ",
+                  {
+                    "b": 1
+                  },
+                  " socio-economic status"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "good",
+            "little",
+            "loners",
+            "support",
+            "declines",
+            "teachers",
+            "low"
+          ],
+          "dictation": [
+            {
+              "speaker": "ED",
+              "parts": [
+                "The stuff on birth order and personality is mostly unreliable. A lot of the claims are just stereotypes, with no ",
+                1,
+                " evidence to support them."
+              ]
+            },
+            {
+              "speaker": "RUTH",
+              "parts": [
+                "We could start by outlining what previous research has shown. The consensus seems to be that oldest children are generally less well-adjusted because they never get over the arrival of a younger ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "RUTH",
+              "parts": [
+                "On a positive note, some studies said oldest children were thought to be good at ",
+                3,
+                " — in the past they were expected to look after the younger ones."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "Middle children are said to be easier to get on with. But there isn't such a clear picture for them. One trait many studies mention is that they're easier to ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "I'm the youngest in my family and I don't recognise myself in any of the studies. I'm supposed to have been sociable and confident, but I was actually terribly ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "There was one study on twins — a twin is likely to be quite shy in social situations because they always have their twin to depend on for ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "RUTH",
+              "parts": [
+                "Only children have had a really bad press — branded as loners who think the world revolves around them because they've never had to fight for their parents' ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "RUTH",
+              "parts": [
+                "Studies show that performances in intelligence tests ",
+                8,
+                " slightly from the eldest child to his or her younger siblings. This has been proved in lots of recent studies."
+              ]
+            },
+            {
+              "speaker": "RUTH",
+              "parts": [
+                "The main reason for the marginally higher academic performance of oldest children is surprising: it's that they benefit from being ",
+                9,
+                " for their younger siblings, by verbalising processes."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "What many studies didn't take into account was family ",
+                10,
+                ". The more siblings there are, the likelier the family is to have a low socio-economic status."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "robust",
+            "sibling",
+            "nurturing",
+            "get on with",
+            "shy",
+            "support",
+            "attention",
+            "decline",
+            "teachers",
+            "size"
+          ]
+        },
+        "4": {
+          "scene": "桉树死亡原因与生态影响讲座",
+          "sceneEmoji": "🌿",
+          "signpost": [
+            {
+              "quote": "It's alarming that all across the country, numbers of eucalyptus are falling because the trees are dying off prematurely. So what are the reasons for this?",
+              "opts": [
+                [
+                  "A",
+                  "Signalling a shift from background importance to the central problem and question"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Providing an example"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "But this problem only affected a relatively small number of trees. By 2000, huge numbers of eucalyptus were dying along Australia's East Coast.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all problems"
+                ],
+                [
+                  "B",
+                  "Contrasting the limited scope of the first disease with the much larger scale of the second problem"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But experts say that trees can start looking sick before any sign of Bell-miner Associated Die-back. So it looks as if the problem might have another explanation.",
+              "opts": [
+                [
+                  "A",
+                  "Contradicting the earlier findings"
+                ],
+                [
+                  "B",
+                  "Introducing a third and more complex cause beyond the two biological ones already discussed"
+                ],
+                [
+                  "C",
+                  "Concluding the disease section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Why do fairly frequent bushfires actually support the growth of eucalyptus?",
+              "opts": [
+                [
+                  "A",
+                  "Posing a counterintuitive question before explaining the ecological mechanism"
+                ],
+                [
+                  "B",
+                  "Questioning the importance of bushfires"
+                ],
+                [
+                  "C",
+                  "Providing an example"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Now scientists believe that this reduced frequency of bushfires has led to what's known as 'dry rainforest', which seems an odd name.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a debate"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing the direct consequence of fire suppression and explaining the paradox in the name"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌳",
+              "title": "Why Eucalyptus is Important",
+              "items": [
+                [
+                  "Gives ",
+                  {
+                    "b": 1
+                  },
+                  " to birds and bats; provides food especially nectar — supports biodiversity"
+                ],
+                [
+                  "Useful to humans: disinfectant made from ",
+                  {
+                    "b": 1
+                  },
+                  " extracted from leaves"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦠",
+              "title": "Disease 1 — Mundulla Yellows (from 1970s)",
+              "items": [
+                [
+                  "Cause: lime used in construction of ",
+                  {
+                    "b": 1
+                  },
+                  " was being washed into the ground"
+                ],
+                [
+                  "Effect: prevented trees from absorbing iron — leaves went yellow, tree died"
+                ],
+                [
+                  "Solution: injection of iron into affected trees — immediate recovery"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐦",
+              "title": "Disease 2 — Bell-miner Associated Die-back",
+              "items": [
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " settle on leaves and eat them; secrete a sugary solution that bell-miner birds love"
+                ],
+                [
+                  "Birds protect insects by driving away other species; leaves destroyed; tree dies"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔥",
+              "title": "The Bushfire Theory (Jackson)",
+              "items": [
+                [
+                  "Frequent fires → ",
+                  {
+                    "b": 1
+                  },
+                  " grows; less frequent fires → eucalyptus forests"
+                ],
+                [
+                  "Fires remove competing plants that consume ",
+                  {
+                    "b": 1
+                  },
+                  " the eucalyptus needs"
+                ],
+                [
+                  "Fires also prevent plants that harm the ",
+                  {
+                    "b": 1
+                  },
+                  " from proliferating"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌧️",
+              "title": "Consequence of Fire Suppression",
+              "items": [
+                [
+                  "Europeans suppressed fires → 'dry rainforest' develops"
+                ],
+                [
+                  "Dry rainforest: very dense vegetation but ",
+                  {
+                    "b": 1
+                  },
+                  " ecosystem — little species variety"
+                ],
+                [
+                  "Dense undergrowth: ideal for bell-miner birds, which build their ",
+                  {
+                    "b": 1
+                  },
+                  " there"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "shelter",
+            "oil",
+            "roads",
+            "insects",
+            "grass",
+            "water",
+            "soil",
+            "simple",
+            "nests"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "The eucalyptus is important because it gives ",
+                1,
+                " to creatures like birds and bats. It supports biodiversity and is also useful to humans — a disinfectant made from ",
+                2,
+                " extracted from its leaves can kill germs."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All across the country, eucalyptus trees are dying off prematurely. One possible reason is Mundulla Yellows — a disease traced back to lime being used in the construction of ",
+                3,
+                ", which washed into the ground and affected the roots."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The lime prevented the trees from sucking up the iron they needed. When iron was injected back into the affected trees, they immediately recovered."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "By 2000, huge numbers of eucalyptus were dying of Bell-miner Associated Die-back. ",
+                4,
+                " settle on the leaves and eat them, secreting a sugary solution. Bell-miner birds love this solution and drive away other creatures to protect their source."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "But there may be another explanation — one linked to the frequency of bushfires. William Jackson proposed that frequent bushfires encourage ",
+                5,
+                " to grow, while less frequent fires result in eucalyptus forests."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Fires stop the growth of other species that consume the ",
+                6,
+                " eucalyptus trees need. They also prevent plants that harm the eucalyptus by affecting the composition of the ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Since Europeans arrived, the number of bushfires has been strictly controlled. Scientists believe this has led to what's known as 'dry rainforest', which has very dense, ",
+                8,
+                " vegetation."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Dry rainforest is a ",
+                9,
+                " ecosystem with very little variety of species. It provides lots of shade, which is ideal for the bell-miner bird, which builds its ",
+                10,
+                " in the undergrowth."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "shelter",
+            "oil",
+            "roads",
+            "Insects",
+            "grass",
+            "water",
+            "soil",
+            "dry",
+            "simple",
+            "nests"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 15 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "小镇节庆活动详情咨询",
+          "sceneEmoji": "🎭",
+          "mcq": [
+            {
+              "q": "Where is the orchestra from?",
+              "opts": [
+                [
+                  "A",
+                  "The USA"
+                ],
+                [
+                  "B",
+                  "The UK"
+                ],
+                [
+                  "C",
+                  "Canada"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What is the play Jemima about, and who wrote it?",
+              "opts": [
+                [
+                  "A",
+                  "An adult drama about the history of the town"
+                ],
+                [
+                  "B",
+                  "A comedy written by a member of the local amateur group, aimed more at children"
+                ],
+                [
+                  "C",
+                  "A community drama written by a professional playwright"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the dance show Chat about?",
+              "opts": [
+                [
+                  "A",
+                  "Traditional local dances"
+                ],
+                [
+                  "B",
+                  "Technology and social media"
+                ],
+                [
+                  "C",
+                  "How people communicate or fail to communicate with each other"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Jean calls the tourist information office to ask about the town's festival. Tim tells her it starts with a concert on the afternoon of the 17th by an orchestra and singers from America. On the 18th a ballet company called Eustatis will perform. On the 19th and 20th a local professional group will perform a comedy called Jemima in the town hall, and the review in the local newspaper was very positive. Also on the 20th in the evening, a show about how people communicate, called Chat, will be performed. The cookery workshop will focus on healthy eating, showing that sweet things like cakes can contain less fat than usual. The children's workshop is on creating videos about the history of the town.",
+          "errors": [
+            {
+              "wrong": "from America",
+              "correct": "from Canada"
+            },
+            {
+              "wrong": "professional group",
+              "correct": "amateur group"
+            },
+            {
+              "wrong": "less fat",
+              "correct": "less sugar"
+            },
+            {
+              "wrong": "creating videos",
+              "correct": "creating posters"
+            },
+            {
+              "wrong": "from America",
+              "correct": "Canada (already done)"
+            },
+            {
+              "wrong": "professional",
+              "correct": "amateur (already done)"
+            },
+            {
+              "wrong": "less fat",
+              "correct": "less sugar (already done — replace: videos → posters)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "TIM",
+              "parts": [
+                "The festival starts with a concert on the afternoon of the 17th. The orchestra and singers are from Canada — very popular over there."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "On the 18th there's a ballet company called ",
+                1,
+                ". E-U-S-T-A-T-I-S. They appeared in last year's festival and went down very well."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "On the 19th and 20th a local amateur group will perform a comedy called *Jemima* in the town hall. The ",
+                2,
+                " in the local paper was very good."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "Also on the 20th — but in the evening — there's a ",
+                3,
+                " show by a professional company, with electronic music. It's about how people communicate, or fail to, with each other. It's called *",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "There's a cookery workshop, which will focus on how to make food part of a ",
+                5,
+                " lifestyle — showing that even sweet things like cakes can contain much less sugar."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "Another workshop is just for children — on creating ",
+                6,
+                " to reflect the history of the town. The results will be exhibited in the community centre."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "Then there's a toy-making workshop — for adults only, because it involves carpentry, making toys out of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "There'll also be supervised wild swimming — in a beautiful ",
+                8,
+                " just outside the town."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "And a daily walk in nearby woods. The leader is an expert on ",
+                9,
+                " — he'll show some that live in the woods and explain how important they are for the environment."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "If you'd like to read about how the preparations are going, the organiser is keeping a ",
+                10,
+                ". Just search online for the festival website."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Eustatis",
+            "review",
+            "dance",
+            "Chat",
+            "healthy",
+            "posters",
+            "wood",
+            "lake",
+            "insects",
+            "blog"
+          ]
+        },
+        "2": {
+          "scene": "明斯特公园改造项目演讲",
+          "sceneEmoji": "🌳",
+          "kwt": [
+            {
+              "original": "Minster was some waste land, which people living nearby started planting with flowers in 1892. It was unclear who actually owned the land, and this wasn't settled until 20 years later.",
+              "keyWord": "DISPUTE",
+              "transStart": "The question of who owned the land that became Minster Park remained",
+              "transEnd": "for around two decades after it was first planted.",
+              "answer": "IN DISPUTE",
+              "collocation": "in dispute (= not yet resolved or agreed upon)"
+            },
+            {
+              "original": "Diane Gosforth organised petitions and demonstrations, which eventually made the council change its mind about the future of the land.",
+              "keyWord": "PERSUADE",
+              "transStart": "Through petitions and protests, Diane Gosforth was able to",
+              "transEnd": "the council to change its plans for the land.",
+              "answer": "EVENTUALLY PERSUADE",
+              "collocation": "eventually persuade (= succeed in convincing after sustained effort)"
+            },
+            {
+              "original": "Plans for transforming it were drawn up at various times, most recently in 2013, though they were revised in 2015 before any work had started.",
+              "keyWord": "REVISED",
+              "transStart": "The transformation plans, first drawn up in 2013, were",
+              "transEnd": "and updated two years later before any work could begin.",
+              "answer": "REVISED AND",
+              "collocation": "revised and updated (= changed and improved upon)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Diane Gosforth statue"
+              },
+              {
+                "num": 2,
+                "left": "Wooden sculptures"
+              },
+              {
+                "num": 3,
+                "left": "Playground"
+              },
+              {
+                "num": 4,
+                "left": "New maze"
+              },
+              {
+                "num": 5,
+                "left": "Fitness area"
+              }
+            ],
+            "options": [
+              "A.  now next to lily pond, almost at centre",
+              "B.  near west gate — go north then turn left",
+              "C.  between path and river, north of lily pond path",
+              "D.  by east gate, where path makes a sharp bend",
+              "E.  right next to lily pond on the west gate side"
+            ],
+            "answers": [
+              "A",
+              "D",
+              "C",
+              "B",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "MARK",
+              "parts": [
+                "Minster Park has been a feature of the city for well over a century. It originated as waste land, which people started planting with flowers in 1892. It wasn't clear who owned it, and this wasn't settled until 20 years later when the council took ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Diane Gosforth played a key role. Once the council had become the legal owner, it planned to sell the land for housing. Gosforth organised petitions and demonstrations, which eventually made the council change its ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "During the First World War, most of the park was dug up and planted with ",
+                3,
+                ", which were sold locally. The army considered taking it over for troop exercises but decided the park was too small."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Diane Gosforth statue used to be close to the south gate, but it's now immediately to the north of the lily ",
+                4,
+                ", almost in the centre of the park."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a new area of wooden sculptures on the river bank, where the path from the east gate makes a sharp ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The playground has been enlarged — it's between the river and the path that leads from the pond to the river. The new maze is near the west gate — go north from there towards the river and then turn ",
+                6,
+                " to reach it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The tennis courts have been doubled, from four to eight. They're still in the south-",
+                7,
+                " corner of the park."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The new fitness area is right next to the lily pond on the same side as the west ",
+                8,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "possession",
+            "mind",
+            "vegetables",
+            "pond",
+            "bend",
+            "left",
+            "west",
+            "gate"
+          ]
+        },
+        "3": {
+          "scene": "狄更斯小说与维多利亚时代展览规划",
+          "sceneEmoji": "📖",
+          "functions": "A  Proposing a topic connection    B  Challenging the relevance of a suggestion    C  Rejecting an approach as too general    D  Confirming a biographical link    E  Proposing a personal favourite",
+          "pragmatic": [
+            {
+              "quote": "I suggest just using Charles Dickens — most people have heard of him and have probably read some of his novels, so that's a good lead-in to life in his time.",
+              "speaker": "Graham",
+              "answer": "A"
+            },
+            {
+              "quote": "There's an interesting point that there's a character who keeps falling asleep, and that medical condition was named after the book — Pickwickian Syndrome.",
+              "speaker": "Graham",
+              "answer": "A"
+            },
+            {
+              "quote": "Oliver is taught how to steal — we could use that to illustrate the fact that very few children went to school.",
+              "speaker": "Cathy",
+              "answer": "A"
+            },
+            {
+              "quote": "There's also the company of touring actors that Nicholas joins — we could do something on theatres and other amusements of the time.",
+              "speaker": "Graham",
+              "answer": "A"
+            },
+            {
+              "quote": "So was Dickens's father, wasn't he? — in a debtors' prison?",
+              "speaker": "Graham",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📚",
+              "title": "Dickens Novels & Topics",
+              "items": [
+                [
+                  "The Pickwick Papers (1836): character who keeps falling asleep → ",
+                  {
+                    "b": 1
+                  },
+                  " condition named after the book"
+                ],
+                [
+                  "Oliver Twist: Oliver taught to steal → topic of children's ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Nicholas Nickleby: touring actors → topic of theatres and ",
+                  {
+                    "b": 1
+                  },
+                  " of the time"
+                ],
+                [
+                  "Martin Chuzzlewit: goes to the ",
+                  {
+                    "b": 1
+                  },
+                  " — Dickens had been there a year before"
+                ],
+                [
+                  "Bleak House: satire of the legal system; also story of Esther and her ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Little Dorrit: Old Mr Dorrit in a debtors' ",
+                  {
+                    "b": 1
+                  },
+                  " — so was Dickens's own father"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎯",
+              "title": "Audience",
+              "items": [
+                [
+                  "Used to target English students — but now open day for ",
+                  {
+                    "b": 1
+                  },
+                  " public and potential applicants"
+                ],
+                [
+                  "Focus: people from outside the university, not current students or ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "medical",
+            "education",
+            "amusements",
+            "USA",
+            "guardian",
+            "prison",
+            "general",
+            "lecturers"
+          ],
+          "dictation": [
+            {
+              "speaker": "GRAHAM",
+              "parts": [
+                "It's entirely up to us which novels to focus on. I suggest just using Charles Dickens — most people have heard of him and have read some of his novels, so that's a good ",
+                1,
+                " to life in his time."
+              ]
+            },
+            {
+              "speaker": "GRAHAM",
+              "parts": [
+                "His novels show the awful conditions most people had to live in — he wanted to shock people into doing something about it. But I'm inclined to ignore his campaigning and focus on the ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "GRAHAM",
+              "parts": [
+                "The Pickwick Papers was very successful when it came out. There's a character who keeps falling ",
+                3,
+                " — and that medical condition was named after the book: Pickwickian Syndrome."
+              ]
+            },
+            {
+              "speaker": "CATHY",
+              "parts": [
+                "For Oliver Twist: Oliver is taught how to steal — we could use that to illustrate that very few children went to school, particularly not poor ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "GRAHAM",
+              "parts": [
+                "For Nicholas Nickleby — there's the company of touring ",
+                5,
+                " that Nicholas joins. We could do something on theatres and other amusements of the time."
+              ]
+            },
+            {
+              "speaker": "CATHY",
+              "parts": [
+                "For Martin Chuzzlewit: he goes to the USA, and Dickens himself had been there a year before and drew on his experience in the ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "CATHY",
+              "parts": [
+                "Bleak House — my favourite of his novels. Think about Esther the heroine — she lives with someone she doesn't know is her ",
+                7,
+                ", who treats her very badly. Then she's very happy living with her guardian."
+              ]
+            },
+            {
+              "speaker": "GRAHAM",
+              "parts": [
+                "For Little Dorrit: Old Mr Dorrit has been in a debtors' prison for years — and so was Dickens's own ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "GRAHAM",
+              "parts": [
+                "What about focusing on the part when Mr Dorrit inherits a fortune, and starts ",
+                9,
+                " he's always been rich?"
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "lead-in",
+            "novels",
+            "asleep",
+            "children",
+            "actors",
+            "novel",
+            "aunt",
+            "father",
+            "pretending"
+          ]
+        },
+        "4": {
+          "scene": "莫桑比克农业扶贫项目案例研究讲座",
+          "sceneEmoji": "🌾",
+          "signpost": [
+            {
+              "quote": "This is a dry and arid region, with unpredictable rainfall. Because of this, people in the area were unable to support themselves through agriculture.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the background"
+                ],
+                [
+                  "B",
+                  "Explaining the environmental constraints that drove the unsustainable charcoal-selling practice"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "The programme focused primarily on making use of existing water resources from the Limpopo River by setting up systems of irrigation.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the core intervention before describing how it was implemented"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Summarising all activities"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Getting the produce to places where it could be marketed was sometimes a problem, as the farmers did not have access to transport.",
+              "opts": [
+                [
+                  "A",
+                  "Identifying an unexpected obstacle after describing the agricultural success"
+                ],
+                [
+                  "B",
+                  "Questioning the value of the programme"
+                ],
+                [
+                  "C",
+                  "Concluding the programme"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "There was also an additional initiative that had not been originally planned, but which became a central feature of the programme.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing an organic community-led innovation that was adopted post-launch"
+                ],
+                [
+                  "B",
+                  "Criticising the original plan"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "It's important to set realistic timelines for each phase of the programme, especially for its design, as mistakes made at this stage may be hard to correct later on.",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Drawing a lesson from the programme for future similar projects"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌍",
+              "title": "Background — Chicualacuala District",
+              "items": [
+                [
+                  "Dry, arid region near Limpopo River — unpredictable rainfall"
+                ],
+                [
+                  "People had survived by selling charcoal from the forest — not ",
+                  {
+                    "b": 1
+                  },
+                  " long-term"
+                ],
+                [
+                  "Programme used ",
+                  {
+                    "b": 1
+                  },
+                  " from the river to enable farming"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌱",
+              "title": "Setting Up the Programme",
+              "items": [
+                [
+                  "One farmers' association existed — two more were set up; mainly ",
+                  {
+                    "b": 1
+                  },
+                  " formed the workforce"
+                ],
+                [
+                  "Crops fenced off to protect from animals — programme provided ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Programme provided pumps and ",
+                  {
+                    "b": 1
+                  },
+                  "; labour provided entirely by local people"
+                ],
+                [
+                  "Local people provided and put up the ",
+                  {
+                    "b": 1
+                  },
+                  " supporting the fences"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚚",
+              "title": "Problems Encountered",
+              "items": [
+                [
+                  "Farmers couldn't get produce to ",
+                  {
+                    "b": 1
+                  },
+                  " — no access to transport"
+                ],
+                [
+                  "Vegetables spoiled: farmers needed to learn techniques for ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🐟",
+              "title": "Community-Led Additions",
+              "items": [
+                [
+                  "Farmers dug tanks and filled with water to breed ",
+                  {
+                    "b": 1
+                  },
+                  " — important protein source"
+                ],
+                [
+                  "Also set up colonies of ",
+                  {
+                    "b": 1
+                  },
+                  " — for honey to eat and sell"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Lessons Learned",
+              "items": [
+                [
+                  "In arid regions: reliable water source → great potential for agriculture"
+                ],
+                [
+                  "Set realistic timelines — especially for the ",
+                  {
+                    "b": 1
+                  },
+                  " phase"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "sustainable",
+            "irrigation",
+            "women",
+            "wire",
+            "seeds",
+            "posts",
+            "market",
+            "preservation",
+            "fish",
+            "bees",
+            "design"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "The programme worked with three communities in Chicualacuala district, near the Limpopo River — a dry, arid region with unpredictable ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "People in the area had been selling charcoal from the forest, but this was not a ",
+                2,
+                " way of living, as they were rapidly using up this resource."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The programme focused primarily on setting up systems of ",
+                3,
+                " from the Limpopo River — providing a dependable water supply for crops and animals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The programme worked with the district government and set up two additional farmers' associations. It was notable that in general, ",
+                4,
+                " formed the majority of the workforce."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Crops needed to be protected from animals. The community created fences, but the programme provided the necessary ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The programme also provided pumps and ",
+                6,
+                ". However, the labour was all provided by local people — they also provided the ",
+                7,
+                " that supported the fences."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Getting the produce to market was sometimes a problem — farmers didn't have access to ",
+                8,
+                " and large amounts of vegetables were spoiled."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "To prevent food from being spoiled, the farmers needed to learn techniques for its ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Farmers started digging tanks to breed ",
+                10,
+                " — an important source of protein. Later, they also set up colonies of ",
+                11,
+                " for honey."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The programme shows that sustainable development is possible in arid areas. But it's important to set realistic timelines — especially for the ",
+                12,
+                " phase, as mistakes then are hard to correct."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "rainfall",
+            "sustainable",
+            "irrigation",
+            "women",
+            "wire",
+            "seeds",
+            "posts",
+            "transport",
+            "preservation",
+            "fish",
+            "bees",
+            "design"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 15 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "就业中介双职缺面谈",
+          "sceneEmoji": "💼",
+          "mcq": [
+            {
+              "q": "What kind of company is Home Solutions?",
+              "opts": [
+                [
+                  "A",
+                  "A media company"
+                ],
+                [
+                  "B",
+                  "A company that designs and makes furniture"
+                ],
+                [
+                  "C",
+                  "A financial services company"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Sally say about Joe's teleconferencing experience?",
+              "opts": [
+                [
+                  "A",
+                  "He has exactly one year's experience"
+                ],
+                [
+                  "B",
+                  "He has three years, which exceeds the one year they asked for"
+                ],
+                [
+                  "C",
+                  "He has no experience at all"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Joe say he particularly enjoyed in his last warehouse job?",
+              "opts": [
+                [
+                  "A",
+                  "Dealing with customers"
+                ],
+                [
+                  "B",
+                  "Working with numbers"
+                ],
+                [
+                  "C",
+                  "Being part of a team"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Sally Baker from the agency meets Joe to discuss two jobs. The first is at Home Solutions, a furniture design company in West London. They want someone who can do data entry, attend meetings and take notes, manage the diary, and use spreadsheets. They also need someone with good attention to detail and experience of video conferencing. Joe has three years of teleconferencing experience — they were only asking for at least two years. The second job is for a warehouse supervisor in South London. Key requirements include managing stock and receipts. Joe also mentioned that one of the things he most enjoyed in his previous warehouse job was working with a team.",
+          "errors": [
+            {
+              "wrong": "West London",
+              "correct": "North London"
+            },
+            {
+              "wrong": "video conferencing",
+              "correct": "teleconferencing"
+            },
+            {
+              "wrong": "at least two years",
+              "correct": "at least one year"
+            },
+            {
+              "wrong": "managing stock and receipts",
+              "correct": "managing stock and deliveries"
+            },
+            {
+              "wrong": "West London",
+              "correct": "North London (already done)"
+            },
+            {
+              "wrong": "two years",
+              "correct": "one year (already done)"
+            },
+            {
+              "wrong": "receipts",
+              "correct": "deliveries"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "The first one is at Home Solutions — they design and make ",
+                1,
+                ". They want someone who can do data entry, attend meetings and take ",
+                2,
+                ", and cope with general admin."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "In my last job I also had to manage the ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "Excellent. They also want someone careful who takes care with ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "They mention they want experience of teleconferencing — they want at least ",
+                5,
+                " year. You have three years, so that's great."
+              ]
+            },
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "The second position is for a warehouse assistant in South London. They want someone who can manage the stock and also ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "They want someone who's computer literate, has good organisational skills, and is ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "In my last warehouse job, one of the things I most enjoyed was being part of a ",
+                8,
+                ". They do mention that, yes?"
+              ]
+            },
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "Yes. Now in your previous warehouse work, you'd be OK moving ",
+                9,
+                " things?"
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "Sure. I'm quite strong and I've had the training."
+              ]
+            },
+            {
+              "speaker": "SALLY",
+              "parts": [
+                "Good. They also want experience of customer service — looking at your CV you're OK there."
+              ]
+            },
+            {
+              "speaker": "JOE",
+              "parts": [
+                "Right. So what about the ",
+                10,
+                " service requirement — is that for external customers?"
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "furniture",
+            "notes",
+            "diary",
+            "details",
+            "one",
+            "deliveries",
+            "tidy",
+            "team",
+            "heavy",
+            "customer"
+          ]
+        },
+        "2": {
+          "scene": "街道儿童游乐计划介绍演讲",
+          "sceneEmoji": "🛴",
+          "kwt": [
+            {
+              "original": "It took at least two years of campaigning before we were actually able to make it happen. So the scheme's been up and running for three years now.",
+              "keyWord": "ESTABLISHED",
+              "transStart": "After two years of campaigning, the scheme was",
+              "transEnd": "three years ago and has been running successfully since.",
+              "answer": "SUCCESSFULLY ESTABLISHED",
+              "collocation": "successfully established (= set up and now running effectively)"
+            },
+            {
+              "original": "There are always a few who complain but they're a tiny minority. On the whole everyone is very supportive.",
+              "keyWord": "VAST",
+              "transStart": "The",
+              "transEnd": "of residents are supportive of the scheme, despite a small number of complaints.",
+              "answer": "VAST MAJORITY",
+              "collocation": "the vast majority (= nearly everyone; all but a very small number)"
+            },
+            {
+              "original": "Kids develop confidence in themselves to be outside without their parents.",
+              "keyWord": "INDEPENDENTLY",
+              "transStart": "A key benefit of the scheme is that children build confidence to go outside",
+              "transEnd": ", growing in confidence without adult supervision.",
+              "answer": "AND PLAY INDEPENDENTLY",
+              "collocation": "play independently (= engage in activity without needing adult supervision)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Frequency of closures"
+              },
+              {
+                "num": 2,
+                "left": "Cars allowed in closed street"
+              },
+              {
+                "num": 3,
+                "left": "Who the scheme is most needed by"
+              },
+              {
+                "num": 4,
+                "left": "Most common resident reaction"
+              },
+              {
+                "num": 5,
+                "left": "Biggest benefit for children"
+              }
+            ],
+            "options": [
+              "A.  children on busy roads with no garden or park access",
+              "B.  once a week; goal is to extend to weekends",
+              "C.  developing confidence to be outside without parents",
+              "D.  residents' cars only, at under 20 km/h",
+              "E.  positive — happy to see children playing outside"
+            ],
+            "answers": [
+              "B",
+              "D",
+              "A",
+              "E",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "The Street Play Scheme started about six years ago. It took at least two years of campaigning before we could make it happen. The scheme's been running for ",
+                1,
+                " years now."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The road isn't completely closed to all cars — only residents' cars are allowed, driving at under 20 kilometres per ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The scheme is most needed by children who live on busy roads — especially those with no access to parks or large ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've been surprised by the positive reaction of residents all over the city. Most people are very supportive and say they're very happy to see children out on the ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Children get fresh air instead of sitting staring at a computer ",
+                5,
+                ". And they develop confidence in themselves to be outside without their parents."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Children also get to know the adults in the street — it's like having a big extended ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the King Street experiment, we stopped people from parking on King Street but left the other car parks open. Air quality was significantly better — but what I hadn't expected was how much ",
+                7,
+                " it would be, even with the buses still running."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We thought there'd be fewer people out shopping — but actually sales in the shops went ",
+                8,
+                " considerably."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "three",
+            "hour",
+            "gardens",
+            "street",
+            "screen",
+            "family",
+            "quieter",
+            "up"
+          ]
+        },
+        "3": {
+          "scene": "报纸报道比较分析作业讨论",
+          "sceneEmoji": "📰",
+          "functions": "A  Recommending a topic type    B  Identifying a key analytical question    C  Explaining a structural analysis technique    D  Noting a relationship between two elements    E  Describing the purpose of news writing",
+          "pragmatic": [
+            {
+              "quote": "There's the question of which page of the newspaper the item appears on — that shows how important the editor thinks the story is.",
+              "speaker": "Tom",
+              "answer": "B"
+            },
+            {
+              "quote": "What structure is it given? Bear in mind that not many people read beyond the first paragraph, so what has the journalist put at the beginning?",
+              "speaker": "Tom",
+              "answer": "C"
+            },
+            {
+              "quote": "Often the writer's purpose is not to inform the public — it may be to create fear, or controversy, or to make somebody look ridiculous.",
+              "speaker": "Tom",
+              "answer": "E"
+            },
+            {
+              "quote": "The writer may also make assumptions about the reader — about their knowledge of the subject, their attitudes, and their level of education.",
+              "speaker": "Tom",
+              "answer": "D"
+            },
+            {
+              "quote": "It'll be easier and more fun if it's something you're interested in and know something about — on that basis a national news item would be worth analysing.",
+              "speaker": "Tom",
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📏",
+              "title": "What to Compare",
+              "items": [
+                [
+                  "Which ",
+                  {
+                    "b": 1
+                  },
+                  " the story appears on — indicates importance to the editor"
+                ],
+                [
+                  "The ",
+                  {
+                    "b": 1
+                  },
+                  " — number of column inches, how many columns it spreads over"
+                ],
+                [
+                  "Graphics — visual elements that can affect the reader's understanding more than the ",
+                  {
+                    "b": 1
+                  },
+                  " itself"
+                ],
+                [
+                  "Structure — what is put at the ",
+                  {
+                    "b": 1
+                  },
+                  " (most people don't read beyond first paragraph)"
+                ],
+                [
+                  "The writer's ",
+                  {
+                    "b": 1
+                  },
+                  " — to inform, or to create fear, controversy, or ridicule"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧐",
+              "title": "Reader Analysis",
+              "items": [
+                [
+                  "",
+                  {
+                    "b": 1
+                  },
+                  " the writer makes about reader knowledge, attitudes, and education level"
+                ],
+                [
+                  "Accuracy: compare versions and work out what's true and what ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎯",
+              "title": "Tom's Advice on Topic Choice",
+              "items": [
+                [
+                  "National politics, the arts — anything as long as covered in two or three ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Tom looked for editorial comparisons but couldn't find two on the ",
+                  {
+                    "b": 1
+                  },
+                  " topic"
+                ],
+                [
+                  "Tom ended up choosing a human interest story about a sick girl — some papers gave the full picture, others just praised the ",
+                  {
+                    "b": 1
+                  },
+                  " who donated money"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "page",
+            "size",
+            "text",
+            "beginning",
+            "purpose",
+            "assumptions",
+            "isn't",
+            "newspapers",
+            "same",
+            "strangers"
+          ],
+          "dictation": [
+            {
+              "speaker": "TOM",
+              "parts": [
+                "There are several things to compare. There's the question of which ",
+                1,
+                " of the newspaper the story appears on — that shows how important the editor thinks it is."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "There's the ",
+                2,
+                " — how many column inches it gets, how many columns it spreads over."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Then ",
+                3,
+                " — whether there's anything visual in addition to the text. They can have a big effect — sometimes bigger than the text itself."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Then look at the ",
+                4,
+                " the item is given. Not many people read beyond the first paragraph — so what has the journalist put at the beginning?"
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Compare what's in different versions and try to work out what's true. That relates to a very important point: what's the writer's ",
+                5,
+                ". It may seem to inform the public, but often it's to create fear, or controversy."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "The writer may make ",
+                6,
+                " about the reader — about their knowledge of the subject, their attitudes, and their level of education."
+              ]
+            },
+            {
+              "speaker": "HAZEL",
+              "parts": [
+                "On that basis a national news item would be worth analysing — I'm quite keen on ",
+                7,
+                ", so I'll try and find a suitable topic."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "I wanted to compare editorials, but when I started looking I couldn't find two on the same ",
+                8,
+                " that I wanted to analyse."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "So in the end I chose a human interest story about a young girl who was very ill and strangers raised money so she could go abroad for ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Some papers just wrote about how wonderful everyone was — others considered the broader ",
+                10,
+                ", like why treatment wasn't available here."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "page",
+            "size",
+            "graphics",
+            "structure",
+            "purpose",
+            "assumptions",
+            "politics",
+            "topic",
+            "treatment",
+            "picture"
+          ]
+        },
+        "4": {
+          "scene": "肥皂制造历史讲座",
+          "sceneEmoji": "🧼",
+          "signpost": [
+            {
+              "quote": "During the excavation of ancient Babylon, evidence was found that soapmaking was known as early as 2800 BC. Archaeologists discovered cylinders made of clay, with inscriptions saying that fats were boiled with ashes.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the earliest archaeological evidence of soap production"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "The early Greeks bathed for aesthetic reasons and apparently didn't use soap. Instead, they cleaned their bodies with blocks of sand, pumice and ashes.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Summarising all ancient methods"
+                ],
+                [
+                  "C",
+                  "Describing an alternative cleansing system before introducing the Roman soap tradition"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The first of the famous Roman baths, supplied with water from their aqueducts, was built about 312 BC. The baths were luxurious, and bathing became very popular.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the Greek section"
+                ],
+                [
+                  "B",
+                  "Connecting Roman infrastructure to the popularisation of bathing"
+                ],
+                [
+                  "C",
+                  "Concluding the ancient section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "After the fall of Rome in 467 AD and the resulting decline in bathing habits, much of Europe felt the impact of filth on public health.",
+              "opts": [
+                [
+                  "A",
+                  "Linking the fall of Rome to the collapse of hygiene practices and subsequent disease"
+                ],
+                [
+                  "B",
+                  "Defending Roman soap"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "A major step toward large-scale commercial soapmaking occurred in 1791, when a French chemist patented a process for turning salt into soda ash.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the importance of Leblanc's discovery"
+                ],
+                [
+                  "B",
+                  "Concluding the industrial section"
+                ],
+                [
+                  "C",
+                  "Identifying a specific industrial turning point in soap history before introducing the scientific breakthrough"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏺",
+              "title": "Ancient Origins",
+              "items": [
+                [
+                  "Babylon 2800 BC: clay cylinders with inscriptions — fats boiled with ashes (in ",
+                  {
+                    "b": 1
+                  },
+                  ")"
+                ],
+                [
+                  "Ancient Greeks: cleaned with sand, pumice and ashes; used ",
+                  {
+                    "b": 1
+                  },
+                  " scraped off with a metal instrument (strigil)"
+                ],
+                [
+                  "Ancient Germans / Gauls: made 'soap' from animal fat and ashes — used to tint ",
+                  {
+                    "b": 1
+                  },
+                  " red"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏛️",
+              "title": "Rome",
+              "items": [
+                [
+                  "Name 'soap' from Mount Sapo: animal fat and ash washed by rain into the clay soil by the River Tiber — women found it helped wash clothes"
+                ],
+                [
+                  "First Roman ",
+                  {
+                    "b": 1
+                  },
+                  " (312 BC) — bathing became very popular"
+                ],
+                [
+                  "By 2nd century AD: Greek physician Galen recommended soap for medicinal and cleansing purposes"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚫",
+              "title": "Middle Ages",
+              "items": [
+                [
+                  "Fall of Rome (467 AD) → decline in bathing → widespread ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Soapmaking became an established craft; ",
+                  {
+                    "b": 1
+                  },
+                  " added for the first time"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚗️",
+              "title": "Scientific Breakthroughs",
+              "items": [
+                [
+                  "1791: Leblanc patented process for turning ",
+                  {
+                    "b": 1
+                  },
+                  " into soda ash (the alkali for soapmaking)"
+                ],
+                [
+                  "Early 19th C: Michel Eugène Chevreul discovered chemical nature of fats, glycerine, fatty acids → soapmaking became a ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "💰",
+              "title": "Modern Era",
+              "items": [
+                [
+                  "Until 19th C: soap was a luxury item, heavily ",
+                  {
+                    "b": 1
+                  },
+                  " in several countries"
+                ],
+                [
+                  "Once tax was removed, ordinary people could afford it → cleanliness standards improved"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "clay",
+            "oil",
+            "hair",
+            "baths",
+            "disease",
+            "perfume",
+            "salt",
+            "science",
+            "taxed"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "During the excavation of ancient Babylon, evidence was found that soapmaking was known as early as 2800 BC. Archaeologists discovered cylinders made of ",
+                1,
+                " with inscriptions saying that fats were boiled with ashes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The early Greeks didn't use soap. Instead they cleaned their bodies with blocks of sand, pumice and ashes, then anointed themselves with ",
+                2,
+                " scraped off with a ",
+                3,
+                " instrument called a strigil."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ancient Germans and Gauls made a substance from animal fat and ashes — and used it to tint their ",
+                4,
+                " red."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first of the famous Roman ",
+                5,
+                " was built about 312 BC. By the second century AD, the Greek physician Galen recommended soap for medicinal and cleansing purposes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After the fall of Rome in 467 AD, much of Europe felt the impact of filth on public health. Unsanitary conditions were major factors in the outbreaks of ",
+                6,
+                " in the Middle Ages."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Soapmaking became an established craft in Europe. Vegetable and animal oils were used with plant ashes, along with ",
+                7,
+                ", apparently for the first time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1791, Nicholas Leblanc patented a process for turning ",
+                8,
+                " into soda ash — the alkali that combines with fat to form soap."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the early 19th century, Michel Eugène Chevreul discovered the chemical nature of fats, glycerine and fatty acids. His studies established the basis for soap chemistry — soapmaking became a ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Until the 19th century, soap was regarded as a luxury item and was heavily ",
+                10,
+                " in several countries. When the high tax was removed, ordinary people could afford it and cleanliness standards improved."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "clay",
+            "oil",
+            "metal",
+            "hair",
+            "baths",
+            "disease",
+            "perfume",
+            "salt",
+            "science",
+            "taxed"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 15 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "铁路乘客满意度调查访谈",
+          "sceneEmoji": "🚆",
+          "mcq": [
+            {
+              "q": "Why is Sophie in town today?",
+              "opts": [
+                [
+                  "A",
+                  "For work"
+                ],
+                [
+                  "B",
+                  "For shopping on her day off"
+                ],
+                [
+                  "C",
+                  "To visit friends"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Sophie say about the ticket office?",
+              "opts": [
+                [
+                  "A",
+                  "It is open 24 hours a day"
+                ],
+                [
+                  "B",
+                  "It closes early and she hates using ticket machines"
+                ],
+                [
+                  "C",
+                  "It sells discounted tickets"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Sophie say is the best improvement at the station?",
+              "opts": [
+                [
+                  "A",
+                  "The new café"
+                ],
+                [
+                  "B",
+                  "The seating on the platforms"
+                ],
+                [
+                  "C",
+                  "The improved passenger information displays"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A man conducts a customer satisfaction survey for the railway. Sophie Bird is a journalist who came to town today for a business meeting. She is travelling back to Staunfirth. She bought a regular return ticket and paid £23.70 for it. She bought the ticket online yesterday because the ticket office closes early and she hates using machines. She was most satisfied with the wifi on the train. She was not satisfied with the fact that the train was delayed — it was about 15 minutes late. She thinks the best improvement at the station is the increased number of seats. She is neither satisfied nor dissatisfied with the seating.",
+          "errors": [
+            {
+              "wrong": "for a business meeting",
+              "correct": "for shopping (it's her day off)"
+            },
+            {
+              "wrong": "regular return ticket",
+              "correct": "return ticket (it's just a standard return, not a special type)"
+            },
+            {
+              "wrong": "the increased number of seats",
+              "correct": "the improved passenger information"
+            },
+            {
+              "wrong": "She is neither satisfied nor dissatisfied with the seating",
+              "correct": "she is dissatisfied with the lack of seating (not enough places to sit)"
+            },
+            {
+              "wrong": "for a business meeting",
+              "correct": "for shopping (already done)"
+            },
+            {
+              "wrong": "regular return",
+              "correct": "return (already done)"
+            },
+            {
+              "wrong": "increased number of seats",
+              "correct": "information displays (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Could you tell me what you do?"
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "I'm a ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Was the reason for your visit here today work?"
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "Actually, it's my day off. I came here to do some ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Which station are you travelling back to?"
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "",
+                3,
+                ", where I live. S-T-A-U-N-F-I-R-T-H."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "What kind of ticket did you buy?"
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "Just a normal ",
+                4,
+                " ticket. I don't have a rail card so I didn't get any discount."
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "I paid £",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "I know the ticket office closes early and I hate using ticket machines. So I got an e-ticket ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "The thing I like most is the wifi on the train — it makes it easier for me to work if I want to."
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "Today there was a ",
+                7,
+                " — the train was about 15 minutes behind schedule."
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "The best improvement at the station is the ",
+                8,
+                " about train times — it's much clearer now."
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "One thing is there aren't enough places to sit, especially on the ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "What about the parking at the station?"
+              ]
+            },
+            {
+              "speaker": "SOPHIE",
+              "parts": [
+                "I never use it, so I have no opinion — neither satisfied nor dissatisfied for ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "journalist",
+            "shopping",
+            "Staunfirth",
+            "return",
+            "23.70",
+            "online",
+            "delay",
+            "information",
+            "platforms",
+            "parking"
+          ]
+        },
+        "2": {
+          "scene": "克罗夫特山谷公园改造项目说明",
+          "sceneEmoji": "🏞️",
+          "kwt": [
+            {
+              "original": "The formal gardens have been replanted and should be at their best in a month or two. They used to be behind the old museum, but we've now used the space near the south gate.",
+              "keyWord": "RELOCATED",
+              "transStart": "The formal gardens have been",
+              "transEnd": "from their original position behind the old museum to the area near the south gate.",
+              "answer": "RECENTLY RELOCATED",
+              "collocation": "recently relocated (= moved to a new position not long ago)"
+            },
+            {
+              "original": "The skateboard ramp is in constant use during the evenings and holidays.",
+              "keyWord": "POPULAR",
+              "transStart": "The skateboard ramp has proved to be extremely",
+              "transEnd": ", particularly in the evenings and during school holidays.",
+              "answer": "POPULAR WITH USERS",
+              "collocation": "popular with users (= well-liked by the people who use it)"
+            },
+            {
+              "original": "A huge amount of work has been done on the glass houses to repair the damage following the disastrous fire that recently destroyed their western side.",
+              "keyWord": "RESTORE",
+              "transStart": "Extensive work has been carried out to",
+              "transEnd": "the glass houses after fire destroyed their western section.",
+              "answer": "FULLY RESTORE",
+              "collocation": "fully restore (= return completely to the original condition after damage)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Café"
+              },
+              {
+                "num": 2,
+                "left": "Formal gardens"
+              },
+              {
+                "num": 3,
+                "left": "Outdoor gym"
+              },
+              {
+                "num": 4,
+                "left": "Skateboard ramp"
+              },
+              {
+                "num": 5,
+                "left": "Wild flower area"
+              }
+            ],
+            "options": [
+              "A.  near south gate, between boundary and lake path",
+              "B.  on east side path, bend just south of adventure playground",
+              "C.  next to old museum, overlooking lake (unchanged location)",
+              "D.  end of little path off main route between lake and museum",
+              "E.  to right of south gate path, by glass houses, hidden in trees"
+            ],
+            "answers": [
+              "C",
+              "A",
+              "E",
+              "D",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "The basic arrangement of the park hasn't changed — it still has two gates, north and south, and a lake in the middle."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The café is still in the same place, looking out over the lake and next to the old ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The formal gardens have been replanted. They used to be behind the old museum, but we've now used the space near the south ",
+                2,
+                " — between the park boundary and the path that goes past the lake."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a new outdoor ",
+                3,
+                " — it's by the glass houses, just to the right of the path from the south gate. You have to look for it as it's a bit hidden in the trees."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The skateboard ramp is in constant use. It's near the old museum, at the end of a little path that leads off from the main path between the lake and the ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a new area for wild flowers to attract bees and butterflies. It's on a bend in the path that goes round the east side of the lake, just south of the adventure ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The adventure playground is in the north of the park. It's open year-round, though it closes early in ",
+                6,
+                " months, and entrance is completely free."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A huge amount of work was done on the glass houses to repair the damage from a ",
+                7,
+                " that recently destroyed their western side. Over £80,000 was spent on replacing the glass walls, metal supports and plants."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Unfortunately the collection of tropical palm trees has proved too expensive to replace. At present the glass houses are open from 10am to 3pm Mondays to ",
+                8,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "museum",
+            "gate",
+            "gym",
+            "museum",
+            "playground",
+            "winter",
+            "fire",
+            "Thursdays"
+          ]
+        },
+        "3": {
+          "scene": "冰箱与制冷历史演示规划讨论",
+          "sceneEmoji": "❄️",
+          "functions": "A  Agreeing to take on a topic    B  Expressing reluctance    C  Suggesting a topic for the other person    D  Explaining a factual discovery    E  Correcting a misconception",
+          "pragmatic": [
+            {
+              "quote": "Blocks of ice could be cut and stored in the icehouse — insulating them with straw or sawdust meant they didn't melt for months.",
+              "speaker": "Annie",
+              "answer": "D"
+            },
+            {
+              "quote": "We get rid of three million fridges a year altogether in the UK!",
+              "speaker": "Jack",
+              "answer": "D"
+            },
+            {
+              "quote": "I'm not terribly keen, to be honest — my mind just goes blank when I read anything about chemicals.",
+              "speaker": "Annie/Jack both",
+              "answer": "B"
+            },
+            {
+              "quote": "OK, all right then, I'll do you a favour. But you owe me, Jack.",
+              "speaker": "Annie",
+              "answer": "A"
+            },
+            {
+              "quote": "Don't forget trains, too — I read something about milk and butter being transported in refrigerated railroad cars in the USA, right back in the 1840s.",
+              "speaker": "Jack",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏚️",
+              "title": "Research Found: Historical Icehouses",
+              "items": [
+                [
+                  "Built in shady areas or underground near lakes — blocks of ice cut and stored"
+                ],
+                [
+                  "Insulating with ",
+                  {
+                    "b": 1
+                  },
+                  " or sawdust meant ice lasted for months"
+                ],
+                [
+                  "Ancient Romans: dug pits and imported snow from mountains → ",
+                  {
+                    "b": 1
+                  },
+                  " formed at the bottom"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧊",
+              "title": "Modern Domestic Fridges",
+              "items": [
+                [
+                  "UK average lifespan: ",
+                  {
+                    "b": 1
+                  },
+                  " years; many last 20 or more"
+                ],
+                [
+                  "Three million disposed of per year — gases can be ",
+                  {
+                    "b": 1
+                  },
+                  " for the environment"
+                ],
+                [
+                  "Manufacturers create variety of ",
+                  {
+                    "b": 1
+                  },
+                  " and colours to encourage upgrades"
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Presentation Topic Division",
+              "items": [
+                [
+                  "Range of refrigerated goods: food, drinks, flowers, medicines, and ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Effects on health: chemical history, benefits of fresh food → ",
+                  {
+                    "b": 1
+                  },
+                  " to research"
+                ],
+                [
+                  "Effects on food ",
+                  {
+                    "b": 1
+                  },
+                  " in poorer countries → Jack"
+                ],
+                [
+                  "How refrigeration helped whole ",
+                  {
+                    "b": 1
+                  },
+                  " (e.g. Las Vegas) → Jack"
+                ],
+                [
+                  "Transport: refrigerated trucks and trains (milk/butter in USA since the ",
+                  {
+                    "b": 1
+                  },
+                  ") → Annie"
+                ],
+                [
+                  "Domestic fridges: Jack does 19th–20th C; Annie does modern ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "straw",
+            "ice",
+            "11",
+            "harmful",
+            "designs",
+            "computers",
+            "Annie",
+            "producers",
+            "cities",
+            "1840s",
+            "designs"
+          ],
+          "dictation": [
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "I found an interesting article about icehouses. Blocks of ice could be cut and stored — insulating them with straw or ",
+                1,
+                " meant they didn't melt for months."
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "The ancient Romans had refrigeration too. Pits were dug in the ground and snow was imported from the mountains. Ice formed at the bottom of it. Both the ice and the ",
+                2,
+                " were sold."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "In the UK we keep domestic fridges for ",
+                3,
+                " years on average — and a lot last for 20 or more. In this country we get rid of three million a year."
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "I suppose manufacturers encourage people to spend more by making them different colours and ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "How about starting with how useful refrigeration is, and the range of goods that are refrigerated? Because of course it's not just food and drinks — ",
+                5,
+                " and medicines are refrigerated too."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "What about the effects of refrigeration on people's health — the harmful chemicals of the 19th century, but also the benefits like always having access to fresh food?"
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "I'm not terribly keen, to be honest."
+              ]
+            },
+            {
+              "speaker": "JACK",
+              "parts": [
+                "Nor me. My mind just goes blank when I read anything about chemicals."
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "Oh, all right then, I'll do you a ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "I think we should also look at how refrigeration has helped whole cities — like Las Vegas, which couldn't exist without it because it's in the middle of a ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "ANNIE",
+              "parts": [
+                "Then there's transport — refrigerated trucks and trains. Don't forget trains — milk and butter were transported in refrigerated railroad cars in the USA right back in the ",
+                8,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "sawdust",
+            "snow",
+            "11",
+            "designs",
+            "flowers",
+            "favour",
+            "desert",
+            "1840s"
+          ]
+        },
+        "4": {
+          "scene": "工业革命消费主义社会史讲座",
+          "sceneEmoji": "🏭",
+          "signpost": [
+            {
+              "quote": "It was in the 19th century that the quantity and quality of people's possessions was used as an indication of the wealth of the country.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a debate"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Establishing the historical context in which consumerism first became measurable"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "When it comes to manufacturing, we tend to think of the Industrial Revolution in images of steam engines and coal — and it's true that the Industrial Revolution couldn't have taken place at all if it weren't for these new sources of power.",
+              "opts": [
+                [
+                  "A",
+                  "Validating a common association before broadening the discussion"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Summarising all manufacturing changes"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "As well as manufacturing, there were new technologies in transport, contributing to the growth of consumerism.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the manufacturing section"
+                ],
+                [
+                  "B",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Signalling a shift from manufacturing to transport as the second contributing area"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Significantly, the goods railways moved included newspapers, which meant that thousands of people were not only more knowledgeable about what was going on, but could also read about what was available in the shops.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the role of railways"
+                ],
+                [
+                  "B",
+                  "Providing an unrelated example"
+                ],
+                [
+                  "C",
+                  "Identifying how newspapers specifically acted as a driver of consumer behaviour"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The third main area that saw changes contributing to consumerism was retailing.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Introducing the final key area after manufacturing and transport"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💰",
+              "title": "Introduction of Consumerism",
+              "items": [
+                [
+                  "19th century: people's possessions used as an indication of national ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Before: vast majority had very few possessions"
+                ],
+                [
+                  "Industrial Revolution: new sources of power — steam engines and ",
+                  {
+                    "b": 1
+                  },
+                  " — enabled mass production"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏗️",
+              "title": "Manufacturing Changes",
+              "items": [
+                [
+                  "Most advanced industry: ",
+                  {
+                    "b": 1
+                  },
+                  " — fashionable fabrics, lace and ribbons for everyone"
+                ],
+                [
+                  "New large ",
+                  {
+                    "b": 1
+                  },
+                  " replaced small workshops — workers had to travel to work"
+                ],
+                [
+                  "Large numbers migrated from villages to towns"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚂",
+              "title": "Transport Revolution",
+              "items": [
+                [
+                  "Horse and cart → canals → railways — important for transporting goods"
+                ],
+                [
+                  "Railways also carried ",
+                  {
+                    "b": 1
+                  },
+                  ", making people aware of what was available in shops"
+                ],
+                [
+                  "Faster transport made goods distribution more efficient — sold all over the country not just ",
+                  {
+                    "b": 1
+                  },
+                  " market"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏬",
+              "title": "Retailing Changes",
+              "items": [
+                [
+                  "Small shops suffered as department stores grew — a new 19th-century retail form"
+                ],
+                [
+                  "Improved ",
+                  {
+                    "b": 1
+                  },
+                  " inside made goods more visible"
+                ],
+                [
+                  "Plate glass enabled larger ",
+                  {
+                    "b": 1
+                  },
+                  ", showing goods from outside"
+                ],
+                [
+                  "New advertising: from informing customers to ",
+                  {
+                    "b": 1
+                  },
+                  " them to go shopping"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "wealth",
+            "technology",
+            "textiles",
+            "machines",
+            "newspapers",
+            "local",
+            "lighting",
+            "windows",
+            "persuading"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "It was in the 19th century that the quantity and quality of people's possessions was used as an indication of the ",
+                1,
+                " of the country."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Industrial Revolution couldn't have taken place without new sources of power. These marked an important shift away from watermills and windmills. The most advanced industry for much of the 19th century was ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Before the Industrial Revolution, people made goods in small workshops. But enormous new ",
+                3,
+                " could produce goods faster and on a larger scale — requiring a lot more space."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Horse-drawn stagecoaches were gradually replaced by canals, and then by railways — the main way of moving goods and people. Significantly, they also moved ",
+                4,
+                ", which meant people could read about what was available in shops."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Faster transport made distribution more efficient — goods could now be sold all over the country instead of just in the ",
+                5,
+                " market."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In retailing, small shops suffered as customers flocked to department stores. Improved ",
+                6,
+                " inside greatly increased the visibility of goods for sale."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The use of plate glass made ",
+                7,
+                " much larger than previously — goods could be seen from outside."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "New ways of promoting goods were introduced: previously the focus had been on informing customers about the availability of goods. Now there was an explosion in ",
+                8,
+                " trying to persuade people to go shopping."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Flanders claims that one of the great effects of the Industrial Revolution was that it created ",
+                9,
+                ". All sorts of things that had been luxuries — from sugar to cutlery — became conveniences, and before long they'd turned into necessities."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "wealth",
+            "textiles",
+            "machines",
+            "newspapers",
+            "local",
+            "lighting",
+            "windows",
+            "advertising",
+            "choice"
+          ]
+        }
+      }
+    }
+  }
+}

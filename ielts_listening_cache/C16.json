@@ -1,0 +1,3437 @@
+{
+  "bookTitle": "Cambridge IELTS 16 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 16 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "儿童工程暑期课程咨询",
+          "sceneEmoji": "🔧",
+          "mcq": [
+            {
+              "q": "What age group is the Tiny Engineers workshop for?",
+              "opts": [
+                [
+                  "A",
+                  "Three to four year-olds"
+                ],
+                [
+                  "B",
+                  "Five to six-year-olds"
+                ],
+                [
+                  "C",
+                  "Four to five-year-olds"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "In the Junior Engineers, what is the competition?",
+              "opts": [
+                [
+                  "A",
+                  "To build the highest tower"
+                ],
+                [
+                  "B",
+                  "To build the longest bridge using recycled materials"
+                ],
+                [
+                  "C",
+                  "To create the fastest car"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What day and time are the Junior Engineers classes?",
+              "opts": [
+                [
+                  "A",
+                  "Monday mornings, 9–10"
+                ],
+                [
+                  "B",
+                  "Wednesday mornings, 10–11"
+                ],
+                [
+                  "C",
+                  "Thursday afternoons"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A father calls Children's Engineering Workshops for information. His younger daughter Lydia is four and will join the Tiny Engineers. In that group, one activity is to design a cover for an egg so it won't break when dropped. They also compete to build the highest tower. They build a car powered by a balloon. His older daughter Carly has just turned seven and will be in the Junior Engineers, for children aged six to eight. They build and program model vehicles and animals. Their competition is to build the longest bridge from recycled materials. They also make a five-minute movie using animation software, and build a robot. Classes cost £50 for five weeks and are held on Thursdays from ten to eleven at Fradstone Industrial Estate. Parking is free.",
+          "errors": [
+            {
+              "wrong": "car powered by a balloon",
+              "correct": "car powered by the air in a balloon"
+            },
+            {
+              "wrong": "model vehicles and animals",
+              "correct": "model vehicles and animals ✓ — replace: 'Thursdays' with 'Wednesdays'"
+            },
+            {
+              "wrong": "Thursdays",
+              "correct": "Wednesdays"
+            },
+            {
+              "wrong": "make a five-minute movie",
+              "correct": "think up and film a five-minute movie"
+            },
+            {
+              "wrong": "a robot",
+              "correct": "a robot in the shape of a human"
+            },
+            {
+              "wrong": "Thursdays from ten to eleven",
+              "correct": "Wednesdays from ten to eleven (already done)"
+            },
+            {
+              "wrong": "from recycled materials like paper",
+              "correct": "from recycled materials like card and wood"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "SARAH",
+              "parts": [
+                "So, they work together to design a special cover for an ",
+                1,
+                ", so it doesn't break when dropped."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They also have a competition to see who can build the highest ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "And they design and build a ",
+                3,
+                " attached to a balloon — the force of air in it powers the car."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Carly will be in Junior Engineers — they construct model ",
+                4,
+                " and then program them to move."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The competition for Junior Engineers is to build the longest ",
+                5,
+                " from recycled materials — card and wood."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They also think up an idea for a five-minute ",
+                6,
+                " and film it using special animation software."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "And they build a robot in the shape of a human — they ",
+                7,
+                " it and program it to move."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Junior Engineers meets on ",
+                8,
+                " mornings from ten to eleven."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The workshops are in building 10A at ",
+                9,
+                " Industrial Estate — there's a big sign on the door."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's always plenty of ",
+                10,
+                " available at the estate, so you won't have any trouble."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "egg",
+            "tower",
+            "car",
+            "animals",
+            "bridge",
+            "movie",
+            "decorate",
+            "Wednesdays",
+            "Fradstone",
+            "parking"
+          ]
+        },
+        "2": {
+          "scene": "史蒂文森金属公司实习生入职导览",
+          "sceneEmoji": "🏭",
+          "kwt": [
+            {
+              "original": "We were lucky that the site is big enough, so moving to a new location has never been necessary.",
+              "keyWord": "NEED",
+              "transStart": "Because the site is large enough,",
+              "transEnd": "to move to a new location.",
+              "answer": "THERE HAS NEVER BEEN A NEED",
+              "collocation": "there has never been a need to (= it has never been necessary to do something)"
+            },
+            {
+              "original": "Most mornings you'll have a presentation from one of the managers, to learn about their department.",
+              "keyWord": "GIVEN",
+              "transStart": "Each morning a departmental manager will",
+              "transEnd": "a presentation to help you understand their area of work.",
+              "answer": "GIVE YOU",
+              "collocation": "give someone a presentation (= deliver a talk to an individual or group)"
+            },
+            {
+              "original": "In the past, a teacher from your school has come in at the end of each week to find out how the group were getting on.",
+              "keyWord": "PROGRESS",
+              "transStart": "Previously, a teacher from your school would visit each week to",
+              "transEnd": "of the group.",
+              "answer": "CHECK ON THE PROGRESS",
+              "collocation": "check on the progress of (= monitor how well someone or something is advancing)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Coffee room"
+              },
+              {
+                "num": 2,
+                "left": "Staff canteen"
+              },
+              {
+                "num": 3,
+                "left": "Meeting room"
+              },
+              {
+                "num": 4,
+                "left": "Human resources"
+              },
+              {
+                "num": 5,
+                "left": "Boardroom"
+              }
+            ],
+            "options": [
+              "A.  end of the left corridor, looks onto trees — pleasant view",
+              "B.  at the far end of the left corridor, last room on the right — no natural light",
+              "C.  second room on left from reception — looks onto main road",
+              "D.  right next to reception — looks onto access road and courtyard",
+              "E.  at the end of the corridor from reception — looks onto trees and road"
+            ],
+            "answers": [
+              "E",
+              "D",
+              "B",
+              "C",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JULIA",
+              "parts": [
+                "Stevenson's was founded in ",
+                1,
+                ". Ronald Stevenson set it up after completing his apprenticeship."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The long-term plan was to make components for the ",
+                2,
+                " industry, and for cars and lorries."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "However, the first five years were spent making goods for the ",
+                3,
+                " industry after an unexpected opportunity arose."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've never needed to move — but the layout isn't ideal for modern production methods, so we plan a major ",
+                4,
+                " of the site over the next five years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most mornings you'll have a presentation from one of the managers about their ",
+                5,
+                ". Starting this morning with research and development."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll spend time in each department, observing and talking to people — as long as you don't stop them from doing their ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The coffee room is at the end of the corridor to the left of reception — it looks onto the main road and some ",
+                7,
+                " on the other side."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The staff canteen is right next to reception. The windows look onto a corridor, courtyard and the access ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The meeting room is along the left corridor, right at the end — last room on the ",
+                9,
+                ". No natural daylight."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Human resources is the second room along the left corridor from reception, looking onto the main ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "1926",
+            "machine tools",
+            "healthcare",
+            "refurbishment",
+            "department",
+            "work",
+            "trees",
+            "road",
+            "right",
+            "road"
+          ]
+        },
+        "3": {
+          "scene": "鸟类绘画艺术项目选题讨论",
+          "sceneEmoji": "🎨",
+          "functions": "A  Making a thematic observation    B  Describing a personal connection    C  Expressing disappointment    D  Identifying a technical problem    E  Describing a research experience",
+          "pragmatic": [
+            {
+              "quote": "What a letdown! It poured with rain and we hardly saw a single bird. Much less use than the trip to the Natural History Museum.",
+              "speaker": "Jess",
+              "answer": "C"
+            },
+            {
+              "quote": "I found I could research so many different aspects of birds in art — colour, movement, texture. So I was looking forward to the Bird Park visit.",
+              "speaker": "Tom",
+              "answer": "E"
+            },
+            {
+              "quote": "I've realised the notes from my research are almost all just descriptions — I haven't actually evaluated anything. So I'll have to fix that.",
+              "speaker": "Tom",
+              "answer": "D"
+            },
+            {
+              "quote": "I've actually chosen it because I saw a real kingfisher once when I was little, out walking with my grandfather, and I've never forgotten it.",
+              "speaker": "Jess",
+              "answer": "B"
+            },
+            {
+              "quote": "To me it's about how ambiguous people are in the way they exploit the natural world.",
+              "speaker": "Tom",
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎯",
+              "title": "Project Stages",
+              "items": [
+                [
+                  "Introductory stage: read handouts on books and websites — the more Tom read, the more ",
+                  {
+                    "b": 1
+                  },
+                  " he got"
+                ],
+                [
+                  "Bird Park visit: disappointing — poured with rain, barely saw a bird"
+                ],
+                [
+                  "Draft proposal: amend to include ",
+                  {
+                    "b": 1
+                  },
+                  " of sources, not just description"
+                ],
+                [
+                  "Action plan: must also give a ",
+                  {
+                    "b": 1
+                  },
+                  " for decisions made"
+                ]
+              ]
+            },
+            {
+              "emoji": "🖼️",
+              "title": "Paintings Chosen",
+              "items": [
+                [
+                  "Tom: Landseer ",
+                  {
+                    "b": 1
+                  },
+                  " — staring at viewer; could discuss the danger suggested by the bird's look"
+                ],
+                [
+                  "Jess: Audubon fish hawk — discuss impression of rapid ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Jess: van Gogh ",
+                  {
+                    "b": 1
+                  },
+                  " — personal memory of seeing one as a child"
+                ],
+                [
+                  "Tom: William Wells portrait — man who's just shot a bird; his expression suggests ",
+                  {
+                    "b": 1
+                  },
+                  " about what he's done"
+                ],
+                [
+                  "Tom: Giovanni de Medici portrait — boy holding a tiny bird carefully so as not to hurt it"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "interested",
+            "evaluation",
+            "rationale",
+            "falcon",
+            "motion",
+            "kingfisher",
+            "ambiguity"
+          ],
+          "dictation": [
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Like, they gave us the theme of birds, and I'm not really interested in ",
+                1,
+                ", but I'm starting to get into it."
+              ]
+            },
+            {
+              "speaker": "JESS",
+              "parts": [
+                "When they gave us all those handouts with books and websites, I was really put off — but the more I read, the more ",
+                2,
+                " I got."
+              ]
+            },
+            {
+              "speaker": "JESS",
+              "parts": [
+                "The Bird Park visit — what a letdown! It poured with rain and we hardly saw a single ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "Yes. I liked the stuff about evolution at the Natural History Museum. And the brainstorming sessions with Dr Fletcher were good."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "I've realised the notes from my research are almost all just descriptions — I haven't actually ",
+                4,
+                " anything. So I'll have to fix that."
+              ]
+            },
+            {
+              "speaker": "JESS",
+              "parts": [
+                "It was hard having to explain the basis for my decisions in my action plan — give a ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "One painting I chose is a falcon by Landseer. He seems to be ",
+                6,
+                " straight at you — you could discuss the possible danger suggested by the bird's look."
+              ]
+            },
+            {
+              "speaker": "JESS",
+              "parts": [
+                "There's a fish hawk by Audubon — swooping over the water with a fish in its talons. I'll concentrate on the impression of rapid ",
+                7,
+                " it gives."
+              ]
+            },
+            {
+              "speaker": "JESS",
+              "parts": [
+                "I've chosen the kingfisher by van Gogh because I saw a real one once when I was little, walking with my ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "TOM",
+              "parts": [
+                "There's a portrait called William Wells — a man who's just shot a bird. To me it's about how ",
+                9,
+                " people are in the way they exploit the natural world."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "wildlife",
+            "interested",
+            "bird",
+            "evaluated",
+            "rationale",
+            "staring",
+            "motion",
+            "grandfather",
+            "ambiguous"
+          ]
+        },
+        "4": {
+          "scene": "斯多葛主义哲学与现代应用讲座",
+          "sceneEmoji": "🏛️",
+          "signpost": [
+            {
+              "quote": "Stoicism was founded in Ancient Greece by Zeno of Citium, but was practised by Epictetus, Cato, Seneca and Marcus Aurelius.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the historical survey"
+                ],
+                [
+                  "B",
+                  "Establishing the historical origins of Stoicism before discussing its principles"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Stoic principles were based on the idea that its followers could have unshakable happiness, and the key to achieving this was virtue.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all principles"
+                ],
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "C",
+                  "Introducing the central philosophical claim before explaining the mechanism"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The modern day philosopher Nassim Nicholas Taleb defines a Stoic as someone who transforms fear into caution, pain into transformation.",
+              "opts": [
+                [
+                  "A",
+                  "Contradicting the classical definition"
+                ],
+                [
+                  "B",
+                  "Providing a modern definition to bridge historical Stoicism and contemporary examples"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "The founding fathers of the United States were inspired by the philosophy.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the value of Stoicism"
+                ],
+                [
+                  "B",
+                  "Introducing the first category of historical figures who applied Stoicism"
+                ],
+                [
+                  "C",
+                  "Providing a counter-argument"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Stoicism had a profound influence on Albert Ellis, who invented Cognitive Behaviour Therapy.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a new unrelated topic"
+                ],
+                [
+                  "B",
+                  "Returning to background history"
+                ],
+                [
+                  "C",
+                  "Connecting Stoic philosophy to a specific modern psychological intervention"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📜",
+              "title": "Origins & Key Thinkers",
+              "items": [
+                [
+                  "Founded: Ancient Greece, early 3rd century BC — Zeno of Citium"
+                ],
+                [
+                  "Practised by: Epictetus, Cato, Seneca, Marcus Aurelius"
+                ],
+                [
+                  "Most never wrote for ",
+                  {
+                    "b": 1
+                  },
+                  " — Aurelius's Meditations was personal; Epictetus's ideas came via a student"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Core Principles",
+              "items": [
+                [
+                  "Key to happiness: ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Destructive emotions (anger, jealousy) are under our conscious control — we can make different ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Epictetus: 'external events I cannot control, but my choices with regard to them, I do control'"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Historical Influence",
+              "items": [
+                [
+                  "George Washington: introduced to Stoicism at 17; put on a ",
+                  {
+                    "b": 1
+                  },
+                  " based on Cato's life to inspire his men"
+                ],
+                [
+                  "Thomas Jefferson: kept Seneca beside his bed"
+                ],
+                [
+                  "Adam Smith: Stoic studies influenced his theories on ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Bill Clinton: rereads Marcus Aurelius every year"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧠",
+              "title": "Modern Applications",
+              "items": [
+                [
+                  "Albert Ellis: Stoicism influenced his invention of Cognitive Behaviour Therapy — used to treat ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "CBT: challenges irrational beliefs using ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📝",
+              "title": "Key Takeaway",
+              "items": [
+                [
+                  "Simple principle: control what you can, accept what you cannot — requires considerable ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "publication",
+            "virtue",
+            "choices",
+            "play",
+            "capitalism",
+            "depression",
+            "logic",
+            "practice"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Stoicism is the most ",
+                1,
+                " of all philosophies. It was founded in Ancient Greece by Zeno of Citium in the early 3rd century BC."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We still have access to these ideas, even though the most famous Stoics never wrote anything for ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Stoic principles were based on the idea that happiness comes from virtue — and virtue comes from understanding we can control our own ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Nassim Taleb defines a Stoic as someone who transforms fear into caution, pain into transformation, mistakes into initiation, and desire into undertaking. Using this, we can see Stoicism was practised by rulers, artists and entrepreneurs throughout history. It had a ",
+                4,
+                " influence on many people."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "George Washington put on a ",
+                5,
+                " based on the life of Cato to inspire his men during the Revolutionary War."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Adam Smith's theories on ",
+                6,
+                " were significantly influenced by the Stoicism he studied as a schoolboy."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Albert Ellis invented Cognitive Behaviour Therapy. Stoicism inspired him. CBT is most commonly used to treat ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The idea: we can take control of our lives by challenging irrational beliefs using ",
+                8,
+                " instead."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the root of Stoicism: control what you can and accept what you cannot. This requires considerable ",
+                9,
+                " — it can take a lifetime to master."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Stoics believed the most important foundation for a good life is not money or power, but a disciplined and principled ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "practical",
+            "publication",
+            "choices",
+            "negative",
+            "play",
+            "capitalism",
+            "depression",
+            "logic",
+            "practice",
+            "character"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 16 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "老照片数字化服务电话咨询",
+          "sceneEmoji": "📷",
+          "mcq": [
+            {
+              "q": "What is the maximum size of photo the standard service accepts?",
+              "opts": [
+                [
+                  "A",
+                  "20 centimetres"
+                ],
+                [
+                  "B",
+                  "40 centimetres"
+                ],
+                [
+                  "C",
+                  "30 centimetres"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "When does the customer need to make payment?",
+              "opts": [
+                [
+                  "A",
+                  "One week in advance"
+                ],
+                [
+                  "B",
+                  "After the photos have been copied and the company has notified her"
+                ],
+                [
+                  "C",
+                  "When sending the photos"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the one thing the company cannot fix?",
+              "opts": [
+                [
+                  "A",
+                  "Damaged or torn photos"
+                ],
+                [
+                  "B",
+                  "Photos that are out of focus"
+                ],
+                [
+                  "C",
+                  "Dark or underexposed photos"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman calls Picturerep about converting old family photos to digital format. Photos must be removed from their frame before sending. The minimum size is 4 centimetres and maximum is 30. The cost for 300–400 photos is £195 for the basic service, which includes one disk. Extra disks cost £5. Payment is due when the photos are sent. Photos can be kept in separate folders labelled by the customer. The company can improve colour, contrast, and can alter or remove objects or change the background. They cannot improve photos that are slightly out of focus. Processing takes ten days. Photos should be sent in a strong plastic box.",
+          "errors": [
+            {
+              "wrong": "Payment is due when the photos are sent",
+              "correct": "Payment is due after copying — the company notifies her then she pays"
+            },
+            {
+              "wrong": "plastic box",
+              "correct": "cardboard box"
+            },
+            {
+              "wrong": "slightly out of focus",
+              "correct": "not properly in focus (all cases)"
+            },
+            {
+              "wrong": "when the photos are sent",
+              "correct": "after copying is complete"
+            },
+            {
+              "wrong": "cardboard box ✓",
+              "correct": "plastic box → already done"
+            },
+            {
+              "wrong": "£195",
+              "correct": "£195 ✓ — replace: 'when the photos are sent' → 'after receipt of payment'"
+            },
+            {
+              "wrong": "sent in a strong plastic box",
+              "correct": "sent in a strong cardboard box"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "EMPLOYEE",
+              "parts": [
+                "The photos should all be removed from their ",
+                1,
+                " before sending — we can't copy them otherwise."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We charge £",
+                2,
+                " for 300 to 400 photos for the basic service — that includes one disk."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We won't need anything until we've actually copied the pictures. Once we've received the ",
+                3,
+                ", we'll send the parcel off to you."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We'll save each group in a different folder — you can suggest a name, like '",
+                4,
+                "' for instance."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the standard service each photo is checked and we can sometimes improve the ",
+                5,
+                " a bit, or improve the contrast."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If any photos look particularly fragile, we'd do them by ",
+                6,
+                ". We do realise how precious old photos can be."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We can change a photo — remove an object or alter the ",
+                7,
+                " if you want."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If photos aren't properly in ",
+                8,
+                ", I'm afraid that's one thing we can't do."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We aim to get the copying done in ",
+                9,
+                " days."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Use a strong cardboard box — we've found that ",
+                10,
+                " ones sometimes break in the post."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "frame",
+            "195",
+            "payment",
+            "Grandparents",
+            "colour",
+            "hand",
+            "background",
+            "focus",
+            "ten",
+            "plastic"
+          ]
+        },
+        "2": {
+          "scene": "学校家长会——食堂与校舍变化说明",
+          "sceneEmoji": "🏫",
+          "kwt": [
+            {
+              "original": "Planning permission has been granted for development of both sites. The lower school will move to new buildings constructed on the main site.",
+              "keyWord": "RELOCATE",
+              "transStart": "With planning permission secured, the lower school will",
+              "transEnd": "to purpose-built premises on the main site.",
+              "answer": "RELOCATE TO",
+              "collocation": "relocate to (= move to a new place, typically for practical reasons)"
+            },
+            {
+              "original": "There's only one serving point, so most pupils have to wait a considerable time to be served.",
+              "keyWord": "RESULT",
+              "transStart": "The single serving point has",
+              "transEnd": "in long waiting times for most pupils.",
+              "answer": "RESULTED",
+              "collocation": "result in (= cause something to happen as a consequence)"
+            },
+            {
+              "original": "We ask you to discuss with your children each morning which type of food they want to eat that day, so they can go straight to the relevant serving point.",
+              "keyWord": "ENABLE",
+              "transStart": "A morning conversation with your child about food preferences will",
+              "transEnd": "go directly to the right serving point without delay.",
+              "answer": "ENABLE YOUR CHILD TO",
+              "collocation": "enable your child to (= make it possible for your child to do something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "World Adventures"
+              },
+              {
+                "num": 2,
+                "left": "Street Life"
+              },
+              {
+                "num": 3,
+                "left": "Speedy Italian"
+              },
+              {
+                "num": 4,
+                "left": "Swimming lessons"
+              },
+              {
+                "num": 5,
+                "left": "Piano lessons"
+              }
+            ],
+            "options": [
+              "A.  different country each day; weekly menus planned in advance",
+              "B.  three rotating cultures; pupils suggest what to include",
+              "C.  has a waiting list — very popular",
+              "D.  suitable for vegetarians; guaranteed meat-free",
+              "E.  new — pupils previously had to go to local college"
+            ],
+            "answers": [
+              "A",
+              "B",
+              "D",
+              "C",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "The school buildings date from various times — some from the 1970s, some from the last five years, and Dartfield House is over a century old. It was originally built as a ",
+                1,
+                " home."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A later plan to convert Dartfield House into a tourist information centre didn't come about through lack of ",
+                2,
+                ". Instead it formed the nucleus of this school when it opened 40 years ago."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Planning permission has been granted. The lower school will move to new buildings on the ",
+                3,
+                " site. Developers will build houses on the existing lower school site."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The canteen is often full to capacity. The new Food Hall will have several serving ",
+                4,
+                ". Please discuss with your children each morning which food they want, so they can go straight to the right one."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's no change to the current system of paying for lunches by topping up your child's electronic ",
+                5,
+                " card online."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "World Adventures will serve a different country's cuisine each day. The menus are planned for a week at a time so pupils know what's available all ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Street Life will serve food from three particular cultures — we'll ask pupils to make ",
+                7,
+                " about what to include."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Speedy Italian will cater particularly for many pupils who don't eat meat or ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Swimming is very popular — there's a ",
+                9,
+                " list for lessons."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A former pupil has donated a magnificent grand piano, so a few pupils will learn here instead of going to the local ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "family",
+            "money",
+            "main",
+            "points",
+            "payment",
+            "week",
+            "suggestions",
+            "fish",
+            "waiting",
+            "college"
+          ]
+        },
+        "3": {
+          "scene": "睡眠与梦境心理学课题设计讨论",
+          "sceneEmoji": "😴",
+          "functions": "A  Describing a personal experiment    B  Evaluating evidence for a popular belief    C  Identifying a design challenge    D  Citing a previous assessment weakness    E  Proposing a research method",
+          "pragmatic": [
+            {
+              "quote": "The explanation I've read is that for each dream that comes true we have thousands that don't, but we don't notice those. We just remember the ones where something in the real world triggers a dream memory.",
+              "speaker": "Susie",
+              "answer": "B"
+            },
+            {
+              "quote": "That's a theory that hundreds of years ago, people used to get up in the middle of the night and have a chat. So I tried it myself.",
+              "speaker": "Luke",
+              "answer": "A"
+            },
+            {
+              "quote": "Last time I had problems with the final stage — where we had to describe and justify how successful we'd been. I struggled a bit with the action plan too.",
+              "speaker": "Luke",
+              "answer": "D"
+            },
+            {
+              "quote": "It needs to be self-reporting I think. And we could ask them to answer questions online.",
+              "speaker": "Luke",
+              "answer": "E"
+            },
+            {
+              "quote": "In this case, paper might be better as they'll be doing it straight after they wake up — in fact while they're still half-asleep.",
+              "speaker": "Susie",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💭",
+              "title": "Dream Theories Discussed",
+              "items": [
+                [
+                  "Why we forget dreams: may be protective — prevents mixing up what really happened and what we ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Dreams predicting the future: it's just ",
+                  {
+                    "b": 1
+                  },
+                  " — we only remember the ones that seem to match reality"
+                ],
+                [
+                  "Segmented sleeping: meant to make you more ",
+                  {
+                    "b": 1
+                  },
+                  " — Luke tried it but gave it up"
+                ]
+              ]
+            },
+            {
+              "emoji": "📝",
+              "title": "Research Assignment Plan",
+              "items": [
+                [
+                  "Question: is there a relationship between hours of sleep and number of ",
+                  {
+                    "b": 1
+                  },
+                  "?"
+                ],
+                [
+                  "Participants: about 12 ",
+                  {
+                    "b": 1
+                  },
+                  " students (not literature — Luke doesn't know any)"
+                ],
+                [
+                  "Method: self-reporting by paper (not online — participants will be half-asleep)"
+                ],
+                [
+                  "Check ethical guidelines: special regulations for studies involving ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Analysis: calculate correlation between hours of sleep and number of dreams; present in a ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Previous Weaknesses to Address",
+              "items": [
+                [
+                  "Luke: self-assessment and action ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Susie: statistical calculations — where she really lost ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "dreamed",
+            "coincidence",
+            "creative",
+            "dreams",
+            "history",
+            "humans",
+            "graph",
+            "plan",
+            "marks"
+          ],
+          "dictation": [
+            {
+              "speaker": "LUKE",
+              "parts": [
+                "I read that if we remembered everything we might get mixed up about what actually happened and what we ",
+                1,
+                ". So forgetting dreams is a sort of protection."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "Lots of people have a story of a dream coming true — but the explanation is that it's just a ",
+                2,
+                ". We don't remember the thousands that don't come true."
+              ]
+            },
+            {
+              "speaker": "LUKE",
+              "parts": [
+                "Segmented sleeping — the idea is that people used to get up in the middle of the night. It's meant to make you more ",
+                3,
+                ". I tried it myself but gave it up after a week."
+              ]
+            },
+            {
+              "speaker": "LUKE",
+              "parts": [
+                "Last time I had problems with the final stage — describing and justifying how successful I'd been. I also ",
+                4,
+                " a bit with the action plan."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "I was OK with the planning, but I lost marks for self-assessment — and I had big problems with the ",
+                5,
+                " calculations."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "How about: is there a relationship between hours of sleep and number of ",
+                6,
+                "?"
+              ]
+            },
+            {
+              "speaker": "LUKE",
+              "parts": [
+                "Let's use people from a different department — what about ",
+                7,
+                " students?"
+              ]
+            },
+            {
+              "speaker": "LUKE",
+              "parts": [
+                "It needs to be self-reporting. But in this case, paper might be better — they'll be doing it straight after they wake up, still half-",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "We'll have to check the ethical guidelines — our experiment involves ",
+                9,
+                ", so there are special regulations."
+              ]
+            },
+            {
+              "speaker": "SUSIE",
+              "parts": [
+                "Finally, we calculate the correlation and present our results visually in a ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "dreamed",
+            "coincidence",
+            "creative",
+            "struggled",
+            "statistical",
+            "dreams",
+            "history",
+            "asleep",
+            "humans",
+            "graph"
+          ]
+        },
+        "4": {
+          "scene": "舞蹈对健康益处的科学讲座",
+          "sceneEmoji": "💃",
+          "signpost": [
+            {
+              "quote": "Dancing, like other forms of exercise, releases hormones such as dopamine, which make us feel relaxed and happy.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Providing the physiological explanation for the wellbeing effect of dancing"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "One study compared people's enjoyment of dancing at home with dancing in a group in a studio. The people dancing in a group reported feeling happier.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Introducing research evidence that social context enhances the emotional benefit of dance"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It's well established that dance is a good way of encouraging adolescent girls to take exercise — but what about older people?",
+              "opts": [
+                [
+                  "A",
+                  "Transitioning from younger to older populations to expand the discussion"
+                ],
+                [
+                  "B",
+                  "Questioning the value of the previous study"
+                ],
+                [
+                  "C",
+                  "Concluding the benefits section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One thing I hadn't realised before researching this topic was that dance isn't just a physical challenge — it also requires a lot of concentration.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating a previous point"
+                ],
+                [
+                  "B",
+                  "Introducing an overlooked cognitive benefit of dance before connecting it to older adults"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Current research also shows that dance promotes a general sense of well-being in older participants, which can last up to a week after a class.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Presenting a specific and quantified finding about duration of wellbeing benefits"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "😊",
+              "title": "Psychological Benefits",
+              "items": [
+                [
+                  "Releases dopamine → feelings of relaxation and happiness; reduces stress and ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Group dancing produces greater happiness than dancing alone → social element matters"
+                ],
+                [
+                  "University study: those who chose to dance showed more ",
+                  {
+                    "b": 1
+                  },
+                  " in problem-solving tasks"
+                ]
+              ]
+            },
+            {
+              "emoji": "👴",
+              "title": "Benefits for Older People",
+              "items": [
+                [
+                  "No barriers to participation — even those with low ",
+                  {
+                    "b": 1
+                  },
+                  " can join"
+                ],
+                [
+                  "Promotes healthy heart; lowers risk of ",
+                  {
+                    "b": 1
+                  },
+                  " by improving balance"
+                ],
+                [
+                  "Requires remembering steps → forces the ",
+                  {
+                    "b": 1
+                  },
+                  " to process things faster"
+                ],
+                [
+                  "Sense of well-being lasts up to a week; increases ",
+                  {
+                    "b": 1
+                  },
+                  " to do daily activities"
+                ],
+                [
+                  "Ballroom and country dancing reduce ",
+                  {
+                    "b": 1
+                  },
+                  " — a huge problem in many countries"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎵",
+              "title": "Zumba (Aerobic Dance)",
+              "items": [
+                [
+                  "15 million people in 180 countries attend Zumba classes"
+                ],
+                [
+                  "40-minute class burns about 370 ",
+                  {
+                    "b": 1
+                  },
+                  " — similar to step aerobics or kickboxing"
+                ],
+                [
+                  "Women who did Zumba 3× a week for 16 weeks reduced body fat and made it a ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "anxiety",
+            "creativity",
+            "fitness",
+            "falls",
+            "brain",
+            "motivation",
+            "isolation",
+            "calories",
+            "habit"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Dancing releases hormones such as dopamine, which make us feel relaxed and happy. It also reduces feelings of stress or ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A study compared dancing at home alone with dancing in a group in a studio. The group dancers reported feeling ",
+                2,
+                ", whereas those dancing alone did not."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "University researchers found that students who chose to dance showed much more ",
+                3,
+                " when doing problem-solving tasks afterwards."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Doctor Lovatt believes dance could help people with mental health problems. He thinks it should be prescribed as ",
+                4,
+                " to help people overcome depression."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Dance is good for older people — anyone can have a go, even those whose standard of ",
+                5,
+                " is quite low."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Evidence suggests dancing lowers the risk of ",
+                6,
+                ", which could result in a broken hip, by helping people improve their balance."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Dance isn't just physical — it requires remembering steps and routines. This forces older people's ",
+                7,
+                " to process things more quickly."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Dance promotes a general sense of well-being in older participants — participants report greater ",
+                8,
+                " to do daily activities like gardening or walking."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Ballroom dancing requires collaboration and touching a partner. This helps develop new relationships and can reduce older people's sense of ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A 40-minute Zumba class burns about 370 ",
+                10,
+                ". The women enjoyed it so much they made it a habit — very unusual for an aerobic programme."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "anxiety",
+            "happier",
+            "creativity",
+            "therapy",
+            "fitness",
+            "falls",
+            "brain",
+            "motivation",
+            "isolation",
+            "calories"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 16 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "青少年自行车夏令营入营咨询",
+          "sceneEmoji": "🚲",
+          "mcq": [
+            {
+              "q": "What do Level 5 children do before riding on the road?",
+              "opts": [
+                [
+                  "A",
+                  "They watch safety videos"
+                ],
+                [
+                  "B",
+                  "They practise on a special indoor track"
+                ],
+                [
+                  "C",
+                  "They ride on the site first, then in the park away from traffic"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What must instructors submit to be accepted?",
+              "opts": [
+                [
+                  "A",
+                  "A police check"
+                ],
+                [
+                  "B",
+                  "A reference from someone who has seen them work with children"
+                ],
+                [
+                  "C",
+                  "A cycling proficiency certificate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the cost for one week?",
+              "opts": [
+                [
+                  "A",
+                  "$190"
+                ],
+                [
+                  "B",
+                  "$199"
+                ],
+                [
+                  "C",
+                  "$210"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman calls Junior Cycle Camp for information about sending her seven-year-old son Charlie. Jake explains that Level 5 is for children like Charlie who can ride but need more training. They start practising on the site and then go to the park. All instructors wear red shirts, and supervisors wear blue shirts. Instructors must submit a reference from someone who has seen them teach cycling. Classes have a limit of ten children. During quiet times the instructor might tell a story or play a game. Classes still run in rain. Children should bring spare clothes, a snack, and shoes not sandals. On Day 1 children must arrive by 9.20, as there is a careful check that the helmet fits. The camp costs $199 per week.",
+          "errors": [
+            {
+              "wrong": "instructors wear red shirts",
+              "correct": "supervisors wear red shirts; instructors wear blue shirts"
+            },
+            {
+              "wrong": "seen them teach cycling",
+              "correct": "seen them work with children"
+            },
+            {
+              "wrong": "limit of ten",
+              "correct": "limit of eight"
+            },
+            {
+              "wrong": "arrive by 9.20",
+              "correct": "arrive by 9.20 ✓ — replace: 'instructors wear red' → 'supervisors wear red'"
+            },
+            {
+              "wrong": "red shirts",
+              "correct": "supervisors wear red; instructors wear blue (already done)"
+            },
+            {
+              "wrong": "ten children",
+              "correct": "eight children (already done)"
+            },
+            {
+              "wrong": "seen them teach cycling",
+              "correct": "seen them work with children (already done — replace: 'a story' with 'a story that's about cycling')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "Level 5 start off practising on the site here, and we aim to get them riding on the road — but first they're taken to ride in the ",
+                1,
+                ", away from the traffic."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have three supervisors, and they have red shirts. The instructors themselves are in ",
+                2,
+                " shirts — one is responsible for each class."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All instructors must submit a ",
+                3,
+                " from someone who's seen them work with children — like a babysitter, for example."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have a limit of ",
+                4,
+                " children in each class. During quiet times, the instructor might tell them a ",
+                5,
+                " that's got something to do with cycling."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If it ",
+                6,
+                ", we just put on waterproofs and keep cycling."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Maybe some spare clothes — and a ",
+                7,
+                " for break time. We provide the drinks."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If Charlie has to take ",
+                8,
+                ", just give us details of when and we'll make sure he does."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Day 1, aim to arrive by 9.20. We do a very careful check to make sure every child's ",
+                9,
+                " fits properly."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "After that, all the instructors wait to meet their classes in the ",
+                10,
+                " — you can't miss it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The camp costs $199. Places are filling up quite quickly."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "park",
+            "blue",
+            "reference",
+            "eight",
+            "story",
+            "rains",
+            "snack",
+            "medication",
+            "helmet",
+            "tent"
+          ]
+        },
+        "2": {
+          "scene": "农业园艺行业招聘信息发布",
+          "sceneEmoji": "🌾",
+          "kwt": [
+            {
+              "original": "They often offer opportunities for those who don't want to be stuck with a 40-hour week, but need to juggle work with other responsibilities such as child care.",
+              "keyWord": "BALANCE",
+              "transStart": "These sectors appeal to people who need to",
+              "transEnd": "work with responsibilities such as childcare.",
+              "answer": "BALANCE THEIR",
+              "collocation": "balance their work with (= manage two competing commitments effectively)"
+            },
+            {
+              "original": "Working outdoors does have its challenges — it's fine in summer but can be extremely unpleasant when it's cold and windy.",
+              "keyWord": "DRAWBACK",
+              "transStart": "One major",
+              "transEnd": "of outdoor work is the exposure to cold and windy weather.",
+              "answer": "DRAWBACK OF",
+              "collocation": "drawback of (= a disadvantage associated with something)"
+            },
+            {
+              "original": "A leading supermarket is looking for a fresh produce buyer who is available for a 12-month maternity cover contract.",
+              "keyWord": "COVER",
+              "transStart": "A fresh produce buyer is needed to",
+              "transEnd": "for a member of staff on 12-month maternity leave.",
+              "answer": "PROVIDE COVER",
+              "collocation": "provide cover for (= act as a substitute during someone's absence)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Fresh food commercial manager"
+              },
+              {
+                "num": 2,
+                "left": "Agronomist"
+              },
+              {
+                "num": 3,
+                "left": "Fresh produce buyer"
+              },
+              {
+                "num": 4,
+                "left": "Sales manager (garden centres)"
+              },
+              {
+                "num": 5,
+                "left": "Tree technician"
+              }
+            ],
+            "options": [
+              "A.  fast-paced, sociable environment; low profit margins",
+              "B.  clean driving licence required; training course may be accepted",
+              "C.  must be willing to live in the region",
+              "D.  maternity cover; administration and buying experience required",
+              "E.  expert agricultural knowledge essential; fast career progression"
+            ],
+            "answers": [
+              "A",
+              "E",
+              "D",
+              "C",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "MEGAN",
+              "parts": [
+                "Our company specialises in positions in the agriculture and ",
+                1,
+                " sectors — fresh food production, garden and park maintenance and so on."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "These sectors often suit those who need to juggle work with other responsibilities such as child ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are certainly health benefits — especially in jobs where you're not sitting all day looking at a ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Working outdoors does have its challenges — it's fine in summer, but can be extremely unpleasant when it's cold and ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The fresh food commercial manager role is in a very fast-paced environment with low profit ",
+                5,
+                ". If you have a sociable personality, this may be for you."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The agronomist role: advise farmers on crop nutrition, pests, and ",
+                6,
+                ". There are good career progression opportunities for the right person."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The fresh produce buyer is a 12-month maternity ",
+                7,
+                " contract. You need administration, planning and buying experience."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The sales manager for garden centres will visit centres to maintain high levels of ",
+                8,
+                " service. This role requires the applicant to live in the region."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The tree technician must have a clean driving ",
+                9,
+                " and training in safety procedures."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The farm worker post involves crop sowing, harvesting, machine maintenance and animal ",
+                10,
+                ". Perks include the possibility of renting a cottage on the estate."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "horticulture",
+            "care",
+            "screen",
+            "windy",
+            "margins",
+            "legislation",
+            "cover",
+            "customer",
+            "licence",
+            "care"
+          ]
+        },
+        "3": {
+          "scene": "饮食与肥胖课题演示规划讨论",
+          "sceneEmoji": "🥗",
+          "functions": "A  Identifying a design challenge in an experiment    B  Acknowledging an unexpected result    C  Attributing deliberate intent to misleading information    D  Explaining a behavioural mechanism    E  Questioning the scope of the presentation",
+          "pragmatic": [
+            {
+              "quote": "It took me ages to decide exactly how I'd organise it — especially how I could make sure people didn't know which drink I was giving them.",
+              "speaker": "Adam",
+              "answer": "A"
+            },
+            {
+              "quote": "I hadn't thought they would be able to tell the difference, but most people could.",
+              "speaker": "Adam",
+              "answer": "B"
+            },
+            {
+              "quote": "I reckon manufacturers put confusing calorie information on labels on purpose — because food that's high in calories tastes better, and so they'll sell more.",
+              "speaker": "Rosie",
+              "answer": "C"
+            },
+            {
+              "quote": "If you put the low-calorie items at the start and end of a menu, people will probably choose those without realising what they're doing.",
+              "speaker": "Adam",
+              "answer": "D"
+            },
+            {
+              "quote": "I'm not sure if we should be talking about exercise — our tutor said we need to focus on causes and solutions in terms of nutrition.",
+              "speaker": "Adam",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🧪",
+              "title": "Adam's Experiments",
+              "items": [
+                [
+                  "Sugar vs sweetener test: 12 people couldn't tell the ",
+                  {
+                    "b": 1
+                  },
+                  " — but most could"
+                ],
+                [
+                  "Nut fat content: results showed lower fat than on the ",
+                  {
+                    "b": 1
+                  },
+                  " — thinks he should have ground them more"
+                ]
+              ]
+            },
+            {
+              "emoji": "🍕",
+              "title": "Restaurant Strategies",
+              "items": [
+                [
+                  "Items at the start and end of a menu are more likely to be ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Put low-calorie items at start/end → people choose them without realising — an unconscious ",
+                  {
+                    "b": 1
+                  },
+                  ")"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏃",
+              "title": "Exercise Evidence",
+              "items": [
+                [
+                  "About 40% of men say they meet the guidelines — but only ",
+                  {
+                    "b": 1
+                  },
+                  "% actually do when measured"
+                ],
+                [
+                  "Widening ",
+                  {
+                    "b": 1
+                  },
+                  " in a station: more people use them — minor environmental changes add up"
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Presentation Decision",
+              "items": [
+                [
+                  "Decided NOT to include exercise — too wide a ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Focus: causes and solutions in terms of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "difference",
+            "packaging",
+            "chosen",
+            "process",
+            "6",
+            "stairs",
+            "focus",
+            "nutrition"
+          ],
+          "dictation": [
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "I can talk about the experiment I did to see if people can tell the difference between real sugar and artificial ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "It took me ages to decide how to organise it — especially how to make sure people didn't know which ",
+                2,
+                " I was giving them."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "I hadn't thought they would be able to tell the difference, but most people ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "My nut fat content experiment: the fat content seemed much lower than it said on the ",
+                4,
+                ". I think I should have ground up the nuts more."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "Items at the start and end of a menu are much more likely to be ",
+                5,
+                ". If you put low-calorie items there, people go for them without even realising."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "When manufacturers put calorie counts on the label, they're sometimes confusing — and I suspect they do it on ",
+                6,
+                ". Because high-calorie food tastes better and they'll sell more."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "About 40% of men say they take the recommended exercise — but objectively, only ",
+                7,
+                "% actually do."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "Think about the location of ",
+                8,
+                " in a train station. If they come first, people use them. It's an unconscious process."
+              ]
+            },
+            {
+              "speaker": "ADAM",
+              "parts": [
+                "I'm not sure we should talk about exercise — our tutor said to focus on causes and solutions in terms of ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROSIE",
+              "parts": [
+                "We've got plenty of information about that. Let's decide what we're going to include and then work out what ",
+                10,
+                " we need."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "sweeteners",
+            "drink",
+            "could",
+            "packaging",
+            "chosen",
+            "purpose",
+            "6",
+            "stairs",
+            "nutrition",
+            "slides"
+          ]
+        },
+        "4": {
+          "scene": "手工编织历史与复兴讲座",
+          "sceneEmoji": "🧶",
+          "signpost": [
+            {
+              "quote": "During the previous decade, knitting was one of the skills predicted to vanish from everyday life.",
+              "opts": [
+                [
+                  "A",
+                  "Providing an example"
+                ],
+                [
+                  "B",
+                  "Concluding the historical survey"
+                ],
+                [
+                  "C",
+                  "Establishing the recent decline before introducing the surprising trend of revival"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "So why do people want to be taught to knit at a time when a machine can readily do the job for them?",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Posing a central paradox before explaining the personal and wellbeing benefits of handcraft"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "In a world where it's estimated that we spend up to nine hours a day online, doing something with our hands makes us feel good.",
+              "opts": [
+                [
+                  "A",
+                  "Contextualising the appeal of knitting as relief from modern technological life"
+                ],
+                [
+                  "B",
+                  "Summarising all benefits"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One of the interesting things about knitting is that the earliest pieces of clothing suggest most items produced were round rather than flat.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the value of the finds"
+                ],
+                [
+                  "B",
+                  "Highlighting a key finding from archaeological evidence before providing examples"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Another interesting fact about knitting is that because it was practised in so many parts of the world, regional differences in style developed.",
+              "opts": [
+                [
+                  "A",
+                  "Connecting global spread to differentiation before explaining the research significance"
+                ],
+                [
+                  "B",
+                  "Introducing a debate"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📈",
+              "title": "Modern Revival",
+              "items": [
+                [
+                  "Craft-based skills declined when industrial ",
+                  {
+                    "b": 1
+                  },
+                  " took over — no longer passed down"
+                ],
+                [
+                  "Now: interest in knitting classes rising; sales figures for knitting ",
+                  {
+                    "b": 1
+                  },
+                  " increasing"
+                ]
+              ]
+            },
+            {
+              "emoji": "💰",
+              "title": "Benefits of Knitting",
+              "items": [
+                [
+                  "Economic: can save money on warm children's clothes — skills needed are basic, financial ",
+                  {
+                    "b": 1
+                  },
+                  " minimal"
+                ],
+                [
+                  "Well-being: releases us from the stress of a ",
+                  {
+                    "b": 1
+                  },
+                  ", fast-paced life"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏺",
+              "title": "Archaeological Findings",
+              "items": [
+                [
+                  "Earliest pieces were ",
+                  {
+                    "b": 1
+                  },
+                  " not flat — socks and gloves knitted in one piece with 4–5 needles"
+                ],
+                [
+                  "First needles: hand-carved from wood and ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Ancient yarns: linen, hemp, cotton, wool — often rough on the skin"
+                ],
+                [
+                  "Spinning wheel: led to dominance of ",
+                  {
+                    "b": 1
+                  },
+                  " — favoured for its warmth"
+                ]
+              ]
+            },
+            {
+              "emoji": "🗺️",
+              "title": "Regional Differences",
+              "items": [
+                [
+                  "Practised worldwide → regional ",
+                  {
+                    "b": 1
+                  },
+                  " in style developed"
+                ],
+                [
+                  "Researchers can match knitted clothing to the region or job of the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "machines",
+            "equipment",
+            "outlay",
+            "technological",
+            "round",
+            "bone",
+            "wool",
+            "differences",
+            "wearer"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "When someone says the word 'knitting' we might picture a ",
+                1,
+                " perhaps — sitting by the fire knitting garments."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "During the previous decade, knitting was predicted to vanish from everyday life. These craft-based skills went into decline when industrial machines took over — mainly because they were no longer passed down through ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Interest in knitting classes is rising, and we're seeing an increase in sales figures for knitting ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The economic benefit: if you have several children who all need warm winter clothes, knitting may save you a lot of money. The financial ",
+                4,
+                " is minimal."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Doing something with our hands that is craft-based makes us feel good. It releases us from the stress of a technological, fast-paced ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The earliest knitted items were ",
+                6,
+                " rather than flat. Socks and gloves were knitted in one piece using four or five needles."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first needles were hand-carved out of wood and other natural materials, like ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Ancient people knitted using yarns made from linen, hemp, cotton and wool — often very ",
+                8,
+                " on the skin."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The spinning wheel allowed people to make finer yarns, leading to the dominance of ",
+                9,
+                " in the knitting industry."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Regional differences in style developed. This visual identity allowed researchers to match bits of knitted clothing to the region or the ",
+                10,
+                " of the wearer."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "grandmother",
+            "generations",
+            "equipment",
+            "outlay",
+            "life",
+            "round",
+            "bone",
+            "rough",
+            "wool",
+            "job"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 16 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "谢尔维尔小屋农家度假预订",
+          "sceneEmoji": "🏡",
+          "mcq": [
+            {
+              "q": "Why is Chervil Cottage cheaper than Granary Cottage?",
+              "opts": [
+                [
+                  "A",
+                  "It doesn't have a garden"
+                ],
+                [
+                  "B",
+                  "It is smaller — converted from a garage rather than a barn"
+                ],
+                [
+                  "C",
+                  "It is on a lower floor"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What can Tom see from the living room window?",
+              "opts": [
+                [
+                  "A",
+                  "The farmyard"
+                ],
+                [
+                  "B",
+                  "A famous old stone bridge"
+                ],
+                [
+                  "C",
+                  "The hills and a monument"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "When is the final payment due?",
+              "opts": [
+                [
+                  "A",
+                  "Last day of February"
+                ],
+                [
+                  "B",
+                  "Last day of April"
+                ],
+                [
+                  "C",
+                  "Last day of March"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Tom calls to book Granary Cottage for the week beginning May 14th, but it's already taken. Shirley offers him Chervil Cottage from May 28th for £480. Chervil was built as a garage and is smaller than Granary Cottage. It has a double bedroom. The garden is accessed from the kitchen through French doors, with two deckchairs provided. Parking is available at the front. The cottage has a fridge-freezer, electric cooker, washing machine and television. There's a shower but no bath. There's central heating and a stove. Views from the bedroom include a famous stone bridge, and the living room looks toward the hills and a monument. The deposit is 30%, which is £144. The balance is due by the last day of April.",
+          "errors": [
+            {
+              "wrong": "from the kitchen through French doors",
+              "correct": "from the living room through French doors"
+            },
+            {
+              "wrong": "stone bridge (bedroom view)",
+              "correct": "the living room view is the bridge; bedroom view is the hills and monument"
+            },
+            {
+              "wrong": "last day of April",
+              "correct": "last day of March"
+            },
+            {
+              "wrong": "Granary Cottage is booked from May 14th",
+              "correct": "✓ correct"
+            },
+            {
+              "wrong": "garden from kitchen",
+              "correct": "garden from living room (already done)"
+            },
+            {
+              "wrong": "balance due by last day of April",
+              "correct": "balance due by last day of March (already done)"
+            },
+            {
+              "wrong": "bedroom view = stone bridge",
+              "correct": "living room = bridge; bedroom = hills and monument (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "SHIRLEY",
+              "parts": [
+                "Granary Cottage is free the week beginning the ",
+                1,
+                ", for seven nights. That's the only time in May."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "That's the beginning of high season, so it'd be £",
+                2,
+                " for the week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've just finished converting another building — we're calling it ",
+                3,
+                " Cottage. C-H-E-R-V-I-L."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The building was built as a ",
+                4,
+                ". It's a little smaller than Granary Cottage but you could have it for £480 for that week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a ",
+                5,
+                ". You get to it from the living room through French doors, and we provide two deckchairs."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's plenty of ",
+                6,
+                " at the front — no problem there. There are some trees and potted plants."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For heating there's central heating, and if you want to light a fire, there's a stove — we provide all the ",
+                7,
+                " you need."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a famous stone ",
+                8,
+                " — one of the oldest in the region — and you can see it from the living room."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The bedroom window looks in the opposite direction — a lovely view of the hills and the ",
+                9,
+                " at the top."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The deposit is 30%, which is £144. You're coming in May, so the balance is due by the last day of ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "28th",
+            "550",
+            "Chervil",
+            "garage",
+            "garden",
+            "parking",
+            "wood",
+            "bridge",
+            "monument",
+            "March"
+          ]
+        },
+        "2": {
+          "scene": "议会交通调查与公园改造地图说明",
+          "sceneEmoji": "🗺️",
+          "kwt": [
+            {
+              "original": "A significant number of people complained about the increasing number of heavy vehicles using our local roads to avoid traffic elsewhere.",
+              "keyWord": "CONCERN",
+              "transStart": "Heavy vehicles diverting through local roads to avoid congestion elsewhere were a",
+              "transEnd": "for a significant number of residents.",
+              "answer": "SIGNIFICANT CONCERN",
+              "collocation": "a significant concern for (= something that worries a notable proportion of people)"
+            },
+            {
+              "original": "The cycle path that runs alongside the river is very well used by both cyclists and pedestrians since the surface was improved last year.",
+              "keyWord": "IMPROVEMENT",
+              "transStart": "Since last year's surface",
+              "transEnd": ", the riverside cycle path has seen a considerable increase in use by both cyclists and pedestrians.",
+              "answer": "IMPROVEMENT TO THE PATH",
+              "collocation": "improvement to (= an enhancement made to the quality or condition of something)"
+            },
+            {
+              "original": "The plans to have a pedestrian crossing next to the Post Office have unfortunately had to be put on hold for the time being.",
+              "keyWord": "POSTPONED",
+              "transStart": "Plans for a pedestrian crossing next to the Post Office have been",
+              "transEnd": "indefinitely due to ongoing complications.",
+              "answer": "POSTPONED INDEFINITELY",
+              "collocation": "postponed indefinitely (= delayed with no fixed date for resumption)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Car park"
+              },
+              {
+                "num": 2,
+                "left": "Cricket pitch"
+              },
+              {
+                "num": 3,
+                "left": "Children's playground"
+              },
+              {
+                "num": 4,
+                "left": "Skateboard ramp"
+              },
+              {
+                "num": 5,
+                "left": "Pavilion"
+              }
+            ],
+            "options": [
+              "A.  stays in current location — near river, to the left of the trees",
+              "B.  moved to new area east of trees — away from road",
+              "C.  new position on opposite side of Community Hall",
+              "D.  stays near road — southeast corner",
+              "E.  new footpath from Community Hall leads to it alongside river"
+            ],
+            "answers": [
+              "C",
+              "B",
+              "E",
+              "D",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "COUNCILLOR",
+              "parts": [
+                "People were generally satisfied with the state of the roads. A significant number complained about heavy ",
+                1,
+                " using local roads to avoid traffic elsewhere."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The cycle path alongside the river is very well used — since the surface was improved last year, both cyclists and pedestrians use it. We're going to make it ",
+                2,
+                " to reduce overtaking problems."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The pedestrian crossing next to the Post Office has had to be put on ",
+                3,
+                " — the Highways Department say it would be dangerous due to a bend in the road there."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Station Road, we've put up signs asking drivers not to leave their ",
+                4,
+                " running at the level crossing, so pedestrians don't breathe in fumes."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The station has agreed to provide bike ",
+                5,
+                " outside the ticket office."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At present, cars can park between the Community Hall and the line of trees — this is dangerous, so we're suggesting a new car park on the ",
+                6,
+                " side of the Community Hall."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The cricket pitch will move to new space east of the line of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The children's playground will be accessible by a footpath from the Community Hall and will be alongside the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The skateboard ramp will be in the ",
+                9,
+                " corner near the road."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The notice board will be directly on people's right as they go from the road into the recreation ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "vehicles",
+            "wider",
+            "hold",
+            "engines",
+            "racks",
+            "opposite",
+            "trees",
+            "river",
+            "southeast",
+            "ground"
+          ]
+        },
+        "3": {
+          "scene": "城市共享单车项目报告讨论",
+          "sceneEmoji": "🚴",
+          "functions": "A  Identifying the main environmental benefit    B  Acknowledging a scheme's popularity despite limitations    C  Identifying a factor behind a scheme's success    D  Describing a scheme's failure and attributing a cause    E  Acknowledging a scheme's merits while noting an outstanding problem",
+          "pragmatic": [
+            {
+              "quote": "Doesn't the impact of reduced emissions on air pollution have a more significant effect on people's health than increased physical activity?",
+              "speaker": "Jake",
+              "answer": "A"
+            },
+            {
+              "quote": "In Amsterdam there was already a strong culture of cycling — yet it's one of the best-used schemes.",
+              "speaker": "Amy",
+              "answer": "B"
+            },
+            {
+              "quote": "Dublin's scheme — I'd say price has a lot to do with it. It's one of the cheapest schemes in Europe to join.",
+              "speaker": "Jake",
+              "answer": "C"
+            },
+            {
+              "quote": "New York is a good example of how not to introduce a scheme. When they launched it, it was more than ten times the price of most other schemes.",
+              "speaker": "Amy",
+              "answer": "D"
+            },
+            {
+              "quote": "The London scheme's been quite successful — the bikes are popular and the system is well maintained but it isn't expanding quickly enough.",
+              "speaker": "Amy",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "✅",
+              "title": "Benefits of Bike-Sharing",
+              "items": [
+                [
+                  "Convenient — pick up from many locations; encourages physical ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Reduces car use → cuts ",
+                  {
+                    "b": 1
+                  },
+                  " — more significant health impact than exercise alone"
+                ],
+                [
+                  "Cuts number of cars on the road; some impact on noise pollution — but buses and lorries remain"
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Recommendations for Success",
+              "items": [
+                [
+                  "State-of-the-art bikes are nice but not ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Fully functional ",
+                  {
+                    "b": 1
+                  },
+                  " — essential for payments and bookings"
+                ],
+                [
+                  "Big publicity ",
+                  {
+                    "b": 1
+                  },
+                  " — essential; people need persuading to stop using cars"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "City Case Studies",
+              "items": [
+                [
+                  "Amsterdam: strong existing cycling ",
+                  {
+                    "b": 1
+                  },
+                  " — one of best-used schemes"
+                ],
+                [
+                  "Dublin: price very low — one of cheapest in Europe to ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "London: well-maintained but not expanding fast enough — not enough ",
+                  {
+                    "b": 1
+                  },
+                  " lanes built"
+                ],
+                [
+                  "Buenos Aires: huge network of cycle lanes built alongside the scheme → ",
+                  {
+                    "b": 1
+                  },
+                  " planning"
+                ],
+                [
+                  "New York: launched at 10× the price of most schemes → lacks vision and ambition"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "activity",
+            "emissions",
+            "essential",
+            "app",
+            "campaign",
+            "culture",
+            "join",
+            "cycle",
+            "excellent"
+          ],
+          "dictation": [
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "It's great that so many cities have introduced bike-sharing schemes where anyone can pick up a bike from dozens of locations. It makes cycling very ",
+                1,
+                " for people."
+              ]
+            },
+            {
+              "speaker": "AMY",
+              "parts": [
+                "If it means more people are cycling rather than driving, it's good for their health — it increases their physical ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "But doesn't the impact of reduced ",
+                3,
+                " on air pollution have a more significant effect on people's health?"
+              ]
+            },
+            {
+              "speaker": "AMY",
+              "parts": [
+                "Bike-sharing has also helped cut the number of cars on the road. But I'd say it's had less of an impact on ",
+                4,
+                " pollution because there are still loads of buses and lorries."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "While it's nice to have bikes with GPS, I wouldn't say they're absolutely ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "AMY",
+              "parts": [
+                "But a fully functional ",
+                6,
+                " is really important — places that haven't invested in that have really struggled."
+              ]
+            },
+            {
+              "speaker": "AMY",
+              "parts": [
+                "Cities that opened lots of new cycle ",
+                7,
+                " at the same time as launching bike-sharing have been more successful. But what really matters is a big publicity campaign."
+              ]
+            },
+            {
+              "speaker": "AMY",
+              "parts": [
+                "Amsterdam already had a strong cycling culture — and yet it's one of the best-",
+                8,
+                " schemes in the world."
+              ]
+            },
+            {
+              "speaker": "JAKE",
+              "parts": [
+                "Dublin's scheme — price has a lot to do with it. It's one of the ",
+                9,
+                " schemes in Europe to join."
+              ]
+            },
+            {
+              "speaker": "AMY",
+              "parts": [
+                "Buenos Aires built a huge network of cycle lanes to support the scheme — it attracted huge numbers of cyclists where previously there were hardly any. An example of good ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "convenient",
+            "activity",
+            "emissions",
+            "noise",
+            "essential",
+            "app",
+            "lanes",
+            "used",
+            "cheapest",
+            "planning"
+          ]
+        },
+        "4": {
+          "scene": "渡渡鸟灭绝历史讲座",
+          "sceneEmoji": "🦤",
+          "signpost": [
+            {
+              "quote": "For a long time it was believed that the dodo was slow and clumsy, but scientists now believe its strong knee joints would have made it capable of quite fast movement.",
+              "opts": [
+                [
+                  "A",
+                  "Presenting new scientific evidence that overturns a long-held misconception about the dodo"
+                ],
+                [
+                  "B",
+                  "Confirming the traditional view"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Another group of scientists carried out analysis of the dodo's skull. They found that the reports of the dodo's lack of intelligence were not borne out by their research.",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Introducing a second line of evidence that also contradicts the previous consensus"
+                ],
+                [
+                  "C",
+                  "Providing an unrelated detail"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It's hard to get an accurate description of what the dodo actually looked like — we have some written records but we don't know how reliable these are.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the lecture"
+                ],
+                [
+                  "B",
+                  "Providing a definitive description"
+                ],
+                [
+                  "C",
+                  "Acknowledging the limitations of existing evidence before introducing specific examples"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "So it looks as if the dodo was better able to survive and defend itself than was originally believed. Yet less than 200 years after Europeans first arrived, they became extinct.",
+              "opts": [
+                [
+                  "A",
+                  "Creating a tension between new evidence of the dodo's capabilities and its rapid extinction"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture positively"
+                ],
+                [
+                  "C",
+                  "Questioning the importance of the research"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "We now think that probably the main cause of extinction was not the introduction of non-native species, but the introduction of agriculture.",
+              "opts": [
+                [
+                  "A",
+                  "Providing an additional example"
+                ],
+                [
+                  "B",
+                  "Confirming the non-native species theory"
+                ],
+                [
+                  "C",
+                  "Presenting a surprising final conclusion that overturns another commonly held belief"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏝️",
+              "title": "Dodo's Life & Description",
+              "items": [
+                [
+                  "Only found on Mauritius — a large flightless bird, about one metre ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Survived happily under the trees that ",
+                  {
+                    "b": 1
+                  },
+                  " the island for centuries"
+                ],
+                [
+                  "Descriptions unreliable: Dutch painting shows a very fat bird; Indian painting shows a much ",
+                  {
+                    "b": 1
+                  },
+                  " one"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Recent Scientific Findings",
+              "items": [
+                [
+                  "Knees: strong joints suggest capable of ",
+                  {
+                    "b": 1
+                  },
+                  " — not slow"
+                ],
+                [
+                  "Small wings: probably used for ",
+                  {
+                    "b": 1
+                  },
+                  " when walking over uneven ground, not flight"
+                ],
+                [
+                  "Brain: average in size (not small) — similar to the pigeon, a highly ",
+                  {
+                    "b": 1
+                  },
+                  " bird"
+                ],
+                [
+                  "Skull: sense of smell particularly well-developed → could locate ripe fruit"
+                ]
+              ]
+            },
+            {
+              "emoji": "💀",
+              "title": "Causes of Extinction",
+              "items": [
+                [
+                  "Traditional belief: hunted to extinction by sailors who needed ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Non-native species: dogs, monkeys (",
+                  {
+                    "b": 1
+                  },
+                  " the dodo's main food), and rats"
+                ],
+                [
+                  "Rats ate dodo eggs — devastating because each dodo only laid one at a time"
+                ],
+                [
+                  "Scientists now believe main cause: introduction of ",
+                  {
+                    "b": 1
+                  },
+                  " — forests cleared for sugar crops"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "tall",
+            "covered",
+            "thinner",
+            "fast movement",
+            "balance",
+            "intelligent",
+            "food",
+            "ate",
+            "agriculture"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "The dodo could only be found on Mauritius in the Indian Ocean. It was about one metre tall — and over the centuries it had lost the ability to fly, but it survived happily under the trees that covered the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1638 the Dutch arrived and set up a ",
+                2,
+                " there. They found the dodo birds a convenient source of meat."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's hard to get an accurate description of the dodo. The best-known picture is a Dutch painting in which the bird appears extremely ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "No complete specimen survives — only one example of soft tissue: a dodo ",
+                4,
+                ". One complete skeleton also exists."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Scientists believe the dodo's strong knee joints would have made it capable of ",
+                5,
+                " that was actually quite fast."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The dodo's small wings were probably employed for ",
+                6,
+                " while going over uneven ground."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Analysis of the skull found the brain was not small but average in size — similar to the ",
+                7,
+                ", which is highly intelligent. The dodo's sense of smell was particularly well-developed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ships also brought ",
+                8,
+                ", which came to land from the ships and rapidly overran the island. They ate the dodo's eggs — devastating, as each dodo only laid one at a time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We now think the main cause was not non-native species, but the introduction of ",
+                9,
+                ". The forest was cut down so crops like sugar could be grown."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "So although the dodo had survived for thousands of years, once its ",
+                10,
+                " was destroyed, it was gone."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "island",
+            "colony",
+            "fat",
+            "head",
+            "movement",
+            "balance",
+            "pigeon",
+            "rats",
+            "agriculture",
+            "habitat"
+          ]
+        }
+      }
+    }
+  }
+}

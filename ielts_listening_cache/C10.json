@@ -1,0 +1,3765 @@
+{
+  "bookTitle": "Cambridge IELTS 10 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 10 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "美国自驾游套餐咨询",
+          "sceneEmoji": "🚗",
+          "mcq": [
+            {
+              "q": "How did Andrea hear about World Tours?",
+              "opts": [
+                [
+                  "A",
+                  "From a friend"
+                ],
+                [
+                  "B",
+                  "In a newspaper"
+                ],
+                [
+                  "C",
+                  "From an advert on TV"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "On the first tour, what is included in the price of £525 per person?",
+              "opts": [
+                [
+                  "A",
+                  "Accommodation, car rental and flight, but no meals"
+                ],
+                [
+                  "B",
+                  "Accommodation, car rental, flight and all meals"
+                ],
+                [
+                  "C",
+                  "Car rental and flight only"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is included in the price of the second tour (£429 per person)?",
+              "opts": [
+                [
+                  "A",
+                  "Accommodation, car hire and flights"
+                ],
+                [
+                  "B",
+                  "Accommodation and car hire; flights not included, but dinner included"
+                ],
+                [
+                  "C",
+                  "Car hire only"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman called Andrea Brown phones World Tours to enquire about self-drive tours in the USA. She read about the company in a travel magazine. She is interested in going to California with her husband and two children. The first tour begins in San Francisco and includes plenty of time to visit theme parks. You can choose to stay in a lodge or campsite at Yosemite, and the tour ends in Las Vegas. The tour lasts twelve days and covers 2,020 kilometres. It costs £525 per person including accommodation, car rental and flights, plus dinner. The second tour lasts nine days and costs £399 per person.",
+          "errors": [
+            {
+              "wrong": "travel magazine",
+              "correct": "newspaper"
+            },
+            {
+              "wrong": "her husband",
+              "correct": "her family / her children"
+            },
+            {
+              "wrong": "begins in San Francisco",
+              "correct": "begins in Los Angeles"
+            },
+            {
+              "wrong": "lodge or campsite at Yosemite",
+              "correct": "lodge or campsite ✓ — replace: Andrea said 'I don't like the idea of staying in a tent'"
+            },
+            {
+              "wrong": "plus dinner",
+              "correct": "no meals (dinner NOT included in first tour)"
+            },
+            {
+              "wrong": "£399",
+              "correct": "£429"
+            },
+            {
+              "wrong": "second tour ends in San Diego",
+              "correct": "second tour ends in San Diego ✓ — replace: 'plus dinner' in first tour error still stands"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "Good morning. World Tours. My name's Jamie. How can I help you?"
+              ]
+            },
+            {
+              "speaker": "ANDREA",
+              "parts": [
+                "I want some information on self-drive tours in the USA. Could you send me a brochure? My name is Andrea Brown, 24, Ardleigh ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "And can I ask you where you heard about World Tours?"
+              ]
+            },
+            {
+              "speaker": "ANDREA",
+              "parts": [
+                "I read about you in the ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "What kinds of things do you want to do on your holiday?"
+              ]
+            },
+            {
+              "speaker": "ANDREA",
+              "parts": [
+                "I'm interested in going to California with my family. We want to hire a car. I'd want to include the ",
+                3,
+                " parks in Los Angeles."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "The first tour begins in Los Angeles. From San Francisco you can drive to Yosemite Park. You can stay in a lodge or on the campsite."
+              ]
+            },
+            {
+              "speaker": "ANDREA",
+              "parts": [
+                "I don't like the idea of staying in a ",
+                4,
+                ". It'd be too hot."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "The other trip starts in San Francisco, then you drive south to Cambria. Hearst ",
+                5,
+                " is on that road, so you could stop there."
+              ]
+            },
+            {
+              "speaker": "ANDREA",
+              "parts": [
+                "Good. Does this trip also go into the desert?"
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "No, it continues to Santa Monica, then to San Diego. That's a good place to relax — great for ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "The first tour lasts twelve days and covers ",
+                7,
+                " kilometres. It costs £525 per person. That includes accommodation, car rental and a ",
+                8,
+                " but no meals."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "The second trip lasts nine days. It's £",
+                9,
+                " per person — good value."
+              ]
+            },
+            {
+              "speaker": "ANDREA",
+              "parts": [
+                "So that covers accommodation and car hire. What about flights?"
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "They aren't included. But these hotels offer ",
+                10,
+                " in the price."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Road",
+            "newspaper",
+            "theme",
+            "tent",
+            "Castle",
+            "beaches",
+            "2020",
+            "flight",
+            "429",
+            "dinner"
+          ]
+        },
+        "2": {
+          "scene": "LP健身俱乐部会员导览",
+          "sceneEmoji": "🏋️",
+          "kwt": [
+            {
+              "original": "Our greatest asset is probably our swimming pool which has now been expanded to eight lanes — there are rarely more than a couple of people at a time in each lane.",
+              "keyWord": "BENEFIT",
+              "transStart": "Because the pool has been expanded to eight lanes, members",
+              "transEnd": "from having very few people in their lane.",
+              "answer": "BENEFIT FROM",
+              "collocation": "benefit from (= gain an advantage from something)"
+            },
+            {
+              "original": "The glass roof on the swimming pool is partly retractable, which means you can enjoy something of the open-air experience on warmer days.",
+              "keyWord": "GIVE",
+              "transStart": "The retractable glass roof",
+              "transEnd": "members a taste of the open-air experience on warm days.",
+              "answer": "GIVES",
+              "collocation": "give someone a taste of (= provide a partial experience of)"
+            },
+            {
+              "original": "At the end of the personal assessment, the trainer will draw up a plan outlining what you should try to achieve within a six-week period.",
+              "keyWord": "SET",
+              "transStart": "Following the personal assessment, the trainer will",
+              "transEnd": "a six-week programme of targets for each new member.",
+              "answer": "SET UP",
+              "collocation": "set up (= create/prepare a structured plan or programme)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"day one questionnaire\""
+              },
+              {
+                "num": 2,
+                "left": "\"trainer demonstrates each machine\""
+              },
+              {
+                "num": 3,
+                "left": "\"six-week targets\""
+              },
+              {
+                "num": 4,
+                "left": "\"£90 joining fee\""
+              },
+              {
+                "num": 5,
+                "left": "\"passes for guests every month\""
+              }
+            ],
+            "options": [
+              "A.  Premier membership benefit",
+              "B.  Gold membership cost",
+              "C.  personal assessment — health",
+              "D.  personal plan",
+              "E.  safety rules for equipment"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "D",
+              "B",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SANDY",
+              "parts": [
+                "Welcome to LP Clubs. I'm Sandy Fisher, one of the fitness managers. I'll run through some basic information about our facilities and explain the types of ",
+                1,
+                " available."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our swimming pool is 25 metres long. We've expanded it to eight ",
+                2,
+                ", so there are rarely more than a couple of people in each lane."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The glass roof is partly ",
+                3,
+                ", which means you can enjoy something of the open-air experience on warmer days."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our refurbished fitness suite has all the latest exercise equipment including ten new running ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This starts on day one with your personal ",
+                5,
+                ". You fill in a questionnaire giving details of any ",
+                6,
+                " problems."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A personal trainer will go through the ",
+                7,
+                " rules for using the equipment. You'll work with a trainer to make sure you understand these and avoid ",
+                8,
+                " injuries."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the end of the assessment, the trainer will draw up a ",
+                9,
+                " outlining what you should achieve within a six-week period."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All members pay a ",
+                10,
+                " fee of £90 in addition to monthly membership fees."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Gold membership entitles you to free entry at all LP Clubs. Individual gold membership costs £50 a month; joint membership costs £",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Premier membership gives ",
+                12,
+                " preferences at peak times, and you're sent passes for guests every month. The monthly fee is £65."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's very important to remember your ",
+                13,
+                " because you won't be able to get in without it."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "membership",
+            "lanes",
+            "retractable",
+            "machines",
+            "assessment",
+            "health",
+            "safety",
+            "sports",
+            "plan",
+            "joining",
+            "75",
+            "booking",
+            "photo card"
+          ]
+        },
+        "3": {
+          "scene": "全球设计竞赛洗碗机项目辅导",
+          "sceneEmoji": "🍽️",
+          "functions": "A  Asking for clarification    B  Expressing enthusiasm    C  Explaining a process    D  Identifying a problem    E  Making a recommendation",
+          "pragmatic": [
+            {
+              "quote": "We have to adopt an innovative approach to existing technology, using it in a way that hasn't been thought of before.",
+              "speaker": "John",
+              "answer": "C"
+            },
+            {
+              "quote": "Dishwashers are an everyday kitchen appliance in most Australian houses but they're all pretty boring and almost identical to each other.",
+              "speaker": "John",
+              "answer": "D"
+            },
+            {
+              "quote": "You're going to pressurise the carbon dioxide so that it becomes a liquid — that's a brilliant idea!",
+              "speaker": "Professor",
+              "answer": "B"
+            },
+            {
+              "quote": "If you want to stand a good chance of winning you really need a model of the machine.",
+              "speaker": "Professor",
+              "answer": "E"
+            },
+            {
+              "quote": "For a global competition such as this you need to make sure the technical details you've given are accurate and thorough.",
+              "speaker": "Professor",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🪨",
+              "title": "Design Concept — 'The Rockpool'",
+              "items": [
+                [
+                  "Shaped like a rock pool — top is made of ",
+                  {
+                    "b": 1
+                  },
+                  " so you can look down into it"
+                ],
+                [
+                  "Instead of a button, you turn a ",
+                  {
+                    "b": 1
+                  },
+                  " at the bottom to start the machine"
+                ]
+              ]
+            },
+            {
+              "emoji": "💨",
+              "title": "Innovative Technology — CO₂ Washing",
+              "items": [
+                [
+                  "Carbon dioxide is ",
+                  {
+                    "b": 1
+                  },
+                  " until it becomes a liquid"
+                ],
+                [
+                  "Liquid CO₂ released inside — cleans dishes without strong ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Afterwards, waste goes to a holding ",
+                  {
+                    "b": 1
+                  },
+                  " where CO₂ is depressurised back to a gas"
+                ],
+                [
+                  "CO₂ is then recycled back to the ",
+                  {
+                    "b": 1
+                  },
+                  " and reused"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏆",
+              "title": "Competition Requirements",
+              "items": [
+                [
+                  "Has detailed drawings and a 500-word ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Needs a ",
+                  {
+                    "b": 1
+                  },
+                  " of the machine — main problem is cost of materials"
+                ],
+                [
+                  "Professor will help apply for a university ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Technical details must be accurate: professor will review the ",
+                  {
+                    "b": 1
+                  },
+                  " paper"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "glass",
+            "stone",
+            "pressurised",
+            "detergents",
+            "chamber",
+            "cylinder",
+            "paper",
+            "model",
+            "grant",
+            "technical"
+          ],
+          "dictation": [
+            {
+              "speaker": "PROFESSOR",
+              "parts": [
+                "I got a copy of your drawings. What sort of competition is it?"
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "It's an international design competition — we have to come up with a new design for a typical domestic kitchen ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "This year we have to adopt an ",
+                2,
+                " approach to existing technology, using it in a way that hasn't been thought of before."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "I decided to choose the dishwasher. They're all pretty boring and almost ",
+                3,
+                " to each other. I think some people will pay a little extra for something that looks different."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "I've called it 'the Rockpool' because it looks like the rock ",
+                4,
+                " you find on a beach. The top is made of glass so you can look down into it."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "Instead of pushing a button, you turn the ",
+                5,
+                ". It's a novel way of starting the dishwasher."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "The idea is to ",
+                6,
+                " the carbon dioxide so that it becomes a liquid. The fluid is then released into the dishwasher where it cleans the dishes all by itself."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "To allow the dishes to ",
+                7,
+                ", the liquid CO₂ and waste go to a holding ",
+                8,
+                ". That's where the CO₂ is depressurised and reverts to a gas. Then oil and grease are separated out."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "The CO₂ is sent back to the ",
+                9,
+                " and can be used again and again. That's where the real savings are made."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "My design has made it to the final stage, and in a few months I have to give a ",
+                10,
+                " — that's the part I was hoping you could help me with."
+              ]
+            },
+            {
+              "speaker": "PROFESSOR",
+              "parts": [
+                "If you want to stand a good chance of winning, you really need a ",
+                11,
+                " of the machine."
+              ]
+            },
+            {
+              "speaker": "JOHN",
+              "parts": [
+                "Yes — I want it to look professional but everything top quality is very expensive."
+              ]
+            },
+            {
+              "speaker": "PROFESSOR",
+              "parts": [
+                "Why don't you talk to the university about a ",
+                12,
+                "? I can help you fill out the application forms."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "appliance",
+            "innovative",
+            "identical",
+            "pools",
+            "stone",
+            "pressurise",
+            "dry",
+            "chamber",
+            "cylinder",
+            "presentation",
+            "model",
+            "grant"
+          ]
+        },
+        "4": {
+          "scene": "白灵熊生态保育讲座",
+          "sceneEmoji": "🐻",
+          "signpost": [
+            {
+              "quote": "One in ten black bears is actually born with a white coat, which is the result of a special gene that surfaces in a few.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the biological origin of the bear's distinctive appearance"
+                ],
+                [
+                  "B",
+                  "Summarising the lecture's conclusion"
+                ],
+                [
+                  "C",
+                  "Providing a historical example"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Because of this, it has always been highly regarded by them — so much that they do not speak of seeing it to anyone else.",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Introducing a myth to be debunked"
+                ],
+                [
+                  "C",
+                  "Explaining how local cultural belief translates into practical conservation behaviour"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Today, the spirit bear lives off the coast of British Columbia on a few islands. There is great concern for their survival.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Introducing a new species"
+                ],
+                [
+                  "C",
+                  "Transitioning from ecology to current conservation status"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The greatest threat to the bear's existence is the loss of its habitat.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a solution"
+                ],
+                [
+                  "B",
+                  "Summarising all threats"
+                ],
+                [
+                  "C",
+                  "Introducing the primary cause of decline before listing secondary causes"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "While it is important to maintain the spirit bear's habitat, there also needs to be more emphasis on its expansion.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the discussion"
+                ],
+                [
+                  "B",
+                  "Adding a forward-looking recommendation beyond simply protecting what exists"
+                ],
+                [
+                  "C",
+                  "Contradicting the previous point"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🧬",
+              "title": "What Is the Spirit Bear?",
+              "items": [
+                [
+                  "One in ten black bears born with a white coat — caused by a recessive ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Local people call it the 'spirit bear' — believe its snowy fur brings special ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Protected by local silence: they don't speak of seeing it to ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🌲",
+              "title": "Relationship with Old-Growth Rainforest",
+              "items": [
+                [
+                  "Long tree roots prevent ",
+                  {
+                    "b": 1
+                  },
+                  " of soil along fish stream banks"
+                ],
+                [
+                  "Salmon — the bear's main food — live in these streams"
+                ],
+                [
+                  "Bear returns nutrients to the forest by leaving fish skin and bones on the forest floor"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Threats to Survival",
+              "items": [
+                [
+                  "Habitat loss: logging has stripped the land and built ",
+                  {
+                    "b": 1
+                  },
+                  " through feeding areas"
+                ],
+                [
+                  "Salmon numbers declining — no legal limit on ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Reproduction among white bears has always been disappointingly ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🌿",
+              "title": "Conservation Measures",
+              "items": [
+                [
+                  "Government requiring logging companies to adopt a better logging ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Need for habitat ",
+                  {
+                    "b": 1
+                  },
+                  " — not just preservation but active growth of territory"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "gene",
+            "power",
+            "strangers",
+            "erosion",
+            "roads",
+            "fishing",
+            "low",
+            "method",
+            "expansion"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Today we look at a particularly endangered member of the black bear family. One in ten black bears is born with a white coat, the result of a special ",
+                1,
+                " that surfaces in a few."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Local people have named it 'the spirit bear'. According to legend, its snowy fur brings a special ",
+                2,
+                ". They do not speak of seeing it to anyone else — it is their way of protecting it when ",
+                3,
+                " visit the area."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The white bear relies on old-growth trees in the forest. Their extremely long roots help prevent ",
+                4,
+                " of the soil along the banks of fish streams."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Keeping these banks intact is important because the streams are home to salmon — the bear's main ",
+                5,
+                " source. In return, the bear's feeding habits nurture the forest."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Today, the spirit bear lives off the coast of British Columbia on a few ",
+                6,
+                ". It is estimated that less than two hundred remain."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The greatest threat to the bear's existence is the loss of its ",
+                7,
+                ". Logging companies have stripped the land by cutting down trees."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They have also built ",
+                8,
+                " which have fractured the areas where the bear usually feeds."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The number of salmon is declining because there is no legal limit on ",
+                9,
+                " at the moment."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This is made worse by the fact that ",
+                10,
+                " among these bears has always been disappointingly low."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The government is requiring logging companies to adopt a better logging ",
+                11,
+                ". However, these measures alone may not be sufficient."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There also needs to be more emphasis on habitat ",
+                12,
+                " — creating space not just for the spirit bear but for other bears that are losing their homes."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "gene",
+            "power",
+            "strangers",
+            "erosion",
+            "food",
+            "islands",
+            "habitat",
+            "roads",
+            "fishing",
+            "reproduction",
+            "method",
+            "expansion"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 10 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "城市交通改善民意调查",
+          "sceneEmoji": "🚌",
+          "mcq": [
+            {
+              "q": "Why did Luisa come to town today?",
+              "opts": [
+                [
+                  "A",
+                  "To go shopping"
+                ],
+                [
+                  "B",
+                  "To see the dentist"
+                ],
+                [
+                  "C",
+                  "To visit friends"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Luisa say about trains?",
+              "opts": [
+                [
+                  "A",
+                  "They are too expensive"
+                ],
+                [
+                  "B",
+                  "There aren't enough of them — you have to wait too long"
+                ],
+                [
+                  "C",
+                  "They don't go to her area"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What would Luisa most like the council to provide to encourage cycling?",
+              "opts": [
+                [
+                  "A",
+                  "Safe places to leave bikes at work"
+                ],
+                [
+                  "B",
+                  "Better cycle lanes"
+                ],
+                [
+                  "C",
+                  "Cycling training"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "An interviewer stops Luisa outside in town to complete a transport survey for the local council. Her name is Luisa Hardie and she lives at 9 White Stone Road. Her postcode is GT7 2LC. She is a nurse. Today she came to town to see the dentist. She suggests better lighting for pedestrians doing a later shift. She thinks there should be more footpaths. She says there aren't enough buses and that is why she doesn't use them. About cycling, she says her workplace has no safe places to leave bikes, she would get sweaty cycling uphill and would need a shower, and she would feel better if there were training available.",
+          "errors": [
+            {
+              "wrong": "9 White Stone Road",
+              "correct": "19 White Stone Road"
+            },
+            {
+              "wrong": "GT7 2LC",
+              "correct": "GT8 2LC"
+            },
+            {
+              "wrong": "nurse",
+              "correct": "hairdresser"
+            },
+            {
+              "wrong": "footpaths — she said more should exist",
+              "correct": "footpaths ✓ — replace: 'not enough buses' with 'not enough trains'"
+            },
+            {
+              "wrong": "not enough buses",
+              "correct": "not enough trains"
+            },
+            {
+              "wrong": "cycling uphill",
+              "correct": "cycling uphill ✓ — she specifically mentions sweating"
+            },
+            {
+              "wrong": "she doesn't use buses",
+              "correct": "she came by bus (she does use them)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "INTERVIEWER",
+              "parts": [
+                "The survey is on behalf of the local council — they'd like to know about what transport you use and any suggestions for improvement. Can I start by asking how you travelled to town today?"
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "I came on the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "INTERVIEWER",
+              "parts": [
+                "What's your name?"
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "It's Luisa ",
+                2,
+                ". That's H-A-R-D-I-E. I live at 19 White Stone Road. Postcode G-T-8 2-L-C."
+              ]
+            },
+            {
+              "speaker": "INTERVIEWER",
+              "parts": [
+                "Could I ask what your job is?"
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "I've just finished my training. I'm a ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "INTERVIEWER",
+              "parts": [
+                "And what is your reason for coming into town today?"
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "It's not for shopping today — it's to see the ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "When I do walk and I'm doing a later shift, I think the ",
+                5,
+                " should be better."
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "They've been cutting down on the number of footpaths. They should have more of those — then people would walk more."
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "I don't think there are enough ",
+                6,
+                ". That's why I don't use them — you have to wait so long."
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "Where I work there are no ",
+                7,
+                " places to leave your bike."
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "I'd have to cycle uphill and on a hot day I'd arrive at work pretty sweaty — so I think I'd need a ",
+                8,
+                " somewhere at work."
+              ]
+            },
+            {
+              "speaker": "LUISA",
+              "parts": [
+                "I wouldn't be all that confident about cycling on such busy roads. I think I'd like to see you offering ",
+                9,
+                " for that — I'd feel a lot better about starting."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "bus",
+            "Hardie",
+            "hairdresser",
+            "dentist",
+            "lighting",
+            "trains",
+            "safe",
+            "shower",
+            "training"
+          ]
+        },
+        "2": {
+          "scene": "布拉肯赛德游泳池与全球主题公园发布",
+          "sceneEmoji": "🏊",
+          "kwt": [
+            {
+              "original": "For the design of this new heated pool, we were very happy to secure the talents of internationally renowned architect Ellen Wendon.",
+              "keyWord": "COMMISSION",
+              "transStart": "The council was delighted to",
+              "transEnd": "for the new pool design.",
+              "answer": "COMMISSION ELLEN WENDON",
+              "collocation": "commission someone (= formally hire a professional for a specific work)"
+            },
+            {
+              "original": "The design is deceptive and there have been rigorous checks about capacity.",
+              "keyWord": "LOOKS",
+              "transStart": "Although the pool",
+              "transEnd": "smaller than it is, but rigorous capacity checks confirm it holds the expected numbers.",
+              "answer": "LOOKS DECEPTIVELY",
+              "collocation": "look deceptively + adjective (= appear misleadingly in a certain way)"
+            },
+            {
+              "original": "We have engaged award-winning actress Coral White to declare the pool open.",
+              "keyWord": "INVITED",
+              "transStart": "Award-winning actress Coral White has been",
+              "transEnd": "to officially open the pool.",
+              "answer": "FORMALLY INVITED",
+              "collocation": "formally invite someone to (= officially ask someone to perform a role)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Asia — snakes, orang-utans, tigers"
+              },
+              {
+                "num": 2,
+                "left": "Antarctica — climbing blocks shaped as mountains"
+              },
+              {
+                "num": 3,
+                "left": "South America — games replicating gold mine searches"
+              },
+              {
+                "num": 4,
+                "left": "North America — rockets and space station"
+              },
+              {
+                "num": 5,
+                "left": "Europe — medieval castles and fortifications"
+              }
+            ],
+            "options": [
+              "A.  most traditional choice",
+              "B.  debate about cinema vs jazz vs space",
+              "C.  shapes of forest fauna",
+              "D.  glacier slides were rejected",
+              "E.  El Dorado theme"
+            ],
+            "answers": [
+              "C",
+              "D",
+              "E",
+              "B",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "First of all, Brackenside Pool. There used to be a wonderful open-air pool on the sea front 30 years ago but it had to close when it was judged to be ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We secured the talents of internationally renowned architect Ellen Wendon, who has managed to combine a charming 1930s design with a recycling system — the only one of its kind in the world — which enables ",
+                2,
+                " water to be used in the pool."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We are on schedule for a June 15th opening date and well within ",
+                3,
+                " — a testimony to the excellent work of local contractors Hickman's."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have engaged award-winning actress Coral White to declare the pool open. There'll be a competition for the public to decide which famous historical ",
+                4,
+                " from the city should appear as a sculpture at the entrance."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Moving on to Central Park Playground, which has just won the Douglas Award for ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The unique design is based on the concept of the Global Village. The playground is divided into six areas showing different parts of the world — the Asia section has rides in the shape of snakes, orang-utans and tigers — ",
+                6,
+                " native to the forests of the region."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Moving south to Antarctica — we couldn't run to an ice rink but opted for climbing blocks in the shape of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In South America, the theme is El Dorado — games replicating the search for mines full of precious ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "North America: considerable debate took place, but the designers finally opted for ",
+                9,
+                " and the International Space Station."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Europe: perhaps the most ",
+                10,
+                " choice — medieval castles and other fortifications."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Africa: a whole set of wonderful mosaics and trails representing the great ",
+                11,
+                " of the continent."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The opening date for the Global Playground is ",
+                12,
+                " July."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "unsafe",
+            "seawater",
+            "budget",
+            "figure",
+            "safety",
+            "fauna",
+            "mountains",
+            "stones",
+            "rockets",
+            "traditional",
+            "rivers",
+            "10th"
+          ]
+        },
+        "3": {
+          "scene": "托尔·海尔达尔探险生平学生报告",
+          "sceneEmoji": "⛵",
+          "functions": "A  Providing background context    B  Correcting a mistake    C  Explaining a motivation    D  Questioning an interpretation    E  Summarising an achievement",
+          "pragmatic": [
+            {
+              "quote": "Heyerdahl wouldn't go hunting with his dad — he had his own museum and developed his own values.",
+              "speaker": "Victor",
+              "answer": "A"
+            },
+            {
+              "quote": "No, it was climbing that he spent his time on as a young man — not camping trips.",
+              "speaker": "Victor",
+              "answer": "B"
+            },
+            {
+              "quote": "I wonder if he did that trip for private reasons — to show others that he could have spectacular adventures.",
+              "speaker": "Victor",
+              "answer": "D"
+            },
+            {
+              "quote": "Well, I think it was more a matter of simply trying out his idea — to see if migration from the east was possible.",
+              "speaker": "Olivia",
+              "answer": "C"
+            },
+            {
+              "quote": "He was the first person to establish what modern academics call practical archaeology — recreating something from the past.",
+              "speaker": "Olivia",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🧒",
+              "title": "Early Life",
+              "items": [
+                [
+                  "Had his own little museum — refused to join parents' ",
+                  {
+                    "b": 1
+                  },
+                  " e.g. hunting"
+                ],
+                [
+                  "Learnt about nature by listening to his mother ",
+                  {
+                    "b": 1
+                  },
+                  " to him"
+                ],
+                [
+                  "As a young man: spent time ",
+                  {
+                    "b": 1
+                  },
+                  " in Norway"
+                ]
+              ]
+            },
+            {
+              "emoji": "💍",
+              "title": "Research Before the Epic Voyage",
+              "items": [
+                [
+                  "Married a classmate — together lived on a small island to study harsh-weather ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Formed a theory from ancient ",
+                  {
+                    "b": 1
+                  },
+                  " on the island"
+                ],
+                [
+                  "Spent years studying cloud movements, ocean ",
+                  {
+                    "b": 1
+                  },
+                  " and wind patterns"
+                ]
+              ]
+            },
+            {
+              "emoji": "🚣",
+              "title": "The Kon-Tiki Voyage",
+              "items": [
+                [
+                  "Sailed from South America to the Pacific Islands — took ",
+                  {
+                    "b": 1
+                  },
+                  " days"
+                ],
+                [
+                  "Used only ancient techniques and local ",
+                  {
+                    "b": 1
+                  },
+                  " to build the raft"
+                ],
+                [
+                  "Proved that migration from the east was theoretically ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Later Career & Legacy",
+              "items": [
+                [
+                  "Went to Easter Island to talk to local people about ancient stone ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "First to establish what we now call practical ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "His theories about Polynesian origins have since been completely ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "hobbies",
+            "read",
+            "climbing",
+            "lifestyles",
+            "carvings",
+            "currents",
+            "97",
+            "materials",
+            "possible",
+            "carvings",
+            "archaeology",
+            "discredited"
+          ],
+          "dictation": [
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "Shall I start with the early life of Thor Heyerdahl?"
+              ]
+            },
+            {
+              "speaker": "OLIVIA",
+              "parts": [
+                "Yes. Begin by describing the type of boy he was — especially his passion for ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "He had his own little museum. And he wouldn't go ",
+                2,
+                " with his dad — he had his own values. He preferred to learn about nature by listening to his mother read to him."
+              ]
+            },
+            {
+              "speaker": "OLIVIA",
+              "parts": [
+                "He knew he wanted to become an explorer when he grew up. That came from his camping trips in Norway."
+              ]
+            },
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "No — it was ",
+                3,
+                " that he spent his time on as a young man."
+              ]
+            },
+            {
+              "speaker": "OLIVIA",
+              "parts": [
+                "After university he married a classmate and together they decided to experience living on a small island, to find out how harsh weather ",
+                4,
+                " shaped people's lifestyles."
+              ]
+            },
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "As part of their preparation, they learnt basic survival skills like building a ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "An important part of your talk should be the radical theory Heyerdahl formed from examining mysterious ancient ",
+                6,
+                " on the island."
+              ]
+            },
+            {
+              "speaker": "OLIVIA",
+              "parts": [
+                "Academics had believed that humans migrated to Polynesia from Asia — in the west. But Heyerdahl spent ages studying the cloud movements, ocean ",
+                7,
+                " and wind patterns to find if it was actually possible from the east."
+              ]
+            },
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "I wonder if he did that trip for private reasons — to show others he could have spectacular ",
+                8,
+                ". What do you think?"
+              ]
+            },
+            {
+              "speaker": "OLIVIA",
+              "parts": [
+                "I think it was more a matter of trying out his ",
+                9,
+                " — to see if migration from the east was possible."
+              ]
+            },
+            {
+              "speaker": "VICTOR",
+              "parts": [
+                "The most important factor seems to have been that he use only ancient techniques and local ",
+                10,
+                " to build his raft. It took them ",
+                11,
+                " days from South America to the Pacific Islands."
+              ]
+            },
+            {
+              "speaker": "OLIVIA",
+              "parts": [
+                "He was the first person to establish what modern academics call practical ",
+                12,
+                ". Unfortunately, his theories about where Polynesians originated have been completely ",
+                13,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "collecting",
+            "hunting",
+            "climbing",
+            "conditions",
+            "shelter",
+            "carvings",
+            "currents",
+            "adventures",
+            "idea",
+            "materials",
+            "97",
+            "archaeology",
+            "discredited"
+          ]
+        },
+        "4": {
+          "scene": "企业管理未来趋势研讨会",
+          "sceneEmoji": "🏢",
+          "signpost": [
+            {
+              "quote": "One area I want to mention is business markets, and I'm sure a really significant development will be a major increase in competition.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the first of several key trends to be discussed"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Challenging existing views"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "At the same time, mergers and takeovers mean that governments are actually losing power to major global corporations.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "C",
+                  "Adding a second significant development within the same area"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "I think businesses are becoming more open to external influences. In particular, companies are consulting customers more and more.",
+              "opts": [
+                [
+                  "B",
+                  "Summarising the whole lecture"
+                ],
+                [
+                  "A",
+                  "Shifting from market forces to internal business behaviour and culture"
+                ],
+                [
+                  "C",
+                  "Introducing a definition"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "More and more people see work as simply one part of their lifestyle, and not the most important one.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the previous point"
+                ],
+                [
+                  "B",
+                  "Concluding the discussion"
+                ],
+                [
+                  "C",
+                  "Introducing a social change that is forcing businesses to compete for staff"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Management styles will almost certainly continue to change. Senior managers will require a lot more than the efficiency that they've always needed.",
+              "opts": [
+                [
+                  "C",
+                  "Questioning the relevance of the discussion"
+                ],
+                [
+                  "B",
+                  "Introducing a new lecture topic"
+                ],
+                [
+                  "A",
+                  "Moving from structural change to changes in leadership qualities required"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌍",
+              "title": "Market Changes",
+              "items": [
+                [
+                  "Major increase in ",
+                  {
+                    "b": 1
+                  },
+                  " — companies from all over the world selling similar products"
+                ],
+                [
+                  "Mergers and takeovers: governments losing power to major ",
+                  {
+                    "b": 1
+                  },
+                  " corporations"
+                ],
+                [
+                  "Rapidly expanding economies (India, China, Brazil, Russia): growing ",
+                  {
+                    "b": 1
+                  },
+                  " on resources"
+                ]
+              ]
+            },
+            {
+              "emoji": "🤝",
+              "title": "Business Behaviour",
+              "items": [
+                [
+                  "Companies consulting ",
+                  {
+                    "b": 1
+                  },
+                  " more before making decisions"
+                ],
+                [
+                  "Environmental pressure: manufacturers must extend product lifecycles to reduce pollution — may require stronger ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "👥",
+              "title": "Workforce & Structure",
+              "items": [
+                [
+                  "Greater emphasis on teams formed for a specific ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Work-life balance shift: businesses must compete for staff — offering ",
+                  {
+                    "b": 1
+                  },
+                  " hours and remote working"
+                ]
+              ]
+            },
+            {
+              "emoji": "👩‍💼",
+              "title": "Leadership Changes",
+              "items": [
+                [
+                  "Senior managers need great ",
+                  {
+                    "b": 1
+                  },
+                  " skills, not just efficiency"
+                ],
+                [
+                  "More ",
+                  {
+                    "b": 1
+                  },
+                  " entering senior management → more consultative, collaborative style"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "competition",
+            "global",
+            "demand",
+            "customers",
+            "regulation",
+            "project",
+            "flexible",
+            "leadership",
+            "women"
+          ],
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "I've been talking to managers in a number of businesses and reading surveys about the future of management. What I'm going to present are some ideas about how the activity is likely to change in the next ten years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One area I want to mention is business markets. There will be a major increase in ",
+                1,
+                ", with companies from all round the world trying to sell similar products."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the same time, mergers and takeovers mean that governments are actually losing ",
+                2,
+                " to major global corporations."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the rapidly expanding economies — India, China, Brazil and Russia — ",
+                3,
+                " is growing very fast. This is putting pressure on resources worldwide."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I think businesses are becoming more open to external influences. In particular, companies are consulting ",
+                4,
+                " more and more before making their business decisions."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Concerns about the environment will force manufacturers to extend product lifecycles. In some cases, ",
+                5,
+                " will need to be strengthened."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We're going to see a greater emphasis within companies on teams created with a specific ",
+                6,
+                " in mind. When completed, the teams will be disbanded and new ones formed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As the workforce shrinks, businesses have to compete for staff. Examples that attract and retain staff include ",
+                7,
+                " hours and remote working."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Senior managers will require great skills in ",
+                8,
+                ", so that their organisation can initiate and respond to change in a fast-moving world."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The predominant style of management will almost certainly become more consultative, caused above all by more ",
+                9,
+                " moving into senior management positions."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One trend companies have to face is the move away from permanent employment — more and more people are becoming ",
+                10,
+                " to gain freedom and control over their lives."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "competition",
+            "power",
+            "demand",
+            "customers",
+            "regulation",
+            "project",
+            "flexible",
+            "leadership",
+            "women",
+            "self-employed"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 10 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "幼儿照护中心入学登记",
+          "sceneEmoji": "🎒",
+          "mcq": [
+            {
+              "q": "Which group will Kate be placed in?",
+              "opts": [
+                [
+                  "A",
+                  "The green group for 3–4 year olds"
+                ],
+                [
+                  "B",
+                  "The red group for 4–5 year olds"
+                ],
+                [
+                  "C",
+                  "She will be assessed first"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "How does Carol prefer to pay the fees?",
+              "opts": [
+                [
+                  "A",
+                  "At the end of each term"
+                ],
+                [
+                  "B",
+                  "Monthly — a slightly discounted rate"
+                ],
+                [
+                  "C",
+                  "At the start of the year"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What medical condition does Kate have?",
+              "opts": [
+                [
+                  "A",
+                  "She has asthma"
+                ],
+                [
+                  "B",
+                  "She has a hearing problem"
+                ],
+                [
+                  "C",
+                  "She needs to wear glasses"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A woman called Carol Smith contacts the Early Learning Childcare Centre to enrol her daughter Kate. The director records her age as three because she will turn four after she starts. Her address is 46 Wombat Road, Woodside 4032. Carol would prefer Monday and Friday, but Friday is full so Thursday is agreed instead. Kate needs to arrive at 9 o'clock. The director puts Kate in the green group. Kate will only need lunch. Kate has no asthma or hearing problems, but she wears contact lenses. The emergency contact is Carol's sister Jenny Bell.",
+          "errors": [
+            {
+              "wrong": "records her age as three",
+              "correct": "records her age as four (that's how old she'll be when she starts)"
+            },
+            {
+              "wrong": "Monday and Friday",
+              "correct": "Monday and Wednesday"
+            },
+            {
+              "wrong": "Friday is full",
+              "correct": "Wednesday is full"
+            },
+            {
+              "wrong": "arrive at 9 o'clock",
+              "correct": "arrive at 8.30"
+            },
+            {
+              "wrong": "green group",
+              "correct": "red group"
+            },
+            {
+              "wrong": "contact lenses",
+              "correct": "glasses"
+            },
+            {
+              "wrong": "Jenny Bell",
+              "correct": "Jenny Ball"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "Welcome to the Early Learning Childcare Centre. How may I help you?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "Hi. I spoke to you last week about enrolling my daughter for next year."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "Can I have your daughter's name?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "It's Kate. She's three now but she turns ",
+                1,
+                " next month."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "I'll put four down — that's how old she'll be when she starts. And your address?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "It's ",
+                2,
+                " Wombat Road, Woodside 4032. Phone number: 3345 9865."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "So, have you decided on the days?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "I'd prefer Monday and Wednesday if possible."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "Monday's fine, but the centre is already full for Wednesday. We can offer you Thursday or Friday."
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "Thursday would be all right — she has ",
+                3,
+                " on Friday."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "We are open from 7:30 until 6. What time would you like to drop her off?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "I need to get to work by 9, so I'll drop her off at ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "We have two groups. The green group is for 3–4 year olds, and the red group is for 4–5 year olds. She's quite mature for her age."
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "Yes — she can already write her name and read a little."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "I'll put her in the ",
+                5,
+                " group."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "For meals — we provide breakfast, lunch and dinner. As she's finishing early, she'll only need ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "Does she have any medical conditions? Asthma or hearing problems?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "No. But she does need to wear ",
+                7,
+                ". She can't see much without them."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "I also need emergency contact details."
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "That'd better be my sister — Jenny ",
+                8,
+                ". That's B-A-double-L. Her phone number is 3346 7523."
+              ]
+            },
+            {
+              "speaker": "DIRECTOR",
+              "parts": [
+                "What about payment?"
+              ]
+            },
+            {
+              "speaker": "CAROL",
+              "parts": [
+                "For two days and the hours I've chosen, that will be $450 altogether. I'll pay every ",
+                9,
+                " — I find it easier to budget that way."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "four",
+            "46",
+            "swimming",
+            "8.30",
+            "red",
+            "lunch",
+            "glasses",
+            "Ball",
+            "month"
+          ]
+        },
+        "2": {
+          "scene": "海豚保育信托基金介绍",
+          "sceneEmoji": "🐬",
+          "kwt": [
+            {
+              "original": "The charity tries to raise people's awareness of the problems these marine creatures are suffering because of pollution and other threats.",
+              "keyWord": "DRAW",
+              "transStart": "One of the charity's key aims is to",
+              "transEnd": "attention to the serious threats facing dolphins from pollution.",
+              "answer": "DRAW ATTENTION TO",
+              "collocation": "draw attention to (= highlight / make people aware of something)"
+            },
+            {
+              "original": "It started ten years ago and it's one of the fastest growing animal charities in the country.",
+              "keyWord": "GROWTH",
+              "transStart": "Despite being only ten years old, the organisation has",
+              "transEnd": "been one of the fastest-growing animal charities in the UK.",
+              "answer": "EXPERIENCED RAPID GROWTH / SEEN RAPID GROWTH",
+              "collocation": "experience rapid growth (= grow quickly)"
+            },
+            {
+              "original": "Although it hasn't meant an enormous amount of money for us, the award has made our activities even more widely publicised.",
+              "keyWord": "RAISED",
+              "transStart": "Winning the award has significantly",
+              "transEnd": "the charity's public profile, even if the financial gain was modest.",
+              "answer": "RAISED THE PROFILE OF",
+              "collocation": "raise the profile of (= increase the visibility or reputation of)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Has not yet been sighted this year"
+              },
+              {
+                "num": 2,
+                "left": "Often photographed together with Samson"
+              },
+              {
+                "num": 3,
+                "left": "Loves coming up close to cameras"
+              },
+              {
+                "num": 4,
+                "left": "Always leaping out of the water with great vigour"
+              },
+              {
+                "num": 5,
+                "left": "Easy to identify by a particularly large fin"
+              }
+            ],
+            "options": [
+              "A.  Kiwi",
+              "B.  Moondancer",
+              "C.  Samson",
+              "D.  Echo",
+              "E.  Moondancer (fin detail)"
+            ],
+            "answers": [
+              "D",
+              "B",
+              "A",
+              "C",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "ALICE",
+              "parts": [
+                "The Dolphin Conservation Trust protects dolphins in seas all around the world. It tries to raise people's ",
+                1,
+                " of the problems these marine creatures are suffering."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It started ten years ago and it's one of the fastest growing animal ",
+                2,
+                " in the country. About thirty-five per cent of our members are children."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The charity supports campaigns — for example, for changes in fishing ",
+                3,
+                ". It hopes soon to employ its first full-time biologist with dolphin expertise."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We won an award from the Charity Commission last year for our work in education. It has made our activities more widely publicised and ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have a big project in the east part of Scotland — a long-standing ",
+                5,
+                " for dolphins because it has very little shipping."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Oil companies want to increase exploration there. Although there'll be little pollution from oil, exploration creates a lot of underwater ",
+                6,
+                ". It means the dolphins can't rest and ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I became interested in dolphin conservation through a book about a family of dolphins who had to leave their home in the Moray ",
+                8,
+                " because of the oil companies."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "People can choose one of our dolphins to ",
+                9,
+                ". They receive a picture and news updates."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Echo hasn't yet been ",
+                10,
+                " by our observers this year but we remain optimistic. Samson and Moondancer are often photographed together."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Kiwi seems to love coming up ",
+                11,
+                " for the cameras — we've captured her on film hundreds of times. Moondancer is easy to find because she has a particularly large ",
+                12,
+                " on her back."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "awareness",
+            "charities",
+            "policy",
+            "understood",
+            "haven",
+            "noise",
+            "socialise",
+            "Firth",
+            "sponsor",
+            "sighted",
+            "close",
+            "fin"
+          ]
+        },
+        "3": {
+          "scene": "戏剧演出分析与海外留学建议",
+          "sceneEmoji": "🎭",
+          "functions": "A  Explaining a creative approach    B  Describing a group dynamic    C  Identifying a practical problem    D  Making a recommendation    E  Expressing concern",
+          "pragmatic": [
+            {
+              "quote": "In the final rehearsal everything was going fine until the last scene — that's where the spotlight stuck and was shining on the wrong side of the stage.",
+              "speaker": "Rob",
+              "answer": "C"
+            },
+            {
+              "quote": "Sophia emerged as the leader — that was OK, she helped us work out exactly what to do for the production.",
+              "speaker": "Rob",
+              "answer": "B"
+            },
+            {
+              "quote": "I based my character on my grandfather — I'd visualise what he must have been like when he was sitting in his consulting room listening to his patients.",
+              "speaker": "Rob",
+              "answer": "A"
+            },
+            {
+              "quote": "Next year when you are in the second year, you need to work really hard — only students with good marks get places for the year abroad.",
+              "speaker": "Mia",
+              "answer": "D"
+            },
+            {
+              "quote": "Don't make the mistake I made — I got so involved I forgot about making arrangements for when I came back for the final year.",
+              "speaker": "Mia",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎭",
+              "title": "Developing the Character",
+              "items": [
+                [
+                  "Based on Rob's grandfather — a retired ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Visualised grandfather in his ",
+                  {
+                    "b": 1
+                  },
+                  " room listening to patients"
+                ],
+                [
+                  "Use of atmosphere: long silence in first scene + repetitive phrases to show ",
+                  {
+                    "b": 1
+                  },
+                  " life in the 1950s"
+                ]
+              ]
+            },
+            {
+              "emoji": "👥",
+              "title": "Group Dynamics",
+              "items": [
+                [
+                  "Rob felt ",
+                  {
+                    "b": 1
+                  },
+                  " at times when the group couldn't agree"
+                ],
+                [
+                  "Sophia emerged as the natural ",
+                  {
+                    "b": 1
+                  },
+                  " — helped work out what to do"
+                ],
+                [
+                  "Sophia also did ",
+                  {
+                    "b": 1
+                  },
+                  " about 1950s social relationships"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Year Abroad Scheme",
+              "items": [
+                [
+                  "Very competitive — only students with good ",
+                  {
+                    "b": 1
+                  },
+                  " get places"
+                ],
+                [
+                  "Six months before going: email coordinator with top three ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "While abroad: stay in touch so they know your choices for optional ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "doctor",
+            "consulting",
+            "boring",
+            "frustrated",
+            "leader",
+            "research",
+            "marks",
+            "choices",
+            "modules"
+          ],
+          "dictation": [
+            {
+              "speaker": "MIA",
+              "parts": [
+                "I saw your group's performance last night at the student theatre. It was good."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Now we have to write a report — an in-depth analysis. I have to write about the role I played — the ",
+                1,
+                " — and how I developed the character."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "My grandfather was a doctor before he retired. I just based it on him. I'd ",
+                2,
+                " what he must have been like, sitting in his consulting room listening to his patients."
+              ]
+            },
+            {
+              "speaker": "MIA",
+              "parts": [
+                "Then there's the issue of atmosphere — in the first scene we needed to know how boring life was in the doctor's village in the 1950s. There was that long ",
+                3,
+                " before anyone spoke. And people kept saying the same thing over and over, like 'Cold, isn't it?'"
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Yes, and everyone wore grey and brown and just sat in a row. I also have to analyse how I functioned in the group. I know I was so ",
+                4,
+                " at times, when we couldn't agree."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Sophia emerged as the ",
+                5,
+                ". That was OK — she helped us work out exactly what to do for the production."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Sophia did some research — about how relationships between children and parents or between the public and professionals were ",
+                6,
+                " in the 1950s."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "In the final rehearsal everything was going fine until the last scene — that's where the doctor's first patient appears on stage on his own in a ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "The ",
+                8,
+                " stuck and was shining on the wrong side of the stage — but we got that fixed, thank goodness."
+              ]
+            },
+            {
+              "speaker": "MIA",
+              "parts": [
+                "For the year abroad, next year when you are in second year, you need to work really hard in all your theatre ",
+                9,
+                " modules. Only students with good marks get places."
+              ]
+            },
+            {
+              "speaker": "MIA",
+              "parts": [
+                "About six months before you go, email the scheme ",
+                10,
+                " with your top three choices."
+              ]
+            },
+            {
+              "speaker": "MIA",
+              "parts": [
+                "While you're abroad, don't make the mistake I made — I got so involved I forgot about making arrangements for my optional ",
+                11,
+                " for the final year."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "doctor",
+            "visualise",
+            "silence",
+            "frustrated",
+            "leader",
+            "shifting",
+            "wheelchair",
+            "spotlight",
+            "studies",
+            "coordinator",
+            "modules"
+          ]
+        },
+        "4": {
+          "scene": "自我调节焦点理论领导力讲座",
+          "sceneEmoji": "🧠",
+          "signpost": [
+            {
+              "quote": "Self-regulatory focus theory is a theory developed by Tori Higgins. He says that a person's focus at any given time is to either approach pleasure or avoid pain.",
+              "opts": [
+                [
+                  "A",
+                  "Challenging previous theories"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing the foundational concept before developing it further"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Promotion goals in different life situations emphasise achievement. Prevention goals are oriented towards the avoidance of punishment.",
+              "opts": [
+                [
+                  "A",
+                  "Distinguishing the two types of goals before explaining how each affects behaviour"
+                ],
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "C",
+                  "Summarising the whole lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Research has shown that the goals we are focusing on at a given time affect the way we think.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing empirical support for the theoretical distinction just made"
+                ],
+                [
+                  "B",
+                  "Providing an anecdotal example"
+                ],
+                [
+                  "C",
+                  "Introducing a counter-argument"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Now that I have talked about the two focuses and how they affect people, I want to look at the idea that the way leaders behave can affect the focus that followers adopt.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the theoretical discussion"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Transitioning from individual psychology to the impact of leadership style"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "In conclusion, it is important to understand that one focus is not necessarily better than the other one.",
+              "opts": [
+                [
+                  "A",
+                  "Preventing misinterpretation before applying the theory to different professional contexts"
+                ],
+                [
+                  "B",
+                  "Abandoning the theory entirely"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎯",
+              "title": "Two Types of Goals",
+              "items": [
+                [
+                  "Promotion goals: emphasise ",
+                  {
+                    "b": 1
+                  },
+                  " — focus on ideal self, aspirations and gains"
+                ],
+                [
+                  "Prevention goals: driven by ",
+                  {
+                    "b": 1
+                  },
+                  " — focus on obligations, avoiding mistakes"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔄",
+              "title": "Two Factors That Affect Focus",
+              "items": [
+                [
+                  "Chronic factor: connected to a person's basic ",
+                  {
+                    "b": 1
+                  },
+                  " — their natural tendency"
+                ],
+                [
+                  "Situational factor: context matters — e.g. working with a ",
+                  {
+                    "b": 1
+                  },
+                  " activates promotion; boss's project activates prevention"
+                ]
+              ]
+            },
+            {
+              "emoji": "👔",
+              "title": "Transformational vs Transactional Leaders",
+              "items": [
+                [
+                  "Transformational: focus on followers' ",
+                  {
+                    "b": 1
+                  },
+                  " — passionate speech, definitive ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Transactional: focus on clear ",
+                  {
+                    "b": 1
+                  },
+                  " — emphasise consequences of making mistakes"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Applications",
+              "items": [
+                [
+                  "Designer needing ",
+                  {
+                    "b": 1
+                  },
+                  " → promotion focus is better"
+                ],
+                [
+                  "Surgeon needing caution and quality → ",
+                  {
+                    "b": 1
+                  },
+                  " focus is more appropriate"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "achievement",
+            "anxiety",
+            "personality",
+            "friend",
+            "development",
+            "vision",
+            "structures",
+            "innovation",
+            "prevention"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Self-regulatory focus theory says that a person's focus at any given time is to either approach ",
+                1,
+                " or avoid pain. These are two basic motivations that cause us to have different kinds of goals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Promotion goals emphasise ",
+                2,
+                ". Prevention goals are oriented towards the avoidance of ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Two factors affect which goals we are focusing on. First, a chronic factor connected to ",
+                4,
+                ". Second, a situational factor — the context we are in."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For example, we are more likely to have promotion goals when spending time with a ",
+                5,
+                ". In contrast, working on an important project for our boss makes us focus more on prevention goals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When focusing on promotion goals, people consider their ideal self, their ",
+                6,
+                ", and gains. They feel more inspired to change."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When focusing on prevention goals, people think about their obligations to others. As a result, they experience more ",
+                7,
+                " and try to avoid situations where they could lose."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The way leaders behave can affect the focus that followers adopt. Transformational leaders focus on their followers' ",
+                8,
+                ". Their speech is passionate and conveys a definitive ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Transactional leaders focus on clear ",
+                10,
+                ". They emphasise how a follower will be punished if his or her behaviour doesn't change — a prevention focus."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One focus is not necessarily better than the other. For a designer who needs ",
+                11,
+                ", a promotion focus is probably better. For a surgeon who needs accuracy and high quality, a ",
+                12,
+                " focus is more appropriate."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "pleasure",
+            "achievement",
+            "punishment",
+            "personality",
+            "friend",
+            "aspirations",
+            "anxiety",
+            "development",
+            "vision",
+            "structures",
+            "innovation",
+            "prevention"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 10 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "公寓维修工作咨询",
+          "sceneEmoji": "🔧",
+          "mcq": [
+            {
+              "q": "How did Edith hear about Mr Thorndyke?",
+              "opts": [
+                [
+                  "A",
+                  "From a local advertisement"
+                ],
+                [
+                  "B",
+                  "From her friend May Hampton"
+                ],
+                [
+                  "C",
+                  "From a neighbour"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Where is Edith's flat?",
+              "opts": [
+                [
+                  "A",
+                  "West Park Flats"
+                ],
+                [
+                  "B",
+                  "East Park, Flat 4"
+                ],
+                [
+                  "C",
+                  "South Park, Flat 4"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does Mr Thorndyke say about the kitchen painting?",
+              "opts": [
+                [
+                  "A",
+                  "He will only need one coat of paint"
+                ],
+                [
+                  "B",
+                  "He will paint it straight away"
+                ],
+                [
+                  "C",
+                  "He needs to strip and plaster it about a week before painting"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Edith Pargetter phones Mr Thorndyke the builder about work she needs doing in her flat. She heard about him from her friend May Hampton, for whom he did excellent work. Her flat is in West Park, Flat 4, at the back of the post office. The best time to call her is in the afternoon. She provides an itemised quote with separate prices. The most urgent job is fixing a cracked window in the living room. She also wants painting done over the cooker in the kitchen. In the garden, she wants a fence replaced.",
+          "errors": [
+            {
+              "wrong": "West Park",
+              "correct": "East Park"
+            },
+            {
+              "wrong": "post office",
+              "correct": "library"
+            },
+            {
+              "wrong": "afternoon",
+              "correct": "morning"
+            },
+            {
+              "wrong": "window in the living room",
+              "correct": "glass in the kitchen door"
+            },
+            {
+              "wrong": "Mr Thorndyke provides an itemised quote",
+              "correct": "she asks for and he agrees to provide one"
+            },
+            {
+              "wrong": "about a week before painting she wants it done",
+              "correct": "he needs to strip and plaster it about a week before he can paint"
+            },
+            {
+              "wrong": "West Park",
+              "correct": "East Park (already corrected above — replace: post office with library ✓)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "I've got quite a few things which need painting and fixing in the flat. I wonder whether you'd be able to do the work."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "Firstly, how did you hear about us?"
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "It was my friend May Hampton — you did some excellent work for her a couple of years ago."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "That was in West Park Flats. And what's your name?"
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "It's Edith ",
+                1,
+                ". P-A-R-G-E-double-T-E-R."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "Do you live in West Park Flats as well?"
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "No — it's ",
+                2,
+                " Park, Flat 4. It's at the back of the ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "What's your phone number?"
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "875934 — but I'm out a great deal in the afternoons and evenings. So the best time to ring me is in the ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "I'll be in a van — where would you recommend parking?"
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "I always tell people in larger vehicles to park by the ",
+                5,
+                " on the other side of the road from the entrance."
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "Will you be able to give me a full itemised quote? I'd like to see the ",
+                6,
+                " listed separately."
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "Firstly and most urgently — in the kitchen, the ",
+                7,
+                " in the door has cracked and I'd need that replacing."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "What I'll do is come round tomorrow morning and do that immediately."
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "In the kitchen I'd also like some painting — just the area over the ",
+                8,
+                ". It's very greasy."
+              ]
+            },
+            {
+              "speaker": "THORNDYKE",
+              "parts": [
+                "For a proper job I'd need to strip the old paint and plaster it about a ",
+                9,
+                " before I paint it."
+              ]
+            },
+            {
+              "speaker": "EDITH",
+              "parts": [
+                "Now, May tells me you also do work in the garden. I'd like you to replace a ",
+                10,
+                " at the far end."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Pargetter",
+            "East",
+            "library",
+            "morning",
+            "postbox",
+            "prices",
+            "glass",
+            "cooker",
+            "week",
+            "fence"
+          ]
+        },
+        "2": {
+          "scene": "曼哈姆港历史遗产参观导览",
+          "sceneEmoji": "⛏️",
+          "kwt": [
+            {
+              "original": "The port developed here because it's the highest navigable point of the Avon — boats can go no higher up this river.",
+              "keyWord": "BEYOND",
+              "transStart": "Manham is situated at the highest navigable point of the Avon — boats cannot travel",
+              "transEnd": "on the river.",
+              "answer": "BEYOND THIS POINT",
+              "collocation": "beyond this point (= further than a specific location)"
+            },
+            {
+              "original": "As demand grew, the smelting process required huge factory furnaces and there was not enough coal in the local area, so the rocks had to be shipped long distances.",
+              "keyWord": "LACK",
+              "transStart": "A",
+              "transEnd": "coal meant ore-bearing rocks had to be transported over long distances for smelting.",
+              "answer": "LACK OF LOCAL",
+              "collocation": "a lack of (= an insufficient supply of)"
+            },
+            {
+              "original": "The Manham Trust organised scores of local volunteers to remove undergrowth to find the original outlines of the installations.",
+              "keyWord": "CLEAR",
+              "transStart": "Scores of local volunteers were organised to",
+              "transEnd": "undergrowth in order to uncover the original outlines of the installations.",
+              "answer": "CLEAR AWAY THE",
+              "collocation": "clear away (= remove something to expose or reveal what is beneath)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"children under 5 and dogs NOT allowed\""
+              },
+              {
+                "num": 2,
+                "left": "\"one of the largest displays in the world\""
+              },
+              {
+                "num": 3,
+                "left": "\"time your visit to coincide with a tour\""
+              },
+              {
+                "num": 4,
+                "left": "\"ship's wheel missing until 5 years ago\""
+              },
+              {
+                "num": 5,
+                "left": "\"not recommended for young children\""
+              }
+            ],
+            "options": [
+              "A.  The George sailing ketch",
+              "B.  converted mining train ride",
+              "C.  village school games display",
+              "D.  lower deck ladders",
+              "E.  the copper mine"
+            ],
+            "answers": [
+              "E",
+              "C",
+              "C",
+              "A",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "GUIDE",
+              "parts": [
+                "Welcome to Manham Port, where a thousand years of history are brought to life."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The port developed here because it's the highest ",
+                1,
+                " point of the Avon. A small port was already established here when, about 900 years ago, tin was discovered nearby."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "By the end of the nineteenth century, lead, copper, manganese and arsenic were added to the ",
+                2,
+                " leaving Manham."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As demand grew, the smelting process required huge factory furnaces, but there was not enough coal locally — so the rocks containing minerals had to be shipped long ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Manham Trust organised local volunteers to remove ",
+                4,
+                " to find the original outlines of the installations. Professionals then reconstructed it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Start with the visit to the copper mine. Travel on converted mining ",
+                5,
+                " and journey into the depths of the mountain. Please be warned that, like all mines, ours is very ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Children under five and dogs should NOT be taken into the mine."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The next visit is to the village school — take a special look at our display of ",
+                7,
+                ", which is one of the largest in the world. We recommend you time your visit to coincide with a guided ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Near the school is the beautiful old sailing ketch called 'The George'. Look out for the ship's ",
+                9,
+                " which was missing until only five years ago when it was dredged out of the ",
+                10,
+                " by a local fisherman."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Please take care going down the ",
+                11,
+                " if you wish to visit the lower deck — we don't recommend you allow young children to use them."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "navigable",
+            "cargos",
+            "distances",
+            "undergrowth",
+            "trains",
+            "dark",
+            "games",
+            "tour",
+            "wheel",
+            "silt",
+            "ladders"
+          ]
+        },
+        "3": {
+          "scene": "STEP项目工作实习经历建议",
+          "sceneEmoji": "💼",
+          "functions": "A  Describing a skill developed    B  Quantifying a benefit    C  Explaining a process step    D  Giving a warning    E  Recommending an action",
+          "pragmatic": [
+            {
+              "quote": "There was so much pressure to meet the project deadline — I definitely got better at managing my time and prioritising things.",
+              "speaker": "Laura",
+              "answer": "A"
+            },
+            {
+              "quote": "You should start by getting their booklet with all the details — I expect you can download one from their website.",
+              "speaker": "Laura",
+              "answer": "C"
+            },
+            {
+              "quote": "I had a friend who missed the deadline and didn't get her first choice — so you do need to get a move on at that stage.",
+              "speaker": "Laura",
+              "answer": "D"
+            },
+            {
+              "quote": "If they'd used a professional advertising agency instead of doing it in-house, it would have been 250 per cent more expensive.",
+              "speaker": "Laura",
+              "answer": "B"
+            },
+            {
+              "quote": "It is best to be proactive and get updates yourself by checking the website for new placement alerts.",
+              "speaker": "Laura",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📋",
+              "title": "The STEP Scheme",
+              "items": [
+                [
+                  "Government agency STEP organises placements for ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Step 1: get the STEP ",
+                  {
+                    "b": 1
+                  },
+                  " — download from website or pick up from psychology department"
+                ],
+                [
+                  "Step 2: go over all the options with a ",
+                  {
+                    "b": 1
+                  },
+                  " officer (not personal tutor)"
+                ]
+              ]
+            },
+            {
+              "emoji": "📝",
+              "title": "Application Process",
+              "items": [
+                [
+                  "Register with STEP → assigned a ",
+                  {
+                    "b": 1
+                  },
+                  " who looks after your application"
+                ],
+                [
+                  "Be ",
+                  {
+                    "b": 1
+                  },
+                  ": check website for new placement alerts regularly"
+                ],
+                [
+                  "Company notifies you by letter or email from personnel if they want an ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "✅",
+              "title": "After the Interview",
+              "items": [
+                [
+                  "Let your mentor know the ",
+                  {
+                    "b": 1
+                  },
+                  " — whether offered the job and your decision"
+                ],
+                [
+                  "Careers office is informed once a placement is ",
+                  {
+                    "b": 1
+                  },
+                  " — you don't have to do this"
+                ],
+                [
+                  "Provide a ",
+                  {
+                    "b": 1
+                  },
+                  " from your own tutor — conditional on the placement offer"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "students",
+            "booklet",
+            "careers",
+            "mentor",
+            "proactive",
+            "interview",
+            "outcome",
+            "agreed",
+            "reference"
+          ],
+          "dictation": [
+            {
+              "speaker": "TIM",
+              "parts": [
+                "Could you spare a few minutes to talk about the work placement you did last summer? You did yours at an environmental services ",
+                1,
+                ", didn't you?"
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "That's right. They needed someone to produce a company ",
+                2,
+                ". I wanted to get some business experience because I'm interested in a career in occupational psychology."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "I definitely got better at managing my ",
+                3,
+                " and prioritising things. There was so much pressure to meet the project ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "I also got better at explaining things and asserting my opinions — I had to have weekly consultations with the marketing manager and give him a progress ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "If the company had used a professional advertising agency, it would have been 250 per cent more ",
+                6,
+                ". The new brochure looks really professional."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "There's a government agency called STEP that organises placements for students. Start by getting their booklet with all the details — I expect you can ",
+                7,
+                " it from their website."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "After you've looked at it, go over all the options with a ",
+                8,
+                " officer — they've got more knowledge about the jobs market than your personal tutor."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "Once you've registered with STEP, they assign you to a ",
+                9,
+                " who looks after your application."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "It's best to be ",
+                10,
+                " — get updates yourself by checking the website for new placement alerts. Your mentor is supposed to keep you informed, but you can't rely on that."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "The company notifies you if they want you to come for an interview — you get a letter of invitation or an email from their ",
+                11,
+                " department."
+              ]
+            },
+            {
+              "speaker": "LAURA",
+              "parts": [
+                "Once you've accepted an offer, you'll probably have to supply a ",
+                12,
+                " — because the placement is conditional on that. Ask your own tutor to provide it."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "company",
+            "brochure",
+            "time",
+            "deadline",
+            "report",
+            "expensive",
+            "download",
+            "careers",
+            "mentor",
+            "proactive",
+            "personnel",
+            "reference"
+          ]
+        },
+        "4": {
+          "scene": "纳米技术应用与前景讲座",
+          "sceneEmoji": "⚛️",
+          "signpost": [
+            {
+              "quote": "However, as we'll see, the science of the small has some big implications affecting us in many ways.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Hinting at wider significance before presenting specific applications"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "So how do we safeguard such a potentially powerful technology?",
+              "opts": [
+                [
+                  "A",
+                  "Returning to the introduction"
+                ],
+                [
+                  "B",
+                  "Raising a key policy question before presenting different views on it"
+                ],
+                [
+                  "C",
+                  "Providing an example"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But as far as I'm concerned there's a need to plough ahead with the discoveries and applications of nanotechnology.",
+              "opts": [
+                [
+                  "B",
+                  "Summarising all concerns"
+                ],
+                [
+                  "A",
+                  "Asserting the speaker's position after outlining opposing views"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Thanks to nanotechnology, there could be a major breakthrough in the field of transportation with the production of more durable metals.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the first specific application after establishing the general argument"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Returning to background information"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "But it's in the area of medicine that nanotechnology may have its biggest impact.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling a final and most significant application area"
+                ],
+                [
+                  "B",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising all applications"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "✈️",
+              "title": "Transportation",
+              "items": [
+                [
+                  "More durable ",
+                  {
+                    "b": 1
+                  },
+                  " — virtually unbreakable, lighter, more pliable"
+                ],
+                [
+                  "Planes 50 times lighter; travel to ",
+                  {
+                    "b": 1
+                  },
+                  " more accessible and affordable"
+                ]
+              ]
+            },
+            {
+              "emoji": "💻",
+              "title": "Computing & Energy",
+              "items": [
+                [
+                  "Computers the size of a sugar cube with a million times more ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Cost of ",
+                  {
+                    "b": 1
+                  },
+                  " cells drastically reduced — far more economical"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Environment",
+              "items": [
+                [
+                  "Nano-robots could rebuild the ozone layer and reduce global warming"
+                ],
+                [
+                  "Help clean up environmental disasters — remove ",
+                  {
+                    "b": 1
+                  },
+                  " from water more effectively"
+                ],
+                [
+                  "No ",
+                  {
+                    "b": 1
+                  },
+                  " — only use what you need in the production process"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏥",
+              "title": "Medicine",
+              "items": [
+                [
+                  "Biosensors analyse ",
+                  {
+                    "b": 1
+                  },
+                  " in minutes rather than days"
+                ],
+                [
+                  "Nano-robots could slow ageing process — lengthen life expectancy"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "metals",
+            "space",
+            "memory",
+            "solar",
+            "oil",
+            "waste",
+            "tests"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Nano means tiny — so nanotechnology is science and engineering on the scale of atoms and ",
+                1,
+                ". The idea is that by controlling and rearranging atoms, you can literally create anything."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Science-fiction books and movies have raised people's fears — scenarios such as self-replicating nano-robots that eventually take over the world. But most scientists would welcome a way to guard against ",
+                2,
+                " uses of such technology."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Thanks to nanotechnology, there could be a major breakthrough in the production of more durable ",
+                3,
+                " — virtually unbreakable, lighter and more pliable — leading to planes 50 times lighter than at present."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The computer industry will be able to shrink computer parts down to minute sizes. We could create a new generation of computers with a million times more ",
+                4,
+                " — about the size of a sugar cube."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The cost of ",
+                5,
+                " cells will be drastically reduced — harnessing this energy will be far more economical than at present."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Tiny airborne nano-robots could be programmed to rebuild the ozone layer, which could lessen the impact of global ",
+                6,
+                " on our planet."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Nanotechnology will allow us to remove ",
+                7,
+                " and other contaminants from water far more effectively."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If nanotechnology progresses as expected, you could build anything from the bottom up — you only use what you need, so there wouldn't be any ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "How we detect disease will change as tiny biosensors analyse ",
+                9,
+                " in minutes rather than days."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's even speculation that nano-robots could be used to slow the ageing process, lengthening life ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "molecules",
+            "unethical",
+            "metals",
+            "memory",
+            "solar",
+            "warming",
+            "oil",
+            "waste",
+            "tests",
+            "expectancy"
+          ]
+        }
+      }
+    }
+  }
+}

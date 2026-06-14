@@ -52,7 +52,7 @@ function wordEntry(item, num) {
       children:[
         R('• ', { color:RED }),
         R(col.en, { bold:true }),
-        R(`  （${col.zh}）`, { color:GREY, size:20 })
+        R(`  （${col.zh}）`, { color:GREY })  // 新模板：中文 12pt
       ]
     }));
   });
@@ -67,7 +67,7 @@ function wordEntry(item, num) {
       paras.push(new Paragraph({
         spacing: SP,
         indent:{ left:320 },
-        children:[ R(item.example.zh, { color:GREY, size:20, italics:true }) ]
+        children:[ R(item.example.zh, { color:GREY, italics:true }) ]  // 新模板：中文 12pt
       }));
     }
   }
@@ -129,8 +129,63 @@ function makeFooter() {
   });
 }
 
+// ── 新模板：题序去字母序（Part 2 / Part 4 洗牌，Part 3 防顺序答案）──
+function _shuffleArr(arr) {
+  const a = [...arr];
+  for (let i = a.length-1; i > 0; i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+function _isAlphaSorted(words) {
+  return words.every((w,i)=> i===0 || String(words[i-1]).toLowerCase() <= String(w).toLowerCase());
+}
+function desequenceVocabData(data) {
+  // Part 2：若按答案词字母序则洗牌
+  if (Array.isArray(data.part2) && data.part2.length > 2) {
+    const ans = data.part2.map(x=>x.answer||x.base_word||'');
+    if (_isAlphaSorted(ans)) {
+      let shuffled = _shuffleArr(data.part2);
+      if (_isAlphaSorted(shuffled.map(x=>x.answer||x.base_word||''))) shuffled = _shuffleArr(data.part2);
+      data.part2 = shuffled;
+    }
+  }
+  // Part 4：同上
+  if (Array.isArray(data.part4) && data.part4.length > 2) {
+    const ans = data.part4.map(x=>x.answer||'');
+    if (_isAlphaSorted(ans)) {
+      let shuffled = _shuffleArr(data.part4);
+      if (_isAlphaSorted(shuffled.map(x=>x.answer||''))) shuffled = _shuffleArr(data.part4);
+      data.part4 = shuffled;
+    }
+  }
+  // Part 3：若 key 是 1→A,2→B… 顺序，则在行间重排定义文本
+  if (Array.isArray(data.part3) && data.part3.length > 2 && data.part3_key) {
+    const seq = data.part3.filter(it =>
+      (data.part3_key[it.number]||'').charCodeAt(0) - 65 === it.number - 1).length;
+    if (seq / data.part3.length >= 0.8) {
+      const defs = data.part3.map(it => it.definition);
+      let perm;
+      do {
+        perm = _shuffleArr([...Array(defs.length).keys()]);
+      } while (perm.every((v,i)=>v===i));
+      const letters = data.part3.map(it => it.letter);
+      data.part3.forEach((it, k) => { it.definition = defs[perm[k]]; });
+      const newKey = {};
+      data.part3.forEach((it, origIdx) => {
+        const newPos = perm.indexOf(origIdx);
+        newKey[it.number] = letters[newPos];
+      });
+      data.part3_key = newKey;
+    }
+  }
+  return data;
+}
+
 // ── Main build ───────────────────────────────────────────────────
 function buildVocab(data) {
+  desequenceVocabData(data);  // 新模板：题序去字母序
   const title = data.title || '词汇笔记';
   const ch = [];
 
@@ -149,8 +204,8 @@ function buildVocab(data) {
   if ((data.part1||[]).length) {
     ch.push(buildPart1Table(data.part1));
   }
-  // Blank line between Part 1 and Part 2
-  ch.push(new Paragraph({ spacing:{ before:300, after:0, line:276 }, children:[R('')] }));
+  // 新模板：Part 1 结束后分页
+  ch.push(new Paragraph({ children:[new PageBreak()] }));
 
   // ── Part 2: Word Formation ───────────────────────────────────
   ch.push(partHead('Part 2.  Word Formation  ✏️'));
@@ -239,7 +294,7 @@ function buildVocab(data) {
     children:[R(t,{bold:true,size:24,color:BLUE})] });
   const ansLine = (n,a,note) => new Paragraph({ spacing:{before:30,after:30,line:276}, children:[
     R(`${n}.  `,{bold:true}), R(a,{bold:true,color:RED}),
-    R(note?`  —  ${note}`:'',{color:GREY,size:20})
+    R(note?`  —  ${note}`:'',{color:GREY})  // 新模板：中文 12pt
   ]});
 
   ch.push(secH('Part 2.  Word Formation'));
@@ -264,4 +319,4 @@ function buildVocab(data) {
 }
 
 async function buildVocabDoc(data) { return Packer.toBuffer(buildVocab(data)); }
-module.exports = { buildVocabDoc };
+module.exports = { buildVocabDoc, desequenceVocabData };

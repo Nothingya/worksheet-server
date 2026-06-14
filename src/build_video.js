@@ -11,14 +11,11 @@ const TNR = 'Times New Roman', RED = 'C00000', BLUE = '1F4E79', GREY = '595959';
 const bdr  = (c, sz=6) => ({ style:BorderStyle.SINGLE, size:sz, color:c });
 const allB = b => ({ top:b, bottom:b, left:b, right:b });
 function md(text) {
+  // 仅清除 markdown 星号与多余空格；
+  // 行首数字/下划线的清理只在 cleanStatement() 中进行（Bug：旧版在此剥掉了题号与答题空）
   return String(text||'')
-    .replace(/\*+(\d+\.\*+\s*)/g, '')
-    .replace(/\*+\d+\.\s*/g, '')
-    .replace(/^\d+\.\s+/, '')
-    .replace(/^[_\s]+/, '')
     .replace(/\*+/g, '')
-    .replace(/\s{3,}/g, '  ')
-    .trim();
+    .replace(/(\S)\s{3,}/g, '$1  ');  // 仅折叠词间多余空格，保留行首缩进
 }
 const R = (text, opts={}) => new TextRun({ text:md(text), font:TNR, size:24, ...opts });
 const P    = (ch, opts={}) => new Paragraph({ spacing:{before:0,after:80,line:276}, children:ch, ...opts });
@@ -75,10 +72,11 @@ function buildVideo(data) {
   ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
   ch.push(partHead('Part 2.  True, False or Not Given  ✅'));
   ch.push(instr('Instructions: Decide if the statements are True, False or Not Given. Write T, F or NG.'));
-  (data.part2||[]).forEach(s => {
+  (data.part2||[]).forEach((s, i) => {
+    const num = 5 + (i + 1);  // 题号 6–10，接续 Part 1
     ch.push(P([
-      R(s.number+'.  ',{bold:true}),
-      R('____________  '),
+      R(num+'.  ',{bold:true}),
+      R('__________  '),
       R(cleanStatement(s.statement))
     ], {spacing:{before:80,after:60,line:276}}));
   });
@@ -117,7 +115,7 @@ function buildVideo(data) {
   (data.part4||[]).forEach(seg => {
     const runs = seg.speaker ? [R(seg.speaker+':  ',{bold:true,color:BLUE})] : [];
     runs.push(R(expandBlanks(seg.text||'')));
-    ch.push(P(runs, {spacing:{before:60,after:50,line:276}}));
+    ch.push(P(runs, {spacing:{before:60,after:50,line:360}}));  // 新模板：Dictation 1.5 行距
   });
 
   // Answer Key — new page
@@ -136,7 +134,7 @@ function buildVideo(data) {
   ch.push(secH('Part 1:  Listening Comprehension'));
   (ans.part1||[]).forEach(a=>ch.push(aLine(a.number+'.', a.answer, a.quote||a.explanation||'')));
   ch.push(secH('Part 2:  True, False or Not Given'));
-  (ans.part2||[]).forEach(a=>ch.push(aLine(a.number+'.', a.answer, a.explanation||'')));
+  (ans.part2||[]).forEach((a,i)=>ch.push(aLine((5+i+1)+'.', a.answer, a.explanation||'')));
   ch.push(secH('Part 3:  Table Summary'));
   (ans.part3||[]).forEach(a=>ch.push(aLine(a.number+'.', a.answer, '')));
   ch.push(secH('Part 4:  Dictation'));

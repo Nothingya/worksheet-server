@@ -77,3 +77,32 @@ app.post('/ls/generate', async (req, res) => {
 npm i mammoth jsonrepair archiver   # jsonrepair/mammoth 可能已装
 ```
 （generate 用的 @anthropic-ai/sdk 项目已有）
+
+---
+
+## 4. 启动时自动扫描（核心：一次性读取）
+
+在 server.js 启动监听前加：
+
+```js
+const { scanAndIngestAll } = require('./src/listening_cache');
+
+// 开机扫描 ielts_listening_input/：未缓存的 .docx 解析一次,已缓存跳过
+scanAndIngestAll()
+  .then(() => console.log('[LS] 启动扫描完成,缓存就绪'))
+  .catch(e => console.error('[LS] 启动扫描出错:', e.message));
+```
+
+### 本地完整流程（doc 只读一次）
+```
+1. 把 C20.docx 丢进 worksheet-server/ielts_listening_input/
+2. pm2 restart server
+   → 自动检测到新文件 → 调一次 AI 解析 → 写 ielts_listening_cache/C20.json
+   → 控制台打印 "✅ 完成: C20.docx"
+3. 之后任意时刻(含再次重启): 网页选书+选Test → 直接从缓存JSON生成,不再调AI、不用再传doc
+```
+
+### 要点
+- 已缓存的书在重启时打印 "已缓存,跳过" —— **不会重复调用 AI**
+- 缓存 JSON 持久化在本地磁盘,pm2 重启不丢
+- 想强制重新解析某本书: 删掉对应的 `ielts_listening_cache/<book>.json` 再重启,或调 `/ls/ingest` 传 `force=true`

@@ -1,0 +1,4167 @@
+{
+  "bookTitle": "Cambridge IELTS 8 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 8 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "观鲸度假预订",
+          "sceneEmoji": "🐋",
+          "mcq": [
+            {
+              "q": "How long does the Whale Watch Experience last?",
+              "opts": [
+                [
+                  "A",
+                  "Two days, including travel time"
+                ],
+                [
+                  "B",
+                  "One day"
+                ],
+                [
+                  "C",
+                  "Three days, including travel time"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "How are guests transported on the tour?",
+              "opts": [
+                [
+                  "A",
+                  "By coach"
+                ],
+                [
+                  "B",
+                  "By minibus"
+                ],
+                [
+                  "C",
+                  "By train"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Which activity is included in the basic tour price?",
+              "opts": [
+                [
+                  "A",
+                  "A fishing trip"
+                ],
+                [
+                  "B",
+                  "Hire of the tennis courts"
+                ],
+                [
+                  "C",
+                  "A bushwalk through the national park"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A woman phones Dreamtime Travel about the Whale Watch Experience. The tour lasts three days and the transport is by coach. They take up to fifty people, but usually run it with just twelve or thirteen. The next available tour is on April 8th. Guests stay at a hotel called The Palace, which is right on the main beach. The basic tour price is $380. All bookings must be made at least four days before travel, and a 20% deposit is required at the time of booking.",
+          "errors": [
+            {
+              "wrong": "three days",
+              "correct": "two days"
+            },
+            {
+              "wrong": "by coach",
+              "correct": "by minibus"
+            },
+            {
+              "wrong": "fifty",
+              "correct": "fifteen"
+            },
+            {
+              "wrong": "April 8th",
+              "correct": "April 18th"
+            },
+            {
+              "wrong": "The Palace",
+              "correct": "The Pallisades"
+            },
+            {
+              "wrong": "$380",
+              "correct": "$280"
+            },
+            {
+              "wrong": "four days",
+              "correct": "fourteen days"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "Good afternoon, Dreamtime Travel. How can I ",
+                1,
+                " you?"
+              ]
+            },
+            {
+              "speaker": "CALLER",
+              "parts": [
+                "I'm interested in the holidays you offer along the ",
+                2,
+                " near here."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "Oh, that's our Whale Watch Experience. It's very ",
+                3,
+                " and it's based in a lovely little town with nice ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "CALLER",
+              "parts": [
+                "How long does it ",
+                5,
+                "?"
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "It's two days — that includes four hours' ",
+                6,
+                " time each way."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "Actually it's by ",
+                7,
+                ". We like to keep those tours small and ",
+                8,
+                ", so we only take up to ",
+                9,
+                " people, although we do run it with just twelve or thirteen."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "There's one in three weeks' time which is April the ",
+                10,
+                ", and then we don't have another one until June the 2nd."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "The hotel itself where you stay has great ",
+                11,
+                ". It's called The ",
+                12,
+                ", right on the main beach."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "All of the rooms have nice ",
+                13,
+                " and the food is really ",
+                14,
+                " there too."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "Your guide will take anyone who is interested on a ",
+                15,
+                " through the national park, and there's no extra ",
+                16,
+                " for that, or on a fishing trip."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "There are table tennis tables downstairs and they're part of the ",
+                17,
+                " package."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "At this time of year it's usually around $300, but let me check. It's actually $",
+                18,
+                "."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "We require all bookings to be made at least ",
+                19,
+                " days before you travel to avoid cancellations."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "And if you cancel within ",
+                20,
+                " days of departure you will have to pay 50% of your total booking."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "And you also need to pay a ",
+                21,
+                " deposit at the time of booking."
+              ]
+            },
+            {
+              "speaker": "CALLER",
+              "parts": [
+                "Can I pay that by ",
+                22,
+                " card?"
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "So I'll make a ",
+                23,
+                " booking — two for the Whale Watch Experience. Let me issue you with a customer ",
+                24,
+                " number."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "It's three nine seven, four five, ",
+                25,
+                ". That's T for tango."
+              ]
+            },
+            {
+              "speaker": "AGENT",
+              "parts": [
+                "When you call back, ask to speak to the Tour ",
+                26,
+                ", that's me, ",
+                27,
+                "."
+              ]
+            },
+            {
+              "speaker": "CALLER",
+              "parts": [
+                "I like the sound of the holiday that mentioned ",
+                28,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "help",
+            "coast",
+            "popular",
+            "beaches",
+            "last",
+            "travel",
+            "minibus",
+            "personal",
+            "fifteen",
+            "18th",
+            "facilities",
+            "Pallisades",
+            "views",
+            "good",
+            "bushwalk",
+            "charge",
+            "accommodation",
+            "280",
+            "fourteen",
+            "seven",
+            "20%",
+            "credit",
+            "provisional",
+            "reference",
+            "T",
+            "Manager",
+            "Tracy",
+            "whales"
+          ]
+        },
+        "2": {
+          "scene": "婴儿床消费测评",
+          "sceneEmoji": "🛏️",
+          "kwt": [
+            {
+              "original": "Our testers liked the fact that the cot had four wheels, so it was easy to move from place to place.",
+              "keyWord": "MOVE",
+              "transStart": "The wheels meant the cot was easy to",
+              "transEnd": "around the room.",
+              "answer": "MOVE AROUND / MOVE ABOUT",
+              "collocation": "move around / move about"
+            },
+            {
+              "original": "This cot is simple to assemble, unlike the other models we examined.",
+              "keyWord": "PUT",
+              "transStart": "Unlike the others, this cot is simple to",
+              "transEnd": ".",
+              "answer": "PUT TOGETHER",
+              "collocation": "put (it) together"
+            },
+            {
+              "original": "We decided this was the safest and most convenient model overall.",
+              "keyWord": "BEST",
+              "transStart": "Overall, we have made this model our",
+              "transEnd": ".",
+              "answer": "BEST BUY",
+              "collocation": "best buy"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"it had four wheels\""
+              },
+              {
+                "num": 2,
+                "left": "\"the space between the bars was too wide\""
+              },
+              {
+                "num": 3,
+                "left": "\"no sharp edges\""
+              },
+              {
+                "num": 4,
+                "left": "\"pictures simply stuck on\""
+              },
+              {
+                "num": 5,
+                "left": "\"the base could be raised or lowered\""
+              }
+            ],
+            "options": [
+              "A.  could easily become detached",
+              "B.  rounded or smooth edging",
+              "C.  easy to move around",
+              "D.  adjustable into two positions",
+              "E.  a baby could trap its head"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "B",
+              "A",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "HOST",
+              "parts": [
+                "Welcome to today's '",
+                1,
+                " Beware' programme, where we give you tips on how to spend your money ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Today we're looking at beds for children and babies. Let's start with baby ",
+                3,
+                ", that's for children of up to three years old."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We tested three different cots all in the ",
+                4,
+                " price range — the good points, the problems and our ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first cot was by Baby Safe. Our testers liked that it had four ",
+                6,
+                ", so it was easy to move around."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The only slight problems were that it had no ",
+                7,
+                ", but they didn't think that mattered too much."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They were a bit concerned about the side bar, because babies could trap their ",
+                8,
+                " in it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They felt this was unlikely, so they gave it a verdict of '",
+                9,
+                "'."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The next cot was by Choice Cots — simple to ",
+                10,
+                " together, unlike others."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The real problem was the space between the bars; they were too ",
+                11,
+                " and a baby could easily trap his head."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We felt this was a real safety ",
+                12,
+                ", so we have labelled this one ",
+                13,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Better news for the Mother's Choice cot. The base could be ",
+                14,
+                " or lowered into two different positions, making it safe as well as ",
+                15,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The only niggle was that it has no ",
+                16,
+                ", and the pictures were simply stuck on and could easily become ",
+                17,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As this cot will then be safe in every way, we have made it our best ",
+                18,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "So, what features should you look for? ",
+                19,
+                " is a very important factor, as well as comfort and ",
+                20,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Make sure any metal present is not ",
+                21,
+                " or bent in any way."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Ensure your cot has only rounded or smooth ",
+                22,
+                " without any ",
+                23,
+                " edges — especially important for ",
+                24,
+                " cots."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Buyer",
+            "wisely",
+            "cots",
+            "budget",
+            "verdict",
+            "wheels",
+            "brakes",
+            "fingers",
+            "satisfactory",
+            "put",
+            "wide",
+            "hazard",
+            "dangerous",
+            "raised",
+            "convenient",
+            "wheels",
+            "detached",
+            "buy",
+            "Safety",
+            "convenience",
+            "rusted",
+            "edging",
+            "sharp",
+            "wooden"
+          ]
+        },
+        "3": {
+          "scene": "管理文凭课程咨询",
+          "sceneEmoji": "🎓",
+          "functions": "A  Expressing a constraint / concern    B  Stating a preference    C  Asking for clarification    D  Describing a drawback    E  Offering options",
+          "pragmatic": [
+            {
+              "quote": "I don't want to quit my job or anything, and it would be better if I could do a course without taking too much time away from work.",
+              "speaker": "Andrew",
+              "answer": "B"
+            },
+            {
+              "quote": "You have two other possibilities: you could either do the part-time course, or you could do what we call a 'modular' course.",
+              "speaker": "Monica",
+              "answer": "E"
+            },
+            {
+              "quote": "I would have to take unpaid leave if I want to study full-time, and I don't think I could afford to support myself with no salary.",
+              "speaker": "Andrew",
+              "answer": "A"
+            },
+            {
+              "quote": "So what does the part-time course involve?",
+              "speaker": "Andrew",
+              "answer": "C"
+            },
+            {
+              "quote": "So that's quite a lot of work, then, on top of working every day. It sounds really tiring.",
+              "speaker": "Andrew",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "👤",
+              "title": "Andrew's Situation",
+              "items": [
+                [
+                  "Works in the administration section of the local ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ],
+                [
+                  "Has about five years of relevant work ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ],
+                [
+                  "Hopes to focus on ",
+                  {
+                    "b": 1
+                  },
+                  " Management"
+                ]
+              ]
+            },
+            {
+              "emoji": "🕒",
+              "title": "Part-time Course",
+              "items": [
+                [
+                  "Over ",
+                  {
+                    "b": 1
+                  },
+                  " years; no time off work needed"
+                ],
+                [
+                  "Evening class + a lecture twice a ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ],
+                [
+                  "A seminar or workshop one ",
+                  {
+                    "b": 1
+                  },
+                  " a month"
+                ],
+                [
+                  "Coursework: monthly essay, a case ",
+                  {
+                    "b": 1
+                  },
+                  ", short report every four weeks"
+                ]
+              ]
+            },
+            {
+              "emoji": "📦",
+              "title": "Modular Course",
+              "items": [
+                [
+                  "Study ",
+                  {
+                    "b": 1
+                  },
+                  " for short periods; each module lasts one ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ],
+                [
+                  "More ",
+                  {
+                    "b": 1
+                  },
+                  " way of studying; suits some people better"
+                ],
+                [
+                  "Programme = two modules, then choose a ",
+                  {
+                    "b": 1
+                  },
+                  " in more depth"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "hospital",
+            "experience",
+            "Personnel",
+            "two",
+            "week",
+            "weekend",
+            "study",
+            "full-time",
+            "term",
+            "intensive",
+            "topic"
+          ],
+          "dictation": [
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "I was told to come here for advice about Management ",
+                1,
+                " courses."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "Each course type has its advantages and ",
+                2,
+                ", so it really depends on you — your own study ",
+                3,
+                ", and your financial ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "I've been working in the ",
+                5,
+                " section of the local hospital for the last three years."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "What I'm hoping to ",
+                6,
+                " on is Personnel Management."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "My employers are keen for me to get some more ",
+                7,
+                ", but it would be better if I could study without taking too much time away from work."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "My office have agreed to pay the ",
+                8,
+                " of the course itself, but I would have to take ",
+                9,
+                " leave if I want to study full-time."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "You could do the part-time course over two years, or a 'modular' course in ",
+                10,
+                " months — it's quite ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "For the part-time course you would join an evening class and have a ",
+                12,
+                " twice a week."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "Then you'd attend a seminar or discussion ",
+                13,
+                " one weekend a month."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "You'd be expected to write an ",
+                14,
+                " each month, which counts towards your final ",
+                15,
+                "."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "You have a case study to do, which might involve doing a ",
+                16,
+                ", and you need to hand in a short ",
+                17,
+                " every four weeks."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "With the modular course you study full-time for short periods and cover a lot of ",
+                18,
+                " and attend lectures and seminars during the day."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "Each module lasts for one ",
+                19,
+                ", about twelve weeks at a time."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "The main advantage is that you can study in a much more ",
+                20,
+                " way, which suits some people much better."
+              ]
+            },
+            {
+              "speaker": "MONICA",
+              "parts": [
+                "The current programme is two ",
+                21,
+                " — and then you have to choose a ",
+                22,
+                " to work in more depth."
+              ]
+            },
+            {
+              "speaker": "ANDREW",
+              "parts": [
+                "It would be more ",
+                23,
+                ", though. I'd have to support myself without pay for each module."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Diploma",
+            "disadvantages",
+            "habits",
+            "circumstances",
+            "administration",
+            "focus",
+            "qualifications",
+            "cost",
+            "unpaid",
+            "eighteen",
+            "flexible",
+            "lecture",
+            "workshop",
+            "essay",
+            "assessment",
+            "survey",
+            "report",
+            "coursework",
+            "term",
+            "intensive",
+            "modules",
+            "topic",
+            "expensive"
+          ]
+        },
+        "4": {
+          "scene": "性别与理财储蓄讲座",
+          "sceneEmoji": "💰",
+          "signpost": [
+            {
+              "quote": "One aspect that we haven't yet considered is gender.",
+              "opts": [
+                [
+                  "A",
+                  "Rejecting an earlier idea"
+                ],
+                [
+                  "B",
+                  "Summarising previous points"
+                ],
+                [
+                  "C",
+                  "Introducing a new sub-topic for discussion"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Now, though these days people might question a lot of the assumptions in those statements, recent research does suggest...",
+              "opts": [
+                [
+                  "A",
+                  "Dismissing the research entirely"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Acknowledging a limitation before making a point"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Let's look at what men and women actually save for.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the main argument"
+                ],
+                [
+                  "B",
+                  "Moving from general background to specific detail"
+                ],
+                [
+                  "C",
+                  "Comparing two studies"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Now this is rather disturbing, because in fact the need for women to save for their old age is far greater than for men.",
+              "opts": [
+                [
+                  "A",
+                  "Highlighting a problematic contrast"
+                ],
+                [
+                  "B",
+                  "Adding a supporting example"
+                ],
+                [
+                  "C",
+                  "Ending on a positive note"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "So what can be done about this situation?",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the data"
+                ],
+                [
+                  "B",
+                  "Returning to historical background"
+                ],
+                [
+                  "C",
+                  "Signalling a shift towards solutions"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📜",
+              "title": "Historical View (George Bernard Shaw, 1928)",
+              "items": [
+                [
+                  "A man is supposed to understand ",
+                  {
+                    "b": 1
+                  },
+                  ", economics and finance"
+                ],
+                [
+                  "A woman, having fewer pretensions, is far more willing to ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ]
+              ]
+            },
+            {
+              "emoji": "💵",
+              "title": "What People Save For",
+              "items": [
+                [
+                  "Women: their children's ",
+                  {
+                    "b": 1
+                  },
+                  "; saving to buy a house"
+                ],
+                [
+                  "Men: ",
+                  {
+                    "b": 1
+                  },
+                  " (large part of N. American household budget); retirement"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Why Women Need to Save More",
+              "items": [
+                [
+                  "Women live longer; often left without a partner → pay for ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ],
+                [
+                  "High divorce rates create a poverty cycle for women"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "The Problem & Solutions",
+              "items": [
+                [
+                  "At present it takes a ",
+                  {
+                    "b": 1
+                  },
+                  " to make women think about finances"
+                ],
+                [
+                  "Even women in their ",
+                  {
+                    "b": 1
+                  },
+                  " need to think about pensions"
+                ],
+                [
+                  "Women avoid dealing with finances due to lack of ",
+                  {
+                    "b": 1
+                  },
+                  ""
+                ],
+                [
+                  "Solution: night classes in ",
+                  {
+                    "b": 1
+                  },
+                  " Management"
+                ],
+                [
+                  "Advice: at least 70% of savings in ",
+                  {
+                    "b": 1
+                  },
+                  " investments"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "politics",
+            "learn",
+            "education",
+            "a car",
+            "nursing care",
+            "crisis",
+            "early twenties",
+            "confidence",
+            "Money",
+            "low-risk"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "We've been looking at the ",
+                1,
+                " of various social and cultural groups towards the management of their personal ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One aspect we haven't yet considered is ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Back in 1928 the British writer George Bernard Shaw wrote that 'A man is supposed to understand ",
+                4,
+                ", economics and finance and is therefore unwilling to accept essential ",
+                5,
+                ".'"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He also said, 'A woman, having fewer ",
+                6,
+                ", is far more willing to ",
+                7,
+                ".'"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Recent research does suggest there are some quite ",
+                8,
+                " differences between men and women in their attitudes to economic matters."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Women are far more likely to save for their children's ",
+                9,
+                " and to save up to buy a ",
+                10,
+                " one day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Men, on the other hand, tend to save for a ",
+                11,
+                ", which takes a surprisingly large amount of the household ",
+                12,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The other main priority for men when saving is their ",
+                13,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Throughout the world, women are likely to live many years ",
+                14,
+                " than men, so they need money to support them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Women left without a partner may have to pay for ",
+                15,
+                " care, because they don't have a spouse to look after them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "High ",
+                16,
+                " rates in North America are creating a poverty cycle for women."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At present, for women it takes a ",
+                17,
+                " to make them think about their future financial situation."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "But of course this is the very worst time for anyone to make important ",
+                18,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Even women in their early ",
+                19,
+                " need to think about pensions."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Research suggests women avoid dealing effectively with their economic situation because of a lack of ",
+                20,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The best way to overcome this is by getting properly ",
+                21,
+                ", so they are less ",
+                22,
+                " on other people's advice."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This College offers night classes in Money ",
+                23,
+                ", and increasing numbers of women are ",
+                24,
+                " on such courses."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It is usually advised that at least 70% of a person's savings should be in ",
+                25,
+                " investments."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For the rest, financial advisors often advise taking some well-",
+                26,
+                " risks."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "attitudes",
+            "finances",
+            "gender",
+            "politics",
+            "instruction",
+            "pretensions",
+            "learn",
+            "fundamental",
+            "education",
+            "house",
+            "car",
+            "budget",
+            "retirement",
+            "longer",
+            "nursing",
+            "divorce",
+            "crisis",
+            "decisions",
+            "twenties",
+            "confidence",
+            "informed",
+            "dependent",
+            "Management",
+            "enrolling",
+            "low-risk",
+            "informed"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 8 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "图书馆入会咨询",
+          "sceneEmoji": "📚",
+          "mcq": [
+            {
+              "q": "What is the minimum age to join North College Library as an external member?",
+              "opts": [
+                [
+                  "A",
+                  "16"
+                ],
+                [
+                  "B",
+                  "21"
+                ],
+                [
+                  "C",
+                  "18"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "How far in advance can external members book a computer?",
+              "opts": [
+                [
+                  "A",
+                  "6 hours in advance"
+                ],
+                [
+                  "B",
+                  "Up to 48 hours in advance"
+                ],
+                [
+                  "C",
+                  "24 hours in advance"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "How can library items be renewed?",
+              "opts": [
+                [
+                  "A",
+                  "By telephone or the library website"
+                ],
+                [
+                  "B",
+                  "Only by visiting in person"
+                ],
+                [
+                  "C",
+                  "By sending an email"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "errorText": "A man calls North College Library to ask about becoming a member. The librarian explains that external members must be over 16. To join, applicants must bring a driving licence plus a credit card showing their address, along with two passport photos. External membership costs £150 per year, or £25 with a valid student card. Members of the public may borrow up to ten items at once. The minimum fine for late returns is £2. Computers can be booked up to 24 hours in advance, and must be booked in blocks of one hour.",
+          "errors": [
+            {
+              "wrong": "over 16",
+              "correct": "over 18"
+            },
+            {
+              "wrong": "credit card",
+              "correct": "bank statement"
+            },
+            {
+              "wrong": "£150",
+              "correct": "£125"
+            },
+            {
+              "wrong": "ten items",
+              "correct": "eight items"
+            },
+            {
+              "wrong": "£2",
+              "correct": "£1.50"
+            },
+            {
+              "wrong": "24 hours",
+              "correct": "48 hours"
+            },
+            {
+              "wrong": "one hour",
+              "correct": "one hour (correct — but 'up to 24 hours' is wrong; should be 48)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "Good morning, North College Library. How can I help you?"
+              ]
+            },
+            {
+              "speaker": "CALLER",
+              "parts": [
+                "I was wondering if it was possible to ",
+                1,
+                " the library."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "Are you a student at North College? Are you over 18? That's our minimum ",
+                2,
+                " age."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "You'll need to come in and fill out some forms. You'll also need to bring two ",
+                3,
+                " photos. We also need two documents for ID — a ",
+                4,
+                " licence would be fine."
+              ]
+            },
+            {
+              "speaker": "CALLER",
+              "parts": [
+                "Shall I bring a ",
+                5,
+                "? Would that do?"
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "That'll be fine. It's £",
+                6,
+                " per year for external members, or £25 if you've got a current student card."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "It's only ",
+                7,
+                " items for members of the public. For late returns, the minimum fine is £",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "The first hour on the computer is free, then we make a nominal charge of £1 per hour ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "You should book ",
+                10,
+                " hours in advance, and you can only book one hour at a time."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "We've got all the big nationals — The Guardian, The Independent, The Times. We've also got all the ",
+                11,
+                " papers and a wide selection of ",
+                12,
+                "."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "For photocopying: 5p a sheet for A4 and A3 ",
+                13,
+                " copies, and 40p a sheet for ",
+                14,
+                ". You can get a card from the counter — it doesn't take ",
+                15,
+                "."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "You'll have to speak to John ",
+                16,
+                " about writing classes. He's our resident author. He runs the creative writing classes."
+              ]
+            },
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "He's here on Friday evenings. You can contact him by ",
+                17,
+                " the library."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "join",
+            "joining",
+            "passport",
+            "driving",
+            "bank statement",
+            "125",
+            "eight",
+            "1.50",
+            "thereafter",
+            "48",
+            "local",
+            "magazines",
+            "black-and-white",
+            "colour",
+            "coins",
+            "Grantingham",
+            "emailing"
+          ]
+        },
+        "2": {
+          "scene": "Pedal Power 慈善组织",
+          "sceneEmoji": "🚲",
+          "kwt": [
+            {
+              "original": "I joined a voluntary organisation and was sent to Ecuador to carry out land surveys.",
+              "keyWord": "CARRY",
+              "transStart": "I joined a voluntary organisation and went to Ecuador to",
+              "transEnd": "land surveys.",
+              "answer": "CARRY OUT",
+              "collocation": "carry out (= conduct/undertake)"
+            },
+            {
+              "original": "Winning the award helped raise our profile and the money enabled us to pay all our shipping costs.",
+              "keyWord": "RAISE",
+              "transStart": "Winning the award helped to",
+              "transEnd": "and cover all the shipping costs.",
+              "answer": "RAISE OUR PROFILE",
+              "collocation": "raise one's profile (= increase public visibility)"
+            },
+            {
+              "original": "In August 2000, we simply ran out of money — we had containers of bikes ready to send but no funds.",
+              "keyWord": "RUN",
+              "transStart": "We had containers of bikes ready to send when we completely",
+              "transEnd": "of money.",
+              "answer": "RAN OUT",
+              "collocation": "run out of (= exhaust the supply of)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"we don't give them away for free\""
+              },
+              {
+                "num": 2,
+                "left": "\"carry out land surveys\""
+              },
+              {
+                "num": 3,
+                "left": "\"ran out of money\""
+              },
+              {
+                "num": 4,
+                "left": "\"strip it down for spare parts\""
+              },
+              {
+                "num": 5,
+                "left": "\"raise our profile\""
+              }
+            ],
+            "options": [
+              "A.  dismantle for components",
+              "B.  increase public awareness",
+              "C.  became insolvent",
+              "D.  we charge a small amount",
+              "E.  conduct geographical research"
+            ],
+            "answers": [
+              "D",
+              "E",
+              "C",
+              "A",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "DAN",
+              "parts": [
+                "I'd like to talk about the work of Pedal Power, a small ",
+                1,
+                " based mainly in the UK."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I went to Ecuador in 1993 just after ",
+                2,
+                " from university. I wanted adventure, so I joined a voluntary organisation and was sent to carry out land ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "My neighbour's business was unusually successful because having a bike meant he could get where he wanted to go without much ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Other local carpenters could only accept jobs within a three-kilometre ",
+                5,
+                ", so no matter how skilled they were, they could never do as many jobs as my neighbour."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At Pedal Power, we collect second-hand bikes and send them to some of the poorest ",
+                6,
+                " in the world. We sell them for 5% of the normal price to help the local ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In order to continue operating we need a constant supply of bikes, which we send out every six ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first place I sent a full container of bicycles to was ",
+                9,
+                ". Most people there now own a bicycle and the local economy has ",
+                10,
+                " enormously."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In August 2000 we simply ",
+                11,
+                " out of money. We had containers of bikes ready to send but no money to pay the ",
+                12,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We won an Enterprise Award and invested fifteen of the ",
+                13,
+                "-thousand-pound prize money to help secure our future."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When someone gets a bicycle from us, they see a 14% increase in their ",
+                14,
+                ". We're looking to invest in ",
+                15,
+                " so our office staff can do an even better job."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If we can't repair a donated bike, we'll strip it down for ",
+                16,
+                ". We always need ",
+                17,
+                ", which are expensive to buy."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We welcome suggestions about other places that would benefit from receiving a ",
+                18,
+                " of bikes, from people who have travelled to developing ",
+                19,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "charity",
+            "graduating",
+            "surveys",
+            "trouble",
+            "radius",
+            "regions",
+            "economy",
+            "months",
+            "Rivas",
+            "developed",
+            "ran",
+            "bills",
+            "seventy-five",
+            "income",
+            "computers",
+            "spare parts",
+            "tools",
+            "consignment",
+            "regions"
+          ]
+        },
+        "3": {
+          "scene": "视频项目教程反馈",
+          "sceneEmoji": "🎬",
+          "functions": "A  Expressing satisfaction    B  Describing a practical benefit    C  Identifying a mistake    D  Making a recommendation    E  Expressing mixed feelings",
+          "pragmatic": [
+            {
+              "quote": "I liked using the camera. I also enjoyed visiting one of the British students we filmed — I'd never been inside a British home before.",
+              "speaker": "Cristina",
+              "answer": "A"
+            },
+            {
+              "quote": "It was a very good chance to get to know students on other courses — everyone in our group is studying English and we don't usually have much to do with the rest of the college.",
+              "speaker": "Ibrahim",
+              "answer": "B"
+            },
+            {
+              "quote": "When we were being shown how to edit the film, we had to follow instructions — and I also learned some technical words I hadn't heard before.",
+              "speaker": "Cristina",
+              "answer": "B"
+            },
+            {
+              "quote": "We didn't plan very well. We didn't decide on dates when we'd complete each step, and we were always late with everything.",
+              "speaker": "Group",
+              "answer": "C"
+            },
+            {
+              "quote": "Next time I would make a shorter film and try to get the quality better.",
+              "speaker": "Ibrahim",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "😊",
+              "title": "What Students Enjoyed",
+              "items": [
+                [
+                  "Cristina: using the ",
+                  {
+                    "b": 1
+                  },
+                  " for the first time; visiting a British ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Ibrahim: getting to know students on other ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Ibrahim invited three of them to have ",
+                  {
+                    "b": 1
+                  },
+                  " with him"
+                ]
+              ]
+            },
+            {
+              "emoji": "📖",
+              "title": "English Practice Gained",
+              "items": [
+                [
+                  "Cristina: following instructions during ",
+                  {
+                    "b": 1
+                  },
+                  "; learning ",
+                  {
+                    "b": 1
+                  },
+                  " vocabulary"
+                ],
+                [
+                  "Ibrahim: listening to British students speak at natural ",
+                  {
+                    "b": 1
+                  },
+                  "; using slang ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Mistakes Made",
+              "items": [
+                [
+                  "Did not ",
+                  {
+                    "b": 1
+                  },
+                  " dates for completing each step → always late"
+                ],
+                [
+                  "Should have ",
+                  {
+                    "b": 1
+                  },
+                  " more with camera angles and focus"
+                ],
+                [
+                  "Film was too ",
+                  {
+                    "b": 1
+                  },
+                  " — quality suffered"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "camera",
+            "home",
+            "courses",
+            "dinner",
+            "editing",
+            "technical",
+            "speed",
+            "slang",
+            "agree",
+            "experimented",
+            "long"
+          ],
+          "dictation": [
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "I really enjoyed watching your video about student life. I'd like to use this tutorial as a ",
+                1,
+                " session."
+              ]
+            },
+            {
+              "speaker": "CRISTINA",
+              "parts": [
+                "I liked using the camera. I also enjoyed visiting one of the British students — I'd never been inside a British ",
+                2,
+                " before."
+              ]
+            },
+            {
+              "speaker": "IBRAHIM",
+              "parts": [
+                "It was a very good chance to get to know students on other courses. I've invited three of them to have ",
+                3,
+                " with me next week."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "What was the most useful aspect of the project from the point of view of English ",
+                4,
+                "?"
+              ]
+            },
+            {
+              "speaker": "CRISTINA",
+              "parts": [
+                "When we were being shown how to edit the film, we had to follow the ",
+                5,
+                ". And I learned some ",
+                6,
+                " words I hadn't heard before."
+              ]
+            },
+            {
+              "speaker": "IBRAHIM",
+              "parts": [
+                "It was listening to the British students — they don't speak as slowly as most of the tutors. They use a lot of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "CRISTINA",
+              "parts": [
+                "I learned how to work together with other people. We had to find ways of cooperating and ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "CRISTINA",
+              "parts": [
+                "And sometimes we needed to find ways of ",
+                9,
+                " people when they don't agree with you."
+              ]
+            },
+            {
+              "speaker": "IBRAHIM",
+              "parts": [
+                "I learnt how important ",
+                10,
+                " is. We cut around half the film in the end, and then it was much better."
+              ]
+            },
+            {
+              "speaker": "GROUP",
+              "parts": [
+                "We didn't plan very well. We didn't decide on ",
+                11,
+                " when we'd complete each step, and we were always late."
+              ]
+            },
+            {
+              "speaker": "CRISTINA",
+              "parts": [
+                "We should have tried to ",
+                12,
+                " more with the camera — with angles and the focus."
+              ]
+            },
+            {
+              "speaker": "IBRAHIM",
+              "parts": [
+                "I think we were too ",
+                13,
+                ". We tried to make a ",
+                14,
+                " film. Next time I would make a shorter one and get the quality better."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "feedback",
+            "home",
+            "dinner",
+            "practice",
+            "instructions",
+            "technical",
+            "slang",
+            "compromising",
+            "persuading",
+            "editing",
+            "dates",
+            "experiment",
+            "ambitious",
+            "long"
+          ]
+        },
+        "4": {
+          "scene": "南极洲研究讲座",
+          "sceneEmoji": "🧊",
+          "signpost": [
+            {
+              "quote": "First, some facts and figures.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Moving from background to specific data"
+                ],
+                [
+                  "C",
+                  "Introducing an opposing view"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But the other main priority for men when saving money is their retirement. When they're earning, they're far more likely to put money aside for their old age than women are.",
+              "opts": [
+                [
+                  "A",
+                  "Providing an example"
+                ],
+                [
+                  "B",
+                  "Adding a contrasting detail after the main point"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Research and exploration has been going on for more than two hundred years, and has involved scientists from many different countries.",
+              "opts": [
+                [
+                  "A",
+                  "Comparing different countries"
+                ],
+                [
+                  "B",
+                  "Criticising past approaches"
+                ],
+                [
+                  "C",
+                  "Establishing historical scale before describing current work"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Living in the Antarctic hasn't always been so comfortable.",
+              "opts": [
+                [
+                  "A",
+                  "Contrasting comfortable present with a difficult past"
+                ],
+                [
+                  "B",
+                  "Acknowledging a current problem"
+                ],
+                [
+                  "C",
+                  "Introducing a solution"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "I think that being at the cutting edge of science has a special appeal for everyone working in Antarctica.",
+              "opts": [
+                [
+                  "A",
+                  "Criticising non-scientific staff"
+                ],
+                [
+                  "B",
+                  "Summarising the lecture"
+                ],
+                [
+                  "C",
+                  "Transitioning from practical to intellectual motivation"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "Key Facts & Figures",
+              "items": [
+                [
+                  "Over ",
+                  {
+                    "b": 1
+                  },
+                  " times the size of the UK"
+                ],
+                [
+                  "Ice-cap contains 70% of world's fresh water; low snowfall → technically a '",
+                  {
+                    "b": 1
+                  },
+                  "'"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏗️",
+              "title": "Research Station Features",
+              "items": [
+                [
+                  "Self-contained community of about ",
+                  {
+                    "b": 1
+                  },
+                  " people"
+                ],
+                [
+                  "Living space, kitchen, small ",
+                  {
+                    "b": 1
+                  },
+                  ", and gym"
+                ],
+                [
+                  "Station Zero One: built on an ice-shelf; supplies from a ",
+                  {
+                    "b": 1
+                  },
+                  " 15km away"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏠",
+              "title": "Engineering Solution",
+              "items": [
+                [
+                  "Buildings placed on ",
+                  {
+                    "b": 1
+                  },
+                  " that can be raised above changing snow level"
+                ],
+                [
+                  "Legs are extendable to adjust for snow ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🍽️",
+              "title": "Food & Energy",
+              "items": [
+                [
+                  "Antarctic workers need ~",
+                  {
+                    "b": 1
+                  },
+                  " kcal/day (UK adult: ~1,700)"
+                ],
+                [
+                  "Freeze-drying preserves quality and saves ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Key Research Areas",
+              "items": [
+                [
+                  "Changes in volume of ice-cap → effects on sea levels and ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Ice bubbles → index of ",
+                  {
+                    "b": 1
+                  },
+                  " over 500,000 years"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "58",
+            "desert",
+            "20",
+            "hospital",
+            "ship",
+            "platforms",
+            "level",
+            "3,500",
+            "weight",
+            "ocean currents",
+            "pollution"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "For early explorers, Antarctica was the ultimate survival ",
+                1,
+                "; for researchers like me, it remains a place of great intellectual ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Antarctica is the highest, coldest and windiest continent and over fifty-eight times the size of the UK."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ice-cap contains almost 70% of the world's fresh water, but with very low ",
+                3,
+                ", most of the continent technically falls into the category of '",
+                4,
+                "'."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Huge icebergs break off the continent each year, and in winter half the surrounding ocean ",
+                5,
+                ", which means its size almost doubles."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Research stations are self-contained communities of about twenty people — living space, a kitchen, a small ",
+                6,
+                " and a well-equipped gym."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Station Zero One wasn't built on land but on an ice-",
+                7,
+                ". Supplies were brought from a ship fifteen kilometres away at the ice edge."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Snow build-ups buried and finally ",
+                8,
+                " four previous stations on the same site — a huge challenge to architects."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The solution: buildings placed on ",
+                9,
+                " which can be raised above the changing snow level on legs which are extendable."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Someone in Antarctica needs about 3,500 kilocalories a day — just over ",
+                10,
+                " the UK average. This energy comes from foods high in ",
+                11,
+                " and fat."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Special ration boxes contain enough food for one person for twenty days, using freeze-",
+                12,
+                " to preserve quality while reducing weight."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "My own research was fascinating as a marine ",
+                13,
+                ". But climate change research is perhaps the most crucial field of study."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Surveying changes in the ice-cap volume is vital, as these affect world sea levels and ocean ",
+                14,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bubbles in the ice provide an index of ",
+                15,
+                " — frozen samples of previous atmospheres over the past 500,000 years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are increasing opportunities for ",
+                16,
+                " people to work in Antarctica — not only as research assistants but also in administrative and ",
+                17,
+                " positions."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "contest",
+            "challenge",
+            "snowfall",
+            "desert",
+            "freezes",
+            "hospital",
+            "shelf",
+            "crushed",
+            "platforms",
+            "double",
+            "carbohydrate",
+            "drying",
+            "biologist",
+            "currents",
+            "pollution",
+            "young",
+            "technical"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 8 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "汽车购买咨询",
+          "sceneEmoji": "🚗",
+          "mcq": [
+            {
+              "q": "What type of gear change does Dr Harries want?",
+              "opts": [
+                [
+                  "A",
+                  "Manual"
+                ],
+                [
+                  "B",
+                  "Automatic"
+                ],
+                [
+                  "C",
+                  "Either would be suitable"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What colour does the customer eventually choose?",
+              "opts": [
+                [
+                  "A",
+                  "Royal blue"
+                ],
+                [
+                  "B",
+                  "Metallic grey"
+                ],
+                [
+                  "C",
+                  "Sky blue"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "How does Dr Harries wish to pay for the car?",
+              "opts": [
+                [
+                  "A",
+                  "Cash"
+                ],
+                [
+                  "B",
+                  "Credit with reasonable terms"
+                ],
+                [
+                  "C",
+                  "Part exchange only"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Dr Wendy Harries visits a car dealership looking for a Lida Max with a 1.6 litre engine. She has never driven a manual car, so she wants an automatic. She chooses a colour called Royal blue. The cash price is around eight and a half thousand pounds and she would prefer to pay by cash. Her address is 20 Green Banks, Alton. Her current car is a Conti called a Tiger, which she describes as being in good condition.",
+          "errors": [
+            {
+              "wrong": "1.6 litre",
+              "correct": "1.4 litre"
+            },
+            {
+              "wrong": "manual",
+              "correct": "automatic (she's never driven manual — she WANTS automatic)"
+            },
+            {
+              "wrong": "Royal blue",
+              "correct": "Sky blue"
+            },
+            {
+              "wrong": "eight and a half thousand",
+              "correct": "seven and a half thousand"
+            },
+            {
+              "wrong": "by cash",
+              "correct": "by credit"
+            },
+            {
+              "wrong": "Tiger",
+              "correct": "Lion"
+            },
+            {
+              "wrong": "good condition",
+              "correct": "reasonable condition"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "The one I've got at the moment is a 1.2 litre engine but I find it a bit slow on long journeys. I'd like a 1.",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "I'd want ",
+                2,
+                " — I've never driven a car with manual gears."
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "I like this lighter shade here — '",
+                3,
+                "'. I think I'll go for that."
+              ]
+            },
+            {
+              "speaker": "SALESMAN",
+              "parts": [
+                "The cash price is going to be somewhere in the region of seven and a half ",
+                4,
+                ". How would you like to pay? Would you need ",
+                5,
+                "?"
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "I'd like credit provided the terms are ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "SALESMAN",
+              "parts": [
+                "Could I have your full name?"
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "Wendy Harries, that's H-A-double R-I-E-S. It's Doctor, actually."
+              ]
+            },
+            {
+              "speaker": "SALESMAN",
+              "parts": [
+                "And your address?"
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "20 Green Banks. ",
+                7,
+                ". That's A-L-T-O-N."
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "I work at the hospital but it's a bit difficult to get hold of me. Can I give you a number just for ",
+                8,
+                "?"
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "My current car is a Conti. I think it's 1996, and it's called a ",
+                9,
+                " — like the animal."
+              ]
+            },
+            {
+              "speaker": "CUSTOMER",
+              "parts": [
+                "I'd probably describe it as ",
+                10,
+                ". Do you need to see it? It's parked outside."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "4",
+            "automatic",
+            "Sky",
+            "thousand",
+            "credit",
+            "reasonable",
+            "Alton",
+            "messages",
+            "Lion",
+            "reasonable"
+          ]
+        },
+        "2": {
+          "scene": "大学招生宣讲",
+          "sceneEmoji": "🏫",
+          "kwt": [
+            {
+              "original": "The demand for accommodation exceeds supply, so there is still a need to put your name down early for campus housing.",
+              "keyWord": "SHORT",
+              "transStart": "Because campus accommodation is in",
+              "transEnd": ", you must apply early.",
+              "answer": "SHORT SUPPLY",
+              "collocation": "in short supply (= insufficient/scarce)"
+            },
+            {
+              "original": "Something like 25% of our student body are international students like yourselves.",
+              "keyWord": "MAKE",
+              "transStart": "International students",
+              "transEnd": "roughly 25% of our student body.",
+              "answer": "MAKE UP",
+              "collocation": "make up (= constitute/form)"
+            },
+            {
+              "original": "Anything you can do to improve your spoken English will help make your stay with us more enjoyable.",
+              "keyWord": "GET",
+              "transStart": "The more you practise before arriving, the more you will",
+              "transEnd": "out of your studies with us.",
+              "answer": "GET THE MOST",
+              "collocation": "get the most out of (= maximise the benefit of)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"came 7th out of 101 universities\""
+              },
+              {
+                "num": 2,
+                "left": "\"put you in contact with a student from your own country\""
+              },
+              {
+                "num": 3,
+                "left": "\"in short supply\""
+              },
+              {
+                "num": 4,
+                "left": "\"references take their time to reply\""
+              },
+              {
+                "num": 5,
+                "left": "\"make little or no allowance\""
+              }
+            ],
+            "options": [
+              "A.  delays in the application process",
+              "B.  not enough to meet demand",
+              "C.  highly ranked in research",
+              "D.  connect with a peer mentor",
+              "E.  will not adapt for non-native speakers"
+            ],
+            "answers": [
+              "C",
+              "D",
+              "B",
+              "A",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "PRESENTER",
+              "parts": [
+                "Rexford is just 35 minutes from London Airport. We came 7th out of 101 universities in last year's research ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All our science and engineering research departments have unusually close ",
+                2,
+                " with industry in the area."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When you do apply, I will immediately send ",
+                3,
+                " and the application process begins."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most often the hold-up is caused by ",
+                4,
+                " — the people you give as referees take their time to reply."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We put you in contact with a student from your own ",
+                5,
+                " who is currently studying with us, so you can get an ",
+                6,
+                " opinion of what to expect."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The contact can also help you just before you leave, with tips on what to ",
+                7,
+                " and that sort of thing."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At a UK university, ",
+                8,
+                " learning is the norm, which takes most students a while to adjust to."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It is the University's policy to give priority in accommodation to visiting students, exchange students and new ",
+                9,
+                " students."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "However, demand exceeds supply, so there is still a need to put your name down ",
+                10,
+                " for campus accommodation."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If your family is ",
+                11,
+                " you, the earlier you start the procedure, the better."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you're planning to live off-campus, good accommodation gets ",
+                12,
+                " months before the beginning of term."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have a full-time accommodation ",
+                13,
+                " available to help all students. She has plenty of contacts in the town."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The lecturers will make little or no ",
+                14,
+                " for the presence of non-native speakers in the audience."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some extra practice before you ",
+                15,
+                " is worth more than private lessons afterwards, when you won't have time."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "assessment",
+            "relationships",
+            "confirmation",
+            "references",
+            "country",
+            "objective",
+            "pack",
+            "independent",
+            "postgraduate",
+            "early",
+            "accompanying",
+            "snapped up",
+            "officer",
+            "allowance",
+            "arrive"
+          ]
+        },
+        "3": {
+          "scene": "课程反馈表讨论",
+          "sceneEmoji": "📋",
+          "functions": "A  Expressing approval    B  Suggesting an improvement    C  Identifying a problem    D  Agreeing with a point    E  Providing a specific example",
+          "pragmatic": [
+            {
+              "quote": "The organisation was clear. It was a good thing he gave us the course outline at the beginning — that was useful.",
+              "speaker": "Student A",
+              "answer": "A"
+            },
+            {
+              "quote": "At the beginning it seemed dead easy, and then all of a sudden in the second half we got a whole load of work.",
+              "speaker": "Student A",
+              "answer": "C"
+            },
+            {
+              "quote": "I didn't think it was all that wonderful when we had great long group discussion sessions that went on for hours.",
+              "speaker": "Student A",
+              "answer": "B"
+            },
+            {
+              "quote": "What was good about some sessions was the handouts — some were great, with website addresses and everything.",
+              "speaker": "Student B",
+              "answer": "A"
+            },
+            {
+              "quote": "One thing I think is that there's just too much written work — it's really stressful.",
+              "speaker": "Student A",
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "✅",
+              "title": "What Went Well",
+              "items": [
+                [
+                  "Course organisation: schedule was ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Tutor gave a course ",
+                  {
+                    "b": 1
+                  },
+                  " in the very first session"
+                ],
+                [
+                  "Standard of ",
+                  {
+                    "b": 1
+                  },
+                  " was fine — better than other courses"
+                ],
+                [
+                  "Handouts were good, some included ",
+                  {
+                    "b": 1
+                  },
+                  " addresses"
+                ],
+                [
+                  "Oral presentation: feedback given ",
+                  {
+                    "b": 1
+                  },
+                  "; clear marking criteria"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Suggestions for Improvement",
+              "items": [
+                [
+                  "Workload was uneven: easy at first, very heavy in the ",
+                  {
+                    "b": 1
+                  },
+                  " half"
+                ],
+                [
+                  "Group ",
+                  {
+                    "b": 1
+                  },
+                  " sessions went on too long"
+                ],
+                [
+                  "Not enough library copies of ",
+                  {
+                    "b": 1
+                  },
+                  " texts"
+                ],
+                [
+                  "Written work: too much overall; marking criteria for final ",
+                  {
+                    "b": 1
+                  },
+                  " not explained"
+                ]
+              ]
+            },
+            {
+              "emoji": "⭐",
+              "title": "Best Feature",
+              "items": [
+                [
+                  "Student ",
+                  {
+                    "b": 1
+                  },
+                  " was rated excellent by both students"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "clear",
+            "outline",
+            "teaching",
+            "website",
+            "quickly",
+            "second",
+            "discussion",
+            "key",
+            "exams",
+            "support"
+          ],
+          "dictation": [
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "Oh, did you fill in that course ",
+                1,
+                " form for Nick?"
+              ]
+            },
+            {
+              "speaker": "STUDENT B",
+              "parts": [
+                "I think the organisation was ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "It was a good thing he gave us the course ",
+                3,
+                " at the beginning. Now, going on to suggestions for improvement — it seemed dead easy at the start."
+              ]
+            },
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "All of a sudden in the second ",
+                4,
+                " of the course we got a whole load of work — reading and essays. It'd be better if it was more ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "STUDENT B",
+              "parts": [
+                "What I thought was really good was the standard of ",
+                6,
+                ". Much better than other courses I've been on."
+              ]
+            },
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "I didn't think it was all that wonderful when we had great long group ",
+                7,
+                " sessions that went on for hours and hours."
+              ]
+            },
+            {
+              "speaker": "STUDENT B",
+              "parts": [
+                "What was good about some sessions was the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "One problem with materials was the ",
+                9,
+                " texts — there just weren't enough copies on reserve in the library."
+              ]
+            },
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "I hate written work. It's just too much — it's really ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": "STUDENT A",
+              "parts": [
+                "I'd like to know what ",
+                11,
+                " they use for marking the final exams. What makes a pass or a fail?"
+              ]
+            },
+            {
+              "speaker": "STUDENT B",
+              "parts": [
+                "I thought student ",
+                12,
+                " was excellent."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "feedback",
+            "clear",
+            "outline",
+            "half",
+            "even",
+            "teaching",
+            "discussion",
+            "handouts",
+            "key",
+            "stressful",
+            "criteria",
+            "support"
+          ]
+        },
+        "4": {
+          "scene": "英国家庭废物回收讲座",
+          "sceneEmoji": "♻️",
+          "signpost": [
+            {
+              "quote": "As part of our project, we carried out a survey of people in the street, and the thing that came up over and over again is that people don't think it's easy enough to recycle.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing primary research findings"
+                ],
+                [
+                  "B",
+                  "Summarising the whole lecture"
+                ],
+                [
+                  "C",
+                  "Contradicting earlier data"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Oddly enough, half the glass that's collected is green, and a lot of that is imported, so more green glass is recycled than the UK needs.",
+              "opts": [
+                [
+                  "A",
+                  "Highlighting an unexpected irony"
+                ],
+                [
+                  "B",
+                  "Concluding the glass section"
+                ],
+                [
+                  "C",
+                  "Supporting the previous claim"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "For recycling paper, Britain comes second in Europe with 40%, behind Germany's amazing 70%.",
+              "opts": [
+                [
+                  "B",
+                  "Repeating a previous point"
+                ],
+                [
+                  "A",
+                  "Shifting from glass to a new material"
+                ],
+                [
+                  "C",
+                  "Introducing a problem"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But these problems have now been solved.",
+              "opts": [
+                [
+                  "A",
+                  "Dismissing past issues and moving to positive developments"
+                ],
+                [
+                  "B",
+                  "Summarising the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a new problem"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Well, to sum up, there seems to be plenty of research going on into how to re-use materials, but the biggest problem is getting people to think about recycling.",
+              "opts": [
+                [
+                  "A",
+                  "Qualifying the previous argument"
+                ],
+                [
+                  "B",
+                  "Signalling the end of the presentation with a key conclusion"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "The Problem",
+              "items": [
+                [
+                  "Only ",
+                  {
+                    "b": 1
+                  },
+                  "% of UK people actively recycle — lower than most European countries"
+                ],
+                [
+                  "By 2008: must reduce CO₂ emissions by ",
+                  {
+                    "b": 1
+                  },
+                  "% (vs 1990)"
+                ],
+                [
+                  "Two benefits: less energy in production; fewer emissions from ",
+                  {
+                    "b": 1
+                  },
+                  " sites and incineration plants"
+                ]
+              ]
+            },
+            {
+              "emoji": "🍾",
+              "title": "Glass Recycling",
+              "items": [
+                [
+                  "Two million tons thrown away yearly; only ",
+                  {
+                    "b": 1
+                  },
+                  " tons collected"
+                ],
+                [
+                  "Problem: glass used for ",
+                  {
+                    "b": 1
+                  },
+                  " must be removed by hand (different melting point)"
+                ],
+                [
+                  "New use: CLF Aggregates makes product for ",
+                  {
+                    "b": 1
+                  },
+                  " using 30% crushed glass"
+                ]
+              ]
+            },
+            {
+              "emoji": "📄",
+              "title": "Paper & Plastic Recycling",
+              "items": [
+                [
+                  "Paper: UK second in Europe with 40%; Martin's produces 100% recycled office ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Papersave sells waste to farmers as soil ",
+                  {
+                    "b": 1
+                  },
+                  " (practice to be banned)"
+                ],
+                [
+                  "Plastic bottles recycled into ",
+                  {
+                    "b": 1
+                  },
+                  " used to collect waste across the country"
+                ],
+                [
+                  "Polystyrene cups → recycled into pencils and ",
+                  {
+                    "b": 1
+                  },
+                  " cards"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "9",
+            "12.5",
+            "landfill",
+            "500,000",
+            "cooking",
+            "roads",
+            "stationery",
+            "conditioner",
+            "containers",
+            "business"
+          ],
+          "dictation": [
+            {
+              "speaker": "STUDENT",
+              "parts": [
+                "We were quite shocked to discover that only 9% of people in the UK make an effort to ",
+                1,
+                " their household waste."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "By 2008 we must reduce our carbon dioxide ",
+                2,
+                " by 12.5% compared with 1990. Recycling can help in two ways."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The production of recycled glass and paper uses much less energy than producing them from ",
+                3,
+                " materials."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "People don't think it's easy enough to recycle. One problem is that there aren't enough '",
+                4,
+                "-off' sites."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Waste is taken to 'bring banks' for ",
+                5,
+                " and baling. One problem: toughened glass used for cooking has to be removed by hand."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Two million tons of glass is thrown away each year — seven billion bottles and jars — but only ",
+                6,
+                " tons is collected and recycled."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "More green glass is recycled than the UK needs, so new uses are being developed, for example in fibreglass manufacture and water ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "CLF Aggregates makes a product for roads, and 30% of the material is ",
+                8,
+                " glass."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Martin's, based in South London, produces office stationery which is 100% recycled, costs the same as normal paper and is of equally high ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Over a third of waste paper that comes in can't be used in the recycled paper — leaving the question of what to do with it. One firm, Papersave, sells this to farmers as a soil ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Pacrite recycles plastic bottles to make ",
+                11,
+                " used all over the country to collect waste."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Save-a-Cup scheme recycles polystyrene cups. Companies like Waterford turn them into ",
+                12,
+                ", and Johnson & Jones produces business cards."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "recycle",
+            "emissions",
+            "virgin",
+            "drop",
+            "sorting",
+            "500,000",
+            "filtration",
+            "crushed",
+            "quality",
+            "conditioner",
+            "containers",
+            "pencils"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 8 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "住宿家庭安置咨询",
+          "sceneEmoji": "🏠",
+          "mcq": [
+            {
+              "q": "What level of English does Jenny Chan describe herself as having?",
+              "opts": [
+                [
+                  "A",
+                  "Advanced"
+                ],
+                [
+                  "B",
+                  "Intermediate"
+                ],
+                [
+                  "C",
+                  "Beginner"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "In which area of the city would Jenny prefer to live?",
+              "opts": [
+                [
+                  "A",
+                  "City centre"
+                ],
+                [
+                  "B",
+                  "South-East"
+                ],
+                [
+                  "C",
+                  "North-West"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What special requirement does Jenny have regarding other guests?",
+              "opts": [
+                [
+                  "A",
+                  "She wants at least one other guest to practise English with"
+                ],
+                [
+                  "B",
+                  "She would prefer to be the only guest"
+                ],
+                [
+                  "C",
+                  "She has no preference"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Jenny Chan is looking for a host family for six months. She would like to live in the south-west of the city. Jenny describes her English as advanced overall. She would prefer a room with a garden view and en suite facilities. She also wants access to a shared computer. She is prepared to pay up to £80 a week, but would go up to £100 if it was something special. She would like to move in on Monday 23rd February.",
+          "errors": [
+            {
+              "wrong": "six months",
+              "correct": "one year (planning) / four months (confirmed)"
+            },
+            {
+              "wrong": "south-west",
+              "correct": "north-west"
+            },
+            {
+              "wrong": "advanced overall",
+              "correct": "intermediate (spoken advanced but written below level)"
+            },
+            {
+              "wrong": "garden view",
+              "correct": "a real garden (to sit in)"
+            },
+            {
+              "wrong": "shared computer",
+              "correct": "TV (in room)"
+            },
+            {
+              "wrong": "£80",
+              "correct": "£100 (maximum)"
+            },
+            {
+              "wrong": "23rd February",
+              "correct": "23rd March"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "STAFF",
+              "parts": [
+                "I understand you help fix up students with host families. Please sit down and I'll take a few ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "My name is Jenny Chan. My present address is Sea View Guest House, 14 ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "The best time to call is between 9 and half-past, before I leave for the ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I'm planning on staying a year but I'm definitely here for four ",
+                4,
+                " only. I have to get an extension to my ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "My spoken English is advanced, but my written work is below that level, so I suppose it's ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I'd really like to live in the north-",
+                7,
+                ". That shouldn't be a great problem."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I'm nearly a vegetarian. Shall I say I am? It's probably easier that way."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I would prefer my own facilities — en ",
+                8,
+                ". And if possible a TV and a real ",
+                9,
+                ", where I could sit and be peaceful."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I'm really serious about improving my English, so I'd prefer to be the ",
+                10,
+                " guest if that's possible."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I was thinking in terms of about £60–£80 a week, but I'd go up to a ",
+                11,
+                " if it was something special."
+              ]
+            },
+            {
+              "speaker": "JENNY",
+              "parts": [
+                "I'd like to move in approximately two weeks. It's the 10th today, so if we go for the Monday it's the 23rd ",
+                12,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "details",
+            "Hill Road",
+            "college",
+            "months",
+            "permit",
+            "intermediate",
+            "west",
+            "suite",
+            "garden",
+            "only",
+            "hundred",
+            "March"
+          ]
+        },
+        "2": {
+          "scene": "足球俱乐部赛季会议",
+          "sceneEmoji": "⚽",
+          "kwt": [
+            {
+              "original": "We hope to have ten teams, instead of five, in the junior competition this season.",
+              "keyWord": "DOUBLE",
+              "transStart": "The number of junior competition teams will",
+              "transEnd": "from five to ten this season.",
+              "answer": "DOUBLE TO TEN",
+              "collocation": "double to (a figure) (= increase to twice the number)"
+            },
+            {
+              "original": "Please try and come to the picnic as it's always good fun.",
+              "keyWord": "LOOK",
+              "transStart": "We hope to see everyone at the picnic — it's an event we all",
+              "transEnd": ".",
+              "answer": "LOOK FORWARD TO",
+              "collocation": "look forward to (= anticipate with pleasure)"
+            },
+            {
+              "original": "He will continue to supervise the teams at training sessions and on match days.",
+              "keyWord": "CHARGE",
+              "transStart": "Jason will continue to",
+              "transEnd": "the teams at training sessions and on match days.",
+              "answer": "BE IN CHARGE OF",
+              "collocation": "be in charge of (= be responsible for)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"collect the fees\""
+              },
+              {
+                "num": 2,
+                "left": "\"send out newsletters\""
+              },
+              {
+                "num": 3,
+                "left": "\"supervise the teams\""
+              },
+              {
+                "num": 4,
+                "left": "\"coming season\""
+              },
+              {
+                "num": 5,
+                "left": "\"snapped up\""
+              }
+            ],
+            "options": [
+              "A.  current year's activities",
+              "B.  taken quickly / in great demand",
+              "C.  communicate with members regularly",
+              "D.  gather subscription payments",
+              "E.  oversee players at training"
+            ],
+            "answers": [
+              "D",
+              "C",
+              "E",
+              "A",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "Good evening and thank you for coming to the Soccer Club ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This season we'll be playing all matches at King's Park. For ",
+                2,
+                ", we're going to use the clubhouse."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We hope to begin the season with a ",
+                3,
+                " next Saturday at the clubhouse. Please try to come — it's always good fun."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The last week of the season we usually have a dinner and ",
+                4,
+                " of prizes to the players."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We hope to have ten teams in the junior competition. They will play on Saturday ",
+                5,
+                ", beginning at 8.30."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Training for juniors will be held on Wednesday ",
+                6,
+                ". The training session for seniors is planned for Sunday afternoons."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Let me welcome Robert Young, the new ",
+                7,
+                ", who will manage meetings for the next two years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Gina Costello, the ",
+                8,
+                ", will collect the fees from you for the season. Please give her your fees as early as possible."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "David West has volunteered to be club ",
+                9,
+                ". One of his jobs is to send out ",
+                10,
+                " to you regularly."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Jason Dokic is the Head Coach. He will continue to ",
+                11,
+                " the teams at training sessions and on match days."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "meeting",
+            "meetings",
+            "picnic",
+            "presentation",
+            "mornings",
+            "afternoons",
+            "President",
+            "treasurer",
+            "secretary",
+            "newsletters",
+            "supervise"
+          ]
+        },
+        "3": {
+          "scene": "Box Telecom 案例讨论",
+          "sceneEmoji": "📱",
+          "functions": "A  Summarising a problem    B  Explaining a root cause    C  Predicting a likely action    D  Expressing optimism    E  Raising a doubt",
+          "pragmatic": [
+            {
+              "quote": "What set them back was high interest rates. Their longer-term problems were eventually credited to poor training.",
+              "speaker": "Jason",
+              "answer": "B"
+            },
+            {
+              "quote": "I think they're much more cautious than that and I expect they will start trying to find individuals who'd be prepared to back them with some capital.",
+              "speaker": "Karin",
+              "answer": "C"
+            },
+            {
+              "quote": "Despite a new advertising campaign, they were suffering from falling sales — and this had many causes. On top of that, they had to face increased competition.",
+              "speaker": "Karin",
+              "answer": "A"
+            },
+            {
+              "quote": "I'm not sure. I think it can recover, but it's not a foregone conclusion unless they attract the right level of investment.",
+              "speaker": "Jason",
+              "answer": "E"
+            },
+            {
+              "quote": "Personally I've got great hopes for it. I think it will recover. That advertising campaign was very strong and they're very innovative.",
+              "speaker": "Karin",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "⚠️",
+              "title": "Box Telecom's Problems",
+              "items": [
+                [
+                  "Falling ",
+                  {
+                    "b": 1
+                  },
+                  " despite new advertising campaign"
+                ],
+                [
+                  "Increased ",
+                  {
+                    "b": 1
+                  },
+                  " from rivals"
+                ],
+                [
+                  "Set back by high ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Poor ",
+                  {
+                    "b": 1
+                  },
+                  " affected market share"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Options for Recovery",
+              "items": [
+                [
+                  "Accept KMG Plc buyout → create a ",
+                  {
+                    "b": 1
+                  },
+                  " company with new image"
+                ],
+                [
+                  "Cautious route: find ",
+                  {
+                    "b": 1
+                  },
+                  " backers / shut down some shops"
+                ],
+                [
+                  "Ambitious route: restructure ",
+                  {
+                    "b": 1
+                  },
+                  " layers and processes"
+                ]
+              ]
+            },
+            {
+              "emoji": "📝",
+              "title": "Assessment Task",
+              "items": [
+                [
+                  "Write a report using Box Telecom as an example of the UK ",
+                  {
+                    "b": 1
+                  },
+                  " market"
+                ],
+                [
+                  "Suggest ways to overcome problems; give ",
+                  {
+                    "b": 1
+                  },
+                  " for your views"
+                ],
+                [
+                  "Keep analysis specific to the company — don't drag in other ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "sales",
+            "competition",
+            "interest rates",
+            "training",
+            "new",
+            "individual",
+            "management",
+            "telecommunications",
+            "reasons",
+            "examples"
+          ],
+          "dictation": [
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "I asked you to look at the case study for Box Telecom as part of your exam ",
+                1,
+                ". Let's start with you, Karin."
+              ]
+            },
+            {
+              "speaker": "KARIN",
+              "parts": [
+                "What first came to their attention was that, despite a new advertising ",
+                2,
+                ", they were suffering from falling sales."
+              ]
+            },
+            {
+              "speaker": "KARIN",
+              "parts": [
+                "They had to face up to increased ",
+                3,
+                ". And then they were ",
+                4,
+                " by a strike just when they were about to make a colossal investment in new machinery."
+              ]
+            },
+            {
+              "speaker": "JASON",
+              "parts": [
+                "What set them back was high interest ",
+                5,
+                ". At the same time, their longer-term problems were eventually ",
+                6,
+                " to poor training."
+              ]
+            },
+            {
+              "speaker": "KARIN",
+              "parts": [
+                "They could accept the very favourable terms that KMG Plc have given them to buy them out, creating a new company with a new ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "KARIN",
+              "parts": [
+                "But I think they're much more ",
+                8,
+                " than that and expect they will start trying to find individuals to back them with some capital."
+              ]
+            },
+            {
+              "speaker": "JASON",
+              "parts": [
+                "If they are cautious, I suspect they will seek to shut down some of their shops. Or they could alter how they're running things — the management ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "KARIN",
+              "parts": [
+                "I've got great hopes for it. They set new ",
+                10,
+                ". The company's got to recover."
+              ]
+            },
+            {
+              "speaker": "JASON",
+              "parts": [
+                "I'm not sure. The company needs a boost and to attract more highly ",
+                11,
+                " workers. They're also suffering from outdated production ",
+                12,
+                "."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Go away and write a ",
+                13,
+                ". Take Box Telecom as an example and suggest ways to overcome their problems. Keep it ",
+                14,
+                " to the company."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "assessment",
+            "campaign",
+            "competition",
+            "stalled",
+            "rates",
+            "credited",
+            "image",
+            "cautious",
+            "layers",
+            "trends",
+            "skilled",
+            "machinery",
+            "report",
+            "intrinsic"
+          ]
+        },
+        "4": {
+          "scene": "大学图书馆使用指导",
+          "sceneEmoji": "📖",
+          "signpost": [
+            {
+              "quote": "So, in this first week, we run a series of talks which focus on different aspects of the library and its resources.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the programme structure for new students"
+                ],
+                [
+                  "B",
+                  "Summarising previous inductions"
+                ],
+                [
+                  "C",
+                  "Contrasting two approaches"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Having found what you need, you'll find you can readily save texts on your personal computer space to print off when you need.",
+              "opts": [
+                [
+                  "A",
+                  "Explaining the practical benefit of a resource"
+                ],
+                [
+                  "B",
+                  "Warning about a danger"
+                ],
+                [
+                  "C",
+                  "Comparing two methods"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Clearly some of you will find the printed version more accessible as it sits on the shelves, but I'm afraid the intention is to phase these out eventually.",
+              "opts": [
+                [
+                  "A",
+                  "Encouraging traditional reading"
+                ],
+                [
+                  "B",
+                  "Summarising library policy"
+                ],
+                [
+                  "C",
+                  "Acknowledging a preference before announcing a change"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "As your Training Supervisor, I just oversee your induction and will not be around after this initial week.",
+              "opts": [
+                [
+                  "A",
+                  "Warning about staff shortages"
+                ],
+                [
+                  "B",
+                  "Clarifying the speaker's own limited role"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Obviously this is not relevant to those of you who are undergraduates; it is just for postgraduates.",
+              "opts": [
+                [
+                  "A",
+                  "Narrowing the audience for a specific piece of information"
+                ],
+                [
+                  "B",
+                  "Criticising undergraduates"
+                ],
+                [
+                  "C",
+                  "Concluding the talk"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💻",
+              "title": "Computer Resources",
+              "items": [
+                [
+                  "Computers permanently online → easily save texts to personal ",
+                  {
+                    "b": 1
+                  },
+                  " space"
+                ],
+                [
+                  "CD-ROMs loaded from specialist sources (e.g. MLA) → expand resources at low ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Warning: internet can contain useless or ",
+                  {
+                    "b": 1
+                  },
+                  " information — be critical"
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Journals & Books",
+              "items": [
+                [
+                  "Journal articles available ",
+                  {
+                    "b": 1
+                  },
+                  "; printed versions to be phased out eventually"
+                ],
+                [
+                  "Full range of classic ",
+                  {
+                    "b": 1
+                  },
+                  " books still available; several copies of each"
+                ],
+                [
+                  "Restricted ",
+                  {
+                    "b": 1
+                  },
+                  " time so books don't go missing too long"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎓",
+              "title": "Dissertation Support (Postgraduates only)",
+              "items": [
+                [
+                  "Library training: structure of dissertation + running data ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Department covers planning; library focuses on ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Students registered from abroad can request ",
+                  {
+                    "b": 1
+                  },
+                  " sessions"
+                ],
+                [
+                  "Language lessons: available from the International Centre next to the Law ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "computer",
+            "cost",
+            "debatable",
+            "online",
+            "reference",
+            "loan",
+            "programmes",
+            "structure",
+            "individual",
+            "Department"
+          ],
+          "dictation": [
+            {
+              "speaker": "LIBRARIAN",
+              "parts": [
+                "As a new student you will probably need guidance to help you use the library effectively to study and ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some of you have asked about a guided tour, but we find this rather ",
+                2,
+                ". So in this first week we run a series of talks."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You really do need to be computer ",
+                3,
+                ". All this term we run small classes to bring you up to speed on how to access the computer-loaded information."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The computers are permanently online. Having found what you need, you can save texts on your personal computer space to print off when you need."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Much of the internet is useless information as it is from highly ",
+                4,
+                " sources. Be critical."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have loaded several CD-ROMs onto the computers from specialist reference sources. This means we can expand what we offer you at very little extra ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The CD-ROMs contain exactly the same information as the reference books as the two are updated ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Printed journal versions will be phased out eventually. However, you will still be able to print off a version of the text rather than ",
+                7,
+                " journal pages."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We still have the full range of classic reference books. There is a ",
+                8,
+                " loan time so that they are not missing from the shelves too long."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you get stuck, ask the relevant Cataloguing ",
+                9,
+                ". As your Training Supervisor, I just oversee your induction and will not be around after this initial week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The library is offering specialised training on writing a ",
+                10,
+                " — for postgraduates only. Your department will discuss the planning stage; we will focus on the ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You will need to ask your tutors how they would like you to organise the ",
+                12,
+                ", as this varies depending on your subject area."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For those registered from abroad, we can offer individual sessions on dissertations. Language lessons are available from the International ",
+                13,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "research",
+            "muddles",
+            "literate",
+            "debatable",
+            "cost",
+            "together",
+            "photocopying",
+            "restricted",
+            "Assistant",
+            "dissertation",
+            "structure",
+            "bibliography",
+            "Centre"
+          ]
+        }
+      }
+    }
+  }
+}

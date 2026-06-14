@@ -1,0 +1,3660 @@
+{
+  "bookTitle": "Cambridge IELTS 11 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 11 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "村庄大厅场地预订咨询",
+          "sceneEmoji": "🏛️",
+          "mcq": [
+            {
+              "q": "Why is the woman hiring the Main Hall?",
+              "opts": [
+                [
+                  "A",
+                  "A wedding reception"
+                ],
+                [
+                  "B",
+                  "A charity fundraising dinner"
+                ],
+                [
+                  "C",
+                  "A birthday party"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "How much is the deposit, and how must it be paid?",
+              "opts": [
+                [
+                  "A",
+                  "£250, in cash only"
+                ],
+                [
+                  "B",
+                  "£115, by credit card"
+                ],
+                [
+                  "C",
+                  "£250, by any method"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What does the woman need a licence for?",
+              "opts": [
+                [
+                  "A",
+                  "Serving alcohol"
+                ],
+                [
+                  "B",
+                  "Using the kitchen"
+                ],
+                [
+                  "C",
+                  "Having music during the meal"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A woman phones to enquire about hiring the Charlton Room in the Village Hall for the evening of September 1st, a Friday. She is organising a dinner to raise money for charity and is hoping for at least 150 people. The evening charge from six pm to midnight is £115. There is also a returnable deposit of £200, which must be paid in cash. Parking is included. She will need to pay extra for the kitchen — £25. She must get a licence if she plans to have a band. About ten days before the event, she needs to contact the caretaker Mr Brown to arrange entry.",
+          "errors": [
+            {
+              "wrong": "the Charlton Room",
+              "correct": "the Main Hall"
+            },
+            {
+              "wrong": "a Friday",
+              "correct": "a Saturday"
+            },
+            {
+              "wrong": "deposit of £200",
+              "correct": "deposit of £250"
+            },
+            {
+              "wrong": "a licence if she plans to have a band",
+              "correct": "a licence if she plans to have any music"
+            },
+            {
+              "wrong": "Mr Brown",
+              "correct": "Mr Evans"
+            },
+            {
+              "wrong": "£115",
+              "correct": "£115 ✓ — replace: 'entry' to 'entry ✓' — change: 'she must get a licence for a band' to 'music'"
+            },
+            {
+              "wrong": "Charlton Room",
+              "correct": "Main Hall (already done — replace: deposit £200 → £250 already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "I wanted to enquire about hiring a room in the Village Hall for the evening of September the first."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "There's our Main Hall — seating for 200 people. Or there's the ",
+                1,
+                " Room — C-H-A-R-L-T-O-N — seating for up to a hundred."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "We're organising a dinner to raise money for a charity and we're hoping for at least 150 people. How much would it cost?"
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "From six pm to midnight that'd be £",
+                2,
+                ". That's the weekend price; it's £75 on weekdays."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "There's also a deposit of £250, which is returnable as long as there's no damage. But we insist this is paid in ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Does the charge include use of tables, chairs and parking?"
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "Yes, all included. The only thing that isn't is the kitchen — that's £25 extra. You said you were organising a dinner, so you'll want to use that."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "You'll have to see about getting a licence if you're planning to have any ",
+                4,
+                " during the meal."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "About a week or ten days before, you'll need to contact the caretaker — Mr Evans — to make arrangements for ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Is there anything I need to know about during the event?"
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "The band should park round the back and use the ",
+                6,
+                " door. Don't fiddle with the black box by the fire door — it's a sound-limiting system."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "When the event is over, there's a locked cupboard — you'll be given the ",
+                7,
+                " to open it. It's got all the cleaning equipment."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "The floors have to be washed — not just swept. All the rubbish must be collected and left outside in black plastic bags."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "You can have ",
+                8,
+                " in the room, but you must take them down afterwards."
+              ]
+            },
+            {
+              "speaker": "OFFICIAL",
+              "parts": [
+                "And the chairs and tables should be stacked up neatly at the back of the room."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Charlton",
+            "115",
+            "cash",
+            "music",
+            "entry",
+            "stage",
+            "code",
+            "decorations"
+          ]
+        },
+        "2": {
+          "scene": "Fiddy农耕遗产博物馆导览",
+          "sceneEmoji": "🌾",
+          "kwt": [
+            {
+              "original": "Do stay at a safe distance from the tools — some of them have sharp points which can be pretty dangerous, so please don't touch them.",
+              "keyWord": "KEEP",
+              "transStart": "Please",
+              "transEnd": "the tools, as many have sharp, dangerous points.",
+              "answer": "KEEP A SAFE DISTANCE FROM",
+              "collocation": "keep a safe distance from (= maintain a safe gap from a hazard)"
+            },
+            {
+              "original": "Children of all ages are very welcome here, and usually even very young children love the ducks and lambs.",
+              "keyWord": "CATER",
+              "transStart": "The farm",
+              "transEnd": "for children of all ages, from very young visitors who enjoy the animals to older children.",
+              "answer": "CATERS FOR",
+              "collocation": "cater for (= make provision for a particular group)"
+            },
+            {
+              "original": "In case you have brought dogs with you, I'm afraid they'll have to stay in the car park.",
+              "keyWord": "LEAVE",
+              "transStart": "Visitors who have brought dogs must",
+              "transEnd": "the car park, as dogs are not admitted to the farm.",
+              "answer": "LEAVE THEIR DOGS IN",
+              "collocation": "leave something in (a place) (= allow to remain in a specific location)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"just beside the main path in the car park corner\""
+              },
+              {
+                "num": 2,
+                "left": "\"opposite the New Barn, beside the side path\""
+              },
+              {
+                "num": 3,
+                "left": "\"go towards the bridge and turn right\""
+              },
+              {
+                "num": 4,
+                "left": "\"just where the path first bends, by the New Barn\""
+              },
+              {
+                "num": 5,
+                "left": "\"just after you cross the bridge, on the right\""
+              }
+            ],
+            "options": [
+              "A.  covered picnic area",
+              "B.  the maze",
+              "C.  Black Barn (crafts workshops)",
+              "D.  café (former schoolhouse)",
+              "E.  scarecrow sculpture"
+            ],
+            "answers": [
+              "E",
+              "B",
+              "D",
+              "C",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "GUIDE",
+              "parts": [
+                "Welcome to the Fiddy Working Heritage Farm. This open-air museum gives you the experience of agriculture and rural life in the English countryside at the end of the nineteenth century."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As it's a working farm, please don't frighten or injure the ",
+                1,
+                ". Many of them are breeds that are now quite rare."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Do stay at a safe distance from the ",
+                2,
+                ". Some have sharp points which can be pretty dangerous, so please don't touch them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The ground is very uneven and you might slip in sandals — we always advise people to wear ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Children of all ages are very welcome — even very young children love the ducks and lambs. But dogs will have to stay in the car park, unless they're guide ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The building where you bought your tickets is the New Barn. The ",
+                5,
+                " you can see in the car park in the corner is a permanent sculpture — it's taller than a human being."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you look ahead, you'll see a ",
+                6,
+                ". It's opposite the New Barn, beside the side path. It's made of hedges too tall for young children to see over, but it's quite small so you can't get lost!"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you want to go to the café, go towards the ",
+                7,
+                " and turn right just before it. The café is on the first bend — it was originally the schoolhouse, over a hundred years old."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For skills workshops in traditional crafts like woodwork and basket-making, you can talk to someone in the ",
+                8,
+                " Barn, just where the side path first bends."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For picnicking, you can use the field, or there's a covered picnic ",
+                9,
+                " just after you cross the bridge, on the right."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "And finally, Fiddy House itself — cross the bridge and walk along the footpath through the ",
+                10,
+                " to the left of the farmyard. It's certainly worth some photographs, but as it's a private home, you can't go inside."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "animals",
+            "tools",
+            "shoes",
+            "dogs",
+            "scarecrow",
+            "maze",
+            "bridge",
+            "Black",
+            "spot",
+            "field"
+          ]
+        },
+        "3": {
+          "scene": "物理课程性别差异研究讨论",
+          "sceneEmoji": "🔬",
+          "functions": "A  Clarifying a fact    B  Expressing surprise    C  Questioning a conclusion    D  Describing a methodology    E  Proposing a research design",
+          "pragmatic": [
+            {
+              "quote": "The researchers were actually a mix of psychologists and physicists. That's an unusual combination.",
+              "speaker": "Greg",
+              "answer": "B"
+            },
+            {
+              "quote": "The female students thought the male students all assumed that women weren't any good at physics — but actually no one was making any assumptions at all.",
+              "speaker": "Greg",
+              "answer": "A"
+            },
+            {
+              "quote": "Getting the students to do some writing before going into physics class — they called it 'values-affirmation' — writing about things significant to them.",
+              "speaker": "Greg",
+              "answer": "D"
+            },
+            {
+              "quote": "Miyake's article left out a lot of details — like, did the students do the writing just once, or several times? Had they been told why they were doing the writing?",
+              "speaker": "Greg",
+              "answer": "C"
+            },
+            {
+              "quote": "We could have half the students doing a writing task and half doing something else, like an oral task, to see if it was the writing that had that result.",
+              "speaker": "Greg",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📊",
+              "title": "The Problem",
+              "items": [
+                [
+                  "Women are underrepresented in introductory ",
+                  {
+                    "b": 1
+                  },
+                  " courses at college"
+                ],
+                [
+                  "Women's average results were lower than men's — but nobody knew why"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "The Miyake Study",
+              "items": [
+                [
+                  "Values-affirmation: students wrote an essay on things personally ",
+                  {
+                    "b": 1
+                  },
+                  " to them"
+                ],
+                [
+                  "Effect: raised women's physics grades from C to the ",
+                  {
+                    "b": 1
+                  },
+                  " range"
+                ],
+                [
+                  "Unexpected finding — researchers had not predicted this would be the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🤔",
+              "title": "Unanswered Questions",
+              "items": [
+                [
+                  "Did students write once or several ",
+                  {
+                    "b": 1
+                  },
+                  "?"
+                ],
+                [
+                  "Were they told ",
+                  {
+                    "b": 1
+                  },
+                  " they were doing the writing? (could fulfil expectation)"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Lisa & Greg's Research Plan",
+              "items": [
+                [
+                  "Compare: values-affirmation writing vs a factual ",
+                  {
+                    "b": 1
+                  },
+                  " topic"
+                ],
+                [
+                  "Or: writing task vs ",
+                  {
+                    "b": 1
+                  },
+                  " task — to isolate what causes the improvement"
+                ],
+                [
+                  "Need to discuss ",
+                  {
+                    "b": 1
+                  },
+                  " (not too big or too small) with supervisor"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "physics",
+            "significant",
+            "B",
+            "outcome",
+            "times",
+            "why",
+            "general",
+            "oral",
+            "sample size"
+          ],
+          "dictation": [
+            {
+              "speaker": "LISA",
+              "parts": [
+                "OK, I finally managed to read the article you mentioned — the one about the study on gender in ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "About the study done by Akira Miyake and his team. I was interested that the researchers were actually a mix of psychologists and ",
+                2,
+                ". That's an unusual combination."
+              ]
+            },
+            {
+              "speaker": "LISA",
+              "parts": [
+                "As I understood it, Miyake and co started from the fact that women are ",
+                3,
+                " in introductory physics courses at college, and also that the women who do enrol perform more poorly than the men."
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "The researchers wanted to find out what they could do about the relatively low level of the women's results. The female students thought the male students ",
+                4,
+                " that women weren't any good at physics. But no one was making any such assumptions at all."
+              ]
+            },
+            {
+              "speaker": "LISA",
+              "parts": [
+                "What Miyake's team did was quite simple — getting the students to do some writing before they went into the physics class. What did they call it?"
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "Values-",
+                5,
+                ". They had to write an essay focusing on things that were significant to them — like music, or people who mattered to them."
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "Putting these thoughts into words can ",
+                6,
+                " them and help them overcome the psychological factors that lead to poor performance."
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "What the researchers hadn't expected was that this one activity raised the women's physics grades from the C to the ",
+                7,
+                " range."
+              ]
+            },
+            {
+              "speaker": "LISA",
+              "parts": [
+                "Miyake's article left out a lot of details — like, did the students do the writing just once, or several times? And had they been told ",
+                8,
+                " they were doing it?"
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "Exactly. If they know the researchers thought it might help them, then they'd just try to ",
+                9,
+                " that expectation."
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "So for our project we could do a similar study — but investigate whether it really was the writing activity that had that result. We could have half the students doing a writing task and half doing something else, like an ",
+                10,
+                " task."
+              ]
+            },
+            {
+              "speaker": "LISA",
+              "parts": [
+                "Or we could have half do the same writing as in the original research and half do a factual writing task. Then we'd see if it was really the ",
+                11,
+                " that made the difference."
+              ]
+            },
+            {
+              "speaker": "GREG",
+              "parts": [
+                "The main thing is to make sure we have the right ",
+                12,
+                " — not too big or too small."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "physics",
+            "physicists",
+            "underrepresented",
+            "assumed",
+            "affirmation",
+            "relax",
+            "B",
+            "why",
+            "fulfil",
+            "oral",
+            "topic",
+            "sample"
+          ]
+        },
+        "4": {
+          "scene": "海洋生物多样性热点讲座",
+          "sceneEmoji": "🐋",
+          "signpost": [
+            {
+              "quote": "About 20 years ago biologists developed the idea of what they called 'biodiversity hotspots' — areas which have the greatest mixture of species.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the background concept before applying it to oceans"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Worm located five hotspots for large ocean predators like sharks, and looked at what they had in common.",
+              "opts": [
+                [
+                  "A",
+                  "Describing the research method after introducing the researcher"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Summarising the entire lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "A couple of years later, in 2007, a researcher called Lisa Ballance also started looking for ocean hotspots, but not for fish.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a second study that extends the findings to a different species group"
+                ],
+                [
+                  "B",
+                  "Contradicting the first study"
+                ],
+                [
+                  "C",
+                  "Concluding the hotspot section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Biologists still don't know how serious the threat to their survival is for each individual species.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising conservation efforts"
+                ],
+                [
+                  "B",
+                  "Identifying a remaining gap in knowledge before describing what is being done about it"
+                ],
+                [
+                  "C",
+                  "Questioning the value of the Census"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "So finally, what can be done to retain the diversity of species in the world's oceans?",
+              "opts": [
+                [
+                  "C",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Returning to background"
+                ],
+                [
+                  "A",
+                  "Signalling a shift from problem and research to solutions"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🦈",
+              "title": "Boris Worm's Study (2005) — Large Predators",
+              "items": [
+                [
+                  "5 hotspots identified — expected high concentrations of ",
+                  {
+                    "b": 1
+                  },
+                  "; only found in 4"
+                ],
+                [
+                  "Common factor: high water temperature at the ",
+                  {
+                    "b": 1
+                  },
+                  " of the ocean"
+                ],
+                [
+                  "Also required: sufficient ",
+                  {
+                    "b": 1
+                  },
+                  " to support high metabolic rate of large fish"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦭",
+              "title": "Lisa Ballance's Study (2007) — Marine Mammals",
+              "items": [
+                [
+                  "3 hotspots found — all located at ",
+                  {
+                    "b": 1
+                  },
+                  " between ocean currents"
+                ],
+                [
+                  "These locations have lots of the plankton that some ",
+                  {
+                    "b": 1
+                  },
+                  " feed on"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌡️",
+              "title": "Census of Marine Life — Arctic Findings",
+              "items": [
+                [
+                  "Large numbers of species live below the ",
+                  {
+                    "b": 1
+                  },
+                  " — sometimes under a layer 20 metres thick"
+                ],
+                [
+                  "Other researchers found species congregating around ocean-floor ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📉",
+              "title": "Assessing Threats — Global Marine Species Assessment",
+              "items": [
+                [
+                  "Three criteria: population ",
+                  {
+                    "b": 1
+                  },
+                  "; geographic distribution; rate of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🛡️",
+              "title": "Conservation Measures",
+              "items": [
+                [
+                  "Set up more ocean ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Create corridors for ",
+                  {
+                    "b": 1
+                  },
+                  " (e.g. leatherback turtles)"
+                ],
+                [
+                  "Lower fishing quotas; ensure boats only catch fish intended for ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "food",
+            "surface",
+            "oxygen",
+            "boundaries",
+            "mammals",
+            "ice",
+            "volcanoes",
+            "size",
+            "decline",
+            "reserves",
+            "migration",
+            "consumption"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "About 20 years ago biologists developed the idea of 'biodiversity ",
+                1,
+                "'. These are areas with the greatest mixture of species, and they allow us to locate key areas for ",
+                2,
+                " efforts."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Boris Worm did research in 2005 on data about ocean species. He located five hotspots for large ocean predators and looked at what they had in common."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "He'd expected to find high concentrations of ",
+                3,
+                ", but that was only true for four of the five. What he did find was that in all cases, the water at the ",
+                4,
+                " had relatively high temperatures."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This wasn't enough on its own — he also found that the water needed to have enough ",
+                5,
+                ". These two factors seemed necessary to support the high metabolic rate of these large fish."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 2007, Lisa Ballance started looking for ocean hotspots for marine ",
+                6,
+                ". She found three, and what they had in common was that they were all at ",
+                7,
+                " between ocean currents — places with lots of plankton."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Census of Marine Life found large numbers of species living below the ",
+                8,
+                " — sometimes under a layer up to 20 metres thick. Other researchers found species congregating around ",
+                9,
+                " on the ocean floor, attracted by warmth and nutrients."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Global Marine Species Assessment is assessing the threat to each species by looking at three things: the size of the ",
+                10,
+                ", its geographical distribution, and the rate at which its numbers are ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "To retain diversity, we need more ",
+                12,
+                " in our oceans. We also need to create corridors for ",
+                13,
+                ", so species can move between areas safely."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Fishing quotas need to be lowered to prevent overfishing. And commercial fishing boats should use more selective equipment so that only the fish wanted for ",
+                14,
+                " are caught."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "hotspots",
+            "conservation",
+            "food",
+            "surface",
+            "oxygen",
+            "mammals",
+            "boundaries",
+            "ice",
+            "volcanoes",
+            "population",
+            "declining",
+            "reserves",
+            "migration",
+            "consumption"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 11 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "青年议会候选人报名咨询",
+          "sceneEmoji": "🗳️",
+          "mcq": [
+            {
+              "q": "Where is Roger currently living during the week?",
+              "opts": [
+                [
+                  "A",
+                  "At his parents' house"
+                ],
+                [
+                  "B",
+                  "In a hostel"
+                ],
+                [
+                  "C",
+                  "In a rented flat"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is Roger's major subject at university?",
+              "opts": [
+                [
+                  "A",
+                  "Economics"
+                ],
+                [
+                  "B",
+                  "History"
+                ],
+                [
+                  "C",
+                  "Politics"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What area of Youth Council work is Roger most interested in?",
+              "opts": [
+                [
+                  "A",
+                  "Transport issues"
+                ],
+                [
+                  "B",
+                  "Working with disabled young people"
+                ],
+                [
+                  "C",
+                  "Local environmental issues"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Roger Brown phones the Youth Council to enquire about standing for election. He is currently living in a hotel from Monday to Friday. He wants information sent to his parents' address at 17 Buckleigh Street, Stamford, postcode PE9 7TQ. He recently finished a contract as a delivery driver and is now working as a waiter. His major subject is history. His hobbies include cycling and going to the theatre. His sister is blind, and he is particularly interested in working with disabled young people. He can meet the elections officer at 4.30 on Monday the 14th.",
+          "errors": [
+            {
+              "wrong": "hotel",
+              "correct": "hostel"
+            },
+            {
+              "wrong": "PE9 7TQ",
+              "correct": "PE9 7QT"
+            },
+            {
+              "wrong": "delivery driver",
+              "correct": "courier"
+            },
+            {
+              "wrong": "history",
+              "correct": "politics"
+            },
+            {
+              "wrong": "theatre",
+              "correct": "cinema"
+            },
+            {
+              "wrong": "Monday the 14th",
+              "correct": "Monday the 14th ✓ — replace: his current job is delivery driver → courier already done — replace: history → politics done"
+            },
+            {
+              "wrong": "PE9 7TQ",
+              "correct": "PE9 7QT (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "CAROLINE",
+              "parts": [
+                "Youth Council. Caroline speaking."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "I'm interested in standing for election to the Youth Council. At the moment I'm looking for a flat, so I'm in a ",
+                1,
+                " from Monday to Friday."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "Please send information to my parents' address — 17, ",
+                2,
+                " Street, Stamford, Lincolnshire."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "The postcode is ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "I've just finished a short-term contract as a courier, and now I'm working as a ",
+                4,
+                " in one of the big hotels."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "My ambition is to go into parliament, so my major subject is ",
+                5,
+                ". I also chose history as a minor subject."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "I spend quite a lot of time ",
+                6,
+                ", both around town and long-distance. For relaxation I'm also keen on the ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "My sister is blind, so I'm particularly interested in working with ",
+                8,
+                " young people."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "Could I meet the Elections Officer next Monday? Would ",
+                9,
+                " be OK? My last class finishes at 4."
+              ]
+            },
+            {
+              "speaker": "ROGER",
+              "parts": [
+                "My mobile number is ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "hostel",
+            "Buckleigh",
+            "PE9 7QT",
+            "waiter",
+            "politics",
+            "cycling",
+            "cinema",
+            "disabled",
+            "4.30",
+            "07788 136711"
+          ]
+        },
+        "2": {
+          "scene": "阿默舍姆剧院新员工导引",
+          "sceneEmoji": "🎭",
+          "kwt": [
+            {
+              "original": "We're about to start on the exterior of the building — that'll be a big job. The work's running over budget, so we've had to postpone installing an elevator.",
+              "keyWord": "PUT",
+              "transStart": "Because the refurbishment has exceeded its budget, the installation of an elevator has had to be",
+              "transEnd": "off until the funds allow.",
+              "answer": "PUT OFF",
+              "collocation": "put off (= postpone / delay something)"
+            },
+            {
+              "original": "We've taken the opportunity to install seats that can easily be moved, to create different acting spaces.",
+              "keyWord": "FLEXIBLE",
+              "transStart": "The new seating is entirely",
+              "transEnd": ", as the seats can be repositioned to create a variety of acting spaces.",
+              "answer": "ENTIRELY FLEXIBLE",
+              "collocation": "entirely flexible (= completely adaptable, with no fixed arrangement)"
+            },
+            {
+              "original": "We happen to have someone working here who does puppet-making as a hobby, and she offered to run a workshop. It was so popular we're now running them every month.",
+              "keyWord": "TAKE",
+              "transStart": "The puppet-making workshop was so successful it has",
+              "transEnd": "off, and is now held on a monthly basis.",
+              "answer": "TAKEN OFF",
+              "collocation": "take off (= become suddenly successful or popular)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Backstage tours"
+              },
+              {
+                "num": 2,
+                "left": "Café"
+              },
+              {
+                "num": 3,
+                "left": "Bookshop"
+              },
+              {
+                "num": 4,
+                "left": "Hire rooms for conferences"
+              },
+              {
+                "num": 5,
+                "left": "Costume hire to amateur drama clubs"
+              }
+            ],
+            "options": [
+              "A.  already running and popular",
+              "B.  already running",
+              "C.  under consideration",
+              "D.  available next month",
+              "E.  not started yet — finding trainers"
+            ],
+            "answers": [
+              "A",
+              "C",
+              "B",
+              "D",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JODY",
+              "parts": [
+                "I'll tell you something about the theatre now. The interior has just been repainted, and we're about to start on the ",
+                1,
+                " of the building."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The work's running over ",
+                2,
+                ", so we've had to postpone installing an elevator."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The old seats were very close together. We've replaced them with larger seats with more ",
+                3,
+                ". This means fewer seats in total, but we've installed seats that can be moved to create different acting spaces."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We organise backstage ",
+                4,
+                ", so people can be shown round the building and learn how a theatre operates. These are proving very popular."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have a bookshop which specialises in books about ",
+                5,
+                ". There are also two large rooms that will be available for hire next month for conferences and private functions."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We recently started a programme of workshops. We intend to run courses in acting eventually, but finding the right ",
+                6,
+                " has proved difficult."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our lighting workshop has already started with great success. We're going to start one on sound next ",
+                7,
+                ". A surprise success is the workshop on making ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The auditorium, stage and dressing rooms are all below ",
+                9,
+                " level. Standing here in the foyer, you'll notice the box office is next door, with a separate ",
+                10,
+                " from the road."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For the theatre manager's office: go through the double doors, turn right, and it's the room at the end of the ",
+                11,
+                ", with the door on the left."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The lighting box is at the back of the building. Through the double doors, turn ",
+                12,
+                ", turn right at the water cooler, and right again at the end. It's the second room along that corridor."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "exterior",
+            "budget",
+            "legroom",
+            "tours",
+            "drama",
+            "trainers",
+            "month",
+            "puppets",
+            "ground",
+            "entrance",
+            "corridor",
+            "left"
+          ]
+        },
+        "3": {
+          "scene": "滨海生物实地考察报告讨论",
+          "sceneEmoji": "🦀",
+          "functions": "A  Clarifying a task    B  Questioning a decision    C  Describing a procedure    D  Identifying a source of error    E  Proposing a solution",
+          "pragmatic": [
+            {
+              "quote": "We measured wave speed by just standing there and counting the number of waves per minute — not very precise, but good enough.",
+              "speaker": "Helen",
+              "answer": "C"
+            },
+            {
+              "quote": "We need something about what causes different organisms to choose particular habitats — not just about getting experience of field trip procedures.",
+              "speaker": "Colin",
+              "answer": "A"
+            },
+            {
+              "quote": "I should have gone up higher to get better visibility — I had to start the map all over again.",
+              "speaker": "Helen",
+              "answer": "D"
+            },
+            {
+              "quote": "We could get a map of the region off the internet and see if we need to make any changes.",
+              "speaker": "Colin",
+              "answer": "E"
+            },
+            {
+              "quote": "We don't need all these details of what time we left and what time we got back and how we divided up the different research tasks.",
+              "speaker": "Colin",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎯",
+              "title": "Aims of the Field Trip",
+              "items": [
+                [
+                  "Get experience of ",
+                  {
+                    "b": 1
+                  },
+                  " procedures used on a field trip"
+                ],
+                [
+                  "Understand what causes different organisms to choose particular ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Measurement Methods",
+              "items": [
+                [
+                  "Wave speed: count waves per ",
+                  {
+                    "b": 1
+                  },
+                  " — simple but adequate"
+                ],
+                [
+                  "Salt content: analysed lab samples using potassium chromate and silver ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🗺️",
+              "title": "Seashore Map",
+              "items": [
+                [
+                  "Drew on squared ",
+                  {
+                    "b": 1
+                  },
+                  " to ensure correct scale"
+                ],
+                [
+                  "Problem: started too ",
+                  {
+                    "b": 1
+                  },
+                  " — had to start again for better visibility"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐚",
+              "title": "Zones & Findings",
+              "items": [
+                [
+                  "Splash zone: tiny shellfish with hard ",
+                  {
+                    "b": 1
+                  },
+                  " that prevent drying out"
+                ],
+                [
+                  "Middle/lower zones: organisms develop structures to avoid being swept away by ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Possible Errors",
+              "items": [
+                [
+                  "May have missed organisms ",
+                  {
+                    "b": 1
+                  },
+                  " under rocks"
+                ],
+                [
+                  "Species identification may not always be ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "different",
+            "habitats",
+            "minute",
+            "nitrate",
+            "paper",
+            "low",
+            "shells",
+            "waves",
+            "hiding",
+            "correct"
+          ],
+          "dictation": [
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "I've brought my notes on our Biology Field Trip to Rocky Bay so we can work on our report."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Let's look at the aims of the trip first. We need something about what causes different organisms to choose particular ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "Right. Now there's the list of equipment. What did they tell us to bring a ruler for?"
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "It was for measuring the slope of the shore. But we were measuring wind ",
+                2,
+                ", and we'd brought the compass for that — but not the piece of string!"
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "Anyway, the procedure section you sent me — it was clear, but I don't think we need all the details of what time we left and got back and how we divided up the research ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "OK. Now, the way we measured wave speed — I'd expected some sort of high-tech device, not just standing there counting the number of waves per ",
+                4,
+                ". Not very precise, but good enough."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "Was the chemical we used to analyse the salt in the rock pool water potassium chromate and silver ",
+                5,
+                "?"
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "For the seashore map: I had to do it while the tide was low, which was OK, but I started from down on the beach, then realised I should have gone up higher to get better ",
+                6,
+                ". I had to start all over again. At least I'd got squared ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "Now, for our findings — in the highest area, the splash zone, we found tiny shellfish with strong hard ",
+                8,
+                ". These prevent them from drying out, because they're in the open air for most of the time."
+              ]
+            },
+            {
+              "speaker": "COLIN",
+              "parts": [
+                "And since they're exposed, they need to find some shelter so they don't get too hot. Then in the middle and lower zones, organisms develop structures to prevent themselves from being swept away by ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "For possible sources of error: we might have missed some organisms hiding under a ",
+                10,
+                ". And we might not have identified all species correctly — we'd better mention that."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "habitats",
+            "direction",
+            "tasks",
+            "minute",
+            "nitrate",
+            "visibility",
+            "paper",
+            "shells",
+            "waves",
+            "rock"
+          ]
+        },
+        "4": {
+          "scene": "泰勒音乐厅建筑设计讲座",
+          "sceneEmoji": "🏗️",
+          "signpost": [
+            {
+              "quote": "I'm going to move on now to consider the design of public buildings, and I'll illustrate this by referring to the new Taylor Concert Hall.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Signalling a shift from domestic to public building design with a specific case study"
+                ],
+                [
+                  "C",
+                  "Questioning the previous section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "To reflect the fact that the significance of the building in this quite run-down location was as yet unknown, he decided to create a building centred around the idea of a mystery.",
+              "opts": [
+                [
+                  "A",
+                  "Explaining how the site's character directly shaped the architect's central design concept"
+                ],
+                [
+                  "B",
+                  "Introducing a design flaw"
+                ],
+                [
+                  "C",
+                  "Providing a historical comparison"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "This might sound off-putting, but it supports Harrison's concept of the building — that the person approaching is intrigued and wonders what will be inside.",
+              "opts": [
+                [
+                  "B",
+                  "Conceding a design failure"
+                ],
+                [
+                  "A",
+                  "Acknowledging a potential negative reaction before justifying the design choice"
+                ],
+                [
+                  "C",
+                  "Concluding the description"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "The floor's supported by ten massive pads. These are constructed from rubber, and so are able to absorb any vibrations from outside.",
+              "opts": [
+                [
+                  "A",
+                  "Describing a structural solution to an acoustic engineering problem"
+                ],
+                [
+                  "B",
+                  "Providing an aesthetic detail"
+                ],
+                [
+                  "C",
+                  "Summarising the design"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "The reaction of the public to the new building has generally been positive. However, the evaluation of some critics has been less enthusiastic.",
+              "opts": [
+                [
+                  "C",
+                  "Introducing an unrelated topic"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture positively"
+                ],
+                [
+                  "A",
+                  "Contrasting public reception with critical opinion to acknowledge an ongoing debate"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📍",
+              "title": "Site Context",
+              "items": [
+                [
+                  "Run-down district — previously a ",
+                  {
+                    "b": 1
+                  },
+                  " that had been empty for years"
+                ],
+                [
+                  "Bordered to the north by a ",
+                  {
+                    "b": 1
+                  },
+                  " — once used for bringing in raw materials"
+                ],
+                [
+                  "One km from the ring road; no important neighbouring buildings"
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Central Design Concept — 'Mystery'",
+              "items": [
+                [
+                  "Approach: cross a ",
+                  {
+                    "b": 1
+                  },
+                  " over water → feeling of suspense"
+                ],
+                [
+                  "Overall shape of building: like a ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Southern wall: flat, no windows — creates intrigue; at night functions as a projection ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎵",
+              "title": "Acoustic Engineering",
+              "items": [
+                [
+                  "Floor: supported by ten pads made of ",
+                  {
+                    "b": 1
+                  },
+                  " — absorbs external vibrations"
+                ],
+                [
+                  "Walls: several layers of honey-coloured wood — not straight but ",
+                  {
+                    "b": 1
+                  },
+                  ", to improve acoustics"
+                ],
+                [
+                  "Ceiling: nine movable panels; walls have ",
+                  {
+                    "b": 1
+                  },
+                  " that can be opened or closed"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Critical Reception",
+              "items": [
+                [
+                  "Critics say the style is ",
+                  {
+                    "b": 1
+                  },
+                  " rather than local"
+                ],
+                [
+                  "Does not reflect features of the landscape or society it was built for"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "factory",
+            "canal",
+            "bridge",
+            "box",
+            "screen",
+            "rubber",
+            "curved",
+            "curtains",
+            "international"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "I'm going to move on to consider the design of public buildings, illustrating this with the new Taylor Concert Hall. The location chosen was a site in a run-down district occupied by a ",
+                1,
+                " that had been empty for years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The site was bordered to the north by a ",
+                2,
+                " which had once been used by boats bringing in raw materials. The architect chosen was Tom Harrison."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "To reflect the significance of the building in this run-down location being as yet unknown, Harrison decided to create a building centred around the idea of a ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As people approach the entrance, they have to cross over a ",
+                4,
+                ". Harrison wanted to give people a feeling of suspense as they first see the building from a distance."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The initial impression from the shape of the building as a whole is that of a ",
+                5,
+                ". The first side people see — the southern wall — is just a high, flat wall with no windows."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At night-time, projectors are switched on and the southern wall functions as a huge ",
+                6,
+                ", onto which images are projected."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The floor's supported by ten massive pads constructed from ",
+                7,
+                ", which absorb any vibrations from outside and prevent them from affecting the auditorium."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The walls are made of several layers of honey-coloured wood from local beech trees. They are not straight but ",
+                8,
+                ", to improve acoustic properties."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are nine movable panels in the ceiling above the orchestra, and the walls also have ",
+                9,
+                " which can be opened or closed to change the acoustics."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Critics criticise the style of the design as being ",
+                10,
+                " rather than local, saying it doesn't reflect features of the landscape or society for which it is built."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "factory",
+            "canal",
+            "mystery",
+            "bridge",
+            "box",
+            "screen",
+            "rubber",
+            "curved",
+            "curtains",
+            "international"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 11 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "伯纳姆旅游局免费活动咨询",
+          "sceneEmoji": "🎪",
+          "mcq": [
+            {
+              "q": "What does the 'Family Welcome' event at the art gallery involve?",
+              "opts": [
+                [
+                  "A",
+                  "An exhibition about local history"
+                ],
+                [
+                  "B",
+                  "Activities and trails, plus a film showing how ceramics are made"
+                ],
+                [
+                  "C",
+                  "A workshop on oil painting"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Where is the Latin American music concert at 4 pm?",
+              "opts": [
+                [
+                  "A",
+                  "The central library"
+                ],
+                [
+                  "B",
+                  "The theatre"
+                ],
+                [
+                  "C",
+                  "The City Museum"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What made the Burnham boat club notable this year?",
+              "opts": [
+                [
+                  "A",
+                  "They won the national championship"
+                ],
+                [
+                  "B",
+                  "They won the West of England regional championship for the first time"
+                ],
+                [
+                  "C",
+                  "They set a new race record"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman called Sue phones Burnham tourist office to ask about free activities on June 29th. Martin tells her the art gallery is holding a 'Family Welcome' event from 10.30 until 3 o'clock. They will show a short film about how paintings are made. There are free concerts at different times, including a Latin American concert performed at the central library at 1 pm, then at the City Museum at 4 pm, and in the evening at the theatre at 7. The boat race starts at Offord Marina and the best place to watch it is from the harbour. The Paxton Nature Reserve has a lake and a river, and currently has unusual plants. Children can swim in the lake there.",
+          "errors": [
+            {
+              "wrong": "until 3 o'clock",
+              "correct": "until 2 o'clock"
+            },
+            {
+              "wrong": "how paintings are made",
+              "correct": "how ceramics are made"
+            },
+            {
+              "wrong": "at the theatre at 7",
+              "correct": "at the theatre at 7.30"
+            },
+            {
+              "wrong": "from the harbour",
+              "correct": "from Charlesworth Bridge"
+            },
+            {
+              "wrong": "unusual plants",
+              "correct": "unusual flowers"
+            },
+            {
+              "wrong": "swim in the lake",
+              "correct": "swim in the river"
+            },
+            {
+              "wrong": "paintings",
+              "correct": "ceramics (already done above — replace: 'until 3 o'clock' → 'until 2 o'clock')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MARTIN",
+              "parts": [
+                "The art gallery is holding an event called 'Family ",
+                1,
+                "' that day — activities and trails throughout the gallery from 10.30 until 2 o'clock."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Several times during the day they're going to show a short film demonstrating how ",
+                2,
+                " are made, and there'll be equipment and materials for children to have a go themselves."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are several free ",
+                3,
+                " taking place — one or two in the morning, the majority at lunchtime, and a couple in the evening."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Latin American concert: at 1 o'clock in the central ",
+                4,
+                ", then at 4 in the City Museum, and in the evening at 7.30 in the theatre."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The boat race starts at Offord Marina, to the north of Burnham, and goes as far as Summer ",
+                5,
+                ". The best place to watch is Charlesworth Bridge, though that does get rather crowded."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One local boat club came first in the West of England regional ",
+                6,
+                " in May — the first time a Burnham team has won."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Paxton Nature Reserve — great for spotting unusual ",
+                7,
+                ". There's a lake and a river providing a very attractive ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "At the moment you can also see some unusual ",
+                9,
+                " — the soil at Paxton is not very common. There's also a talk and slide show about mushrooms, and you can go out and pick some afterwards."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Part of the river has been fenced off to make it safe for children to swim in. It's very shallow and there's a ",
+                10,
+                " on duty whenever it's open."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Welcome",
+            "ceramics",
+            "concerts",
+            "library",
+            "Pool",
+            "championship",
+            "birds",
+            "habitat",
+            "flowers",
+            "lifeguard"
+          ]
+        },
+        "2": {
+          "scene": "巴福德小镇未来发展公众会议",
+          "sceneEmoji": "🏘️",
+          "kwt": [
+            {
+              "original": "Buses link virtually every part of the town, but not now — bus companies concentrate on just the routes that attract most passengers.",
+              "keyWord": "FOCUS",
+              "transStart": "Today, bus companies",
+              "transEnd": "only on the most profitable routes, leaving some parts of town without a service.",
+              "answer": "FOCUS ON",
+              "collocation": "focus on (= concentrate attention or resources on)"
+            },
+            {
+              "original": "The new cycle paths separating bikes from cars in most main roads are being used far more than was expected, reducing traffic and improving air quality.",
+              "keyWord": "EXCEEDING",
+              "transStart": "Usage of the new cycle paths is far",
+              "transEnd": "expectations — the paths are reducing traffic and improving air quality.",
+              "answer": "FAR EXCEEDING",
+              "collocation": "far exceeding (= going well beyond what was anticipated)"
+            },
+            {
+              "original": "The railway company applied for permission to replace the car park with a multi-storey car park, but that was refused. Instead, the company has bought some adjoining land.",
+              "keyWord": "EXPAND",
+              "transStart": "After its application for a multi-storey car park was refused, the railway company decided to",
+              "transEnd": "car park by purchasing adjacent land.",
+              "answer": "EXPAND THE EXISTING",
+              "collocation": "expand the existing (= increase in size by adding to what is already there)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Bus service"
+              },
+              {
+                "num": 2,
+                "left": "Cycle paths"
+              },
+              {
+                "num": 3,
+                "left": "Shopping in town centre"
+              },
+              {
+                "num": 4,
+                "left": "Hospital"
+              },
+              {
+                "num": 5,
+                "left": "Cinema"
+              }
+            ],
+            "options": [
+              "A.  closed years ago; now journeys to other towns needed",
+              "B.  closing this year; reopening on a new site",
+              "C.  reduced — only serves popular routes now",
+              "D.  new ones opened; still not enough chain stores",
+              "E.  exceeding usage expectations; improving air quality"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "D",
+              "A",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SHONA",
+              "parts": [
+                "Barford has changed a great deal in the last 50 years. Buses used to link virtually every part of the town, but now bus companies concentrate on just the ",
+                1,
+                " that attract most passengers."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The centre was recently closed to ",
+                2,
+                " on a trial basis, making it much safer for pedestrians. The new cycle paths are being used far more than was ",
+                3,
+                ", reducing traffic and improving air quality."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Shopping in the town centre has ",
+                4,
+                ". Despite efforts to attract shoppers — for example by opening new car parks — numbers have been falling for several years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The town's hospital closed 15 years ago, which means journeys to other towns are unavoidable. On the other hand, there are now more ",
+                5,
+                " than there used to be."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The number of schools and colleges has increased, making that the main ",
+                6,
+                " sector."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The car park at the railway station is usually full. The company applied for permission to replace it with a multi-storey car park, but that was ",
+                7,
+                ". Instead, they've bought some adjoining land to increase parking."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Grand cinema in the high street will close at the end of the year and reopen on a different site, with three ",
+                8,
+                " instead of one large auditorium."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The indoor market has become rather ",
+                9,
+                "-looking and was threatened with demolition. But it will close for six weeks to be made safe and redecorated, and reopen in July."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The council has secured funding to keep the library open later into the evening, ",
+                10,
+                " a week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The nature reserve on the edge of town will remain freely accessible, but it will become the responsibility of a national ",
+                11,
+                " that administers most nature reserves in the country."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "routes",
+            "traffic",
+            "expected",
+            "declined",
+            "dentists",
+            "employment",
+            "refused",
+            "screens",
+            "shabby",
+            "twice",
+            "body"
+          ]
+        },
+        "3": {
+          "scene": "儿童故事插图项目讨论",
+          "sceneEmoji": "📖",
+          "functions": "A  Making a specific change request    B  Approving existing work    C  Explaining a narrative reason    D  Suggesting a detail    E  Proposing a structural addition",
+          "pragmatic": [
+            {
+              "quote": "I think the drawing of the cave needs some action — it's a bit too static. Could you add Malcolm walking up to it?",
+              "speaker": "Jeremy",
+              "answer": "A"
+            },
+            {
+              "quote": "Yes, I like what you've done with the dancing crowd — the only thing is, could you add Malcolm to it without changing what's already there?",
+              "speaker": "Jeremy",
+              "answer": "A"
+            },
+            {
+              "quote": "I'd like him to be crying — that'll contrast nicely with the next picture, where he's laughing at the clowns.",
+              "speaker": "Jeremy",
+              "answer": "C"
+            },
+            {
+              "quote": "Maybe you could give each of the ice-skaters a scarf as well — they can be streaming out behind the people to suggest they're skating really fast.",
+              "speaker": "Jeremy",
+              "answer": "D"
+            },
+            {
+              "quote": "What do you think about including a section on how we planned the project as a whole? That's probably quite important.",
+              "speaker": "Helen",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🎨",
+              "title": "Drawing Changes — Cave Scene",
+              "items": [
+                [
+                  "Add the boy ",
+                  {
+                    "b": 1
+                  },
+                  " walking up to the cave"
+                ],
+                [
+                  "Add a ",
+                  {
+                    "b": 1
+                  },
+                  " sitting under a tree washing itself"
+                ],
+                [
+                  "Tiger stops when it sees Malcolm walking — adds sense of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎉",
+              "title": "Drawing Changes — Dancing Crowd",
+              "items": [
+                [
+                  "Add Malcolm sitting on a tree ",
+                  {
+                    "b": 1
+                  },
+                  " on the right"
+                ],
+                [
+                  "Malcolm should be ",
+                  {
+                    "b": 1
+                  },
+                  " — contrasts with next picture where he's laughing"
+                ]
+              ]
+            },
+            {
+              "emoji": "⛸️",
+              "title": "Drawing Changes — Ice Skating",
+              "items": [
+                [
+                  "Problem: skating on frozen ",
+                  {
+                    "b": 1
+                  },
+                  " — doesn't look quite right yet"
+                ],
+                [
+                  "Add a ",
+                  {
+                    "b": 1
+                  },
+                  " to each skater — streaming out to suggest speed"
+                ]
+              ]
+            },
+            {
+              "emoji": "📝",
+              "title": "Written Report Plan",
+              "items": [
+                [
+                  "Helen will draft: how the project was ",
+                  {
+                    "b": 1
+                  },
+                  " as a whole"
+                ],
+                [
+                  "Both write separately about ideas for their own ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Jeremy will write about the illustrations — an essential element of children's ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "Malcolm",
+            "tiger",
+            "action",
+            "trunk",
+            "crying",
+            "grass",
+            "scarf",
+            "planned",
+            "stories",
+            "reading"
+          ],
+          "dictation": [
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "I've looked at the drawings you've done for my story, 'The Forest', and they really create the ",
+                1,
+                " I had in mind when I was writing it."
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "I'm not sure about the drawing of the ",
+                2,
+                ". It's got trees all around it, which is great, but it's a bit too static."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "Perhaps I should add the boy — Malcolm — walking up to it."
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "Yes, and what about adding a ",
+                3,
+                ", sitting under a tree washing itself? And then the tiger stops in the middle of what it's doing when it sees Malcolm."
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "Then there's the drawing of the crowd of men and women ",
+                4,
+                ", just outside the forest. I like what you've done. Could you add Malcolm — without changing what's already there?"
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "What about having him sitting on the tree ",
+                5,
+                " on the right of the picture?"
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "Yes, fine. I'd like him to be ",
+                6,
+                ". He's been left out of all the fun — that'll contrast nicely with the next picture, where he's laughing at the clowns."
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "And then the drawing of the people ice skating in the forest — they're skating on frozen ",
+                7,
+                ". At the moment it doesn't look quite right."
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "I like the wool hats. Maybe you could give each of them a ",
+                8,
+                ", streaming out behind them to suggest they're skating really fast."
+              ]
+            },
+            {
+              "speaker": "HELEN",
+              "parts": [
+                "So the next thing is to decide what to write in the report that goes with the stories. What do you think about including a section on how we ",
+                9,
+                " the project as a whole?"
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "How do you feel about drafting something, then we can go through it together? And you could include something on how we came up with the ",
+                10,
+                " for our two stories."
+              ]
+            },
+            {
+              "speaker": "JEREMY",
+              "parts": [
+                "We need to write about the ",
+                11,
+                ", because they're an essential element of children's experience of reading the stories. I'll do that section since you find it hard to write about."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "atmosphere",
+            "cave",
+            "tiger",
+            "dancing",
+            "trunk",
+            "crying",
+            "grass",
+            "scarf",
+            "planned",
+            "ideas",
+            "illustrations"
+          ]
+        },
+        "4": {
+          "scene": "商业人类学研究方法讲座",
+          "sceneEmoji": "🔎",
+          "signpost": [
+            {
+              "quote": "Let's look at some examples of how ethnographic research works in business.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Shifting from definition to concrete case studies"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "So what makes studies like these different from ordinary research?",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the value of ethnography"
+                ],
+                [
+                  "B",
+                  "Signalling a move from specific examples to general principles"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "But that doesn't mean that the researcher never talks to the participants.",
+              "opts": [
+                [
+                  "A",
+                  "Qualifying a previous statement to avoid misunderstanding"
+                ],
+                [
+                  "B",
+                  "Contradicting earlier claims"
+                ],
+                [
+                  "C",
+                  "Providing an example"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "However, unlike in traditional research, in this case it's the participant rather than the researchers who decides what direction the interview will follow.",
+              "opts": [
+                [
+                  "A",
+                  "Highlighting a key methodological difference between ethnography and conventional research"
+                ],
+                [
+                  "B",
+                  "Criticising traditional research methods"
+                ],
+                [
+                  "C",
+                  "Concluding the methods section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Most researchers estimate that 70 to 80 per cent of their time is spent not on the collecting of data but on its analysis.",
+              "opts": [
+                [
+                  "A",
+                  "Emphasising the importance of analysis as the dominant part of the research process"
+                ],
+                [
+                  "B",
+                  "Criticising inefficiency"
+                ],
+                [
+                  "C",
+                  "Introducing a new topic"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🍳",
+              "title": "Kitchen Equipment Case",
+              "items": [
+                [
+                  "Observed cooks using measuring cups — couldn't see the numbers inside them"
+                ],
+                [
+                  "New cup design allowed cooks to check ",
+                  {
+                    "b": 1
+                  },
+                  " without having to look inside"
+                ],
+                [
+                  "Result: new design became a top ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📱",
+              "title": "Uganda Cell Phone Case",
+              "items": [
+                [
+                  "Found people paying to use other people's phones — needed to know how much ",
+                  {
+                    "b": 1
+                  },
+                  " was spent"
+                ],
+                [
+                  "Phone company designed phones globally with a built-in call-time ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "💻",
+              "title": "IT Administrators Case",
+              "items": [
+                [
+                  "Found staff spent a lot of time communicating to solve problems, but had no standard way to share data from ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Result: development of new ",
+                  {
+                    "b": 1
+                  },
+                  " to help share information"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏥",
+              "title": "Nurses Case",
+              "items": [
+                [
+                  "Nurses needed to access patient ",
+                  {
+                    "b": 1
+                  },
+                  " no matter where they were"
+                ],
+                [
+                  "Led to development of a portable computer ",
+                  {
+                    "b": 1
+                  },
+                  " used throughout the hospital"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧪",
+              "title": "Key Principles of Ethnography",
+              "items": [
+                [
+                  "Researcher must be completely ",
+                  {
+                    "b": 1
+                  },
+                  " — no hypothesis to test"
+                ],
+                [
+                  "Participants must be ",
+                  {
+                    "b": 1
+                  },
+                  " talking about themselves and being observed"
+                ],
+                [
+                  "70–80% of time spent on ",
+                  {
+                    "b": 1
+                  },
+                  " — not data collection"
+                ],
+                [
+                  "Researcher focuses on finding a ",
+                  {
+                    "b": 1
+                  },
+                  " in the data, not on sensational exceptions"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "contents",
+            "seller",
+            "time",
+            "feature",
+            "spreadsheets",
+            "software",
+            "records",
+            "tablet",
+            "open-minded",
+            "comfortable",
+            "analysis",
+            "pattern"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Ethnography is a type of research aimed at exploring the way human ",
+                1,
+                " work. It can offer businesses deeper insight into the needs of customers and help companies design new products or services that customers really want."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One team did a project for a company manufacturing kitchen equipment. They watched cooks use measuring cups — the numbers were inside but the cooks couldn't see them easily. So a new design of cup was developed, and it was a top ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another team looked at how cell phones were used in Uganda. People who didn't have their own phones could pay to use ",
+                3,
+                " phones. These customers were eager to know how much time they'd spent on the call. So phones were designed globally with this added ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Ethnographic research in one computer company found that IT administrators spent a large amount of time communicating with colleagues to solve problems, but had no standard way of exchanging information from ",
+                5,
+                ". This led to an idea for software to help them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Researchers who observed nurses found they needed to access the computer ",
+                6,
+                " of patients no matter where they were. This led to the development of a portable computer ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "What makes ethnography different? First, the researcher has to be completely ",
+                8,
+                ". They haven't thought up a hypothesis to test — they wait for the ",
+                9,
+                " to inform them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Participants must be comfortable talking about themselves and being ",
+                10,
+                ". Most researchers say people open up pretty easily, often because they're in their own home or workplace."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Unlike in traditional research, in ethnography it is the participant rather than the researcher who decides what direction the ",
+                11,
+                " will follow."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most researchers estimate that 70 to 80 per cent of their time is spent on ",
+                12,
+                " — looking at photos, listening to recordings and transcribing them. They try to identify a ",
+                13,
+                " in the data to discern the meaning behind it."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "cultures",
+            "seller",
+            "entrepreneurs",
+            "feature",
+            "spreadsheets",
+            "records",
+            "tablet",
+            "open-minded",
+            "participants",
+            "observed",
+            "interview",
+            "analysis",
+            "pattern"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 11 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "斯特雷顿艺术节活动预订咨询",
+          "sceneEmoji": "🎪",
+          "mcq": [
+            {
+              "q": "What is the ticket price still available for the jazz band on Saturday?",
+              "opts": [
+                [
+                  "A",
+                  "£12"
+                ],
+                [
+                  "B",
+                  "£15"
+                ],
+                [
+                  "C",
+                  "£18"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Where does the duck race start?",
+              "opts": [
+                [
+                  "A",
+                  "At the railway bridge"
+                ],
+                [
+                  "B",
+                  "At the back of the cinema"
+                ],
+                [
+                  "C",
+                  "From Summer Pool"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does the winner of each duck race receive?",
+              "opts": [
+                [
+                  "A",
+                  "A cash prize"
+                ],
+                [
+                  "B",
+                  "A free duck for the next race"
+                ],
+                [
+                  "C",
+                  "Free tickets for the last-night concert"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Melanie phones the Stretton Festival box office. Rob tells her there are still tickets available for the jazz band at £12. The venue is the secondary school. An additional performer, Carolyn Hart, will play the oboe with the band. For the duck races, you buy a yellow plastic duck for £1 each at a stall in the park. The ducks are launched from behind the library and float 500 metres to the railway bridge. Winners get free tickets for the flower show. Admission to the flower show is free and it is held at Bythwaite Hall, the oldest building in town.",
+          "errors": [
+            {
+              "wrong": "at £12",
+              "correct": "at £15 (the £12 seats are sold out)"
+            },
+            {
+              "wrong": "play the oboe",
+              "correct": "play the flute"
+            },
+            {
+              "wrong": "stall in the park",
+              "correct": "stall in the market"
+            },
+            {
+              "wrong": "from behind the library",
+              "correct": "from behind the cinema"
+            },
+            {
+              "wrong": "free tickets for the flower show",
+              "correct": "free tickets for the last-night concert"
+            },
+            {
+              "wrong": "oldest building",
+              "correct": "only old building"
+            },
+            {
+              "wrong": "at £12",
+              "correct": "at £15 (already corrected — fix: 'oldest' → 'only old')"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "ROB",
+              "parts": [
+                "There are still tickets available for the jazz band, but only £15. The £12 seats have all been sold."
+              ]
+            },
+            {
+              "speaker": "MELANIE",
+              "parts": [
+                "The venue is the school, isn't it?"
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Yes, the ",
+                1,
+                " school. And there's an additional performer — Carolyn Hart is going to play the ",
+                2,
+                " with the band. She usually plays with symphony orchestras."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "For the duck races: you buy a yellow plastic duck for a pound each, write your name on it, and then there'll be several ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "All the ducks will be launched into the river at the back of the ",
+                4,
+                ", then float along for 500 metres as far as the railway bridge."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "The first duck in each race to arrive wins its owner free tickets for the ",
+                5,
+                " on the last night of the festival."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Ducks are on sale at a stall in the ",
+                6,
+                ". You can't miss it — it's got an enormous sign showing a couple of ducks."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "Admission to the flower show is free, and it's held in ",
+                7,
+                " Hall — B-Y-T-H-W-A-I-T-E. It's right in the centre of Stretton — the only old building in the town, so it's easy to recognise."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "If you'd like to see the prizes being awarded, you'll need to be there at 5 o'clock. The prizes are given by a famous ",
+                8,
+                ", Kevin Shapless, who lives nearby."
+              ]
+            },
+            {
+              "speaker": "ROB",
+              "parts": [
+                "'The Mystery of Muldoon' is aimed at five to ten-year-olds. 'Fire and Flood' is about events that really happened in Stretton — children might find it rather ",
+                9,
+                ". 'Silly Sailor' is a comedy for young and old — it won an award in the Stretton Drama Festival a couple of months ago."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "secondary",
+            "flute",
+            "races",
+            "cinema",
+            "concert",
+            "market",
+            "Bythwaite",
+            "actor",
+            "frightening"
+          ]
+        },
+        "2": {
+          "scene": "博物馆藏品导览参观",
+          "sceneEmoji": "🏛️",
+          "kwt": [
+            {
+              "original": "Several of the nineteenth-century artists each donated one work — to get the museum started, as it were. So they're of special interest to us.",
+              "keyWord": "SIGNIFICANCE",
+              "transStart": "The nineteenth-century paintings",
+              "transEnd": "for the museum's collection.",
+              "answer": "HOLD SIGNIFICANCE",
+              "collocation": "hold significance (= be meaningful or important)"
+            },
+            {
+              "original": "In the terms of his will, we're not allowed to add anything to that collection: he believed it was perfect in itself.",
+              "keyWord": "COMPLETE",
+              "transStart": "As stipulated in the founder's will, the porcelain and glass collection must",
+              "transEnd": ", as he believed it had reached perfection.",
+              "answer": "REMAIN COMPLETE",
+              "collocation": "remain complete (= stay whole, with nothing added or removed)"
+            },
+            {
+              "original": "A number of sculptures have been moved to other parts of the museum while the sculpture gallery is closed for refurbishment.",
+              "keyWord": "DISPLAY",
+              "transStart": "While the sculpture gallery is under renovation, selected works are",
+              "transEnd": "other areas of the museum.",
+              "answer": "ON DISPLAY IN",
+              "collocation": "on display in (= exhibited/shown in a public place)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "20th–21st century paintings"
+              },
+              {
+                "num": 2,
+                "left": "19th century paintings"
+              },
+              {
+                "num": 3,
+                "left": "'Around the World' exhibition"
+              },
+              {
+                "num": 4,
+                "left": "Coin collection"
+              },
+              {
+                "num": 5,
+                "left": "Porcelain and glass"
+              }
+            ],
+            "options": [
+              "A.  left to museum by founder — collection cannot be added to",
+              "B.  all items come from this country, 1,000–2,000 years old",
+              "C.  donated by the artists themselves when museum opened",
+              "D.  temporary; objects from every continent with social context",
+              "E.  attracts most visitors; go early to avoid crowds"
+            ],
+            "answers": [
+              "E",
+              "C",
+              "D",
+              "B",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "GREG",
+              "parts": [
+                "Welcome to the museum — one with a remarkable range of exhibits. Let me give you a taste of what we have here."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We have a fine collection of twentieth and twenty-first century ",
+                1,
+                ", many by very well-known artists. This is the gallery that attracts the largest number of visitors, so it's best to go in ",
+                2,
+                " in the day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The museum was opened in the middle of the nineteenth century, and several of the artists each donated one work. So these nineteenth-century paintings are of special ",
+                3,
+                " to us."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The sculpture gallery is currently closed for ",
+                4,
+                ". A number of the sculptures have been moved to other parts of the museum."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Around the World' is a temporary ",
+                5,
+                ". It presents objects from every continent and provides information about their social context — why they were made, who for, and so on."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The coin collection is a focused, specialist collection — all coins come from this country and were produced between two thousand and a thousand years ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All our porcelain and glass was left to the museum by its founder, and in the terms of his ",
+                7,
+                ", we're not allowed to add anything to that collection."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Most of the facilities are downstairs in the ",
+                8,
+                ". When you reach the bottom of the stairs, you'll find a sitting area. The restaurant is straight ahead, then turn ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The café is also straight ahead then turn right — it's immediately on the right. The ",
+                10,
+                "-changing facilities are on the left, continuing straight ahead along the left-hand corridor."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The cloakroom is on the left-hand side of the sitting area — through the last door before the corridor. Toilets are on every floor, but in the basement they're the ",
+                11,
+                " rooms on the left."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "paintings",
+            "early",
+            "interest",
+            "refurbishment",
+            "exhibition",
+            "ago",
+            "will",
+            "basement",
+            "right",
+            "baby",
+            "first"
+          ]
+        },
+        "3": {
+          "scene": "音乐表演者着装研究访谈",
+          "sceneEmoji": "🎻",
+          "functions": "A  Providing a sample description    B  Explaining a research focus    C  Raising a limitation    D  Introducing a contrasting case    E  Describing an insight from subjects",
+          "pragmatic": [
+            {
+              "quote": "My research investigated the way players see their role as a musician and how this is linked to the type of clothing they decide to wear.",
+              "speaker": "Joanna",
+              "answer": "B"
+            },
+            {
+              "quote": "Frost points out that female singers in popular music tend to dress down — wearing jeans instead of skirts — so they aren't dismissed as trivial.",
+              "speaker": "Supervisor",
+              "answer": "D"
+            },
+            {
+              "quote": "I had six subjects, all professional musicians, all female — three violinists, a cello player, a pianist and a flute player.",
+              "speaker": "Joanna",
+              "answer": "A"
+            },
+            {
+              "quote": "I think a lot of the men are very much influenced by fashion, but in social terms the choices they have are more limited.",
+              "speaker": "Joanna",
+              "answer": "C"
+            },
+            {
+              "quote": "The subjects felt the audience had certain expectations, and it was up to them as performers to fulfil these expectations — to show a kind of esteem.",
+              "speaker": "Joanna",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "👩‍🎤",
+              "title": "Research Subjects",
+              "items": [
+                [
+                  "Six professional female musicians — violinists, cello, piano, flute"
+                ],
+                [
+                  "All highly regarded, toured different continents, won prizes; age range 25–29, mean ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📞",
+              "title": "Data Collection Method",
+              "items": [
+                [
+                  "Telephone interviews — recorded with a telephone recording ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "At least 30-minute interview with each subject; more ",
+                  {
+                    "b": 1
+                  },
+                  " data than expected"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎵",
+              "title": "Key Research Finding",
+              "items": [
+                [
+                  "Musicians see their role as a performer and this is linked to their ",
+                  {
+                    "b": 1
+                  },
+                  " choices"
+                ],
+                [
+                  "The audience has certain ",
+                  {
+                    "b": 1
+                  },
+                  " — performers dress to show esteem and fulfil these"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚡",
+              "title": "Comparison — Sports Science",
+              "items": [
+                [
+                  "Musicians avoid clothing that restricts their ",
+                  {
+                    "b": 1
+                  },
+                  ", but that's as far as they go"
+                ],
+                [
+                  "Sports scientists are developing clothing to safeguard against ",
+                  {
+                    "b": 1
+                  },
+                  " from repetitive, intensive movements"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "27.8",
+            "adaptor",
+            "rich",
+            "clothing",
+            "expectations",
+            "movements",
+            "injury"
+          ],
+          "dictation": [
+            {
+              "speaker": "SUPERVISOR",
+              "parts": [
+                "I'd like to hear about the psychology study you did last year for your Master's degree. So how did you choose your subjects?"
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "I had six subjects, all professional ",
+                1,
+                ", and all female. Three were violinists and there was also a cello player and a pianist and a flute player."
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "They were all highly regarded and had done quite extensive tours. They were all between 25 and 29 — the mean was ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "SUPERVISOR",
+              "parts": [
+                "You collected your data through telephone interviews, didn't you?"
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "Yes. I recorded them using a telephone recording ",
+                3,
+                ". I'd been worried about the quality, but it worked out all right. I managed at least a 30-minute interview with each subject."
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "I found that using the phone meant I got even richer data than expected — they seemed very ",
+                4,
+                " to talk."
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "My research investigated the way players see their role as a musician and how this is linked to the type of ",
+                5,
+                " they decide to wear."
+              ]
+            },
+            {
+              "speaker": "SUPERVISOR",
+              "parts": [
+                "Mike Frost's article about the dress of women performers in popular music — he points out that many dress down, wearing jeans instead of skirts, because otherwise they'd just be dismissed as ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "But you could argue they're just wearing what's practical — a pop-music concert is usually a pretty ",
+                7,
+                " affair."
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "The subjects I interviewed felt the audience had certain ",
+                8,
+                ", and it was up to them as performers to fulfil these expectations — to show a kind of esteem."
+              ]
+            },
+            {
+              "speaker": "SUPERVISOR",
+              "parts": [
+                "Musicians are quite vulnerable physically — the movements they carry out are very intensive and ",
+                9,
+                ". Features of sports clothing could safeguard players from the dangerous effects."
+              ]
+            },
+            {
+              "speaker": "JOANNA",
+              "parts": [
+                "Yes, but musicians don't really consider it. They avoid clothing that obviously restricts their ",
+                10,
+                ", but that's as far as they go."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "musicians",
+            "27.8",
+            "adaptor",
+            "keen",
+            "clothing",
+            "trivial",
+            "energetic",
+            "expectations",
+            "repetitive",
+            "movements"
+          ]
+        },
+        "4": {
+          "scene": "土壤碳储存与气候变化讲座",
+          "sceneEmoji": "🌱",
+          "signpost": [
+            {
+              "quote": "Rattan Lal first came to the idea that soil might be valuable not through an interest in climate change, but rather out of concern for the land itself.",
+              "opts": [
+                [
+                  "A",
+                  "Explaining the unexpected origin of a key insight before developing the scientific argument"
+                ],
+                [
+                  "B",
+                  "Dismissing the climate change context"
+                ],
+                [
+                  "C",
+                  "Concluding the background section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Let me explain. For millions of years, carbon dioxide levels have been regulated in part by a natural partnership between plants and microbes.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Signalling a more detailed mechanistic explanation of a process just introduced"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "The invention of agriculture some 10,000 years ago disrupted these ancient soil-building processes.",
+              "opts": [
+                [
+                  "B",
+                  "Providing a positive example"
+                ],
+                [
+                  "A",
+                  "Introducing the turning point where human activity began to affect the natural carbon cycle"
+                ],
+                [
+                  "C",
+                  "Concluding the historical section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Researchers are now coming up with evidence that even modest changes to farming can significantly help.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a solution-oriented shift after establishing the problem"
+                ],
+                [
+                  "B",
+                  "Questioning the value of agriculture"
+                ],
+                [
+                  "C",
+                  "Returning to background"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Rattan Lal argues that farmers should receive payment not just for the corn or beef they produce, but also for the carbon they can store in their soil.",
+              "opts": [
+                [
+                  "C",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Criticising current farming practice"
+                ],
+                [
+                  "A",
+                  "Proposing a policy mechanism to incentivise carbon storage as part of a forward-looking conclusion"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🧪",
+              "title": "What Carbon-Rich Soil Looks Like",
+              "items": [
+                [
+                  "Dark, crumbly and fertile — retains some ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Without sufficient carbon: soil becomes ",
+                  {
+                    "b": 1
+                  },
+                  ", like cement — vulnerable to erosion"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌿",
+              "title": "The Natural Carbon Cycle",
+              "items": [
+                [
+                  "Plants absorb CO₂ and transform it into ",
+                  {
+                    "b": 1
+                  },
+                  " and other carbon substances"
+                ],
+                [
+                  "Carbon transfers from plant ",
+                  {
+                    "b": 1
+                  },
+                  " to fungi and soil microbes, which store it in the soil"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌾",
+              "title": "How Agriculture Disrupted the Cycle",
+              "items": [
+                [
+                  "Ploughing exposes buried carbon to ",
+                  {
+                    "b": 1
+                  },
+                  " → creates CO₂"
+                ],
+                [
+                  "Grazing animals remove all ",
+                  {
+                    "b": 1
+                  },
+                  " — releasing more carbon into the air"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Regenerative Agriculture Solutions",
+              "items": [
+                [
+                  "Keep fields planted all ",
+                  {
+                    "b": 1
+                  },
+                  " round"
+                ],
+                [
+                  "Increase the ",
+                  {
+                    "b": 1
+                  },
+                  " of plants being grown"
+                ],
+                [
+                  "California study: testing effects of compost made from agricultural waste and garden cuttings on a ",
+                  {
+                    "b": 1
+                  },
+                  " farm"
+                ],
+                [
+                  "Australia: cultivate ",
+                  {
+                    "b": 1
+                  },
+                  " that stay green all year round — builds up soil carbon"
+                ]
+              ]
+            },
+            {
+              "emoji": "💰",
+              "title": "Future Proposals",
+              "items": [
+                [
+                  "Farmers should receive ",
+                  {
+                    "b": 1
+                  },
+                  " not just for food produced, but for the carbon they store"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "water",
+            "hard",
+            "sugars",
+            "roots",
+            "oxygen",
+            "vegetation",
+            "year",
+            "variety",
+            "cattle",
+            "grasses",
+            "payment"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Rattan Lal claims the world's agricultural soils could potentially absorb 13 per cent of the carbon dioxide in the atmosphere — the equivalent of the amount released in the last ",
+                1,
+                " years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Carbon-rich soil is dark, crumbly and fertile and retains some water. But if soil contains inadequate amounts of carbon it becomes ",
+                2,
+                " and prone to erosion."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the 1970s and '80s, Lal was studying soils in Africa so devoid of organic matter that the ground had become extremely ",
+                3,
+                ", like cement."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For millions of years, CO₂ levels have been regulated by a natural partnership between plants and microbes. Plants absorb CO₂ and transform it into ",
+                4,
+                " and other carbon substances."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Some carbon transfers from plant ",
+                5,
+                " to fungi and soil microbes, which store the carbon in the soil."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The invention of agriculture 10,000 years ago disrupted these processes. When humans ploughed topsoil, they exposed buried carbon to ",
+                6,
+                ". This created CO₂ and released it into the air."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Researchers now have evidence that even modest changes to farming can significantly help. Some growers are using 'regenerative agriculture' — keeping fields planted all year round and increasing the ",
+                7,
+                " of plants grown."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In California, Whendee Silver is testing the effects on carbon storage of compost created from agricultural waste and ",
+                8,
+                " waste."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Australia, Christine Jones and 12 farmers are building up soil carbon by cultivating ",
+                9,
+                " that stay green all year round."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Rattan Lal argues that farmers should receive ",
+                10,
+                " not just for the food they produce, but also for the carbon they can store in their soil."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "30",
+            "dry",
+            "hard",
+            "sugars",
+            "roots",
+            "oxygen",
+            "variety",
+            "garden",
+            "grasses",
+            "payment"
+          ]
+        }
+      }
+    }
+  }
+}

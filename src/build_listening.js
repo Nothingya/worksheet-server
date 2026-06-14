@@ -54,7 +54,7 @@ function buildListening(data) {
     children:[R('Listening Practice',{bold:true,size:28,color:BLUE,underline:{type:UnderlineType.SINGLE}})]}));
 
   // Part 1
-  ch.push(partHead('Part 1:  Listening Comprehension'));
+  ch.push(partHead('Part 1:  Listening Comprehension  🎯'));
   ch.push(instr('Instructions: You will hear an interview. For questions 1-5, choose the best answer (A, B or C).'));
   (data.part1||[]).forEach(q => {
     ch.push(P([R(q.number+'.  ',{bold:true}),R(q.question,{bold:true})],{spacing:{before:100,after:40,line:276}}));
@@ -63,7 +63,7 @@ function buildListening(data) {
 
   // Part 2
   ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
-  ch.push(partHead('Part 2:  True, False or Not Given'));
+  ch.push(partHead('Part 2:  True, False or Not Given  ✅'));
   ch.push(instr('Instructions: Decide if the statements are True, False or Not Given. Write T, F or NG.'));
   (data.part2||[]).forEach(s => {
     ch.push(P([
@@ -75,7 +75,7 @@ function buildListening(data) {
 
   // Part 3
   ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
-  ch.push(partHead('Part 3:  Table Summary'));
+  ch.push(partHead('Part 3:  Table Summary  📊'));
   ch.push(instr('Instructions: Complete the table. Write NO MORE THAN THREE WORDS for each answer.'));
   ch.push(new Paragraph({spacing:{before:0,after:60,line:276},children:[R('')]}));
 
@@ -101,11 +101,11 @@ function buildListening(data) {
 
   // Part 4
   ch.push(new Paragraph({spacing:{before:240,after:0,line:276},children:[R('')]}));
-  ch.push(partHead('Part 4:  Dictation'));
+  ch.push(partHead('Part 4:  Dictation  🖊️'));
   ch.push(instr('Instructions: Listen and complete the sentences. Write NO MORE THAN THREE WORDS for each answer.'));
   (data.part4||[]).forEach(seg => {
     const runs = seg.speaker ? [R(seg.speaker+':  ',{bold:true,color:BLUE})] : [];
-    ch.push(P([...runs,R(expandBlanks(seg.text||''))],{spacing:{before:60,after:50,line:276}}));
+    ch.push(P([...runs,R(expandBlanks(seg.text||''))],{spacing:{before:60,after:50,line:360}}));  // 新模板：Dictation 1.5 行距
   });
 
   // Answer Key — pageBreakBefore 保证新页（比 PageBreak 更可靠）

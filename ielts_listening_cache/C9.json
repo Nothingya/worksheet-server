@@ -1,0 +1,3973 @@
+{
+  "bookTitle": "Cambridge IELTS 9 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 9 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "餐厅工作电话咨询",
+          "sceneEmoji": "📞",
+          "mcq": [
+            {
+              "q": "What type of work does the job mainly involve?",
+              "opts": [
+                [
+                  "A",
+                  "Washing up in the kitchen"
+                ],
+                [
+                  "B",
+                  "Answering the telephone"
+                ],
+                [
+                  "C",
+                  "Waiting at tables"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "How many nights a week would the job be?",
+              "opts": [
+                [
+                  "A",
+                  "Three nights, totalling twelve hours"
+                ],
+                [
+                  "B",
+                  "Two nights"
+                ],
+                [
+                  "C",
+                  "Four nights"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What should Peter bring to the interview?",
+              "opts": [
+                [
+                  "A",
+                  "A copy of his passport"
+                ],
+                [
+                  "B",
+                  "His university ID card"
+                ],
+                [
+                  "C",
+                  "The names of two referees"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A man called Peter Chin phones King's Restaurant about a job vacancy. The work mainly involves washing up, and not waiting at tables. The restaurant has two branches, and the one recruiting is on Hillsdunne Street. The nearest bus stop is beside the post office. The pay is £3.95 an hour. Staff get extra pay for working on public holidays, and anyone working after midnight gets a free lift home. The restaurant is looking for someone with a loud voice who can think quickly. Peter arranges to come for an interview on Thursday 22nd November at 6 o'clock, and is told to ask for Samira.",
+          "errors": [
+            {
+              "wrong": "washing up",
+              "correct": "answering the phone"
+            },
+            {
+              "wrong": "Hillsdunne Street",
+              "correct": "Hillsdunne Road"
+            },
+            {
+              "wrong": "post office",
+              "correct": "library"
+            },
+            {
+              "wrong": "£3.95",
+              "correct": "£4.45"
+            },
+            {
+              "wrong": "public holidays",
+              "correct": "national holidays"
+            },
+            {
+              "wrong": "after midnight",
+              "correct": "after 11 o'clock"
+            },
+            {
+              "wrong": "22nd November",
+              "correct": "22nd October"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Good evening. King's Restaurant."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Good evening. I'm ringing about the job. I'd like to find out a few more details, if I may."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Yes, of course. If you want to ask about the job, we could arrange for you to come for an ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "What sort of work is it?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "It's ",
+                2,
+                ". And not waiting at table."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "And how many nights a week would it be?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "We're really only busy at the weekend — three nights, so it would work out at twelve ",
+                3,
+                " a week."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Where exactly is the restaurant?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "We have two branches — the one we're recruiting for is in ",
+                4,
+                " Road."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Is it near a bus stop?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Yes. The nearest one would probably be just beside the ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "And could I ask about the pay?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "We're offering £",
+                6,
+                " an hour."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "We also offer extra pay for working on ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "And if you're working after ",
+                8,
+                " we drive you home."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "For this job we want a ",
+                9,
+                ", which you obviously do have!"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "And you must be able to ",
+                10,
+                ", you know."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Thursday's okay — that'd be ",
+                11,
+                " of October."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Fine, after 5 pm? Could you bring along the names of two ",
+                12,
+                "?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Oh, by the way, who should I ask for?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "My name is Samira ",
+                13,
+                ". That's M-A-N-U-J-A."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "interview",
+            "answering the phone",
+            "hours",
+            "Hillsdunne",
+            "library",
+            "4.45",
+            "national holidays",
+            "11 o'clock",
+            "clear voice",
+            "think quickly",
+            "22nd",
+            "referees",
+            "Manuja"
+          ]
+        },
+        "2": {
+          "scene": "运动用品店开业活动",
+          "sceneEmoji": "🏃",
+          "kwt": [
+            {
+              "original": "The company has now decided to open another branch in the area, in the shopping centre to the west of Bradcaster.",
+              "keyWord": "SET",
+              "transStart": "The company has now decided to",
+              "transEnd": "up a new branch in the western shopping centre.",
+              "answer": "SET UP",
+              "collocation": "set up (= establish/open a new location)"
+            },
+            {
+              "original": "If they haven't got exactly what you want in stock they promise to get it for you in ten days.",
+              "keyWord": "TRACK",
+              "transStart": "If your item isn't in stock, they promise to",
+              "transEnd": "it down within ten days.",
+              "answer": "TRACK DOWN",
+              "collocation": "track down (= find/obtain after searching)"
+            },
+            {
+              "original": "There are only a limited number of places available for the fitness test, so to make a booking phone 560341.",
+              "keyWord": "BOOK",
+              "transStart": "Because places for the fitness test are limited, you need to",
+              "transEnd": "a slot by phoning 560341.",
+              "answer": "BOOK A SLOT",
+              "collocation": "book a slot (= reserve a specific place in advance)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"another branch in the area\""
+              },
+              {
+                "num": 2,
+                "left": "\"minimalist look with black and red\""
+              },
+              {
+                "num": 3,
+                "left": "\"get it for you in ten days\""
+              },
+              {
+                "num": 4,
+                "left": "\"particularly focus on running\""
+              },
+              {
+                "num": 5,
+                "left": "\"a whole section devoted to sports bags\""
+              }
+            ],
+            "options": [
+              "A.  specialist dedicated floor space",
+              "B.  distinctive brand identity",
+              "C.  their strongest product category",
+              "D.  prompt ordering service",
+              "E.  second location opening soon"
+            ],
+            "answers": [
+              "E",
+              "B",
+              "D",
+              "C",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "JANE",
+              "parts": [
+                "Most of you probably know Sports World — the ",
+                1,
+                " of a Danish sports goods company."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The company has decided to open another ",
+                2,
+                " in the area — in the shopping centre to the ",
+                3,
+                " of Bradcaster."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The whole place has been given a new ",
+                4,
+                " look with the company's signature colours of black and red."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If they haven't got exactly what you want in ",
+                5,
+                ", they promise to get it for you in ",
+                6,
+                " days."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They particularly focus on ",
+                7,
+                ", and claim to have the widest range of equipment in the country."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A whole section of the third floor is devoted to sports ",
+                8,
+                ", including the latest designs from the States."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The shop will be open from 9 am this Saturday. The national 400 metres running champion Paul King is coming along to ",
+                9,
+                " the shop."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There will be free ",
+                10,
+                " for local sporting events for the first 50 customers."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Just answer fifteen out of twenty sports questions correctly to win a signed copy of Paul King's DVD '",
+                11,
+                " Tips'."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One of the special opening offers is a fitness test. This would normally cost £30 but is available at half ",
+                12,
+                " this month only."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There are only a limited number of ",
+                13,
+                " available, so to make a booking phone ",
+                14,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you open an account you get lots more special offers including the chance to try out equipment at special open ",
+                15,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "branch",
+            "branch",
+            "west",
+            "minimalist",
+            "stock",
+            "ten",
+            "running",
+            "bags",
+            "open",
+            "tickets",
+            "Spring",
+            "price",
+            "places",
+            "560341",
+            "evenings"
+          ]
+        },
+        "3": {
+          "scene": "EAP课程效果教程反馈",
+          "sceneEmoji": "🎓",
+          "functions": "A  Expressing a realisation    B  Describing a problem    C  Explaining a successful strategy    D  Making a suggestion    E  Expressing disappointment",
+          "pragmatic": [
+            {
+              "quote": "I read my notes too. At the time, it was a relief to do it this way, but when I had finished I didn't feel any real sense of satisfaction.",
+              "speaker": "Hiroko",
+              "answer": "E"
+            },
+            {
+              "quote": "During the whole semester I've not said anything in our tutorial discussions. Not a word.",
+              "speaker": "Spiros",
+              "answer": "B"
+            },
+            {
+              "quote": "They use so many colloquialisms and they're not very polite and sometimes there seems to be no order in their discussion.",
+              "speaker": "Spiros",
+              "answer": "B"
+            },
+            {
+              "quote": "If they thought my point was interesting or new, then the next time they actually asked for my opinion — then it was much easier for me to be part of the discussion.",
+              "speaker": "Hiroko",
+              "answer": "C"
+            },
+            {
+              "quote": "I would have felt much better working on reading from my own field — and I would have been more motivated.",
+              "speaker": "Hiroko",
+              "answer": "D"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "✅",
+              "title": "What Helped in University",
+              "items": [
+                [
+                  "Spiros: seminar presentation practice → felt ",
+                  {
+                    "b": 1
+                  },
+                  " in university presentations"
+                ],
+                [
+                  "Spiros: was well-",
+                  {
+                    "b": 1
+                  },
+                  " and had practised his timing"
+                ],
+                [
+                  "Hiroko: making interesting points → other students started asking for her ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Ongoing Difficulties",
+              "items": [
+                [
+                  "Spiros: no ",
+                  {
+                    "b": 1
+                  },
+                  " to speak out in tutorials all semester"
+                ],
+                [
+                  "Hiroko: reading speed still quite ",
+                  {
+                    "b": 1
+                  },
+                  " — no time for extra reading"
+                ],
+                [
+                  "Both: EAP reading was on wrong topics — not their own ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Suggestions for the EAP Course",
+              "items": [
+                [
+                  "More articles from students' own ",
+                  {
+                    "b": 1
+                  },
+                  " of study"
+                ],
+                [
+                  "Keep speed-",
+                  {
+                    "b": 1
+                  },
+                  " tasks — useful preparation"
+                ],
+                [
+                  "Students could work on own topics during ",
+                  {
+                    "b": 1
+                  },
+                  " assignments"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "confident",
+            "prepared",
+            "opinion",
+            "confidence",
+            "slow",
+            "field",
+            "field",
+            "reading",
+            "research"
+          ],
+          "dictation": [
+            {
+              "speaker": "TEACHER",
+              "parts": [
+                "I'd like to discuss with you the value of the English for Academic Purposes course you did here last year before starting your university course."
+              ]
+            },
+            {
+              "speaker": "SPIROS",
+              "parts": [
+                "Having to do a seminar ",
+                1,
+                " really helped me. I felt quite confident — because I had done one before, I knew what to ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "SPIROS",
+              "parts": [
+                "I know I was well-prepared and I had practised my ",
+                3,
+                ". My overall style was quite ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "HIROKO",
+              "parts": [
+                "I was really surprised by the way the students did their presentations — they just read their ",
+                5,
+                " aloud!"
+              ]
+            },
+            {
+              "speaker": "HIROKO",
+              "parts": [
+                "To speak frankly, I read my notes too. At the time, it was a ",
+                6,
+                " to do it this way. But I didn't feel any real sense of ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "SPIROS",
+              "parts": [
+                "During the whole semester I've not said anything in our tutorial ",
+                8,
+                ". Not a word."
+              ]
+            },
+            {
+              "speaker": "SPIROS",
+              "parts": [
+                "It's mostly because I have had no ",
+                9,
+                " to speak out. Their style of speaking is so different — they use so many ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": "HIROKO",
+              "parts": [
+                "Recently I've been trying to speak up more and I just jump in — if they thought my point was interesting, the next time they actually asked for my ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": "HIROKO",
+              "parts": [
+                "One thing that helped me was the ",
+                12,
+                ". I had to do so much reading to make sense of the ",
+                13,
+                "."
+              ]
+            },
+            {
+              "speaker": "HIROKO",
+              "parts": [
+                "I made pages of notes. At breakfast, I read and read my notes again. This habit has helped me to follow the ",
+                14,
+                " in the lectures."
+              ]
+            },
+            {
+              "speaker": "HIROKO",
+              "parts": [
+                "I would have felt much better working on reading from my own ",
+                15,
+                " — I would have been more motivated."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "presentation",
+            "expect",
+            "timing",
+            "professional",
+            "notes",
+            "relief",
+            "satisfaction",
+            "discussions",
+            "confidence",
+            "colloquialisms",
+            "opinion",
+            "reading",
+            "lectures",
+            "ideas",
+            "field"
+          ]
+        },
+        "4": {
+          "scene": "鲸豚集体搁浅讲座",
+          "sceneEmoji": "🐋",
+          "signpost": [
+            {
+              "quote": "With some of you about to go out on field work it's timely that in this afternoon's session I'll be sharing some ideas about mass strandings.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the previous lecture"
+                ],
+                [
+                  "B",
+                  "Establishing the relevance of the topic to the audience's upcoming experience"
+                ],
+                [
+                  "C",
+                  "Introducing a debate"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Unfortunately, this type of event is a frequent occurrence in some of the locations that you'll be travelling to.",
+              "opts": [
+                [
+                  "A",
+                  "Making the issue personally relevant before listing theories"
+                ],
+                [
+                  "B",
+                  "Providing an example to support a claim"
+                ],
+                [
+                  "C",
+                  "Concluding the topic"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "There are also some new theories which link strandings to humans.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a more recent and distinct category of cause"
+                ],
+                [
+                  "B",
+                  "Returning to an earlier argument"
+                ],
+                [
+                  "C",
+                  "Dismissing the previous theory"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "There were several factors that made this stranding stand out as different from previous strandings.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Repeating the main argument"
+                ],
+                [
+                  "C",
+                  "Highlighting key evidence to support the human-cause theory"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "A final theory is related to group behaviour.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling the last cause in a series before drawing conclusions"
+                ],
+                [
+                  "B",
+                  "Introducing a new lecture"
+                ],
+                [
+                  "C",
+                  "Providing a counter-argument"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌊",
+              "title": "Cause 1 — Tidal Confusion",
+              "items": [
+                [
+                  "Sometimes the ",
+                  {
+                    "b": 1
+                  },
+                  " goes out suddenly — animals become disoriented"
+                ],
+                [
+                  "Most frequent in specific coastal ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🐛",
+              "title": "Cause 2 — Parasites",
+              "items": [
+                [
+                  "Worm infestation found in the ",
+                  {
+                    "b": 1
+                  },
+                  " of dead whales"
+                ],
+                [
+                  "Marine animals rely heavily on their ",
+                  {
+                    "b": 1
+                  },
+                  " to navigate"
+                ]
+              ]
+            },
+            {
+              "emoji": "☠️",
+              "title": "Cause 3 — Toxins",
+              "items": [
+                [
+                  "Toxins originate from ",
+                  {
+                    "b": 1
+                  },
+                  " or ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Ingested through normal ",
+                  {
+                    "b": 1
+                  },
+                  " behaviour"
+                ],
+                [
+                  "1988 Cape Cod: 14 humpbacks poisoned by saxitoxin via tuna"
+                ]
+              ]
+            },
+            {
+              "emoji": "📢",
+              "title": "Cause 4 — Human Noise",
+              "items": [
+                [
+                  "Military exercises cause loud ",
+                  {
+                    "b": 1
+                  },
+                  " in the ocean"
+                ],
+                [
+                  "2000 Bahamas stranding: coincided with submarine detection system"
+                ],
+                [
+                  "All stranded animals were ",
+                  {
+                    "b": 1
+                  },
+                  " — not sick or injured"
+                ]
+              ]
+            },
+            {
+              "emoji": "👥",
+              "title": "Cause 5 — Group Behaviour",
+              "items": [
+                [
+                  "Sea mammals cannot distinguish sick from ",
+                  {
+                    "b": 1
+                  },
+                  " leaders"
+                ],
+                [
+                  "Toothed whales — most ",
+                  {
+                    "b": 1
+                  },
+                  " species — strand most frequently"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "tide",
+            "locations",
+            "ears",
+            "hearing",
+            "plants",
+            "animals",
+            "feeding",
+            "noises",
+            "healthy",
+            "healthy",
+            "social"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "In this afternoon's session I'll be sharing some ideas about the reasons why groups of whales and dolphins sometimes ",
+                1,
+                " ashore and die in what are known as 'mass strandings'."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This type of event is a frequent occurrence in some of the locations you'll be travelling to, where sometimes the ",
+                2,
+                " goes out suddenly, ",
+                3,
+                " the animals."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first theory is that the behaviour is linked to ",
+                4,
+                ". Stranded animals were often infested with large numbers of them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A type of worm is commonly found in the ",
+                5,
+                " of dead whales. Since marine animals rely heavily on their ",
+                6,
+                " to navigate, this can be very harmful."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another theory is related to ",
+                7,
+                ". Many toxins originate from ",
+                8,
+                ", or animals. The whale ",
+                9,
+                " these toxins in its normal feeding behaviour."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1988, fourteen humpback whales were found to have been poisoned after eating tuna that contained saxitoxin — the same toxin that can be fatal in ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It has also been suggested that some animals strand accidentally by following their ",
+                11,
+                " ashore in the confusion of the chase."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A growing concern is that loud ",
+                12,
+                " in the ocean cause strandings. Noises caused by military exercises are of particular concern."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One mass stranding in 2000 in the Bahamas coincided with experiments using a new submarine ",
+                13,
+                " system."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All the stranded animals were ",
+                14,
+                ". They were also spread out along 38 kilometres of coast — whereas in typical strandings animals are found in a ",
+                15,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A final theory is related to ",
+                16,
+                " behaviour. Sea mammals may follow sick ",
+                17,
+                ", even to their death."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The toothed whales — thought to be the most ",
+                18,
+                " species — are the group that strand the most ",
+                19,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A 1994 dolphin stranding showed that apart from the leader, all the others had been ",
+                20,
+                " at the time of their death."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "swim",
+            "tide",
+            "confusing",
+            "parasites",
+            "ears",
+            "hearing",
+            "toxins",
+            "plants",
+            "ingests",
+            "humans",
+            "prey",
+            "noises",
+            "detection",
+            "healthy",
+            "group",
+            "group",
+            "leaders",
+            "social",
+            "frequently",
+            "healthy"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 9 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "大学住宿申请咨询",
+          "sceneEmoji": "🏠",
+          "mcq": [
+            {
+              "q": "How long does Anu Bhatt plan to stay in hall?",
+              "opts": [
+                [
+                  "A",
+                  "One year"
+                ],
+                [
+                  "B",
+                  "Two years"
+                ],
+                [
+                  "C",
+                  "Three years"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What type of catering does she prefer?",
+              "opts": [
+                [
+                  "A",
+                  "Full board (all meals)"
+                ],
+                [
+                  "B",
+                  "Half board (evening meal only)"
+                ],
+                [
+                  "C",
+                  "Self-catering"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What type of room does she choose?",
+              "opts": [
+                [
+                  "A",
+                  "A single study bedroom"
+                ],
+                [
+                  "B",
+                  "A shared room"
+                ],
+                [
+                  "C",
+                  "A single bedsit"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A woman named Anu Bhatt contacts the university accommodation service. She is studying medicine and wants to stay in hall for three years. She requests full board. She does not eat pork. For her room type, she opts for a shared bedroom. She would like to be in a hall with younger students. She also prefers to be in the town centre. Her contact telephone number is double-67549.",
+          "errors": [
+            {
+              "wrong": "medicine",
+              "correct": "nursing"
+            },
+            {
+              "wrong": "three years",
+              "correct": "two years"
+            },
+            {
+              "wrong": "full board",
+              "correct": "half board"
+            },
+            {
+              "wrong": "pork",
+              "correct": "red meat"
+            },
+            {
+              "wrong": "shared bedroom",
+              "correct": "bedsit"
+            },
+            {
+              "wrong": "younger students",
+              "correct": "mature / older students"
+            },
+            {
+              "wrong": "town centre",
+              "correct": "out of town"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Can I help you?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Yes. I've just been accepted on a course at the university and I'd like to arrange accommodation in the hall of ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Please sit down. What will you be studying?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "I'm doing a course in ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "How long would you want to stay in hall?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "It'll take three years but I'd only like to stay in hall for ",
+                3,
+                ". I'd like to think about living outside for the third year."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "What did you have in mind for catering — cook for yourself or full board?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Is there something in between?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Yes — you can just have the evening meal provided, which is ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "That's what I'd prefer. Do you have any special diet?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Yes, I don't take ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "You can have a single study bedroom, a shared one, or a single ",
+                6,
+                " which has more space and better facilities."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "My grant is quite generous — the ",
+                7,
+                " sounds the best option."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Now, your interests?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "I love the ",
+                8,
+                ". And I enjoy sports, particularly badminton."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "And your priorities in choosing a hall?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "I'd prefer a hall where there are other ",
+                9,
+                " students, if possible."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "And I'd prefer to be ",
+                10,
+                " of town."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "I would like somewhere with a shared area, like a TV room — it's a good way to ",
+                11,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "residence",
+            "nursing",
+            "two",
+            "half board",
+            "red meat",
+            "bedsit",
+            "bedsit",
+            "theatre",
+            "mature",
+            "out",
+            "socialise"
+          ]
+        },
+        "2": {
+          "scene": "野生动物俱乐部欢迎导览",
+          "sceneEmoji": "🌿",
+          "kwt": [
+            {
+              "original": "In the past willows were grown here commercially for basket-making, and this ancient craft has recently been reintroduced.",
+              "keyWord": "BRING",
+              "transStart": "This ancient craft of basket-making has recently been",
+              "transEnd": "back at Holt Island.",
+              "answer": "BROUGHT BACK",
+              "collocation": "bring back (= revive/restore a tradition or practice)"
+            },
+            {
+              "original": "Longfield has a modern replica of a farm from over two thousand years ago. Children's activities are often arranged there.",
+              "keyWord": "CARRY",
+              "transStart": "A variety of children's activities, such as bread-making, are regularly",
+              "transEnd": "out at Longfield Park.",
+              "answer": "CARRIED OUT",
+              "collocation": "carry out (= conduct, organise an activity)"
+            },
+            {
+              "original": "If you want to go you'll need to phone the park ranger a few days ahead.",
+              "keyWord": "BOOK",
+              "transStart": "Because places are limited, you must",
+              "transEnd": "in advance by phoning the park ranger.",
+              "answer": "BOOK IN ADVANCE",
+              "collocation": "book in advance (= reserve ahead of time)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"public land for hundreds of years\""
+              },
+              {
+                "num": 2,
+                "left": "\"noted for its great range of trees\""
+              },
+              {
+                "num": 3,
+                "left": "\"modern replica of a farm\""
+              },
+              {
+                "num": 4,
+                "left": "\"only open Friday to Sunday\""
+              },
+              {
+                "num": 5,
+                "left": "\"bird hide to the west of the lake\""
+              }
+            ],
+            "options": [
+              "A.  Hinchingbrooke Park",
+              "B.  Holt Island",
+              "C.  Halland Common",
+              "D.  Longfield Country Park",
+              "E.  Holt Island — restricted access"
+            ],
+            "answers": [
+              "C",
+              "B",
+              "D",
+              "E",
+              "A"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "I'm delighted to welcome you to our Wildlife Club. I'll start by telling you about some of the parks and open spaces ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Halland Common has been public land for hundreds of years. The River Ouse has its ",
+                2,
+                " in the common. The common is accessible 24 hours a day."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Then there's Holt Island, noted for its great range of ",
+                3,
+                ". In the past, willows were grown here for basket-making — this ancient craft has recently been ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The island is only open from Friday to Sunday, because if there were people around every day, much of the wildlife would keep ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Longfield Country Park has a modern ",
+                6,
+                " of a farm from over two thousand years ago. Children's activities are often arranged there, like bread-making and face-",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Wednesday you can join local experts to discover the variety of ",
+                8,
+                " and birds that appear in the evening. There's a small ",
+                9,
+                ", which you should pay when you turn up."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On Saturday you can join a working party with a choice of activities, from planting ",
+                10,
+                " to picking up litter. Make sure you're wearing something you don't mind getting dirty or ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our new wildlife area, Hinchingbrooke Park, will open next month. There's a lake in the north west, with a bird ",
+                12,
+                " to the west of it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's a dog-walking area in the southern part, and a flower garden — the ",
+                13,
+                " area surrounded by paths."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "nearby",
+            "source",
+            "trees",
+            "reintroduced",
+            "away",
+            "replica",
+            "painting",
+            "insects",
+            "charge",
+            "hedges",
+            "torn",
+            "hide",
+            "circular"
+          ]
+        },
+        "3": {
+          "scene": "自习中心改进方案讨论",
+          "sceneEmoji": "📚",
+          "functions": "A  Expressing a concern    B  Proposing an action    C  Conceding a point    D  Identifying a priority    E  Seeking clarification",
+          "pragmatic": [
+            {
+              "quote": "We would like to keep it. The majority of students say that they enjoy using it because it provides a variation on the classroom routine.",
+              "speaker": "Jun",
+              "answer": "D"
+            },
+            {
+              "quote": "A lot of the students are using it to check their personal emails — we think the computers should be used as a learning resource, not for emails.",
+              "speaker": "Pam",
+              "answer": "A"
+            },
+            {
+              "quote": "Our main worry would be not being able to go to a teacher for advice.",
+              "speaker": "Jun",
+              "answer": "A"
+            },
+            {
+              "quote": "I think it might be a good idea to install some new models — they would take up a lot less room.",
+              "speaker": "Pam",
+              "answer": "B"
+            },
+            {
+              "quote": "What about introducing some workbooks? If we laminate the pages, they'd be a great resource.",
+              "speaker": "Pam",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "💻",
+              "title": "Equipment Improvements",
+              "items": [
+                [
+                  "Install new computer ",
+                  {
+                    "b": 1
+                  },
+                  " — take up less room, increase work space"
+                ],
+                [
+                  "CD section needs to be more ",
+                  {
+                    "b": 1
+                  },
+                  " — get ones that go with latest course books"
+                ]
+              ]
+            },
+            {
+              "emoji": "📖",
+              "title": "New Resources",
+              "items": [
+                [
+                  "Better ",
+                  {
+                    "b": 1
+                  },
+                  " of reading materials by level"
+                ],
+                [
+                  "Introduce ",
+                  {
+                    "b": 1
+                  },
+                  " — laminate pages for repeated use"
+                ],
+                [
+                  "Review all study resources — some looking out of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🔧",
+              "title": "Management Issues",
+              "items": [
+                [
+                  "Timetable a teacher to ",
+                  {
+                    "b": 1
+                  },
+                  " the centre after class hours"
+                ],
+                [
+                  "Improve ",
+                  {
+                    "b": 1
+                  },
+                  " — especially if investing in new equipment"
+                ],
+                [
+                  "Limit access to email — agree to only use it before and after ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "models",
+            "current",
+            "labelling",
+            "workbooks",
+            "date",
+            "supervise",
+            "security",
+            "class"
+          ],
+          "dictation": [
+            {
+              "speaker": "PAM",
+              "parts": [
+                "I've asked you here to discuss the future of our Self-Access Centre — a very important resource for our English language students. What do the students think?"
+              ]
+            },
+            {
+              "speaker": "JUN",
+              "parts": [
+                "The majority of students say they enjoy using it because it provides a ",
+                1,
+                " on the classroom routine and they see it as a major component of their course."
+              ]
+            },
+            {
+              "speaker": "JUN",
+              "parts": [
+                "But we would like to see some improvements to the equipment, particularly the ",
+                2,
+                " — there aren't enough for one each."
+              ]
+            },
+            {
+              "speaker": "PAM",
+              "parts": [
+                "One thing we have noticed is that a lot of students are using it to check their personal ",
+                3,
+                ". We think the computers should be used as a learning resource."
+              ]
+            },
+            {
+              "speaker": "JUN",
+              "parts": [
+                "Our main worry would be not being able to go to a teacher for advice. The students really like going together as a ",
+                4,
+                " to do activities."
+              ]
+            },
+            {
+              "speaker": "PAM",
+              "parts": [
+                "It's not so much the expense I'm worried about — it's the problem of timetabling a teacher to be in there outside class ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "PAM",
+              "parts": [
+                "I think it might be a good idea to install some new computer ",
+                6,
+                ". They would take up a lot less room."
+              ]
+            },
+            {
+              "speaker": "JUN",
+              "parts": [
+                "Students frequently say they find it difficult to find materials appropriate for their ",
+                7,
+                " — especially reading resources — so we need to label them more clearly."
+              ]
+            },
+            {
+              "speaker": "JUN",
+              "parts": [
+                "The CD section especially needs to be more ",
+                8,
+                ". We should get ones that go with our latest course books and make multiple copies."
+              ]
+            },
+            {
+              "speaker": "PAM",
+              "parts": [
+                "What do you think of the idea of introducing some ",
+                9,
+                "? If we laminate the pages, they'd be a great resource for follow-up practice."
+              ]
+            },
+            {
+              "speaker": "PAM",
+              "parts": [
+                "We also need to think about ",
+                10,
+                ", especially if we're going to invest in new equipment."
+              ]
+            },
+            {
+              "speaker": "JUN",
+              "parts": [
+                "What about putting in an ",
+                11,
+                "?"
+              ]
+            },
+            {
+              "speaker": "PAM",
+              "parts": [
+                "Good idea. I'd also like to limit access to email — agree to only use it before and after ",
+                12,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "variation",
+            "computers",
+            "emails",
+            "group",
+            "hours",
+            "models",
+            "level",
+            "current",
+            "workbooks",
+            "security",
+            "alarm",
+            "class"
+          ]
+        },
+        "4": {
+          "scene": "组织文化类型管理讲座",
+          "sceneEmoji": "🏢",
+          "signpost": [
+            {
+              "quote": "When you first start working somewhere you will realise that the organisation you've joined has certain characteristics — we often refer to these as the culture of the organisation.",
+              "opts": [
+                [
+                  "A",
+                  "Challenging a prior assumption"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Defining the key concept before introducing the classification"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "But on the negative side, this type of organisation doesn't always act effectively, because it depends too much on one or two people at the top.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a limitation after listing the benefit"
+                ],
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "C",
+                  "Providing an example"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Moving on now to Task Cultures — this type is found in organisations that are project-oriented.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all four cultures"
+                ],
+                [
+                  "B",
+                  "Questioning the previous theory"
+                ],
+                [
+                  "C",
+                  "Signalling a shift to the third culture type after covering the second"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "One of the major benefits of this culture is that it's flexible. But it does have some major disadvantages too.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the discussion of all cultures"
+                ],
+                [
+                  "B",
+                  "Acknowledging a strength before immediately countering with a weakness"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "And finally, the fourth category is called the Person Culture.",
+              "opts": [
+                [
+                  "A",
+                  "Signalling the last in a series of four categories"
+                ],
+                [
+                  "B",
+                  "Introducing a new topic"
+                ],
+                [
+                  "C",
+                  "Providing an example of Task Culture"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🕹️",
+              "title": "Power Culture",
+              "items": [
+                [
+                  "Control in hands of one or two people — few rules or ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Communication: ",
+                  {
+                    "b": 1
+                  },
+                  " rather than formal meetings"
+                ],
+                [
+                  "Benefit: can act ",
+                  {
+                    "b": 1
+                  },
+                  " and respond to threats or opportunities"
+                ],
+                [
+                  "Drawback: depends too much on the people at the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📋",
+              "title": "Role Culture",
+              "items": [
+                [
+                  "Found in large companies with many ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Everyone's job controlled by sets of rules, job descriptions and ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Benefit: economies of ",
+                  {
+                    "b": 1
+                  },
+                  "; successful where technical expertise matters"
+                ],
+                [
+                  "Drawback: very slow to ",
+                  {
+                    "b": 1
+                  },
+                  " and react to change"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎯",
+              "title": "Task Culture",
+              "items": [
+                [
+                  "Found in ",
+                  {
+                    "b": 1
+                  },
+                  "-oriented organisations with short product life-spans"
+                ],
+                [
+                  "Management delegates projects, people and other ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Benefit: flexible; suits people who like working in ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Drawback: cannot produce economies of scale or depth of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "procedures",
+            "conversations",
+            "quickly",
+            "top",
+            "levels",
+            "procedures",
+            "scale",
+            "recognise",
+            "project",
+            "resources",
+            "teams",
+            "expertise"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "When you first start working somewhere you'll realise that the organisation has certain ",
+                1,
+                ". We often refer to these as the culture of the organisation."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One well-known writer has classified company cultures by identifying four major ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first type is the Power Culture, usually found in small organisations. Control is in the hands of just one or two people — there aren't many ",
+                3,
+                " or procedures."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Communication usually takes the form of ",
+                4,
+                " rather than formal meetings. One benefit is that the organisation can act very ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "But this type depends too much on the people at the top — when they make poor ",
+                6,
+                ", there's no-one else who can influence them."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The next type is Role Culture — found in large companies with lots of different ",
+                7,
+                ". Everyone's job is controlled by rules and procedures."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One benefit: it can achieve economies of ",
+                8,
+                ". But it's often very slow to recognise the need for change, and even slower to ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Task Culture is found in project-oriented organisations. Management delegates the projects and other ",
+                10,
+                ". Little day-to-day control is exercised from the top."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One major benefit of this culture is that it's ",
+                11,
+                ". But it can't produce economies of scale or great depth of expertise."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Finally, the fourth category is the Person Culture. Here the individual is the central point, and this type is typically found in professional firms like ",
+                12,
+                " or accountancy."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "characteristics",
+            "types",
+            "rules",
+            "conversations",
+            "quickly",
+            "decisions",
+            "levels",
+            "scale",
+            "react",
+            "resources",
+            "flexible",
+            "law"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 9 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "希腊海岛假期公寓预订",
+          "sceneEmoji": "🏖️",
+          "mcq": [
+            {
+              "q": "What is the main attraction of the Blue Bay apartments?",
+              "opts": [
+                [
+                  "A",
+                  "A private beach within 100 metres"
+                ],
+                [
+                  "B",
+                  "A large salt water swimming pool"
+                ],
+                [
+                  "C",
+                  "Mountain views"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What does the Sunshade apartment include?",
+              "opts": [
+                [
+                  "A",
+                  "A view of the sea"
+                ],
+                [
+                  "B",
+                  "A barbecue and water sports at its own beach"
+                ],
+                [
+                  "C",
+                  "A shared disco"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the price of the Grand apartment for the period requested?",
+              "opts": [
+                [
+                  "A",
+                  "£219"
+                ],
+                [
+                  "B",
+                  "£275"
+                ],
+                [
+                  "C",
+                  "£319"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A caller contacts Greek Island Holidays to ask about apartments in Arilas, Corfu. The Rose Garden Apartments have a studio flat available in the last week of October, at £219 each. The Blue Bay apartments feature a large freshwater swimming pool and are 300 metres from the beach. The Sunshade Apartments are on a hillside, each room has its own sun terrace, and facilities include water sports and satellite TV. Each person must pay £490 and there must be at least three in an apartment. The Grand is an older house with Greek paintings in every room and a terrace. The price is £390.",
+          "errors": [
+            {
+              "wrong": "freshwater",
+              "correct": "salt water"
+            },
+            {
+              "wrong": "hillside",
+              "correct": "mountainside"
+            },
+            {
+              "wrong": "three in an apartment",
+              "correct": "two in an apartment"
+            },
+            {
+              "wrong": "terrace",
+              "correct": "balcony"
+            },
+            {
+              "wrong": "£390",
+              "correct": "£319"
+            },
+            {
+              "wrong": "Blue Bay: 300 metres from the beach",
+              "correct": "300 metres ✓ — replace: £490 with £490 ✓"
+            },
+            {
+              "wrong": "five shops nearby",
+              "correct": "half a kilometre to some shops"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Greek Island Holidays, can I help you?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Yes. I have a friend who's just come back from Corfu and she's recommended some apartments in Arilas."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The Rose Garden Apartments — we've got a lovely studio ",
+                1,
+                " available for the last week of October. The cost would be £219 each."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "And the second one she mentioned was called Blue Bay."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The main attraction is the large swimming pool with ",
+                2,
+                " water. It isn't far from the beach either — only 300 metres, and around half a kilometre to some ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "What about the Sunshade Apartments?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "They're on a ",
+                4,
+                ". Each room has its own sun ",
+                5,
+                " and there are shared barbecue facilities. It also provides water sports — it has its own beach with facilities for water-skiing."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "How much is that one?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "£490 with two sharing — each person has to pay that amount, and there must be at least ",
+                6,
+                " in an apartment."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "And the last one — the Grand?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "It's an older style house with Greek ",
+                7,
+                " in every room and a ",
+                8,
+                " outside. There are ",
+                9,
+                " all round and a supermarket just down the road."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The price is £",
+                10,
+                " at that time, but if you leave it till November it goes down by 40%."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Could I check a couple of points about ",
+                11,
+                "? Our maximum for cancellation is £10,000 — an improvement over the policy I have."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "We also allow a ",
+                12,
+                " to travel to your holiday resort. And if you don't get on the plane, we pay up to £1,000 for missed ",
+                13,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Your name is?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "I'm Ben ",
+                14,
+                " — that's L-U-D-L-O-W. I'm the Assistant Manager here. My direct number is 081260 543216."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "flat",
+            "salt",
+            "shops",
+            "mountainside",
+            "terrace",
+            "two",
+            "paintings",
+            "balcony",
+            "forests",
+            "319",
+            "insurance",
+            "relative",
+            "departure",
+            "Ludlow"
+          ]
+        },
+        "2": {
+          "scene": "温里奇森林铁路公园创业故事",
+          "sceneEmoji": "🚂",
+          "kwt": [
+            {
+              "original": "I went on a trip to a theme park near Birmingham and decided we could do a much better job.",
+              "keyWord": "BEAT",
+              "transStart": "After visiting a theme park near Birmingham, he was convinced they could",
+              "transEnd": "and set up a much better attraction.",
+              "answer": "BEAT IT",
+              "collocation": "beat it (= do better than something)"
+            },
+            {
+              "original": "We were onto a winner — we began to extend the railway track and lay it among more interesting landscape by planting trees.",
+              "keyWord": "TAKE",
+              "transStart": "They realised their venture was a success and began to",
+              "transEnd": "steps to extend the railway through a more interesting landscape.",
+              "answer": "TAKE STEPS TO",
+              "collocation": "take steps to (= act deliberately in order to achieve something)"
+            },
+            {
+              "original": "We're constantly looking for ways to offer more to our visitors.",
+              "keyWord": "COMMITTED",
+              "transStart": "The family is",
+              "transEnd": "to continually improving what they offer visitors.",
+              "answer": "COMMITTED TO",
+              "collocation": "committed to + -ing (= dedicated to an ongoing goal)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"80 acres of sheep-farming land\""
+              },
+              {
+                "num": 2,
+                "left": "\"opened for just a month in 1984\""
+              },
+              {
+                "num": 3,
+                "left": "\"50,000 visitors a year\""
+              },
+              {
+                "num": 4,
+                "left": "\"looking after the mechanical side\""
+              },
+              {
+                "num": 5,
+                "left": "\"in charge of retail\""
+              }
+            ],
+            "options": [
+              "A.  Simon's current role",
+              "B.  Judith's current role",
+              "C.  the farm at origin",
+              "D.  current annual attendance",
+              "E.  the park's first season"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "D",
+              "A",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "During the 1970s, my wife Liz and I had just acquired 80 acres of sheep-farming land. Our children particularly loved ",
+                1,
+                " and gradually built up an enormous network of miniature railway track."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "I went on a trip to a theme park near Birmingham and decided we could do a much better ",
+                2,
+                "! So we set up a small one ourselves."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "We opened to the public for just a month in 1984 — in July, our driest month. Our children said they didn't want our guests to have a miserable, wet ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "It soon became clear we were onto a winner. We extended the railway track and planted ",
+                4,
+                ", which attracted more wildlife."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "Nowadays we're open all year round — Winridge is one of the most popular visitor attractions in the area, with 50,000 visitors a year. A million and a half people have been through our doors since we ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "I'm near to retirement age so I only concern myself with looking after the ",
+                6,
+                " side of things — keeping the trains going."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "Liz devotes all her energies to recruiting and supporting the large ",
+                7,
+                " of workers. Sarah has returned to the park and makes sure the visitors are kept fed and ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "Duncan has been a ",
+                9,
+                " of the park for ten years, taking over from me in construction. His wife Judith has joined the team in charge of ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "We're constantly looking for ways to offer more to our visitors. We now have 1.2 kilometres of railway, and we've installed a Go-Kart arena which is 120 square metres in ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": "SIMON",
+              "parts": [
+                "The main attraction is the Formula 1 Kart. We've known ",
+                12,
+                " to break out over who gets it!"
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "trains",
+            "job",
+            "visit",
+            "trees",
+            "opened",
+            "mechanical",
+            "squadron",
+            "watered",
+            "stalwart",
+            "retail",
+            "area",
+            "fights"
+          ]
+        },
+        "3": {
+          "scene": "论文选题指导教程",
+          "sceneEmoji": "📝",
+          "functions": "A  Identifying a strength    B  Acknowledging a weakness    C  Making a recommendation    D  Expressing a concern    E  Agreeing with a point",
+          "pragmatic": [
+            {
+              "quote": "The drawback is that everyone in the group seems to share the same ideas — they keep being repeated in all the dissertations.",
+              "speaker": "Tutor",
+              "answer": "D"
+            },
+            {
+              "quote": "I think you really need to work on these weaknesses before you go any further.",
+              "speaker": "Tutor",
+              "answer": "C"
+            },
+            {
+              "quote": "Having to do a seminar presentation really helped me — I felt quite confident because I had done one before.",
+              "speaker": "Spiros",
+              "answer": "A"
+            },
+            {
+              "quote": "Yes, that would have helped my confidence too and I would have been more motivated.",
+              "speaker": "Spiros",
+              "answer": "E"
+            },
+            {
+              "quote": "I'm very weak at note-taking. My teachers always used to say that.",
+              "speaker": "Caroline",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "✅",
+              "title": "Caroline's Strengths",
+              "items": [
+                [
+                  "Copes well with ",
+                  {
+                    "b": 1
+                  },
+                  " — never bored by it"
+                ],
+                [
+                  "Finds computer ",
+                  {
+                    "b": 1
+                  },
+                  " fascinating — no problem following it"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Weaknesses to Address",
+              "items": [
+                [
+                  "Very weak at ",
+                  {
+                    "b": 1
+                  },
+                  " — teachers always pointed this out"
+                ],
+                [
+                  "Insufficient background knowledge for chosen ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🛠️",
+              "title": "Strategies Discussed",
+              "items": [
+                [
+                  "Peer-group discussions: build ",
+                  {
+                    "b": 1
+                  },
+                  " by presenting to others"
+                ],
+                [
+                  "'Student Support' programme: structured over ",
+                  {
+                    "b": 1
+                  },
+                  " weeks — but limited places"
+                ],
+                [
+                  "Study skills books: good reference but sometimes too ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Card index: forces you to get ",
+                  {
+                    "b": 1
+                  },
+                  " down in small space"
+                ],
+                [
+                  "Read notes ",
+                  {
+                    "b": 1
+                  },
+                  " times — fixes ideas in the mind"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "statistics",
+            "modelling",
+            "note-taking",
+            "topic",
+            "confidence",
+            "several",
+            "general",
+            "points",
+            "three"
+          ],
+          "dictation": [
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "So how's the dissertation planning going?"
+              ]
+            },
+            {
+              "speaker": "CAROLINE",
+              "parts": [
+                "I'm still having a lot of trouble deciding on a ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "That's perfectly normal at this stage. Have you chosen your general topic area?"
+              ]
+            },
+            {
+              "speaker": "CAROLINE",
+              "parts": [
+                "Yes — it's the ",
+                2,
+                " industry."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "What aspects of the course are you good at?"
+              ]
+            },
+            {
+              "speaker": "CAROLINE",
+              "parts": [
+                "I think I'm coping well with ",
+                3,
+                ". And I found computer ",
+                4,
+                " fascinating."
+              ]
+            },
+            {
+              "speaker": "CAROLINE",
+              "parts": [
+                "I feel I don't have sufficient ",
+                5,
+                " information. And I'm very weak at note-",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "I think you really need to work on these weaknesses. Some people find it helpful to organise peer-group ",
+                7,
+                ". Each week a different person shares a topic with the group."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "It helps build ",
+                8,
+                ", having to present to others. The drawback is that everyone shares the same ",
+                9,
+                " — they keep being repeated in all the dissertations."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "You could try 'Student Support' — a structured programme over several weeks to develop your study ",
+                10,
+                ". Unfortunately there are only a few places."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Study skills books are a good source of ",
+                11,
+                " but they can be too general. I'd also advise using a card ",
+                12,
+                " — simple, but it really works because you have to get points down in a small space."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "And don't just take your notes and forget about them. Read everything ",
+                13,
+                " times — that'll really fix them in your mind."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Let's arrange next month's tutorial. I can see you virtually any time during the week starting 22nd January. What about the ",
+                14,
+                "?"
+              ]
+            },
+            {
+              "speaker": "CAROLINE",
+              "parts": [
+                "Thursday? I can make the morning."
+              ]
+            },
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Fine, we'll go for the ",
+                15,
+                " then."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "title",
+            "fishing",
+            "statistics",
+            "modelling",
+            "background",
+            "taking",
+            "discussions",
+            "confidence",
+            "ideas",
+            "skills",
+            "reference",
+            "index",
+            "three",
+            "25th",
+            "25th"
+          ]
+        },
+        "4": {
+          "scene": "地下生态住宅设计讲座",
+          "sceneEmoji": "🌱",
+          "signpost": [
+            {
+              "quote": "Today I want to begin looking at some contemporary, experimental designs for housing.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Summarising the previous lecture"
+                ],
+                [
+                  "C",
+                  "Signalling a shift from historical overview to current innovative practice"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "One of the interesting things about this project is that the owners — both professionals but not architects — wanted to be closely involved.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the case study"
+                ],
+                [
+                  "B",
+                  "Highlighting an unusual feature before describing the project in detail"
+                ],
+                [
+                  "C",
+                  "Providing a contrast with previous examples"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Now, what is of interest to us about this project is the features which make the building energy-efficient.",
+              "opts": [
+                [
+                  "A",
+                  "Dismissing the design choices"
+                ],
+                [
+                  "B",
+                  "Introducing a new topic"
+                ],
+                [
+                  "C",
+                  "Focusing attention on the specific angle being analysed in this lecture"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "In addition, the special tiles on the outside convert energy from the sun and generate some of the house's electricity.",
+              "opts": [
+                [
+                  "A",
+                  "Adding a second energy-saving feature after discussing the first"
+                ],
+                [
+                  "B",
+                  "Summarising all features"
+                ],
+                [
+                  "C",
+                  "Introducing a disadvantage"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "It's true that the actual construction of the house was harmful to the environment.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the introduction"
+                ],
+                [
+                  "B",
+                  "Acknowledging a significant drawback before qualifying it with a positive long-term outlook"
+                ],
+                [
+                  "C",
+                  "Concluding that eco-housing is not viable"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📍",
+              "title": "Project Background",
+              "items": [
+                [
+                  "Owners: two professionals, not architects — wanted to manage the project ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Aim: as ",
+                  {
+                    "b": 1
+                  },
+                  "-friendly as possible; also wanted a peaceful, rural feel"
+                ],
+                [
+                  "Site: a disused stone ",
+                  {
+                    "b": 1
+                  },
+                  " — price low; liked the idea of recycling the land"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏗️",
+              "title": "Design Features",
+              "items": [
+                [
+                  "Built into the earth — ",
+                  {
+                    "b": 1
+                  },
+                  " storeys; only south-facing side exposed to light"
+                ],
+                [
+                  "South wall: double layer of strong ",
+                  {
+                    "b": 1
+                  },
+                  " with photovoltaic tiles"
+                ],
+                [
+                  "Walls: layer of foam for extra ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚡",
+              "title": "Energy Efficiency Features",
+              "items": [
+                [
+                  "Light: maximised via mirrors and windows — spreads ",
+                  {
+                    "b": 1
+                  },
+                  " around the house"
+                ],
+                [
+                  "Electricity: generated by ",
+                  {
+                    "b": 1
+                  },
+                  " tiles on the outside"
+                ],
+                [
+                  "Floors: made of reclaimed ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Waste: purified by being filtered through ",
+                  {
+                    "b": 1
+                  },
+                  " beds in the garden"
+                ]
+              ]
+            },
+            {
+              "emoji": "⚠️",
+              "title": "Environmental Cost",
+              "items": [
+                [
+                  "Construction required massive amounts of ",
+                  {
+                    "b": 1
+                  },
+                  " — one of biggest sources of CO₂"
+                ],
+                [
+                  "Total CO₂ released: 70 tons — but payback calculated at only ",
+                  {
+                    "b": 1
+                  },
+                  " years"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "themselves",
+            "environmentally",
+            "quarry",
+            "two",
+            "glass",
+            "insulation",
+            "light",
+            "photovoltaic",
+            "wood",
+            "reed",
+            "concrete",
+            "fifteen"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Today I want to begin looking at some contemporary, experimental designs for housing. I'm going to start with a house which is constructed more or less under the ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The owners — both professionals, but not ",
+                2,
+                " — wanted to be closely involved, so they decided to manage the project themselves."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Their chief aim was to create somewhere as environmentally-friendly as possible. They also wanted to live somewhere ",
+                3,
+                " — they'd both grown up in a rural area and disliked urban life."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "They found a disused stone ",
+                4,
+                " in a beautiful area. The price was low and they liked the idea of ",
+                5,
+                " the land."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The house was built into the earth itself with two ",
+                6,
+                ". The north, east and west sides were set in the earth; only the south-facing side was exposed to light — made of a double layer of very strong ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There were photovoltaic ",
+                8,
+                " fixed to the sloping wall — designed to store energy from the sun. The walls also had a layer of foam for extra ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Sunlight floods in through the glass wall. To maximise it there are lots of mirrors and windows inside — this helps to spread the ",
+                10,
+                " around. That's the first energy-saving feature."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In addition, the special tiles on the outside convert energy from the sun and generate some of the house's ",
+                11,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The floors are made of reclaimed ",
+                12,
+                ". The owners haven't bought a single item of new furniture."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Waste is dealt with ",
+                13,
+                " — purified by being filtered through reed beds planted in the ",
+                14,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The construction released 70 tons of carbon dioxide. However, once this initial 'debt' has been cleared — calculated at only fifteen ",
+                15,
+                " — the house costs nothing environmentally."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "ground",
+            "architects",
+            "peaceful",
+            "quarry",
+            "recycling",
+            "storeys",
+            "glass",
+            "tiles",
+            "insulation",
+            "light",
+            "electricity",
+            "wood",
+            "organically",
+            "garden",
+            "years"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 9 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "医疗中心注册咨询",
+          "sceneEmoji": "🏥",
+          "mcq": [
+            {
+              "q": "Why does the receptionist first recommend Doctor Green?",
+              "opts": [
+                [
+                  "A",
+                  "She specialises in care for very young children"
+                ],
+                [
+                  "B",
+                  "She has the longest list of patients"
+                ],
+                [
+                  "C",
+                  "She is the closest to the caller's address"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is special about the Eshcol Health Practice?",
+              "opts": [
+                [
+                  "A",
+                  "It is the largest practice in the area"
+                ],
+                [
+                  "B",
+                  "It has modern facilities as it only opened a year ago"
+                ],
+                [
+                  "C",
+                  "It is open seven days a week"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What vaccination service is available free at the Shore Lane centre?",
+              "opts": [
+                [
+                  "A",
+                  "Flu vaccination"
+                ],
+                [
+                  "B",
+                  "Travel vaccination"
+                ],
+                [
+                  "C",
+                  "All vaccinations"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A man calls about registering with a doctor at a health centre after moving to the area with his wife and children. The receptionist first recommends Doctor Green at The Harvey Clinic, who specialises in care for teenagers. The next option is the Eshcol Health Practice with Doctor Baker, which only opened a year ago so facilities are very modern. It also offers appointments in the morning. The Shore Lane Health Centre has Doctor Gormley, who is new there. The vaccination service for travel abroad is free, but sports injury treatment and nutritional therapy are paid services. The talk on healthy eating takes place at the secondary school on Shore Lane.",
+          "errors": [
+            {
+              "wrong": "teenagers",
+              "correct": "babies"
+            },
+            {
+              "wrong": "Doctor Baker",
+              "correct": "Doctor Fuller"
+            },
+            {
+              "wrong": "in the morning",
+              "correct": "in the evening"
+            },
+            {
+              "wrong": "secondary school",
+              "correct": "primary school"
+            },
+            {
+              "wrong": "The Harvey Clinic",
+              "correct": "The Harvey Clinic ✓ — replace this error: 'specialises in teenagers' already fixed"
+            },
+            {
+              "wrong": "fitness check-up is paid",
+              "correct": "fitness check-up is free"
+            },
+            {
+              "wrong": "insurance medicals are free",
+              "correct": "insurance medicals are paid"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "Can I help you?"
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Yes, I've just moved to this area and I'd like to know where we can all register with a doctor at a Health Centre."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "There's Doctor Green at The Harvey Clinic. We always recommend her for ",
+                1,
+                ", because she's very good with them and she runs a special clinic."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "The Eshcol Health Practice is the next one — it's Doctor Fuller. The clinic only opened a year ago so the facilities are all very ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "It's particularly good if you're busy during the day, because they also do appointments in the ",
+                3,
+                ". They're closed on Saturday though."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "The only other place is the Health Centre on Shore Lane. You can register with Doctor ",
+                4,
+                " — he's new there, but the centre has a very good ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Could you tell me, will all their services be free?"
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "If you need to be vaccinated before any trips abroad, you won't have to pay for this. The sports injury treatment service operates on a ",
+                6,
+                " basis, as does the nutritional therapy service."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "If you need to prove you're healthy before a new employer will accept you, you can get a free fitness ",
+                7,
+                " there, but you'd most likely have to pay for ",
+                8,
+                " medicals."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "The centre is running a pilot scheme of talks for patients. The first is about giving up ",
+                9,
+                ". It's next week, the 25th of February, at 7 pm, in Room 4."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "There's also a talk on Healthy Eating on the 1st of March at five o'clock — at the ",
+                10,
+                " school on Shore Lane."
+              ]
+            },
+            {
+              "speaker": "WOMAN",
+              "parts": [
+                "And a talk about avoiding injuries while exercising — on 9th March at four thirty, in Room ",
+                11,
+                ". Suitable for all ages."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "babies",
+            "modern",
+            "evening",
+            "Gormley",
+            "reputation",
+            "paying",
+            "check-up",
+            "insurance",
+            "smoking",
+            "primary",
+            "6"
+          ]
+        },
+        "2": {
+          "scene": "度假公寓使用说明",
+          "sceneEmoji": "🏡",
+          "kwt": [
+            {
+              "original": "Make sure the main control switch is in the 'on' position — it's got switched off by mistake.",
+              "keyWord": "CHECK",
+              "transStart": "You need to",
+              "transEnd": "that the main control switch is turned on — it may have been accidentally switched off.",
+              "answer": "CHECK THAT",
+              "collocation": "check that (= verify that a condition is met)"
+            },
+            {
+              "original": "I like the one that's by the station best and you can walk to the town centre from there in five minutes.",
+              "keyWord": "WITHIN",
+              "transStart": "The car park by the station is the best option — the town centre is",
+              "transEnd": "the station.",
+              "answer": "WITHIN FIVE MINUTES' WALK OF",
+              "collocation": "within (distance) of (= reachable within a certain time or distance)"
+            },
+            {
+              "original": "The exhibition is small but really good — it gets very crowded on Sundays.",
+              "keyWord": "WORTH",
+              "transStart": "Although the railway museum exhibition is small, it is definitely",
+              "transEnd": "a visit — though avoid Sundays as it gets very crowded.",
+              "answer": "WORTH A VISIT",
+              "collocation": "worth a visit (= deserving the effort of going)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "\"press button below the controls\""
+              },
+              {
+                "num": 2,
+                "left": "\"in a large blue box\""
+              },
+              {
+                "num": 3,
+                "left": "\"hanging on a hook by the window\""
+              },
+              {
+                "num": 4,
+                "left": "\"top drawer of the chest under the TV\""
+              },
+              {
+                "num": 5,
+                "left": "\"by the station\""
+              }
+            ],
+            "options": [
+              "A.  washing powder",
+              "B.  spare key to the back door",
+              "C.  local map",
+              "D.  best car park",
+              "E.  heater reset button"
+            ],
+            "answers": [
+              "E",
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "MAN",
+              "parts": [
+                "In the upstairs cupboard, you'll find the water heater. The first control on the far left is the most important — the main control ",
+                1,
+                ". Make sure it's in the 'on' position."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The little square below will be black if the switch is 'off' — that's probably what's ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The middle control controls the ",
+                3,
+                ". If you feel cold, turn this to maximum. The last control on the right is usually on about ",
+                4,
+                " — hot enough for the taps."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "Below the heating controls in the middle is a small round plastic ",
+                5,
+                ". If the heater goes out, press this to reset it — hold it in for about five seconds."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "There should be some instructions on the ",
+                6,
+                " of the heater. Call me back if you can't make it work."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "For extra pillows — in the large white cupboard upstairs, to the left of the bathroom door, there should be four or five on the top ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "For washing powder — there should be some by the back door, on a shelf above the ",
+                8,
+                ", in a large blue box. You need about half a cup full for each wash."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The spare key to the back door is hanging on a hook on the wall by the sitting room ",
+                9,
+                ". Please make sure to put it back when you've used it."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "I've left you a local ",
+                10,
+                ". I put it in the top drawer of the chest under the TV in your bedroom."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "For the car park, I like the one by the ",
+                11,
+                " best — you can walk to the town centre from there in five minutes."
+              ]
+            },
+            {
+              "speaker": "MAN",
+              "parts": [
+                "The railway museum is small but really good. It gets very crowded on ",
+                12,
+                " — I suggest you visit it later in the week, but not on ",
+                13,
+                " which is market day and they're also ",
+                14,
+                " that day."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "switch",
+            "happened",
+            "radiators",
+            "number four",
+            "button",
+            "side",
+            "shelf",
+            "sink",
+            "window",
+            "map",
+            "station",
+            "Sundays",
+            "Thursdays",
+            "closed"
+          ]
+        },
+        "3": {
+          "scene": "海外留学药学课程反思访谈",
+          "sceneEmoji": "🔬",
+          "functions": "A  Expressing a difficulty    B  Describing an insight    C  Praising a system    D  Offering an explanation    E  Expressing satisfaction",
+          "pragmatic": [
+            {
+              "quote": "After a while it became easier — it is more a question of altering your viewpoint towards academic study.",
+              "speaker": "Kira",
+              "answer": "B"
+            },
+            {
+              "quote": "I've found it very difficult to write assignments because I wasn't familiar with that aspect of the system — the lecturers expect you to be critical.",
+              "speaker": "Kira",
+              "answer": "A"
+            },
+            {
+              "quote": "I do feel much more confident, which I suppose is the most important thing.",
+              "speaker": "Kira",
+              "answer": "E"
+            },
+            {
+              "quote": "Maybe you found them different because you're a more mature student now — when you were studying before you were younger and not so assertive.",
+              "speaker": "Paul",
+              "answer": "D"
+            },
+            {
+              "quote": "Here, they're much easier to approach. After every lecture you can go and ask them something, or make an appointment to talk about anything in the course.",
+              "speaker": "Kira",
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📝",
+              "title": "Academic Challenges",
+              "items": [
+                [
+                  "Assignments: lecturers expect students to be ",
+                  {
+                    "b": 1
+                  },
+                  " of other researchers' work"
+                ],
+                [
+                  "Took time to adjust — it is about altering your ",
+                  {
+                    "b": 1
+                  },
+                  " towards academic study"
+                ]
+              ]
+            },
+            {
+              "emoji": "👩‍🏫",
+              "title": "Differences in Teaching",
+              "items": [
+                [
+                  "Lecturers here are much easier to ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Students can make ",
+                  {
+                    "b": 1
+                  },
+                  " to discuss coursework or personal interests"
+                ],
+                [
+                  "Lecturers must set aside specific times each week for student ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📅",
+              "title": "Year Structure",
+              "items": [
+                [
+                  "Practical sessions in small groups — 4 hours per week in a community ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Second semester: experience in hospital ",
+                  {
+                    "b": 1
+                  },
+                  " — every second day"
+                ],
+                [
+                  "Between semesters: two weeks full-time work in a ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "💡",
+              "title": "Recommendations for Overseas Students",
+              "items": [
+                [
+                  "Need very good ",
+                  {
+                    "b": 1
+                  },
+                  " before entering university"
+                ],
+                [
+                  "Spend more time learning ",
+                  {
+                    "b": 1
+                  },
+                  " first — essential for following lectures"
+                ],
+                [
+                  "Learn the local education ",
+                  {
+                    "b": 1
+                  },
+                  " as early as possible"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "critical",
+            "viewpoint",
+            "approach",
+            "appointments",
+            "availability",
+            "pharmacy",
+            "dispensaries",
+            "hospital",
+            "language",
+            "English",
+            "system"
+          ],
+          "dictation": [
+            {
+              "speaker": "PAUL",
+              "parts": [
+                "What course did you enrol in?"
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "I went straight into third year ",
+                1,
+                ". They credited me with two years, which probably made it more ",
+                2,
+                " for me."
+              ]
+            },
+            {
+              "speaker": "PAUL",
+              "parts": [
+                "What do you think is one of the big differences between studying here and studying in your country?"
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "I've found it very difficult to write ",
+                3,
+                ", because the lecturers expect you to be critical. I thought: how can I comment on someone else's ",
+                4,
+                " when they probably spent five years doing it?"
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "After a while it became easier — it is more a question of altering your ",
+                5,
+                " towards academic study."
+              ]
+            },
+            {
+              "speaker": "PAUL",
+              "parts": [
+                "What about the lecturers themselves?"
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "Here, they're much easier to approach. After every lecture you can go and ask them something, or make an ",
+                6,
+                " and talk about anything in the course."
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "My timetable was very, very ",
+                7,
+                ". Apart from lectures, we had practical sessions in small groups. I had to work four hours a week in a community ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "In second semester, we got experience in hospital ",
+                9,
+                " — every second day we went to one of the big hospitals."
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "Between first and second semesters, we had to work full-time for two weeks in a ",
+                10,
+                "."
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "I do feel much more ",
+                11,
+                " now — which is the most important thing."
+              ]
+            },
+            {
+              "speaker": "KIRA",
+              "parts": [
+                "My main recommendation for overseas students: it would be much better if they spent more time learning ",
+                12,
+                " before entering university. You can be in big trouble if you can't understand what people are saying."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "Pharmacy",
+            "difficult",
+            "assignments",
+            "research",
+            "viewpoint",
+            "appointment",
+            "busy",
+            "pharmacy",
+            "dispensaries",
+            "hospital",
+            "confident",
+            "English"
+          ]
+        },
+        "4": {
+          "scene": "城市花园野生动物项目报告",
+          "sceneEmoji": "🦔",
+          "signpost": [
+            {
+              "quote": "I'll start by saying something about the background to the project, then talk a little bit about our research techniques, and then indicate some of our interim findings.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the conclusions"
+                ],
+                [
+                  "B",
+                  "Providing a clear roadmap for the structure of the presentation"
+                ],
+                [
+                  "C",
+                  "Introducing a counter-argument"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Our own informal discussions with neighbours and friends led us to believe that many garden owners had interesting experiences regarding wild animal sightings.",
+              "opts": [
+                [
+                  "A",
+                  "Explaining how informal observation informed the formal research design"
+                ],
+                [
+                  "B",
+                  "Concluding the methodology section"
+                ],
+                [
+                  "C",
+                  "Introducing a new theory"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "So what did we find? Well, so much that I just won't have time to tell you about here.",
+              "opts": [
+                [
+                  "B",
+                  "Apologising for insufficient research"
+                ],
+                [
+                  "A",
+                  "Signalling the transition to results while managing audience expectations"
+                ],
+                [
+                  "C",
+                  "Returning to the background"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "What we've decided to present today is information about just three species — because we felt these gave a good indication of the processes at work.",
+              "opts": [
+                [
+                  "A",
+                  "Narrowing the scope of what will be covered and justifying the selection"
+                ],
+                [
+                  "B",
+                  "Introducing all findings"
+                ],
+                [
+                  "C",
+                  "Summarising the project"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Another factor is the provision of nesting places — which is actually better in gardens than the countryside. Hard to believe it, but it's true.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the species section"
+                ],
+                [
+                  "B",
+                  "Introducing a counterintuitive finding to reinforce a point"
+                ],
+                [
+                  "C",
+                  "Questioning the evidence"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📋",
+              "title": "Project Background & Method",
+              "items": [
+                [
+                  "Sparked by sightings of sparrow-hawks in city centre ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Estimated: private gardens cover about one ",
+                  {
+                    "b": 1
+                  },
+                  " of urban land (confirmed at 24%)"
+                ],
+                [
+                  "Just over 100 garden owners surveyed every ",
+                  {
+                    "b": 1
+                  },
+                  " weeks for 12 months"
+                ],
+                [
+                  "Chose smaller gardens — the most ",
+                  {
+                    "b": 1
+                  },
+                  " in the city"
+                ]
+              ]
+            },
+            {
+              "emoji": "🐸",
+              "title": "Species 1 — Frogs",
+              "items": [
+                [
+                  "Proliferate where there is suitable ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Garden ponds increasing, rural ponds ",
+                  {
+                    "b": 1
+                  },
+                  " → massive migration to towns"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦔",
+              "title": "Species 2 — Hedgehogs",
+              "items": [
+                [
+                  "Easier to live in urban areas because their ",
+                  {
+                    "b": 1
+                  },
+                  " are not attracted to cities"
+                ],
+                [
+                  "Better survival rate in cities; easy to count their numbers ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🎵",
+              "title": "Species 3 — Song Thrush",
+              "items": [
+                [
+                  "On decline in countryside; ",
+                  {
+                    "b": 1
+                  },
+                  " in urban gardens"
+                ],
+                [
+                  "Gardens have extensive range of ",
+                  {
+                    "b": 1
+                  },
+                  " — what song thrushes feed on"
+                ],
+                [
+                  "Provision of ",
+                  {
+                    "b": 1
+                  },
+                  " places also better in gardens than countryside"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "gardens",
+            "fifth",
+            "two",
+            "typical",
+            "water",
+            "disappearing",
+            "predators",
+            "precisely",
+            "resurgence",
+            "seeds",
+            "nesting"
+          ],
+          "dictation": [
+            {
+              "speaker": "RESEARCHER",
+              "parts": [
+                "Today I'd like to present the findings of our Year 2 project on wildlife found in ",
+                1,
+                " throughout our city."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "One day while we were discussing a possible focus, two of the group had seen sparrow-hawks — one of Britain's most interesting birds of ",
+                2,
+                " — in their own city centre gardens."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We estimated that about one fifth of urban land is taken up by private gardens, and this was confirmed by looking at large-scale usage ",
+                3,
+                " — 24% to be precise."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Just over 100 garden owners completed a ",
+                4,
+                " once every two weeks for twelve months, ticking off species they had seen from a pro forma list."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We deliberately chose ",
+                5,
+                " gardens because they were by far the most typical in the city. The whole point was to look at the norm, not the exception."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The first species was ",
+                6,
+                ". There was a clear pattern — they proliferate where there is suitable water. Garden ponds are on the increase, rural ponds are disappearing — leading to massive migration to the towns."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Hedgehogs are also finding it easier to live in urban areas — this time because their ",
+                7,
+                " are not finding it attractive to leave their rural environment."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Hedgehogs have a better ",
+                8,
+                " rate in cities. We had lots of sightings and no difficulties counting their numbers precisely."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our final species is the song thrush. On the decline in the countryside, they are experiencing a ",
+                9,
+                " in urban gardens because gardeners are buying lots of different plants with a wide range of ",
+                10,
+                " — which is what they feed on."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another factor is the provision of ",
+                11,
+                " places — which is actually better in gardens than in the countryside."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A massive new ",
+                12,
+                " on song thrushes is about to be launched, so keep an eye open for that."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "gardens",
+            "prey",
+            "maps",
+            "survey",
+            "smaller",
+            "frogs",
+            "predators",
+            "survival",
+            "resurgence",
+            "seeds",
+            "nesting",
+            "survey"
+          ]
+        }
+      }
+    }
+  }
+}

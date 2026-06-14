@@ -1,0 +1,3531 @@
+{
+  "bookTitle": "Cambridge IELTS 17 Academic",
+  "tests": {
+    "1": {
+      "bookTitle": "Cambridge IELTS 17 Academic",
+      "testNum": 1,
+      "parts": {
+        "1": {
+          "scene": "自然保育志愿者小组咨询",
+          "sceneEmoji": "🌿",
+          "mcq": [
+            {
+              "q": "What regular activity does the group do on the beach?",
+              "opts": [
+                [
+                  "A",
+                  "Monitor nesting birds"
+                ],
+                [
+                  "B",
+                  "Clear litter a few hours a month"
+                ],
+                [
+                  "C",
+                  "Lead guided walks"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "What is the group currently working on at the nature reserve?",
+              "opts": [
+                [
+                  "A",
+                  "Installing bird nesting boxes"
+                ],
+                [
+                  "B",
+                  "Identifying butterfly species"
+                ],
+                [
+                  "C",
+                  "Encouraging insects for biodiversity"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What is the cost of the woodwork session including lunch?",
+              "opts": [
+                [
+                  "A",
+                  "£25"
+                ],
+                [
+                  "B",
+                  "£35"
+                ],
+                [
+                  "C",
+                  "£40"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "Jan phones Peter to ask about the Buckworth Conservation Group. Peter explains the group spend time on the beach clearing litter. Dogs are not allowed on the beach but can walk on the cliffs. At the nature reserve they look after paths and create new habitats. They have just finished making nesting boxes for birds, and next they plan to work on encouraging insects. They are also running a project to count the different species of moths visiting the reserve. They are replacing a damaged wall on the southern side between the car park and the woodshed. The guided walk to Ruston Island will meet at Dunsmore Beach at low tide. Bring a picnic and waterproof shoes. The woodwork session on the 17th runs 10am–3pm; beginners can make spoons. It costs £35 including lunch.",
+          "errors": [
+            {
+              "wrong": "species of moths",
+              "correct": "species of butterflies"
+            },
+            {
+              "wrong": "southern side between the car park",
+              "correct": "southern side between the parking area"
+            },
+            {
+              "wrong": "waterproof shoes",
+              "correct": "waterproof boots"
+            },
+            {
+              "wrong": "make spoons",
+              "correct": "start with wooden spoons"
+            },
+            {
+              "wrong": "moths",
+              "correct": "butterflies (already done)"
+            },
+            {
+              "wrong": "shoes",
+              "correct": "boots (already done)"
+            },
+            {
+              "wrong": "beginners can make chairs",
+              "correct": "beginners start with wooden spoons (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "PETER",
+              "parts": [
+                "One of our regular activities is trying to keep the beach free of ",
+                1,
+                ". A few of us spend a couple of hours a month on it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Dogs are banned from the beach itself — though you can take them along the cliffs. And we've just finished installing nesting boxes for birds. Next, we're going to work on encouraging ",
+                2,
+                " — they're important for the biodiversity of the reserve."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We're also running a project to identify the different species of ",
+                3,
+                " that visit the reserve. You might be interested in taking part."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "And we're replacing the ",
+                4,
+                " on the southern side — between the parking area and our woodshed — it was badly damaged in a storm."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The guided walk is to Ruston ",
+                5,
+                ". We'll meet at the car park at Dunsmore Beach at low tide."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bring a picnic. And of course it'll be wet walking across, so make sure your ",
+                6,
+                " are waterproof."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The woodwork session — it is fine for ",
+                7,
+                ". There'll be experts to help. You'll be starting with wooden ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It's on the 17th, from 10am to 3. There's a charge of £",
+                9,
+                " including lunch, or £40 if you want to camp."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "litter",
+            "insects",
+            "butterflies",
+            "wall",
+            "Island",
+            "boots",
+            "beginners",
+            "spoons",
+            "35"
+          ]
+        },
+        "2": {
+          "scene": "塔斯马尼亚游船导览介绍",
+          "sceneEmoji": "🚢",
+          "kwt": [
+            {
+              "original": "Our boats aren't huge as you can see. We already have three staff members on board and on top of that, we can transport a further fifteen people.",
+              "keyWord": "CAPACITY",
+              "transStart": "In addition to three crew members, the boat has the",
+              "transEnd": "to carry fifteen passengers.",
+              "answer": "CAPACITY TO CARRY",
+              "collocation": "capacity to carry (= maximum number that can be transported)"
+            },
+            {
+              "original": "The construction itself was complicated as some of the original drawings kept by the local council show.",
+              "keyWord": "COMPLEXITY",
+              "transStart": "Original drawings held by the local council reveal the",
+              "transEnd": "of the lighthouse's construction process.",
+              "answer": "COMPLEXITY OF",
+              "collocation": "complexity of (= the degree of difficulty or intricacy of something)"
+            },
+            {
+              "original": "They can only be approached by sea, but if you feel that you want to see more than we're able to show you, you can take a kayak into the area.",
+              "keyWord": "ACCESS",
+              "transStart": "The caves are only accessible by sea, but visitors seeking greater",
+              "transEnd": "can hire a kayak for a closer exploration.",
+              "answer": "ACCESS TO THEM",
+              "collocation": "access to them (= the ability to enter or reach a place)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Boat capacity"
+              },
+              {
+                "num": 2,
+                "left": "Lunchbox 3"
+              },
+              {
+                "num": 3,
+                "left": "Lighthouse — built"
+              },
+              {
+                "num": 4,
+                "left": "Lighthouse workers — originally"
+              },
+              {
+                "num": 5,
+                "left": "Dolphins"
+              }
+            ],
+            "options": [
+              "A.  18 total; no more than 9 on either side",
+              "B.  1838 — after series of shipwrecks caused loss of life",
+              "C.  salad, eggs and tuna (plus crisps and chocolate bar)",
+              "D.  may approach independently or in groups beside the boat",
+              "E.  mainly prison convicts until mid-19th century"
+            ],
+            "answers": [
+              "A",
+              "C",
+              "B",
+              "E",
+              "D"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "LOU",
+              "parts": [
+                "We already have three staff members on board and we can carry a further fifteen people. But if more than nine are on either side, we'll need to move some of you — otherwise we'll all end up in the ",
+                1,
+                "!"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Our new boats have dark red seats and a light-green exterior — to stand out from others and help ",
+                2,
+                " our company."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We offer a free lunchbox. Lunchbox 3 is salad-based and also contains eggs and tuna — plus a packet of crisps and a ",
+                3,
+                " bar."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We don't have bins, but Jess, myself or Ray will collect your litter and put it in a large plastic ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The lighthouse was built in ",
+                5,
+                " to protect sailors after significant loss of life from shipwrecks. It sits right on top of the cliffs in a very isolated spot."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the nineteenth century, workers included prison ",
+                6,
+                " until the mid-century when ordinary families took over."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The penguins are very shy and tend to ",
+                7,
+                " from passing boats. But you might see sea eagles flying around the cliff edges."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When we reach the rocky area inhabited by fur seals, we'll stop and watch them. They're ",
+                8,
+                " creatures so don't be surprised if one pops up right in front of you."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We'll go through a narrow channel, past incredible ",
+                9,
+                " formations, and from there see the cave openings."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you want to see more of the caves, you can take a ",
+                10,
+                " into the area on another day."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "sea",
+            "promote",
+            "chocolate",
+            "sack",
+            "1838",
+            "convicts",
+            "hide",
+            "inquisitive",
+            "rock",
+            "kayak"
+          ]
+        },
+        "3": {
+          "scene": "农场实习体验与兽医课程讨论",
+          "sceneEmoji": "🐑",
+          "functions": "A  Describing an impressive personal experience    B  Identifying a knowledge gap    C  Expressing surprise at a finding    D  Acknowledging a personal mistake    E  Evaluating the value of a module",
+          "pragmatic": [
+            {
+              "quote": "I was up most of one night helping a sheep deliver a lamb. It wasn't a straightforward birth, but I managed. It was a great feeling to see the lamb stagger to its feet and start feeding.",
+              "speaker": "Tim",
+              "answer": "A"
+            },
+            {
+              "quote": "I got mixed up and poured some milk from the wrong cow in with the milk for humans, so the whole lot had to be thrown away. The farmer wasn't too happy with me.",
+              "speaker": "Diana",
+              "answer": "D"
+            },
+            {
+              "quote": "The module that really impressed me was the animal disease one — the economies of so many countries depend on these animals, but scientists don't know much about the diseases that affect them.",
+              "speaker": "Diana",
+              "answer": "E"
+            },
+            {
+              "quote": "I thought they'd know a lot about ways of controlling and eradicating those diseases — but that's not the case at all.",
+              "speaker": "Tim",
+              "answer": "B"
+            },
+            {
+              "quote": "I found the extra vitamins and electrolytes they add to chicken feed interesting. Even the cheap and expensive supplements are all basically the same.",
+              "speaker": "Tim",
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🐑",
+              "title": "Farm Experience",
+              "items": [
+                [
+                  "Tim's farm: mostly livestock, especially ",
+                  {
+                    "b": 1
+                  },
+                  " — up in the hills"
+                ],
+                [
+                  "Helped deliver a lamb; also watched vet treat a broken ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Diana's farm: Suffolks (lowland breed) — mainly bred for their ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "💊",
+              "title": "Animal Supplements",
+              "items": [
+                [
+                  "Chickens get extra vitamins and ",
+                  {
+                    "b": 1
+                  },
+                  " in their feed"
+                ],
+                [
+                  "Some breeds need more supplements than others — but cheap and expensive ones are basically the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🐄",
+              "title": "Diana's Dairy Mistake",
+              "items": [
+                [
+                  "Cows treated with ",
+                  {
+                    "b": 1
+                  },
+                  " have milk not suitable for humans"
+                ],
+                [
+                  "Diana poured antibiotic milk in with the human-consumption milk — all had to be thrown ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📚",
+              "title": "Module Feedback",
+              "items": [
+                [
+                  "Medical terminology: Diana struggled; Tim found it ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Diet & nutrition: revealed limited checking on ",
+                  {
+                    "b": 1
+                  },
+                  " food contamination"
+                ],
+                [
+                  "Animal disease: economies depend on camels, water buffalo and ",
+                  {
+                    "b": 1
+                  },
+                  " — scientists know little"
+                ],
+                [
+                  "Wildlife medication: Tim loved it — e.g. birds caught in oil ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "sheep",
+            "leg",
+            "meat",
+            "electrolytes",
+            "same",
+            "antibiotics",
+            "away",
+            "straightforward",
+            "pet food",
+            "alpaca",
+            "spills"
+          ],
+          "dictation": [
+            {
+              "speaker": "TIM",
+              "parts": [
+                "My farm was mostly livestock, especially ",
+                1,
+                ". I was up most of one night helping a sheep deliver a lamb — it was a great feeling to see it stagger to its feet."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "Then another time a lamb had broken its ",
+                2,
+                ", and the vet came in and talked me through what he was doing. Really useful."
+              ]
+            },
+            {
+              "speaker": "DIANA",
+              "parts": [
+                "My farm had Suffolks — a lowland breed. They're quite big and solid and mostly bred for their ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "Even the chickens got extra vitamins and ",
+                4,
+                " in their feed. But my farmer said cheap and expensive ones are basically the ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": "DIANA",
+              "parts": [
+                "I made a mistake in the milk shed. Cows treated with ",
+                6,
+                " have milk that can't be used for humans. I got mixed up and poured some in with the human milk — it all had to be thrown away."
+              ]
+            },
+            {
+              "speaker": "DIANA",
+              "parts": [
+                "The medical terminology module — my heart sank when I saw that. I did ",
+                7,
+                " with it."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "The animal disease module really impressed me — scientists don't know much about the diseases that affect camels, water buffalo and ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "I thought they'd know a lot about controlling those diseases, but that's not the case at ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": "TIM",
+              "parts": [
+                "I loved the wildlife medication unit — like helping birds caught in oil ",
+                10,
+                ". That's something I hadn't thought about before."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "sheep",
+            "leg",
+            "meat",
+            "electrolytes",
+            "same",
+            "antibiotics",
+            "struggle",
+            "alpaca",
+            "all",
+            "spills"
+          ]
+        },
+        "4": {
+          "scene": "迷宫与labyrinth历史与现代应用讲座",
+          "sceneEmoji": "🌀",
+          "signpost": [
+            {
+              "quote": "Finding your way through a labyrinth involves many twists and turns, but it's not possible to get lost as there is only one single path.",
+              "opts": [
+                [
+                  "A",
+                  "Clarifying a key difference between labyrinths and mazes before explaining labyrinth origins"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture"
+                ],
+                [
+                  "C",
+                  "Summarising the maze section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Mazes became fashionable in the 15th and 16th centuries in Europe and can still be found in the gardens of great houses.",
+              "opts": [
+                [
+                  "A",
+                  "Questioning the value of mazes"
+                ],
+                [
+                  "B",
+                  "Repeating the introduction"
+                ],
+                [
+                  "C",
+                  "Introducing the historical context of mazes as a contrast to labyrinths"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "The winding spiral of the labyrinth has been used for centuries as a metaphor for life's journey — it helped give people a sense of direction.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising the differences section"
+                ],
+                [
+                  "B",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Explaining the spiritual and psychological function of labyrinths before providing historical evidence"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "More recently labyrinths have experienced something of a revival — some believe that walking one promotes healing and mindfulness.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a modern trend after covering historical usage"
+                ],
+                [
+                  "B",
+                  "Returning to the introduction"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "A pamphlet at Colorado Children's Hospital informs patients that 'walking a labyrinth can often calm people in the midst of a crisis'.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the background"
+                ],
+                [
+                  "B",
+                  "Providing a specific contemporary case study of therapeutic application"
+                ],
+                [
+                  "C",
+                  "Introducing an unrelated topic"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🔀",
+              "title": "Labyrinth vs Maze",
+              "items": [
+                [
+                  "Labyrinth: one single ",
+                  {
+                    "b": 1
+                  },
+                  " — leads to a centre; impossible to get lost"
+                ],
+                [
+                  "Maze: intricate network of paths — intentionally confusing; full of dead ends"
+                ],
+                [
+                  "Word 'maze' from Scandinavian word for a state of ",
+                  {
+                    "b": 1
+                  },
+                  " — origin of 'amazing'"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Historical Uses",
+              "items": [
+                [
+                  "Ancient Greece: labyrinth spiral used on ",
+                  {
+                    "b": 1
+                  },
+                  " about 4,000 years ago"
+                ],
+                [
+                  "Roman Empire: mosaic labyrinths in bathhouses, villas and ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Northern Europe: physical walking labyrinths cut into the ",
+                  {
+                    "b": 1
+                  },
+                  " or grass — for fertility rites"
+                ],
+                [
+                  "Largest turf labyrinth in England: Saffron Walden — used to have a large ",
+                  {
+                    "b": 1
+                  },
+                  " in the middle"
+                ]
+              ]
+            },
+            {
+              "emoji": "🧠",
+              "title": "Modern Revival",
+              "items": [
+                [
+                  "Walking a labyrinth: promotes slower ",
+                  {
+                    "b": 1
+                  },
+                  " and restored sense of balance"
+                ],
+                [
+                  "Used in: spas, wellness centres, and even ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Hospitals: patients who can't walk can use a ",
+                  {
+                    "b": 1
+                  },
+                  " labyrinth brought to their bed"
+                ],
+                [
+                  "Research: provides 'short-term calming and relief from anxiety' for ",
+                  {
+                    "b": 1
+                  },
+                  " patients"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "path",
+            "confusion",
+            "coins",
+            "tombs",
+            "turf",
+            "tree",
+            "breathing",
+            "prisons",
+            "paper",
+            "Alzheimer's"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "There is one starting point in a labyrinth and the goal is to reach the centre. A labyrinth is not a ",
+                1,
+                " — it has only one single path, so it's impossible to get lost."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A maze is quite different — an intricate network of paths designed as a ",
+                2,
+                ", with dead ends. The word 'maze' comes from a Scandinavian word for a state of confusion — which is also where 'amazing' comes from."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The winding spiral has been used for centuries as a metaphor for life's journey — giving people a sense of ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Ancient Greece, the labyrinth spiral was used on ",
+                4,
+                " around four thousand years ago. In the Roman Empire, mosaic labyrinths were found in bathhouses, villas and ",
+                5,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In Northern Europe, physical labyrinths were cut into the ",
+                6,
+                " or grass — probably used for fertility rites. The largest is at Saffron Walden, which once had a large ",
+                7,
+                " in the middle."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Labyrinths have recently experienced a revival. Walking one is said to promote slower ",
+                8,
+                " and a restored sense of balance."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Labyrinths have been laid into the floors of spas, wellness centres and even ",
+                9,
+                " in recent years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In hospitals, patients who can't walk can have a ",
+                10,
+                " labyrinth brought to their bed to trace with a finger."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "maze",
+            "puzzle",
+            "direction",
+            "coins",
+            "tombs",
+            "turf",
+            "tree",
+            "breathing",
+            "prisons",
+            "paper"
+          ]
+        }
+      }
+    },
+    "2": {
+      "bookTitle": "Cambridge IELTS 17 Academic",
+      "testNum": 2,
+      "parts": {
+        "1": {
+          "scene": "南霍村志愿者服务咨询",
+          "sceneEmoji": "🏘️",
+          "mcq": [
+            {
+              "q": "What role does Jane offer Frank for the New Year's Eve party?",
+              "opts": [
+                [
+                  "A",
+                  "Checking tickets at the door"
+                ],
+                [
+                  "B",
+                  "Providing refreshments"
+                ],
+                [
+                  "C",
+                  "Designing a poster"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "What is the purpose of the October quiz event?",
+              "opts": [
+                [
+                  "A",
+                  "To raise funds for the village library"
+                ],
+                [
+                  "B",
+                  "A fun community social event — always fills the village hall"
+                ],
+                [
+                  "C",
+                  "A charity fundraiser for elderly residents"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "Where is the New Year's Eve party being held?",
+              "opts": [
+                [
+                  "A",
+                  "The village hall"
+                ],
+                [
+                  "B",
+                  "A community centre"
+                ],
+                [
+                  "C",
+                  "The Mountfort Hotel"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "Frank Pritchard has retired and moved to Southoe and wants to volunteer. Jane co-ordinates the voluntary work. For the library, Frank can help collect books if he has a car, and help keep the records up to date. The library uses the South Room in the village hall. The lunch club for elderly people needs drivers, and Frank can help. Jane needs help with art groups at the club. Frank can take Mrs Carroll to her hospital appointment on Tuesday morning. He will also do some painting in Mr Selsbury's garden. The October 19th quiz needs someone to provide refreshments. For the November dance with 1920s music, Frank can check tickets. The New Year's Eve party will be at the Mountfort Hotel and they need someone to design a poster.",
+          "errors": [
+            {
+              "wrong": "South Room",
+              "correct": "West Room"
+            },
+            {
+              "wrong": "painting in Mr Selsbury's garden",
+              "correct": "weeding in Mr Selsbury's garden"
+            },
+            {
+              "wrong": "1920s music",
+              "correct": "music of the 1930s"
+            },
+            {
+              "wrong": "painting",
+              "correct": "weeding (already done)"
+            },
+            {
+              "wrong": "South Room",
+              "correct": "West Room (already done)"
+            },
+            {
+              "wrong": "1920s",
+              "correct": "1930s (already done)"
+            },
+            {
+              "wrong": "can check tickets",
+              "correct": "can check tickets ✓ — replace: 'South Room' with 'West Room'"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "JANE",
+              "parts": [
+                "One thing you could do is get involved in ",
+                1,
+                " books — if you've got a car."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Another thing is the ",
+                2,
+                " that we keep of the books we borrow and need to return to the town library."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We simply have the use of a room in the village hall — the ",
+                3,
+                " Room. It's on the left as you go in."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For the lunch club, people come from neighbouring villages. We always need more drivers for ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "I'll find out where we need help with hobby groups, particularly if there are any ",
+                5,
+                " groups."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "There's Mrs Carroll. She needs a lift to the ",
+                6,
+                " next week — it would take the whole Tuesday morning."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We've got people to decorate Mr Selsbury's kitchen, but if you could do some ",
+                7,
+                " in his garden, that'd be wonderful."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On the 19th of October we're holding a ",
+                8,
+                ". We always fill the village hall — we need someone to provide refreshments halfway through."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On November the 18th, there's a dance. We've booked a band that specialises in music of the 1930s. Would you be able to check ",
+                9,
+                " at the door?"
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The New Year's Eve party will be at the Mountfort Hotel. We haven't got a ",
+                10,
+                " yet — could you design one?"
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "collecting",
+            "records",
+            "West",
+            "transport",
+            "art",
+            "hospital",
+            "weeding",
+            "quiz",
+            "tickets",
+            "poster"
+          ]
+        },
+        "2": {
+          "scene": "奥尼顿庄园导览介绍",
+          "sceneEmoji": "🏛️",
+          "kwt": [
+            {
+              "original": "Almost all of them have left their mark, generally by adding new rooms, like the ballroom and conservatory, or by demolishing others.",
+              "keyWord": "IMPACT",
+              "transStart": "Almost every owner has had an",
+              "transEnd": "on the estate, typically by constructing or removing rooms.",
+              "answer": "IMPACT ON IT",
+              "collocation": "have an impact on (= make a noticeable difference to something)"
+            },
+            {
+              "original": "His intention was to escape from the world of politics, after years as an active politician, and to build a new house worthy of his big collection.",
+              "keyWord": "RETIRE",
+              "transStart": "After a long career in politics, Sir Edward Downes wished to",
+              "transEnd": "from public life and build a home befitting his collection.",
+              "answer": "RETIRE FROM",
+              "collocation": "retire from (= withdraw from an activity or role permanently)"
+            },
+            {
+              "original": "Photographs of course don't give much of an idea, so instead, as you go round the house, you'll see volunteers dressed up as nineteenth-century servants.",
+              "keyWord": "REPLACED",
+              "transStart": "The former audio guide has been",
+              "transEnd": "by volunteers in period costume who demonstrate servants' work.",
+              "answer": "REPLACED BY",
+              "collocation": "replaced by (= substituted with something new in place of the old)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Dairy"
+              },
+              {
+                "num": 2,
+                "left": "Large barn"
+              },
+              {
+                "num": 3,
+                "left": "Small barn"
+              },
+              {
+                "num": 4,
+                "left": "Stables"
+              },
+              {
+                "num": 5,
+                "left": "Shed (brick building)"
+              }
+            ],
+            "options": [
+              "A.  now a gift shop selling jams, wool goods and books",
+              "B.  groom donkeys and horses here",
+              "C.  collection of historic agricultural tools",
+              "D.  now a café and tearoom",
+              "E.  horse-drawn carriage rides depart from here"
+            ],
+            "answers": [
+              "D",
+              "C",
+              "B",
+              "A",
+              "E"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "NICK",
+              "parts": [
+                "The estate dates back to the fourteenth century. The original house was replaced in the late seventeenth century. Almost all owners have left their mark — adding new rooms like the ballroom and ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Sir Edward Downes wanted to escape from the world of ",
+                2,
+                " and build a new house worthy of his collection of books, paintings and sculptures."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Unusually for his time, he didn't care whether his guests were rich or poor — as long as they had ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Instead of an audio guide, you'll see ",
+                4,
+                " dressed up as nineteenth-century servants, going about their work."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the dairy — once where milk was turned into ",
+                5,
+                " — you can now get lunch or afternoon tea."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The large stone barn houses our collection of historic agricultural ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the small barn, you can groom the ",
+                7,
+                " and horses — they really seem to enjoy it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The stables is now a ",
+                8,
+                " where you can buy gifts, books, jams and wool products."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Outside the shed — the only ",
+                9,
+                " building — you can climb into a horse-drawn carriage for a tour of the park."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In the parkland, you'll see types of cattle and sheep that are hardly ever found on farms today — we're helping to ",
+                10,
+                " them."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "conservatory",
+            "politics",
+            "talent",
+            "volunteers",
+            "cheese",
+            "tools",
+            "donkeys",
+            "shop",
+            "brick",
+            "preserve"
+          ]
+        },
+        "3": {
+          "scene": "罗密欧与朱丽叶演出评论讨论",
+          "sceneEmoji": "🎭",
+          "functions": "A  Identifying the review's key focus    B  Expressing qualified approval    C  Identifying a technical problem    D  Describing an unexpected choice    E  Noting universal relevance",
+          "pragmatic": [
+            {
+              "quote": "In an essay we'd focus on the poetry and Shakespeare's imagery, but that isn't relevant in a review. We're supposed to focus on how effective this particular production is.",
+              "speaker": "Ed",
+              "answer": "A"
+            },
+            {
+              "quote": "The set design was really amazing, but actually I have seen similar ideas used in other productions.",
+              "speaker": "Ed",
+              "answer": "B"
+            },
+            {
+              "quote": "I was a bit surprised by the contemporary dress — I had assumed it would be more conventional.",
+              "speaker": "Gemma",
+              "answer": "D"
+            },
+            {
+              "quote": "One problem with this production was that the actors didn't deliver the lines that well. They were speaking too fast.",
+              "speaker": "Gemma",
+              "answer": "C"
+            },
+            {
+              "quote": "There are always disagreements and tension between teenagers and their parents — that's something all young people can relate to more than the violence and extreme emotions.",
+              "speaker": "Ed",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "📝",
+              "title": "What to Include in a Review",
+              "items": [
+                [
+                  "Don't describe the ",
+                  {
+                    "b": 1
+                  },
+                  " — everyone knows Romeo and Juliet"
+                ],
+                [
+                  "Focus on: effectiveness of the ",
+                  {
+                    "b": 1
+                  },
+                  " and its emotional impact on the audience"
+                ],
+                [
+                  "Mention: how director handled key scenes — e.g. the ",
+                  {
+                    "b": 1
+                  },
+                  " scene and the fight"
+                ]
+              ]
+            },
+            {
+              "emoji": "🎬",
+              "title": "The Emporium Production",
+              "items": [
+                [
+                  "Set: visually stunning — probably the most ",
+                  {
+                    "b": 1
+                  },
+                  " aspect of the production"
+                ],
+                [
+                  "Lighting: dim in places — helped to change the ",
+                  {
+                    "b": 1
+                  },
+                  " of quieter scenes"
+                ],
+                [
+                  "Costumes: contemporary dress — unexpected but it ",
+                  {
+                    "b": 1
+                  },
+                  " well"
+                ],
+                [
+                  "Music: brilliant musicians but wasted — little impact after Act 1"
+                ],
+                [
+                  "Delivery: speaking too fast; too quiet at key ",
+                  {
+                    "b": 1
+                  },
+                  " of the play"
+                ]
+              ]
+            },
+            {
+              "emoji": "🌍",
+              "title": "Shakespeare's Universal Appeal",
+              "items": [
+                [
+                  "Translated into more languages than any other ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Themes are basic and familiar everywhere — parents vs teenagers; ",
+                  {
+                    "b": 1
+                  },
+                  " between families"
+                ],
+                [
+                  "Watching in translation: following the story through actors' ",
+                  {
+                    "b": 1
+                  },
+                  ", not just words"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "plot",
+            "production",
+            "balcony",
+            "memorable",
+            "mood",
+            "worked",
+            "points",
+            "writer",
+            "conflict",
+            "expressions"
+          ],
+          "dictation": [
+            {
+              "speaker": "ED",
+              "parts": [
+                "In a review we're not supposed to describe what ",
+                1,
+                ". We should focus on how effective this particular production is."
+              ]
+            },
+            {
+              "speaker": "GEMMA",
+              "parts": [
+                "We should say what made it a success or a failure. And part of that is talking about the emotional ",
+                2,
+                " the performance had on us."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "We should mention how the director handled important bits — like when Romeo climbs onto Juliet's ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "GEMMA",
+              "parts": [
+                "The set was visually really stunning — I'd say that was probably the most ",
+                4,
+                " thing about this production."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "The lighting was dim in some scenes but it helped to change the ",
+                5,
+                " of the quieter moments."
+              ]
+            },
+            {
+              "speaker": "GEMMA",
+              "parts": [
+                "I was surprised by the contemporary ",
+                6,
+                ". I'd assumed it would be more conventional. I liked the music but the musicians were wasted after Act 1."
+              ]
+            },
+            {
+              "speaker": "GEMMA",
+              "parts": [
+                "One problem: the actors were speaking too ",
+                7,
+                ". The delivery really suffered."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "It's made me realise how relevant the play still is. There are always ",
+                8,
+                " between teenagers and their parents — something all young people can relate to."
+              ]
+            },
+            {
+              "speaker": "GEMMA",
+              "parts": [
+                "I expected watching it in ",
+                9,
+                " to be challenging, but I could follow it pretty well by focusing on the actors' expressions."
+              ]
+            },
+            {
+              "speaker": "ED",
+              "parts": [
+                "Shakespeare's been translated into more languages than any other ",
+                10,
+                ". His plays are about basic themes familiar everywhere."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "happens",
+            "impact",
+            "balcony",
+            "memorable",
+            "mood",
+            "dress",
+            "fast",
+            "disagreements",
+            "translation",
+            "writer"
+          ]
+        },
+        "4": {
+          "scene": "冰岛语与数字技术语言保护讲座",
+          "sceneEmoji": "🧊",
+          "signpost": [
+            {
+              "quote": "The problem for Icelandic is not the number of speakers — nor is it about losing words to other languages such as English.",
+              "opts": [
+                [
+                  "A",
+                  "Dismissing two common assumptions before introducing the actual threat"
+                ],
+                [
+                  "B",
+                  "Confirming the speaker number problem"
+                ],
+                [
+                  "C",
+                  "Concluding the lecture"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Take, for example, the word for web browser — this is 'vafri' in Icelandic, which comes from the verb 'to wander'.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a specific example of Icelandic's creative word-formation before connecting to the threat from technology"
+                ],
+                [
+                  "B",
+                  "Contradicting the vocabulary point"
+                ],
+                [
+                  "C",
+                  "Summarising all examples"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "For their parents and grandparents, the change is less concerning because they already have their native-speaker skills.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Contrasting the threat for older speakers with the greater vulnerability of the young generation"
+                ],
+                [
+                  "C",
+                  "Concluding the section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "The other drawback of Icelandic is the grammar, which is significantly more complex than in most languages.",
+              "opts": [
+                [
+                  "A",
+                  "Repeating the first point"
+                ],
+                [
+                  "B",
+                  "Identifying a second obstacle to tech company investment after the small speaker population"
+                ],
+                [
+                  "C",
+                  "Introducing an unrelated topic"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "They know that Icelandic is still the official language of education and government and has survived for over a thousand years.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a note of optimism based on Icelandic's resilience before acknowledging the ongoing challenge"
+                ],
+                [
+                  "B",
+                  "Concluding the lecture negatively"
+                ],
+                [
+                  "C",
+                  "Questioning the government's response"
+                ]
+              ],
+              "answer": "A"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌍",
+              "title": "What Makes Icelandic Special",
+              "items": [
+                [
+                  "Spoken by around ",
+                  {
+                    "b": 1
+                  },
+                  " people — mostly in Iceland"
+                ],
+                [
+                  "Vocabulary keeps growing: speakers create new words rather than ",
+                  {
+                    "b": 1
+                  },
+                  " from other languages"
+                ],
+                [
+                  "Changed very little in the past ",
+                  {
+                    "b": 1
+                  },
+                  " — yet handles 21st-century digital concepts"
+                ]
+              ]
+            },
+            {
+              "emoji": "📱",
+              "title": "The Digital Threat",
+              "items": [
+                [
+                  "Young Icelanders spend huge time in the digital world — which is predominantly ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Secondary school ",
+                  {
+                    "b": 1
+                  },
+                  " conversations conducted entirely in English"
+                ],
+                [
+                  "Young children find it easier to describe a picture in English than in ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🚧",
+              "title": "Tech Industry Obstacles",
+              "items": [
+                [
+                  "Companies won't pay to support a language the size of a French ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Icelandic grammar is significantly more ",
+                  {
+                    "b": 1
+                  },
+                  " than most languages"
+                ],
+                [
+                  "Government response: allocating money to a language ",
+                  {
+                    "b": 1
+                  },
+                  " fund for apps and social media"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔮",
+              "title": "Outlook",
+              "items": [
+                [
+                  "Still the official language of education and government; survived over a ",
+                  {
+                    "b": 1
+                  },
+                  " years"
+                ],
+                [
+                  "Risk: becoming an inevitable second choice in young people's lives — may affect sense of ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "321,000",
+            "borrowing",
+            "millennium",
+            "English",
+            "playground",
+            "Icelandic",
+            "town",
+            "complex",
+            "technology",
+            "thousand",
+            "identity"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Icelandic is spoken by around ",
+                1,
+                " people — most of whom live in Iceland."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The vocabulary of Icelandic is continually increasing because when speakers need a new word, they tend to create one rather than borrowing from another language. Take the word for '",
+                2,
+                "' — '*vafri*' — which comes from the Icelandic verb 'to wander'."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Young Icelanders spend a great deal of time in the digital world and this world is predominantly ",
+                3,
+                ". Think about ",
+                4,
+                " — they didn't even exist until recently, but today young people use them all the time."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "This promotes their ",
+                5,
+                " skills, but the extent of English influence in the virtual world is staggering."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Teachers have found that ",
+                6,
+                " conversations in Icelandic secondary schools can be conducted entirely in English."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Younger children find it easier to say what is in a ",
+                7,
+                " using English rather than Icelandic."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "While internet companies might offer French options in their systems, it's harder to justify the expense for a language the size of a French town. The other drawback is the ",
+                8,
+                " — significantly more complex than most languages."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Large sums are being allocated to a language ",
+                9,
+                " fund, but this is going to be an uphill struggle."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "On the positive side, Icelandic is still the official language of education and government. It has survived for well over a thousand years and experts predict its future as a national language is ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "321,000",
+            "podcast",
+            "English",
+            "smartphones",
+            "bilingual",
+            "playground",
+            "picture",
+            "grammar",
+            "technology",
+            "sound"
+          ]
+        }
+      }
+    },
+    "3": {
+      "bookTitle": "Cambridge IELTS 17 Academic",
+      "testNum": 3,
+      "parts": {
+        "1": {
+          "scene": "爱尔兰冲浪假期建议咨询",
+          "sceneEmoji": "🏄",
+          "mcq": [
+            {
+              "q": "Why does Jack recommend September for surfing in Ireland?",
+              "opts": [
+                [
+                  "A",
+                  "The water is warmer then"
+                ],
+                [
+                  "B",
+                  "It is the cheapest time to travel"
+                ],
+                [
+                  "C",
+                  "The waves are at their most challenging"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is the daily equipment hire cost for a wetsuit and board?",
+              "opts": [
+                [
+                  "A",
+                  "About 30 euros"
+                ],
+                [
+                  "B",
+                  "About 40 euros"
+                ],
+                [
+                  "C",
+                  "About 20 euros"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What additional equipment does Jack strongly recommend?",
+              "opts": [
+                [
+                  "A",
+                  "Surfing gloves"
+                ],
+                [
+                  "B",
+                  "Boots to keep feet warm"
+                ],
+                [
+                  "C",
+                  "A surfing cap"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "errorText": "A woman asks Jack for advice about a surfing holiday in Ireland. He recommends it for all ages and abilities — it is great for families. Surfing helps if you are fit. He recommends County Donegal, and also County Clare — particularly Lahinch, where the waves are not too challenging and the town is lively. There are good hotels and hostels. He has also been to County Mayo, where there is a good surf school at Carrowniskey beach. The summer camp runs for three hours every day for a week. While the children surfed, Jack and his wife rented kayaks to explore the river. September is Jack's favourite month because the weather is best then. The daily hire of a wetsuit and board is about 30 euros but you save 40 euros if you hire by the week. Good quality wetsuits and boots are essential.",
+          "errors": [
+            {
+              "wrong": "rented kayaks to explore the river",
+              "correct": "rented kayaks to explore the bay"
+            },
+            {
+              "wrong": "because the weather is best then",
+              "correct": "because the water is warmer then"
+            },
+            {
+              "wrong": "save 40 euros",
+              "correct": "save about 40 euros ✓ — replace: 'explore the river' → 'explore the bay'"
+            },
+            {
+              "wrong": "river",
+              "correct": "bay (already done)"
+            },
+            {
+              "wrong": "weather is best",
+              "correct": "water is warmer (already done)"
+            },
+            {
+              "wrong": "it rains more in spring",
+              "correct": "it rains more in August than in spring or autumn"
+            },
+            {
+              "wrong": "boots are essential",
+              "correct": "boots are recommended ✓ — replace: 'spring' → 'August'"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "JACK",
+              "parts": [
+                "Surfing is great for all ages — it's the kind of holiday the whole ",
+                1,
+                " can enjoy together."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll certainly learn more quickly if you're ",
+                2,
+                " — you won't tire as easily."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In County Clare, most people go to Lahinch. There are some very nice ",
+                3,
+                " there and some basic hostels too. The waves aren't too challenging and the town is very lively."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In County Mayo there's a good surf school at ",
+                4,
+                " beach — C-A-double R-O-W-N-I-S-K-E-Y."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The surf camp runs three hours every day for a ",
+                5,
+                ". The kids were so tired out after that."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "While the kids were surfing, we rented some kayaks to have a look around the ",
+                6,
+                " which is nearby. Really beautiful."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It tends to rain more in August than in the spring or autumn. ",
+                7,
+                " is my favourite month because the water is warmer then."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The daily hire of a wetsuit and board is about 30 euros. You save about ",
+                8,
+                " euros if you hire by the week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You'll get too cold without a good quality wetsuit. And get ",
+                9,
+                " — they keep your feet warm and it's easier to surf too."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The average summer temperature is about 19 degrees — it usually doesn't go above ",
+                10,
+                " degrees."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "family",
+            "fit",
+            "hotels",
+            "Carrowniskey",
+            "week",
+            "bay",
+            "September",
+            "40",
+            "boots",
+            "25"
+          ]
+        },
+        "2": {
+          "scene": "课后托管服务说明",
+          "sceneEmoji": "👧",
+          "kwt": [
+            {
+              "original": "You can leave your child with us safe in the knowledge that they will be extremely well cared for.",
+              "keyWord": "ASSURED",
+              "transStart": "Parents can leave their child",
+              "transEnd": "that they will receive excellent care.",
+              "answer": "ASSURED OF THE FACT",
+              "collocation": "assured of the fact (= fully confident that something is certain)"
+            },
+            {
+              "original": "Although we currently do have 70 children registered with us, not all of these attend every day.",
+              "keyWord": "REGISTERED",
+              "transStart": "Our current membership stands at 70 children",
+              "transEnd": ", though attendance varies day to day.",
+              "answer": "REGISTERED WITH US",
+              "collocation": "registered with (= officially enrolled as a member of a service)"
+            },
+            {
+              "original": "In the past, parents have asked if children over the age of 11 are allowed to come with their younger brothers and sisters — but I'm afraid we're unable to do this.",
+              "keyWord": "ELIGIBLE",
+              "transStart": "Children over eleven are not",
+              "transEnd": "to attend, due to the type of insurance we hold.",
+              "answer": "ELIGIBLE TO ATTEND",
+              "collocation": "eligible to attend (= meeting the qualifications or criteria required for participation)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Spanish lessons"
+              },
+              {
+                "num": 2,
+                "left": "Music sessions"
+              },
+              {
+                "num": 3,
+                "left": "Painting"
+              },
+              {
+                "num": 4,
+                "left": "Yoga"
+              },
+              {
+                "num": 5,
+                "left": "Cooking"
+              }
+            ],
+            "options": [
+              "A.  new — recently found a teacher; benefits expected in many ways",
+              "B.  restricted to over-8s because of the mess",
+              "C.  only activity with an extra charge; two age groups",
+              "D.  initially unpopular with staff because of mess, but children kept asking",
+              "E.  uses a staff member who plays in a folk band; parents asked to help"
+            ],
+            "answers": [
+              "C",
+              "E",
+              "D",
+              "A",
+              "B"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "MRS CARTER",
+              "parts": [
+                "We are insured to provide care for up to ",
+                1,
+                " children, although we generally expect around 50–60 for afternoon sessions."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "For afternoon sessions from 3.30 to 6 pm, it's £7.20. You can also pay for one hour, which costs £",
+                2,
+                ""
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Food is included. In the afternoon they get a healthy ",
+                3,
+                " as soon as they finish school. At 5 pm they get something more substantial — like pasta or a casserole."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The holiday programme runs 8 am to 6 pm. Children may make new ",
+                4,
+                " with children from other schools."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Children over the age of ",
+                5,
+                " can't attend with younger siblings because of our insurance type."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Spanish: a specialist teacher comes every ",
+                6,
+                " for a basic introduction through games and songs. There's a small extra charge."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Music: one of our staff members is in a folk band. On Mondays she teaches singing and ",
+                7,
+                " to groups. We rely on parental support."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Painting is popular. We weren't keen because of the ",
+                8,
+                " involved, but children kept asking. Art helps them relax after school."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Yoga: we've been meaning to introduce it but couldn't find a teacher — until ",
+                9,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Cooking: they make different cakes, pizzas or bread each week. We restrict it to over-8s as they're better at clearing up after ",
+                10,
+                "."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "70",
+            "3.50",
+            "snack",
+            "friends",
+            "11",
+            "Thursday",
+            "percussion",
+            "mess",
+            "now",
+            "themselves"
+          ]
+        },
+        "3": {
+          "scene": "运动场馆赛事管理实习辅导",
+          "sceneEmoji": "🏟️",
+          "functions": "A  Identifying a safety responsibility    B  Describing a scheduling risk    C  Identifying a useful transferable skill    D  Qualifying a communication point    E  Describing a leadership principle",
+          "pragmatic": [
+            {
+              "quote": "I'll need to make sure none of the equipment's damaged — but actually, you'll be working with schools, so the equipment will be their responsibility. The grounds and what goes on there will be yours.",
+              "speaker": "Tutor",
+              "answer": "A"
+            },
+            {
+              "quote": "I was thinking about what to do if someone got hurt — last year that caused a terrible delay.",
+              "speaker": "Holly",
+              "answer": "B"
+            },
+            {
+              "quote": "I think my communication skills are pretty good — I can talk on the phone and book venues.",
+              "speaker": "Holly",
+              "answer": "C"
+            },
+            {
+              "quote": "Just remember it isn't only about what you say — if you meet someone face-to-face and want to persuade them to be a sponsor, your appearance matters too.",
+              "speaker": "Tutor",
+              "answer": "D"
+            },
+            {
+              "quote": "Your team may have lots of ideas too, but you've got to make the ultimate choices — believe in what you think best. Be prepared to say yes, that's a good idea but it won't work here.",
+              "speaker": "Tutor",
+              "answer": "E"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🛡️",
+              "title": "Safety Priorities",
+              "items": [
+                [
+                  "Inspect changing rooms and grounds for ",
+                  {
+                    "b": 1
+                  },
+                  " hazards"
+                ],
+                [
+                  "Main priority: don't lose anyone — keep everyone within the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "📅",
+              "title": "Scheduling Challenges",
+              "items": [
+                [
+                  "Rain: so far always been lucky, but must plan for it"
+                ],
+                [
+                  "Injury: caused a terrible ",
+                  {
+                    "b": 1
+                  },
+                  " last year — be prepared"
+                ],
+                [
+                  "Drawn matches: decide in advance whether to let teams play on until someone ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "💼",
+              "title": "Skills Needed",
+              "items": [
+                [
+                  "Communication: not just what you say — ",
+                  {
+                    "b": 1
+                  },
+                  " also matters when meeting sponsors"
+                ],
+                [
+                  "Organisation: be prepared to make on-the-spot ",
+                  {
+                    "b": 1
+                  },
+                  " when things don't go to plan"
+                ],
+                [
+                  "Time management: look ",
+                  {
+                    "b": 1
+                  },
+                  " even when under pressure"
+                ],
+                [
+                  "Creativity: listen to the client's 'big picture' idea and fill in all the ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🤝",
+              "title": "Networking",
+              "items": [
+                [
+                  "Lack of experience needn't stop you — you can still have useful ideas and be ",
+                  {
+                    "b": 1
+                  },
+                  " to others"
+                ],
+                [
+                  "Think ahead: keep your ",
+                  {
+                    "b": 1
+                  },
+                  " in mind"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "trip-over",
+            "boundary",
+            "delay",
+            "wins",
+            "appearance",
+            "changes",
+            "calm",
+            "gaps",
+            "interesting",
+            "ambitions"
+          ],
+          "dictation": [
+            {
+              "speaker": "TUTOR",
+              "parts": [
+                "Safety: the equipment will be the schools' responsibility. The ",
+                1,
+                " and what goes on there will be yours."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Your main priority will be not to lose anyone. You'll need staff to help keep everyone within the ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Don't forget the ",
+                3,
+                " — many will be parents who want to film their children."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "With sporting events there are things that can alter the timetable. If someone gets ",
+                4,
+                ", that can cause a terrible delay."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Communication skills: remember it isn't only about what you say. If you want to persuade someone to be a ",
+                5,
+                ", how you look matters too."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Organisational skills: things won't always go to plan. Be prepared to make an on-the-spot ",
+                6,
+                " to the timetable."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Time management: look ",
+                7,
+                " even if you're in a panic — no one must know you're under pressure."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Creativity: your client has the 'big picture' idea, but it's your job to think of all the fine points and fill in the ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Leadership: your team may have lots of ideas, but you make the ultimate ",
+                9,
+                ". Believe in what you think best."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Networking: even without much experience, you can be an interesting person with useful ideas. The more people you ",
+                10,
+                ", the better."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "grounds",
+            "boundary",
+            "spectators",
+            "hurt",
+            "sponsor",
+            "change",
+            "calm",
+            "gaps",
+            "choices",
+            "impress"
+          ]
+        },
+        "4": {
+          "scene": "鸟类迁徙历史理论讲座",
+          "sceneEmoji": "🐦",
+          "signpost": [
+            {
+              "quote": "Until relatively recently, where birds went in the winter was considered something of a mystery — the lack of modern science led to many theories we now see as error-filled.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising current knowledge"
+                ],
+                [
+                  "B",
+                  "Providing a modern finding"
+                ],
+                [
+                  "C",
+                  "Establishing the historical ignorance about migration before presenting the main theories"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "Aristotle developed the theory of transmutation — the seasonal change of one species into another — by observing redstarts and robins.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the most influential ancient theory before showing why it was flawed"
+                ],
+                [
+                  "B",
+                  "Questioning Aristotle's method"
+                ],
+                [
+                  "C",
+                  "Concluding the ancient section"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "The most bizarre theory was put forward by an English amateur scientist, Charles Morton, in the seventeenth century — that birds migrate to the moon and back.",
+              "opts": [
+                [
+                  "A",
+                  "Introducing the most extreme theory as the final example of pre-scientific thinking"
+                ],
+                [
+                  "B",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "One of the key moments in migration theory came in 1822 when a white stork was shot in Germany with a long spear in its neck from Central Africa.",
+              "opts": [
+                [
+                  "A",
+                  "Describing a minor observation"
+                ],
+                [
+                  "B",
+                  "Introducing the first concrete physical evidence of long-distance bird migration"
+                ],
+                [
+                  "C",
+                  "Concluding the theories section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "This idea came about because it seemed impossible that small birds weighing only a few grams could fly over vast oceans.",
+              "opts": [
+                [
+                  "A",
+                  "Contradicting the ringing evidence"
+                ],
+                [
+                  "B",
+                  "Explaining the reasoning behind the large-bird taxi theory before introducing scientific progress"
+                ],
+                [
+                  "C",
+                  "Summarising the lecture"
+                ]
+              ],
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "❄️",
+              "title": "Early Wrong Theories",
+              "items": [
+                [
+                  "Hibernation theory (2,000 years ago): birds went underwater to hibernate in the ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Another theory: birds spent winter hidden in ",
+                  {
+                    "b": 1
+                  },
+                  " until weather changed"
+                ],
+                [
+                  "Experiments in the 1940s on caged birds disproved the ",
+                  {
+                    "b": 1
+                  },
+                  " theory"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦅",
+              "title": "Aristotle's Transmutation Theory",
+              "items": [
+                [
+                  "Observed redstarts losing feathers in autumn → assumed they changed into ",
+                  {
+                    "b": 1
+                  },
+                  " for winter"
+                ],
+                [
+                  "Correct observation, incorrect ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Classic example: similar shape confused two different ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🌕",
+              "title": "Charles Morton's Moon Theory (1670s)",
+              "items": [
+                [
+                  "Claimed birds migrate to the ",
+                  {
+                    "b": 1
+                  },
+                  " and back every year"
+                ],
+                [
+                  "Arose as the only logical explanation for the total disappearance of some species"
+                ]
+              ]
+            },
+            {
+              "emoji": "🦩",
+              "title": "The Arrow Stork (1822)",
+              "items": [
+                [
+                  "White stork shot in Germany with a spear from Central ",
+                  {
+                    "b": 1
+                  },
+                  " in its neck"
+                ],
+                [
+                  "First proof that storks spend winter in sub-Saharan ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Still visible at the University of ",
+                  {
+                    "b": 1
+                  },
+                  " in Germany"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔬",
+              "title": "Bird Ringing",
+              "items": [
+                [
+                  "Developed by Danish schoolteacher Hans Christian Cornelius ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "'Recovery': ringed birds found dead at their migration ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "In 1931 an atlas was published showing where most common European birds ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "seas",
+            "mud",
+            "hibernation",
+            "robins",
+            "interpretation",
+            "species",
+            "moon",
+            "Africa",
+            "Africa",
+            "Rostock",
+            "Mortensen",
+            "destination",
+            "migrated"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Two thousand years ago it was believed that when birds left an area, they went underwater to hibernate in the seas and oceans. Another theory was that they hid in ",
+                1,
+                " until the weather changed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Experiments done on caged birds in the 1940s demonstrated that birds have no hibernation ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Aristotle observed that in the autumn, small birds called redstarts began to lose their feathers, and concluded they changed into ",
+                3,
+                " for the winter. These assumptions were understandable as the two species are similar in ",
+                4,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The most bizarre theory came from Charles Morton in the seventeenth century — that birds migrate to the ",
+                5,
+                " and back every year — as the only explanation for the total disappearance of some species."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1822 a white stork was shot in Germany. Incredibly, it had a long spear from Central ",
+                6,
+                " in its neck. This was the first proof that storks spend winter in sub-Saharan Africa."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "You can still see the 'arrow stork' in the Zoological Collection of the University of ",
+                7,
+                " in Germany."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "People speculated that larger birds provided a taxi service for smaller birds — it seemed impossible that birds weighing only a few grams could fly over vast ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bird ringing was developed by a Danish schoolteacher, Hans Christian Cornelius ",
+                9,
+                ". This still relies on 'recovery' — ringed birds found dead at their migration destination."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "In 1931, an ",
+                10,
+                " was published showing where the most common European birds migrated to."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "mud",
+            "instinct",
+            "robins",
+            "shape",
+            "moon",
+            "Africa",
+            "Rostock",
+            "oceans",
+            "Mortensen",
+            "atlas"
+          ]
+        }
+      }
+    },
+    "4": {
+      "bookTitle": "Cambridge IELTS 17 Academic",
+      "testNum": 4,
+      "parts": {
+        "1": {
+          "scene": "公寓清洁服务套餐咨询",
+          "sceneEmoji": "🧹",
+          "mcq": [
+            {
+              "q": "What regular additional service does the client specifically request?",
+              "opts": [
+                [
+                  "A",
+                  "Fridge cleaning every week"
+                ],
+                [
+                  "B",
+                  "Microwave cleaning"
+                ],
+                [
+                  "C",
+                  "Oven cleaning"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What monthly service does the client want?",
+              "opts": [
+                [
+                  "A",
+                  "Inside window cleaning"
+                ],
+                [
+                  "B",
+                  "Curtain cleaning"
+                ],
+                [
+                  "C",
+                  "Deep carpet cleaning"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is the length of cleaner training before they are taken on?",
+              "opts": [
+                [
+                  "A",
+                  "One week"
+                ],
+                [
+                  "B",
+                  "Three weeks"
+                ],
+                [
+                  "C",
+                  "Two weeks"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "errorText": "A client calls Easy Life Cleaning Services. The basic package for a one-bedroom flat takes about two hours and covers all surfaces, kitchen, bathroom and floors. Additional services include oven cleaning, fridge cleaning, ironing shirts and microwave cleaning. The client asks for fridge cleaning every week and ironing his shirts. Monthly additional services include inside window cleaning and balcony washing; the client wants both. The company can also provide contact details for a reliable plumber and an electrician. They also offer a special vacuum system for people with asthma. All cleaners undergo a police security check and provide references. They undergo three weeks of training, then take a test, and their performance is reviewed by clients after every visit.",
+          "errors": [
+            {
+              "wrong": "asthma",
+              "correct": "allergies (not asthma specifically — dust allergies)"
+            },
+            {
+              "wrong": "three weeks of training",
+              "correct": "two weeks of training"
+            },
+            {
+              "wrong": "asthma",
+              "correct": "allergies (already done)"
+            },
+            {
+              "wrong": "three weeks",
+              "correct": "two weeks (already done)"
+            },
+            {
+              "wrong": "ironing shirts",
+              "correct": "ironing shirts for work ✓ — replace: 'asthma' → 'allergies' done"
+            },
+            {
+              "wrong": "asthma",
+              "correct": "allergies (already done — replace: 'three weeks' → 'two weeks')"
+            },
+            {
+              "wrong": "three",
+              "correct": "two (already done)"
+            }
+          ],
+          "dictation": [
+            {
+              "speaker": "JACINTA",
+              "parts": [
+                "For a one-bedroom flat we're looking at about two hours. We do a thorough clean of all surfaces and polish them. The kitchen and bathroom would also get a thorough clean, and the ",
+                1,
+                " in every room."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "As an additional service we can clean your ",
+                2,
+                " for you every week."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We can also do ironing. So just your ",
+                3,
+                " for work that week — that's fine."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Monthly: we could clean the inside of your ",
+                4,
+                " — you're on the 15th floor so the outside gets done by specialists."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We could also wash the ",
+                5,
+                " with the pressure washer every month."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "If you have a problem with water and need a plumber in a hurry, we can put you in touch with a reliable one. And the same thing if you need an ",
+                6,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We offer a special vacuum cleaning system that captures up to 99% of dust in the air — useful if you're troubled by ",
+                7,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "All our cleaners undergo a security check with the ",
+                8,
+                " and provide references."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We give them ",
+                9,
+                " weeks of thorough training. At the end they have a test."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "We ask all clients to complete a ",
+                10,
+                " after every visit and email it to us — so we can pick up any problems straightaway."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "floors",
+            "fridge",
+            "shirts",
+            "windows",
+            "balcony",
+            "electrician",
+            "allergies",
+            "police",
+            "two",
+            "review"
+          ]
+        },
+        "2": {
+          "scene": "酒店员工留用管理策略演讲",
+          "sceneEmoji": "🏨",
+          "kwt": [
+            {
+              "original": "A lot of managers think it's the low pay and long hours that are the main causes of high staff turnover — but what they don't realise is that it's the lack of training.",
+              "keyWord": "OVERLOOK",
+              "transStart": "Many managers attribute high staff turnover to low pay and long hours, while",
+              "transEnd": "the crucial role of inadequate training.",
+              "answer": "OVERLOOKING",
+              "collocation": "overlooking (= failing to notice or consider something important)"
+            },
+            {
+              "original": "When staff leave, it can also severely affect the colleagues they leave behind — it has a negative effect on remaining staff.",
+              "keyWord": "IMPACT",
+              "transStart": "When employees depart, their absence has a serious negative",
+              "transEnd": "on the morale and performance of the colleagues who remain.",
+              "answer": "IMPACT ON",
+              "collocation": "impact on (= a strong or marked effect on something or someone)"
+            },
+            {
+              "original": "Make sure you never give certain staff preferential treatment — all staff should be given some choice about when they work.",
+              "keyWord": "AVOID",
+              "transStart": "Managers should",
+              "transEnd": "giving preferential treatment when allocating shifts, ensuring all staff are treated equally.",
+              "answer": "AVOID GIVING",
+              "collocation": "avoid giving (= deliberately refrain from doing something)"
+            }
+          ],
+          "matching": {
+            "rows": [
+              {
+                "num": 1,
+                "left": "Sun Club"
+              },
+              {
+                "num": 2,
+                "left": "The Portland"
+              },
+              {
+                "num": 3,
+                "left": "Bluewater"
+              },
+              {
+                "num": 4,
+                "left": "Pentlow Hotels"
+              },
+              {
+                "num": 5,
+                "left": "Green Planet"
+              }
+            ],
+            "options": [
+              "A.  invited junior staff to meetings to make them feel valued",
+              "B.  management programme for junior reception staff",
+              "C.  funded childcare vouchers for staff with family responsibilities",
+              "D.  management talent scheme to encourage skilled staff to stay",
+              "E.  all-expenses trip abroad for 50 high achievers annually"
+            ],
+            "answers": [
+              "A",
+              "D",
+              "E",
+              "B",
+              "C"
+            ]
+          },
+          "dictation": [
+            {
+              "speaker": "SPEAKER",
+              "parts": [
+                "Many hotel jobs are low-skilled and poorly paid. But what managers don't realise is that the lack of ",
+                1,
+                " in many hotel jobs is a huge factor in high staff turnover."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Having to recruit new staff all the time is very time-consuming. Managers may have to cover some duties themselves, leaving no time to think about improving their ",
+                2,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "When organising shifts, never give certain staff ",
+                3,
+                " treatment. Everyone should have to work some evening and weekend shifts."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Dunwich Hotel invested in staff training and improved staff conditions. Not only did the level of ",
+                4,
+                " fall — they also saw an increase in the amount each customer spent."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Sun Club: junior staff felt managers didn't value their ",
+                5,
+                ". Now they're regularly invited to meetings where their ideas are welcomed."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The Portland: introduced a scheme for recognising talent and organising ",
+                6,
+                " for individuals with management potential."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Bluewater: rewards 50 high achievers with an all-expenses-paid ",
+                7,
+                " abroad. This year included a visit to a brewery."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Pentlow Hotels: gave junior reception staff additional ",
+                8,
+                " and the chance to work in various roles — to show that working in a hotel could be worthwhile."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Green Planet: issued vouchers to help cover the cost of ",
+                9,
+                " — making life easier for staff with family responsibilities."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Louise Marsh at The Amesbury has one of the best staff ",
+                10,
+                " rates in the business — she has created a co-operative, supportive environment where everyone is valued."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "training",
+            "service",
+            "preferential",
+            "complaints",
+            "opinions",
+            "training",
+            "trip",
+            "responsibilities",
+            "childcare",
+            "retention"
+          ]
+        },
+        "3": {
+          "scene": "运动科学专业讨论与器材进化",
+          "sceneEmoji": "🏃",
+          "functions": "A  Describing a pivotal personal experience    B  Expressing a mistaken expectation    C  Identifying an ironic development    D  Describing an accidental innovation    E  Explaining a design reason",
+          "pragmatic": [
+            {
+              "quote": "I was chosen to go to Kenya out of loads of kids and run with some of the top teenage athletes in the world. But once we started competing, I very quickly realised I wasn't good enough.",
+              "speaker": "Thomas",
+              "answer": "A"
+            },
+            {
+              "quote": "In about the 1920s, a factory was making rolls of rubber in bulk for something like horse harnesses — and someone realised it'd make a perfect covering for wooden bats.",
+              "speaker": "Thomas",
+              "answer": "D"
+            },
+            {
+              "quote": "When the first cricket helmet came in, in 1978, the Australian batsman who first wore it was booed and jeered by people watching because it was so ugly!",
+              "speaker": "Thomas",
+              "answer": "C"
+            },
+            {
+              "quote": "Serious cyclists ended up with wet hair from all the hard exercise — that's why they have large air vents in them now so that the skin can breathe more easily.",
+              "speaker": "Jeanne",
+              "answer": "E"
+            },
+            {
+              "quote": "I remember my great grandfather telling me that because a club was made entirely of wood, it would easily break and players had to get another.",
+              "speaker": "Jeanne",
+              "answer": "B"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🏓",
+              "title": "Table Tennis Bats",
+              "items": [
+                [
+                  "Originally wooden; covered with ",
+                  {
+                    "b": 1
+                  },
+                  " rubber in the 1920s"
+                ],
+                [
+                  "Rubber was originally made in bulk for horse ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Someone realised it was perfect for bat surfaces"
+                ]
+              ]
+            },
+            {
+              "emoji": "🏏",
+              "title": "Cricket & Cycling Helmets",
+              "items": [
+                [
+                  "Cricket helmet: first worn in 1978 — the Australian batsman was ",
+                  {
+                    "b": 1
+                  },
+                  " by the crowd"
+                ],
+                [
+                  "Everyone wears one now; unlike the ",
+                  {
+                    "b": 1
+                  },
+                  " helmet"
+                ],
+                [
+                  "Large air vents in cycling helmets: prevent hair getting wet from ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⛳",
+              "title": "Golf Clubs",
+              "items": [
+                [
+                  "Originally made ",
+                  {
+                    "b": 1
+                  },
+                  " from wood — would easily break"
+                ],
+                [
+                  "No wood at all in modern clubs — much more ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🏑",
+              "title": "Hockey Sticks",
+              "items": [
+                [
+                  "Players still use wooden sticks today"
+                ],
+                [
+                  "When the game started, players had to produce their own stick — it wasn't being ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "⚽",
+              "title": "Football",
+              "items": [
+                [
+                  "First balls were made of animal ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Leather pieces were stitched together but balls let in water when it ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Wet balls were much heavier — caused neck ",
+                  {
+                    "b": 1
+                  },
+                  " when headed"
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "pimpled",
+            "harnesses",
+            "booed",
+            "cycling",
+            "exercise",
+            "entirely",
+            "powerful",
+            "manufactured",
+            "skin",
+            "rained",
+            "injuries"
+          ],
+          "dictation": [
+            {
+              "speaker": "THOMAS",
+              "parts": [
+                "All my classmates assumed I would become a professional athlete — they thought I was ",
+                1,
+                "."
+              ]
+            },
+            {
+              "speaker": "THOMAS",
+              "parts": [
+                "I was chosen to go to Kenya to run with top teenage athletes from around the world. I was so ",
+                2,
+                " about it. But once we started competing, I quickly realised I wasn't good enough."
+              ]
+            },
+            {
+              "speaker": "THOMAS",
+              "parts": [
+                "I remember reading about table tennis bats — how they ended up being covered with pimpled ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": "THOMAS",
+              "parts": [
+                "In the 1920s a factory was making rolls of rubber in bulk for something like horse ",
+                4,
+                ". Someone realised it'd make a perfect covering for wooden bats."
+              ]
+            },
+            {
+              "speaker": "THOMAS",
+              "parts": [
+                "The first cricket helmet was worn in 1978. The Australian batsman who wore it was ",
+                5,
+                " by the crowd because it was so ugly!"
+              ]
+            },
+            {
+              "speaker": "JEANNE",
+              "parts": [
+                "Serious cyclists ended up with wet hair from hard exercise — that's why modern helmets have large air ",
+                6,
+                " so the skin can breathe."
+              ]
+            },
+            {
+              "speaker": "JEANNE",
+              "parts": [
+                "Golf clubs were made entirely of ",
+                7,
+                " — they would easily break. There's no wood in them now — they're much more powerful."
+              ]
+            },
+            {
+              "speaker": "JEANNE",
+              "parts": [
+                "Hockey sticks: players still use wooden sticks today. But when the game started, you had to produce your own — they weren't being ",
+                8,
+                "."
+              ]
+            },
+            {
+              "speaker": "JEANNE",
+              "parts": [
+                "Football: the first balls were covered with pieces of leather. But they let in ",
+                9,
+                " when it rained."
+              ]
+            },
+            {
+              "speaker": "THOMAS",
+              "parts": [
+                "That would have made them much heavier — you can imagine the damage to players' ",
+                10,
+                " when the ball was headed."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "brilliant",
+            "calm",
+            "rubber",
+            "harnesses",
+            "booed",
+            "vents",
+            "wood",
+            "manufactured",
+            "water",
+            "necks"
+          ]
+        },
+        "4": {
+          "scene": "枫糖浆生产历史与工艺讲座",
+          "sceneEmoji": "🍁",
+          "signpost": [
+            {
+              "quote": "Maple syrup looks rather like clear honey, but it's not made by bees — it's produced from the plant fluid inside the maple tree.",
+              "opts": [
+                [
+                  "A",
+                  "Concluding the lecture"
+                ],
+                [
+                  "B",
+                  "Introducing the product by correcting a potential misconception before describing its properties"
+                ],
+                [
+                  "C",
+                  "Repeating the introduction"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "Canada produces over two-thirds of the world's maple syrup, which is why the five-pointed maple leaf has featured on the flag since 1964.",
+              "opts": [
+                [
+                  "A",
+                  "Connecting production dominance to national identity as context before describing historical origins"
+                ],
+                [
+                  "B",
+                  "Introducing a counter-argument"
+                ],
+                [
+                  "C",
+                  "Returning to the introduction"
+                ]
+              ],
+              "answer": "A"
+            },
+            {
+              "quote": "Long before Europeans settled in these parts of the world, the indigenous communities had started producing maple sugar.",
+              "opts": [
+                [
+                  "A",
+                  "Summarising all history"
+                ],
+                [
+                  "B",
+                  "Questioning indigenous methods"
+                ],
+                [
+                  "C",
+                  "Establishing the indigenous origins of maple syrup production before describing modern practices"
+                ]
+              ],
+              "answer": "C"
+            },
+            {
+              "quote": "What happens is that during a cold night the tree absorbs water from the soil, and then in the warmer daytime the change in temperature causes the water to be pushed back down.",
+              "opts": [
+                [
+                  "A",
+                  "Providing a counter-argument"
+                ],
+                [
+                  "B",
+                  "Explaining the biological mechanism behind sap formation to justify why climate is so important"
+                ],
+                [
+                  "C",
+                  "Concluding the production section"
+                ]
+              ],
+              "answer": "B"
+            },
+            {
+              "quote": "It takes 40 litres of sap to produce one litre of maple syrup — so you can get an idea of how much is needed!",
+              "opts": [
+                [
+                  "A",
+                  "Introducing a new topic"
+                ],
+                [
+                  "B",
+                  "Summarising the boiling section"
+                ],
+                [
+                  "C",
+                  "Providing a striking statistic to emphasise the scale of effort required"
+                ]
+              ],
+              "answer": "C"
+            }
+          ],
+          "mindmap": [
+            {
+              "emoji": "🌡️",
+              "title": "Growing Conditions",
+              "items": [
+                [
+                  "Maple trees need: full or partial sun, plenty of soil ",
+                  {
+                    "b": 1
+                  }
+                ],
+                ", and very cool nights",
+                [
+                  "Only found in: Canada (all parts) and north-eastern states of North America"
+                ],
+                [
+                  "Canada produces over two-thirds of world supply — maple leaf on flag since ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            },
+            {
+              "emoji": "🪨",
+              "title": "Indigenous Production",
+              "items": [
+                [
+                  "Bored holes in trunks; collected sap in containers made of tree ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Couldn't store the liquid — placed scorching hot ",
+                  {
+                    "b": 1
+                  },
+                  " into sap to boil it"
+                ],
+                [
+                  "Boiled until it turned into sugar to sweeten food and drinks"
+                ]
+              ]
+            },
+            {
+              "emoji": "📏",
+              "title": "Modern Production — When a Tree is Ready",
+              "items": [
+                [
+                  "Trunk must reach a ",
+                  {
+                    "b": 1
+                  },
+                  " of around 25 centimetres — can take up to 40 years"
+                ],
+                [
+                  "Tree is tapped: a small hole is drilled; a ",
+                  {
+                    "b": 1
+                  },
+                  " inserted; sap collects in a bucket"
+                ]
+              ]
+            },
+            {
+              "emoji": "🔥",
+              "title": "Boiling Process",
+              "items": [
+                [
+                  "Sap: 98% water, 2% sugar — must be boiled in large ",
+                  {
+                    "b": 1
+                  },
+                  " called evaporators"
+                ],
+                [
+                  "Boiling produces large quantities of ",
+                  {
+                    "b": 1
+                  }
+                ],
+                [
+                  "Sap removed at exactly the right moment when thick enough"
+                ],
+                [
+                  "'Sugar sand' filtered out — gives a cloudy appearance and gritty ",
+                  {
+                    "b": 1
+                  }
+                ]
+              ]
+            }
+          ],
+          "mindmapAnswers": [
+            "moisture",
+            "1964",
+            "bark",
+            "rocks",
+            "diameter",
+            "tube",
+            "pans",
+            "steam",
+            "taste"
+          ],
+          "dictation": [
+            {
+              "speaker": "LECTURER",
+              "parts": [
+                "Maple syrup looks rather like clear honey, but it's a thick, ",
+                1,
+                " sweet-tasting liquid from inside the maple tree. It provides a healthy alternative to refined sugar."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Maple trees provide a ",
+                2,
+                " alternative to refined sugar and contain no preservatives. They grow in areas with plenty of soil moisture and very cool nights."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Canada produces over two-thirds of the world's supply. The maple leaf has featured on the Canadian flag since ",
+                3,
+                "."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Indigenous communities bored holes in trunks and used containers made of tree ",
+                4,
+                " to collect the sap. They placed scorching hot ",
+                5,
+                " into it to boil it."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "Trees can't be used to make syrup until the trunks reach a ",
+                6,
+                " of around 25 centimetres — which can take up to 40 years."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "The tree is tapped: a small hole is drilled and a ",
+                7,
+                " inserted, ending in a bucket. The sap has to be boiled immediately, using large pans called evaporators."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "A ",
+                8,
+                " is built and the evaporators are heated until the sap boils. Large quantities of ",
+                9,
+                " are created as the water evaporates."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "'Sugar sand' has to be filtered out as it builds up during boiling — giving the syrup a ",
+                10,
+                " appearance and a slightly gritty taste."
+              ]
+            },
+            {
+              "speaker": null,
+              "parts": [
+                "It takes 40 ",
+                11,
+                " of sap to produce just one litre of maple syrup."
+              ]
+            }
+          ],
+          "dictAnswers": [
+            "golden",
+            "healthy",
+            "1964",
+            "bark",
+            "rocks",
+            "diameter",
+            "tube",
+            "fire",
+            "steam",
+            "cloudy",
+            "litres"
+          ]
+        }
+      }
+    }
+  }
+}
